@@ -1,0 +1,23 @@
+B
+New Post-attention
+Architectural Paradigms
+C
+Multi-modal Models
+D
+Improved LLM Usage and
+Augmentation techniques
+D
+Security and
+Ethical/Responsible AI
+Fig. 2: The paper structure.
+initialization is modified to account for the accumulation on
+the residual path and scaling the weights of residual layers,
+vocabulary size is expanded to 50,25, and context size is
+increased from 512 to 1024 tokens.
+3) Encoder-Decoder PLMs: In [52], Raffle et al. shows that
+almost all NLP tasks can be cast as a sequence-to-sequence
+generation task. Thus, an encoder-decoder language model, by
+design, is a unified model in that it can perform all natural
+language understanding and generation tasks. Representative
+encoder-decoder PLMs we will review below are T5, mT5,
+MASS, and BART.

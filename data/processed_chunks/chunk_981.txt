@@ -1,0 +1,14 @@
+h = model.fit(X, y,
+validation_split=0.3, epochs=n_epochs, batch_size=30,
+verbose=0, callbacks=[cb_es])
+And now, even is the model was scheduled to be trained for 70 epochs, training is stopped as soon as it reaches 10
+consecutive epochs without improving on the validation loss, and the model parameters are restored as the parameters of
+the model at epoch np.int64(17).
+5.2 Loss penalization
+Another important way to enforce regularization in neural networks is through loss penalization. A typical instance of
+this regularization strategy is the L2 regularization. If we denote by ℒ𝑟the L2-regularized loss, it can be expressed as:
+ℒ𝑟(𝒟; 𝑚𝜃) = ℒ(𝒟; 𝑚𝜃) + 𝜆∑
+ℓ
+‖𝜃(ℓ)‖2
+2
+where 𝜃(ℓ) is the weight matrix of layer ℓ.

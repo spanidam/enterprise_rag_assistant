@@ -1,0 +1,18 @@
+˙s = Lp(u, v, z)ξ
+(12.16)
+Example 12.2 Camera motion in the plane (cont.)
+TO BE WRITTEN: Give speciﬁc image coordinates to continue the previous
+example and compute the image motion as a function of camera velocity.
+⋄
+THE INTERACTION MATRIX FOR POINTS
+363
+12.3.3
+Properties of the Interaction Matrix for Points
+Equation (12.16) can be decomposed and written as
+˙s = Lv(u, v, z)v + Lω(u, v)ω
+(12.17)
+in which Lv(u, v, z) contains the ﬁrst three columns of the interaction matrix,
+and is a function of both the image coordinates of the point and its depth,
+while Lω(u, v) contains the last three columns of the interaction matrix, and is
+a function of only the image coordinates of the point (i.e., it does not depend
+on depth). This can be particularly beneﬁcial in real-world situations when

@@ -1,0 +1,10 @@
+rable. A detailed presentation of the convergence proofs can be found in Hertz et 
+al. (1991). 
+A third possible algorithm for learning the weight vector is linear program- 
+ming. Linear programming is a general, efficient method for solving sets of linear 
+inequalities. Notice each training example corresponds to an inequality of the 
+form zZI - x' > 0 or G . x' 5 0, and their solution is the desired weight vector. Un- 
+fortunately, this approach yields a solution only when the training examples are 
+linearly separable; however, Duda and Hart (1973, p. 168) suggest a more subtle 
+formulation that accommodates the nonseparable case. In any case, the approach 
+of linear programming does not scale to training multilayer networks, which is

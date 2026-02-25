@@ -1,0 +1,20 @@
+2022.
+[60]
+OpenAI. (2022) Introducing chatgpt. [Online]. Available: https:
+//openai.com/blog/chatgpt
+[61]
+H. Touvron, L. Martin, K. Stone, P. Albert, A. Almahairi, Y. Babaei,
+N. Bashlykov, S. Batra, P. Bhargava, S. Bhosale et al., “Llama
+2: Open foundation and fine-tuned chat models,” arXiv preprint
+arXiv:2307.09288, 2023.
+[62]
+R. Taori, I. Gulrajani, T. Zhang, Y. Dubois, X. Li, C. Guestrin, P. Liang,
+and T. B. Hashimoto, “Alpaca: A strong, replicable instruction-
+following model,” Stanford Center for Research on Foundation Mod-
+els. https://crfm. stanford. edu/2023/03/13/alpaca. html, vol. 3, no. 6,
+p. 7, 2023.
+[63]
+T. Dettmers, A. Pagnoni, A. Holtzman, and L. Zettlemoyer, “Qlora: Ef-
+ficient finetuning of quantized llms,” arXiv preprint arXiv:2305.14314,
+2023.
+[64]

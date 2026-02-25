@@ -1,0 +1,13 @@
+movies are available and which ones I have not watched.
+Context length is especially important for RAG, where large
+portions of text might be retrieved and injected into the prompt
+for generation (see section IV-C.
+The longer the context length, the more tokens we can
+squeeze into the context. The more information the model has
+access to, the better its response will be. But on the other
+hand, with very long context, it would be hard for the model
+to remember everything and efficiently process all the informa-
+tion. Attention-based models are highly inefficient for longer
+contexts and that is why we should expect more research in
+different mechanisms that enable processing longer contexts
+and generally come up with more efficient architectures.

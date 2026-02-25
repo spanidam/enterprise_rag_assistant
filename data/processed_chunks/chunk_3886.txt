@@ -1,0 +1,38 @@
+a stochastic approximation to gradient ascent. In exact gradient ascent, each
+preference Ht(a) would be incrementing proportional to the increment’s eﬀect
+on performance:
+Ht+1(a) = Ht(a) + α∂E[Rt]
+∂Ht(a) ,
+(2.11)
+where the measure of performance here is the expected reward:
+E[Rt] =
+X
+b
+πt(b)q(b).
+44
+CHAPTER 2. MULTI-ARM BANDITS
+%
+Optimal
+action
+Steps
+α = 0.1
+100%
+80%
+60%
+40%
+20%
+0%
+α = 0.4
+α = 0.1
+α = 0.4
+without baseline
+with baseline
+0
+250
+500
+750
+1000
+Figure 2.4: Average performance of the gradient-bandit algorithm with and
+without a reward baseline on the 10-armed testbed with E[q(a)] = 4.
+Of course, it is not possible to implement gradient ascent exactly in our case
+because by assumption we do not know the q(b), but in fact the updates of our

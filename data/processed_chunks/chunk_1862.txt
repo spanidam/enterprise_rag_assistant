@@ -1,0 +1,10 @@
+descriptions, decision trees, artificial neural networks). These different hypothesis 
+representations are appropriate for learning different kinds of target functions. For 
+each of these hypothesis representations, the corresponding learning algorithm 
+takes advantage of a different underlying structure to organize the search through 
+the hypothesis space. 
+Throughout this book we will return to this perspective of learning as a 
+search problem in order to characterize learning methods by their search strategies 
+and by the underlying structure of the search spaces they explore. We will also 
+find this viewpoint useful in formally analyzing the relationship between the size 
+of the hypothesis space to be searched, the number of training examples available,

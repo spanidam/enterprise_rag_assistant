@@ -1,0 +1,11 @@
+the image data to control the robot motion.
+An error funtion is deﬁned in
+terms of quantities that can be directly measured in an image (e.g., image
+coordinates of points, the orientation of lines in an image), and a control law is
+constructed that maps this error directly to robot motion. To date, the most
+common approach has been to use easily detected points on an object as feature
+points. The error function is then the vector diﬀerence between the desired and
+measured locations of these points in the image. Typically, relatively simple
+control laws are used to map the image error to robot motion. We will describe
+image-based control in some detail in this chapter.
+Finally, these two approaches can be combined by using position-based meth-

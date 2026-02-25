@@ -1,0 +1,15 @@
+0 The decision attribute for Root c A 
+For each possible value, vi, of A, 
+Add a new tree branch below Root, corresponding to the test A = vi 
+0 Let Examples,, be the subset of Examples that have value vi for A 
+If Examples,, is empty 
+Then below this new branch add a leaf node with label = most common 
+value of Target attribute in Examples 
+Else below this new branch add the subtree 
+ID3(Examples,,, Targetattribute, Attributes - (A))) 
+End 
+Return Root 
+* The best attribute is the one with highest information gain, as defined in Equation (3.4). 
+TABLE 3.1 
+Summary of the ID3 algorithm specialized to learning boolean-valued functions. ID3 is a greedy 
+algorithm that grows the tree top-down, at each node selecting the attribute that best classifies the

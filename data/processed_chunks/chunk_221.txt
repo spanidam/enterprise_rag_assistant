@@ -1,0 +1,37 @@
+2 −a2
+3
+2a2a3
+:= D
+since r2 = x2
+c + y2
+c −d2 and s = zc −d1. Hence, θ3 is given by
+θ3
+=
+atan2
+
+D, ±
+p
+1 −D2
+
+(3.56)
+The two solutions for θ3 correspond to the elbow-up position and elbow-down
+position, respectively.
+Similarly θ2 is given as
+θ2
+=
+atan2(r, s) −atan2(a2 + a3c3, a3s3)
+(3.57)
+=
+atan2
+p
+x2c + y2c −d2, zc −d1
+
+−atan2(a2 + a3c3, a3s3)
+An example of an elbow manipulator with oﬀsets is the PUMA shown in
+Figure 3.20.
+There are four solutions to the inverse position kinematics as
+shown. These correspond to the situations left arm-elbow up, left arm–elbow
+down, right arm–elbow up and right arm–elbow down. We will see that there
+are two solutions for the wrist orientation thus giving a total of eight solutions
+of the inverse kinematics for the PUMA manipulator.
+3.3.3.2

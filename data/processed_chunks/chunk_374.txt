@@ -1,0 +1,14 @@
+so that the other attractive control points reach their ﬁnal positions.
+ηj controls the relative inﬂuence of the repulsive potential for control point aj.
+As with the ζi it is not necessary that all of the ηj be set to the same
+value. In particular, we typically set the value of ηj to be much smaller
+for obstacles that are near the goal position of the robot (to avoid having
+these obstacles repel the robot from the goal).
+ρ0 As with the ηj, we can deﬁne a distinct ρ0 for each obstacle. In particular, we
+do not want any obstacle’s region of inﬂuence to include the goal position
+166
+PATH AND TRAJECTORY PLANNING
+of any repulsive control point. We may also wish to assign distinct ρ0’s
+to the obstacles to avoid the possibility of overlapping regions of inﬂuence
+for distinct obstacles.
+5.4

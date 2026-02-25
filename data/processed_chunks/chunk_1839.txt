@@ -1,0 +1,10 @@
+entry specifying the value for each distinct board state. Or we could allow it to 
+represent 
+using a collection of rules that match against features of the board 
+state, or a quadratic polynomial function of predefined board features, or an arti- 
+ficial neural network. In general, this choice of representation involves a crucial 
+tradeoff. On one hand, we wish to pick a very expressive representation to allow 
+representing as close an approximation as possible to the ideal target function V. 
+On the other hand, the more expressive the representation, the more training data 
+the program will require in order to choose among the alternative hypotheses it 
+can represent. To keep the discussion brief, let us choose a simple representation:

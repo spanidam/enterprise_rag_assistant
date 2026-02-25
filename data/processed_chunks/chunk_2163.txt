@@ -1,0 +1,12 @@
+upon examining each training example. 
+. 
+Summing over multiple examples in standard gradient descent requires more 
+computation per weight update step. On the other hand, because it uses the 
+true gradient, standard gradient descent is often used with a larger step size 
+per weight update than stochastic gradient descent. 
+r, In cases where there are multiple local minima with respect to E($, stochas- 
+tic gradient descent can sometimes avoid falling into these local minima 
+because it uses the various V E d ( G )  rather than V E ( 6 )  to guide its search. 
+Both stochastic and standard gradient descent methods are commonly used in 
+practice. 
+The training rule in Equation (4.10) is known as the delta rule, or sometimes

@@ -1,0 +1,12 @@
+1.2 Input/output
+1. c. The hello world program is just one line of code.
+2. c. The end="" option removes the newline character after hello, producing Hello world! on the same
+line.
+3. c. The default space character that separates multiple items has been replaced with the dash character.
+4. c. The user input is stored in memory and can be referenced using today_is.
+5. b. The print() function outputs "You entered:" followed by a space character, followed by the input
+data, Sophia, which is referenced by the variable name.
+6. a. The input is stored exactly as the user enters the input. So, the retrieved value is displayed exactly as
+entered by the user.
+1.3 Variables
+1. c. This would produce the output string, "The city where you live is Chicago" .

@@ -1,0 +1,10 @@
+using operators that generalize and specialize rules in a variety of directed ways 
+(e.g., by explicitly replacing the condition on an attribute by "don't care"). 
+9.2.3 Fitness Function and Selection 
+The fitness function defines the criterion for ranking potential hypotheses and for 
+probabilistically selecting them for inclusion in the next generation population. If 
+the task is to learn classification rules, then the fitness function typically has a 
+component that scores the classification accuracy of the rule over a set of provided 
+training examples. Often other criteria may be included as well, such as the com- 
+plexity or generality of the rule. More generally, when the bit-string hypothesis is 
+interpreted as a complex procedure (e.g., when the bit string represents a collec-

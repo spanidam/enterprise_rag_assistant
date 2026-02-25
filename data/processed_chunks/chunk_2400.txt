@@ -1,0 +1,9 @@
+To define Bayes theorem precisely, let us first introduce a little notation. We 
+shall write P(h) to denote the initial probability that hypothesis h holds, before we 
+have observed the training data. P(h) is often called the priorprobability of h and 
+may reflect any background knowledge we have about the chance that h is a correct 
+hypothesis. If we have no such prior knowledge, then we might simply assign 
+the same prior probability to each candidate hypothesis. Similarly, we will write 
+P(D) to denote the prior probability that training data D will be observed (i.e., 
+the probability of D given no knowledge about which hypothesis holds). Next, 
+we will write P(D1h) to denote the probability of observing data D given some

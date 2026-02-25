@@ -1,0 +1,11 @@
+makes it more likely that the final output hypothesis will better fit this 
+theory. 
+Use prior knowledge to alter the objective of the hypothesis space search. 
+In this approach, the goal criterion G is modified to require that the out- 
+put hypothesis fits the domain theory as well as the training examples. For 
+example, the EBNN system described below learns neural networks in this 
+way. Whereas inductive learning of neural networks performs gradient de- 
+scent search to minimize the squared error of the network over the training 
+data, EBNN performs gradient descent to optimize a different criterion. This 
+modified criterion includes an additional term that measures the error of the 
+learned network relative to the domain theory.

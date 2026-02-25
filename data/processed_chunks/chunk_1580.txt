@@ -1,0 +1,27 @@
+CHECKPOINT
+Hierarchical organization and types of inheritance
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-4-hierarchical-inheritance)
+CONCEPTS IN PRACTICE
+Hierarchical organization
+1. Which is an example of hierarchical inheritance?
+a.
+Class B inherits from Class A
+Class C inherits from Class A
+b.
+Class B inherits from Class A
+Class C inherits from Class B
+c.
+Class B inherits from Class A
+316
+13 • Inheritance
+Access for free at openstax.org
+Class C inherits from Class D
+2. Which group of classes is hierarchical inheritance appropriate for?
+a.
+Cat, Dog, Bird
+b.
+Employee, Developer, SalesRep
+c.
+Dessert, BakedGood, ApplePie
+Implementing hierarchical inheritance

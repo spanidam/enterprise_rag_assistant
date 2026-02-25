@@ -1,0 +1,15 @@
+290
+FORCE CONTROL
+sources, Fs and Vs may be used to represent reference signal generators for
+force and velocity, respectively, or they may represent external disturbances.
+9.4
+TASK SPACE DYNAMICS AND CONTROL
+Since a manipulator task speciﬁcation, such as grasping an object, or inserting
+a peg into a hole, is typically given relative to the end- eﬀector frame, it is
+natural to derive the control algorithm directly in the task space rather than
+joint space coordinates.
+9.4.1
+Static Force/Torque Relationships
+Interaction of the manipulator with the environment will produce forces and
+moments at the end-eﬀector or tool. Let F = (Fx, Fy, Fz, nx, ny, nz)T repre-
+sent the vector of forces and torques at the end-eﬀector, expressed in the tool

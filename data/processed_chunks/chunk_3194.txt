@@ -1,0 +1,12 @@
+12.4.5 
+Remarks 
+To summarize, the EBNN algorithm uses a domain theory expressed as a set of 
+previously learned neural networks, together with a set of training examples, to 
+train its output hypothesis (the target network). For each training example EBNN 
+uses its domain theory to explain the example, then extracts training derivatives 
+from this explanation. For each attribute of the instance, a training derivative is 
+computed that describes how the target function value is influenced by a small 
+change to this attribute value, according to the domain theory. These training 
+derivatives are provided to a variant of TANGENTPROP, 
+which fits the target network 
+to these derivatives and to the training example values. Fitting the derivatives

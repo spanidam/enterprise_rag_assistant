@@ -1,0 +1,10 @@
+were possible, each of which resulted in one of b next states, all equally likely,
+with a diﬀerent random selection of b states for each state–action pair. The
+branching factor, b, was the same for all state–action pairs. In addition, on
+all transitions there was a 0.1 probability of transition to the terminal state,
+ending the episode. We used episodic tasks to get a clear measure of the quality
+of the current policy. At any point in the planning process one can stop and
+exhaustively compute v˜π(s0), the true value of the start state under the greedy
+policy, ˜π, given the current action-value function Q, as an indication of how
+well the agent would do on a new episode on which it acted greedily (all the
+while assuming the model is correct).

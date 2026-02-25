@@ -1,0 +1,10 @@
+functions must be an optimal policy. The Bellman optimality equations are
+special consistency condition that the optimal value functions must satisfy and
+that can, in principle, be solved for the optimal value functions, from which
+an optimal policy can be determined with relative ease.
+A reinforcement learning problem can be posed in a variety of diﬀerent ways
+depending on assumptions about the level of knowledge initially available to
+the agent. In problems of complete knowledge, the agent has a complete and
+accurate model of the environment’s dynamics. If the environment is an MDP,
+then such a model consists of the one-step transition probabilities and expected
+rewards for all states and their allowable actions. In problems of incomplete

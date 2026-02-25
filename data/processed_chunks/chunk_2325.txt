@@ -1,0 +1,11 @@
+the problem of estimating errorv(h) for hypotheses. The Binomial distribution 
+gives the general form of the probability distribution for the random variable r, 
+whether it represents the number of heads in n coin tosses or the number of 
+hypothesis errors in a sample of n examples. The detailed form of the Binomial 
+distribution depends on the specific sample size n and the specific probability p 
+or errorv(h). 
+The general setting to which the Binomial distribution applies is: 
+1. There is a base, or underlying, experiment (e.g., toss of the coin) whose 
+outcome can be described by a random variable, say Y .  The random variable 
+Y can take on two possible values (e.g., Y = 1 if heads, Y = 0 if tails). 
+2. The probability that Y = 1 on any single trial of the underlying experiment

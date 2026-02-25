@@ -1,0 +1,15 @@
+1992.
+REFERENCES
+399
+25. S. E. Fahlman. A planning system for robot construction tasks. Artiﬁcial
+Intelligence, 5:1–49, 1974.
+26. J. T. Feddema, C. S. George Lee, and O. R. Mitchell. Weighted Selec-
+tion of Image Features for Resolved Rate Visual Feedback Control. IEEE
+Transactions on Robotics and Automation, 7:31–47, 1991.
+27. J.T. Feddema and O.R. Mitchell. Vision-guided servoing with feature-based
+trajectory generation. IEEE Trans. on Robotics and Automation, 5(5):691–
+700, October 1989.
+28. R. Fikes and N. Nilsson. STRIPS: A new approach to th eapplicatin of
+theorem proving to problem solving. Artiﬁcial Intelligence, 2:189–208, 1971.
+29. S. H. Friedberg, A. J. Insel, and L. E. Spence. Linear Algebra. Prentice-Hall,
+Englewood Cliﬀs, NJ, 1979.

@@ -1,0 +1,10 @@
+methods, they gradually reach the correct answer through successive approx-
+imations. As we show in the rest of this book, these similarities are far more
+than superﬁcial. The theories and solution methods for the cases of complete
+and incomplete knowledge are so closely related that we feel they must be
+considered together as part of the same subject matter.
+Let us return now to the other major thread leading to the modern ﬁeld of
+reinforcement learning, that centered on the idea of trial-and-error learning.
+We only touch on the major points of contact here, taking up this topic in more
+detail in Chapter ??. According to American psychologist R. S. Woodworth
+the idea of trial-and-error learning goes as far back as the 1850s to Alexander

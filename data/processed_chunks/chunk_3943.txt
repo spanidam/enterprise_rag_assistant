@@ -1,0 +1,10 @@
+early illustration of reinforcement learning. The objective here is to apply
+forces to a cart moving along a track so as to keep a pole hinged to the cart
+from falling over. A failure is said to occur if the pole falls past a given angle
+from vertical or if the cart runs oﬀthe track. The pole is reset to vertical
+after each failure. This task could be treated as episodic, where the natural
+episodes are the repeated attempts to balance the pole. The reward in this
+3.4. UNIFIED NOTATION FOR EPISODIC AND CONTINUING TASKS61
+case could be +1 for every time step on which failure did not occur, so that the
+return at each time would be the number of steps until failure. Alternatively,
+we could treat pole-balancing as a continuing task, using discounting. In this

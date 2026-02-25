@@ -1,0 +1,92 @@
+v0 = 0
+vf = 0
+(5.46)
+Thus we want to move from the initial position q0 to the ﬁnal position qf in
+1 second, starting and ending with zero velocity. From the Equation (5.43) we
+obtain
+
+
+1
+0
+0
+0
+0
+1
+0
+0
+1
+1
+1
+1
+0
+1
+2
+3
+
+
+
+
+a0
+a1
+a2
+a3
+
+
+=
+
+
+q0
+0
+qf
+0
+
+
+(5.47)
+This is then equivalent to the four equations
+a0
+=
+q0
+(5.48)
+a1
+=
+0
+(5.49)
+a2 + a3
+=
+qf −q0
+(5.50)
+2a2 + 3a3
+=
+0
+(5.51)
+These latter two can be solved to yield
+a2
+=
+3(qf −q0)
+(5.52)
+a3
+=
+−2(qf −q0)
+(5.53)
+The required cubic polynomial function is therefore
+qi(t)
+=
+q0 + 3(qf −q0)t2 −2(qf −q0)t3
+(5.54)
+Figure 5.13(a) shows this trajectory with q0 = 10◦, qf = −20◦. The cor-
+responding velocity and acceleration curves are given in Figures 5.13(b) and
+5.13(c).
+0
+0.2
+0.4
+0.6
+0.8
+1
+−20
+−15
+−10
+−5
+0
+5
+10
+Time (sec)

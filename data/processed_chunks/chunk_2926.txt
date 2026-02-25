@@ -1,0 +1,10 @@
+the simple observation that induction is just the inverse of deduction! In general, 
+machine learning involves building theories that explain the observed data. Given 
+some data D and some partial background knowledge B, learning can be described 
+as generating a hypothesis h that, together with B, explains D. Put more precisely, 
+assume as usual that the training data D is a set of training examples, each of 
+the form (xi, f (xi)). Here xi denotes the ith training instance and f (xi) denotes 
+its target value. Then learning is the problem of discovering a hypothesis h, such 
+that the classification f (xi) of each training instance xi follows deductively from 
+the hypothesis h, the description of xi, and any other background knowledge B 
+known to the system.

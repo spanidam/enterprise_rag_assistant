@@ -1,0 +1,10 @@
+numbers X = 8 (e.g., describing the height of people), and H the set of inter- 
+vals on the real number line. In other words, H is the set of hypotheses of the 
+form a < x < b, where a and b may be any real constants. What is VC(H)? 
+To answer this question, we must find the largest subset of X that can be shat- 
+tered by H. Consider a particular subset containing two distinct instances, say 
+S = {3.1,5.7}. Can S be shattered by H? Yes. For example, the four hypotheses 
+(1 < x < 2), (1 < x < 4), (4 < x < 7), and (1 < x < 7) will do. Together, they 
+represent each of the four dichotomies over S, covering neither instance, either 
+one of the instances, and both of the instances, respectively. Since we have found 
+a set of size two that can be shattered by H, we know the VC dimension of H

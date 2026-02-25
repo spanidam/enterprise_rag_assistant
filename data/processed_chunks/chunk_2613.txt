@@ -1,0 +1,10 @@
+by conjunctions of up to 10 boolean literals, and we desire a 95% probability 
+that it will learn a hypothesis with error less than .l, then it suffices to present m 
+randomly drawn training examples, where rn = -$ (10 1n 3 + ln(11.05)) = 140. 
+Notice that m grows linearly in the number of literals n, linearly in 116, and 
+logarithmically in 116. What about the overall computational effort? That will 
+depend, of course, on the specific learning algorithm. However, as long as our 
+learning algorithm requires no more than polynomial computation per training 
+example, and no more than a polynomial number of training examples, then the 
+total computation required will be polynomial as well. 
+In the case of learning conjunctions of boolean literals, one algorithm that

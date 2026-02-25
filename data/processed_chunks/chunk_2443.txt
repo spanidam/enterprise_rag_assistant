@@ -1,0 +1,11 @@
+that we have a target function f (x) whose output is a probabilistic function of the 
+input. 
+Given this problem setting, we might wish to learn a neural network (or other 
+real-valued function approximator) whose output is the probability that f (x) = 1. 
+In other words, we seek to learn the target function, f' : X + [O, 11, such that 
+f '(x) = P( f (x) = 1). In the above medical patient example, if x is one of those 
+indistinguishable patients of which 92% survive, then f'(x) = 0.92 whereas the 
+probabilistic function f (x) will be equal to 1 in 92% of cases and equal to 0 in 
+the remaining 8%. 
+How can we learn f' using, say, a neural network? One obvious, brute- 
+force way would be to first collect the observed frequencies of 1's and 0's for

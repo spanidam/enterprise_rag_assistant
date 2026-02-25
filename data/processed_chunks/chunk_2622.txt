@@ -1,0 +1,11 @@
+we shall see, we can state bounds on sample complexity that use VC(H) rather 
+than IHI. In many cases, the sample complexity bounds based on VC(H) will 
+be tighter than those from Equation (7.2). In addition, these bounds allow us to 
+characterize the sample complexity of many infinite hypothesis spaces, and can 
+be shown to be fairly tight. 
+7.4.1 Shattering a Set of Instances 
+The VC dimension measures the complexity of the hypothesis space H, not by the 
+number of distinct hypotheses 1 H 1, but instead by the number of distinct instances 
+from X that can be completely discriminated using H. 
+To make this notion more precise, we first define the notion of shattering a 
+set of instances. Consider some subset of instances S E X. For example, Figure 7.3

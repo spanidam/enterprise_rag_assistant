@@ -1,0 +1,11 @@
+updated.
+8. b. Using the del keyword, items can be deleted from a dictionary using the key.
+9. a. The update() function modifies the value associated with the key "Kabob" and adds a new item,
+"Sushi": "$16".
+10.4 Conditionals and looping in dictionaries
+1. a. "apple" is a key in the dictionary and exists in the returned keys from fruit_count.keys().
+2. b. The key "orange" , with associated value 5 , exists in the dictionary and the return value is True .
+3. b. Conditional statements can be written to examine keys and values.
+4. b. The values() method iterates over values in a dictionary.
+5. a. The loop iterates over the keys "apple" , "orange" , and "banana" , and prints the keys space-
+separated.

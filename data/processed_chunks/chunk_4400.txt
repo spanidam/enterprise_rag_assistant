@@ -1,0 +1,10 @@
+sample averages, i.e., α = 1/t). The key observation is that for moderately
+large b the error falls dramatically with a tiny fraction of b backups. For these
+cases, many state–action pairs could have their values improved dramatically,
+to within a few percent of the eﬀect of a full backup, in the same time that
+one state–action pair could be backed up fully.
+The advantage of sample backups shown in Figure 8.13 is probably an
+underestimate of the real eﬀect. In a real problem, the values of the succes-
+sor states would themselves be estimates updated by backups. By causing
+estimates to be more accurate sooner, sample backups will have a second ad-
+vantage in that the values backed up from the successor states will be more

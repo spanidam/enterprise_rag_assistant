@@ -1,0 +1,10 @@
+etc. These attributes vary significantly in their costs, both in terms of monetary 
+cost and cost to patient comfort. In such tasks, we would prefer decision trees that 
+use low-cost attributes where possible, relying on high-cost attributes only when 
+needed to produce reliable classifications. 
+ID3 can be modified to take into account attribute costs by introducing a cost 
+term into the attribute selection measure. For example, we might divide the Gpin 
+by the cost of the attribute, so that lower-cost attributes would be preferred. While 
+such cost-sensitive measures do not guarantee finding an optimal cost-sensitive 
+decision tree, they do bias the search in favor of low-cost attributes. 
+Tan and Schlimmer (1990) and Tan (1993) describe one such approach and

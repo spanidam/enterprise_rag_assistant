@@ -1,0 +1,11 @@
+outside is incompletely controllable but may or may not be completely known.
+A policy is a stochastic rule by which the agent selects actions as a function of
+states. The agent’s objective is to maximize the amount of reward it receives
+over time.
+The return is the function of future rewards that the agent seeks to max-
+imize. It has several diﬀerent deﬁnitions depending upon the nature of the
+task and whether one wishes to discount delayed reward. The undiscounted
+formulation is appropriate for episodic tasks, in which the agent–environment
+interaction breaks naturally into episodes; the discounted formulation is appro-
+priate for continuing tasks, in which the interaction does not naturally break
+into episodes but continues without limit.

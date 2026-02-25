@@ -1,0 +1,23 @@
+𝜕𝑎(2)
+𝜕𝑎(2)
+𝜕𝑜(2)
+𝜕𝑜(2)
+𝜕𝑎(1)
+𝜕𝑎(1)
+𝜕𝑜(1)
+𝜕𝑜(1)
+𝜕𝑤(0)
+There are important insights to grasp here.
+First, one should notice that weights that are further from the output of the model inherit gradient rules made of more
+terms. As a consequence, when some of these terms get smaller and smaller, there is a higher risk for those weights that
+their gradients collapse to 0, this is called the vanishing gradient effect, which is a very common phenomenon in deep
+neural networks (i.e. those networks made of many layers).
+Second, some terms are repeated in these formulas, and in general, terms of the form 𝜕𝑎(ℓ)
+𝜕𝑜(ℓ) and
+𝜕𝑜(ℓ)
+𝜕𝑎(ℓ−1) are present in
+several places. These terms can be further developed as:
+𝜕𝑎(ℓ)
+𝜕𝑜(ℓ) = 𝜑′(𝑜(ℓ))
+𝜕𝑜(ℓ)
+𝜕𝑎(ℓ−1) = 𝑤(ℓ−1)

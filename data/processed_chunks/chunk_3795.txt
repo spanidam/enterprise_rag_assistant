@@ -1,0 +1,13 @@
+arise when learning from interaction with an environment in order to achieve
+16
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM
+long-term goals.
+Reinforcement learning uses a formal framework deﬁning the interaction
+between a learning agent and its environment in terms of states, actions, and
+rewards. This framework is intended to be a simple way of representing es-
+sential features of the artiﬁcial intelligence problem. These features include a
+sense of cause and eﬀect, a sense of uncertainty and nondeterminism, and the
+existence of explicit goals.
+The concepts of value and value functions are the key features of most of
+the reinforcement learning methods that we consider in this book. We take
+the position that value functions are important for eﬃcient search in the space

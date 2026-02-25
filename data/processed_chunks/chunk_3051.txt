@@ -1,0 +1,11 @@
+where the training data D consists of a set of training examples in which xi is the 
+ith training instance and f (xi) is its target value (f is the target function). Notice 
+the first of these constraints is simply a formalization of the usual requirement in 
+machine learning, that the hypothesis h correctly predict the target value f (xi) for 
+each instance xi in the training data.t Of course there will, in general, be many 
+t ~ e r e  
+we include PROLOG-S~Y~ 
+negation-by-failure in our definition of entailment (F), so that ex- 
+amples are entailed to be negative examples if they cannot be proven to be positive. 
+alternative hypotheses that satisfy this first constraint. The second constraint de- 
+scribes the impact of the domain theory in PROLOG-EBL: The output hypothesis is

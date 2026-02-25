@@ -1,0 +1,13 @@
+set of training examples of c. Let L(xi, D,) denote the classification assigned to 
+the instance xi by L  after training on the data D,. The inductive bias of L  is any 
+minimal set of assertions B  such that for any target concept c and corresponding 
+training examples Dc 
+(Vxi E X)[(B A Dc A xi) k L(xi, D,)] 
+(2.1) 
+What, then, is the inductive bias of the CANDIDATE-ELIMINATION 
+algorithm? 
+To answer this, let us specify L(xi, D,) exactly for this algorithm: given a set 
+of data D,, the CANDIDATE-ELIMINATION 
+algorithm will first compute the version 
+space VSH,D,, then classify the new instance xi by a vote among hypotheses in this 
+version space. Here let us assume that it will output a classification for xi only if

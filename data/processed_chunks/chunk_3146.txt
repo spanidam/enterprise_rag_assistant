@@ -1,0 +1,10 @@
+weights of W, whereas the lightly shaded lines indicate connections with initial 
+weights near zero. It is easy to verify that for sufficiently large values of W this 
+network will output values identical to the predictions of the domain theory. 
+The second stage of KBANN (step 4 in the algorithm of Table 12.2) uses 
+the training examples and the BACWROPAGATION 
+algorithm to refine the initial 
+network weights. Of course if the domain theory and training examples contain 
+no errors, the initial network will already fit the training data. In the Cup ex- 
+ample, however, the domain theory and training data are inconsistent, and this 
+step therefore alters the initial network weights. The resulting trained network

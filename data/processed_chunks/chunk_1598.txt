@@ -1,0 +1,27 @@
+# Using read()
+# Open the file and associate with a file object
+infile2 = open("input.txt")
+# Read the contents of the file into a string list
+str_list = infile2.readlines()
+# Printing the third item in the string list.
+print("Result of using readlines() and printing the third item in the string
+list:")
+print(str_list[2])
+# Always close the file once done using the file
+infile2.close()
+The code's output is:
+Result of using read():
+12
+55
+5
+91
+Result of using readlines() printing the third item in the string list:
+5
+14.1 • Reading from files
+329
+CHECKPOINT
+read() and readline()
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+14-1-reading-from-files)
+CONCEPTS IN PRACTICE
+Reading files

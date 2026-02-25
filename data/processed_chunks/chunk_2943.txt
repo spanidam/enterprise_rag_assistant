@@ -1,0 +1,10 @@
+deterministic-in 
+general there may be multiple clauses C2 such that C1 and C2 
+produce the resolvent C. One heuristic for choosing among the alternatives is to 
+prefer shorter clauses over longer clauses, or equivalently, to assume C2 shares no 
+literals in common with C1. If we incorporate this bias toward short clauses, the 
+general statement of this inverse resolution procedure is as shown in Table 10.6. 
+We can develop rule-learning algorithms based on inverse entailment op- 
+erators such as inverse resolution. In particular, the learning algorithm can use 
+inverse entailment to construct hypotheses that, together with the background 
+information, entail the training data. One strategy is to use a sequential cover-

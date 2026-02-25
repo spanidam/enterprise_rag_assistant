@@ -1,0 +1,29 @@
+# Using del keyword
+del my_dict[key1]
+# Using pop() method
+deleted_value = my_dict.pop(key1)
+Iterating over a dictionary
+for key in dictionary: # Loop expression
+# Statements to execute in the loop
+#Statements to execute after the loop
+Table 10.10 Chapter 10 reference.
+262
+10 • Dictionaries
+Access for free at openstax.org
+Concept
+Description
+Nested dictionaries
+{
+key_1:{key11:value11, key12:value12},
+key_2:{key21:value21, key22:value22}
+}
+Dictionary comprehension
+{key_expression: value_expression for
+element in iterable}
+Table 10.10 Chapter 10 reference.
+TRY IT
+Even and odd values
+Given a list, create a dictionary with two keys, "even" and "odd". The values associated with each key must
+be the list of corresponding even and odd values in the given list.
+Input:
+input_list = [3, 5, 6, 1]

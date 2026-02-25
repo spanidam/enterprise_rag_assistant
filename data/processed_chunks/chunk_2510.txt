@@ -1,0 +1,9 @@
+Storm, Lightning, Thunder, ForestFire, Campjre, and BusTourGroup. In general, 
+a Bayesian network represents the joint probability distribution by specifying a 
+set of conditional independence assumptions (represented by a directed acyclic 
+graph), together with sets of local conditional probabilities. Each variable in the 
+joint space is represented by a node in the Bayesian network. For each variable two 
+types of information are specified. First, the network arcs represent the assertion 
+that the variable is conditionally independent of its nondescendants in the network 
+given its immediate predecessors in the network. We say Xjis a descendant of 
+, Y if there is a directed path from Y to X. Second, a conditional probability table

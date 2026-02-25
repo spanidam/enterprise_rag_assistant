@@ -1,0 +1,11 @@
+72(1), 81-138. 
+Barto, A., Sutton, R., & Anderson, C. (1983). Neuronlike adaptive elements that can solve difficult 
+learning control problems. IEEE Transactions on Systems, Man, and Cybernetics, 13(5), 834- 
+846. 
+Bellman, R. E. (1957). Dynamic Programming. Princeton, NJ: Princeton University Press. 
+Bellrnan, R. (1958). On a routing problem. Quarterly of Applied Mathematics, 16(1), 87-90. 
+Bellman, R. (1961). Adaptive control processes. Princeton, NJ: Princeton University Press. 
+Berenji, R. (1992). Learning and tuning fuzzy controllers through reinforcements. IEEE Transactions 
+on Neural Networks, 3(5), 724-740. 
+Bertsekas, D. (1987). Dynamicprogramming: Deterministic and stochastic models. Englewood Cliffs, 
+NJ: Prentice Hall.

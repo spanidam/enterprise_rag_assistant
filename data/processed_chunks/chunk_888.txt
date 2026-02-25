@@ -1,0 +1,17 @@
+farther away from the equilibrium. Stability (respectively, asymptotic stability)
+is said to be global if it holds for arbitrary initial conditions.
+We know that a linear system
+˙x
+=
+Ax
+(C.4)
+will be globally asymptotically stable provided that all eigenvalues of the matrix
+A lie in the open left half of the complex plane. For nonlinear systems stability
+cannot be so easily determined.
+389
+Another important notion related to stability is the notion of uniform ul-
+timate boundedness of solutions.
+Deﬁnition C.4 A solution x(t) : [t0, ∞] →Rn (C.1) with initial condition
+x(t0) = x0 is said to uniformly ultimately bounded (u.u.b.) with respect
+to a set S if there is a nonnegative constant T(x0, S) such that
+x(t) ∈S for all t ≥t0 + T.

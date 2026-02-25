@@ -1,0 +1,12 @@
+to the target concept, to determine when the training data are inconsistent, 
+to generate informative queries to further refine the version space, and to 
+determine which unseen instances can be unambiguously classified based on 
+the partially learned concept. 
+Version spaces and the CANDIDATE-ELIMINATION 
+algorithm provide a useful 
+conceptual framework for studying concept learning. However, this learning 
+algorithm is not robust to noisy data or to situations in which the unknown 
+target concept is not expressible in the provided hypothesis space. Chap- 
+ter 10 describes several concept learning algorithms based on the general- 
+to-specific ordering, which are robust to noisy data. 
+0 Inductive learning algorithms are able to classify unseen examples only be-

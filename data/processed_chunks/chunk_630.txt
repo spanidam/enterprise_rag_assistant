@@ -1,0 +1,41 @@
+We will discuss only one method, namely the so-called theory of guaran-
+teed stability of uncertain systems, which is based on Lyapunov’s second
+method. In this approach we set the outer loop control aq as
+¨q = ¨qd(t) + KP (qd −q) + KD( ˙qd −˙q) + δa
+(8.46)
+In terms of the tracking error
+e =
+ ˜q
+˙˜q
+
+=
+ q −qd
+˙q −˙qd
+
+(8.47)
+we may write
+˙e = Ae + B{δa + η}
+(8.48)
+where
+A =
+
+0
+I
+−KP
+−KD
+
+;
+B =
+ 0
+I
+
+.
+(8.49)
+Thus the double integrator is ﬁrst stabilized by the linear feedback, −KP e −
+KD ˙e, and δa is an additional control input that must be designed to overcome
+ROBUST AND ADAPTIVE MOTION CONTROL
+273
+the potentially destabilizing eﬀect of the uncertainty η. The basic idea is to
+compute a time–varying scalar bound, ρ(e, t) ≥0, on the uncertainty η, i.e.,
+||η|| ≤ρ(e, t)
+(8.50)

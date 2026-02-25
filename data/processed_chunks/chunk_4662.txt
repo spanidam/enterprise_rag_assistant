@@ -1,0 +1,11 @@
+The downside for the Bayesian POMDP approach is its computational ex-
+pense and its strong reliance on complete environment models. Some of the
+recent work pursuing this approach is by Littman, Cassandra, and Kaelbling
+(1995), Parr and Russell (1995), and Chrisman (1992).
+If we are not willing
+to assume a complete model of a POMDP’s dynamics, then existing theory
+seems to oﬀer little guidance. Nevertheless, one can still attempt to construct
+a Markov state signal from the sequence of sensations. Various statistical and
+ad hoc methods along these lines have been explored (e.g., Chrisman, 1992;
+McCallum, 1993, 1995; Lin and Mitchell, 1992; Chapman and Kaelbling, 1991;
+Moore, 1994; Rivest and Schapire, 1987; Colombetti and Dorigo, 1994; White-

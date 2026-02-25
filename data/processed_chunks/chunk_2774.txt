@@ -1,0 +1,9 @@
+might use a bit string to describe a constraint on the value of a single attribute. To 
+pick an example, consider the attribute Outlook, which can take on any of the three 
+values Sunny, Overcast, or Rain. One obvious way to represent a constraint on 
+Outlook is to use a bit string of length three, in which each bit position corresponds 
+to one of its three possible values. Placing a 1 in some position indicates that the 
+attribute is allowed to take on the corresponding value. For example, the string 010 
+represents the constraint that Outlook must take on the second of these values, , 
+or Outlook = Overcast. Similarly, the string 011 represents the more general 
+constraint that allows two possible values, or (Outlook = Overcast v Rain).

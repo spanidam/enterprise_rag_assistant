@@ -1,0 +1,13 @@
+et al. (1997b). 
+A thorough discussion of radial basis functions is provided by Bishop (1995). 
+Other treatments are given by Powell (1987) and Poggio and Girosi (1990). See 
+Section 6.12 of this book for a discussion of the EM algorithm and its application 
+to selecting the means of a mixture of Gaussians. 
+Kolodner (1993) provides a general introduction to case-based reasoning. 
+Other general surveys and collections describing recent research are given by 
+Aamodt et al. (1994), Aha et al. (1991), Haton et al. (1995), Riesbeck and Schank 
+(1989), Schank et al. (1994), Veloso and Aamodt (1995), Watson (1995), and 
+Wess et al. (1994). 
+EXERCISES 
+8.1. Derive the gradient descent rule for a distance-weighted local linear approximation 
+to the target function, given by Equation (8.1).

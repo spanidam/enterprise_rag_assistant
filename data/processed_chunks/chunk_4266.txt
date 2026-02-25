@@ -1,0 +1,11 @@
+There are two ways to view eligibility traces. The more theoretical view,
+which we emphasize here, is that they are a bridge from TD to Monte Carlo
+methods. When TD methods are augmented with eligibility traces, they pro-
+duce a family of methods spanning a spectrum that has Monte Carlo methods
+at one end and one-step TD methods at the other. In between are intermediate
+methods that are often better than either extreme method. In this sense eli-
+gibility traces unify TD and Monte Carlo methods in a valuable and revealing
+way.
+The other way to view eligibility traces is more mechanistic. From this
+perspective, an eligibility trace is a temporary record of the occurrence of an
+event, such as the visiting of a state or the taking of an action. The trace

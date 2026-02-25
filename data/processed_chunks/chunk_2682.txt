@@ -1,0 +1,12 @@
+MA: MIT Press. 
+Laird, P. (1988). Learning from good and bad data. Dordrecht: Kluwer Academic Publishers. 
+Li, M., & Valiant, L. G. (Eds.). (1994). Special issue on computational learning theory. Machine 
+Learning, 14(1). 
+Littlestone, N. (1987). Learning quickly when irrelevant attributes abound: A new linear-threshold 
+algorithm. Machine Learning, 2, 285-318. 
+Littlestone, N., & Warmuth, M. (1991). The weighted majority algorithm (Technical report UCSC- 
+CRL-91-28). Univ. of California Santa Cruz, Computer Engineering and Information Sciences 
+Dept., Santa Cruz, CA. 
+Littlestone, N., & Warmuth, M. (1994). The weighted majority algorithm. Information and Compu- 
+tation (log), 212-261. 
+Pltt, L. (Ed.). (1990). Special issue on computational learning theory. Machine Learning, 5(2).

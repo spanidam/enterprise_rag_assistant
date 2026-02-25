@@ -1,0 +1,13 @@
+known in control engineering as the conﬂict between identiﬁcation (or
+estimation) and control (e.g., Witten, 1976). Feldbaum (1965) called it
+the dual control problem, referring to the need to solve the two prob-
+lems of identiﬁcation and control simultaneously when trying to control
+a system under uncertainty. In discussing aspects of genetic algorithms,
+Holland (1975) emphasized the importance of this conﬂict, referring to
+it as the conﬂict between the need to exploit and the need for new
+information.
+2.2
+Action-value methods for our n-armed bandit problem were ﬁrst pro-
+posed by Thathachar and Sastry (1985). These are often called esti-
+mator algorithms in the learning automata literature. The term action
+value is due to Watkins (1989). The ﬁrst to use ε-greedy methods may

@@ -1,0 +1,11 @@
+resentations for instances. Instance-based methods are sometimes referred to as 
+"lazy" learning methods because they delay processing until a new instance must 
+be classified. A key advantage of this kind of delayed, or lazy, learning is 
+that instead of estimating the target function once for the entire instance space, 
+these methods can estimate it locally and differently for each new instance to be 
+classified. 
+8.1 INTRODUCTION 
+Instance-based learning methods such as nearest neighbor and locally weighted re- 
+gression are conceptually straightforward approaches to approximating real-valued 
+or discrete-valued target functions. Learning in these algorithms consists of simply 
+storing the presented training data. When a new query instance is encountered, a

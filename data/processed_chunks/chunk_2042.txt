@@ -1,0 +1,10 @@
+future instances. 
+Given a collection of training examples, there are typically many decision 
+trees consistent with these examples. Describing the inductive bias of ID3 there- 
+fore consists of describing the basis by which it chooses one of these consis- 
+tent hypotheses over the others. Which of these decision trees does ID3 choose? 
+It chooses the first acceptable tree it encounters in its simple-to-complex, hill- 
+climbing search through the space of possible trees. Roughly speaking, then, the 
+ID3 search strategy (a) selects in favor of shorter trees over longer ones, and 
+(b) selects trees that place the attributes with highest information gain closest to 
+the root. Because of the subtle interaction between the attribute selection heuris-

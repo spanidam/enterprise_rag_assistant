@@ -1,0 +1,9 @@
+need arises, with balanced coverage of theory and practice, and presents major algorithms with 
+illustrations of their use. Includes chapter exercises. Online data sets and implementations of 
+several algorithms are available on a Web site. No prior background in artificial intelligence or 
+statistics is assumed. For advanced undergraduates and graduate students in computer science, 
+engineering, statistics, and social sciences, as well as software professionals. Book News, Inc.®, 
+Portland, OR  
+Book Info: Presents the key algorithms and theory that form the core of machine learning. 
+Discusses such theoretical issues as How does learning performance vary with the number of 
+training examples presented? and Which learning algorithms are most appropriate for various

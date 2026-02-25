@@ -1,0 +1,11 @@
+of linear programming does not scale to training multilayer networks, which is 
+our primary concern. In contrast, the gradient descent approach, on which the 
+delta rule is based, can be easily extended to multilayer networks, as shown in 
+the following section. 
+4.5 MULTILAYER NETWORKS AND THE BACKPROPAGATION 
+ALGORITHM 
+As noted in Section 4.4.1, single perceptrons can only express linear decision 
+surfaces. In contrast, the kind of multilayer networks learned by the BACKPROPA- 
+CATION algorithm are capable of expressing a rich variety of nonlinear decision 
+surfaces. For example, a typical multilayer network and decision surface is de- 
+picted in Figure 4.5. Here the speech recognition task involves distinguishing

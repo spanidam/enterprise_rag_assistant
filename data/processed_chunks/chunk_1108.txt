@@ -1,0 +1,8 @@
+tracked the popularity of programming languages and posted the results online. Figure 1.2 shows the TIOBE
+index over time for five of the most popular languages.
+The TIOBE index is based on the number of search engine results for each language. The percentage refers to
+how many results belong to that language. Python has been among the top 10 languages every year since
+2004. In October 2021, Python became the #1 language on the TIOBE index. No other language but C and Java
+had been #1 for the previous 20 years.
+Another way to see Python's popularity is to analyze how frequently Python is discussed online. Stack Overflow
+(https://openstax.org/r/100overflow) is a question-and-answer website for programmers. Figure 1.3 shows the

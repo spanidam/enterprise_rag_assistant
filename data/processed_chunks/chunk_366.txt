@@ -1,0 +1,23 @@
+δy
+δz
+
+= Jδq
+in which J is the Jacobian of the forward kinematic map for linear velocity (i.e.,
+the top three rows of the manipulator Jacobian). Substituting this into (5.16)
+we obtain
+FT Jδq
+=
+F T δq
+(5.18)
+and since this must hold for all virtual displacements δq, we obtain
+FT J = F T
+(5.19)
+which implies that
+JT F = F
+(5.20)
+Thus we see that one can easily map forces in the workspace to joint forces and
+torques using (5.20).
+Example 5.3 A Force Acting on a Vertex of a Polygonal Robot.
+Consider the polygonal robot shown in Figure 5.6. The vertex a has coordi-
+nates (ax, ay)T in the robot’s local coordinate frame. Therefore, if the robot’s
+conﬁguration is given by q = (x, y, θ), the forward kinematic map for vertex a

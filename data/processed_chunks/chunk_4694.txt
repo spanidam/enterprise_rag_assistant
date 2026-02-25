@@ -1,0 +1,18 @@
+Neural Information Processing Systems: Proceedings of the 1995 Confer-
+ence, pp. 1073–1079. MIT Press, Cambridge, MA.
+Doyle, P. G., Snell, J. L. (1984). Random Walks and Electric Networks. The
+Mathematical Association of America.
+Carus Mathematical Monograph
+22.
+15.5. OTHER FRONTIER DIMENSIONS
+319
+Dreyfus, S. E., Law, A. M. (1977). The Art and Theory of Dynamic Program-
+ming. Academic Press, New York.
+Duda, R. O., Hart, P. E. (1973). Pattern Classiﬁcation and Scene Analysis.
+Wiley, New York.
+Duﬀ, M. O. (1995).
+Q-learning for bandit problems.
+In A. Prieditis and
+S. Russell (eds.), Proceedings of the Twelfth International Conference on
+Machine Learning, pp. 209–217. Morgan Kaufmann, San Francisco.
+Estes, W. K. (1950). Toward a statistical theory of learning. Psychololgical

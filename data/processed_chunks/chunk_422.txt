@@ -1,0 +1,12 @@
+community [5], originally to circumvent the problems with local minima in
+potential ﬁelds). Early randomized motion planners proved eﬀective for a large
+range of problems, but sometimes required extensive computation time for some
+robots in certain environments [38]. This limitation, together with the idea that
+a robot will operate in the same environment for a long period of time led to
+the development of the probabilistic roadmap planners [37, 58, 38].
+Finally, much work has been done in the area of collision detection in recent
+years.
+[46, 52, 73, 74].
+This work is primarily focused on ﬁnding eﬃcient,
+incremental methods for detecting collisions between objects when one or both
+are moving. A number of public domain collision detection software packages

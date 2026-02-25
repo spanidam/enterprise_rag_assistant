@@ -1,0 +1,10 @@
+To derive the mistake bound, note that the only time the HALVING 
+algorithm 
+can make a mistake is when the majority of hypotheses in its current version space 
+incorrectly classify the new example. In this case, once the correct classification is 
+revealed to the learner, the version space will be reduced to at most half its current 
+size (i.e., only those hypotheses that voted with the minority will be retained). 
+Given that each mistake reduces the size of the version space by at least half, 
+and given that the initial version space contains only I H I members, the maximum 
+number of mistakes possible before the version space contains just one member 
+is log2 I H I. In fact one can show the bound is Llog, I H (1. Consider, for example,

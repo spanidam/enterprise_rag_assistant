@@ -1,0 +1,42 @@
+Index
+Accuracy, 7
+Across Variable, 287
+Actuator Dynamics, 231
+Angle, 69
+Angular momentum, 320, 323
+conservation of, 299
+Angular velocity, 119
+Anthropomorphic, 10
+Anti-windup, 260
+Apparent Damping, 293
+Apparent Inertia, 293
+Apparent Stiﬀness, 293
+Application area, 6
+Approach, 74
+Arbitrary, 255
+Arm, 7
+Armature, 231
+Arm singularity, 133
+Articulated (RRR), 6
+Artiﬁcial Constraint, 284–285
+Assembly, 6
+Atan2, 48
+Atan, 377
+Average, 237
+Axis/Angle, 47
+Axis/angle representation, 52
+Back emf, 231
+Back emf Constant, 233
+Bang-Bang, 182
+Base, 18
+Basic homogeneous transformation, 55
+Basic rotation matrix, 36
+Basis, 283
+Bilinear Form, 283
+Blend time, 179
+Capacitive, 288
+Capacitive Environment, 288
+Cartesian (PPP), 6
+Centrifugal, 202
+Characteristic polynomial, 307
+Chow’s theorem, 299, 325

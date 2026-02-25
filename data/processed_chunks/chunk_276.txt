@@ -1,0 +1,99 @@
+R0
+i−1oi−1
+i
+(4.59)
+=
+R0
+i−1
+∂
+∂di
+
+
+aici
+aisi
+di
+
+
+(4.60)
+=
+˙diR0
+i−1
+
+
+0
+0
+1
+
+
+(4.61)
+=
+˙diz0
+i−1,
+(4.62)
+in which di is the joint variable for prismatic joint i. Thus, (again, dropping
+the zero superscript on the z-axis) for the case of prismatic joints we have
+Jvi = zi−1
+(4.63)
+(ii) Case 2: Revolute Joints
+If joint i is revolute, then we have qi = θi. Starting with Equation (4.58), and
+letting qi = θi, since R0
+i is not constant with respect to θi, we obtain
+∂
+∂θi
+o0
+n
+=
+∂
+∂θi
+
+R0
+i oi
+n + R0
+i−1oi−1
+i
+
+(4.64)
+=
+∂
+∂θi
+R0
+i oi
+n + R0
+i−1
+∂
+∂θi
+oi−1
+i
+(4.65)
+=
+˙θiS(z0
+i−1)R0
+i oi
+n + ˙θiS(z0
+i−1)R0
+i−1oi−1
+i
+(4.66)
+=
+˙θiS(z0
+i−1)
+
+R0
+i oi
+n + R0
+i−1oi−1
+i
+
+(4.67)
+=
+˙θiS(z0
+i−1)(o0
+n −o0
+i−1)
+(4.68)
+=
+˙θiz0
+i−1 × (o0
+n −o0
+i−1)
+(4.69)

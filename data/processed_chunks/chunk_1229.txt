@@ -1,0 +1,45 @@
+else-statements)
+CONCEPTS IN PRACTICE
+Exploring if-else statements
+6. Given the following code, the else branch is taken for which range of x?
+if x >= 15:
+# Do something
+else:
+# Do something else
+a.
+x >= 15
+b.
+x <= 15
+c.
+x < 15
+7. Given x = 40, what is the final value of y?
+if x > 30:
+y = x - 10
+else:
+y = x + 10
+a.
+30
+b.
+40
+c.
+50
+8. Given y = 50, which is not a possible final value of y?
+if x < 50:
+y = y / 2
+else:
+y = y * 2
+y = y + 5
+a.
+30
+b.
+55
+c.
+105
+4.2 • If-else statements
+99
+TRY IT
+Improved division
+The following program divides two integers. Division by 0 produces an error. Modify the program to read in
+a new denominator (with no prompt) if the denominator is 0.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/4-2-if-
+else-statements)

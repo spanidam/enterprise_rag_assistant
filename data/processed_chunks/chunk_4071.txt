@@ -1,0 +1,28 @@
+loses his stake. The game ends when the gambler wins by reaching his goal
+of $100, or loses by running out of money. On each ﬂip, the gambler must
+decide what portion of his capital to stake, in integer numbers of dollars. This
+problem can be formulated as an undiscounted, episodic, ﬁnite MDP. The
+state is the gambler’s capital, s ∈{1, 2, . . . , 99} and the actions are stakes,
+4.5. ASYNCHRONOUS DYNAMIC PROGRAMMING
+101
+Initialize array V arbitrarily (e.g., V (s) = 0 for all s ∈S+)
+Repeat
+∆←0
+For each s ∈S:
+v ←V (s)
+V (s) ←maxa
+P
+s′,r p(s′, r|s, a)
+
+r + γV (s′)
+
+∆←max(∆, |v −V (s)|)
+until ∆< θ (a small positive number)
+Output a deterministic policy, π, such that
+π(s) = argmaxa
+P
+s′,r p(s′, r|s, a)
+
+r + γV (s′)
+
+Figure 4.5: Value iteration.

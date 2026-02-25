@@ -1,0 +1,43 @@
+Cartesian (PPP), 6
+Centrifugal, 202
+Characteristic polynomial, 307
+Chow’s theorem, 299, 325
+Christoﬀel symbol, 201
+Closed-form equations, 216
+Closing, 9
+Codistribution, 301
+Compensator, 230
+Completely integrable, 305
+Completely observable, 257
+Completely state-controllable, 254
+Compliance Frame, 284
+Computed torque, 23, 267
+Computer interface, 7
+Conﬁguration, 4
+Conﬁguration kinematic equation, 68
+Conﬁguration space, 4
+Conservation of angular momentum, 323
+Constraint, 282
+Constraint Frame, 284
+Constraint
+Holonomic, 187, 191
+403
+404
+INDEX
+Constraint
+holonomic, 319
+Constraint
+Nonholonomic, 191
+Constraint
+nonholonomic, 299
+Pfaﬃan, 319
+rolling, 320
+Constraints
+Holonomic, 188
+Continous Path Tracking, 229
+Continuous path, 6
+Control, 1
+Control computer, 7
+Control
+Independent Joint, 230
+Control

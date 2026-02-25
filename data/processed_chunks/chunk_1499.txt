@@ -1,0 +1,28 @@
+b.
+name
+c.
+pet_1
+3. Which of the following is an attribute?
+a.
+breed
+b.
+pet_2
+c.
+print_info
+4. Suppose the programmer wanted to change the class to represent a pet cat. Which is the appropriate
+name that follows PEP 8 recommendations?
+a.
+petcat
+b.
+pet_cat
+c.
+PetCat
+268
+11 • Classes
+Access for free at openstax.org
+Creating instances with __init__()
+___init___() is a special method that is called every time a new instance of a class is created. self refers to
+the instance of a class and is used in class methods to access the specific instance that called the method.
+__init__() uses self to define and initialize the instance's attributes.
+CHECKPOINT
+Creating multiple coffee orders and changing attributes

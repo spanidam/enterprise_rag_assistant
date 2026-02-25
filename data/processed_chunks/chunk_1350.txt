@@ -1,0 +1,13 @@
+return x ** 3
+print(cube(2)) # Calls the local cube() function, not area.cube()
+A programmer might not realize the cube function is defined twice because no error occurs when running the
+program. Name collisions are not considered errors and often lead to unexpected behavior.
+Care should be taken to avoid name collisions. Selecting specific functions from a module to import reduces
+the memory footprint; however, importing a complete module can help to avoid collisions because a
+module.name format would be used. This is a tradeoff the programmer must consider.
+CHECKPOINT
+Module and function names
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+7-2-importing-names)
+CONCEPTS IN PRACTICE
+Name collisions

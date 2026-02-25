@@ -1,0 +1,48 @@
+v0
+1
+=
+Ry, π
+2 v0
+(2.10)
+=
+
+
+0
+0
+1
+0
+1
+0
+−1
+0
+0
+
+
+
+
+0
+1
+1
+
+=
+
+
+1
+1
+0
+
+
+(2.11)
+⋄
+Thus, as we have now seen, a third interpretation of a rotation matrix R is
+as an operator acting on vectors in a ﬁxed frame. In other words, instead of
+relating the coordinates of a ﬁxed vector with respect to two diﬀerent coordinate
+frames, Equation (2.10) can represent the coordinates in o0x0y0z0 of a vector
+v1 that is obtained from a vector v by a given rotation.
+Summary
+We have seen that a rotation matrix, either R ∈SO(3) or R ∈SO(2), can be
+interpreted in three distinct ways:
+1. It represents a coordinate transformation relating the coordinates of a
+point p in two diﬀerent frames.
+2. It gives the orientation of a transformed coordinate frame with respect to
+a ﬁxed coordinate frame.

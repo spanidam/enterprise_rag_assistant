@@ -1,0 +1,10 @@
+sometimes varying by 1 from the mean values given for each column. That
+is, a third of the time you move exactly according to these values, as in the
+previous exercise, but also a third of the time you move one cell above that,
+and another third of the time you move one cell below that. For example, if
+you are one cell to the right of the goal and you move left, then one-third
+of the time you move one cell above the goal, one-third of the time you move
+two cells above the goal, and one-third of the time you move to the goal.
+Exercise 6.8 What is the backup diagram for Sarsa?
+Exercise 6.9 Why is Q-learning considered an oﬀ-policy control method?
+Exercise 6.10 Consider the learning algorithm that is just like Q-learning

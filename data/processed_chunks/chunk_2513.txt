@@ -1,0 +1,10 @@
+conditional probability table associated with the variable Campfire. The top left 
+entry in this table, for example, expresses the assertion that 
+P(Campfire = TruelStorm = True, BusTourGroup = True) = 0.4 
+Note this table provides only the conditional probabilities of Campjire given its 
+parent variables Storm and BusTourGroup. The set of local conditional probability 
+tables for all the variables, together with the set of conditional independence as- 
+sumptions described by the network, describe the full joint probability distribution 
+for the network. 
+One attractive feature of Bayesian belief networks is that they allow a con- 
+venient way to represent causal knowledge such as the fact that Lightning causes

@@ -1,0 +1,15 @@
+dress this diﬃculty in the next section.
+9.4.4
+Hybrid Impedance Control
+In this section we introduce the notion of Hybrid Impedance Control following
+the treatment of [?]. We again take as our starting point the linear, decou-
+pled system (9.23). The impedance control formulation in the previous section
+is independent of the environment dynamics. It is reasonable to expect that
+stronger results may be obtained by incorporating a model of the environment
+dynamics into the design. For example, we will illustrate below how one may
+regulate both position and impedance simultaneously which is not possible with
+the pure impedance control law (9.26).
+We consider a one-dimensional system representing one component of the
+outer loop system (9.23)
+¨xi = axi
+(9.28)

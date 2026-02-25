@@ -1,0 +1,10 @@
+tion at time t of episode i (and similarly for At,i, Rt,i, πt,i, Ti, etc.). However,
+it turns out that, when we discuss episodic tasks we will almost never have to
+distinguish between diﬀerent episodes. We will almost always be considering
+a particular single episode, or stating something that is true for all episodes.
+Accordingly, in practice we will almost always abuse notation slightly by drop-
+ping the explicit reference to episode number. That is, we will write St to refer
+to St,i, and so on.
+We need one other convention to obtain a single notation that covers both
+episodic and continuing tasks. We have deﬁned the return as a sum over a ﬁnite
+number of terms in one case (3.1) and as a sum over an inﬁnite number of terms

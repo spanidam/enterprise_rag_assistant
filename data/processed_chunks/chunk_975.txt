@@ -1,0 +1,25 @@
+from keras.models import Sequential
+from keras.utils import set_random_seed
+set_random_seed(0)
+model = Sequential([
+InputLayer(input_shape=(4, )),
+Dense(units=256, activation="relu"),
+Dense(units=256, activation="relu"),
+Dense(units=256, activation="relu"),
+Dense(units=3, activation="softmax")
+])
+n_epochs = 100
+model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
+h = model.fit(X, y, epochs=n_epochs, batch_size=30, verbose=0)
+Let us now standardize our data and compare performance:
+X -= X.mean(axis=0)
+X /= X.std(axis=0)
+set_random_seed(0)
+model = Sequential([
+InputLayer(input_shape=(4, )),
+Dense(units=256, activation="relu"),
+Dense(units=256, activation="relu"),
+Dense(units=256, activation="relu"),
+Dense(units=3, activation="softmax")
+])
+n_epochs = 100

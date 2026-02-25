@@ -1,0 +1,13 @@
+15(12):62–80, 1982.
+44. C.S.G. Lee, R. C. Gonzales, and K. S. Fu. Tutorial on Robotics. IEEE
+Computer Society Press, Silver Spring, MD, 1983.
+45. C.S.G. Lee and M. Ziegler. A geometric approach in solving the inverse kine-
+matics of puma robots. IEEE Trans. Aero and Elect Sys, AES-20(6):695–
+706.
+46. Ming Lin and Dinesh Manocha. Eﬃcient contact determination in dynamic
+environments. International Journal of Computational Geometry and Ap-
+plications, 7(1):123–151, 1997.
+47. T. Lozano-Perez. Spatial planning: A conﬁguration space approach. IEEE
+Transactions on Computers, February 1983.
+48. E. Malis, F. Chaumette, and S. Boudet. 2-1/2-d visual servoing. IEEE
+Trans. on Robotics and Automation, 15(2):238–250, April 1999.

@@ -1,0 +1,12 @@
+tic search, dynamic programming, and branch-and-bound. In L. N. Kanal
+and V. Kumar (eds.), Search in Artiﬁcial Intelligence, pp. 1–37. Springer-
+Verlag, Berlin.
+Kushner, H. J., Dupuis, P. (1992). Numerical Methods for Stochastic Control
+Problems in Continuous Time. Springer-Verlag, New York.
+Lai, T. L., Robbins, H. (1985). Asymptotically eﬃcient adaptive allocation
+rules. Advances in applied mathematics, 6(1):4–22.
+Lang, K. J., Waibel, A. H., Hinton, G. E. (1990). A time-delay neural network
+architecture for isolated word recognition. Neural Networks, 3:33–43.
+Lin, C.-S., Kim, H. (1991). CMAC-based adaptive critic self-learning control.
+IEEE Transactions on Neural Networks, 2:530–533.
+Lin, L.-J. (1992). Self-improving reactive agents based on reinforcement learn-

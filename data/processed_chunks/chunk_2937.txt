@@ -1,0 +1,20 @@
+Robinson (1965). The resolution rule is a sound and complete rule for deductive 
+inference in first-order logic. Therefore, it is sensible to ask whether we can invert 
+the resolution rule to form an inverse entailment operator. The answer is yes, and 
+it is just this operator that forms the basis of the CIGOL program introduced by 
+Muggleton and Buntine (1988). 
+It is easiest to introduce the resolution rule in propositional form, though it is 
+readily extended to first-order representations. Let L be an arbitrary propositional 
+literal, and let P  and R  be arbitrary propositional clauses. The resolution rule is 
+P
+V
+L
+ 
+-L 
+v 
+R  
+P
+V
+R
+ 
+which should be read as follows: Given the two clauses above the line, conclude

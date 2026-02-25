@@ -1,0 +1,16 @@
+make decisions based on the input and the intended goal of
+the interaction. Agents are based on LLMs equipped with the
+ability to access and use tools, and to make decisions based on
+the given input. They are designed to handle tasks that require
+a degree of autonomy and decision-making, typically beyond
+simple response generation.
+The functionalities of a generic LLM-based agent include:
+•
+Tool Access and Utilization: Agents have the capabil-
+ity to access external tools and services, and to utilize
+these resources effectively to accomplish tasks.
+•
+Decision Making: They can make decisions based on
+the input, context, and the tools available to them,
+often employing complex reasoning processes.
+As an example, an LLM that has access to a function (or

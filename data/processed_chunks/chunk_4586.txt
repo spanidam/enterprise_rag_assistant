@@ -1,0 +1,12 @@
+make the solution simpler and consistent with broad generalization. But since
+this was just a test problem, a more naive, direct representation was used in
+terms of the positions and velocities of the links: θ1, ˙θ1, θ2, and ˙θ2. The two
+angles are restricted to a limited range by the physics of the acrobot (see Fig-
+ure 14.5) and the two angles are naturally restricted to [0, 2π]. Thus, the state
+space in this task is a bounded rectangular region in four dimensions.
+This leaves the question of what tilings to use. There are many possi-
+bilities, as discussed in Chapter 9.
+One is to use a complete grid, slicing
+the four-dimensional space along all dimensions, and thus into many small
+four-dimensional tiles.
+Alternatively, one could slice along only one of the

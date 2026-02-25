@@ -1,0 +1,14 @@
+Replacing traces are due to Singh and Sutton (1996). Dutch traces are
+due to van Seijen and Sutton (2014, in prep).
+Eligibility traces came into reinforcement learning via the fecund ideas
+of Klopf (1972).
+Our use of eligibility traces was based on Klopf’s
+work (Sutton, 1978a, 1978b, 1978c; Barto and Sutton, 1981a, 1981b;
+Sutton and Barto, 1981a; Barto, Sutton, and Anderson, 1983; Sutton,
+1984). We may have been the ﬁrst to use the term “eligibility trace”
+(Sutton and Barto, 1981). The idea that stimuli produce aftereﬀects
+in the nervous system that are important for learning is very old. See
+Section 14.??.
+7.4
+The episode-by-episode equivalence of forward and backward views,
+and the relationships to Monte Carlo methods, were proved by Sutton

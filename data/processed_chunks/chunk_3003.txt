@@ -1,0 +1,11 @@
+state-space search problems. In this chapter we consider the special case in which 
+explanations are generated from prior knowledge that is perfectly correct, as it is 
+for us humans in the above chess example. In Chapter 12 we consider the more 
+general case of learning when prior knowledge is only approximately correct. 
+11.1.1 Inductive and Analytical Learning Problems 
+The essential difference between analytical and inductive learning methods is that 
+they assume two different formulations of the learning problem: 
+0 In inductive learning, the learner is given a hypothesis space H from which 
+it must select an output hypothesis, and a set of training examples D = 
+{(xl, f ( x ~ ) ) ,  
+. . . (x,, f (x,))} where f (xi) is the target value for the instance

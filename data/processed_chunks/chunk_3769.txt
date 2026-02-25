@@ -1,0 +1,10 @@
+mization methods have been used to approach reinforcement learning problems
+without ever appealing to value functions. These methods evaluate the “life-
+time” behavior of many non-learning agents, each using a diﬀerent policy for
+interacting with its environment, and select those that are able to obtain the
+most reward. We call these evolutionary methods because their operation is
+analogous to the way biological evolution produces organisms with skilled be-
+havior even when they do not learn during their individual lifetimes. If the
+space of policies is suﬃciently small, or can be structured so that good policies
+are common or easy to ﬁnd—or if a lot of time is available for the search—then
+evolutionary methods can be eﬀective. In addition, evolutionary methods have

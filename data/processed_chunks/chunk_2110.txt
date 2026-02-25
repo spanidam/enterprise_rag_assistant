@@ -1,0 +1,13 @@
+Dietterich, T. G., Kearns, M., & Mansour, Y. (1996). Applying the weak learning framework to 
+understand and improve C4.5. Proceedings of the 13th International Conference on Machine 
+Learning (pp. 96104). San Francisco: Morgan Kaufmann. 
+Fayyad, U. M. (1991). On the induction of decision trees for multiple concept leaning, (Ph.D. dis- 
+sertation). EECS Department, University of Michigan. 
+C
+m
+ 
+3 DECISION TREE LEARNING 79 
+Fayyad, U. M., & Irani, K. B. (1992). On the handling of continuous-valued attributes in decision 
+tree generation. Machine Learning, 8, 87-102. 
+Fayyad, U. M., & Irani, K. B. (1993). Multi-interval discretization of continuous-valued attributes 
+for classification learning. In R. Bajcsy (Ed.), Proceedings of the 13th International Joint

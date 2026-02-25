@@ -1,0 +1,17 @@
+For nonsingular conﬁgurations, the Jacobian relationship can be used to ﬁnd
+the joint velocities ˙q necessary to achieve a desired end-eﬀector velocity ξ The
+minimum norm solution is given by
+˙q = J+ξ
+in which J+ = JT (JJT )−1 is the right pseudoinverse of J.
+Manipulability is deﬁned by µ = σ1σ2 · · · σm in which σi are the singular
+values for the manipulator Jacobian. The manipulatibility can be used to char-
+acterize the range of possible end-eﬀector velocities for a given conﬁguration
+q.
+146
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+Problems
+4-1 Verify Equation (4.6) by direct calculation.
+4-2 Verify Equation (4.7) by direct calculation.
+4-3 Verify Equation (4.8) by direct calculation.
+4-4 Verify Equation (4.16) by direct calculation.
+4-5 Show that S(k)3 = −S(k).

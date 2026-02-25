@@ -1,0 +1,11 @@
+More precisely, suppose the current rule being considered is 
+where L1.. . L, are literals forming the current rule preconditions and where 
+P(x1, x2, . . . , xk) is the literal that forms the rule head, or postconditions. FOIL 
+generates candidate specializations of this rule by considering new literals L,+I 
+that fit one of the following forms: 
+Q(vl, . . . , v,), where Q is any predicate name occurring in Predicates and 
+where the vi are either new variables or variables already present in the rule. 
+At least one of the vi in the created literal must already exist as a variable 
+in the rule. 
+a Equal(xj, xk), where xi and xk are variables already present in the rule. 
+0 The negation of either of the above forms of literals.

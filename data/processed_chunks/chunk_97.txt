@@ -1,0 +1,64 @@
+R0
+1
+=
+
+
+1
+√
+2
+1
+√
+2
+0
+0
+0
+1
+1
+√
+2
+−1
+√
+2
+0
+
+
+(2.8)
+z0
+x1
+y1
+y0, z1
+45◦
+x0
+Fig. 2.4
+Deﬁning the relative orientation of two frames.
+⋄
+2.3
+ROTATIONAL TRANSFORMATIONS
+Figure 2.5 shows a rigid object S to which a coordinate frame o1x1y1z1 is
+attached. Given the coordinates p1 of the point p (i.e., given the coordinates of
+p with respect to the frame o1x1y1z1), we wish to determine the coordinates of
+p relative to a ﬁxed reference frame o0x0y0z0. The coordinates p1 = (u, v, w)T
+satisfy the equation
+p = ux1 + vy1 + wz1
+In a similar way, we can obtain an expression for the coordinates p0 by project-
+ing the point p onto the coordinate axes of the frame o0x0y0z0, giving
+p0 =
+
+
+p · x0
+p · y0
+p · z0
+
+
+38
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+y1
+z1
+z0
+x0
+x1
+o
+y0
+S
+p
+Fig. 2.5

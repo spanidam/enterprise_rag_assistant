@@ -1,0 +1,12 @@
+divided into two groups (background and object), and that the intensities of
+the pixels in a particular group should all be fairly similar. To quantify this
+idea, we will use some standard techniques from statistics. Thus, we begin the
+section with a quick review of the necessary concepts from statistics and then
+proceed to describe the threshold selection algorithm.
+11.3.1
+A Brief Statistics Review
+Many approaches to segmentation exploit statistical information contained in
+the image. In this section, we brieﬂy review some of the more useful statistical
+concepts that are used by segmentation algorithms.
+The basic premise for most of these statistical concepts is that the gray level
+value associated with a pixel in an image is a random variable that takes on

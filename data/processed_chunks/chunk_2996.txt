@@ -1,0 +1,10 @@
+based learning uses prior knowledge to reduce the complexity of the hypothesis 
+space to be searched, thereby reducing sample complexity and improving gener- 
+alization accuracy of the learner. 
+To capture the intuition underlying explanation-based learning, consider the 
+task of learning to play chess. In particular, suppose we would like our chess 
+program to learn to recognize important classes of game positions, such as the 
+target concept "chessboard positions in which black will lose its queen within 
+two moves." Figure 11.1 shows a positive training example of this target concept. 
+Inductive learning methods could, of course, be employed to learn this target 
+concept. However, because the chessboard is fairly complex (there are 32 pieces

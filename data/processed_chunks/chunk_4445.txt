@@ -1,0 +1,10 @@
+Our goal in value prediction is potentially diﬀerent because our ultimate pur-
+pose is to use the predictions to aid in ﬁnding a better policy. The best pre-
+dictions for that purpose are not necessarily the best for minimizing RMSE.
+However, it is not yet clear what a more useful alternative goal for value pre-
+diction might be. For now, we continue to focus on RMSE.
+An ideal goal in terms of RMSE would be to ﬁnd a global optimum, a
+parameter vector w∗for which RMSE(w∗) ≤RMSE(w) for all possible w.
+Reaching this goal is sometimes possible for simple function approximators
+such as linear ones, but is rarely possible for complex function approximators
+such as artiﬁcial neural networks and decision trees. Short of this, complex

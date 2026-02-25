@@ -1,0 +1,16 @@
+(conditional, loops) and generation seamlessly.
+PromptTools [238] offers a set of open-source, self-
+hostable tools for experimenting with, testing, and evaluating
+LLMs, vector databases, and prompts. The core idea is to
+enable developers to evaluate using familiar interfaces like
+code, notebooks, and a local playground.
+PromptBench [?] is a Pytorch-based Python package for
+Evaluation of Large Language Models (LLMs). It provides
+user-friendly APIs for researchers to conduct evaluation on
+LLMs.
+Promptfoo [239] is a tool for testing and evaluating LLM
+output quality. It systematically test prompts, models, and
+RAGs with predefined test cases.
+D. VectorDB
+Faiss [240] is a library developed by Facebook AI Re-
+search that provides efficient similarity search and clustering

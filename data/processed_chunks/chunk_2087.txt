@@ -1,0 +1,9 @@
+the highest information gain of any of the attributes. This is because Date alone 
+perfectly predicts the target attribute over the training data. Thus, it would be 
+selected as the decision attribute for the root node of the tree and lead to a (quite 
+broad) tree of depth one, which perfectly classifies the training data. Of course, 
+this decision tree would fare poorly on subsequent examples, because it is not a 
+useful predictor despite the fact that it perfectly separates the training data. 
+What is wrong with the attribute Date? Simply put, it has so many possible 
+values that it is bound to separate the training examples into very small subsets. 
+Because of this, it will have a very high information gain relative to the training

@@ -1,0 +1,13 @@
+masked language modeling. Courtesy of [46].
+CODEX, and WebGPT. Although early GPT models, such as
+GPT-1 and GPT-2, are open-source, recent models, such as
+GPT-3 and GPT-4, are close-source and can only be accessed
+via APIs. GPT-1 and GPT-2 models have been discussed in
+the early PLM subsection. We start with GPT-3 below.
+GPT-3 [56] is a pre-trained autoregressive language model
+with 175 billion parameters. GPT-3 is widely considered as
+the first LLM in that not only it is much larger than previous
+PLMs, but also for the first time demonstrates emergent
+abilities that are not observed in previous smaller PLMs. GPT-
+3 shows the emergent ability of in-context learning, which
+means GPT-3 can be applied to any downstream tasks without

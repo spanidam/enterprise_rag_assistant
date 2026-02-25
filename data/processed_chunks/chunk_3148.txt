@@ -1,0 +1,10 @@
+the network weights derived from the domain theory. Notice the new dependency of Lifable on 
+MadeOfStyrofoam and HandleOnTop. 
+indicating negligible weights. Although the initial network rnisclassifies several 
+training examples from Table 12.3, the refined network of Figure 12.3 perfectly 
+classifies all of these training examples. 
+It is interesting to compare the final, inductively refined network weights to 
+the initial weights derived from the domain theory. As can be seen in Figure 12.3, 
+significant new dependencies were discovered during the inductive step, including 
+the dependency of the Liftable unit on the feature MadeOfStyrofoam. It is impor- 
+tant to keep in mind that while the unit labeled Liftable was initially defined

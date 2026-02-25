@@ -1,0 +1,29 @@
+machine learning, 4 
+Artificial neural networks. See Neural 
+networks, artificial 
+ASSISTANT, 77 
+Astronomical structures, machine learning 
+classification of, 3 
+Attributes: 
+choice of, in sequential vs. simultaneous 
+covering algorithms, 280-281 
+continuous-valued, 72-73 
+cost-sensitive measures, 75-76 
+discrete-valued, 72 
+measures for selection of, 73-74, 77 
+missing values, strategies for, 75 
+Autonomous vehicles, 3, 4, 82-83, 84 
+Average reward, 371 
+Backgammon learning program. See 
+TD-GAMMON 
+BACKPROPAGATION 
+algorithm, 83,97, 124 
+applications of, 81, 84, 85, 96, 113 
+convergence and local minima, 104-105 
+definition of, 98 
+discovery of hidden layer representations, 
+106-109, 123 
+feedforward networks as hypothesis 
+space, 105-106 
+gradient descent search, 89, 115-1 16, 
+123

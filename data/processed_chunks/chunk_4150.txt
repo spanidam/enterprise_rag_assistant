@@ -1,0 +1,25 @@
+as in the previous section. Now we only achieve the best policy among the
+ε-soft policies, but on the other hand, we have eliminated the assumption of
+exploring starts. The complete algorithm is given in Figure 5.6.
+5.5. OFF-POLICY PREDICTION VIA IMPORTANCE SAMPLING
+127
+Initialize, for all s ∈S, a ∈A(s):
+Q(s, a) ←arbitrary
+Returns(s, a) ←empty list
+π(a|s) ←an arbitrary ε-soft policy
+Repeat forever:
+(a) Generate an episode using π
+(b) For each pair s, a appearing in the episode:
+G ←return following the ﬁrst occurrence of s, a
+Append G to Returns(s, a)
+Q(s, a) ←average(Returns(s, a))
+(c) For each s in the episode:
+a∗←arg maxa Q(s, a)
+For all a ∈A(s):
+π(a|s) ←
+ 1 −ε + ε/|A(s)|
+if a = a∗
+ε/|A(s)|
+if a ̸= a∗
+Figure 5.6: An on-policy ﬁrst-visit MC control algorithm for ε-soft policies.
+5.5

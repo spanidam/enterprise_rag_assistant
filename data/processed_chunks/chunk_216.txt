@@ -1,0 +1,14 @@
+reader can ﬁnd more detailed treatment of the general case in [32] [34] [61] [72].
+In general the complexity of the inverse kinematics problem increases with
+the number of nonzero link parameters. For most manipulators, many of the
+ai, di are zero, the αi are 0 or ±π/2, etc. In these cases especially, a geometric
+90
+FORWARD AND INVERSE KINEMATICS
+approach is the simplest and most natural. The general idea of the geometric
+approach is to solve for joint variable qi by projecting the manipulator onto the
+xi−1 −yi−1 plane and solving a simple trigonometry problem. For example, to
+solve for θ1, we project the arm onto the x0 −y0 plane and use trigonometry
+to ﬁnd θ1. We will illustrate this method with two important examples: the
+articulated and spherical arms.
+3.3.3.1
+Articulated Conﬁguration

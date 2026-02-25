@@ -1,0 +1,9 @@
+(with high probability) that its true error errorD(hb,,,) will be no more than 
+E + errorg (hbest)? Notice the question considered in the previous section is just a 
+special case of this question, when errorD(hb,,) happens to be zero. 
+This question can be answered (see Exercise 7.3) using an argument analo- 
+gous to the proof of Theorem 7.1. It is useful here to invoke the general Hoeffding 
+bounds (sometimes called the additive Chernoff bounds). The Hoeffding bounds 
+characterize the deviation between the true probability of some event and its ob- 
+served frequency over m independent trials. More precisely, these bounds apply 
+to experiments involving m distinct Bernoulli trials (e.g., m independent flips of a

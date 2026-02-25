@@ -1,0 +1,22 @@
+dent if the wheel rolls without slipping. Examples include
+• A unicycle
+• An automobile, tractor/trailer, or wheeled mobile robot
+• Manipulation of rigid objects
+2. In systems where angular momentum is conserved. Examples include
+• Space robots
+• Satellites
+• Gymnastic robots
+Example: 10.7 The Unicycle. The unicycle is equivalent to a wheel rolling
+on a plane and is thus the simplest example of a nonholonomic system. Refering
+to Figure 10.5 we see that the conﬁguration of the unicycle is deﬁned by the
+variables x,y, θ and φ, where x and y denote the Cartesian position of the
+ground contact point, θ denotes the heading angle and φ denotes the angle of
+the wheel measured from the vertical. The rolling without slipping condition
+means that
+˙x −r cos θ ˙φ
+=
+0
+˙y −r sin θ ˙φ
+=
+0
+(10.107)

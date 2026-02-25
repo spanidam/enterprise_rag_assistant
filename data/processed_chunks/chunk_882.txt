@@ -1,0 +1,37 @@
+express this in terms of its determinant as
+det(JJT −λiI) = 0.
+(B.32)
+We can use Equation (B.32) to ﬁnd the eigenvalues λ1 ≥λ2 · · · ≥λm ≥0 for
+JJT . The singular values for the Jacobian matrix J are given by the square
+roots of the eigenvalues of JJT ,
+σi =
+p
+λi.
+(B.33)
+The singular value decomposition of the matrix J is then given by
+J = UΣV T ,
+(B.34)
+in which
+U = [u1u2 . . . um] , V = [v1v2 . . . vn]
+(B.35)
+are orthogonal matrices, and Σ ∈Rm×n.
+Σ =
+
+
+σ1
+σ2
+.
+.
+σm
+
+0
+
+
+.
+(B.36)
+We can compute the SVD of J as follows. We begin by ﬁnding the singular
+values, σi, of J using Equations (B.32) and (B.33). These singular values can
+then be used to ﬁnd the eigenvectors u1, · · · um that satisfy
+JJT ui = σ2
+i ui.
+(B.37)

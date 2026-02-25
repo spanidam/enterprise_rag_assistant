@@ -1,0 +1,27 @@
+4. What is the correct way to modify the element "Tom" to "Tim" in the following list?
+name_list = ["Carla", "Monique", "Westin", "Tom"]
+a.
+name_list[-1] = "Tim"
+b.
+name_list[4] = "Tim"
+c.
+name_list[end] = "Tim"
+TRY IT
+List basics
+Write a program to complete the following:
+1.
+Create a list with the following elements: 2, 23, 39, 6, -5.
+2.
+Change the third element of the list (index 2) to 35.
+3.
+Print the resulting list and the list's length.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/3-4-list-
+basics)
+3.5 Tuple basics
+Learning objectives
+By the end of this section you should be able to
+•
+Describe the features and benefits of a tuple.
+•
+Develop a program that creates and uses a tuple successfully.
+•

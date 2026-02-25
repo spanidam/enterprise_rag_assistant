@@ -1,0 +1,10 @@
+training error. Notice that m depends logarithmically on H and on 116, as it did 
+in the more restrictive case of Equation (7.2). However, in this less restrictive 
+situation m now grows as the square of 116, rather than linearly with 116. 
+7.3.2 Conjunctions of Boolean Literals Are PAC-Learnable 
+Now that we have a bound indicating the number of training examples sufficient 
+to probably approximately learn the target concept, we can use it to determine the 
+sample complexity and PAC-learnability of some specific concept classes. 
+Consider the class C of target concepts described by conjunctions of boolean 
+literals. A boolean literal is any boolean variable (e.g., Old), or its negation (e.g., 
+-Old). Thus, conjunctions of boolean literals include target concepts such as

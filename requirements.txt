@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+llama-index
+chromadb
+faiss-cpu
+sentence-transformers
+pymupdf
+python-docx
+numpy
+pandas
+pydantic
+streamlit
+tqdm
+

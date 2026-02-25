@@ -1,0 +1,11 @@
+For a given robot manipulator, one can always choose the frames 0, . . . , n in
+such a way that the above two conditions are satisﬁed. In certain circumstances,
+this will require placing the origin oi of frame i in a location that may not be
+intuitively satisfying, but typically this will not be the case. In reading the
+material below, it is important to keep in mind that the choices of the various
+coordinate frames are not unique, even when constrained by the requirements
+above. Thus, it is possible that diﬀerent engineers will derive diﬀering, but
+equally correct, coordinate frame assignments for the links of the robot. It is
+very important to note, however, that the end result (i.e., the matrix T 0
+n) will
+be the same, regardless of the assignment of intermediate link frames (assuming

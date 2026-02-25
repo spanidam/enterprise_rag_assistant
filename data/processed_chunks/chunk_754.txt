@@ -1,0 +1,12 @@
+are functioning.
+11
+COMPUTER VISION
+If a robot is to interact with its environment, then the robot must be able
+to sense its environment. Computer vision is one of the most powerful sensing
+modalities that currently exist. Therefore, in this chapter we present a number
+of basic concepts from the ﬁeld of computer vision. It is not our intention here
+to cover the now vast ﬁeld of computer vision. Rather, we aim to present a num-
+ber of basic techniques that are applicable to the highly constrained problems
+that often present themselves in industrial applications. The material in this
+chapter, when combined with the material of previous chapters, should enable
+the reader to implement a rudimentary vision-based robotic manipulation sys-

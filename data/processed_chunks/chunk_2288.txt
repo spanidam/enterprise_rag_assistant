@@ -1,0 +1,13 @@
+methods for learning conjunctions of feature constraints? 
+REFERENCES 
+Bishop, C. M. (1996). Neural networks for pattern recognition. Oxford, England: Oxford University 
+Press. 
+Chauvin, Y., & Rumelhart, D. (1995). BACKPROPAGATION: 
+Theory, architectures, and applications 
+(edited collection). Hillsdale, NJ: Lawrence Erlbaum Assoc. 
+Churchland, P. S., & Sejnowski, T. J. (1992). The computational brain. Cambridge, MA: The MIT 
+Press. 
+Cyhenko, G. (1988). Continuous valued neural networks with two hidden layers are sufficient (Tech- 
+nical Report). Department of Computer Science, Tufts University, Medford, MA. 
+Cybenko, G. (1989). Approximation by superpositions of a sigmoidal function. Mathematics of Con- 
+trol, Signals, and Systems, 2, 303-3 14.

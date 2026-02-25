@@ -1,0 +1,18 @@
+generalized coordinates are not the joint variables deﬁned in earlier chapters.
+Consider again the planar elbow manipulator, but suppose now that both joints
+are driven by motors mounted at the base. The ﬁrst joint is turned directly by
+one of the motors, while the other is turned via a gearing mechanism or a timing
+belt (see Figure 6.8). In this case one should choose the generalized coordinates
+Fig. 6.8
+Two-link revolute joint arm with remotely driven link.
+as shown in Figure 6.9, because the angle p2 is determined by driving motor
+y0
+x0
+x2
+y2
+p2
+p1
+Fig. 6.9
+Generalized coordinates for robot of Figure 6.4.
+number 2, and is not aﬀected by the angle p1. We will derive the dynamical
+equations for this conﬁguration, and show that some simpliﬁcations will result.

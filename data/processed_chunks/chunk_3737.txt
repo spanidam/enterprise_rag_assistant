@@ -1,0 +1,11 @@
+ment responds to what we do, and we seek to inﬂuence what happens through
+our behavior.
+Learning from interaction is a foundational idea underlying
+nearly all theories of learning and intelligence.
+In this book we explore a computational approach to learning from inter-
+action. Rather than directly theorizing about how people or animals learn, we
+explore idealized learning situations and evaluate the eﬀectiveness of various
+learning methods. That is, we adopt the perspective of an artiﬁcial intelligence
+researcher or engineer. We explore designs for machines that are eﬀective in
+solving learning problems of scientiﬁc or economic interest, evaluating the
+designs through mathematical analysis or computational experiments. The

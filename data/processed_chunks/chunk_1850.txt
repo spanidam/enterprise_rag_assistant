@@ -1,0 +1,11 @@
+(V,,ain(b) - e(b)) is positive (i.e., when f(b) is too low), then each weight is 
+increased in proportion to the value of its corresponding feature. This will raise 
+the value of ?(b), reducing the error. Notice that if the value of some feature 
+xi is zero, then its weight is not altered regardless of the error, so that the only 
+weights updated are those whose features actually occur on the training example 
+board. Surprisingly, in certain settings this simple weight-tuning method can be 
+proven to converge to the least squared error approximation to the &,in values 
+(as discussed in Chapter 4). 
+1.2.5 The Final Design 
+The final design of our checkers learning system can be naturally described by four 
+distinct program modules that represent the central components in many learning

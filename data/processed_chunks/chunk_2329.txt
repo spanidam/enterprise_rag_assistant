@@ -1,0 +1,13 @@
+(5.5) 
+The variance describes the expected squared error in using a single obser- 
+vation of Y to estimate its mean E[Y]. The square root of the variance is called 
+the standard deviation of Y ,  denoted oy . 
+Definition: The standard deviation of a random variable Y ,  u y ,  is 
+In case the random variable Y is governed by a Binomial distribution, then the 
+variance and standard deviation are given by 
+5.3.4 Estimators, Bias, and Variance 
+Now that we have shown that the random variable errors(h) obeys a Binomial 
+distribution, we return to our primary question: What is the likely difference 
+between errors(h) and the true error errorv(h)? 
+Let us describe errors(h) and errorv(h) using the terms in Equation (5.2) 
+defining the Binomial distribution. We then have

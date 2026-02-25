@@ -1,0 +1,23 @@
+8-7 Add an outer loop correction term ∆v to the control law of Problem 8-6
+to overcome the eﬀects of uncertainty. Base your design on the Second
+Method of Lyapunov as in Section ??.
+8-8 Consider the coupled nonlinear system
+¨y1 + 3y1y2 + y2
+2
+=
+u1 + y2u2
+¨y2 + cos y1 ˙y2 + 3(y1 −y2)
+=
+u2 −3(cos y1)2y2u1
+where u1, u2 are the inputs and y1, y2 are the outputs.
+a) What is the dimension of the state space?
+b) Choose state variables and write the system as a system of ﬁrst order
+diﬀerential equations in state space.
+c) Find an inverse dynamics control so that the closed loop system is
+linear and decoupled, with each subsystem having natural frequency
+10 radians and damping ratio 1/2.
+9
+FORCE CONTROL
+9.1
+INTRODUCTION
+In previous chapters we considered the problem of tracking motion trajectories

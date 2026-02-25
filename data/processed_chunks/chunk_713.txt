@@ -1,0 +1,95 @@
+and write the system (10.59) as
+˙x1
+=
+x2
+˙x2
+=
+−MgL
+I
+sin(x1) −k
+I (x1 −x3)
+˙x3
+=
+x4
+˙x4
+=
+k
+J (x1 −x3) + 1
+J u
+(10.61)
+The system is thus of the form (10.35) with
+f(x) =
+
+
+x2
+−MgL
+I
+sin(x1) −k
+I (x1 −x3)
+x4
+k
+J (x1 −x3)
+
+
+g(x) =
+
+
+0
+0
+0
+1
+J
+
+
+(10.62)
+Therefore n = 4 and the necessary and suﬃcient conditions for feedback lin-
+earization of this system are that
+rank
+
+g, adf(g), ad2
+f(g), ad3
+f(g)
+
+=
+4
+(10.63)
+and that the set
+{g, adf(g), ad2
+f(g)}
+(10.64)
+be involutive.
+Performing the indicated calculations it is easy to check that
+(Problem 10-6)
+[g, adf(g), ad2
+f(g), ad3
+f(g)]
+=
+
+
+0
+0
+0
+k
+IJ
+0
+0
+k
+IJ
+0
+0
+1
+J
+0
+−k
+J2
+1
+J
+0
+−k
+J2
+0
+
+
+(10.65)
+which has rank 4 for k > 0, I, J < ∞. Also, since the vector ﬁelds {g, adf(g),
+ad2

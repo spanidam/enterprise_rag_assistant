@@ -1,0 +1,12 @@
+discussed in Chapter 11. In many practical problems, such as robot control, it 
+is impossible for the agent or its human programmer to predict in advance the 
+exact outcome of applying an arbitrary action to an arbitrary state. Imagine, for 
+example, the difficulty in describing 6 for a robot arm shoveling dirt when the 
+resulting state includes the positions of the dirt particles. In cases where either 
+6 or r is unknown, learning V* is unfortunately of no use for selecting optimal 
+actions because the agent cannot evaluate Equation (13.3). What evaluation func- 
+tion should the agent use in this more general setting? The evaluation function Q, 
+defined in the following section, provides one answer. 
+374 
+MACHINE LEARNING 
+13.3.1 The Q Function

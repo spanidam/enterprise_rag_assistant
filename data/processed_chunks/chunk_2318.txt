@@ -1,0 +1,10 @@
+algorithms. Even more important, these same notions provide an important con- 
+ceptual framework for understanding machine learning issues such as overfitting 
+and the relationship between successful generalization and the number of training 
+examples considered. The reader who is already familiar with these notions may 
+skip or skim this section without loss of continuity. The key concepts introduced 
+in this section are summarized in Table 5.2. 
+5.3.1 Error Estimation and Estimating Binomial Proportions 
+Precisely how does the deviation between sample error and true error depend 
+on the size of the data sample? This question is an instance of a well-studied 
+problem in statistics: the problem of estimating the proportion of a population that

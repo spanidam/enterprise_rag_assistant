@@ -1,0 +1,28 @@
+c.
+Error
+TRY IT
+Reading from a file
+Open the file test.txt and print the file's contents.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+14-1-reading-from-files)
+330
+14 • Files
+Access for free at openstax.org
+TRY IT
+Reading from a file line by line
+The file input.txt is shown. The file represents a set of integers. Line 1 of the file specifies how many
+integers follow. Write a program that reads from this file and determines the average of the numbers
+following the first line.
+input.txt
+n: 5
+25
+13
+4
+6
+19
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+14-1-reading-from-files)
+14.2 Writing to files
+Learning objectives
+By the end of this section you should be able to
+•

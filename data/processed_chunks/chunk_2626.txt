@@ -1,0 +1,11 @@
+Definition: The Vapnik-Chervonenkis dimension, V C ( H ) ,  of hypothesis space H  
+defined over instance space X is the size of the largest finite subset of X shattered 
+by H .  If arbitrarily large finite sets of X can be shattered by H, then V C ( H )  = oo. 
+Note that for any finite H, VC(H) 5 log2 IHI. To see this, suppose that 
+VC(H) = d. Then H will require 2d distinct hypotheses to shatter d instances. 
+Hence, 2d 5 IHI, andd = VC(H) slog2(H(. 
+7.4.2.1 
+ILLUSTRATIW EXAMPLES 
+In order to develop an intuitive feeling for VC(H), consider a few example hy- 
+pothesis spaces. To get started, suppose the instance space X is the set of real 
+numbers X = 8 (e.g., describing the height of people), and H the set of inter-

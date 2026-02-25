@@ -1,0 +1,40 @@
+x-axis.
+11.2.2
+Intrinsic Camera Parameters
+Using the pinhole model, we obtained the following equations that map the
+coordinates of a point expressed with respect to the camera frame to the cor-
+responding pixel coordinates:
+r = −u
+sx
++ or,
+c = −v
+sy
++ oc,
+u = λx
+z
+v = λy
+z .
+(11.13)
+336
+COMPUTER VISION
+These equations can be combined to give
+r = −λ
+sx
+x
+z + or,
+c = −λ
+sy
+y
+z + oc,
+(11.14)
+Thus, once we know the values of the parameters λ, sx, or, sy, oc we can deter-
+mine (r, c) from (x, y, z), where (x, y, z) are coordinates relative to the camera
+frame. In fact, we don’t need to know all of λ, sx, sy; it is suﬃcient to know the
+ratios
+fx = −λ
+sx
+fy = −λ
+sy
+.
+(11.15)
+These parameters, fx, or, fy, oc are known as the intrinsic parameters of the

@@ -1,0 +1,9 @@
+domain theory consisting of Horn clauses, and the target hypothesis is refined by 
+calculating the weakest conditions under which this explanation holds. Relevant 
+dependencies in the explanation are thus captured in the learned Horn clause hy- 
+pothesis. EBNN constructs an analogous explanation, but it is based on a domain 
+theory consisting of neural networks rather than Horn clauses. As in PROLOG-EBG, 
+relevant dependencies are then extracted from the explanation and used to refine 
+the target hypothesis. In the case of EBNN, these dependencies take the form 
+of derivatives because derivatives are the natural way to represent dependencies 
+in continuous functions such as neural networks. In contrast, the natural way to

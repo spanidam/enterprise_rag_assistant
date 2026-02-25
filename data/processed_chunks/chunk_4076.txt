@@ -1,0 +1,10 @@
+backup (4.10). If 0 ≤γ < 1, asymptotic convergence to v∗is guaranteed given
+only that all states occur in the sequence {sk} an inﬁnite number of times
+(the sequence could even be stochastic). (In the undiscounted episodic case,
+it is possible that there are some orderings of backups that do not result in
+convergence, but it is relatively easy to avoid these.) Similarly, it is possible
+to intermix policy evaluation and value iteration backups to produce a kind
+of asynchronous truncated policy iteration. Although the details of this and
+other more unusual DP algorithms are beyond the scope of this book, it is clear
+that a few diﬀerent backups form building blocks that can be used ﬂexibly in
+a wide variety of sweepless DP algorithms.

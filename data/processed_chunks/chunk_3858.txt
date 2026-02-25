@@ -1,0 +1,10 @@
+ods, we compared them numerically on a suite of test problems. This was a
+set of 2000 randomly generated n-armed bandit tasks with n = 10. For each
+bandit, the action values, q(a), a = 1, . . . , 10, were selected according to a
+normal (Gaussian) distribution with mean 0 and variance 1. On tth time step
+with a given bandit, the actual reward Rt was the q(At) for the bandit (where
+At was the action selected) plus a normally distributed noise term that was
+mean 0 and variance 1. Averaging over bandits, we can plot the performance
+and behavior of various methods as they improve with experience over 1000
+steps, as in Figure 2.1. We call this suite of test tasks the 10-armed testbed.
+Figure 2.1 compares a greedy method with two ε-greedy methods (ε = 0.01

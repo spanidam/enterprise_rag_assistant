@@ -1,0 +1,12 @@
+a guess before turning to the answer in Figure 6.14.
+Example 6.6:
+CliﬀWalking
+This gridworld example compares Sarsa
+and Q-learning, highlighting the diﬀerence between on-policy (Sarsa) and oﬀ-
+policy (Q-learning) methods. Consider the gridworld shown in the upper part
+of Figure 6.13. This is a standard undiscounted, episodic task, with start and
+goal states, and the usual actions causing movement up, down, right, and left.
+Reward is −1 on all transitions except those into the the region marked “The
+Cliﬀ.” Stepping into this region incurs a reward of −100 and sends the agent
+instantly back to the start. The lower part of the ﬁgure shows the performance
+of the Sarsa and Q-learning methods with ε-greedy action selection, ε = 0.1.

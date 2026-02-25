@@ -1,0 +1,11 @@
+by the c-valued attribute A. Note that Splitlnfomzation is actually the entropy of 
+S with respect to the values of attribute A. This is in contrast to our previous 
+uses of entropy, in which we considered only the entropy of S with respect to the 
+target attribute whose value is to be predicted by the learned tree. 
+The Gain Ratio measure is defined in terms of the earlier Gain measure, as 
+well as this Splitlnfomzation, as follows 
+Gain (S, A) 
+GainRatio(S, A) r Split Inf ormation(S, A) 
+Notice that the Splitlnfomzation term discourages the selection of attributes with 
+many uniformly distributed values. For example, consider a collection of n ex- 
+amples that are completely separated by attribute A (e.g., Date). In this case, the

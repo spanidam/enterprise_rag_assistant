@@ -1,0 +1,10 @@
+nal adversary, that is, in the case of a “game against nature.” Reinforcement
+learning also is not restricted to problems in which behavior breaks down into
+separate episodes, like the separate games of tic-tac-toe, with reward only at
+the end of each episode. It is just as applicable when behavior continues indef-
+initely and when rewards of various magnitudes can be received at any time.
+Reinforcement learning is also applicable to problems that do not even break
+down into discrete time steps, like the plays of tic-tac-toe. The general princi-
+ples apply to continuous-time problems as well, although the theory gets more
+complicated and we omit it from this introductory treatment.
+Tic-tac-toe has a relatively small, ﬁnite state set, whereas reinforcement

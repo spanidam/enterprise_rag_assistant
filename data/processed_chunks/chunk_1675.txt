@@ -1,0 +1,34 @@
+quartiles, and outliers
+Summarizing the
+distribution of the data
+and comparing different
+variables.
+Table 15.7 Common visualization types.
+CHECKPOINT
+Visualization types
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+15-5-data-visualization)
+CONCEPTS IN PRACTICE
+Comparing visualization methods
+1. Which of the following plot types is best suited for comparing the distribution of a continuous variable?
+a.
+scatter plot
+b.
+histogram plot
+c.
+line plot
+2. Which of the following plot types is best suited for visualizing outliers and quartiles of a continuous
+variable?
+a.
+histogram plot
+b.
+bar plot
+c.
+box plot
+3. Which of the following plot types is effective for displaying trends and changes over time?
+a.
+line plot
+b.
+bar plot
+c.
+histogram plot

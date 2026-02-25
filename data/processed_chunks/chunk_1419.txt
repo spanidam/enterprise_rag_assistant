@@ -1,0 +1,31 @@
+8-5-splittingjoining-strings)
+CONCEPTS IN PRACTICE
+Examples of string delimiters and split() method
+1. What is the output of print("1*2*3*".split('*'))?
+a.
+["1", "*", "2", "*", "3", "*"]
+8.5 • Splitting/joining strings
+217
+b.
+["1", "2', "3"]
+c.
+[1, 2, 3]
+2. What is the output of print("a year includes 12 months".split())?
+a.
+["a year includes 12 months"]
+b.
+["a", "year", "includes", 12, "months"]
+c.
+["a", "year", "includes", "12", "months"]
+3. What is the output of the following code?
+s = """This is a test"""
+out = s.split()
+print(out)
+a.
+Error
+b.
+['This', 'is', 'a', 'test']
+c.
+>['This', 'is a', 'test']
+join()
+The join() method is the inverse of the split() method: a list of string values are concatenated together to

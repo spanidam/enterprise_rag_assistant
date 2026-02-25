@@ -1,0 +1,126 @@
+0
+s4
+0
+c4
+0
+0
+−1
+0
+0
+0
+0
+0
+1
+
+
+(3.21)
+A5
+=
+
+
+c5
+0
+s5
+0
+s5
+0
+−c5
+0
+0
+−1
+0
+0
+0
+0
+0
+1
+
+
+(3.22)
+A6
+=
+
+
+c6
+−s6
+0
+0
+s6
+c6
+0
+0
+0
+0
+1
+d6
+0
+0
+0
+1
+
+
+(3.23)
+FORWARD KINEMATICS: THE DENAVIT-HARTENBERG CONVENTION
+83
+T 0
+6 is then given as
+T 0
+6
+=
+A1 · · · A6
+(3.24)
+=
+
+
+r11
+r12
+r13
+dx
+r21
+r22
+r23
+dy
+r31
+r32
+r33
+dz
+0
+0
+0
+1
+
+
+(3.25)
+where
+r11
+=
+c1[c2(c4c5c6 −s4s6) −s2s5c6] −d2(s4c5c6 + c4s6)
+r21
+=
+s1[c2(c4c5c6 −s4s6) −s2s5c6] + c1(s4c5c6 + c4s6)
+r31
+=
+−s2(c4c5c6 −s4s6) −c2s5c6
+r12
+=
+c1[−c2(c4c5s6 + s4c6) + s2s5s6] −s1(−s4c5s6 + c4c6)
+r22
+=
+−s1[−c2(c4c5s6 + s4c6) + s2s5s6] + c1(−s4c5s6 + c4c6)
+r32
+=
+s2(c4c5s6 + s4c6) + c2s5s6
+r13
+=
+c1(c2c4s5 + s2c5) −s1s4s5
+r23
+=
+s1(c2c4s5 + s2c5) + c1s4s5
+r33
+=
+−s2c4s5 + c2c5
+dx
+=
+c1s2d3 −s1d2 + +d6(c1c2c4s5 + c1c5s2 −s1s4s5)
+dy
+=

@@ -1,0 +1,16 @@
+TABLE 5.6 
+Values  oft^," for two-sided confidence intervals. As v + w, t ~ , "  
+approaches ZN. 
+5.6.1 Paired t Tests 
+Above we described one procedure for comparing two learning methods given a 
+fixed set of data. This section discusses the statistical justification for this proce- 
+dure, and for the confidence interval defined by Equations (5.17) and (5.18). It 
+can be skipped or skimmed on a first reading without loss of continuity. 
+The best way to understand the justification for the confidence interval es- 
+timate given by Equation (5.17) is to consider the following estimation problem: 
+0 
+0 
+a 
+This 
+We are given the observed values of a set of independent, identically dis- 
+tributed random variables YI, Y2, . . . , Yk.

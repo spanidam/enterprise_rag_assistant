@@ -1,0 +1,19 @@
+R0
+6(q1, . . . , q6)
+=
+R
+(3.37)
+o0
+6(q1, . . . , q6)
+=
+o
+(3.38)
+where o and R are the desired position and orientation of the tool frame, ex-
+pressed with respect to the world coordinate system. Thus, we are given o and
+R, and the inverse kinematics problem is to solve for q1, . . . , q6.
+The assumption of a spherical wrist means that the axes z3, z4, and z5
+intersect at oc and hence the origins o4 and o5 assigned by the DH-convention
+will always be at the wrist center oc. Often o3 will also be at oc, but this is
+not necessary for our subsequent development. The important point of this
+assumption for the inverse kinematics is that motion of the ﬁnal three links
+about these axes will not change the position of oc, and thus, the position of

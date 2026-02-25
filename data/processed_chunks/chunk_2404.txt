@@ -1,0 +1,12 @@
+probable hypothesis. P(Dlh) is often called the likelihood of the data D given h, 
+and any hypothesis that maximizes P(Dlh) is called a maximum likelihood (ML) 
+hypothesis, hML. 
+hML = argmax P(Dlh) 
+h €H  
+In order to make clear the connection to machine learning problems, we 
+introduced Bayes theorem above by referring to the data D as training examples of 
+some target function and referring to H as the space of candidate target functions. 
+In fact, Bayes theorem is much more general than suggested by this discussion. It 
+can be applied equally well to any set H of mutually exclusive propositions whose 
+probabilities sum to one (e.g., "the sky is blue," and "the sky is not blue"). In this 
+chapter, we will at times consider cases where H is a hypothesis space containing

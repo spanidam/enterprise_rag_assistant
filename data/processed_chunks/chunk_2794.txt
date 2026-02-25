@@ -1,0 +1,14 @@
+chosen, 
+then the two resulting offspring will be 
+and 
+As this example illustrates, this crossover operation enables offspring to 
+contain a different number of rules than their parents, while assuring that all 
+bit strings generated in this fashion represent well-defined rule sets. 
+Fitness function. The fitness of each hypothesized rule set is based on its 
+classification accuracy over the training data. In particular, the function used 
+to measure fitness is 
+where correct (h) is the percent of all training examples correctly classified 
+by hypothesis h. 
+In experiments comparing the behavior of GABIL to decision tree learning 
+algorithms such as C4.5 and ID5R, and to the rule learning algorithm AQ14, 
+DeJong et al. (1993) report roughly comparable performance among these systems,

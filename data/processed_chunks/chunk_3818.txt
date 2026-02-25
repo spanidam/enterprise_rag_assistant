@@ -1,0 +1,11 @@
+task under conditions of incomplete knowledge. It inﬂuenced much later work
+in reinforcement learning, beginning with some of our own studies (Barto,
+Sutton, and Anderson, 1983; Sutton, 1984). Michie has consistently empha-
+sized the role of trial and error and learning as essential aspects of artiﬁcial
+intelligence (Michie, 1974).
+Widrow, Gupta, and Maitra (1973) modiﬁed the Least-Mean-Square (LMS)
+algorithm of Widrow and Hoﬀ(1960) to produce a reinforcement learning rule
+that could learn from success and failure signals instead of from training exam-
+ples. They called this form of learning “selective bootstrap adaptation” and
+described it as “learning with a critic” instead of “learning with a teacher.”
+They analyzed this rule and showed how it could learn to play blackjack. This

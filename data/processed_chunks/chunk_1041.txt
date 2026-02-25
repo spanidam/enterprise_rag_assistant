@@ -1,0 +1,12 @@
+diverse learner audience, including those pursuing computer science, business, science, social science,
+statistics, data science, and related areas of study and employment.
+Preface
+1
+Introduction to Python Programming is an interactive offering that teaches basic programming concepts,
+problem-solving skills, and the Python language using hands-on activities. The resource includes a unique,
+integrated code runner, through which students can immediately apply what they learn to check their
+understanding. Embedded videos, critical thinking exercises, and explorations of external programming tools
+and activities all contribute to a meaningful and supportive learning experience.
+The content is organized in chapters, with each chapter containing 6-8 sections. Each section follows the
+pattern:
+•

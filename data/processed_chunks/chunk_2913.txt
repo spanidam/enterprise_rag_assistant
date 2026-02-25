@@ -1,0 +1,12 @@
+(z, y), and the negations of each of these literals (e.g., -Equal(x, y)). Note that 
+z is a new-variable here, whereas x and y exist already within the current rule. 
+Now suppose that among the above literals FOIL greedily selects Father- 
+( y ,  z )  as the most promising, leading to the more specific rule 
+GrandDaughter(x, y) t 
+Father(y, z) 
+In generating candidate literals to further specialize this rule, FOIL will now con- 
+sider all of the literals mentioned in the previous step, plus the additional literals 
+Female(z), Equal(z, x), Equal(z, y), Father(z, w ) ,  Father(w, z), and their nega- 
+tions. These new literals are considered at this point because the variable z was 
+added to the rule in the previous step. Because of this, FOIL now considers an 
+additional new variable w .

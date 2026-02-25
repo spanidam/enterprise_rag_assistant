@@ -1,0 +1,11 @@
+atively approximate Q (Watkins 1989). To describe the algorithm, we will use 
+the symbol Q to refer to the learner's estimate, or hypothesis, of the actual Q 
+function. In this algorithm the learner represents its hypothesis Q by a large table 
+with a separate entry for each state-action pair. The table entry for the pair (s, a) 
+stores the value for ~ ( s ,  
+a)-the 
+learner's current hypothesis about the actual 
+but unknown value Q(s, a). The table can be initially filled with random values 
+(though it is easier to understand the algorithm if one assumes initial values of 
+zero). The agent repeatedly observes its current state s, chooses some action a, 
+executes this action, then observes the resulting reward r = r(s, a) and the new

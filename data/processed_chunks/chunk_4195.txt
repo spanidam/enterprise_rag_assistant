@@ -1,0 +1,10 @@
+are −1 for each step that stays on the track, and −5 if the agent tries to drive
+oﬀthe track. Actually leaving the track is not allowed, but the position is
+always advanced by at least one cell along either the horizontal or vertical
+axes. With these restrictions and considering only right turns, such as shown
+in the ﬁgure, all episodes are guaranteed to terminate, yet the optimal policy
+is unlikely to be excluded. To make the task more challenging, we assume that
+on half of the time steps the position is displaced forward or to the right by
+one additional cell beyond that speciﬁed by the velocity. Apply a Monte Carlo
+control method to this task to compute the optimal policy from each starting
+state. Exhibit several trajectories following the optimal policy.

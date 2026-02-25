@@ -1,0 +1,22 @@
+18
+Chapter 3. Losses
+CHAPTER 4
+OPTIMIZATION
+In this chapter, we will present variants of the Gradient Descent optimization strategy and show how they can be used
+to optimize neural network parameters.
+Let us start with the basic Gradient Descent algorithm and its limitations.
+® Algorithm 1 (Gradient Descent)
+Input: A dataset 𝒟= (𝑋, 𝑦)
+1. Initialize model parameters 𝜃
+2. for 𝑒= 1..𝐸
+1. for (𝑥𝑖, 𝑦𝑖) ∈𝒟
+1. Compute prediction
+̂𝑦𝑖= 𝑚𝜃(𝑥𝑖)
+2. Compute gradient ∇𝜃ℒ𝑖
+2. Compute overall gradient ∇𝜃ℒ= 1
+𝑛∑𝑖∇𝜃ℒ𝑖
+3. Update parameters 𝜃based on ∇𝜃ℒ
+The typical update rule for the parameters 𝜃at iteration 𝑡is
+𝜃(𝑡+1) ←𝜃(𝑡) −𝜌∇𝜃ℒ
+where 𝜌is an important hyper-parameter of the method, called the learning rate. Basically, gradient descent updates 𝜃in
+the direction of steepest decrease of the loss ℒ.

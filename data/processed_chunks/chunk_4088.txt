@@ -1,0 +1,14 @@
+memory and computation is impractical, yet the problem is still potentially
+solvable because only a relatively few states occur along optimal solution tra-
+jectories. Asynchronous methods and other variations of GPI can be applied in
+such cases and may ﬁnd good or optimal policies much faster than synchronous
+4.8. SUMMARY
+107
+methods can.
+4.8
+Summary
+In this chapter we have become familiar with the basic ideas and algorithms of
+dynamic programming as they relate to solving ﬁnite MDPs. Policy evaluation
+refers to the (typically) iterative computation of the value functions for a
+given policy. Policy improvement refers to the computation of an improved
+policy given the value function for that policy. Putting these two computations

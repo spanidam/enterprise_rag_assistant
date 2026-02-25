@@ -1,0 +1,41 @@
+plt.bar(categories,
+values)
+# Customize the chart
+plt.title("Number of
+students in each
+course')
+plt.xlabel("Courses")
+plt.ylabel("Number of
+students")
+# Display the chart
+plt.show()
+Table 15.8 Matplotlib functionalities. Bar plot.
+370
+15 • Data Science
+Access for free at openstax.org
+Plot type
+Method
+Line plot
+The plt.plot(x, y) function takes in two inputs, x and y, and plots
+lines connecting pairs of (x, y) values.
+Example
+Output
+import matplotlib.pyplot
+as plt
+# Data
+month = ["Jan", "Feb",
+"Mar", "Apr", "May"]
+inflation = [6.41, 6.04,
+4.99, 4.93, 4.05]
+# Create the line chart
+plt.plot(month, inflation,
+marker="o",
+linestyle="-",
+color="blue")
+# Customize the chart
+plt.title("Inflation trend
+in 2023")
+plt.xlabel("Month")
+plt.ylabel("Inflation")
+# Display the chart
+plt.show()

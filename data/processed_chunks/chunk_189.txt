@@ -1,0 +1,107 @@
+frame o2x2y2z2 is ﬁxed by choosing the origin o2 at the end of link 2 as shown.
+The DH parameters are shown in Table 3.1. The A-matrices are determined
+76
+FORWARD AND INVERSE KINEMATICS
+Table 3.1
+Link parameters for 2-link planar manipulator
+Link
+ai
+αi
+di
+θi
+1
+a1
+0
+0
+θ∗
+1
+2
+a2
+0
+0
+θ∗
+2
+∗variable
+from (3.10) as
+A1
+=
+
+
+c1
+−s1
+0
+a1c1
+s1
+c1
+0
+a1s1
+0
+0
+1
+0
+0
+0
+0
+1
+
+
+A2
+=
+
+
+c2
+−s2
+0
+a2c2
+s2
+c2
+0
+a2s2
+0
+0
+1
+0
+0
+0
+0
+1
+
+
+The T-matrices are thus given by
+T 0
+1
+=
+A1
+T 0
+2
+=
+A1A2 =
+
+
+c12
+−s12
+0
+a1c1 + a2c12
+s12
+c12
+0
+a1s1 + a2s12
+0
+0
+1
+0
+0
+0
+0
+1
+
+
+Notice that the ﬁrst two entries of the last column of T 0
+2 are the x and y
+components of the origin o2 in the base frame; that is,
+x
+=
+a1c1 + a2c12
+y
+=
+a1s1 + a2s12

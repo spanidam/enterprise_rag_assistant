@@ -1,0 +1,28 @@
+compute a time–varying scalar bound, ρ(e, t) ≥0, on the uncertainty η, i.e.,
+||η|| ≤ρ(e, t)
+(8.50)
+and design the additional input term δa to guarantee ultimate boundedness of
+the state trajectory x(t) in (8.48).
+Returning to our expression for the uncertainty
+η
+=
+E¨q + M −1( ˜C ˙q + ˜g)
+(8.51)
+=
+Eδa + E(¨qd −KP e −KD ˙e) + M −1( ˜C ˙q + ˜g)
+(8.52)
+we assume a bound of the form
+||η|| ≤α||δa|| + γ1||e|| + γ2||e||2 + γ3
+(8.53)
+where α = ||E|| = ||M −1 ˆ
+M −I|| and γi are nonnegative constants. Assuming
+for the moment that ||δa|| ≤ρ(e, t), which must then be checked a posteriori,
+we have
+||η|| ≤αρ(e, t) + γ1||e|| + γ2||e||2 + γ3 =: ρ(e, t)
+(8.54)
+which deﬁnes ρ as
+ρ(e, t) =
+1
+1 −α(γ1||e|| + γ2||e||2 + γ3)
+(8.55)
+Since KP and KD are chosen in so that A in (8.48) is a Hurwitz matrix, we

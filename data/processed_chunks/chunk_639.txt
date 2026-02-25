@@ -1,0 +1,39 @@
+˙V yields
+˙V
+=
+rT M ˙r + 1
+2rT ˙Mr + 2˜qT ΛK˙˜q
+(8.79)
+=
+−rT Kr + 2˜qT ΛK ˙˜q + 1
+2rT ( ˙M −2C)r + rT Y (˜θ + u)
+(8.80)
+Using the passivity property and the deﬁnition of r, this reduces to
+˙V
+=
+−˜qT ΛT KΛ˜q −˙˜qT K ˙˜q + rT Y (˜θ + u)
+(8.81)
+Deﬁning w = Y T r and
+Q =
+
+ΛT KΛ
+0
+0
+ΛK
+
+(8.82)
+ROBUST AND ADAPTIVE MOTION CONTROL
+277
+and mimicking the argument in the previous section, we have
+˙V
+=
+−eT Qe + wT (u + ˜θ)
+(8.83)
+=
+−eT Qe + wT (u + ρ w
+||w||)
+(8.84)
+Uniform ultimate boundedness of the tracking error follows with the control u
+from (8.77) exactly as in the proof of Theorem 1.
+Comparing this approach with the approach in the section (8.4.1), we see
+that ﬁnding a constant bound ρ for the constant vector ˜θ is much simpler

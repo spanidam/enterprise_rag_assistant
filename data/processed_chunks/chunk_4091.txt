@@ -1,0 +1,11 @@
+the policy as given and performs some form of policy evaluation, changing the
+value function to be more like the true value function for the policy. The other
+process takes the value function as given and performs some form of policy
+improvement, changing the policy to make it better, assuming that the value
+function is its value function. Although each process changes the basis for the
+other, overall they work together to ﬁnd a joint solution: a policy and value
+function that are unchanged by either process and, consequently, are optimal.
+In some cases, GPI can be proved to converge, most notably for the classical
+DP methods that we have presented in this chapter. In other cases convergence
+has not been proved, but still the idea of GPI improves our understanding of
+the methods.

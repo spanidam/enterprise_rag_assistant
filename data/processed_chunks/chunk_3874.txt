@@ -1,0 +1,11 @@
+methods with constant α, the bias is permanent, though decreasing over time
+as given by (2.6). In practice, this kind of bias is usually not a problem, and
+can sometimes be very helpful.
+The downside is that the initial estimates
+become, in eﬀect, a set of parameters that must be picked by the user, if only
+to set them all to zero. The upside is that they provide an easy way to supply
+some prior knowledge about what level of rewards can be expected.
+Initial action values can also be used as a simple way of encouraging ex-
+ploration. Suppose that instead of setting the initial action values to zero, as
+we did in the 10-armed testbed, we set them all to +5. Recall that the q(a)
+in this problem are selected from a normal distribution with mean 0 and vari-

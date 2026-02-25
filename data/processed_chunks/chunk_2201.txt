@@ -1,0 +1,11 @@
+cussed in Section 4.4.3.3, the stochastic approximation to gradient descent 
+effectively descends a different error surface for each training example, re- 
+CHAPTER 4 ARTIFICIAL NEURAL NETWORKS 105 
+lying on the average of these to approximate the gradient with respect to the 
+full training set. These different error surfaces typically will have different 
+local minima, making it less likely that the process will get stuck in any one 
+of them. 
+0 Train multiple networks using the same data, but initializing each network 
+with different random weights. If the different training efforts lead to dif- 
+ferent local minima, then the network with the best performance over a 
+separate validation data set can be selected. Alternatively, all networks can

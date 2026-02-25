@@ -1,0 +1,40 @@
+232
+9 • Lists
+Access for free at openstax.org
+EXAMPLE 9.4
+Iterating a list-of-lists
+The code below demonstrates how to iterate a list-of-lists.
+The outer loop on line 9 goes element by element for the larger list. Each element in the larger list is a list.
+The inner loop on line 10 iterates through each element in each nested list.
+1
+"""Iterating a list-of-lists."""
+2
+3
+# Create a list of numbers
+4
+list1 = [[1, 2, 3],
+5
+[1, 4, 9],
+6
+[1, 8, 27]]
+7
+8
+# Iterating the list-of-lists
+9
+for row in list1:
+10
+for num in row:
+11
+print(num, end=" ")
+12
+print()
+The above code's output is:
+1 2 3
+1 4 9
+1 8 27
+CONCEPTS IN PRACTICE
+Iterating a list-of-lists
+For each question below, consider the following list:
+my_list = [[7, 4, 5, 12],
+[24, 3, 9, 16],
+[12, 8, 91, -5]]

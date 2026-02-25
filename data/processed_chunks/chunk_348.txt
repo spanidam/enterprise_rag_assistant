@@ -1,0 +1,47 @@
+deﬁne a potential that goes to inﬁnity at obstacle boundaries, and drops to zero
+at a certain distance from the obstacle. If we deﬁne ρ0 to be the distance of
+inﬂuence of an obstace (i.e., an obstacle will not repel the robot if the distance
+from the robot to the obstacle is greater that ρ0), one potential that meets
+these criteria is given by
+Urep(q) =
+
+
+
+
+
+
+
+1
+2η
+ 1
+ρ(q) −1
+ρ0
+2
+:
+ρ(q) ≤ρ0
+0
+:
+ρ(q) > ρ0
+(5.7)
+in which ρ(q) is the shortest distance from q to a conﬁguration space obstacle
+boundary, and η is a scalar gain coeﬃcient that determines the inﬂuence of
+the repulsive ﬁeld. If QO consists of a single convex region, the corresponding
+repulsive force is given by the negative gradient of the repulsive ﬁeld,
+Frep(q) =
+
+
+
+
+
+
+
+η
+ 1
+ρ(q) −1
+ρ0
+
+1
+ρ2(q)∇ρ(q)
+:
+ρ(q) ≤ρ0
+0

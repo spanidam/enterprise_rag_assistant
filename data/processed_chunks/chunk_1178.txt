@@ -1,0 +1,13 @@
+9.765625 cups all-purpose flour
+7.8125 cups sourdough starter
+1.953125 cups lukewarm water
+In the above output, bread_weight is 16.0 ounces, serving_size is 2.5 ounces, and num_guests is 25
+people. Use these three variables to calculate the number of loaves needed.
+Make sure your output matches the above example exactly. Notice that each line of the ingredients begins
+with two spaces.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+2-9-chapter-summary)
+TRY IT
+Tip calculator
+Google has a variety of search tricks (https://openstax.org/r/100googletricks) that present users with
+instant results. If you search on Google for tip calculator (https://openstax.org/r/100tipcalculatr), an

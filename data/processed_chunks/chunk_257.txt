@@ -1,0 +1,47 @@
+4.2.2
+The Derivative of a Rotation Matrix
+Suppose now that a rotation matrix R is a function of the single variable θ.
+Hence R = R(θ) ∈SO(3) for every θ. Since R is orthogonal for all θ it follows
+that
+R(θ)R(θ)T
+=
+I
+(4.10)
+Diﬀerentiating both sides of Equation (4.10) with respect to θ using the product
+rule gives
+dR
+dθ R(θ)T + R(θ)dRT
+dθ
+=
+0
+(4.11)
+Let us deﬁne the matrix S as
+S
+:=
+dR
+dθ R(θ)T
+(4.12)
+Then the transpose of S is
+ST
+=
+dR
+dθ R(θ)T
+T
+= R(θ)dRT
+dθ
+(4.13)
+Equation (4.11) says therefore that
+S + ST
+=
+0
+(4.14)
+118
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+In other words, the matrix S deﬁned by Equation (4.12) is skew symmetric.
+Multiplying both sides of Equation (4.12) on the right by R and using the fact
+that RT R = I yields
+dR
+dθ
+=
+SR(θ)
+(4.15)

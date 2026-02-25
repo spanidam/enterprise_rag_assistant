@@ -1,0 +1,35 @@
+a global variable inside a function, the variable must be declared with the global keyword.
+CHECKPOINT
+Editing global variables in a program with a function
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-3-variable-scope)
+CONCEPTS IN PRACTICE
+Using both local and global variables
+Consider the following variations on the example program with the input 9.
+7. What is the output?
+def update_hour():
+tmp = hour
+if is_dst:
+tmp += 1
+else:
+tmp -= 1
+is_dst = True
+hour = int(input("Enter hour: "))
+update_hour()
+print("New hour:", hour)
+a.
+New hour: 9
+b.
+New hour: 10
+c.
+Error
+8. What is the output?
+def update_hour():
+new_hour = hour
+if is_dst:
+new_hour += 1
+else:
+new_hour -= 1
+is_dst = True
+hour = int(input("Enter hour: "))
+update_hour()

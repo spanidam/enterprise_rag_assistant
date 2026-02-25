@@ -1,0 +1,11 @@
+trees. Belmont, CA: Wadsworth International Group. 
+Brodley, C. E., & Utgoff, P. E. (1995). Multivariate decision trees. Machine Learning, 19, 45-77. 
+Buntine, W., & Niblett, T. (1992). A further comparison of splitting rules for decision-tree induction. 
+Machine Learning, 8, 75-86. 
+Cestnik, B., Kononenko, I., & Bratko, I. (1987). ASSISTANT-86: A knowledge-elicitation tool for 
+sophisticated users. In I. Bratko & N. LavraE (Eds.), Progress in machine learning. Bled, 
+Yugoslavia: Sigma Press. 
+Dietterich, T. G., Hild, H., & Bakiri, G. (1995). A comparison of ID3 and BACKPROPAGATION 
+for 
+English text-to-speech mapping. Machine Learning, 18(1), 51-80. 
+Dietterich, T. G., Kearns, M., & Mansour, Y. (1996). Applying the weak learning framework to

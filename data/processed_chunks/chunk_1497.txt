@@ -1,0 +1,13 @@
+11.2 Classes and instances
+Learning objectives
+By the end of this section you should be able to
+•
+Create a class with instance attributes, class attributes, and the __init__() method.
+•
+Use a class definition to create class instances to represent objects.
+Classes and instances
+In the previous section, a real-world entity, like a person's social media profile, was modeled as a single object.
+How could a programmer develop a software system that manages millions of profiles? A blueprint that
+defines the fields and procedures of a profile would be crucial.
+In a Python program, a class defines a type of object with attributes (fields) and methods (procedures). A class
+is a blueprint for creating objects. Individual objects created of the class type are called instances.

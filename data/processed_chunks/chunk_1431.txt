@@ -1,0 +1,20 @@
+9-1-modifying-and-iterating-lists)
+TRY IT
+Simple Searching
+Write a program that prints "found!" if "soccer" is found in the given list.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+9-1-modifying-and-iterating-lists)
+9.2 Sorting and reversing lists
+Learning objectives
+By the end of this section you should be able to
+•
+Understand the concept of sorting.
+•
+Use built-in sort() and reverse() methods.
+Sorting
+Ordering elements in a sequence is often useful. Sorting is the task of arranging elements in a sequence in
+ascending or descending order.
+Sorting can work on numerical or non-numerical data. When ordering text, dictionary order is used. Ex: "bat"
+comes before "cat" because "b" comes before "c".
+CHECKPOINT
+Sorting

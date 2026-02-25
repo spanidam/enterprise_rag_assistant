@@ -1,0 +1,11 @@
+planning, the derived quantity called value is the one with which we are most
+concerned. Unfortunately, it is much harder to determine values than it is to
+determine rewards. Rewards are basically given directly by the environment,
+but values must be estimated and re-estimated from the sequences of obser-
+vations an agent makes over its entire lifetime. In fact, the most important
+component of almost all reinforcement learning algorithms we consider is a
+method for eﬃciently estimating values. The central role of value estimation
+is arguably the most important thing we have learned about reinforcement
+learning over the last few decades.
+The fourth and ﬁnal element of some reinforcement learning systems is
+a model of the environment. This is something that mimics the behavior of

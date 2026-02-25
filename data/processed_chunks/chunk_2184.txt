@@ -1,0 +1,11 @@
+gorithm). ak is simply the familiar (tk - ok) from the delta rule, multiplied by 
+the factor ok(l - ok), which is the derivative of the sigmoid squashing function. 
+The ah value for each hidden unit h has a similar form (Equation [T4.4] in the 
+algorithm). However, since training examples provide target values tk only for 
+network outputs, no target values are directly available to indicate the error of 
+hidden units' values. Instead, the error term for hidden unit h is calculated by 
+summing the error terms Jk for each output unit influenced by h, weighting each 
+of the ak's by wkh, the weight from hidden unit h to output unit k. This weight 
+characterizes the degree to which hidden unit h is "responsible for" the error in 
+output unit k. 
+I

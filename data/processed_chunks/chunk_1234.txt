@@ -1,0 +1,38 @@
+if (days < 30) or is_damaged:
+# Process refund
+a.
+yes
+b.
+no
+6. For what values of age is there no discount?
+if (age < 12) or (age > 65):
+# Apply student/senior discount
+a.
+age >= 12
+b.
+age <= 65
+c.
+(age >= 12) and (age <= 65)
+7. Given a = 9 and b = 10, does the test pass?
+if (a%2 == 0 and b%2 == 1) or (a%2 == 1 and b%2 == 0):
+102
+4 • Decisions
+Access for free at openstax.org
+# Test passed
+else:
+# Test failed
+a.
+yes
+b.
+no
+Logical operator: not
+If the computer is not on, press the power button. The not operator takes one condition operand and returns
+True when the operand is false and returns False when the operand is true.
+not is a useful operator that can make a condition more readable and can be used to toggle a Boolean's value.
+Ex: is_on = not is_on.
+p
+not p
+True
+False
+False
+True

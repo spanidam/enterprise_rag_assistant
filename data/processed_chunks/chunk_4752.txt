@@ -1,0 +1,15 @@
+Young, P. (1984). Recursive Estimation and Time-Series Analysis. Springer-
+Verlag, Berlin.
+Zhang, M., Yum, T. P. (1989). Comparisons of channel-assignment strategies
+in cellular mobile telephone systems.
+IEEE Transactions on Vehicular
+Technology, 38:211-215.
+Zhang, W. (1996). Reinforcement Learning for Job-shop Scheduling. Ph.D.
+thesis, Oregon State University. Technical Report CS-96-30-1.
+Zhang, W., Dietterich, T. G. (1995).
+A reinforcement learning approach to
+job-shop scheduling. In Proceedings of the Fourteenth International Joint
+Conference on Artiﬁcial Intelligence, pp. 1114–1120. Morgan Kaufmann.
+Zhang, W., Dietterich, T. G. (1996). High-performance job-shop scheduling
+with a time–delay TD(λ) network.
+In D. S. Touretzky, M. C. Mozer,

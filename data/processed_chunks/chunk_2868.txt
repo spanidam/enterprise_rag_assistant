@@ -1,0 +1,18 @@
+than growing a subtree that covers all 
+possible values of the selected attribute. 
+This approach to implementing LEARN-ONE-RULE 
+performs a general-to- 
+specific search through the space of possible rules in search of a rule with high 
+accuracy, though perhaps incomplete coverage of the data. As in decision tree 
+learning, there are many ways to define a measure to select the "best" descendant. 
+To follow the lead of ID3 let us for now define the best descendant as the one 
+whose covered examples have the lowest entropy (recall Equation f3.31). 
+The general-to-specific search suggested above for the LEARN-ONE-RULE 
+al- 
+gorithm is a greedy depth-first search with no backtracking. As with any greedy 
+IF 
+THEN PlayTennis=yes 
+IF Wind=strong 
+t 
+IF Humidity=high 
+THEN PlayTennis=no

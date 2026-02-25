@@ -1,0 +1,19 @@
+is True when x is the daughter of y, and False otherwise. Suppose each person 
+in the data is described by the attributes Name, Mother, Father, Male, Female. 
+Hence, each training example will consist of the description of two people in 
+terms of these attributes, along with the value of the target attribute Daughter. 
+For example, the following is a positive example in which Sharon is the daughter 
+of Bob: 
+(Namel = Sharon, 
+Motherl = Louise, 
+Fatherl = Bob, 
+Malel = False, 
+Female1 = True, 
+Name2 = Bob, 
+Mother2 = Nora, 
+Father2 = Victor, 
+Male2 = True, 
+Female2 = False, 
+Daughterl.2 = True) 
+where the subscript on each attribute name indicates which of the.two persons is 
+being described. Now if we were to collect a number of such training examples for

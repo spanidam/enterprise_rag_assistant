@@ -1,0 +1,10 @@
+this precisely, let D denote the particular set of training examples available to 
+the learner, in contrast to D, 
+which denotes the probability distribution over the 
+entire set of instances. Let errorD(h) denote the training error of hypothesis h. 
+In particular, error~(h) is defined as the fraction of the training examples in 
+D that are misclassified by h. Note the errorD(h) over the particular sample of 
+training data D may differ from the true error errorv(h) over the entire probability 
+distribution 2). Now let hb,,, denote the hypothesis from H having lowest training 
+error over the training examples. How many training examples suffice to ensure 
+(with high probability) that its true error errorD(hb,,,) will be no more than

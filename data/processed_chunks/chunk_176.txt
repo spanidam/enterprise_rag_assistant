@@ -1,0 +1,47 @@
+coordinates of o0x0y0z0, and we obtain
+o0
+1
+=
+o0
+0 + dz0
+0 + ax0
+1
+=
+
+
+0
+0
+0
+
++ d
+
+
+0
+0
+1
+
++ a
+
+
+cθ
+sθ
+0
+
+
+=
+
+
+acθ
+asθ
+d
+
+
+Combining the above results, we obtain (3.10) as claimed. Thus, we see that
+four parameters are suﬃcient to specify any homogeneous transformation that
+satisﬁes the constraints (DH1) and (DH2).
+Now that we have established that each homogeneous transformation matrix
+satisfying conditions (DH1) and (DH2) above can be represented in the form
+(3.10), we can in fact give a physical interpretation to each of the four quantities
+in (3.10). The parameter a is the distance between the axes z0 and z1, and is
+measured along the axis x1. The angle α is the angle between the axes z0 and
+z1, measured in a plane normal to x1. The positive sense for α is determined

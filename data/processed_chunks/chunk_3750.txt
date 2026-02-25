@@ -1,0 +1,11 @@
+ing is the closest to the kind of learning that humans and other animals do,
+and many of the core algorithms of reinforcement learning were originally in-
+spired by biological learning systems. And reinforcement learning has also
+given back, both through a psychological model of animal learning that better
+matches some of the empirical data, and through an inﬂuential model of parts
+of the brain’s reward system. The body of this book develops the ideas of
+reinforcement learning that pertain to engineering and artiﬁcial intelligence,
+with connections to psychology and neuroscience summarized in Chapters ??
+and ??.
+Finally, reinforcement learning is also part of a larger trend in artiﬁcial
+intelligence back toward simple general principles. Since the late 1960’s, many

@@ -1,0 +1,55 @@
+⋄
+12.3.2
+Constructing the Interaction Matrix
+To simplify notation, we deﬁne the coordinates for p relative to the camera frame
+as p = (x, y, z)T . By this convention, the velocity of p relative to the moving
+frame is merely the vector ˙p = ( ˙x, ˙y, ˙z)T .
+We will denote the coordinates
+for the angular velocity vector by ωc = (ωx, ωy, ωz)T = RT ω.
+To further
+simplify notation, we assign coordinates RT ˙O = (vx, vy, vz)T =
+˙Oc.
+Using
+these conventions, we can write Equation (12.6) as
+
+
+˙x
+˙y
+˙z
+
+= −
+
+
+ωx
+ωy
+ωz
+
+×
+
+
+x
+y
+z
+
+−
+
+
+vx
+vy
+vz
+
+
+which can be written as the system of three equations
+˙x
+=
+yωz −zωy −vx
+(12.7)
+˙y
+=
+zωx −xωz −vy
+(12.8)
+˙z
+=
+xωy −yωx −vz
+(12.9)
+Assuming that the imaging geometry can be modeled by perspective pro-

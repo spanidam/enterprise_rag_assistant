@@ -1,0 +1,9 @@
+the target function when training examples are provided, instance-based learning 
+methods simply store the training examples. Generalizing beyond these examples 
+is postponed until a new instance must be classified. Each time a new query 
+instance is encountered, its relationship to the previously stored examples is ex- 
+amined in order to assign a target function value for the new instance. Instance- 
+based learning includes nearest neighbor and locally weighted regression meth- 
+ods that assume instances can be represented as points in a Euclidean space. It 
+also includes case-based reasoning methods that use more complex, symbolic rep- 
+resentations for instances. Instance-based methods are sometimes referred to as

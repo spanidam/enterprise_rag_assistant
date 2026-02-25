@@ -1,0 +1,12 @@
+307
+space will undoubtedly turn out to have far greater complexity and greater
+internal structure than is now apparent. There are also other dimensions along
+which reinforcement learning can be extended, we have not yet mentioned,
+that lead to a much larger space of methods. Here we identify some of these
+dimensions and note some of the open questions and frontiers that have been
+left out of the preceding chapters.
+One of the most important extensions of reinforcement learning beyond
+what we have treated in this book is to eliminate the requirement that the
+state representation have the Markov property. There are a number of inter-
+esting approaches to the non-Markov case. Most strive to construct from the
+given state signal and its past values a new signal that is Markov, or more

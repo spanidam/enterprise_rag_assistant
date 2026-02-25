@@ -1,0 +1,15 @@
+the output would be:
+The secret message is: FDW
+Hint: Use the ord() function to convert each letter to an integer, add the shift amount to each integer, use
+the chr() function to convert each integer to a character, and concatenate the resulting characters.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+3-1-strings-revisited)
+3.2 Formatted strings
+Learning objectives
+By the end of this section you should be able to
+•
+Use f-strings to simplify output with multiple values.
+•
+Format numbers with leading zeros and fixed precision.
+F-strings
+A formatted string literal (or f-string) is a string literal that is prefixed with "f" or "F". A replacement field

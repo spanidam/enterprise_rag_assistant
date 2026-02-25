@@ -1,0 +1,12 @@
+propositional case, this inverse entailment operator is nondeterministic. In partic- 
+ular, in applying it we may in general find multiple choices for the clause Cr to 
+be resolved and for the unifying substitutions 
+and 82. Each set of choices may 
+yield a different solution for C2. 
+Figure 10.3 illustrates a multistep application of this inverse resolution rule 
+for a simple example. In this figure, we wish to learn rules for the target predicate 
+GrandChild(y, x), given the training data D = GrandChild(Bob, Shannon) and 
+the background information B = {Father (Shannon, Tom), Father (Tom, Bob)). 
+Consider the bottommost step in the inverse resolution tree of Figure 10.3. Here, 
+we set the conclusion C to the training example GrandChild(Bob, Shannon) 
+GrandChild(Bob, Shannon)

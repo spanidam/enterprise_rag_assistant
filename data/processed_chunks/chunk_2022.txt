@@ -1,0 +1,11 @@
+local training examples. This process continues until the tree perfectly classifies the training examples, 
+or until all attributes have been used. 
+where p, is the proportion of positive examples in S and p, is the proportion of 
+negative examples in S. In all calculations involving entropy we define 0 log 0 to 
+be 0. 
+To illustrate, suppose S is a collection of 14 examples of some boolean 
+concept, including 9 positive and 5 negative examples (we adopt the notation 
+[9+, 5-1 to summarize such a sample of data). Then the entropy of S relative to 
+this boolean classification is 
+Notice that the entropy is 0 if all members of S belong to the same class. For 
+example, if all members are positive (pe = I), then p, is 0, and Entropy(S) =

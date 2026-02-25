@@ -1,0 +1,39 @@
+Example 
+Sky 
+AirTemp 
+Humidity 
+Wind 
+Water 
+Forecast 
+EnjoySport 
+1 
+Sunny 
+Warm 
+Normal 
+Strong 
+Cool 
+Change 
+Yes 
+2 
+Cloudy 
+Warm 
+Normal 
+Strong 
+Cool 
+Change 
+Yes 
+3 
+Rainy 
+Warm 
+Normal 
+Strong 
+Cool 
+Change 
+No 
+To see why there are no hypotheses consistent with these three examples, 
+note that the most specific hypothesis consistent with the first two examples and 
+representable in the given hypothesis space H is 
+S2 : (?, Warm, Normal, Strong, Cool, Change) 
+This hypothesis, although it is the maximally specific hypothesis from H that is 
+consistent with the first two examples, is already overly general: it incorrectly 
+covers the third (negative) training example. The problem is that we have biased

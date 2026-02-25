@@ -1,0 +1,9 @@
+of the network weights. The motivation for this approach is to keep weight values 
+small, to bias learning against complex decision surfaces. 
+One of the most successful methods for overcoming the overfitting problem 
+is to simply provide a set of validation data to the algorithm in addition to the 
+training data. The algorithm monitors the error with respect to this validation set, 
+while using the training set to drive the gradient descent search. In essence, this 
+allows the algorithm itself to plot the two curves shown in Figure 4.9. How many 
+weight-tuning iterations should the algorithm perform? Clearly, it should use the 
+number of iterations that produces the lowest error over the validation set, since

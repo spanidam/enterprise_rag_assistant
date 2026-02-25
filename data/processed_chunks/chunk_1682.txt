@@ -1,0 +1,18 @@
+•
+Seaborn User Guide (https://openstax.org/r/100seabornguide)
+Programming practice with Google
+Use the Google Colaboratory document below to practice a visualization task on a given dataset.
+Google Colaboratory document (https://openstax.org/r/100visualization)
+15.6 Summary
+Highlights from this chapter include:
+•
+Data science is a multidisciplinary field that combines collection, processing, and analysis of large volumes
+of data to extract insights and drive informed decision-making.
+•
+The data science life cycle is the framework followed by data scientists to complete a data science project.
+•
+The data science life cycle includes 1) data acquisition, 2) data exploration, 3) data analysis, and 4)
+reporting.
+15.6 • Summary
+375
+•

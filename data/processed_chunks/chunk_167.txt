@@ -1,0 +1,15 @@
+j−1oj−1
+j
+(3.9)
+These expressions will be useful in Chapter 4 when we study Jacobian matrices.
+In principle, that is all there is to forward kinematics; determine the functions
+Ai(qi), and multiply them together as needed. However, it is possible to achieve
+a considerable amount of streamlining and simpliﬁcation by introducing further
+conventions, such as the Denavit-Hartenberg representation of a joint, and this
+is the objective of the next section.
+3.2
+FORWARD KINEMATICS: THE DENAVIT-HARTENBERG
+CONVENTION
+In this section we develop the forward or conﬁguration kinematic equa-
+tions for rigid robots. The forward kinematics problem is concerned with the
+relationship between the individual joints of the robot manipulator and the po-

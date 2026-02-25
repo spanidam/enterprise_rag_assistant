@@ -1,0 +1,31 @@
+print(values)
+Outputs one or more values, each separated by a space, to the user.
+input(prompt)
+If present, prompt is output to the user. The function then reads a line of input from the
+user.
+len(string)
+Returns the length (the number of characters) of a string.
+type(value)
+Returns the type (or class) of a value. Ex: type(123) is <class 'int'>.
+Operator
+Description
+=
+(Assignment)
+Assigns (or updates) the value of a variable. In Python, variables begin to exist when
+assigned for the first time.
+Table 1.6 Chapter 1 reference.
+34
+1 • Statements
+Access for free at openstax.org
+Function
+Description
++
+(Concatenation)
+Appends the contents of two strings, resulting in a new string.
++
+(Addition)
+Adds the values of two numbers.
+-
+(Subtraction)
+Subtracts the value of one number from another.
+*

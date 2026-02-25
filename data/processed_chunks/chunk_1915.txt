@@ -1,0 +1,14 @@
+thermore, we can define hypothesis spaces for which there is no maximally 
+specific consistent hypothesis, although this is more of a theoretical issue 
+than a practical one (see Exercise 2.7). 
+2.5 VERSION SPACES AND THE CANDIDATE-ELIMINATION 
+ALGORITHM 
+This section describes a second approach to concept learning, the CANDIDATE- 
+ELIMINATION 
+algorithm, that addresses several of the limitations of FIND-S. Notice 
+that although FIND-S outputs a hypothesis from H,that is consistent with the 
+training examples, this is just one of many hypotheses from H that might fit the 
+training data equally well. The key idea in the CANDIDATE-ELIMINATION 
+algorithm 
+is to output a description of the set of all hypotheses consistent with the train- 
+ing examples. Surprisingly, the CANDIDATE-ELIMINATION

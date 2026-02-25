@@ -1,0 +1,13 @@
+arrival minute must be between 0 and 59. Ex: Adding 20 minutes to 8:55 should be 9:15, not 8:75.
+Hint: Multiply the current hour by 60 to convert hours to minutes. Then, calculate the arrival time, in total
+minutes, as an integer.
+Your code must not use Python keywords from later chapters, such as if or while. The solution requires
+2.5 • Dividing integers
+53
+only addition, multiplication, division, and modulo.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+2-5-dividing-integers)
+TRY IT
+Change machine
+Self-checkout aisles are becoming increasingly popular at grocery stores. Customers scan their own items,
+and a computer determines the total purchase amount. Customers who pay in cash insert dollar bills, and a

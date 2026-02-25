@@ -1,0 +1,19 @@
+language model connected with massive apis,” 2023.
+[68]
+A. Pal, D. Karkhanis, M. Roberts, S. Dooley, A. Sundararajan, and
+S. Naidu, “Giraffe: Adventures in expanding context lengths in llms,”
+arXiv preprint arXiv:2308.10882, 2023.
+[69]
+B. Huang, “Vigogne: French instruction-following and chat models,”
+https://github.com/bofenghuang/vigogne, 2023.
+[70]
+Y. Wang, H. Ivison, P. Dasigi, J. Hessel, T. Khot, K. R. Chandu,
+D. Wadden, K. MacMillan, N. A. Smith, I. Beltagy et al., “How far can
+camels go? exploring the state of instruction tuning on open resources,”
+arXiv preprint arXiv:2306.04751, 2023.
+[71]
+S. Tworkowski, K. Staniszewski, M. Pacek, Y. Wu, H. Michalewski,
+and P. Miło´s, “Focused transformer: Contrastive training for context
+scaling,” arXiv preprint arXiv:2307.03170, 2023.
+[72]
+D.

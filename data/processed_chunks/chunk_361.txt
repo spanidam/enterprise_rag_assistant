@@ -1,0 +1,46 @@
+:
+ρ(aj(q)) > ρ0
+(5.13)
+in which ρ(aj(q)) is the shortest distance between the control point aj and
+any workspace obstacle, and ρ0 is the workspace distance of inﬂuence in the
+worksoace for obstacles. The negative gradient of each Urepj corresponds to a
+workspace repulsive force,
+Frep,j(q) =
+
+
+
+
+
+
+
+ηj
+
+1
+ρ(aj(q)) −1
+ρ0
+
+1
+ρ2(aj(q))∇ρ(aj(q))
+:
+ρ(aj(q)) ≤ρ0
+0
+:
+ρ(aj(q)) > ρ0
+(5.14)
+in which the notation ∇ρ(aj(q)) indicates the gradient ∇ρ(x) evaluated at x =
+aj(q). If b is the point on the workspace obstacle boundary that is closest to
+the repulsive control point aj, then ρ(aj(q)) = ||aj(q) −b||, and its gradient is
+∇ρ(x)
+ x=aj(q)
+=
+aj(q) −b
+||aj(q) −b||
+(5.15)
+PLANNING USING WORKSPACE POTENTIAL FIELDS
+161
+A
+E1
+a1
+a2
+O
+Fig. 5.5

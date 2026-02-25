@@ -1,0 +1,10 @@
+ing methods are distinctive in being driven by the diﬀerence between tempo-
+rally successive estimates of the same quantity—for example, of the probability
+of winning in the tic-tac-toe example. This thread is smaller and less distinct
+than the other two, but it has played a particularly important role in the ﬁeld,
+in part because temporal-diﬀerence methods seem to be new and unique to
+reinforcement learning.
+The origins of temporal-diﬀerence learning are in part in animal learning
+psychology, in particular, in the notion of secondary reinforcers. A secondary
+reinforcer is a stimulus that has been paired with a primary reinforcer such as
+food or pain and, as a result, has come to take on similar reinforcing proper-

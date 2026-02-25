@@ -1,0 +1,14 @@
+cients ui in (10.106) have the interpretation of control inputs and hence Equa-
+tion (10.106) deﬁnes a useful model for control design in such cases. The system
+(10.106) is called driftless because ˙q = 0 when the control inputs u1, . . . , um
+are zero. In the next section we give some examples of driftless systems arising
+from nonholonomic constraints, followed by a discussion of controllability of
+driftless systems and Chow’s Theorem in Section 10.7.
+10.6.3
+Examples of Nonholonomic Systems
+Nonholonomic constraints arise in two primary ways:
+1. In so-called rolling without slipping constraints.
+For example, the
+translational and rotational velocities of a rolling wheel are not indepen-
+dent if the wheel rolls without slipping. Examples include
+• A unicycle

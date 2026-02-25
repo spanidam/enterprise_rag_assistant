@@ -1,0 +1,11 @@
+face can have multiple local minima, in contrast to the single-minimum parabolic 
+error surface shown in Figure 4.4. Unfortunately, this means that gradient descent 
+is guaranteed only to converge toward some local minimum, and not necessarily 
+the global minimum error. Despite this obstacle, in practice BACKPROPAGATION 
+has 
+been found to produce excellent results in many real-world applications. 
+The BACKPROPAGATION 
+algorithm is presented in Table 4.2. The algorithm as 
+described here applies to layered feedforward networks containing two layers of 
+sigmoid units, with units at each layer connected to all units from the preceding 
+layer. This is the incremental, or stochastic, gradient descent version of BACK-

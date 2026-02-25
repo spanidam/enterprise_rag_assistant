@@ -1,0 +1,12 @@
+is the most general clause (weakest preimage) licensed by the explanation of the 
+current training example. Therefore, among the sets of Horn clauses entailed by 
+the domain theory, we can characterize the bias of PROLOG-EBG 
+as a preference 
+for small sets of maximally general Horn clauses. In fact, the greedy algorithm of 
+PROLOG-EBG 
+is only a heuristic approximation to the exhaustive search algorithm 
+that would be required to find the truly shortest set of maximally general Horn 
+clauses. Nevertheless, the inductive bias of PROLOG-EBG can be approximately 
+characterized in this fashion. 
+Approximate inductive bias of PROLOG-EBG: The domain theory B, plus a pref- 
+erence for small sets of maximally general Horn clauses.

@@ -1,0 +1,19 @@
+subset of those satisfying the weaker BACKPROPAGATION 
+objective. The difference 
+between these two sets of final hypotheses is the set of incorrect hypotheses that 
+will be considered by BACKPROPAGATION, 
+but ruled out by TANGENTPROP 
+due to 
+its prior knowledge. 
+Note one alternative to fitting the training derivatives of the target function 
+is to simply synthesize additional training examples near the observed training 
+examples, using the known training derivatives to estimate training values for 
+these nearby instances. For example, one could take a training image in the above 
+character recognition task, translate it a small amount, and assert that the trans- 
+Hypothesis Space 
+Hypotheses that 
+Hypotheses that 
+maximize fit to 
+maximizefit to data 
+data and prior 
+knowledge

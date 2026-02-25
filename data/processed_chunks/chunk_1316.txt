@@ -1,0 +1,29 @@
+6.3 • Variable scope
+157
+practice():
+•
+Reads in a string representing the desired map.
+•
+Prints "Launching practice on [desired map]".
+Note: find_teammates() is provided and does not need to be edited.
+Given input:
+br
+1
+The output is:
+Finding 2 players...
+Match starting...
+Given input:
+p
+Queen's Canyon
+The output is:
+Launching practice on Queen's Canyon
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-3-variable-scope)
+6.4 Parameters
+Learning objectives
+By the end of this section you should be able to
+•
+Identify a function's arguments and parameters.
+•
+Describe how mutability affects how a function can modify arguments.
+Arguments and parameters

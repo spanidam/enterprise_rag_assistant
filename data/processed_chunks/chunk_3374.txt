@@ -1,0 +1,31 @@
+computational theory of, 201-202 
+in inductive-analytical learning, 337-338 
+Learning rate, 88, 91 
+Learning systems: 
+design of, 5-14, 17 
+program modules, 11-1' : 
+Least mean squares algori ,m. See LMS 
+algorithm 
+Least-squared error hypothesis: 
+classifiers for, 198 
+gradient descent in, 167 
+maximum likelihood (ML) hypothesis 
+and, 164-167 
+Leave-one-out cross-validation, 235 
+Legal case reasoning, case-based reasoning 
+in, 240 
+LEMMA-ENUMERATOR 
+algorithm, 324 
+Lifelong learning, 370 
+Line search, 119 
+Linear programming, as weight update 
+algorithm, 95 
+Linearly separable sets, 86, 89, 95 
+LIST-THEN-ELLMINATE 
+algorithm, 30 
+Literal, 284, 285 
+LMS algorithm, 11, 15 
+inductive bias of, 64 
+LMS weight update rule. See Delta rule 
+Local method, 234 
+Locally weighted regression, 23 1,

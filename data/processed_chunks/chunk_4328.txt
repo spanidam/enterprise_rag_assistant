@@ -1,0 +1,11 @@
+state (or state–action pair) to update both its value estimate and its eligibility
+trace on every time step. This would not be a problem for implementations
+on single-instruction, multiple-data parallel computers or in plausible neural
+implementations, but it is a problem for implementations on conventional serial
+computers. Fortunately, for typical values of λ and γ the eligibility traces of
+almost all states are almost always nearly zero; only those that have recently
+been visited will have traces signiﬁcantly greater than zero. Only these few
+states really need to be updated because the updates at the others will have
+essentially no eﬀect.
+In practice, then, implementations on conventional computers keep track
+of and update only the few states with nonzero traces. Using this trick, the

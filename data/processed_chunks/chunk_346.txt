@@ -1,0 +1,39 @@
+qﬁnal.
+Note that while Fatt(q) converges linearly to zero as q approaches qﬁnal (which
+is a desirable property), it grows without bound as q moves away from qﬁnal. If
+qinit is very far from qﬁnal, this may produce an attractive force that is too large.
+For this reason, we may choose to combine the quadratic and conic potentials
+so that the conic potential attracts the robot when it is very distant from qﬁnal
+and the quadratic potential attracts the robot when it is near qﬁnal. Of course
+it is necessary that the gradient be deﬁned at the boundary between the conic
+and quadratic portions. Such a ﬁeld can be deﬁned by
+Uatt(q) =
+
+
+
+
+
+
+
+
+
+
+
+1
+2ζρ2
+f(q)
+:
+ρf(q) ≤d
+dζρf(q) −1
+2ζd2
+:
+ρf(q) > d
+(5.5)
+156
+PATH AND TRAJECTORY PLANNING
+and in this case we have
+Fatt(q) = −∇Uatt(q) =
+
+
+
+

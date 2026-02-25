@@ -1,0 +1,19 @@
+ways or over diﬀerent state and action representations. These dimensions do,
+however, constitute a coherent set of ideas for describing and exploring a wide
+space of possible methods.
+15.2
+State Estimation
+15.3
+Temporal Abstraction
+15.4
+Predictive Representations
+15.5
+Other Frontier Dimensions
+Much research remains to be done within this space of reinforcement learning
+methods. For example, even for the tabular case no control method using
+multistep backups has been proved to converge to an optimal policy. Among
+planning methods, basic ideas such as trajectory sampling and focusing sample
+backups are almost completely unexplored. On closer inspection, parts of the
+15.5. OTHER FRONTIER DIMENSIONS
+307
+space will undoubtedly turn out to have far greater complexity and greater

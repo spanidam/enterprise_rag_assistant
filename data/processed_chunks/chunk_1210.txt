@@ -1,0 +1,32 @@
+97, 93])
+[94, 100, 97, 93]
+Table 3.4 Example tuples.
+CONCEPTS IN PRACTICE
+Creating tuples and accessing elements
+1. Consider the example above. Which accesses tuple_1's first element?
+a.
+tuple_1[0]
+b.
+tuple_1[1]
+c.
+tuple_1[2]
+2. Which creates a valid tuple?
+a.
+tuple_2 = (42, 26, 13)
+b.
+tuple_3 = (42, 26, 13.5)
+c.
+both
+3. Which creates a tuple with three elements?
+a.
+my_tuple = 'a', 'b', 'c'
+b.
+my_tuple = ['a', 'b', 'c']
+c.
+my_tuple = ('a', 'b', 'c')
+Tuple properties
+How do tuples compare to lists? Tuples are ordered and allow duplicates, like lists, but have different
+mutability. An immutable object cannot be modified after creation. A mutable object can be modified after
+creation. Tuples are immutable, whereas lists are mutable.
+CHECKPOINT
+Mutability of a tuple vs. a list

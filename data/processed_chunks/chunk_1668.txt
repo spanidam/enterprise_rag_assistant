@@ -1,0 +1,14 @@
+a.
+df[df.loc[:, "A"] % 2 == 0]
+b.
+df[df[:, "A"] % 2 == 0]
+c.
+df[df.loc["A"] % 2 == 0]
+Handling missing data
+Missing values in a dataset can occur when data are not available or are not recorded properly. Identifying and
+removing missing values is an important step in data cleaning and preprocessing. A data scientist should
+consider ethical considerations throughout the EDA process, especially when handling missing data. They
+might consider answering questions such as "Why are the data missing?", "Whose data are missing?", and
+"Considering the missing data, is the dataset still a representative sample of the population under study?". The
+functions below are useful in understanding and analyzing missing data.
+•

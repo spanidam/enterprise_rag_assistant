@@ -1,0 +1,12 @@
+own parameter shown on a single scale on the x-axis. Note that the parameter
+values are varied by factors of two and presented on a log scale. Note also
+the characteristic inverted-U shapes of each algorithm’s performance; all the
+algorithms perform best at an intermediate value of their parameter, neither
+too large nor too big. In assessing an method, we should attend not just to
+how well it does at its best parameter setting, but also to how sensitive it is to
+its parameter value. All of these algorithms are fairly insensitive, performing
+well over a range of parameter values varying by about an order of magnitude.
+Overall, on this problem, UCB seems to perform best.
+2.9. SUMMARY
+49
+Despite their simplicity, in our opinion the methods presented in this chap-

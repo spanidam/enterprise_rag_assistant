@@ -1,0 +1,14 @@
+concept depends on only a few of the many available attributes, then the instances 
+that are truly most "similar" may well be a large distance apart. 
+In the next section we introduce the k-NEAREST 
+NEIGHBOR 
+learning algo- 
+rithm, including several variants of this widely-used approach. The subsequent 
+section discusses locally weighted regression, a learning method that constructs 
+local approximations to the target function and that can be viewed as a general- 
+ization of k-NEAREST 
+NEIGHBOR 
+algorithms. We then describe radial basis function 
+networks, which provide an interesting bridge between instance-based and neural 
+network learning algorithms. The next section discusses case-based reasoning, an 
+instance-based approach that employs symbolic representations and knowledge-

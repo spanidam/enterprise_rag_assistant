@@ -1,0 +1,22 @@
+alter the strict separation between motion constraints and force constraints. For
+example, consider the situation in Figure 9.6. Since the environment deforms in
+response to a force, there is clearly both motion and force in the same direction,
+i.e. normal to the surface. Thus the product V (t)F(t) along this direction will
+not be zero. Let k represent the stiﬀness of the surface so that f = kx. Then
+Z t
+0
+V (u)F(u)du =
+Z t
+0
+˙x(u)kx(u)du = k
+Z t
+0
+d
+du
+1
+2kx2(u)du = 1
+2k(x2(t) −x2(0))(9.9)
+is the change of the potential energy. The environment stiﬀness, k, determines
+the amount of force needed to produce a given motion. The higher the value of
+k the more the environment “impedes” the motion of the end-eﬀector.
+In this section we introduce the notion of Mechanical Impedance which cap-

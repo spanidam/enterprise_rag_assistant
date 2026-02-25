@@ -1,0 +1,11 @@
+the early 1980s. The other thread concerns the problem of optimal control and
+its solution using value functions and dynamic programming. For the most
+part, this thread did not involve learning. Although the two threads have
+been largely independent, the exceptions revolve around a third, less distinct
+thread concerning temporal-diﬀerence methods such as used in the tic-tac-toe
+example in this chapter. All three threads came together in the late 1980s
+to produce the modern ﬁeld of reinforcement learning as we present it in this
+book.
+The thread focusing on trial-and-error learning is the one with which we
+are most familiar and about which we have the most to say in this brief history.
+Before doing that, however, we brieﬂy discuss the optimal control thread.

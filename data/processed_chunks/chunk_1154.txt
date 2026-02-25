@@ -1,0 +1,49 @@
+y)
+x raised to the power y. Unlike the ** operator,
+math.pow() converts x and y to type float.
+math.pow(3, 0)
+1.0
+math.pow(3, 3)
+27.0
+math.sqrt(x)
+The square root of x.
+math.sqrt(9)
+3.0
+math.sqrt(-9)
+ValueError: math domain
+error
+Trigonometric
+math.cos(x)
+The cosine of x radians.
+math.cos(0)
+1.0
+math.cos(math.pi)
+-1.0
+math.sin(x)
+The sine of x radians.
+math.sin(0)
+0.0
+math.sin(math.pi/2)
+1.0
+math.tan(x)
+The tangent of x radians.
+math.tan(0)
+0.0
+math.tan(math.pi/4)
+0.999
+(Round-off error; the result
+should be 1.0.)
+Table 2.4 Example functions in the math module.
+CONCEPTS IN PRACTICE
+Using math functions and constants
+4. What is the value of math.tau/2?
+a.
+approximately 2.718
+b.
+approximately 3.142
+c.
+approximately 6.283
+5. What is the value of math.sqrt(100)?
+a.
+the float 10.0
+b.

@@ -1,0 +1,12 @@
+261, 872-878. 
+French, R., & Messinger A. (1994). Genes, phenes, and the Baldwin effect: Learning and evolution 
+in a simulated population. In R. Brooks and P. Maes (Eds.), ArtiJicial Life IV. Cambridge, 
+MA: MIT Press. 
+Goldberg, D. (1989). Genetic algorithms in search, optimization, and machine learning. Reading, 
+MA: Addison-Wesley. 
+Goldberg, D. (1994). Genetic and evolutionary algorithms come of age. Communications of the ACM, 
+37(3), 113-1 19. 
+Green, D. P., & Smith, S. F. (1993). Competition based induction of decision models from examples. 
+Machine Learning, 13,229-257. 
+Grefenstette, J. J. (1988). Credit assignment in rule discovery systems based on genetic algorithms. 
+Machine Learning, 3, 225-245.

@@ -1,0 +1,54 @@
+numbers = [2, 5, 7, 11, 12]
+for i in numbers:
+if i == 10:
+print("Found 10!")
+break
+else:
+print("10 is not in the list.")
+numbers = [2, 5, 7, 11, 12]
+seen = False
+for i in numbers:
+if i == 10:
+print("Found 10!")
+seen = True
+if seen == False:
+print("10 is not in the list.")
+Table 5.3
+CHECKPOINT
+Loop else template
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/5-5-loop-
+else)
+CONCEPTS IN PRACTICE
+Loop else practices
+1. What is the output?
+n = 16
+exp = 0
+i = n
+while i > 1:
+if n%2 == 0:
+i = i/2
+exp += 1
+else:
+break
+else:
+print(n,"is 2 to the", exp)
+a.
+16 is 2 to the 3
+b.
+16 is 2 to the 4
+c.
+no output
+2. What is the output?
+138
+5 • Loops
+Access for free at openstax.org
+n = 7
+exp = 0
+i = n
+while i > 1:
+if n%2 == 0:
+i = i//2
+exp += 1
+else:
+break
+else:

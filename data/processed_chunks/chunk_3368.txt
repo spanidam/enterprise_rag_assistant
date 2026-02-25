@@ -1,0 +1,27 @@
+use of information gain in, 58-60 
+ID5R algorithm, comparison with GABIL, 
+258 
+ILP. See Inductive logic programming 
+Image encoding in face recognition, 114 
+Imperfect domain theory: 
+in EBNN algorithm, 356 
+in explanation-based learning, 330 
+in FOCL algorithm, 360 
+in KBANN algorithm, 344-345 
+Incremental explanation methods, 328 
+Incremental gradient descent. See 
+Stochastic gradient descent 
+INCREMENTAL 
+VERSION SPACE MERGING 
+algorithm, 47 
+Inductive-analytical learning, 334-363 
+advantages of, 362 
+explanation-based learning and, 330 
+learning problem, 337-338 
+prior knowledge methods to alter search, 
+339-340,362 
+properties of ideal systems, 337 
+weighting of components in EBNN 
+algorithm, 351-352,355 
+weighting prior knowledge in, 338 
+Inductive bias, 39-45, 137-138. See also

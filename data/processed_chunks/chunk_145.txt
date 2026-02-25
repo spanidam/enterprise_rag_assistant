@@ -1,0 +1,19 @@
+4. If a matrix R satisﬁes RT R = I, show that the column vectors of R are
+of unit length and mutually perpendicular.
+5. If a matrix R satisﬁes RT R = I, then
+a) show that det R = ±1
+b) Show that det R = ±1 if we restrict ourselves to right-handed coordi-
+nate systems.
+6. Verify Equations (2.3)-(2.5).
+7. A group is a set X together with an operation ∗deﬁned on that set such
+that
+• x1 ∗x2 ∈X for all x1, x2 ∈X
+• (x1 ∗x2) ∗x3 = x1 ∗(x2 ∗x3)
+• There exists an element I ∈X such that I ∗x = x ∗I = x for all
+x ∈X.
+• For every x ∈X, there exists some element y ∈X such that x ∗y =
+y ∗x = I.
+Show that SO(n) with the operation of matrix multiplication is a group.
+8. Derive Equations (2.6) and (2.7).
+9. Suppose A is a 2 × 2 rotation matrix.
+In other words AT A = I and

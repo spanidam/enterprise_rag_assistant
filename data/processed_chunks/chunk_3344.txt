@@ -1,0 +1,26 @@
+Acyclic neural networks. See Multilayer 
+feedforward networks 
+Adaline rule. See Delta rule 
+Additive Chernoff bounds, 210-21 1 
+Adelines, 123 
+Agents, in reinforcement learning, 368 
+Agnostic learning, 210-21 1,225 
+ALVINN system, 82-83, 84 
+Analytical-inductive learning. See 
+Inductive-analytical learning 
+Analytical learning, 307-330 
+inductive learning, comparison with, 
+310, 328-329, 334-336, 362 
+ANN learning. See Neural network 
+learning 
+ANNs. See Neural networks, artificial 
+Antecedents of Horn clause, 285 
+AQ algorithm, 279-280 
+AQ14 algorithm, comparison with GABIL, 
+256,258 
+Arbitrary functions, representation by 
+feedforward networks, 105-106 
+Artificial intelligence, influence on 
+machine learning, 4 
+Artificial neural networks. See Neural 
+networks, artificial

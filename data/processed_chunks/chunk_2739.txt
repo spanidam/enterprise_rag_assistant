@@ -1,0 +1,11 @@
+irrelevant based on further analysis, then the similarity metric should be refined 
+to reject this case for similar subsequent queries. 
+8.6 REMARKS ON LAZY AND EAGER LEARNING 
+In this chapter we considered three lazy learning methods: the k-NEAREST 
+NEIGH- 
+BOR algorithm, locally weighted regression, and case-based reasoning. We call 
+these methods lazy because they defer the decision of how to generalize beyond 
+the training data until each new query instance is encountered. We also discussed 
+one eager learning method: the method for learning radial basis function networks. 
+We call this method eager because it generalizes beyond the training data before 
+observing the new query, committing at training time to the network structure and

@@ -1,0 +1,11 @@
+making, or the question of where the predictive models necessary for planning
+would come from. Although these approaches have yielded many useful results,
+4
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM
+their focus on isolated subproblems is a signiﬁcant limitation.
+Reinforcement learning takes the opposite tack, starting with a complete,
+interactive, goal-seeking agent. All reinforcement learning agents have explicit
+goals, can sense aspects of their environments, and can choose actions to inﬂu-
+ence their environments. Moreover, it is usually assumed from the beginning
+that the agent has to operate despite signiﬁcant uncertainty about the environ-
+ment it faces. When reinforcement learning involves planning, it has to address

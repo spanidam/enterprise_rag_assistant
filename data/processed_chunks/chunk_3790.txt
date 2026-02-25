@@ -1,0 +1,13 @@
+states it selects moves based on information saved from similar states faced
+in the past, as determined by its network. How well a reinforcement learning
+system can work in problems with such large state sets is intimately tied to
+how appropriately it can generalize from past experience. It is in this role that
+we have the greatest need for supervised learning methods with reinforcement
+learning. Neural networks are not the only, or necessarily the best, way to do
+this.
+In this tic-tac-toe example, learning started with no prior knowledge be-
+yond the rules of the game, but reinforcement learning by no means entails a
+tabula rasa view of learning and intelligence. On the contrary, prior informa-
+tion can be incorporated into reinforcement learning in a variety of ways that
+1.6. SUMMARY
+15

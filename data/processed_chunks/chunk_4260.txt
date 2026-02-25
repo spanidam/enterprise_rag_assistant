@@ -1,0 +1,12 @@
+of past experience and a current state—in which you would expect the TD
+update to be better.
+Here’s a hint: Suppose you have lots of experience
+driving home from work. Then you move to a new building and a new parking
+lot (but you still enter the highway at the same place). Now you are starting
+to learn predictions for the new building. Can you see why TD updates are
+likely to be much better, at least initially, in this case? Might the same sort
+of thing happen in the original task?
+Exercise 6.2 From Figure 6.6, it appears that the ﬁrst episode results in a
+change in only V (A). What does this tell you about what happened on the
+ﬁrst episode? Why was only the estimate for this one state changed? By
+exactly how much was it changed?

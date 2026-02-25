@@ -1,0 +1,17 @@
+explainable question-answering dataset that necessi-
+tates multi-hop reasoning. This dataset is derived from
+the English Wikipedia. It consists of roughly 113, 000
+questions. Each question in the dataset comes with
+two paragraphs, called gold paragraphs, from two
+Wikipedia articles. Also, there is a list of sentences
+in those paragraphs that crowdworkers have picked as
+important for answering the question.
+•
+ToolQA [199] is a question answering benchmark
+to evaluate LLMs’ ability to use external tools for
+answering questions.
+•
+GPT4Tools serves as an instructional dataset, gener-
+ated by instructing advanced teachers (such as Chat-
+GPT), with instructions conditioned on visual content
+and tool descriptions. This process results in the

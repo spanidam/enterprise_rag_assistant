@@ -1,0 +1,12 @@
+straints on a fixed set of attributes, as described in that earlier section. To 
+represent a set of rules, the bit-string representations of individual rules are 
+concatenated. To illustrate, consider a hypothesis space in which rule precon- 
+ditions are conjunctions of constraints over two boolean attributes, a1 and a2. 
+The rule postcondition is described by a single bit that indicates the predicted 
+value of the target attribute c. Thus, the hypothesis consisting of the two rules 
+I F a l = T r \ a z = F  THEN c = T ;  
+IF a 2 = T  THEN c = F  
+would be represented by the string 
+Note the length of the bit string grows with the number of rules in the hy- 
+pothesis. This variable bit-string length requires a slight modification to the 
+crossover operator, as described below.

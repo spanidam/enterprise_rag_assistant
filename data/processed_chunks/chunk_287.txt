@@ -1,0 +1,88 @@
+J
+=
+ z0 × (o4 −o0)
+z1 × (o4 −o1)
+z2
+0
+z0
+z1
+0
+z3
+
+(4.95)
+Performing the indicated calculations, one obtains
+o1
+=
+
+
+a1c1
+a1s1
+0
+
+
+o2 =
+
+
+a1c1 + a2c12
+a1s1 + a2s12
+0
+
+
+(4.96)
+o4
+=
+
+
+a1c1 + a2c12
+a1s2 + a2s12
+d3 −d4
+
+
+(4.97)
+Similarly z0 = z1 = k, and z2 = z3 = −k. Therefore the Jacobian of the
+SCARA Manipulator is
+J
+=
+
+
+−a1s1 −a2s12
+−a2s12
+0
+0
+a1c1 + a2c12
+a2c12
+0
+0
+0
+0
+−1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+0
+−1
+
+
+(4.98)
+THE ANALYTICAL JACOBIAN
+131
+⋄
+4.8
+THE ANALYTICAL JACOBIAN
+The Jacobian matrix derived above is sometimes called the Geometric Jacobian
+to distinguish it from the Analytical Jacobian, denoted Ja(q), considered in this
+section, which is based on a minimal representation for the orientation of the
+end-eﬀector frame. Let
+X =
+ d(q)
+α(q)
+
+(4.99)

@@ -1,0 +1,14 @@
+three parameters are needed.
+6.6
+NEWTON-EULER FORMULATION
+In this section, we present a method for analyzing the dynamics of robot ma-
+nipulators known as the Newton-Euler formulation.
+This method leads
+to exactly the same ﬁnal answers as the Lagrangian formulation presented in
+earlier sections, but the route taken is quite diﬀerent.
+In particular, in the
+Lagrangian formulation we treat the manipulator as a whole and perform the
+analysis using a Lagrangian function (the diﬀerence between the kinetic energy
+and the potential energy). In contrast, in the Newton-Euler formulation we
+treat each link of the robot in turn, and write down the equations describing
+its linear motion and its angular motion. Of course, since each link is coupled

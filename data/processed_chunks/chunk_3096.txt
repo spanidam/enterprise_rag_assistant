@@ -1,0 +1,13 @@
+concept? 
+As noted in Section 11.3.1, PROLOG-EBG 
+can construct useful new features that are 
+not explicit features of the instances, but that are defined in terms of the explicit 
+features and that are useful for describing the appropriate generalization. These 
+features are derived as a side effect of analyzing the training example explanation. A 
+second method for deriving useful features is the BACKPROPAGATION 
+algorithm for 
+multilayer neural networks, in which new features are learned by the hidden units 
+based on the statistical properties of a large number of examples. Can you suggest 
+a way in which one might combine these analytical and inductive approaches to 
+generating new features? (Warning: This is an open research problem.) 
+REFERENCES

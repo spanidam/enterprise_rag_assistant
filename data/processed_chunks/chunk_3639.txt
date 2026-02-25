@@ -1,0 +1,17 @@
+[Online]. Available: https://proceedings.neurips.cc/paper files/paper/
+2022/file/9d5609613524ecf4f15af0f7b31abca4-Paper-Conference.pdf
+[35]
+G. Mialon, R. Dess`ı, M. Lomeli, C. Nalmpantis, R. Pasunuru,
+R. Raileanu, B. Rozi`ere, T. Schick, J. Dwivedi-Yu, A. Celikyil-
+maz et al., “Augmented language models: a survey,” arXiv preprint
+arXiv:2302.07842, 2023.
+[36]
+B. Peng, M. Galley, P. He, H. Cheng, Y. Xie, Y. Hu, Q. Huang,
+L. Liden, Z. Yu, W. Chen, and J. Gao, “Check your facts and try
+again: Improving large language models with external knowledge and
+automated feedback,” arXiv preprint arXiv:2302.12813, 2023.
+[37]
+S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao,
+“React: Synergizing reasoning and acting in language models,” arXiv
+preprint arXiv:2210.03629, 2022.
+[38]

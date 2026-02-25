@@ -1,0 +1,13 @@
+amount of calculation, much of which is identical for diﬀerent candidate values of
+the threshold. For example, most of the calculations required to compute σ2
+w(zt)
+are also required to compute σ2
+w(zt + 1); the required summations change only
+slightly from one iteration to the next. Therefore, we now turn our attention
+to an eﬃcient algorithm.
+To develop an eﬃcient algorithm, we take two steps. First, we will derive
+the between-group variance, σ2
+b, which depends on the within-group variance
+and the variance over the entire image. The between-group variance is a bit
+simpler to deal with than the within-group variance, and we will show that
+maximizing the between-group variance is equivalent to minimizing the within-

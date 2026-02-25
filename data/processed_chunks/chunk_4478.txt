@@ -1,0 +1,13 @@
+randomly spread throughout the state space, but that still form an exhaustive
+tiling. For example, one tile might consist of the four subtiles shown below:
+one
+tile
+Through hashing, memory requirements are often reduced by large factors with
+little loss of performance. This is possible because high resolution is needed
+in only a small fraction of the state space. Hashing frees us from the curse of
+dimensionality in the sense that memory requirements need not be exponential
+in the number of dimensions, but need merely match the real demands of the
+task. Good public-domain implementations of tile coding, including hashing,
+are widely available.
+Radial Basis Functions
+Radial basis functions (RBFs) are the natural generalization of coarse coding

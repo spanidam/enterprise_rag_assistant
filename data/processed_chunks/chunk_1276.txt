@@ -1,0 +1,12 @@
+loop and inner loop. The outer loop controls the number of the inner loop's full execution. More than one
+inner loop can exist in a nested loop.
+CHECKPOINT
+Nested while loops
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+5-3-nested-loops)
+EXAMPLE 5.3
+Available appointments
+Consider a doctor's office schedule. Each appointment is 30 minutes long. A program to print available
+appointments can use a nested for loop where the outer loop iterates over the hours, and the inner loop
+iterates over the minutes. This example prints time in hours and minutes in the range between 8:00am and
+10:00am. In this example, the outer loop iterates over the time's hour portion between 8 and 9, and the

@@ -1,0 +1,10 @@
+learner may have complete control over both the board states and (indirect) training 
+classifications, as it does when it learns by playing against itself with no teacher 
+present. Notice in this last case the learner may choose between experimenting 
+with novel board states that it has not yet considered, or honing its skill by playing 
+minor variations of lines of play it currently finds most promising. Subsequent 
+chapters consider a number of settings for learning, including settings in which 
+training experience is provided by a random process outside the learner's control, 
+settings in which the learner may pose various types of queries to an expert teacher, 
+and settings in which the learner collects training examples by autonomously 
+exploring its environment.

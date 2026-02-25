@@ -1,0 +1,12 @@
+sitional rules; that is, rules without variables. Algorithms for searching the hy- 
+pothesis space to learn disjunctive sets of rules are most easily understood in 
+this setting. We then consider extensions of these algorithms to learn first-order 
+rules. Two general approaches to inductive logic programming are then consid- 
+ered, and the fundamental relationship between inductive and deductive inference 
+is explored. 
+10.2 SEQUENTIAL COVERING ALGORITHMS 
+Here we consider a family of algorithms for learning rule sets based on the strategy 
+of learning one rule, removing the data it covers, then iterating this process. Such 
+algorithms are called sequential covering algorithms. To elaborate, imagine we 
+have a subroutine LEARN-ONE-RULE 
+that accepts a set of positive and negative

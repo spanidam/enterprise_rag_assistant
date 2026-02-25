@@ -1,0 +1,11 @@
+interval. 
+Equation (5.1) describes how to calculate the confidence intervals, or error 
+bars, for estimates of errorv(h) that are based on errors(h). In using this ex- 
+pression, it is important to keep in mind that this applies only to discrete-valued 
+hypotheses, that it assumes the sample S is drawn at random using the same 
+distribution from which future data will be drawn, and that it assumes the data 
+is independent of the hypothesis being tested. We should also keep in mind that 
+the expression provides only an approximate confidence interval, though the ap- 
+proximation is quite good when the sample contains at least 30 examples, and 
+errors(h) is not too close to 0 or 1. A more accurate rule of thumb is that the 
+above approximation works well when

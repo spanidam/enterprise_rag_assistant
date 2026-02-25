@@ -1,0 +1,10 @@
+linear combination of multiple local kernel functions. Nevertheless, because RBF 
+learning methods must commit to the hypothesis before the query point is known, 
+the local approximations they create are not specifically targeted to the query 
+point to the same degree as in a lazy learning method. Instead, RBF networks are 
+built eagerly from local approximations centered around the training examples, or 
+around clusters of training examples, but not around the unknown future query 
+points. 
+To summarize, lazy methods have the option of selecting a different hypoth- 
+esis or local approximation to the target function for each query instance. Eager 
+methods using the same hypothesis space are more restricted because they must

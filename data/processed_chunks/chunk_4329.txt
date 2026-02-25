@@ -1,0 +1,10 @@
+of and update only the few states with nonzero traces. Using this trick, the
+computational expense of using traces is typically a few times that of a one-
+step method. The exact multiple of course depends on λ and γ and on the
+expense of the other computations. Cichosz (1995) has demonstrated a fur-
+ther implementation technique that further reduces complexity to a constant
+independent of λ and γ. Finally, it should be noted that the tabular case is
+in some sense a worst case for the computational complexity of traces. When
+function approximation is used (Chapter 9), the computational advantages of
+not using traces generally decrease. For example, if artiﬁcial neural networks
+and backpropagation are used, then traces generally cause only a doubling of

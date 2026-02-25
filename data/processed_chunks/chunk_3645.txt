@@ -1,0 +1,18 @@
+[57]
+M. Chen, J. Tworek, H. Jun, Q. Yuan, H. P. d. O. Pinto, J. Ka-
+plan, H. Edwards, Y. Burda, N. Joseph, G. Brockman et al.,
+“Evaluating large language models trained on code,” arXiv preprint
+arXiv:2107.03374, 2021.
+[58]
+R. Nakano, J. Hilton, S. Balaji, J. Wu, L. Ouyang, C. Kim,
+C. Hesse, S. Jain, V. Kosaraju, W. Saunders et al., “Webgpt: Browser-
+assisted question-answering with human feedback,” arXiv preprint
+arXiv:2112.09332, 2021.
+[59]
+L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, P. Mishkin,
+C. Zhang, S. Agarwal, K. Slama, A. Ray et al., “Training language
+models to follow instructions with human feedback,” Advances in
+Neural Information Processing Systems, vol. 35, pp. 27 730–27 744,
+2022.
+[60]
+OpenAI. (2022) Introducing chatgpt. [Online]. Available: https:

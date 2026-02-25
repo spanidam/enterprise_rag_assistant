@@ -1,0 +1,20 @@
+Maq + ˜C ˙q + ˜g)
+(8.43)
+is called the Uncertainty. We note that
+M −1 ˜
+M = M −1 ˆ
+M −I =: E
+(8.44)
+and so we may decompose η as
+η = Eaq + M −1( ˜C ˙q + ˜g)
+(8.45)
+We note that the system (8.42) is still nonlinear and coupled due to the uncer-
+tainty η(q, ˙q, aq). Thus we have no guarantee that the outer loop control given
+by Equation (8.19) will satisfy desired tracking performance speciﬁcations. In
+this chapter we discuss several design methods to modify the outer loop control
+(??) to guarantee global convergence of the tracking error for the system (8.42).
+8.4.1.1
+Outer Loop Design via Lyapunov’s Second Method
+There are several
+approaches to treat the robust feedback linearization problem outlined above.
+We will discuss only one method, namely the so-called theory of guaran-

@@ -1,0 +1,13 @@
+tasks that require high levels of factual accuracy.
+4) Reflection: Reflection [160] involves prompting LLMs
+to assess and potentially revise their own outputs based on
+reasoning about the correctness and coherence of their re-
+sponses. The concept of Reflection centers on the ability of
+LLMs to engage in a form of self-evaluation. After generating
+an initial response, the model is prompted to reflect on its
+own output, considering factors like factual accuracy, logical
+consistency, and relevance. This introspective process can lead
+to the generation of revised or improved responses.
+A key aspect of Reflection is the LLM’s capacity for
+self-editing. By evaluating its initial response, the model can
+identify potential errors or areas of improvement. This iterative

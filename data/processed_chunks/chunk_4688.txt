@@ -1,0 +1,20 @@
+mann, San Mateo, CA.
+Cichosz, P. (1995).
+Truncating temporal diﬀerences: On the eﬃcient im-
+plementation of TD(λ) for reinforcement learning.
+Journal of Artiﬁcial
+15.5. OTHER FRONTIER DIMENSIONS
+317
+Intelligence Research, 2:287–318.
+Clark, W. A., Farley, B. G. (1955). Generalization of pattern recognition in a
+self-organizing system. In Proceedings of the 1955 Western Joint Computer
+Conference, pp. 86–91.
+Clouse, J. (1996).
+On Integrating Apprentice Learning and Reinforcement
+Learning TITLE2.
+Ph.D. thesis, University of Massachusetts, Amherst.
+Appeared as CMPSCI Technical Report 96-026.
+Clouse, J., Utgoﬀ, P. (1992). A teaching method for reinforcement learning
+systems.
+In Proceedings of the Ninth International Machine Learning
+Conference, pp. 92–101. Morgan Kaufmann, San Mateo, CA.

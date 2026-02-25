@@ -1,0 +1,16 @@
+returns x raised to y.
+Ex: power(3, 4) returns 81.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+12-4-more-math-recursion)
+TRY IT
+Recursive power (with any integer power)
+Write a recursive rec_pow() function such that given two integers, x and y, it returns x raised to y.
+(Note: this is an extension of the above problem but now works for any integer value of y, positive or
+negative. How should the recursive function change to deal with a negative value of y?)
+Ex: rec_pow(2, -4) returns 0.0625.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+12-4-more-math-recursion)
+12.5 Using recursion to solve problems
+Learning objectives
+By the end of this section you should be able to
+•

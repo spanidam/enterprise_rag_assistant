@@ -1,0 +1,11 @@
+and French and Messinger (1994). An excellent overview of this topic can be 
+found in Mitchell (1996). A special issue of the journal Evolutionary Computa- 
+tion on this topic (Turney et al. 1997) contains several articles on the Baldwin 
+effect. 
+9.7 PARALLELIZING GENETIC ALGORITHMS 
+GAS are naturally suited to parallel implementation, and a number of approaches 
+to parallelization have been explored. Coarse grain approaches to paralleliza- 
+tion subdivide the population into somewhat distinct groups of individuals, called 
+demes. Each deme is assigned to a different computational node, and a standard 
+GA search is performed at each node. Communication and cross-fertilization be- 
+tween demes occurs on a less frequent basis than within demes. Transfer between

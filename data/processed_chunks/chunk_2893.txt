@@ -1,0 +1,10 @@
+tional rules. Inductive learning of first-order rules or theories is often referred to 
+as inductive logic programming (or L P  for short), because this process can be 
+viewed as automatically inferring PROLOG programs from examples. PROLOG is a 
+general purpose, Turing-equivalent programming language in which programs are 
+expressed as collections of Horn clauses. 
+10.4.1 First-Order Horn Clauses 
+To see the advantages of first-order representations over propositional (variable- 
+free) representations, consider the task of learning the simple target concept 
+Daughter (x, y), defined over pairs of people x and y. The value of Daughter(x, y) 
+is True when x is the daughter of y, and False otherwise. Suppose each person

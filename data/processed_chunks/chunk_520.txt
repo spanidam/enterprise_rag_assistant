@@ -1,0 +1,37 @@
+223
+Forward Recursion link 1
+Using (6.156) with i = 1 and noting that ae,0 = 0 gives
+ac,1
+=
+¨q1k × ℓc1i + ˙q1k × ( ˙q1k × ℓc1i)
+=
+ℓc1¨q1j −ℓc1 ˙q2
+1i =
+
+
+−ℓc1 ˙q2
+1
+ℓc¨q1
+0
+
+
+(6.163)
+Notice how simple this computation is when we do it with respect to frame 1.
+Compare with the same computation in frame 0! Finally, we have
+g1
+=
+−(R1
+0)T gj = g
+
+
+sin q1
+−cos q1
+0
+
+
+(6.164)
+where g is the acceleration due to gravity. At this stage we can economize a
+bit by not displaying the third components of these accelerations, since they
+are obviously always zero. Similarly, the third component of all forces will be
+zero while the ﬁrst two components of all torques will be zero. To complete the
+computations for link 1, we compute the acceleration of end of link 1. Clearly,

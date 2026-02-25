@@ -1,0 +1,11 @@
+2.2. Deciding on an MLP architecture
+11
+Deep Learning Basics (lecture notes)
+– in the case of multi-class classification, the model will have as many output neurons as the number of classes
+in the problem.
+Once these number of input / output neurons are fixed, the number of hidden neurons as well as the number of neurons
+per hidden layer are left as hyper-parameters of the model.
+2.3 Activation functions
+Another important hyper-parameter of neural networks is the choice of the activation function 𝜑.
+Here, it is important to notice that if we used the identity function as our activation function, then whatever the depth
+of our MLP, we would fall back to covering only the family of linear models. In practice, we will then use activation

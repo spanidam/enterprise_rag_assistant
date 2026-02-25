@@ -1,0 +1,15 @@
+value to an Account's amount attribute.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-4-overloading-operators)
+11.5 Using modules with classes
+Learning objectives
+By the end of this section you should be able to
+•
+Construct an import statement that selectively imports classes.
+•
+Create an alias to import a module.
+Importing classes from modules
+Import statements, as discussed in the Modules chapter, allow code from other files, including classes, to be
+imported into a program. Accessing an imported class depends on whether the whole module is imported or
+only selected parts.
+Multiple classes can be grouped in a module. For good organization, classes should be grouped in a module

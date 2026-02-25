@@ -1,0 +1,10 @@
+be applied to this bit string, but that the Dropcondition operator may not. These 
+two new bits define part of the search strategy used by the GA and are themselves 
+altered and evolved using the same crossover and mutation operators that operate 
+on other bits in the string. While the authors report mixed results with this approach 
+(i.e., improved performance on some problems, decreased performance on others), 
+it provides an interesting illustration of how GAS might in principle be used to 
+evolve their own hypothesis search methods. 
+9.4 HYPOTHESIS SPACE SEARCH 
+As illustrated above, GAS employ a randomized beam search method to seek a 
+maximally fit hypothesis. This search is quite different from that of other learning

@@ -1,0 +1,29 @@
+22
+4.4
+Wrapping things up in keras . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+24
+4.5
+Data preprocessing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+5
+Regularization
+27
+5.1
+Early Stopping
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+27
+5.2
+Loss penalization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+29
+5.3
+DropOut
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+30
+6
+Convolutional Neural Networks
+33
+6.1
+ConvNets for time series . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+33
+6.2
+Convolutional neural networks for images

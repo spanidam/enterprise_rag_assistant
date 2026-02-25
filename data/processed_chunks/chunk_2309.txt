@@ -1,0 +1,11 @@
+because this is the error we can expect when applying the hypothesis to future 
+examples. All we can measure, however, is the sample error errors(h) of the 
+hypothesis for the data sample S that we happen to have in hand. The main 
+question considered in this section is "How good an estimate of errorD(h) is 
+provided by errors (h)?" 
+5.2.2 Confidence Intervals for Discrete-Valued Hypotheses 
+Here we give an answer to the question "How good an estimate of errorv(h) is 
+provided by errors(h)?' for the case in which h is a discrete-valued hypothesis. 
+More specifically, suppose we wish to estimate the true error for some discrete- 
+valued hypothesis h, based on its observed sample error over a sample S, where 
+0 the sample S contains n examples drawn independent of one another, and

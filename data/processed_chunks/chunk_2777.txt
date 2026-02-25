@@ -1,0 +1,9 @@
+Note the bit string representing the rule contains a substring for each attribute 
+in the hypothesis space, even if that attribute is not constrained by the rule pre- 
+conditions. This yields a fixed length bit-string representation for rules, in which 
+substrings at specific locations describe constraints on specific attributes. Given 
+this representation for single rules, we can represent sets of rules by similarly 
+concatenating the bit string representations of the individual rules. 
+In designing a bit string encoding for some hypothesis space, it is useful to 
+arrange for every syntactically legal bit string to represent a well-defined hypoth- 
+esis. To illustrate, note in the rule encoding in the above paragraph the bit string

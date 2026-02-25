@@ -1,0 +1,39 @@
+Hamiltonian function H by
+H
+=
+n
+X
+k−1
+˙qkpk −L.
+a) Show that H = K + V .
+b) Using Lagrange’s equations, derive Hamilton’s equations
+˙qk
+=
+∂H
+∂pk
+˙pk
+=
+−∂H
+∂qk
++ τk
+where τk is the input generalized force.
+PLANAR ELBOW MANIPULATOR REVISITED
+227
+c) For two-link manipulator of Figure 6.7 compute Hamiltonian equations
+in matrix form. Note that Hamilton’s equations are a system of ﬁrst
+order diﬀerential equations as opposed to second order system given
+by Lagrange’s equations.
+6-13 Given the Hamiltonian H for a rigid robot, show that
+dH
+dt
+=
+˙qT τ
+where τ is the external force applied at the joints. What are the units of
+dH
+dt ?
+7
+INDEPENDENT JOINT
+CONTROL
+7.1
+INTRODUCTION
+The control problem for robot manipulators is the problem of determining

@@ -1,0 +1,11 @@
+oﬀset by a random fraction of a tile width.
+The Sarsa algorithm in Figure 9.8 (using replace traces and the optional
+clearing) readily solved this task, learning a near optimal policy within 100
+episodes. Figure 9.10 shows the negative of the value function (the cost-to-
+go function) learned on one run, using the parameters λ = 0.9, ε = 0, and
+α = 0.05 (e.g., 0.5
+m ). The initial action values were all zero, which was optimistic
+(all true values are negative in this task), causing extensive exploration to
+occur even though the exploration parameter, ε, was 0. This can be seen in
+the middle-top panel of the ﬁgure, labeled “Step 428.” At this time not even
+one episode had been completed, but the car has oscillated back and forth in

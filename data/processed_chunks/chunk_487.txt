@@ -1,0 +1,17 @@
+For revolute joint robots, the inertia matrix also satisﬁes global bounds that
+are useful for control design.
+212
+DYNAMICS
+6.5.1
+The Skew Symmetry and Passivity Properties
+The Skew Symmetry property refers to an important relationship between
+the inertia matrix D(q) and the matrix C(q, ˙q) appearing in (6.61) that will be
+of fundamental importance for the problem of manipulator control considered
+in later chapters.
+Proposition: 6.1
+The Skew Symmetry Property
+Let D(q) be the inertia matrix for an n-link robot and deﬁne C(q, ˙q) in terms of
+the elements of D(q) according to Equation (6.62). Then the matrix N(q, ˙q) =
+˙D(q) −2C(q, ˙q) is skew symmetric, that is, the components njk of N satisfy
+njk = −nkj.
+Proof: Given the inertia matrix D(q), the kj-th component of ˙D(q) is given

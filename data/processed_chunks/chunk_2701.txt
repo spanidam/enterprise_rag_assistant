@@ -1,0 +1,14 @@
+Euclidean distance. 
+One practical issue in applying k-NEAREST 
+NEIGHBOR 
+algorithms is that the 
+distance between instances is calculated based on all attributes of the instance 
+(i.e., on all axes in the Euclidean space containing the instances). This lies in 
+contrast to methods such as rule and decision tree learning systems that select 
+only a subset of the instance attributes when forming the hypothesis. To see the 
+effect of this policy, consider applying k-NEAREST 
+NEIGHBOR 
+to a problem in which 
+each instance is described by 20 attributes, but where only 2 of these attributes 
+are relevant to determining the classification for the particular target function. In 
+this case, instances that have identical values for the 2 relevant attributes may

@@ -1,0 +1,13 @@
+cle are possible. The origin of the robot’s local coordinate frame at each such
+conﬁguration deﬁnes a vertex of QO. The polygon deﬁned by these vertices is
+QO.
+If there are multiple convex obstacles Oi, then the conﬁguration space obsta-
+cle region is merely the union of the obstacle regions QOi, for the individual
+obstacles. For a nonconvex obstacle, the conﬁguration space obstacle region can
+be computed by ﬁrst decomposing the nonconvex obstacle into convex pieces,
+Oi, computing the C-space obstacle region, QOi for each piece, and ﬁnally,
+computing the union of the QOi.
+⋄
+Example 5.2 A Two Link Planar Arm.
+For robots with revolute joints, computation of QO is more diﬃcult. Con-
+sider a two-link planar arm in a workspace containing a single obstacle as shown

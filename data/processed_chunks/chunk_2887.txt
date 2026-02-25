@@ -1,0 +1,10 @@
+trasts to the generate and test search of LEARN-ONE-RULE 
+in Table 10.2, in which 
+successor hypotheses are generated based only on the syntax of the hypothesis 
+representation. The training data is considered only after these candidate hypothe- 
+ses are generated and is used to choose among the candidates based on their 
+performance over the entire collection of training examples. One important ad- 
+vantage of the generate and test approach is that each choice in the search is 
+based on the hypothesis performance over many examples, so that the impact 
+of noisy data is minimized. In contrast, example-driven algorithms that refine 
+the hypothesis based on individual examples are more easily misled by a sin-

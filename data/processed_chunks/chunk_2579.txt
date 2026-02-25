@@ -1,0 +1,11 @@
+to learn the target concept. For example, H might be the set of all hypotheses 
+describable by conjunctions of the attributes age and height. After observing 
+a sequence of training examples of the target concept c, L must output some 
+hypothesis h from H, which is its estimate of c. To be fair, we evaluate the 
+success of L by the performance of h over new instances drawn randomly from 
+X according to D, the same probability distribution used to generate the training 
+data. 
+Within this setting, we are interested in characterizing the performance of 
+various learners L using various hypothesis spaces H, when learning individual 
+target concepts drawn from various classes C. Because we demand that L be 
+general enough to learn any target concept from C regardless of the distribution

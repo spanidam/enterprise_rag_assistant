@@ -1,0 +1,55 @@
+cθ
+
+
+(2.27)
+The matrix RZY Z in Equation (2.27) is called the ZY Z-Euler Angle Trans-
+formation.
+The more important and more diﬃcult problem is the following: Given a
+matrix R ∈SO(3)
+R =
+
+
+r11
+r12
+r13
+r21
+r22
+r23
+r31
+r32
+r33
+
+
+determine a set of Euler angles φ, θ, and ψ so that
+R = RZY Z
+(2.28)
+This problem will be important later when we address the inverse kinematics
+problem for manipulators. In order to ﬁnd a solution for this problem we break
+it down into two cases.
+First, suppose that not both of r13, r23 are zero. Then from Equation (2.28)
+we deduce that sθ ̸= 0, and hence that not both of r31, r32 are zero. If not both
+r13 and r23 are zero, then r33 ̸= ±1, and we have cθ = r33, sθ = ±
+p
+1 −r2
+33 so
+θ
+=
+atan2
+
+r33,
+q
+1 −r2
+33
+
+(2.29)
+or
+θ
+=
+atan2
+
+r33, −
+q
+1 −r2
+33
+
+(2.30)

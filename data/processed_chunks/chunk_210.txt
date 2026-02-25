@@ -1,0 +1,21 @@
+inverse kinematics problem into two simpler problems, known respectively, as
+inverse position kinematics, and inverse orientation kinematics. To put
+it another way, for a six-DOF manipulator with a spherical wrist, the inverse
+kinematics problem may be separated into two simpler problems, namely ﬁrst
+ﬁnding the position of the intersection of the wrist axes, hereafter called the
+wrist center, and then ﬁnding the orientation of the wrist.
+For concreteness let us suppose that there are exactly six degrees-of-freedom
+and that the last three joint axes intersect at a point oc. We express (3.32) as
+88
+FORWARD AND INVERSE KINEMATICS
+two sets of equations representing the rotational and positional equations
+R0
+6(q1, . . . , q6)
+=
+R
+(3.37)
+o0
+6(q1, . . . , q6)
+=
+o
+(3.38)

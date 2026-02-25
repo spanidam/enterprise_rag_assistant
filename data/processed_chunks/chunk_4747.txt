@@ -1,0 +1,14 @@
+White, D. J. (1985). Real applications of Markov decision processes. Inter-
+faces, 15:73–83.
+White, D. J. (1988). Further real applications of Markov decision processes.
+Interfaces, 18:55–61.
+White, D. J. (1993). A survey of applications of Markov decision processes.
+Journal of the Operational Research Society, 44:1073–1096.
+Whitehead, S. D., Ballard, D. H. (1991). Learning to perceive and act by trial
+and error. Machine Learning, 7:45–83.
+Whitt, W. (1978). Approximations of dynamic programs I. Mathematics of
+Operations Research, 3:231–243.
+Whittle, P. (1982). Optimization over Time, vol. 1. Wiley, New York.
+Whittle, P. (1983). Optimization over Time, vol. 2. Wiley, New York.
+Widrow, B., Gupta, N. K., Maitra, S. (1973). Punish/reward: Learning with
+a critic in adaptive threshold systems.

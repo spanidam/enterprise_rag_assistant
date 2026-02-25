@@ -1,0 +1,17 @@
+work very well there either."
+64
+2 • Expressions
+Access for free at openstax.org
+5. "I would guess that the decision to create a small special purpose language
+or use an existing general purpose language is one of the toughest decisions that
+anyone facing the need for a new language must make."
+Notice that all of these lines are longer than 80 characters, and some contain single quote marks. Format
+the code using multi-line statements and escape sequences as necessary.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+2-7-formatting-code)
+2.8 Python careers
+Learning objectives
+By the end of this section you should be able to
+•
+Summarize how Python is used in fields other than CS and IT.
+•

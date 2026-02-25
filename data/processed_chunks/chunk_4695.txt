@@ -1,0 +1,18 @@
+Estes, W. K. (1950). Toward a statistical theory of learning. Psychololgical
+Review, 57:94–107.
+Farley, B. G., Clark, W. A. (1954). Simulation of self-organizing systems by
+digital computer. IRE Transactions on Information Theory, 4:76–84.
+Feldbaum, A. A. (1965).
+Optimal Control Systems.
+Academic Press, New
+York.
+Fogel, L. J., Owens, A. J., Walsh, M. J. (1966). Artiﬁcial intelligence through
+simulated evolution. John Wiley and Sons.
+Friston, K. J., Tononi, G., Reeke, G. N., Sporns, O., Edelman, G. M. (1994).
+Value-dependent selection in the brain: Simulation in a synthetic neural
+model. Neuroscience, 59:229–243.
+Fu, K. S. (1970).
+Learning control systems—Review and outlook.
+IEEE
+Transactions on Automatic Control, 15:210–221.
+Galanter, E., Gerstenhaber, M. (1956).

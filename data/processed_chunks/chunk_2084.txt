@@ -1,0 +1,24 @@
+attribute PlayTennis. 
+Temperature: 
+40 
+48 
+60 
+72 
+80 
+90 
+PlayTennis: 
+No 
+No 
+Yes 
+Yes 
+Yes 
+NO 
+CHAPTER 3 DECISION TREE LEARNING 73 
+What threshold-based boolean attribute should be defined based on Temper- 
+ature? Clearly, we would like to pick a threshold, c, that produces the greatest 
+information gain. By sorting the examples according to the continuous attribute 
+A, then identifying adjacent examples that differ in their target classification, we 
+can generate a set of candidate thresholds midway between the corresponding 
+values of A. It can be shown that the value of c that maximizes information gain 
+must always lie at such a boundary (Fayyad 1991). These candidate thresholds 
+can then be evaluated by computing the information gain associated with each.

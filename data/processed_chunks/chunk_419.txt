@@ -1,0 +1,12 @@
+The earliest work on robot planning was done in the late sixties and early sev-
+enties in a few University-based Artiﬁcial Intelligence (AI) labs [25, 28, 57].
+This research dealt with high level planning using symbolic reasoning that was
+much in vogue at the time in the AI community.
+Geometry was not often
+explicitly considered in early robot planners, in part because it was not clear
+how to represent geometric constraints in a computationally plausible manner.
+The conﬁguration space and its application to path planning were introduced in
+[47]. This was the ﬁrst rigorous, formal treatment of the geometric path plan-
+HISTORICAL PERSPECTIVE
+185
+ning problem, and it initiated a surge in path planning research. The earliest

@@ -1,0 +1,11 @@
+ter 13) the approach of iteratively estimating training values based on estimates of 
+successor state values can be proven to converge toward perfect estimates of Vtrain. 
+1.2.4.2 ADJUSTING THE WEIGHTS 
+All that remains is to specify the learning algorithm for choosing the weights wi  to^ 
+best fit the set of training examples {(b, Vtrain(b))}. 
+As a first step we must define 
+what we mean by the bestfit to the training data. One common approach is to 
+define the best hypothesis, or set of weights, as that which minimizes the squarg 
+error E between the training values and the values predicted by the hypothesis V .  
+Thus, we seek the weights, or equivalently the c ,  that minimize E for the observed 
+training examples. Chapter 6 discusses settings in which minimizing the sum of

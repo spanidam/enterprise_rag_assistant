@@ -1,0 +1,10 @@
+Because L is an inductive learning algorithm, the result L(xi, D,) that it in- 
+fers will not in general be provably correct; that is, the classification L(xi, D,) need 
+not follow deductively from the training data D, and the description of the new 
+instance xi. However, it is interesting to ask what additional assumptions could be 
+added to D, r\xi so that L(xi, D,) would follow deductively. We define the induc- 
+tive bias of L as this set of additional assumptions. More precisely, we define the 
+t ~ h e  
+term inductive bias here is not to be confused with the term estimation bias commonly used in 
+statistics. Estimation bias will be discussed in Chapter 5. 
+CHAFI%R 2 CONCEPT LEARNING AND THE GENERAL-TO-SPECIFIC ORDERING 43

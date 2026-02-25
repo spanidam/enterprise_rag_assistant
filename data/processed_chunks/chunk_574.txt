@@ -1,0 +1,43 @@
+(7.58) will be in the left half plane near the poles of the undamped system.
+Suppose we implement a PD compensator C(s) = Kp + KDs. At this point
+the analysis depends on whether the position/velocity sensors are placed on
+the motor shaft or on the load shaft, that is, whether the PD-compensator is
+a function of the motor variables or the load variables. If the motor variables
+are measured then the closed loop system is given by the block diagram of
+Figure 7.24. Set Kp + KDs = KD(s + a); a = Kp/KD. The root locus for the
+s  +.1s+60
+2
+1
+Transfer Fcn1
+s  +.1s+60
+2
+60
+Transfer Fcn
+Step1
+Step
+Scope
+PID
+PID Controller
+60
+Gain
+Fig. 7.24
+PD-control with motor angle feedback.
+closed loop system in terms of KD is shown in Figure 7.25.
+−5
+−4.5
+−4
+−3.5
+−3
+−2.5
+−2
+−1.5
+−1
+−0.5
+0
+−3
+−2
+−1
+0
+1
+2
+3

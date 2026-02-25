@@ -1,0 +1,13 @@
+383
+Chapter 4
+4.1 Boolean values
+1. c. "True" uses quotation marks, so the value is a string.
+2. b. is_vegetable is an integer and can be used in arithmetic operations.
+3. a. A variable assigned with either True or False is a Boolean variable.
+4. a. A Boolean variable represents the value True or False .
+5. b. True and False are the only two values for a Boolean variable.
+6. b. Assigning a bool with an int results in implicit type conversion. The type conversion can cause issues
+later in the code if the programmer assumes is_dessert is still a Boolean.
+7. b. Any numeric type representing 0 converts to False . Non-zero numbers convert to True .
+8. a. A negative number is non-zero and converts to True .
+9. b. The empty string is the only string that converts to False .

@@ -1,0 +1,11 @@
+queen. Black must therefore move its king, enabling white to 
+capture its queen. 
+What is interesting about this chess-learning task is that humans appear to 
+learn such target concepts from just a handful of training examples! In fact, after 
+considering only the single example shown in Figure 1 1.1, most people would 
+be willing to suggest a general hypothesis for the target concept, such as "board 
+positions in which the black king and queen are simultaneously attacked," and 
+would not even consider the (equally consistent) hypothesis "board positions in 
+which four white pawns are still in their original locations." How is it that humans 
+can generalize so successfully from just this one example? 
+The answer appears to be that people rely heavily on explaining, or analyz-

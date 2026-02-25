@@ -1,0 +1,10 @@
+eigenvalues of A −ℓcT and the eigenvalues of A −bkT . As the name suggests
+the Separation Principle allows us to separate the design of the state feedback
+control law (7.79) from the design of the state estimator (7.82). A typical pro-
+cedure is to place the observer poles to the left of the desired pole locations of
+A −bkT . This results in rapid convergence of the estimated state to the true
+state, after which the response of the system is nearly the same as if the true
+state were being used in (7.79).
+The result that the closed loop poles of the system may be placed arbitrarily,
+under the assumption of controllability and observability, is a powerful theoret-
+ical result. There are always practical considerations to be taken into account,

@@ -1,0 +1,20 @@
+interactive tool is included at the top of the results. The goal of this exercise is to implement a similar tip
+calculator.
+Begin by prompting the user to input the following values (user input in bold):
+68
+2 • Expressions
+Access for free at openstax.org
+43.21
+Percentage to tip: 18
+Number of people: 2
+Enter bill amount: 43.21
+Percentage to tip: 18
+Number of people: 2
+Then calculate the tip amount and total amount for the bill, based on the user input. Output the results
+using this format:
+Tip amount: $7.78
+Total amount: $50.99
+Tip per person: $3.89
+Total per person: $25.49
+Your program should output all dollar amounts rounded to two decimal places. The output should be
+exactly six lines, as shown above. Notice the blank line before each section of the output. Notice also the

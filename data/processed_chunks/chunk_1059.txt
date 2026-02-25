@@ -1,0 +1,16 @@
+a.
+true
+b.
+false
+8
+1 • Statements
+Access for free at openstax.org
+EXPLORING FURTHER
+Later chapters of this book show how to write analysis programs using real data. Example libraries that
+provide access to online streaming services include Spotipy (https://openstax.org/r/100spotipy), Pytube
+(https://openstax.org/r/100pytube), and Pydora (https://openstax.org/r/100pydora). Python-related tools
+often have the letters "py" in their name.
+The Python language
+This book introduces Python (https://openstax.org/r/100python), one of the top programming languages
+today. Leading tech giants like Google, Apple, NASA, Instagram, Pixar, and others use Python extensively.
+One reason why Python is popular is because many libraries exist for doing real work. A library is a collection

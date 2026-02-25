@@ -1,0 +1,15 @@
+13(4):607–617, August 1997.
+69. R. Sharma and S. A. Hutchinson. On the observability of robot motion un-
+der active camera control. In Proceedings of IEEE Conference on Robotics
+and Automation, pages 162–167, May 1994.
+402
+REFERENCES
+70. W. Snyder. Industrial Robots: Computer Interfacing and Control. Prentice-
+Hall, Englewood Cliﬀs, NJ, 1985.
+71. C.H. Su and C. W. Radcliﬀe. Kinematics and Mechanisms Design. Wiley,
+New York, 1978.
+72. L. Tsai and A. Morgan. Solving the kinematics of the most general six-
+and ﬁve-degree-of-freedom manipulators by continuation methods. In Proc.
+ASME Mechanisms Conference, Boston, October 1984.
+73. Gino van den Bergen. A fast and robust GJK implementation for collision
+detection of convex objects. Journal of Graphics Tools, 4(2):7–25, 1999.

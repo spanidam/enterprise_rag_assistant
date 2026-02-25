@@ -1,0 +1,11 @@
+naturally occurring structure over the hypothesis space, we can design learning 
+algorithms that exhaustively search even infinite hypothesis spaces without explic- 
+itly enumerating every hypothesis. To illustrate the general-to-specific ordering, 
+consider the two hypotheses 
+hi = (Sunny, ?, ?, Strong, ?, ?) 
+h2 = (Sunny, ?, ?, ?, ?, ?) 
+Now consider the sets of instances that are classified positive by hl and by h2. 
+Because h2 imposes fewer constraints on the instance, it classifies more instances 
+as positive. In fact, any instance classified positive by hl will also be classified 
+positive by h2. Therefore, we say that h2 is more general than hl. 
+This intuitive "more general than" relationship between hypotheses can be

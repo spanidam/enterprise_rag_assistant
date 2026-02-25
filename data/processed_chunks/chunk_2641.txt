@@ -1,0 +1,14 @@
+with the above theorem, to bound the VC dimension of acyclic layered networks 
+containing s perceptrons, each with r inputs, as 
+We can now bound the number m of training examples sufficient to learn 
+perceptrons 
+(with probability at least (1 - 6)) any target concept from C, 
+to within 
+error E .  Substituting the above expression for the network VC dimension into 
+Equation (7.7), we have 
+As illustrated by this perceptron network example, the above theorem is 
+interesting because it provides a general method for bounding the VC dimension 
+of layered, acyclic networks of units, based on the network structure and the VC 
+dimension of the individual units. Unfortunately the above result does not directly 
+apply to networks trained using BACKPROPAGATION, 
+for two reasons. First, this

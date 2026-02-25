@@ -1,0 +1,18 @@
+ROBUST AND ADAPTIVE MOTION CONTROL
+279
+Problems
+8-1 Form the Lagrangian for an n-link manipulator with joint ﬂexibility using
+(??)-(??). From this derive the dynamic equations of motion (??)-(??).
+8-2 Complete the proof of stability of PD-control for the ﬂexible joint robot
+without gravity terms using (??) and LaSalle’s Theorem.
+8-3 Suppose that the PD control law (??) is implemented using the link vari-
+ables, that is,
+u
+=
+Kpq1 −KD ˙q1.
+What can you say now about stability of the system? Note: This is a
+diﬃcult problem. Try to prove the following conjecture: Suppose that
+B2 = 0 in (??).
+Then with the above PD control law, the system is
+unstable. [Hint: Use Lyapunov’s First Method, that is, show that the
+equilibrium is unstable for the linearized system.]

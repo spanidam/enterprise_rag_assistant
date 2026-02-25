@@ -1,0 +1,31 @@
+ˆq(s, a,w)
+approximate value of state–action pair s, a given weights w
+w, wt
+vector of (possibly learned) weights underlying an approximate value function
+x(s)
+vector of features visible when in state s
+w⊤x
+inner product of vectors, w⊤x = P
+i wixi; e.g., ˆv(s,w) = w⊤x(s)
+xiv
+SUMMARY OF NOTATION
+δt
+temporal-diﬀerence error at t (a random variable, even though not upper case)
+Et(s)
+eligibility trace for state s at t
+Et(s, a)
+eligibility trace for a state–action pair
+et
+eligibility trace vector at t
+γ
+discount-rate parameter
+ε
+probability of random action in ε-greedy policy
+α, β
+step-size parameters
+λ
+decay-rate parameter for eligibility traces
+Chapter 1
+The Reinforcement Learning
+Problem
+The idea that we learn by interacting with our environment is probably the

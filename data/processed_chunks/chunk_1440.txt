@@ -1,0 +1,17 @@
+•
+Use nested loops to iterate a list-of-lists.
+9.4 • Nested lists
+231
+List-of-lists
+Lists can be made of any type of element. A list element can also be a list. Ex: [2, [3, 5], 17] is a valid list
+with the list [3, 5] being the element at index 1.
+When a list is an element inside a larger list, it is called a nested list. Nested lists are useful for expressing
+multidimensional data. When each of the elements of a larger list is a smaller list, the larger list is called a list-
+of-lists.
+Ex: A table can be stored as a two-dimensional list-of-lists, where each row of data is a list in the list-of-lists.
+CHECKPOINT
+List-of-lists
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+9-4-nested-lists)
+CONCEPTS IN PRACTICE
+Lists

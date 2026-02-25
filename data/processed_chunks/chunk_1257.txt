@@ -1,0 +1,27 @@
+if x < 50:
+result = True
+else:
+result = False
+a.
+result = True if x < 50 else False
+b.
+result = x < 50
+5. What are the possible values of total?
+total = fee + 10 if hours > 12 else 2
+a.
+10, 2
+b.
+fee + 10, 2
+c.
+fee + 10, fee + 2
+TRY IT
+Ping values
+Write a program that reads in an integer, ping, and prints ping_report, a string indicating whether the
+ping is low to average or too high. ping values under 150 have a ping_report of "low to average".
+ping values of 150 and higher have a ping_report of "too high". Use a conditional expression to assign
+ping_report.
+Ex: If the input is 30, the output is "Ping is low to average".
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+4-7-conditional-expressions)
+4.7 • Conditional expressions
+117

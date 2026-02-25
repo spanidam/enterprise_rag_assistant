@@ -1,0 +1,9 @@
+encountered 328 opportunities for learning a new rule, but chose to exploit only 69 
+of these, and eventually reduced the learned rules to a set of 19, once low-utility 
+rules were eliminated. Tambe et al. (1990) and Doorenbos (1993) discuss how to 
+identify types of rules that will be particularly costly to match, as well as methods 
+for re-expressing such rules in more efficient forms and methods for optimizing 
+rule-matching algorithms. Doorenbos (1993) describes how these methods enabled 
+SOAR to efficiently match a set of 100,000 learned rules in one problem domain, 
+without a significant increase in the cost of matching rules per state. 
+A second practical problem with applying explanation-based learning to

@@ -1,0 +1,18 @@
+8-subsumes the clause C2 : c(x) t 
+h2(x). Furthermore, 8-subsumption can hold 
+even when the clauses have different heads. For example, clause A 8-subsumes 
+clause B in the following case: 
+A : 
+Mother(x, y) 
+t 
+Father(x, z )  A Spouse(z, y) 
+B : Motker(x, Louise) t 
+Father(x, Bob) A Spouse(Bob, y) A Female@) 
+because A8 G B if we choose 8 = {ylLouise, zlBob). The key difference here is 
+that >, implicitly assumes two clauses for which the heads are the same, whereas 
+8-subsumption can hold even for clauses with different heads. 
+Finally, 8-subsumption is a special case of entailment. That is, if clause A 
+8-subsumes clause B, then A k B. However, we can find clauses A and B such 
+that A F B, but where A does not 8-subsume B. One example is the following 
+pair of clauses 
+A :

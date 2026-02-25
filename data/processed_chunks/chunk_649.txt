@@ -1,0 +1,12 @@
+9.1
+INTRODUCTION
+In previous chapters we considered the problem of tracking motion trajectories
+using a variety of basic and advanced control methods. Such position control
+schemes are adequate for tasks such as materials transfer or spot welding where
+the manipulator is not interacting signiﬁcantly with objects in the workplace
+(hereafter referred to as the environment). However, tasks such as assembly,
+grinding, and deburring, which involve extensive contact with the environment,
+are often better handled by controlling the forces1 of interaction between the
+manipulator and the environment rather than simply controlling the position
+of the end-eﬀector. For example, consider an application where the manipula-
+tor is required to wash a window, or to write with a felt tip marker. In both

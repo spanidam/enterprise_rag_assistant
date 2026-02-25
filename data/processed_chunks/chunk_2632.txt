@@ -1,0 +1,10 @@
+exclude instancei, add the literal -li to the hypothesis. For example, suppose we 
+wish to include instance2, but exclude instance1 and instance3. Then we use the 
+hypothesis -Il A -I3. This argument easily extends from three features to n. Thus, 
+the VC dimension for conjunctions of n boolean literals is at least n. In fact, it is 
+exactly n, though showing this is more difficult, because it requires demonstrating 
+that no set of n + 1 instances can be shattered. 
+i 7.4.3 Sample Complexity and the VC Dimension 
+Earlier we considered the question "How many randomly drawn training examples 
+suffice to probably approximately learn any target concept in C?' (i.e., how many 
+examples suffice to €-exhaust the version space with probability (1 - a)?). Using

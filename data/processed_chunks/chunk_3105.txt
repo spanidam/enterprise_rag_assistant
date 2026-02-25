@@ -1,0 +1,9 @@
+National Conference on Artificial Intelligence (pp. 561-567). AAAI Press. 
+Russell, S. (1989). The use of knowledge in analogy and induction. San Francisco: Morgan Kaufmann. 
+Shavlik, J. W. (1990). Acquiring recursive and iterative concepts with explanation-based learning. 
+Machine Learning, 5, 39. 
+Silver, B. (1983). Learning equation solving methods from worked examples. Proceedings of the 
+I983 International Workshop on Machine Learning (pp. 99-104). CS Department, University 
+of Illinois at Urbana-Champaign. 
+Silver, B. (1986). Precondition analysis: Learning control information. In R. Michalski et al. (Eds.), 
+Machine Learning: An AI approach (pp. 647470). San Mateo, CA. Morgan Kaufmann.

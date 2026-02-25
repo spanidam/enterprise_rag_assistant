@@ -1,0 +1,18 @@
+(6.115)
+where In×n denotes the n × n identity matrix.
+The above inequalities are
+interpreted in the standard sense of matrix inequalities, namely, if A and B are
+214
+DYNAMICS
+n × n matrices, then B < A means that the matrix A −B is positive deﬁnite
+and B ≤A means that A −B is positive semi-deﬁnite.
+If all of the joints are revolute then the inertia matrix contains only bounded
+functions of the joint variables, i.e., terms containing sine and cosine functions.
+As a result one can ﬁnd constants λm and λM that provide uniform (indepen-
+dent of q) bounds in the inertia matrix
+λmIn×n ≤D(q) ≤λMIn×n < ∞
+(6.116)
+6.5.3
+Linearity in the Parameters
+The robot equations of motion are deﬁned in terms of certain parameters, such
+as link masses, moments of inertia, etc., that must be determined for each

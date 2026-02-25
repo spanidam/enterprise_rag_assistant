@@ -1,0 +1,20 @@
+membrane response by a neuron-like adaptive element: I. Response to-
+pography, neuronal ﬁring, and interstimulus intervals. Behavioural Brain
+Research, 21:143–154.
+Narendra, K. S., Thathachar, M. A. L. (1974). Learning automata—A survey.
+IEEE Transactions on Systems, Man, and Cybernetics, 4:323–334.
+Narendra, K. S., Thathachar, M. A. L. (1989).
+Learning Automata: An
+Introduction. Prentice-Hall, Englewood Cliﬀs, NJ.
+Narendra, K. S., Wheeler, R. M. (1986).
+Decentralized learning in ﬁnite
+Markov chains. IEEE Transactions on Automatic Control, AC31(6):519–
+526.
+Nie, J., Haykin, S. (1996).
+A dynamic channel assignment policy through
+15.5. OTHER FRONTIER DIMENSIONS
+327
+Q-learning.
+CRL Report 334.
+Communications Research Laboratory,
+McMaster University, Hamilton, Ontario.

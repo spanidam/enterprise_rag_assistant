@@ -1,0 +1,15 @@
+Medin (1995) describe experimental studies of human learning that suggest a rich 
+interplay between prior knowledge and observed data to influence the learning 
+process. Kotovsky and Baillargeon (1994) describe experiments that suggest even 
+1 1-month old infants build on prior knowledge as they learn. 
+The analysis performed in explanation-based learning is similar to certain 
+kinds of program optimization methods used for PROLOG 
+programs, such as par- 
+tial evaluation; van Harmelen and Bundy (1988) provide one discussion of the 
+relationship. 
+EXERCISES 
+11.1. Consider the problem of learning the target concept "pairs of people who live in 
+the same house," denoted by the predicate HouseMates(x, y). Below is a positive 
+example of the concept. 
+HouseMates(Joe, Sue) 
+Person( Joe)

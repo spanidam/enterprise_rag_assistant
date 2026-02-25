@@ -1,0 +1,10 @@
+T, as measured by P, improves with experience E. 
+For example, a computer program that learns to play checkers might improve 
+its performance as measured by its abiliry to win at the class of tasks involving 
+playing checkers games, through experience obtained by playing games against 
+itself. In general, to have a well-defined learning problem, we must identity these 
+CHAPTER 1 INTRODUCITON 3 
+0 Learning to recognize spoken words. 
+All of the most successful speech recognition systems employ machine learning in some form. 
+For example, the SPHINX system (e.g., Lee 1989) learns speaker-specific strategies for recognizing 
+the primitive sounds (phonemes) and words from the observed speech signal. Neural network

@@ -1,0 +1,47 @@
+CHECKPOINT
+Creating multiple coffee orders and changing attributes
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-2-classes-and-instances)
+CONCEPTS IN PRACTICE
+instances and __init__()
+Consider the example below:
+1
+class Rectangle:
+2
+def __init__(self):
+3
+self.length = 1
+4
+self.width = 1
+5
+def area(self):
+6
+return self.length * self.width
+7
+8
+room_1 = Rectangle()
+9
+room_1.length = 10
+10
+room_1.width = 15
+11
+print("Room 1's area:", room_1.area())
+12
+room_3 = Rectangle()
+13
+room_3.length = 12
+14
+room_3.width = 14
+15
+print("Room 3's area:", room_3.area())
+5. How many times is __init__() called?
+a.
+1
+b.
+2
+c.
+3
+6. When line 11 executes, execution flow moves to line 5. What does self represent on line 5?
+a.
+the area of room_1
+b.

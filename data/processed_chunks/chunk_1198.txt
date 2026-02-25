@@ -1,0 +1,27 @@
+Variables and objects
+1. How many assignment statements are in the above animation?
+a.
+2
+b.
+3
+c.
+4
+2. Which of the following best describes the objects assigned?
+a.
+two float objects
+b.
+two int objects, one float object
+c.
+one int object, one float object
+3. What symbol is used to show a variable's current value?
+a.
+an arrow
+b.
+a small black box
+c.
+a rounded box
+EXPLORING FURTHER
+Python Tutor (https://openstax.org/r/100pythontutor) is a free online tool for visualizing code execution. A
+user can enter any Python code, click Visualize Execution, and then click the Next button to run the code
+one line at a time. Here is the rating and score example (https://openstax.org/r/100ratingscore) from the
+animation above.

@@ -1,0 +1,25 @@
+Radial basis functions (RBFs) are the natural generalization of coarse coding
+to continuous-valued features. Rather than each feature being either 0 or 1,
+it can be anything in the interval [0, 1], reﬂecting various degrees to which
+the feature is present. A typical RBF feature, i, has a Gaussian (bell-shaped)
+response xi(s) dependent only on the distance between the state, s, and the
+tiling #1
+tiling #2
+Shape of tiles ! Generalization
+#Tilings ! Resolution of final approximation
+2D state
+space
+Figure 9.5: Multiple, overlapping gridtilings.
+9.3. LINEAR METHODS
+239
+a) Irregular
+b) Log stripes
+c) Diagonal stripes
+Figure 9.6: Tilings.
+ci
+!i
+ci+1
+ci-1
+Figure 9.7: One-dimensional radial basis functions.
+feature’s prototypical or center state, ci, and relative to the feature’s width,
+σi:

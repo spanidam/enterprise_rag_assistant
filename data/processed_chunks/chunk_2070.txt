@@ -1,0 +1,10 @@
+in Quinlan and Rivest (1989) and Mehta et al. (199.5). 
+The first of the above approaches is the most common and is often referred 
+to as a training and validation set approach. We discuss the two main variants of 
+this approach below. In this approach, the available data are separated into two 
+sets of examples: a training set, which is used to form the learned hypothesis, and 
+a separate validation set, which is used to evaluate the accuracy of this hypothesis 
+over subsequent data and, in particular, to evaluate the impact of pruning this 
+hypothesis. The motivation is this: Even though the learner may be misled by 
+random errors and coincidental regularities within the training set, the validation 
+set is unlikely to exhibit the same random fluctuations. Therefore, the validation

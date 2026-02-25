@@ -1,0 +1,9 @@
+number of iterations that produces the lowest error over the validation set, since 
+this is the best indicator of network performance over unseen examples. In typical 
+implementations of this approach, two copies of the network weights are kept: 
+one copy for training and a separate copy of the best-performing weights thus far, 
+measured by their error over the validation set. Once the trained weights reach a 
+significantly higher error over the validation set than the stored weights, training 
+is terminated and the stored weights are returned as the final hypothesis. When 
+this procedure is applied in the case of the top plot of Figure 4.9, it outputs the 
+network weights obtained after 9100 iterations. The second plot in Figure 4.9

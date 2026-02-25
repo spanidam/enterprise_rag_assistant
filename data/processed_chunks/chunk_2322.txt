@@ -1,0 +1,15 @@
+0 The expected, or mean value of X, E[X], 
+is 
+0 The variance of X, Var(X), is 
+Var ( X )  = np(1- p) 
+0 The standard deviation of X, ax, is 
+For sufficiently large values of n the Binomial distribution is closely approximated by a Normal 
+distribution (see Table 5.4) with the same mean and variance. Most statisticians recommend using 
+the Normal approximation only when np(1- p) 2 5. 
+TABLE 53 
+The Binomial distribution. 
+5.3.2 The Binomial Distribution 
+A good way to understand the Binomial distribution is to consider the following 
+problem. You are given a worn and bent coin and asked to estimate the probability 
+that the coin will turn up heads when tossed. Let us call this unknown probability 
+of heads p. You toss the coin n times and record the number of times r that it

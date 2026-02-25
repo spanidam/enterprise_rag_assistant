@@ -1,0 +1,18 @@
+and have a wider range of possible applications.
+1.2.4
+Wrists and End-Eﬀectors
+The joints in the kinematic chain between the arm and end eﬀector are referred
+to as the wrist. The wrist joints are nearly always all revolute. It is increasingly
+common to design manipulators with spherical wrists, by which we mean
+wrists whose three joint axes intersect at a common point. The spherical wrist
+is represented symbolically in Figure 1.5.
+COMMON KINEMATIC ARRANGEMENTS OF MANIPULATORS
+9
+Yaw
+Roll
+Pitch
+Fig. 1.5
+Structure of a spherical wrist.
+The spherical wrist greatly simpliﬁes the kinematic analysis, eﬀectively al-
+lowing one to decouple the positioning and orientation of the end eﬀector. Typ-
+ically therefore, the manipulator will possess three degrees-of-freedom for posi-

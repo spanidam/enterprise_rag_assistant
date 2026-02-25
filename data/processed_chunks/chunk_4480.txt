@@ -1,0 +1,18 @@
+feature’s prototypical or center state, ci, and relative to the feature’s width,
+σi:
+xi(s) = exp
+
+−||s −ci||2
+2σ2
+i
+
+.
+The norm or distance metric of course can be chosen in whatever way seems
+most appropriate to the states and task at hand. Figure 9.7 shows a one-
+dimensional example with a Euclidean distance metric.
+An RBF network is a linear function approximator using RBFs for its fea-
+tures. Learning is deﬁned by equations (9.3) and (9.8), exactly as in other lin-
+ear function approximators. The primary advantage of RBFs over binary fea-
+tures is that they produce approximate functions that vary smoothly and are
+diﬀerentiable. In addition, some learning methods for RBF networks change
+the centers and widths of the features as well. Such nonlinear methods may

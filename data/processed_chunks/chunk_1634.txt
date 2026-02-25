@@ -1,0 +1,30 @@
+Read the entire contents of a file. The variable data is a string.
+data =
+file.readline()
+Read the next line of a file. The variable data is a string.
+Table 14.3 Chapter 14 reference.
+14.6 • Chapter summary
+347
+Statement
+Description
+data =
+file.readlines()
+Read all lines of a file. The variable data is a list of strings.
+file.write("Have a
+nice day!\n")
+Writes a line to a file. In contrast to print(), the write() function does not
+automatically append a newline.
+file.write(["Line
+1\n", "Line 2\n"])
+Writes multiple lines to a file. As with write(), a newline is not automatically
+added at the end of each line.
+try:
+# Statements
+except:
+# Statements
+Try to run statements that might raise an error. If any error is raised, run other
+statements.
+try:
+# Statements
+except ValueError:
+# Statements

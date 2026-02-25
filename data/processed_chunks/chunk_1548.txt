@@ -1,0 +1,23 @@
+the key is greater than the middle element, then the key must be on the right half, and vice versa. The process
+continues by checking the middle element of the remaining half of the list.
+EXAMPLE 12.3
+Binary search
+""" Binary Search """
+def binary_search(search_list, low, high, key):
+# Check base case
+if high > low:
+mid = (high + low) // 2
+# If element is present at the middle itself (base case)
+if search_list[mid] == key:
+return mid
+# Recursive case: check which subarray must be checked
+# Right subarray
+elif key > search_list[mid]:
+return binary_search(search_list, mid + 1, high, key)
+# Left subarray
+else:
+return binary_search(search_list, low, mid - 1, key)
+else:
+# Key not found (other base case)
+return "Not found"
+# Test list

@@ -1,0 +1,11 @@
+projects/mlia/ 
+200 
+MACHINE LEARNING 
+Heckerman, D., Geiger, D., & Chickering, D. (1995) Learning Bayesian networks: The combination 
+of knowledge and statistical data. Machine Learning, 20, 197. Kluwer Academic Publishers. 
+Jensen, F. V. (1996). An introduction to Bayesian networks. New York: Springer Verlag. 
+Joachims, T. (1996). A probabilistic analysis of the Rocchio algorithm with TFIDF for text catego- 
+rization, (Computer Science Technical Report CMU-CS-96-118). Carnegie Mellon University. 
+Lang, K. (1995). Newsweeder: Learning to filter netnews. In Prieditis and Russell (Eds.), Proceedings 
+of the 12th International Conference on Machine Learning (pp. 331-339). San Francisco: 
+Morgan Kaufmann Publishers.

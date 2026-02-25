@@ -1,0 +1,11 @@
+iir ..i! > 0. For brevity, we will sometimes write the perceptron function as 
+where 
+Learning a perceptron involves choosing values for the weights wo, . . . , w,. 
+Therefore, the space H of candidate hypotheses considered in perceptron learning 
+is the set of all possible real-valued weight vectors. 
+4.4.1 Representational Power of Perceptrons 
+We can view the perceptron as representing a hyperplane decision surface in the 
+n-dimensional space of instances (i.e., points). The perceptron outputs a 1 for 
+instances lying on one side of the hyperplane and outputs a -1 for instances 
+lying on the other side, as illustrated in Figure 4.3. The equation for this decision 
+hyperplane is iir . .i! = 0. Of course, some sets of positive and negative examples

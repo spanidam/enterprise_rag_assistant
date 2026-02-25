@@ -1,0 +1,28 @@
+by
+L
+=
+1
+2J ˙θ2
+ℓ−Mgℓ(1 −cos θℓ)
+(6.8)
+Substituting this expression into the Euler-Lagrange equations yields the equa-
+tion of motion
+J ¨θℓ+ Mgℓsin θℓ
+=
+τℓ
+(6.9)
+The generalized force τℓrepresents those external forces and torques that
+are not derivable from a potential function. For this example, τℓconsists of the
+motor torque u = rτm, reﬂected to the link, and (nonconservative) damping
+torques Bm ˙θm, and Bℓ, ˙θℓ. Reﬂecting the motor damping to the link yields
+τ
+=
+u −B ˙θℓ
+where B = rBm + Bℓ. Therefore the complete expression for the dynamics of
+this system is
+J ¨θℓ+ B ˙θℓ+ Mgℓsin θℓ
+=
+u
+(6.10)
+In general, for any system of the type considered, an application of the Euler-
+Lagrange equations leads to a system of n coupled, second order nonlinear

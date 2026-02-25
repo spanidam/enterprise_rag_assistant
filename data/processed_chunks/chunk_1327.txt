@@ -1,0 +1,24 @@
+function and return control flow to the calling code.
+In the table below, calc_mpg() takes in miles driven and gallons of gas used and calculates a car's miles per
+gallon. calc_mpg() checks if gallons is 0 (to avoid division by 0), and if so, returns -1, a value often used to
+164
+6 • Functions
+Access for free at openstax.org
+indicate a problem.
+def calc_mpg(miles, gallons):
+if gallons > 0:
+mpg = miles/gallons
+return mpg
+else:
+print("Gallons can't be 0")
+return -1
+car_1_mpg = calc_mpg(448, 16)
+print("Car 1's mpg is", car_1_mpg)
+car_2_mpg = calc_mpg(300, 0)
+print("Car 2's mpg is", car_2_mpg)
+Car 1's mpg is 28.0
+Gallons can't be 0
+Car 2's mpg is -1
+Table 6.1 Calculating miles-per-gallon and checking for division by zero.
+CONCEPTS IN PRACTICE
+Multiple return statements

@@ -1,0 +1,11 @@
+hypothesis space. This approach is followed by systems such as FOCL (Pazzani 
+et al. 1991; Pazzani and Kibler 1992) and ML-SMART (Bergadano and Giordana 
+1990). Here we use FOCL to illustrate the approach. 
+12.5.1 The FOCL Algorithm 
+FOCL is an extension of the purely inductive FOIL system described in Chap- 
+ter 10. Both FOIL and FOCL learn a set of first-order Horn clauses to cover the 
+observed training examples. Both systems employ a sequential covering algorithm 
+that learns a single Horn clause, removes the positive examples covered by this 
+new Horn clause, and then iterates this procedure over the remaining training 
+examples. In both systems, each new Horn clause is created by performing a 
+general-to-specific search, beginning with the most general possible Horn clause

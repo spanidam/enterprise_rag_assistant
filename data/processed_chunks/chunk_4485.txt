@@ -1,0 +1,12 @@
+the needed approximations remains the same. The new dimensions may even
+make things easier if the target function can be simply expressed in terms of
+them. Unfortunately, methods like tile coding and RBF coding do not work
+this way. Their complexity increases exponentially with dimensionality even if
+the complexity of the target function does not. For these methods, dimension-
+ality itself is still a problem. We need methods whose complexity is unaﬀected
+9.4. CONTROL WITH FUNCTION APPROXIMATION
+241
+by dimensionality per se, methods that are limited only by, and scale well
+with, the complexity of what they approximate.
+One simple approach that meets these criteria, which we call Kanerva
+coding, is to choose binary features that correspond to particular prototype

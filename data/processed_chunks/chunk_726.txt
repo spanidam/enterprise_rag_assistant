@@ -1,0 +1,57 @@
+v = ∂a4
+∂x1 x2 −∂a4
+∂x2 D−1(h + K(x1 −x3))
+(10.94)
++ ∂a4
+∂x3 x4 + d
+dt[D−1]Kx4 + D−1K(J−1K(x1 −x3) + J−1u)
+=: a(x) + b(x)u
+where a(x) denotes all the terms in (10.94) but the last term, which involves
+the input u, and b(x) := D−1(x)KJ−1.
+Solving the above expression for u yields
+u = b(x)−1(v −a(x)) =: α(x) + β(x)v
+(10.95)
+where β(x) = JK−1D(x) and α(x) = −b(x)−1a(x).
+With the nonlinear change of coordinates (10.91) and nonlinear feedback
+(10.95) the transformed system now has the linear block form
+˙y
+=
+
+
+0
+I
+0
+0
+0
+0
+I
+0
+0
+0
+0
+I
+0
+0
+0
+0
+
+y +
+
+
+0
+0
+0
+I
+
+v
+(10.96)
+=:
+Ay + Bv
+318
+GEOMETRIC NONLINEAR CONTROL
+where I = n×n identity matrix, 0 = n×n zero matrix, yT = (yT
+1 , yT
+2 , yT
+3 , yT
+4 ) ∈
+R4n, and v ∈Rn. The system (10.96) represents a set of n decoupled quadruple

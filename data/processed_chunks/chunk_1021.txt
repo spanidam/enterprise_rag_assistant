@@ -1,0 +1,19 @@
+(9.5)
+This process can be seen as a guided interpolation between noise and data.
+50
+Chapter 9. Generative Neural Networks
+Deep Learning Basics (lecture notes)
+9.6 Summary
+In summary, generative models offer powerful tools for modeling and sampling data distributions. Depending on the
+chosen approach, they may compress information by imposing a probabilistic structure on the latent space (VAE), generate
+data through competition between networks (GAN), or produce samples via dynamic and progressive processes (diffusion
+and flow matching).
+9.6. Summary
+51
+Deep Learning Basics (lecture notes)
+52
+Chapter 9. Generative Neural Networks
+BIBLIOGRAPHY
+[Goh17]
+Gabriel Goh. Why momentum really works. Distill, 2017. URL: http://distill.pub/2017/momentum.
+[KB15]

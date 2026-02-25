@@ -1,0 +1,26 @@
+264
+CHAPTER 11. POLICY APPROXIMATION
+Part III
+Frontiers
+265
+267
+In this last part of the book we discuss some of the frontiers of reinforcement
+learning research, including its relationship to neuroscience and animal learn-
+ing behavior, a sampling of reinforcement learning applications, and prospects
+for the future of reinforcement learning.
+268
+Chapter 12
+Psychology
+269
+270
+CHAPTER 12. PSYCHOLOGY
+Chapter 13
+Neuroscience
+271
+272
+CHAPTER 13. NEUROSCIENCE
+Chapter 14
+Applications and Case Studies
+In this ﬁnal chapter we present a few case studies of reinforcement learning.
+Several of these are substantial applications of potential economic signiﬁcance.
+One, Samuel’s checkers player, is primarily of historical interest. Our presen-

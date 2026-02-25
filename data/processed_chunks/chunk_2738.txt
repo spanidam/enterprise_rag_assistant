@@ -1,0 +1,11 @@
+244 
+MACHINE LEARNING 
+captured by this syntactic similarity measure. For example, in CADET the multi- 
+ple retrieved design fragments may turn out to be incompatible with one another, 
+making it impossible to combine them into a consistent final design. When this 
+occurs in general, the CBR system may backtrack and search for additional cases, 
+adapt the existing cases, or resort to other problem-solving methods. Importantly, 
+when such difficulties are detected they also provide training data for improving 
+the similarity metric or, equivalently, the indexing structure for the case library. 
+In particular, if a case is retrieved based on the similarity metric, but found to be 
+irrelevant based on further analysis, then the similarity metric should be refined

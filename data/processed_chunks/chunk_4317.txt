@@ -1,0 +1,28 @@
+Repeat (for each episode):
+E(s, a) = 0, for all s ∈S, a ∈A(s)
+Initialize S, A
+Repeat (for each step of episode):
+Take action A, observe R, S′
+Choose A′ from S′ using policy derived from Q (e.g., ε-greedy)
+δ ←R + γQ(S′, A′) −Q(S, A)
+E(S, A) ←E(S, A) + 1
+(accumulating traces)
+or E(S, A) ←(1 −α)E(S, A) + 1
+(dutch traces)
+or E(S, A) ←1
+(replacing traces)
+For all s ∈S, a ∈A(s):
+Q(s, a) ←Q(s, a) + αδE(s, a)
+E(s, a) ←γλE(s, a)
+S ←S′; A ←A′
+until S is terminal
+Figure 7.12: Tabular Sarsa(λ).
+Path taken
+Action values increased
+by one-step Sarsa
+Action values increased
+by Sarsa(!) with !=0.9
+Figure 7.13: Gridworld example of the speedup of policy learning due to the
+use of eligibility traces.
+186
+CHAPTER 7. ELIGIBILITY TRACES

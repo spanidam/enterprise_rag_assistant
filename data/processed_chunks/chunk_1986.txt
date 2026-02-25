@@ -1,0 +1,11 @@
+performance degrades gracefully if the target concept is not representable in the 
+hypothesis space considered by the learner. 
+Version spaces and the CANDIDATE-ELIMINATION 
+algorithm were introduced 
+by Mitchell (1977, 1982). The application of this algorithm to inferring rules of 
+mass spectroscopy is described in (Mitchell 1979), and its application to learning 
+search control rules is presented in (Mitchell et al. 1983). Haussler (1988) shows 
+that the size of the general boundary can grow exponentially in the number of 
+training examples, even when the hypothesis space consists of simple conjunctions 
+of features. Smith and Rosenbloom (1990) show a simple change to the repre- 
+sentation of the G set that can improve complexity in certain cases, and Hirsh

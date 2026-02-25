@@ -1,0 +1,11 @@
+constitute a perfect domain theory, sufficient in principle to play perfect 
+chess. Despite this fact, people still require considerable experience to learn 
+how to play chess well. This is precisely a situation in which a complete, 
+perfect domain theory is already known to the (human) learner, and further 
+learning is "simply" a matter of reformulating this knowledge into a form 
+in which it can be used more effectively to select appropriate moves. A be- 
+ginning course in Newtonian physics exhibits the same property-the 
+basic 
+laws of physics are easily stated, but students nevertheless spend a large 
+part of a semester working out the consequences so they have this knowl- 
+edge in more operational form and need not derive every problem solution

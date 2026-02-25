@@ -1,0 +1,13 @@
+Unfortunately, cutting oﬀtraces every time an exploratory action is taken
+loses much of the advantage of using eligibility traces. If exploratory actions
+are frequent, as they often are early in learning, then only rarely will backups
+of more than one or two steps be done, and learning may be little faster than
+one-step Q-learning.
+7.7
+Oﬀ-policy Eligibility Traces using Impor-
+tance Sampling
+The eligibility traces in Watkins’s Q(λ) are a crude way to deal with oﬀ-
+policy training. First, they treat the oﬀ-policy aspect as binary; either the
+target policy is followed and traces continue normally, or it is deviated from
+and traces are cut oﬀcompletely; there is nothing inbetween. But the target
+policy may take diﬀerent actions with diﬀerent positive probabilities, as may

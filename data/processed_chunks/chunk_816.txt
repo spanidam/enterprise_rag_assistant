@@ -1,0 +1,11 @@
+by the sensor. Force control is very similar to state-feedback control in this
+regard.
+In this chapter, we consider the problem of vision-based control.
+Unlike
+force control, with vision-based control the quantities to be controlled cannot be
+measured directly from the sensor. For example, if the task is to grasp an object,
+the quantities to be controlled are pose variables, while the vision sensor, as we
+have seen in Chapter 11, provides a two-dimensional array of intensity values.
+There is, of course, a relationship between this array of intensity values and
+the geometry of the robot’s workspace, but the task of inferring this geometry
+from an image is a diﬃcult one that has been at the heart of computer vision

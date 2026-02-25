@@ -1,0 +1,26 @@
+E(s, a) = 0, for all s ∈S, a ∈A(s)
+Initialize S, A
+Repeat (for each step of episode):
+Take action A, observe R, S′
+Choose A′ from S′ using policy derived from Q (e.g., ε-greedy)
+A∗←argmaxa Q(S′, a) (if A′ ties for the max, then A∗←A′)
+δ ←R + γQ(S′, A∗) −Q(S, A)
+E(S, A) ←E(S, A) + 1
+(accumulating traces)
+or E(S, A) ←(1 −α)E(S, A) + 1
+(dutch traces)
+or E(S, A) ←1
+(replacing traces)
+For all s ∈S, a ∈A(s):
+Q(s, a) ←Q(s, a) + αδE(s, a)
+If A′ = A∗, then E(s, a) ←γλE(s, a)
+else E(s, a) ←0
+S ←S′; A ←A′
+until S is terminal
+Figure 7.15: Tabular version of Watkins’s Q(λ) algorithm.
+where
+δt = Rt+1 + γ max
+a′
+Qt(St+1, a′) −Qt(St, At).
+Figure 7.15 shows the complete algorithm in pseudocode.
+Unfortunately, cutting oﬀtraces every time an exploratory action is taken

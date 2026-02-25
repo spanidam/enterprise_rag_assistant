@@ -1,0 +1,11 @@
+Intelligence, 3(4), 251-288. 
+Fisher, D., Subrarnanian, D., & Tadepalli, P. (1992). An overview of current research on knowl- 
+edge compilation and speedup learning. Proceedings of the Second International Workshop on 
+Knowledge Compilation and Speedup Learning. 
+Flann, N. S., & Dietterich, T. G. (1989). A study of explanation-based methods for inductive learning. 
+Machine Learning, 4, 187-226. 
+Gervasio, M. T., & DeJong, G. F. (1994). An incremental learning approach to completable planning. 
+Proceedings of the Eleventh International Conference on Machine Learning, New Brunswick, 
+NJ. San Mateo, CA: Morgan Kaufmann. 
+van Harmelen, F., & Bundy, A. (1988). Explanation-based generalisation = partial evaluation. Arti- 
+ficial Intelligence, 36(3), 401-412.

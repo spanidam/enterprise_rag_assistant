@@ -1,0 +1,10 @@
+ternative to top-down decision tree learning algorithms such as ID3, which 
+can be viewed as simultaneous, rather than sequential covering algorithms. 
+0 In the context of sequential covering algorithms, a variety of methods have 
+been explored for learning a single rule. These methods vary in the search 
+strategy they use for examining the space of possible rule preconditions. One 
+popular approach, exemplified by the CN2 program, is to conduct a general- 
+to-specific beam search, generating and testing progressively more specific 
+rules until a sufficiently accurate rule is found. Alternative approaches search 
+from specific to general hypotheses, use an example-driven search rather than 
+generate and test, and employ different statistical measures of rule accuracy

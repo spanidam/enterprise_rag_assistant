@@ -1,0 +1,21 @@
+Ht(s, a)
+otherwise.
+To generalize this equation to eligibility traces we can use the same update
+(11.1) with a slightly diﬀerent trace. Rather than incrementing the trace by 1
+each time a state–action pair occurs, it is updated by 1 −πt(St, At):
+Et(s, a) =
+ γλEt−1(s, a) + 1 −πt(St, At)
+if s=St and a = At;
+γλEt−1(s, a)
+otherwise,
+(11.2)
+for all s, a.
+11.3
+R-Learning and the Average-Reward Set-
+ting
+When the policy is approximated, we generally have to abandon the discounted-
+reward setting that we have relied on up to now.
+We replace it with the
+average-reward setting, which we discuss in this section.
+R-learning is an oﬀ-policy control method for the advanced version of the
+reinforcement learning problem in which one neither discounts nor divides

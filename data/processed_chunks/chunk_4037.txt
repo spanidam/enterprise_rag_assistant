@@ -1,0 +1,14 @@
+88
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+Chapter 4
+Dynamic Programming
+The term dynamic programming (DP) refers to a collection of algorithms that
+can be used to compute optimal policies given a perfect model of the envi-
+ronment as a Markov decision process (MDP). Classical DP algorithms are of
+limited utility in reinforcement learning both because of their assumption of
+a perfect model and because of their great computational expense, but they
+are still important theoretically. DP provides an essential foundation for the
+understanding of the methods presented in the rest of this book. In fact, all
+of these methods can be viewed as attempts to achieve much the same eﬀect
+as DP, only with less computation and without assuming a perfect model of
+the environment.

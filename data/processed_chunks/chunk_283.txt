@@ -1,0 +1,24 @@
+as shown. In this case we have that
+J(q)
+=
+
+z0 × (oc −o0)
+z1 × (oc −o1)
+0
+z0
+z1
+0
+
+(4.87)
+which is merely the usual the Jacobian with oc in place of on. Note that the
+third column of the Jacobin is zero, since the velocity of the second link is
+unaﬀected by motion of the third link2. Note that in this case the vector oc
+must be computed as it is not given directly by the T matrices (Problem 4-13).
+2Note that we are treating only kinematic eﬀects here. Reaction forces on link 2 due to the
+motion of link 3 will inﬂuence the motion of link 2. These dynamic eﬀects are treated by the
+methods of Chapter 6.
+EXAMPLES
+129
+⋄
+Example 4.7 Stanford Manipulator
+Consider the Stanford manipulator of Example 3.5 with its associated Denavit-

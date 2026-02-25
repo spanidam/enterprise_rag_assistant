@@ -1,0 +1,11 @@
+is now completely unable to generalize beyond the observed examples! To see 
+why, suppose we present three positive examples (xl, 
+x2, x3) and two negative ex- 
+amples (x4, x5) to the learner. At this point, the S boundary of the version space 
+will contain the hypothesis which is just the disjunction of the positive examples 
+because this is the most specific possible hypothesis that covers these three exam- 
+ples. Similarly, the G boundary will consist of the hypothesis that rules out only 
+the observed negative examples 
+The problem here is that with this very expressive hypothesis representation, 
+the S boundary will always be simply the disjunction of the observed positive 
+examples, while the G boundary will always be the negated disjunction of the

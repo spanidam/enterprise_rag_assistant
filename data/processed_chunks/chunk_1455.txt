@@ -1,0 +1,32 @@
+10-1-dictionary-basics)
+CONCEPTS IN PRACTICE
+Dictionary basics
+Given the dictionary object days = {"Sunday": 1, "Monday": 2, "Tuesday": 3}, answer the
+following questions.
+1. What are the keys in the days dictionary object?
+a.
+"Sunday", "Monday", "Tuesday"
+b.
+1, 2, 3
+c.
+0, 1, 2
+2. What are the values in the days dictionary object?
+a.
+0, 1, 2
+b.
+1, 2, 3
+c.
+"Sunday", "Monday", "Tuesday"
+3. What is the value associated with key "Sunday"?
+a.
+"Sunday"
+b.
+1
+c.
+0
+Dictionary type and properties
+The dict type implements a dictionary in Python. Since a dictionary object is used to look up values using keys,
+a dictionary object cannot hold duplicate key values.
+CHECKPOINT
+Dictionary properties
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/

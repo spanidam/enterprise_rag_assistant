@@ -1,0 +1,29 @@
+•
+The readline() function reads the next line in a file and returns a string.
+•
+The readlines() function reads the individual lines of a file and returns a string list containing all the
+lines of the file in order.
+EXAMPLE 14.1
+Using read() and readlines()
+A file called input.txt has the following contents:
+12
+328
+14 • Files
+Access for free at openstax.org
+55
+5
+91
+"""Demonstrating read() and readlines()"""
+# Using read()
+# Open the file and associate with a file object
+infile = open("input.txt")
+# Read the contents of the file into a string
+str1 = infile.read()
+# Print str1
+print("Result of using read():")
+print(str1)
+# Always close the file once done using the file
+infile.close()
+# Using read()
+# Open the file and associate with a file object
+infile2 = open("input.txt")

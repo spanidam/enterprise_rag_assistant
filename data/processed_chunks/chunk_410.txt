@@ -1,0 +1,98 @@
+
+=
+q0 + qf
+2
+(5.67)
+we have
+q0 + qf
+2
+=
+a0 + V tf
+2
+(5.68)
+which implies that
+a0
+=
+q0 + qf −V tf
+2
+(5.69)
+Since the two segments must “blend” at time tb we require
+q0 + V
+2 tb
+=
+q0 + qf −V tf
+2
++ V tb
+(5.70)
+TRAJECTORY PLANNING
+181
+0
+0.2
+0.4
+0.6
+0.8
+1
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Time (sec)
+Angle (deg)
+0
+0.2
+0.4
+0.6
+0.8
+1
+0
+10
+20
+30
+40
+50
+60
+70
+Time (sec)
+Velocity (deg/sec)
+0
+0.2
+0.4
+0.6
+0.8
+1
+−200
+−150
+−100
+−50
+0
+50
+100
+150
+200
+TIme (sec)
+Acceleration (deg/sec2)
+(a)
+(b)
+(c)
+Fig. 5.17
+(a) LSPB trajectory (b) Velocity proﬁle for LSPB trajectory (c) Acceleration
+for LSPB trajectory
+which gives upon solving for the blend time tb
+tb
+=
+q0 −qf + V tf
+V
+(5.71)
+Note that we have the constraint 0 < tb ≤tf
+2 . This leads to the inequality
+qf −q0
+V
+< tf ≤
+2(qf −q0)
+V
+(5.72)

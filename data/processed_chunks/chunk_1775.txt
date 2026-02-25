@@ -1,0 +1,13 @@
+also called a composition.
+3. b. The Goalkeeper class inherits from the Player class.
+4. b. The subclass name is followed by the superclass name in parentheses.
+5. a. Deriving CarryOn from Luggage is specified in CarryOn's class definition. Ex: class
+CarryOn(Luggage): . Instances of a subclass, like CarryOn, are created like other classes and do not
+require the base class name.
+6. c. A SubClass instance has access to func_1(), inherited from SuperClass, as well as to func_2(), a
+SubClass method.
+7. a. A SuperClass instance has access to SuperClass's func_1() but doesn't have access to anything in
+SubClass, including func_2().
+13.2 Attribute access
+1. b. dev_1 is the second Employee created. So dev_1 is the second object to call Employee.__init__(),
+and dev_1.e_id is assigned with 2 .

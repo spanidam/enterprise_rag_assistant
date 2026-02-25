@@ -1,0 +1,13 @@
+fine-tuning to improve models’ generalization. ELECTRA [46]
+uses a new pre-training task, known as replaced token detection
+(RTD), which is empirically proven to be more sample-efficient
+than MLM. Instead of masking the input, RTD corrupts it by
+replacing some tokens with plausible alternatives sampled from
+a small generator network. Then, instead of training a model
+that predicts the original identities of the corrupted tokens, a
+discriminative model is trained to predict whether a token in
+the corrupted input was replaced by a generated sample or not.
+RTD is more sample-efficient than MLM because the former
+is defined over all input tokens rather than just the small subset
+being masked out, as illustrated in Fig 4.
+XLMs [47] extended BERT to cross-lingual language

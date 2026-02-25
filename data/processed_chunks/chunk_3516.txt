@@ -1,0 +1,14 @@
+kind of data, making it much easier to use in the real world.
+Courtesy of [136].
+H. Decoding Strategies
+Decoding refers to the process of text generation using pre-
+trained LLMs. Given an input prompt, the tokenizer translates
+each token in the input text into a corresponding token ID.
+Then, the language model uses these token IDs as input and
+predicts the next most likely token (or a sequence of tokens).
+Finally, the model generates logits, which are converted to
+probabilities using a softmax function. Different decoding
+strategies have been proposed. Some of the most popular ones
+are greedy search, beam search, as well as different sample
+techniques such as top-K, top-P (Nucleus sampling).
+1) Greedy Search: Greedy search takes the most probable

@@ -1,0 +1,12 @@
+Ed with respect to this single example. In other words, for each training example 
+d every weight wji is updated by adding to it Awji 
+where Ed is the error on training example d, summed over all output units in the 
+network 
+Here outputs is the set of output units in the network, tk is the target value of unit 
+k for training example d, and ok is the output of unit k given training example d. 
+The derivation of the stochastic gradient descent rule is conceptually straight- 
+forward, but requires keeping track of a number of subscripts and variables. We 
+will follow the notation shown in Figure 4.6, adding a subscript j to denote to 
+the jth unit of the network as follows: 
+xji = the ith input to unit j 
+wji = the weight associated with the ith input to unit j

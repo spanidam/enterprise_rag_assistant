@@ -1,0 +1,12 @@
+the opponent. Here, a policy is a rule that tells the player what move to make
+for every state of the game—every possible conﬁguration of Xs and Os on the
+three-by-three board. For each policy considered, an estimate of its winning
+probability would be obtained by playing some number of games against the
+opponent. This evaluation would then direct which policy or policies were
+considered next.
+A typical evolutionary method would hill-climb in policy
+space, successively generating and evaluating policies in an attempt to obtain
+incremental improvements. Or, perhaps, a genetic-style algorithm could be
+used that would maintain and evaluate a population of policies.
+Literally
+hundreds of diﬀerent optimization methods could be applied.

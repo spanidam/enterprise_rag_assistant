@@ -1,0 +1,18 @@
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-9-chapter-summary)
+TRY IT
+Mad lib
+A mad lib is a word game in which one person asks others for words to substitute into a pre-written story.
+The story is then read aloud with the goal of making people laugh.
+This exercise is based the Vacations Mad Lib (https://openstax.org/r/100madlibs) available on the Printables
+(https://openstax.org/r/100printable) section of MadLibs.com. Write a program that asks the user to input
+two adjectives and two nouns (user input in bold):
+tranquil
+Adjective: scandalous
+Noun: pancake
+Noun: field
+Adjective: tranquil
+Adjective: scandalous
+Noun: pancake
+Noun: field
+Use input() to display each prompt exactly as shown. The user's input should be on the same line as the

@@ -1,0 +1,11 @@
+are oﬀ-policy methods.
+The methods presented in this chapter are today the most widely used re-
+inforcement learning methods. This is probably due to their great simplicity:
+they can be applied on-line, with a minimal amount of computation, to expe-
+rience generated from interaction with an environment; they can be expressed
+nearly completely by single equations that can be implemented with small
+computer programs. In the next few chapters we extend these algorithms,
+making them slightly more complicated and signiﬁcantly more powerful. All
+the new algorithms will retain the essence of those introduced here: they will
+be able to process experience on-line, with relatively little computation, and
+they will be driven by TD errors. The special cases of TD methods introduced

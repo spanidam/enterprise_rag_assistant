@@ -1,0 +1,10 @@
+search through this vast space to locate the hypothesis that is most consistent with 
+the available training examples. The LMS algorithm for fitting weights achieves 
+this goal by iteratively tuning the weights, adding a correction to each weight 
+each time the hypothesized evaluation function predicts a value that differs from 
+the training value. This algorithm works well when the hypothesis representation 
+considered by the learner defines a continuously parameterized space of potential 
+hypotheses. 
+Many of the chapters in this book present algorithms that search a hypothesis 
+space defined by some underlying representation (e.g., linear functions, logical 
+descriptions, decision trees, artificial neural networks). These different hypothesis

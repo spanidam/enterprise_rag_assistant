@@ -1,0 +1,16 @@
+RT ˙h
+=
+RT S(ω0)RIω + I ˙ω
+=
+S(RT ω0)Iω + I ˙ω
+=
+S(ω)Iω + I ˙ω = ω × (Iω) + I ˙ω
+(6.141)
+This establishes (6.134). Of course we can, if we wish, write the same equation
+in terms of vectors expressed in an inertial frame. But we will see shortly that
+there is an advantage to writing the force and moment equations with respect
+to a frame attached to link i, namely that a great many vectors in fact reduce
+to constant vectors, thus leading to signiﬁcant simpliﬁcations in the equations.
+Now we derive the Newton-Euler formulation of the equations of motion of
+an n-link manipulator. For this purpose, we ﬁrst choose frames 0, . . . , n, where
+frame 0 is an inertial frame, and frame i is rigidly attached to link i for i ≥1.

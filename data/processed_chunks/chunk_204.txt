@@ -1,0 +1,56 @@
+equations represented by (3.32) are trivial.)
+Example 3.7
+Recall the Stanford manipulator of Example 3.3.5. Suppose that the desired
+position and orientation of the ﬁnal frame are given by
+H
+=
+
+
+0
+1
+0
+−0.154
+0
+0
+1
+0.763
+1
+0
+0
+0
+0
+0
+0
+1
+
+
+(3.35)
+To ﬁnd the corresponding joint variables θ1, θ2, d3, θ4, θ5, and θ6 we must solve
+the following simultaneous set of nonlinear trigonometric equations:
+c1[c2(c4c5c6 −s4s6) −s2s5c6] −s1(s4c5c6 + c4s6)
+=
+0
+s1[c2(c4c5c6 −s4s6) −s2s5c6] + c1(s4c5c6 + c4s6)
+=
+0
+−s2(c4c5c6 −s4s6) −c2s5c6
+=
+1
+c1[−c2(c4c5s6 + s4c6) + s2s5s6] −s1(−s4c5s6 + c4c6)
+=
+1
+s1[−c2(c4c5s6 + s4c6) + s2s5s6] + c1(−s4c5s6 + c4c6)
+=
+0
+s2(c4c5s6 + s4c6) + c2s5s6
+=
+0
+c1(c2c4s5 + s2c5) −s1s4s5
+=
+0
+s1(c2c4s5 + s2c5) + c1s4s5
+=
+1
+−s2c4s5 + c2c5
+=
+0

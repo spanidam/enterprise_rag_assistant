@@ -1,0 +1,11 @@
+6.5.1 Gradient Search to Maximize Likelihood in a Neural Net 
+Above we showed that maximizing the quantity in Equation (6.13) yields the 
+maximum likelihood hypothesis. Let us use G(h, D) to denote this quantity. In 
+this section we derive a weight-training rule for neural network learning that seeks 
+to maximize G(h, D) using gradient ascent. 
+As discussed in Chapter 4, the gradient of G(h, D) is given by the vector 
+of partial derivatives of G(h, D) with respect to the various network weights that 
+define the hypothesis h represented by the learned network (see Chapter 4 for a 
+general discussion of gradient-descent search and for details of the terminology 
+that we reuse here). In this case, the partial derivative of G(h, D) with respect to 
+weight wjk from input k to unit j is

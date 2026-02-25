@@ -1,0 +1,19 @@
+IEEE
+Transactions on Automatic Control, 15:210–221.
+Galanter, E., Gerstenhaber, M. (1956).
+On thought: The extrinsic theory.
+Psychological Review, 63:218–227.
+Gallant, S. I. (1993).
+Neural Network Learning and Expert Systems.
+MIT
+Press, Cambridge, MA.
+Gallistel, C. R. (2005). Deconstructing the law of eﬀect. Games and Economic
+Behavior 52(2), 410-423.
+G¨allmo, O., Asplund, L. (1995).
+Reinforcement learning by construction
+of hypothetical targets. In J. Alspector, R. Goodman, and T. X. Brown
+(eds.), Proceedings of the International Workshop on Applications of Neural
+Networks to Telecommunications 2, pp. 300–307. Erlbaum, Hillsdale, NJ.
+Gardner, M. (1973). Mathematical games. Scientiﬁc American, 228(1):108–
+115.
+Gelperin, A., Hopﬁeld, J. J., Tank, D. W. (1985). The logic of limax learning.

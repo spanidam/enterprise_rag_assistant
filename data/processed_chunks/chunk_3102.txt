@@ -1,0 +1,10 @@
+based approach to knowledge acquisition. In S. Mahadevan, T. Mitchell, D. J. Mostow, L. 
+Steinberg, & P. Tadepalli (Eds.), ArtiiJicial Intelligence, 64(1), 1-52. 
+Minton, S. (1988). Learning search control knowledge: An explanation-based approach. Boston, MA: 
+Kluwer Academic Publishers. 
+Miton, S., Carbonell, J., Knoblock, C., Kuokka, D., Etzioni, O., & Gil, Y. (1989). Explanation-based 
+leaming: A problem solving perspective. ArtiJicial Intelligence, 40, 63-1 18. 
+Minton, S. (1990). Quantitative results concerning the utility of explanation-based leaming. ArtiJicial 
+Intelligence, 42, 363-391. 
+Mitchell, T. M. (1981). Toward combining empirical and analytical methods for inferring heuristics 
+(Technical Report LCSR-TR-27), Rutgers Computer Science Department. (Also reprinted in

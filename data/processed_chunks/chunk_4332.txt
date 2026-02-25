@@ -1,0 +1,41 @@
+Sutton and Singh (1994).
+The eligibility trace equation above is the backward view of variable λs.
+The corresponding forward view is a more general deﬁnition of the λ-return:
+Gλ
+t
+=
+∞
+X
+n=1
+G(n)
+t
+(1 −λt+n)
+t+n−1
+Y
+i=t+1
+λi
+=
+T−1
+X
+k=t+1
+G(k−t)
+t
+(1 −λk)
+k−1
+Y
+i=t+1
+λi
++
+Gt
+T−1
+Y
+i=t+1
+λi.
+7.10
+Conclusions
+Eligibility traces in conjunction with TD errors provide an eﬃcient, incremen-
+tal way of shifting and choosing between Monte Carlo and TD methods. Traces
+can be used without TD errors to achieve a similar eﬀect, but only awkwardly.
+A method such as TD(λ) enables this to be done from partial experiences and
+with little memory and little nonmeaningful variation in predictions.
+As we mentioned in Chapter 5, Monte Carlo methods may have advan-

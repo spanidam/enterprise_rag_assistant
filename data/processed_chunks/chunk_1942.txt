@@ -1,0 +1,16 @@
+<Sunny, ?, ?, Strong, ?, ?> <Sunny, Warm, ?, ?, ?, ?> <?, Warm, ?, Strong, ?, ?> 
+s4: 
+{<Sunny, ?, ?, ?, ?, ?>, <?, Warm, ?, ?, ?, ?>) 
+{<Sunny, Warm, ?, Strong, ?, ?>) 
+FIGURE 2.7 
+The final version space for the EnjoySport concept learning problem and training examples described 
+earlier. 
+CH.4PTF.R 2 CONCEFT LEARNING AND THE GENERAL-TO-SPECIFIC ORDERING 37 
+2.6 REMARKS ON VERSION SPACES AND CANDIDATE-ELIMINATI
+2.6.1 Will the CANDIDATE-ELIMINATION 
+Algorithm Converge to the 
+Correct Hypothesis? 
+The version space learned by the CANDIDATE-ELIMINATION 
+algorithm will con- 
+verge toward the hypothesis that correctly describes the target concept, provided 
+(1) there are no errors in the training examples, and (2) there is some hypothesis

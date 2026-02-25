@@ -1,0 +1,12 @@
+395. 
+Etzioni, O., & Etzioni, R. (1994). Statistical methods for analyzing speedup learning experiments. 
+Machine Learning, 14, 333-347. 
+Geman, S., Bienenstock, E., & Doursat, R. (1992). Neural networks and the biadvariance dilemma. 
+Neural Computation, 4, 1-58. 
+Gordon, G., & Segre, A.M. (1996). Nonpararnetric statistical methods for experimental evaluations of 
+speedup learning. Proceedings of the Thirteenth International Conference on Machine Leam- 
+ing, Bari, Italy. 
+Maisel, L. (1971). Probability, statistics, and random processes. Simon and Schuster Tech Outlines. 
+New York: Simon and Schuster. 
+Segre, A., Elkan, C., & Russell, A. (1991). A critical look at experimental evaluations of EBL. 
+Machine Learning, 6(2).

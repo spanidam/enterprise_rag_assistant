@@ -1,0 +1,13 @@
+RMSE, but you will still get the optimal policy. Nothing quite that simple is
+going on with bootstrapping methods, but they do seem to do something right.
+We expect the understanding of these issues to improve as research continues.
+9.6
+Summary
+Reinforcement learning systems must be capable of generalization if they are to
+be applicable to artiﬁcial intelligence or to large engineering applications. To
+achieve this, any of a broad range of existing methods for supervised-learning
+function approximation can be used simply by treating each backup as a train-
+ing example. Gradient-descent methods, in particular, allow a natural exten-
+sion to function approximation of all the techniques developed in previous
+chapters, including eligibility traces.
+Linear gradient-descent methods are

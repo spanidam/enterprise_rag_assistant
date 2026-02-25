@@ -1,0 +1,10 @@
+Qulnlan, J. R. (1979). Discovering rules by induction from large collections of examples. In D. 
+Michie (Ed.), Expert systems in the micro electronic age. Edinburgh Univ. Press. 
+Qulnlan, J. R. (1983). Learning efficient classification procedures and their application to chess end 
+games. In R. S. Michalski, J. G. Carbonell, & T. M. Mitchell (Eds.), Machine learning: An 
+artificial intelligence approach. San Matw, CA: Morgan Kaufmann. 
+Qulnlan, J. R. (1986). Induction of decision trees. Machine Learning, 1(1), 81-106. 
+Qulnlan, J. R. (1987). Rule induction with statistical data-a 
+comparison with multiple regression. 
+Journal of the Operational Research Society, 38,347-352. 
+Quinlan, J.R. (1988). An empirical comparison of genetic and decision-tree classifiers. Proceedings

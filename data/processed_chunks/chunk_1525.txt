@@ -1,0 +1,24 @@
+•
+Instance methods have the first parameter self to access the specific instance.
+•
+Python uses magic methods to perform "under-the-hood" actions for users. Magic methods always start
+and end with double underscores.
+•
+Python allows overloading of existing operators for user-defined classes.
+•
+Classes can be imported from modules by name or can be renamed using aliases.
+At this point, you should be able to write classes that have instance attributes, class attributes, and methods,
+and import classes from modules. You should also be able to overload operators when defining a class.
+11.6 • Chapter summary
+283
+Construct
+Description
+Class definition
+class ClassName:
+"""Docstring"""
+__init__()
+class ClassName:
+def __init__(self):
+# Initialize attributes
+Attributes
+class ClassName:

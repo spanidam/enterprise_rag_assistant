@@ -1,0 +1,14 @@
+59
+its control.
+The reason we do this is that the agent’s ultimate goal should be something
+over which it has imperfect control: it should not be able, for example, to
+simply decree that the reward has been received in the same way that it might
+arbitrarily change its actions. Therefore, we place the reward source outside
+of the agent. This does not preclude the agent from deﬁning for itself a kind
+of internal reward, or a sequence of internal rewards. Indeed, this is exactly
+what many reinforcement learning methods do.
+3.3
+Returns
+So far we have discussed the objective of learning informally. We have said that
+the agent’s goal is to maximize the cumulative reward it receives in the long
+run. How might this be deﬁned formally? If the sequence of rewards received

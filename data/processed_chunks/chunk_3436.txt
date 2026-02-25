@@ -1,0 +1,52 @@
+Instruction Tuning
+F
+Alignment
+G
+Decoding Strategies
+H
+I
+HOW LLMS ARE USED AND AUGMENTED
+A
+B
+LLM limitations
+Cost-Effective Training/Inference,
+Adaptation & Compression
+I
+Using LLMs: Prompt Design
+and Engineering
+C
+Augmenting LLMs through
+external knowledge - RAG
+D
+Using External Tools
+E
+LLM Agents
+V
+ POPULAR DATASETS FOR LLMS
+A
+Datasets for Basic Tasks: language
+modeling/understanding/generation
+B
+ Datasets for Emergent: ICL, reasoning,
+instruction following
+C
+Datasets for Augmented: using
+external knowledge/tools
+VI
+ PROMINENT LLMS’ PERFORMANCE
+ON BENCHMARKS
+A
+B
+VII
+CHALLENGES AND FUTURE DIRECTIONS
+A
+Smaller and more efficient
+Language Models
+LLMs’ Performance on Different Tasks
+Popular Metrics for Evaluating LLMs
+B
+New Post-attention
+Architectural Paradigms
+C
+Multi-modal Models
+D

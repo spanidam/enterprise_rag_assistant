@@ -1,0 +1,20 @@
+erated content and the source through a question-
+answering framework (see [152]).
+•
+NLI-Based Metrics: Use Natural Language Inference
+datasets to evaluate the truthfulness of a generated
+hypothesis based on a given premise (see [153]).
+•
+Faithfulness Classification Metrics: Offer a refined
+assessment by creating task-specific datasets for a
+nuanced evaluation (see [154]).
+Despite advances in automated metrics, human judgment
+remains a vital piece. It typically involves two methodologies:
+1)
+Scoring: Human evaluators rate the level of halluci-
+nation within a predefined scale.
+2)
+Comparative Analysis: Evaluators compare gener-
+ated content against baseline or ground-truth refer-
+ences, adding an essential layer of subjective assess-
+ment.

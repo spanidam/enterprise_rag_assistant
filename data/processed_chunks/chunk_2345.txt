@@ -1,0 +1,15 @@
+in Figure 5.l(b). 
+To illustrate, consider again the example in which h commits r = 12 errors 
+over a sample of n = 40 independently drawn examples. As discussed above, 
+this leads to a (two-sided) 95% confidence interval of 0.30 f 
+0.14. In this case, 
+100(1 - a) = 95%, so a! = 0.05. Thus, we can apply the above rule to say with 
+100(1 - a/2) = 97.5% confidence that errorv(h) is at most 0.30 + 0.14 = 0.44, 
+making no assertion about the lower bound on errorv(h). Thus, we have a one- 
+sided error bound on errorv(h) with double the confidence that we had in the 
+corresponding two-sided bound (see Exercise 5.3). 
+142 
+MACHINE LEARNING 
+5.4 A GENERAL APPROACH FOR DERIVING CONFIDENCE 
+INTERVALS 
+The previous section described in detail how to derive confidence interval es-

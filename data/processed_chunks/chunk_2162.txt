@@ -1,0 +1,13 @@
+at each iteration altering the weights according to the gradient with respect to 
+Ed(;). The sequence of these weight updates, when iterated over all training 
+examples, provides a reasonable approximation to descending the gradient with 
+respect to our original error function E(G). By making the value of 7 (the gradient 
+94 
+MACHINE LEARNING 
+descent step size) sufficiently small, stochastic gradient descent can be made to 
+approximate true gradient descent arbitrarily closely. The key differences between 
+standard gradient descent and stochastic gradient descent are: 
+0 In standard gradient descent, the error is summed over all examples before 
+updating weights, whereas in stochastic gradient descent weights are updated 
+upon examining each training example. 
+.

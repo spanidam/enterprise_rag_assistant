@@ -1,0 +1,22 @@
+14.2 Writing to files
+Learning objectives
+By the end of this section you should be able to
+•
+Understand how to open a file for writing.
+•
+Explain different modes for opening a file in Python.
+•
+Demonstrate the use of the write() function to write to a file.
+•
+Understand the importance of closing a file.
+Opening a file for writing
+A file may be opened for reading, allowing no changes, or for writing, allowing changes to occur in the file. The
+mode defines whether a file is opened for reading only or for writing. The default mode of the open()
+function is reading only. A second mode parameter defines the mode.
+Ex: open("output.txt", 'w') opens the output.txt file in writing mode. The following table lists common
+modes.
+14.2 • Writing to files
+331
+Parameter
+Mode name and description
+Example

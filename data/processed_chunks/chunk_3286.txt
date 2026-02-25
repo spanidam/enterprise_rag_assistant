@@ -1,0 +1,20 @@
+by at least a factor of y during each such interval. Q, is the agent's table of estimated 
+Q values after n updates. Let An be the maximum error in Q,; that is 
+Below we use s' to denote S(s, a). Now for any table entry (in@, a )  that is updated 
+on iteration n + 1, the magnitude of the error in the revised estimate Q , + ~ ( S ,  a )  is 
+IQ,+I(S, 
+a) - Q(s, all = I(r + y max Qn(s', a')) - (r + y m?x Q(d, a'))] 
+a' 
+a 
+= y I m y  Qn(st, a') - m y  Q(s1, a') I 
+a 
+a 
+5 y max I Qn(s1, a') - ~ ( s ' ,  
+a') I 
+a' 
+5 Y my I Q, (s", a') - Q W ,  a') I 
+s ,a 
+I Qn+i (s, a) - Q(s, all 5 Y An 
+The third line above follows from the second line because for any two functions fi 
+and f2 the following inequality holds 
+In going from the third line to the fourth line above, note we introduce a new

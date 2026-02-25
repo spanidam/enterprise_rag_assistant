@@ -1,0 +1,13 @@
+results similar to fitting the original training examples and derivatives using TAN- 
+GENTPROP. 
+Simard et al. (1992) report experiments showing similar generalization 
+error in the two cases, but report that TANGENTPROP 
+converges considerably more 
+efficiently. It is interesting to note that the ALVINN system, which learns to steer 
+an autonomous vehicle (see Chapter 4), uses a very similar approach to synthesize 
+additional training examples. It uses prior knowledge of how the desired steer- 
+ing direction changes with horizontal translation of the camera image to create 
+multiple synthetic training examples to augment each observed training example. 
+12.4.4 
+The EBNN Algorithm 
+The EBNN (Explanation-Based Neural Network learning) algorithm (Mitchell and

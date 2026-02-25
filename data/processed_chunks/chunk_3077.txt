@@ -1,0 +1,10 @@
+A second example of a general problem-solving architecture that incorpo- 
+rates a form of explanation-based learning is the SOAR system (Laird et al. 1986; 
+Newel1 1990). SOAR supports a broad variety of problem-solving strategies that 
+subsumes PRODIGY'S 
+means-ends planning strategy. Like PRODIGY, however, SOAR 
+learns by explaining situations in which its current search strategy leads to ineffi- 
+ciencies. When it encounters a search choice for which it does not have a definite 
+answer (e.g., which operator to apply next) SOAR reflects on this search impasse, 
+using weak methods such as generate-and-test to determine the correct course of 
+action. The reasoning used to resolve this impasse can be interpreted as an expla-

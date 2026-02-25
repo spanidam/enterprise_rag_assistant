@@ -1,0 +1,17 @@
+QO.
+THE CONFIGURATION SPACE
+153
+(a)
+(b)
+Fig. 5.2
+(a) A two-link planar arm and a single polygonal obstacle. (b) The corre-
+sponding conﬁguration space obstacle region
+⋄
+Computing QO for the two-dimensional case of Q = ℜ2 and polygonal ob-
+stacles is straightforward, but, as can be seen from the two-link planar arm
+example, computing QO becomes diﬃcult for even moderately complex conﬁg-
+uration spaces. In the general case (e.g., articulated arms or rigid bodies that
+can both translate and rotate), the problem of computing a representation of
+the conﬁguration space obstacle region is intractable. One of the reasons for
+this complexity is that the size of the representation of the conﬁguration space
+tends to grow exponentially with the number of degrees of freedom. This is

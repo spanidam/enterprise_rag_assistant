@@ -1,0 +1,12 @@
+ent descent to attempt to minimize the squared error between the network output 
+values and the target values for these outputs. This section presents the BACKPROP- 
+AGATION algorithm, and the following section gives the derivation for the gradient 
+descent weight update rule used by BACKPROPAGATION. 
+Because we are considering networks with multiple output units rather than 
+single units as before, we begin by redefining E to sum the errors over all of the 
+network output units 
+where outputs is the set of output units in the network, and tkd and OM are the 
+I 
+target and output values associated with the kth output unit and training example d. 
+The learning problem faced by BACKPROPAGATION 
+is to search a large hypoth-

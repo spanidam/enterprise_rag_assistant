@@ -1,0 +1,37 @@
+61
+∗3.5
+The Markov Property . . . . . . . . . . . . . . . . . . . . . . .
+62
+3.6
+Markov Decision Processes . . . . . . . . . . . . . . . . . . . .
+67
+3.7
+Value Functions . . . . . . . . . . . . . . . . . . . . . . . . . .
+70
+3.8
+Optimal Value Functions . . . . . . . . . . . . . . . . . . . . .
+75
+3.9
+Optimality and Approximation
+. . . . . . . . . . . . . . . . .
+79
+3.10 Summary
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+80
+4
+Dynamic Programming
+89
+4.1
+Policy Evaluation . . . . . . . . . . . . . . . . . . . . . . . . .
+90
+4.2
+Policy Improvement . . . . . . . . . . . . . . . . . . . . . . . .
+94
+4.3
+Policy Iteration . . . . . . . . . . . . . . . . . . . . . . . . . .
+96
+4.4
+Value Iteration
+. . . . . . . . . . . . . . . . . . . . . . . . . .
+98
+4.5

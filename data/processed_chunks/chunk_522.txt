@@ -1,0 +1,32 @@
+1 cos q2 + ℓ1¨q1 sin q2 −ℓc2( ˙q1 + ˙q2)2
+ℓ1 ˙q2
+1 sin q2 + ℓ1¨q1 cos q2 −ℓc2(¨q1 + ¨q2)
+
+(6.168)
+The gravitational vector is
+g2
+=
+g
+
+sin(q1 + q2)
+−cos(q1 + q2)
+
+(6.169)
+Since there are only two links, there is no need to compute ae,2. Hence the
+forward recursions are complete at this point.
+224
+DYNAMICS
+Backward Recursion: Link 2
+Now we carry out the backward recursion to compute the forces and joint
+torques. Note that, in this instance, the joint torques are the externally applied
+quantities, and our ultimate objective is to derive dynamical equations involving
+the joint torques. First we apply (6.144) with i = 2 and note that f3 = 0. This
+results in
+f2
+=
+m2ac,2 −m2g2
+(6.170)
+τ2
+=
+I2α2 + ω2 × (I2ω2) −f2 × ℓc2i
+(6.171)

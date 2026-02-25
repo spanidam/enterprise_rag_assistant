@@ -1,0 +1,18 @@
+Pfaﬃan constraints. The crucial question in such cases is, therefore, when
+can the covectors w1, . . . wk be expressed as diﬀerentials of smooth functions,
+h1, . . . , hk? We express this as
+Deﬁnition 10.10 Constraints of the form
+< wi, ˙q >= 0
+i = 1, . . . k
+(10.101)
+are called holonomic if there exists smooth functions h1, . . . , hk such that
+wi(q) = dhi(q)
+i = 1, . . . k
+(10.102)
+and nonholonomic otherwise, i.e. if no such functions h1, . . . hk exist.
+We can begin to see a connection with our earlier discussion of integrability and
+the Frobenius Theorem if we think of Equation (10.102) as a set of partial diﬀer-
+ential equations in the (unknown) functions hi. Indeed, the term integrable
+constraint is frequently used interchangeably with holonomic constraint for
+this reason.
+10.6.1

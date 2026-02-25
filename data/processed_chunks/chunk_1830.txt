@@ -1,0 +1,12 @@
+the distribution of training examples is identical to the distribution of test ex- 
+amples. Despite our need to make this assumption in order to obtain theoretical 
+results, it is important to keep in mind that this assumption must often be violated 
+in practice. 
+To proceed with our design, let us decide that our system will train by 
+playing games against itself. This has the advantage that no external trainer need 
+be present, and it therefore allows the system to generate as much training data 
+as time permits. We now have a fully specified learning task. 
+A checkers learning problem: 
+0 Task T: playing checkers 
+0 Performance measure P: percent of games won in the world tournament 
+0 Training experience E: games played against itself

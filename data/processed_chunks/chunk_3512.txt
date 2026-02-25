@@ -1,0 +1,13 @@
+In another recent work (known as DPO) [139], Rafailov
+et al. discussed that RLHF is a complex and often unstable
+procedure, and tried to address this with a new approach. They
+leveraged a mapping between reward functions and optimal
+policies to show that this constrained reward maximization
+problem can be optimized exactly with a single stage of policy
+training, essentially solving a classification problem on the
+human preference data. The resulting algorithm, which they
+called Direct Preference Optimization (DPO), is stable, per-
+formant, and computationally lightweight, eliminating the need
+for fitting a reward model, sampling from the LM during fine-
+tuning, or performing significant hyperparameter tuning. They
+observed that fine-tuning with DPO exceeds RLHF’s ability to

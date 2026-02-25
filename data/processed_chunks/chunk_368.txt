@@ -1,0 +1,36 @@
+
+
+ Fx
+Fy
+
+=
+
+
+Fx
+Fy
+−Fx(ax sin θ −ay cos θ) + Fy(ax cos θ −ay sin θ)
+
+(5.23)
+and Fθ corresponds to the torque exerted about the origin of the robot frame.
+In this simple case, one can use basic physics to arrive at the same result. In
+particular, recall that a force, F, exerted at point, a, produces a torque, τ, about
+the point OA, and this torque is given by the relationship τ = r × F, in which
+r is the vector from OA to a. Of course we must express all vectors relative
+to a common frame, and in three dimensions (since torque will be deﬁned as
+a vector perpendicular to the plane in which the force acts). If we choose the
+world frame as our frame of reference, then we have
+r =
+
+
+ax cos θ −ay sin θ
+ax sin θ + ay cos θ
+0
+
+
+and the cross product gives
+τ
+=
+r × F
+=
+
+

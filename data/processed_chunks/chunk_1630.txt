@@ -1,0 +1,14 @@
+way and has already defined a Language class. However, the code is not working correctly because of
+errors in the CSV file. (The CSV program cannot be changed because the program's purpose is to detect
+these kinds of errors.)
+Your task is to modify the constructor to raise a ValueError in the following situations:
+•
+If the line does not have exactly four values (separated by commas).
+•
+If the number of speakers is not a positive floating point number.
+Note: The provided top27.csv includes mistakes for English, Korean, and French. Your program should raise
+a ValueError only for these languages. No other errors (including IndexError) should be raised.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+14-5-raising-exceptions)
+TRY IT
+Looking up keys

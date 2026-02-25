@@ -1,0 +1,11 @@
+Qfree while searching for a path. Such a search algorithm requires a strategy
+for exploring Qfree, and one of the most popular is to use an artiﬁcial potential
+ﬁeld to guide the search. In this section, we will introduce artiﬁcial potential
+ﬁeld methods.
+Here we describe how the potential ﬁeld can be constructed
+directly on the conﬁguration space of the robot. However, as will become clear,
+computing the gradient of such a ﬁeld is not feasible in general, so in Section 5.3
+we will develop an alternative, in which the potential ﬁeld is ﬁrst constructed
+on the workspace, and then its eﬀects are mapped to the conﬁguration space.
+The basic idea behind the potential ﬁeld approaches is as follows. The robot
+is treated as a point particle in the conﬁguration space, under the inﬂuence of

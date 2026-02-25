@@ -1,0 +1,19 @@
+X
+X
+X
+O
+O
+X
+O
+If the board ﬁlls up with neither player getting three in a row, the game is
+a draw. Because a skilled player can play so as never to lose, let us assume
+that we are playing against an imperfect player, one whose play is sometimes
+1.5. AN EXTENDED EXAMPLE: TIC-TAC-TOE
+11
+incorrect and allows us to win. For the moment, in fact, let us consider draws
+and losses to be equally bad for us. How might we construct a player that will
+ﬁnd the imperfections in its opponent’s play and learn to maximize its chances
+of winning?
+Although this is a simple problem, it cannot readily be solved in a satisfac-
+tory way through classical techniques. For example, the classical “minimax”
+solution from game theory is not correct here because it assumes a particular

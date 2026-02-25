@@ -1,0 +1,48 @@
++
+N−1
+X
+z=zt+1
+[(z −µ1)2 + 2(z −µ1)(µ1 −µ) + (µ1 −µ)2]P(z). (11.41)
+Note that the we have not explicitly noted the dependence on zt here.
+In
+the remainder of this section, to simplify notation, we will refer to the group
+probabilities and conditional means and variances as qi, µi, and σ2
+i , without
+explicitly noting the dependence on zt.
+This last expression (11.41) can be
+further simpliﬁed by examining the cross-terms
+X
+(z −µi)(µi −µ)P(z)
+=
+X
+zµiP(z) −
+X
+zµP(z) −
+X
+µ2
+i P(z) +
+X
+µiµP(z)
+=
+µi
+X
+zP(z) −µ
+X
+zP(z) −µ2
+i
+X
+P(z) + µiµ
+X
+P(z)
+=
+µi(µiqi) −µ(µiqi) −µ2
+i qi + µiµqi
+=
+0,
+in which the summations are taken for z from 0 to zt for the background pixels
+(i.e., i = 0) and z from zt + 1 to N −1 for the object pixels (i.e., i = 1).
+Therefore, we can simplify (11.41) to obtain
+σ2
+=
+zt
+X

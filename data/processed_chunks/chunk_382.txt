@@ -1,0 +1,19 @@
+interval.
+168
+PATH AND TRAJECTORY PLANNING
+(a)
+(b)
+qinit
+qfinal
+(c)
+(d)
+Fig. 5.8
+(a) A two-dimensional conﬁguration space populated with several random sam-
+ples (b) One possible PRM for the given conﬁguration space and random samples (c)
+PRM after enhancement (d) path from qinit to qﬁnal found by connecting qinit and qﬁnal
+to the roadmap and then searching the roadmap for a path from qinit to qﬁnal
+Finally, if the initial network consists of multiple connected components3, it is
+augmented by an enhancement phase, in which new nodes and arcs are added
+in an attempt to connect disjoint components of the network. To solve a path
+planning problem, the simple, local planner is used to connect qinit and qﬁnal
+to the roadmap, and the resulting network is searched for a path from qinit to

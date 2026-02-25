@@ -1,0 +1,25 @@
+What is the impact on the program?
+a.
+no change.
+b.
+Second __init__() definition produces an error.
+c.
+First two __init__() calls produce an error.
+Instance methods
+An instance method is used to access and modify instance attributes as well as class attributes. All methods
+shown so far, and most methods defined in a class definition, are instance methods.
+EXAMPLE 11.1
+Instance methods are often used to get and set instance information
+class ProductionCar:
+def __init__(self, make, model, year, max_mph = 0.0):
+self.make = make
+self.model = model
+self.year = year
+11.3 • Instance methods
+273
+self.max_mph = max_mph
+def max_kmh(self):
+return self.max_mph * 1.609344
+def update_max(self, speed):
+self.max_mph = speed
+car_1 = ProductionCar('McLaren', 'Speedtail', 2020) # car_1.max_mph is 0.0

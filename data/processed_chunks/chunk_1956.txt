@@ -1,0 +1,11 @@
+concept is not contained in the hypothesis space? Can we avoid this difficulty by 
+using a hypothesis space that includes every possible hypothesis? How does the 
+size of this hypothesis space influence the ability of the algorithm to generalize 
+to unobserved instances? How does the size of the hypothesis space influence the 
+number of training examples that must be observed? These are fundamental ques- 
+tions for inductive inference in general. Here we examine them in the context of 
+the CANDIDATE-ELIMINATION 
+algorithm. As we shall see, though, the conclusions 
+we draw from this analysis will apply to any concept learning system that outputs 
+any hypothesis consistent with the training data. 
+2.7.1 A Biased Hypothesis Space

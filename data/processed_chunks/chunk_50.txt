@@ -1,0 +1,16 @@
+tasks?
+The ability to answer this question for a full six degree-of-freedom manip-
+ulator represents the goal of the present text. The answer is too complicated
+to be presented at this point. We can, however, use the simple two-link planar
+mechanism to illustrate some of the major issues involved and to preview the
+topics covered in this text.
+OUTLINE OF THE TEXT
+17
+Fig. 1.20
+The Epson Cartesian Robot. Photo courtesy of Epson.
+Fig. 1.21
+Workspace of the Cartesian manipulator.
+Suppose we wish to move the manipulator from its home position to position
+A, from which point the robot is to follow the contour of the surface S to the
+point B, at constant velocity, while maintaining a prescribed force F normal
+to the surface. In so doing the robot will cut or grind the surface according

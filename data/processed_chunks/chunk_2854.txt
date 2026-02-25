@@ -1,0 +1,11 @@
+Teller, A., & Veloso, M. (1994). PADO: A new learning architecture for object recognition. In K. 
+Ikeuchi & M. Veloso (Eds.), Symbolic visual learning @p. 81-116). Oxford, England: Oxford 
+Univ. Press. 
+Turney, P. D. (1995). Cost-sensitive classification: Empirical evaluation of a hybrid genetic decision 
+tree induction algorithm. Journal of Al Research, 2, 369-409. http://www.cs.washington.edu/ 
+research/jair/home.htmI. 
+Tumey, P. D., Whitley, D., & Anderson, R. (1997). Evolutionary Computation. Special issue: 
+The Baldwin effect, 4(3). Cambridge, MA: MIT Press. http://www-mitpress.mit.eduljmls- 
+catalog/evolution-abstracts/evol.html. 
+Whitley, L. D., & Vose, M. D. (Eds.). (1995). Foundations of genetic algorithms 3. Morgan Kauf- 
+mann.

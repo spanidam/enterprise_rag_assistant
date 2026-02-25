@@ -1,0 +1,49 @@
+The Kinematic Car
+of the car can be described by q = [x, y, θ, φ]T , where x and y is the point at
+the center of the rear axle, θ is the heading angle, and φ is the steering angle
+as shown in the ﬁgure. The rolling without slipping constraints are found by
+setting the sideways velocity of the front and rear wheels to zero. This leads to
+sin θ ˙x −cos θ ˙y
+=
+0
+sin(θ + φ) ˙x −cos(θ + φ) ˙y −d cos φ ˙θ
+=
+0
+(10.112)
+which can be written as
+ sin θ
+cos θ
+0
+0 
+˙q
+=
+< w1, ˙q > = 0
+ sin(θ + φ)
+−cos(θ + φ)
+−d cos φ
+0 
+˙q
+=
+< w2, ˙q > = 0
+(10.113)
+It is thus straightforward to ﬁnd vectors
+g1 =
+
+
+0
+0
+0
+1
+
+; g2 =
+
+
+cos θ
+sin θ
+1
+d tan φ
+0
+
+
+(10.114)
+orthogonal to w1 and w2 and write the corresponding control system in the

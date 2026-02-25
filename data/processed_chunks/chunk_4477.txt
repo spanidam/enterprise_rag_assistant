@@ -1,0 +1,11 @@
+tion. For example, the stripe tiling in Figure 9.6b will promote generalization
+along the vertical dimension and discrimination along the horizontal dimen-
+sion, particularly on the left. The diagonal stripe tiling in Figure 9.6c will
+promote generalization along one diagonal. In higher dimensions, axis-aligned
+stripes correspond to ignoring some of the dimensions in some of the tilings,
+238CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+that is, to hyperplanar slices.
+Another important trick for reducing memory requirements is hashing—a
+consistent pseudo-random collapsing of a large tiling into a much smaller set
+of tiles. Hashing produces tiles consisting of noncontiguous, disjoint regions
+randomly spread throughout the state space, but that still form an exhaustive

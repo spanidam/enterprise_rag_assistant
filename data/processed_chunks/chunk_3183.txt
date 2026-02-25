@@ -1,0 +1,13 @@
+function. We will refer to this new network as the target network. In the example of 
+Figure 12.7, the target network Cup,,,,,, shown at the bottom of the figure takes 
+as input the description of an arbitrary instance and outputs a value indicating 
+whether the object is a Cup. 
+EBNN learns the target network by invoking the TANGENTPROP 
+algorithm 
+described in the previous section. Recall that TANGENTPROP 
+trains a network to fit 
+both training values and training derivatives. EBNN passes along to TANGENTPROP 
+the training values (xi, f (xi)) that it receives as input. In addition, EBNN provides 
+TANGENTPROP 
+with derivatives that it calculates from the domain theory. To see 
+how EBNN calculates these training derivatives, consider again Figure 12.7. The

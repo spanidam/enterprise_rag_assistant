@@ -1,0 +1,15 @@
+chapter, we will discuss two flavours of ConvNets: we will start with the monodimensional case and see how ConvNets
+with 1D convolutions can be helpful to process time series and we will then introduce the 2D case that is especially useful
+to process image data.
+6.1 ConvNets for time series
+Convolutional neural networks for time series rely on the 1D convolution operator that, given a time series x and a filter
+f, computes an activation map as:
+(x ∗f) (𝑡) =
+𝐿
+∑
+𝑘=−𝐿
+𝑓𝑘𝑥𝑡+𝑘
+(6.1)
+where the filter f is of length (2𝐿+ 1).
+The following code illustrates this notion using a Gaussian filter:
+Convolutional neural networks are made of convolution blocks whose parameters are the coefficients of the filters they

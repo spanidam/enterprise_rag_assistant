@@ -1,0 +1,11 @@
+rejection, and so forth.
+In the case of rigid manipulators the inverse dynamics control of Chapter 8
+and the feedback linearizing control are the same. However, as we shall see,
+the full power of the feedback linearization technique for manipulator control
+becomes apparent if one includes in the dynamic description of the manipulator
+the transmission dynamics, such as elasticity resulting from shaft windup and
+gear elasticity.
+We also give an introduction to modeling and controllability of nonholonomic
+systems. We treat systems such as mobile robots and other systems subject to
+constraints arising from conservation of angular momentum or rolling contact.
+We discuss the controllability of a particular class of such systems, known as

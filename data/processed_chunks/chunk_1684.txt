@@ -1,0 +1,17 @@
+•
+Pandas is an open-source Python library used for data cleaning, processing, and analysis.
+•
+Pandas provides Series and DataFrame data structures, data processing functionality, and integration with
+other libraries.
+•
+Exploratory Data Analysis (EDA) is the task of analyzing data to gain insights, identify patterns, and
+understand the underlying structure of the data.
+•
+A feature is an individual variable or attribute that is calculated from raw data in a dataset.
+•
+Data indexing can be used to select and access specific rows and columns.
+•
+Data slicing refers to selecting a subset of rows and/or columns from a DataFrame.
+•
+Data filtering involves selecting rows or columns based on certain conditions.
+•

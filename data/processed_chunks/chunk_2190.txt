@@ -1,0 +1,13 @@
+the network: that is, all units whose inputs include the output of unit r. It is this 
+gneral form of the weight-update rule that we derive in Section 4.5.3. 
+4.5.3 
+Derivation of the BACKPROPAGATION 
+Rule 
+This section presents the derivation of the BACKPROPAGATION 
+weight-tuning rule. 
+It may be skipped on a first reading, without loss of continuity. 
+The specific problem we address here is deriving the stochastic gradient de- 
+scent rule implemented by the algorithm in Table 4.2. Recall from Equation (4. l l )  
+that stochastic gradient descent involves iterating through the training examples 
+one at a time, for each training example d descending the gradient of the error 
+Ed with respect to this single example. In other words, for each training example

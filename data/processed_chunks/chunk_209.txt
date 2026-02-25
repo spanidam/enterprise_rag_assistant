@@ -1,0 +1,12 @@
+tions is identiﬁed, it must be further checked to see whether or not it satisﬁes
+all constraints on the ranges of possible joint motions. For our purposes, we
+henceforth assume that the given homogeneous matrix H in (3.32) corresponds
+to a conﬁguration within the manipulator’s workspace with an attainable ori-
+entation. This guarantees that the mathematical solutions obtained correspond
+to achievable conﬁgurations.
+3.3.2
+Kinematic Decoupling
+Although the general problem of inverse kinematics is quite diﬃcult, it turns out
+that for manipulators having six joints, with the last three joints intersecting at
+a point (such as the Stanford Manipulator above), it is possible to decouple the
+inverse kinematics problem into two simpler problems, known respectively, as

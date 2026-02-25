@@ -1,0 +1,60 @@
+4 followed by a yaw of π
+2
+followed by a pitch of π
+2 .
+15. If the coordinate frame o1x1y1z1 is obtained from the coordinate frame
+o0x0y0z0 by a rotation of π
+2 about the x-axis followed by a rotation of
+π
+2 about the ﬁxed y-axis, ﬁnd the rotation matrix R representing the
+composite transformation. Sketch the initial and ﬁnal frames.
+16. Suppose that three coordinate frames o1x1y1z1, o2x2y2z2 and o3x3y3z3
+are given, and suppose
+R1
+2
+=
+
+
+1
+0
+0
+0
+1
+2
+−
+√
+3
+2
+0
+√
+3
+2
+1
+2
+
+; R1
+3 =
+
+
+0
+0
+−1
+0
+1
+0
+1
+0
+0
+
+
+Find the matrix R2
+3.
+17. Verify Equation (2.46).
+CHAPTER SUMMARY
+61
+18. If R is a rotation matrix show that +1 is an eigenvalue of R. Let k be
+a unit eigenvector corresponding to the eigenvalue +1. Give a physical
+interpretation of k.
+19. Let k =
+1
+√

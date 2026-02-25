@@ -1,0 +1,29 @@
+339
+EXAMPLE 14.4
+Typo in a file
+A file named food_order.txt has the following contents:
+5 sandwiches
+4 chips
+1 pickle
+soft drinks
+The following program expects each line of the file to begin with an integer:
+for line in open("food_order.txt"):
+space = line.index(" ")
+qty = int(line[:space])
+item = line[space+1:-1]
+print(qty, item)
+Unfortunately, the line "soft drinks" does not begin with an integer. As a result, the program terminates
+and displays an error message:
+Traceback (most recent call last):
+File "food_order.py", line 3
+qty = int(line[:space])
+ValueError: invalid literal for int() with base 10: 'soft'
+CONCEPTS IN PRACTICE
+Common exceptions
+What error might occur in each situation?
+1. The line "soft drinks" is changed to "3-4 soft drinks".
+a.
+FileNotFoundError
+b.
+IndexError
+c.

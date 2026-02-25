@@ -1,0 +1,11 @@
+specific and most general hypotheses. Training examples 1 and 2 force the S boundary to become 
+more general, as in the FIND-S algorithm. They have no effect on the G boundary. 
+{<Sunny, Warm, ?, Strong, Warm, Same>} 
+two positive examples is very similar to the processing performed by the FIND-S 
+algorithm. 
+As illustrated by these first two steps, positive training examples may force 
+the S boundary of the version space to become increasingly general. Negative 
+training examples play the complimentary role of forcing the G boundary to 
+become increasingly specific. Consider the third training example, shown in Fig- 
+ure 2.5. This negative example reveals that the G boundary of the version space 
+is overly general; that is, the hypothesis in G incorrectly predicts that this new

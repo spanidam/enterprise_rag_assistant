@@ -1,0 +1,31 @@
+(2.29) and (2.30) as
+θ5
+=
+atan2
+
+s1r13 −c1r23, ±
+p
+1 −(s1r13 −c1r23)2
+
+(3.68)
+If the positive square root is chosen in (3.68), then θ4 and θ6 are given by (2.31)
+and (2.32), respectively, as
+θ4
+=
+atan2(c1c23r13 + s1c23r23 + s23r33,
+−c1s23r13 −s1s23r23 + c23r33)
+(3.69)
+θ6
+=
+atan2(−s1r11 + c1r21, s1r12 −c1r22)
+(3.70)
+The other solutions are obtained analogously. If s5 = 0, then joint axes z3 and
+z5 are collinear. This is a singular conﬁguration and only the sum θ4 + θ6 can
+be determined. One solution is to choose θ4 arbitrarily and then determine θ6
+using (2.36) or (2.38).
+⋄
+3.3.5
+Examples
+Example 3.9 Elbow Manipulator - Complete Solution
+To summarize the geometric approach for solving the inverse kinematics
+equations, we write give here one solution to the inverse kinematics of the six

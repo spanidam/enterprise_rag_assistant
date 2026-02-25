@@ -1,0 +1,11 @@
+trated example in this table corresponds to the bottommost single regression step 
+of Figure 11.3. As shown in the table, the REGRESS 
+algorithm operates by finding 
+a substitution that unifies the head of the Horn clause rule with the corresponding 
+literal in the frontier, replacing this expression in the frontier by the rule body, 
+then applying a unifying substitution to the entire frontier. 
+The final Horn clause rule output by PROLOG-EBG 
+is formulated as follows: 
+The clause body is defined to be the weakest preconditions calculated by the above 
+procedure. The clause head is the target concept itself, with each substitution from 
+each regression step (i.e., the substitution Oh[ in Table 11.3) applied to it. This

@@ -1,0 +1,21 @@
+After each transition St, At ⇝Rt+1, St+1, the model records in its table entry
+for St, At the prediction that Rt+1, St+1 will deterministically follow. Thus, if
+the model is queried with a state–action pair that has been experienced before,
+it simply returns the last-observed next state and next reward as its predic-
+tion. During planning, the Q-planning algorithm randomly samples only from
+state–action pairs that have previously been experienced (in Step 1), so the
+model is never queried with a pair about which it has no information.
+The overall architecture of Dyna agents, of which the Dyna-Q algorithm is
+200CHAPTER 8. PLANNING AND LEARNING WITH TABULAR METHODS
+real
+direct RL
+update
+Model
+planning update
+search
+control
+Policy/value functions
+experience
+model
+learning
+Environment

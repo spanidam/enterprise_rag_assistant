@@ -1,0 +1,32 @@
+lists) should not be used as default values.
+The physics example below calculates weight as a force in newtons given mass in kilograms and acceleration
+in
+. Gravity on Earth is 9.8
+, and gravity on Mars is 3.7
+.
+CHECKPOINT
+Using default parameter values
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-6-keyword-arguments)
+CONCEPTS IN PRACTICE
+Using default parameter values
+Consider the following updated version of greeting():
+def greeting(msg, name="Friend", count=1):
+i = 0
+for i in range(0, count):
+print(msg, name)
+5. Which parameters have default values?
+a.
+msg
+b.
+name and count
+c.
+all
+6. Which function call is correct?
+a.
+greeting()
+b.
+greeting(name="Gina")
+c.
+greeting("Greetings")
+7. What is the output of greeting(count=0, msg="Hello")?

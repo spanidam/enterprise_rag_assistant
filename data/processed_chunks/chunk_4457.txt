@@ -1,0 +1,16 @@
+(9.5)
+where δt is the usual TD error, now using ˆv,
+δt = Rt+1 + γˆv(St+1,wt) −ˆv(St,wt),
+(9.6)
+and et = (et,1, et,2, . . . , et,n)⊤is a column vector of eligibility traces, one for
+each component of wt, updated by
+et = γλet−1 + ∇ˆv(St,wt),
+(9.7)
+with e0 = 0. A complete algorithm for on-line gradient-descent TD(λ) is given
+in Figure 9.1.
+Two methods for gradient-based function approximation have been used
+widely in reinforcement learning. One is multilayer artiﬁcial neural networks
+using the error backpropagation algorithm. This maps immediately onto the
+equations and algorithms just given, where the backpropagation process is the
+way of computing the gradients. The second popular form is the linear form,
+which we discuss extensively in the next section.

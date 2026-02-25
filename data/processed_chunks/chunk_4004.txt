@@ -1,0 +1,26 @@
+relies on at least three assumptions that are rarely true in practice: (1) we
+accurately know the dynamics of the environment; (2) we have enough com-
+putational resources to complete the computation of the solution; and (3) the
+Markov property. For the kinds of tasks in which we are interested, one is
+3.9. OPTIMALITY AND APPROXIMATION
+79
+a) gridworld
+b) V*
+c) !*
+22.0 24.4 22.0 19.4 17.5
+19.8 22.0 19.8 17.8 16.0
+17.8 19.8 17.8 16.0 14.4
+16.0 17.8 16.0 14.4 13.0
+14.4 16.0 14.4 13.0 11.7
+A
+B
+A'
+B'
++10
++5
+v*
+π*
+Figure 3.8: Optimal solutions to the gridworld example.
+generally not able to implement this solution exactly because various com-
+binations of these assumptions are violated. For example, although the ﬁrst
+and third assumptions present no problems for the game of backgammon, the

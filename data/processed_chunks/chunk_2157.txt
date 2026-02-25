@@ -1,0 +1,10 @@
+this algorithm will converge to a weight vector with minimum error, regardless 
+of whether the training examples are linearly separable, given a sufficiently small 
+learning rate q is used. If r) is too large, the gradient descent search runs the risk 
+of overstepping the minimum in the error surface rather than settling into it. For 
+this reason, one common modification to the algorithm is to gradually reduce the 
+value of r) as the number of gradient descent steps grows. 
+4.4.3.3 STOCHASTIC APPROXIMATION TO GRADIENT DESCENT 
+Gradient descent is an important general paradigm for learning. It is a strategy for 
+searching through a large or infinite hypothesis space that can be applied whenever 
+(1) the hypothesis space contains continuously parameterized hypotheses (e.g., the

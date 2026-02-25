@@ -1,0 +1,11 @@
+Example 3.6: Draw Poker
+In draw poker, each player is dealt a hand of
+ﬁve cards. There is a round of betting, in which each player exchanges some
+of his cards for new ones, and then there is a ﬁnal round of betting. At each
+round, each player must match or exceed the highest bets of the other players,
+or else drop out (fold). After the second round of betting, the player with the
+best hand who has not folded is the winner and collects all the bets.
+The state signal in draw poker is diﬀerent for each player. Each player
+knows the cards in his own hand, but can only guess at those in the other
+players’ hands. A common mistake is to think that a Markov state signal
+should include the contents of all the players’ hands and the cards remaining

@@ -1,0 +1,25 @@
+8.3
+INVERSE DYNAMICS
+We now consider the application of more complex nonlinear control techniques
+for trajectory tracking of rigid manipulators. Consider again the dynamic equa-
+tions of an n-link robot in matrix form from (8.6)
+M(q)¨q + C(q, ˙q) ˙q + g(q)
+=
+u.
+(8.15)
+The idea of inverse dynamics is to seek a nonlinear feedback control law
+u
+=
+f(q, ˙q, t)
+(8.16)
+which, when substituted into (8.15), results in a linear closed loop system. For
+general nonlinear systems such a control law may be quite diﬃcult or impossible
+to ﬁnd. In the case of the manipulator dynamic equations (8.15), however, the
+problem is actually easy. By inspecting (8.15) we see that if we choose the
+control u according to the equation
+u
+=
+M(q)aq + C(q, ˙q) ˙q + g(q)
+(8.17)
+INVERSE DYNAMICS
+267

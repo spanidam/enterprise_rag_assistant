@@ -1,0 +1,19 @@
+2. Form the resolvent C by including all literals from C1 and C2, except for L and -L. More 
+precisely, the set of literals occurring in the conclusion C is 
+where u denotes set union, and "-" denotes set difference. 
+TABLE 10.5 
+Resolution operator (propositional form). Given clauses C1 and C2, the resolution operator constructs 
+a clause C such that C1 A C2 k C. 
+C : KnowMaterial 
+v -Study 
+C :  KnowMaterial 
+V 7 S N d y  
+C : P a s s h  v ~KnawMaferial 
+C : 
+P I I S S ~  
+V 1KnowMafcrial 
+I 
+I 
+FIGURE 10.2 
+On the left, an application of the (deductive) resolution rule inferring clause C from the given clauses 
+C1 and C2. On the right, an application of its (inductive) inverse, inferring Cz from C and C1.

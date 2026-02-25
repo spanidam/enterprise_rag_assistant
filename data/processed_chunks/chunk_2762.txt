@@ -1,0 +1,11 @@
+successfully to a variety of learning tasks and to other optimization problems. For 
+example, they have been used to learn collections of rules for robot control and to 
+optimize the topology and learning parameters for artificial neural networks. This 
+chapter covers both genetic algorithms, in which hypotheses are typically described 
+by bit strings, and genetic programming, in which hypotheses are described by 
+computer programs. 
+9.1 MOTIVATION 
+Genetic algorithms (GAS) provide a learning method motivated by an analogy to 
+biological evolution. Rather than search from general-to-specific hypotheses, or 
+from simple-to-complex, GAS generate successor hypotheses by repeatedly mutat- 
+ing and recombining parts of the best currently known hypotheses. At each step,

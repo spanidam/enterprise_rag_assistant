@@ -1,0 +1,31 @@
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+10-1-dictionary-basics)
+CONCEPTS IN PRACTICE
+Dictionary type and properties
+Given the dictionary object encoding = {"a": 97, "b": 98, "A": 65, "B": 66}, answer the
+following questions.
+4. What does type(encoding) return?
+242
+10 • Dictionaries
+Access for free at openstax.org
+a.
+dictionary
+b.
+dict
+c.
+str
+5. The encoding dictionary contains duplicate keys since it has both "a" and "A" as keys.
+a.
+true
+b.
+false
+6. A dictionary can have duplicate values.
+a.
+true
+b.
+false
+TRY IT
+Investigate variable types
+Given the variables in the code below, examine the variables' types.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+10-1-dictionary-basics)

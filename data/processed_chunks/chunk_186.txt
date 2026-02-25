@@ -1,0 +1,22 @@
+s.
+Note: currently rendering
+a 3D gripper...
+yn ≡s
+On
+O0
+z0
+y0
+x0
+xn ≡n
+zn ≡a
+Fig. 3.5
+Tool frame assignment
+In most contemporary robots the ﬁnal joint motion is a rotation of the end-
+eﬀector by θn and the ﬁnal two joint axes, zn−1 and zn, coincide. In this case,
+the transformation between the ﬁnal two coordinate frames is a translation
+along zn−1 by a distance dn followed (or preceded) by a rotation of θn about
+zn−1. This is an important observation that will simplify the computation of
+the inverse kinematics in the next section.
+Finally, note the following important fact. In all cases, whether the joint in
+question is revolute or prismatic, the quantities ai and αi are always constant
+for all i and are characteristic of the manipulator. If joint i is prismatic, then

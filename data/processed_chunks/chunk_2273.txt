@@ -1,0 +1,12 @@
+attributes, in a way that is robust to noise in the training data. The BACKPROP- 
+AGATION algorithm is the most common network learning method and has 
+been successfully applied to a variety of learning tasks, such as handwriting 
+recognition and robot control. 
+0 The hypothesis space considered by the BACKPROPAGATION 
+algorithm is the 
+space of all functions that can be represented by assigning weights to the 
+given, fixed network of interconnected units. Feedforward networks contain- 
+ing three layers of units are able to approximate any function to arbitrary 
+accuracy, given a sufficient (potentially very large) number of units in each 
+layer. Even networks of practical size are capable of representing a rich 
+space of highly nonlinear functions, making feedforward networks a good

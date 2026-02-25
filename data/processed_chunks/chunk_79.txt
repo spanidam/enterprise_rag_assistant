@@ -1,0 +1,10 @@
+Consider Figure 2.1. This ﬁgure shows two coordinate frames that diﬀer in
+orientation by an angle of 45◦. Using the synthetic approach, without ever as-
+signing coordinates to points or vectors, one can say that x0 is perpendicular to
+y0, or that v1 ×v2 deﬁnes a vector that is perpendicular to the plane containing
+v1 and v2, in this case pointing out of the page.
+In robotics, one typically uses analytic reasoning, since robot tasks are often
+deﬁned using Cartesian coordinates. Of course, in order to assign coordinates
+it is necessary to specify a coordinate frame. Consider again Figure 2.1. We
+could specify the coordinates of the point p with respect to either frame o0x0y0
+or frame o1x1y1. In the former case, we might assign to p the coordinate vector

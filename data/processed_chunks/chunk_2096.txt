@@ -1,0 +1,9 @@
+the various values for A among the examples at node n. For example, given a 
+boolean attribute A, if node n contains six known examples with A = 1 and four 
+with A = 0, then we would say the probability that A(x) = 1 is 0.6, and the 
+probability that A(x) = 0 is 0.4. A fractional 0.6 of instance x is now distributed 
+down the branch for A = 1, and a fractional 0.4 of x down the other tree branch. 
+These fractional examples are used for the purpose of computing information 
+Gain and can be further subdivided at subsequent branches of the tree if a second 
+missing attribute value must be tested. This same fractioning of examples can 
+also be applied after learning, to classify new instances whose attribute values

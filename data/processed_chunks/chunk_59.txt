@@ -1,0 +1,26 @@
+of the
+manipulator and is a fundamental object to determine for any manipulator. In
+Chapter 4 we present a systematic procedure for deriving the Jacobian for any
+manipulator in the so-called cross-product form.
+The determination of the joint velocities from the end-eﬀector velocities is
+conceptually simple since the velocity relationship is linear.
+Thus the joint
+velocities are found from the end-eﬀector velocities via the inverse Jacobian
+˙θ
+=
+J−1 ˙x
+(1.11)
+where J−1 is given by
+J−1
+=
+1
+α1α2sθ2
+
+α2cθ1+θ2
+α2sθ1+θ2
+−α1cθ1 −α2cθ1+θ2
+−α1sθ1 −α2sθ1+θ2
+
+(1.12)
+in which cθ and sθ denote respectively cos θ and sin θ. The determinant of the
+Jacobian in Equation (1.10) is α1α2 sin θ2. The Jacobian does not have an in-

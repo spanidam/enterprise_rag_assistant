@@ -1,0 +1,34 @@
+is no friction, it is easy to see that
+vx = 0
+vy = 0
+fz = 0
+ωx = 0
+ωy = 0
+nz = 0
+(9.6)
+and thus the reciprocity condition V T F = 0 is satisﬁed.
+These relation-
+ships (9.6) are termed Natural Constraints.
+Fig. 9.3
+Inserting a peg into a hole.
+Examining Equation (9.5) we see that the variables
+fx
+fy
+vz
+nx
+ny
+ωz
+(9.7)
+are unconstrained by the environment, i.e. given the natural constraints (9.6),
+the reciprocity condition V T F = 0 holds for all values of the above variables
+(9.7). We may therefore assign reference values, called Artiﬁcial Constraints,
+for these variables that may then be enforced by the control system to carry out
+the task at hand. For example, in the peg-in-hole task we may deﬁne artiﬁcial
+constraints as
+fx = 0
+fy = 0
+vz = vd
+nx = 0
+ny = 0
+ωz = 0
+(9.8)

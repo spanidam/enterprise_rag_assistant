@@ -1,0 +1,10 @@
+perspective implicit in the above description of the PROLOG-EBG algorithm. 
+0 EBL as example-guided reformulation of theories. The PROLOG-EBG algo- 
+rithm can be viewed as a method for reformulating the domain theory into a 
+more operational form. In particular, the original domain theory is reformu- 
+lated by creating rules that (a) follow deductively from the domain theory, 
+and (b) classify the observed training examples in a single inference step. 
+Thus, the learned rules can be seen as a reformulation of the domain theory 
+into a set of special-case rules capable of classifying instances of the target 
+concept in a single inference step. 
+0 EBL as "just" restating what the learner already "knows. " In one sense, the

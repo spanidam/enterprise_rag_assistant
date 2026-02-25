@@ -1,0 +1,11 @@
+the 500-node hypothesis. 
+Upon closer examination, it turns out there is a major difficulty with the 
+above argument. By the same reasoning we could have argued that one should 
+prefer decision trees containing exactly 17 leaf nodes with 11 nonleaf nodes, that 
+use the decision attribute A1 at the root, and test attributes A2 through All, in 
+numerical order. There are relatively few such trees, and we might argue (by the 
+same reasoning as above) that our a priori chance of finding one consistent with 
+an arbitrary set of data is therefore small. The difficulty here is that there are very 
+many small sets of hypotheses that one can define-most 
+of them rather arcane. 
+Why should we believe that the small set of hypotheses consisting of decision

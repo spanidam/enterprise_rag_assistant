@@ -1,0 +1,12 @@
+rectangle hypotheses? Notice that E is not a continuous function of llx, Ily, urx, 
+and ury, just as in the case of perceptron learning. (Hint: Consider the two solutions 
+used for perceptrons: (1) changing the classification rule to make output predictions 
+continuous functions of the inputs, and (2) defining an alternative error-such 
+as 
+distance to the rectangle center-as 
+in using the delta rule to train perceptrons.) 
+Does your algorithm converge to the minimum error hypothesis when the positive 
+and negative examples are separable by a rectangle? When they are not? Do you 
+have problems with local minima? How does your algorithm compare to symbolic 
+methods for learning conjunctions of feature constraints? 
+REFERENCES

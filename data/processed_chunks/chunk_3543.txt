@@ -1,0 +1,19 @@
+as use case design, structuring the input/output, or
+providing mechanisms for user feedback.
+•
+Data Management and Continuous Improvement.
+Maintaining and analyzing a tracking set of hallucina-
+tions is essential for ongoing model improvement.
+•
+Prompt Engineering and Metaprompt Design. Many
+of the advanced prompt techniques described in IV-B
+such as Retrieval Augmented Generation directly ad-
+dress hallucination risks.
+•
+Model Selection and Configuration for Hallucination
+Mitigation. For exemple, larger models with lower
+temperature settings usually perform better. Also,
+techniques such as RLHF or domain-sepcific fine-
+tuning can mitigate hallucination risks.
+B. Using LLMs: Prompt Design and Engineering
+A prompt in generative AI models is the textual input

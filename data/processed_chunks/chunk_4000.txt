@@ -1,0 +1,12 @@
+the long-term optimal actions.
+Having q∗makes choosing optimal actions still easier. With q∗, the agent
+does not even have to do a one-step-ahead search: for any state s, it can simply
+ﬁnd any action that maximizes q∗(s, a). The action-value function eﬀectively
+caches the results of all one-step-ahead searches. It provides the optimal ex-
+pected long-term return as a value that is locally and immediately available
+for each state–action pair. Hence, at the cost of representing a function of
+state–action pairs, instead of just of states, the optimal action-value function
+allows optimal actions to be selected without having to know anything about
+possible successor states and their values, that is, without having to know
+78
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES

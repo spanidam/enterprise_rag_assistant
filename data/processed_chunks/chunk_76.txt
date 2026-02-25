@@ -1,0 +1,10 @@
+various coordinate systems to represent the positions and orientations of rigid
+objects, and with transformations among these coordinate systems. Indeed, the
+geometry of three-dimensional space and of rigid motions plays a central role in
+all aspects of robotic manipulation. In this chapter we study the operations of
+rotation and translation, and introduce the notion of homogeneous transforma-
+tions.1 Homogeneous transformations combine the operations of rotation and
+translation into a single matrix multiplication, and are used in Chapter 3 to
+derive the so-called forward kinematic equations of rigid manipulators.
+We begin by examining representations of points and vectors in a Euclidean
+space equipped with multiple coordinate frames. Following this, we introduce

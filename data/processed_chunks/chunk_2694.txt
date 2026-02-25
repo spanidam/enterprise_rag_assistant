@@ -1,0 +1,21 @@
+TABLE 8.1 
+The k-NEAREST 
+NEIGHBOR 
+algorithm for approximating a discrete-valued function f : 8" -+ V .  
+CHAPTER 8 INSTANCE-BASED LEARNING 233 
+FIGURE 8.1 
+k-NEAREST NEIGHBOR. 
+A set of positive and negative training examples is shown on the left, along 
+with a query instance x, to be classified. The I-NEAREST 
+NEIGHBOR 
+algorithm classifies x, positive, 
+whereas 5-NEAREST NEIGHBOR 
+classifies it as negative. On the right is the decision surface induced 
+by the 1-NEAREST 
+NEIGHBOR 
+algorithm for a typical set of training examples. The convex polygon 
+surrounding each training example indicates the region of instance space closest to that point (i.e., 
+the instances for which the 1-NEAREST 
+NEIGHBOR 
+algorithm will assign the classification belonging 
+to that training example).

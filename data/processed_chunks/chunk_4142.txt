@@ -1,0 +1,18 @@
+Player sum
+*
+*
+Figure 5.5: The optimal policy and state-value function for blackjack, found by
+Monte Carlo ES (Figure 5.4). The state-value function shown was computed
+from the action-value function found by Monte Carlo ES.
+5.4
+Monte Carlo Control without Exploring
+Starts
+How can we avoid the unlikely assumption of exploring starts?
+The only
+general way to ensure that all actions are selected inﬁnitely often is for the
+agent to continue to select them. There are two approaches to ensuring this,
+resulting in what we call on-policy methods and oﬀ-policy methods.
+On-
+policy methods attempt to evaluate or improve the policy that is used to make
+decisions, whereas oﬀ-policy methods evaluate or improve a policy diﬀerent
+from that used to generate the data. The Monte Carlo ES method developed

@@ -1,0 +1,10 @@
+vπ, the root is a state node, and below it is the entire trajectory of transitions
+along a particular single episode, ending at the terminal state, as in Figure 5.3.
+Whereas the DP diagram (Figure 3.4a) shows all possible transitions, the
+Monte Carlo diagram shows only those sampled on the one episode. Whereas
+the DP diagram includes only one-step transitions, the Monte Carlo diagram
+goes all the way to the end of the episode. These diﬀerences in the diagrams
+accurately reﬂect the fundamental diﬀerences between the algorithms.
+An important fact about Monte Carlo methods is that the estimates for
+each state are independent. The estimate for one state does not build upon
+the estimate of any other state, as is the case in DP. In other words, Monte

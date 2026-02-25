@@ -1,0 +1,52 @@
+121
+The above reasoning can be extended to any number of coordinate systems.
+In particular, suppose that we are given
+R0
+n
+=
+R0
+1R1
+2 · · · Rn−1
+n
+(4.29)
+Although it is a slight abuse of notation, let us represent by ωi−1
+i
+the an-
+gular velocity due to the rotation given by Ri−1
+i
+, expressed relative to frame
+oi−1xi−1yi−1zi−1. Extending the above reasoning we obtain
+˙R0n
+=
+S(ω0
+0,n)R0
+n
+(4.30)
+in which
+ω0
+0,n
+=
+ω0
+0,1 + R0
+1ω1
+1,2 + R0
+2ω2
+2,3 + R0
+3ω3
+3,4 + · · · + R0
+n−1ωn−1
+n−1,n
+(4.31)
+=
+ω0
+0,1 + ω0
+1,2 + ω0
+2,3 + ω0
+3,4 + · · · + ω0
+n−1,n
+(4.32)
+4.5
+LINEAR VELOCITY OF A POINT ATTACHED TO A MOVING
+FRAME
+We now consider the linear velocity of a point that is rigidly attached to a mov-
+ing frame. Suppose the point p is rigidly attached to the frame o1x1y1z1, and

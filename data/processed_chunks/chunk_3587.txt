@@ -1,0 +1,18 @@
+ing, where a question (q) is provided along with two
+potential solutions (s1, s2). Then, the best solution is
+chosen by whether a model or a human. For each
+question, only one of the solutions is the correct
+answer.
+•
+SIQA [195] provides a framework for evaluating mod-
+els’ ability for commonsense reasoning about social
+situations. SIQA dataset has 38, 000 multiple-choice
+questions designed to assess emotional and social
+intelligence in everyday circumstances. This dataset
+covers a wide variety of social scenarios. In SIQA,
+the potential answers is a mixture of human-selected
+responses and machine-generated ones that have been
+filtered through adversarial processes.
+•
+OpenBookQA (OBQA) [196] is a new kind of
+question-answering dataset where answering its ques-

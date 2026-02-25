@@ -1,0 +1,12 @@
+In this section we instead
+deﬁne TD(λ) mechanistically and show that it can closely approximate the
+forward view. The mechanistic, or backward, view of TD(λ) is useful because
+it is simple conceptually and computationally. In particular, the forward view
+itself is not directly implementable because it is acausal, using at each step
+knowledge of what will happen many steps later. The backward view provides
+a causal, incremental mechanism for approximating the forward view and, in
+the oﬀ-line case, for achieving it exactly.
+In the backward view of TD(λ), there is an additional memory variable
+associated with each state, its eligibility trace. The eligibility trace for state
+s at time t is a random variable denoted Et(s) ∈R+.
+On each step, the

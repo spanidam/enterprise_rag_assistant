@@ -1,0 +1,12 @@
+constant factor. Alternatively, we could stretch each axis by a value that varies over 
+the instance space. However, as we increase the number of degrees of freedom 
+available to the algorithm for redefining its distance metric in such a fashion, we 
+also increase the risk of overfitting. Therefore, the approach of locally stretching 
+the axes is much less common. 
+One additional practical issue in applying k-NEAREST 
+NEIGHBOR 
+is efficient 
+memory indexing. Because this algorithm delays all processing until a new query 
+is received, significant computation can be required to process each new query. 
+Various methods have been developed for indexing the stored training examples so 
+that the nearest neighbors can be identified more efficiently at some additional cost

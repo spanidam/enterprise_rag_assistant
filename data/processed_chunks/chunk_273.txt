@@ -1,0 +1,45 @@
+ω0
+n
+=
+ρ1 ˙q1k + ρ2 ˙q2R0
+1k + · · · + ρn ˙qnR0
+n−1k
+(4.49)
+=
+n
+X
+i−1
+ρi ˙qiz0
+i−1
+in which ρi is equal to 1 if joint i is revolute and 0 if joint i is prismatic, since
+z0
+i−1
+=
+R0
+i−1k
+(4.50)
+Of course z0
+0 = k = (0, 0, 1)T .
+The lower half of the Jacobian Jω, in Equation (4.46) is thus given as
+Jω
+=
+[ρ1z0 · · · ρnzn−1] .
+(4.51)
+Note that in this equation, we have omitted the superscripts for the unit vectors
+along the z-axes, since these are all referenced to the world frame.
+In the
+remainder of the chapter we occasionally will follow this convention when there
+is no ambiguity concerning the reference frame.
+124
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+4.6.2
+Linear Velocity
+The linear velocity of the end-eﬀector is just ˙o0
+n. By the chain rule for diﬀeren-
+tiation
+˙o0
+n
+=
+n
+X
+i=1

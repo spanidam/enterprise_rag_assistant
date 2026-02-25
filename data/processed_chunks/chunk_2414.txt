@@ -1,0 +1,16 @@
+assign the same prior probability to every hypothesis h in H. Furthermore, because 
+we assume the target concept is contained in H we should require that these prior 
+probabilities sum to 1. Together these constraints imply that we should choose 
+1 
+P(h) = - for all h in H 
+IHI 
+What choice shall we make for P(Dlh)? P(D1h) is the probability of ob- 
+serving the target values D = (dl . . .dm) for the fixed set of instances ( X I  . . . x,), 
+given a world in which hypothesis h holds (i.e., given a world in which h is the 
+correct description of the target concept c). Since we assume noise-free training 
+data, the probability of observing classification di given h is just 1 if di = h(xi) 
+and 0 if di # h(xi). Therefore, 
+1 if di = h(xi) for all di in D 
+P(D1h) = 
+(6.4) 
+0 otherwise

@@ -1,0 +1,11 @@
+chapter, we will at times consider cases where H is a hypothesis space containing 
+possible target functions and the data D are training examples. At other times we 
+will consider cases where H is some other set of mutually exclusive propositions, 
+and D is some other kind of data. 
+6.2.1 An Example 
+To illustrate Bayes rule, consider a medical diagnosis problem in which there are 
+two alternative hypotheses: (1) that the patien; has a- articular form of cancer. 
+and (2) that the patient does not. The avaiiable data is from a particular laboratory 
+test with two possible outcomes: $ (positive) and 8 (negative). We have prior 
+knowledge that over the entire population of people only .008 have this disease. 
+Furthermore, the lab test is only an imperfect indicator of the disease. The test

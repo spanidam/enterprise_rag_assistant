@@ -1,0 +1,18 @@
+pp. 726–731. Morgan Kaufmann, San Mateo, CA.
+Chow, C.-S., Tsitsiklis, J. N. (1991). An optimal one-way multigrid algorithm
+for discrete-time stochastic control.
+IEEE Transactions on Automatic
+Control, 36:898–914.
+Chrisman, L. (1992).
+Reinforcement learning with perceptual aliasing: The
+perceptual distinctions approach.
+In Proceedings of the Tenth National
+Conference on Artiﬁcial Intelligence, pp. 183–188. AAAI/MIT Press, Menlo
+Park, CA.
+Christensen, J., Korf, R. E. (1986).
+A uniﬁed theory of heuristic evalua-
+tion functions and its application to learning. In Proceedings of the Fifth
+National Conference on Artiﬁcial Intelligence, pp. 148–152. Morgan Kauf-
+mann, San Mateo, CA.
+Cichosz, P. (1995).
+Truncating temporal diﬀerences: On the eﬃcient im-

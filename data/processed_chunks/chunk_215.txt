@@ -1,0 +1,12 @@
+c given by
+(3.40). We restrict our treatment to the geometric approach for two reasons.
+First, as we have said, most present manipulator designs are kinematically
+simple, usually consisting of one of the ﬁve basic conﬁgurations of Chapter 1
+with a spherical wrist.
+Indeed, it is partly due to the diﬃculty of the gen-
+eral inverse kinematics problem that manipulator designs have evolved to their
+present state. Second, there are few techniques that can handle the general in-
+verse kinematics problem for arbitrary conﬁgurations. Since the reader is most
+likely to encounter robot conﬁgurations of the type considered here, the added
+diﬃculty involved in treating the general case seems unjustiﬁed. The interested
+reader can ﬁnd more detailed treatment of the general case in [32] [34] [61] [72].

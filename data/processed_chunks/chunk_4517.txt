@@ -1,0 +1,13 @@
+part of his more general idea of sparse distributed memory. A good re-
+view of this and related memory models is provided by Kanerva (1993).
+This approach has been pursued by Gallant (1993) and by Sutton and
+Whitehead (1993), among others.
+9.4
+Q(λ) with function approximation was ﬁrst explored by Watkins (1989).
+Sarsa(λ) with function approximation was ﬁrst explored by Rummery
+and Niranjan (1994). The mountain–car example is based on a similar
+task studied by Moore (1990). The results on it presented here are from
+Sutton (1996) and Singh and Sutton (1996).
+Convergence of the Sarsa control method presented in this section has
+not been proved. The Q-learning control method is now known not
+to be sound and will diverge for some problems. Convergence results

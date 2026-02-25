@@ -1,0 +1,24 @@
+a.
+True
+b.
+False
+8. list_1 = [1, 2, 3]
+list_2 = [1, 2, 3]
+a.
+True
+b.
+False
+TRY IT
+Remove duplicates
+Write a recursive rem_dup() function that removes duplicates from a list.
+Ex: List [5, 5, 2, 1, 3, 1, 6] should result in an output list [5, 2, 1, 3, 6].
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+12-3-recursion-with-strings-and-lists)
+12.4 More math recursion
+Learning objectives
+By the end of this section you should be able to
+•
+Define a recursive function to generate Fibonacci numbers.
+Fibonacci sequence using recursion
+The Fibonacci sequence is a sequence in which each number in the sequence is the sum of the previous two
+numbers in the sequence. The first two numbers are 0 and 1. Thus, starting from 0 and 1, the third number is

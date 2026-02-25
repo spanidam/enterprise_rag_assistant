@@ -1,0 +1,10 @@
+example, (2) analyzing this explanation to determine an appropriate generaliza- 
+tion, and (3) refining the current hypothesis by adding a new Horn clause rule to 
+cover this positive example, as well as other similar instances. Below we examine 
+each of these three steps in turn. 
+11.2.1.1 EXPLAIN THE TRAINING EXAMPLE 
+The first step in processing each novel training example is to construct an expla- 
+nation in terms of the domain theory, showing how this positive example satisfies 
+the target concept. When the domain theory is correct and complete this expla- 
+nation constitutes a proof that the training example satisfies the target concept. 
+When dealing with imperfect prior knowledge, the notion of explanation must be

@@ -1,0 +1,24 @@
+critique takes the form of a TD error. This scalar signal is the sole output
+of the critic and drives all learning in both actor and critic, as suggested by
+Figure 11.1.
+Actor–critic methods are the natural extension of the idea of gradient-
+bandit methods (Section 2.7) to TD learning and to the full reinforcement
+learning problem. Typically, the critic is a state-value function. After each
+action selection, the critic evaluates the new state to determine whether things
+have gone better or worse than expected. That evaluation is the TD error:
+257
+258
+CHAPTER 11. POLICY APPROXIMATION
+Policy
+TD
+error
+Environment
+Value
+Function
+reward
+state
+action
+Actor
+Critic
+Figure 11.1: The actor–critic architecture.
+δt = Rt+1 + γVt(St+1) −V (St),

@@ -1,0 +1,18 @@
+Control, pp. 261–270. Pergamon, Oxford.
+311
+312
+CHAPTER 15. PROSPECTS
+Andreae, J. H. (1977).
+Thinking with the Teachable Machine.
+Academic
+Press, London.
+Arthur, W. B. (1991). Designing economic agents that act like human agents:
+A behavioral approach to bounded rationality. The American Economic
+Review 81(2):353-359.
+Auer, P., Cesa-Bianchi, N., Fischer, P. (2002).
+Finite-time analysis of the
+multiarmed bandit problem. Machine learning, 47(2-3):235–256.
+Baird, L. C. (1995). Residual algorithms: Reinforcement learning with func-
+tion approximation. In Proceedings of the Twelfth International Conference
+on Machine Learning, pp. 30–37. Morgan Kaufmann, San Francisco.
+Bao, G., Cassandras, C. G., Djaferis, T. E., Gandhi, A. D., Looze, D. P.

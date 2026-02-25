@@ -1,0 +1,10 @@
+Because they rely on different sources of information (statistical regularities over 
+many examples versus analysis of single examples using the domain theory), it 
+may be useful to explore new methods that combine both sources. 
+11.3.2 Deductive Learning 
+In its pure form, PROLOG-EBG is a deductive, rather than inductive, learning pro- 
+cess. That is, by calculating the weakest preimage of the explanation it produces 
+a hypothesis h that follows deductively from the domain theory B, while covering 
+the training data D. To be more precise, PROLOG-EBG outputs a hypothesis h that 
+satisfies the following two constraints: 
+where the training data D consists of a set of training examples in which xi is the

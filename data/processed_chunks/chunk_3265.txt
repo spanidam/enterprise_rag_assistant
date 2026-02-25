@@ -1,0 +1,11 @@
+rewards of zero. 
+13.3 Q LEARNING 
+How can an agent learn an optimal policy n* for an arbitrary environment? It is 
+difficult to learn the function rt* : S + A directly, because the available training 
+data does not provide training examples of the form (s, a). Instead, the only 
+training information available to the learner is the sequence of immediate rewards 
+r(si, ai) for i = 0, 1,2, . . . . As we shall see, given this kind of training information 
+it is easier to learn a numerical evaluation function defined over states and actions, 
+then implement the optimal policy in terms of this evaluation function. 
+What evaluation function should the agent attempt to learn? One obvious 
+choice is V*. The agent should prefer state sl over state s2 whenever V*(sl) >

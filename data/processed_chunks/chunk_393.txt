@@ -1,0 +1,10 @@
+eﬃcient than deploying a path planning system, e.g. in environments such as
+the one shown in Figure 5.9. In this case, there is no need for calculation of
+the inverse kinematics. The desired motion is simply recorded as a set of joint
+angles (actually as a set of encoder values) and the robot can be controlled
+entirely in joint space. Finally, in cases for which no obstacles are present, the
+manipulator is essentially unconstrained. It is often the case that a manipulator
+motion can be decomposed into a segments consisting of free and guarded
+motions, shown in Figure 5.10, During the free motion, the manipulator can
+move very fast, since no obstacles are near by, but at the start and end of the
+motion, care must be taken to avoid obstacles.

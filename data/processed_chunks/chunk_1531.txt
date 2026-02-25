@@ -1,0 +1,38 @@
+12-1-recursion-basics)
+CONCEPTS IN PRACTICE
+Solving Three Towers
+4. How many total steps does it take to solve two rings?
+a.
+1
+b.
+2
+288
+12 • Recursion
+Access for free at openstax.org
+c.
+3
+5. How many total steps does it take to solve three rings?
+a.
+3
+b.
+4
+c.
+7
+6. How many total steps does it take to solve four rings?
+a.
+15
+b.
+7
+c.
+3
+12.2 Simple math recursion
+Learning objectives
+By the end of this section you should be able to
+•
+Identify a recursive case and a base case in a recursive algorithm.
+•
+Demonstrate how to compute a recursive solution for the factorial function.
+Calculating a factorial
+The factorial of a positive integer is defined as the product of the integer and the positive integers less than
+the integer.
+Ex: 5! = 5 * 4 * 3 * 2 * 1

@@ -1,0 +1,9 @@
+One way to see the significance of this difference is to compare the number of 
+distinct choices made by the two algorithms in order to learn the same set of 
+rules. To learn a set of n rules, each containing k attribute-value tests in their 
+preconditions, sequential covering algorithms will perform n . k primitive search 
+steps, making an independent decision to select each precondition of each rule. 
+In contrast, simultaneous covering algorithms will make many fewer independent 
+choices, because each choice of a decision node in the decision tree corresponds 
+to choosing the precondition for the multiple rules associated with that node. In 
+other words, if the decision node tests an attribute that has m possible values, the

@@ -1,0 +1,18 @@
+preprint arXiv:2003.10555, 2020.
+[47]
+G. Lample and A. Conneau, “Cross-lingual language model pretrain-
+ing,” arXiv preprint arXiv:1901.07291, 2019.
+[48]
+Z. Yang, Z. Dai, Y. Yang, J. Carbonell, R. R. Salakhutdinov, and
+Q. V. Le, “Xlnet: Generalized autoregressive pretraining for language
+understanding,” Advances in neural information processing systems,
+vol. 32, 2019.
+[49]
+L. Dong, N. Yang, W. Wang, F. Wei, X. Liu, Y. Wang, J. Gao,
+M. Zhou, and H.-W. Hon, “Unified language model pre-training for
+natural language understanding and generation,” Advances in neural
+information processing systems, vol. 32, 2019.
+[50]
+A. Radford, K. Narasimhan, T. Salimans, I. Sutskever et al., “Improv-
+ing language understanding by generative pre-training,” 2018.
+[51]

@@ -1,0 +1,12 @@
+105-113. 
+Hirsh, H. (1990). Incremental version space merging: A general framework for concept learning. 
+Boston: Kluwer. 
+Hirsh, H. (1991). Theoretical underpinnings of version spaces. Proceedings of the 12th IJCAI 
+(pp. 665-670). Sydney. 
+Hirsh, H. (1994). Generalizing version spaces. Machine Learning, 17(1), 546. 
+Hunt, E. G., & Hovland, D. I. (1963). Programming a model of human concept formation. In 
+E. Feigenbaum & J. Feldman (Eds.), Computers and thought (pp. 310-325). New York: Mc- 
+Graw Hill. 
+Michalski, R. S. (1973). AQVALI1: Computer implementation of a variable valued logic system VL1 
+and examples of its application to pattern recognition. Proceedings of the 1st International Joint 
+Conference on Pattern Recognition (pp. 3-17).

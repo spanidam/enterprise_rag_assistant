@@ -1,0 +1,13 @@
+For each subsequent positive example that is mistakenly classified by the current 
+hypothesis, at least one more of the remaining n terms must be eliminated from 
+the hypothesis. Therefore, the total number of mistakes can be at most n + 1. This 
+number of mistakes will be required in the worst case, corresponding to learning 
+the most general possible target concept (Vx)c(x) = 1 and corresponding to a 
+worst case sequence of instances that removes only one literal per mistake. 
+7.5.2 Mistake Bound for the HALVING 
+Algorithm 
+As a second example, consider an algorithm that learns by maintaining a descrip- 
+tion of the version space, incrementally refining the version space as each new 
+training example is encountered. The CANDIDATE-ELIMINATION 
+algorithm and the 
+LIST-THEN-ELIMINATE

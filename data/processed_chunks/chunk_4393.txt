@@ -1,0 +1,11 @@
+ple qπ backups. The Dyna-AC system uses vπ sample backups together with
+a learning policy structure. For stochastic problems, prioritized sweeping is
+always done using one of the full backups.
+When we introduced one-step sample backups in Chapter 6, we presented
+them as substitutes for full backups. In the absence of a distribution model,
+full backups are not possible, but sample backups can be done using sample
+transitions from the environment or a sample model. Implicit in that point
+of view is that full backups, if possible, are preferable to sample backups.
+But are they? Full backups certainly yield a better estimate because they are
+uncorrupted by sampling error, but they also require more computation, and
+computation is often the limiting resource in planning. To properly assess the

@@ -1,0 +1,64 @@
+149
+5.1
+The Conﬁguration Space
+150
+5.2
+Path Planning Using Conﬁguration Space
+Potential Fields
+154
+5.2.1
+The Attractive Field
+154
+5.2.2
+The Repulsive ﬁeld
+156
+5.2.3
+Gradient Descent Planning
+157
+5.3
+Planning Using Workspace Potential Fields
+158
+5.3.1
+Deﬁning Workspace Potential Fields
+159
+vi
+CONTENTS
+5.3.2
+Mapping workspace forces to joint forces
+and torques
+161
+5.3.3
+Motion Planning Algorithm
+165
+5.4
+Using Random Motions to Escape Local Minima
+166
+5.5
+Probabilistic Roadmap Methods
+167
+5.5.1
+Sampling the conﬁguration space
+169
+5.5.2
+Connecting Pairs of Conﬁgurations
+169
+5.5.3
+Enhancement
+170
+5.5.4
+Path Smoothing
+170
+5.6
+trajectory planning
+171
+5.6.1
+Trajectories for Point to Point Motion
+173
+5.6.2
+Trajectories for Paths Speciﬁed by Via
+Points
+182
+5.7
+Historical Perspective
+184
+Problems

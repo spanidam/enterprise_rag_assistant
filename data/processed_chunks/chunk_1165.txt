@@ -1,0 +1,22 @@
+"America, When in the Course of human events, it becomes " \
+"necessary for one people to dissolve the political bands..."
+•
+Implicit line joining, using parentheses:
+decl = ("The unanimous Declaration of the thirteen united States of "
+"America, When in the Course of human events, it becomes "
+"necessary for one people to dissolve the political bands...")
+Implicit line joining is more common, since many statements and expressions use parentheses anyway. PEP 8
+recommends avoiding the use of explicit line joining whenever possible.
+CONCEPTS IN PRACTICE
+Multi-line statements
+8. Which character is used for explicit line joining?
+a.
+/
+b.
+\
+c.
+|
+9. What is the best way to print a very long string?
+a.
+Break up the string into multiple smaller strings.
+print("..." # first part of string

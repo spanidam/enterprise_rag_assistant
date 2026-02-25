@@ -1,0 +1,17 @@
+non-negated antecedents of the clause. 
+3. Add additional connections among the network units, connecting each network unit at depth 
+i from the input layer to all network units at depth i + 1. Assign random near-zero weights to 
+these additional connections. 
+Inductive step: Refine the initial network. 
+4. Apply the BACKPROPAGATION 
+algorithm to adjust the initial network weights to fit the 
+Training-Examples. 
+TABLE 12.2 
+The KBANN algorithm. The domain theory is translated into an equivalent neural network (steps 
+1-3), which is inductively refined using the BACKPROPAGATION 
+algorithm (step 4). A typical value 
+for the constant W is 4.0. 
+Given: 
+0 A set of training examples 
+0 A domain theory consisting of nonrecursive, propositional Horn clauses 
+Determine:

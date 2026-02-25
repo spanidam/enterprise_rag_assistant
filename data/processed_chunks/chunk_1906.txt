@@ -1,0 +1,13 @@
+values for this training example. 
+h -+ (Sunny, Warm, Normal, Strong, Warm, Same) 
+This h is still very specific; it asserts that all instances are negative except for 
+the single positive training example we have observed. Next, the second training 
+example (also positive in this case) forces the algorithm to further generalize h, 
+this time substituting a "?' in place of any attribute value in h that is not satisfied 
+by the new example. The refined hypothesis in this case is 
+h -+ (Sunny, Warm, ?, Strong, Warm, Same) 
+Upon encountering the third training example-in 
+this case a negative exam- 
+ple-the 
+algorithm makes no change to h. In fact, the FIND-S algorithm simply 
+ignores every negative example! While this may at first seem strange, notice that

@@ -1,0 +1,13 @@
+when the associated posterior probability estimates are incorrect). 
+Cestnik (1990) provides a discussion of using the m-estimate to estimate 
+probabilities. 
+Experimental results comparing various Bayesian approaches to decision tree 
+learning and other algorithms can be found in Michie et al. (1994). Chauvin and 
+Rumelhart (1995) provide a Bayesian analysis of neural network learning based 
+on the BACKPROPAGATION 
+algorithm. 
+A discussion of the Minimum Description Length principle can be found in 
+Rissanen (1983, 1989). Quinlan and Rivest (1989) describe its use in avoiding 
+overfitting in decision trees. 
+EXERCISES 
+6.1. Consider again the example application of Bayes rule in Section 6.2.1. Suppose the

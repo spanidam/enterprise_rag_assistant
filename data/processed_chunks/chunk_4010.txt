@@ -1,0 +1,13 @@
+amount of reward the agent receives. Tesauro’s backgammon player, for exam-
+ple, plays with exceptional skill even though it might make very bad decisions
+on board conﬁgurations that never occur in games against experts. In fact, it
+is possible that TD-Gammon makes bad decisions for a large fraction of the
+game’s state set. The on-line nature of reinforcement learning makes it possi-
+ble to approximate optimal policies in ways that put more eﬀort into learning
+to make good decisions for frequently encountered states, at the expense of
+less eﬀort for infrequently encountered states. This is one key property that
+distinguishes reinforcement learning from other approaches to approximately
+solving MDPs.
+3.10
+Summary
+Let us summarize the elements of the reinforcement learning problem that

@@ -1,0 +1,72 @@
+that RT R = I yields
+dR
+dθ
+=
+SR(θ)
+(4.15)
+Equation (4.15) is very important. It says that computing the derivative
+of the rotation matrix R is equivalent to a matrix multiplication by a skew
+symmetric matrix S. The most commonly encountered situation is the case
+where R is a basic rotation matrix or a product of basic rotation matrices.
+Example 4.2
+If R = Rx,θ, the basic rotation matrix given by Equation (2.6), then direct
+computation shows that
+S = dR
+dθ RT
+=
+
+
+0
+0
+0
+0
+−sin θ
+−cos θ
+0
+cos θ
+−sin θ
+
+
+
+
+1
+0
+0
+0
+cos θ
+sin θ
+0
+−sin θ
+cos θ
+
+
+=
+
+
+0
+0
+0
+0
+0
+−1
+0
+1
+0
+
+= S(i)
+Thus we have shown that
+dRx,θ
+dθ
+=
+S(i)Rx,θ
+Similar computations show that
+dRy,θ
+dθ
+= S(j)Ry,θ
+and
+dRz,θ
+dθ
+= S(k)Rz,θ
+(4.16)
+⋄
+Example 4.3

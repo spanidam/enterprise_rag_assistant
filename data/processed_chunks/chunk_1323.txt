@@ -1,0 +1,33 @@
+a.
+the same object
+b.
+different objects
+9. After unit is assigned with "C", metric and unit refer to ________ in memory.
+a.
+the same object
+b.
+different objects
+10. deg_sign is a string whose value cannot change once created. deg_sign is ________.
+a.
+immutable
+b.
+mutable
+11. On line 16, unit ________.
+a.
+refers to an object with the value "C"
+b.
+does not exist
+TRY IT
+Printing right triangle area
+Write a function, print_area(), that takes in the base and height of a right triangle and prints the
+triangle's area. The area of a right triangle is
+, where b is the base and h is the height.
+Given input:
+3
+4
+The output is:
+Triangle area: 6.0
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-4-parameters)
+TRY IT
+Curving scores

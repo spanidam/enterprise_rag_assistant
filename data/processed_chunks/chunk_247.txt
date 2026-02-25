@@ -1,0 +1,11 @@
+of the linear and angular velocities of the end-eﬀector. This Jacobian is then
+a 6 × n matrix. The same approach is used to determine the transformation
+between the joint velocities and the linear and angular velocity of any point
+on the manipulator. This will be important when we discuss the derivation of
+the dynamic equations of motion in Chapter 6. We then discuss the notion of
+singular conﬁgurations. These are conﬁgurations in which the manipulator
+loses one or more degrees-of-freedom. We show how the singular conﬁgurations
+are determined geometrically and give several examples.
+Following this, we
+brieﬂy discuss the inverse problems of determining joint velocities and accelera-
+tions for speciﬁed end-eﬀector velocities and accelerations. We end the chapter

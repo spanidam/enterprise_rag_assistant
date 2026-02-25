@@ -1,0 +1,10 @@
+specializations correspond to "macro" steps in FOIL'S search, in which several 
+literals are added in a single step. This process can be viewed as promoting a 
+hypothesis that might be considered later in the search to one that will be con- 
+sidered immediately. If the domain theory is correct, the training data will bear 
+out the superiority of this candidate over the others and it will be selected. If the 
+domain theory is incorrect, the empirical evaluation of all the candidates should 
+direct the search down an alternative path. 
+To summarize, FOCL uses both a syntactic generation of candidate special- 
+izations and a domain theory driven generation of candidate specializations at each 
+step in the search. The algorithm chooses among these candidates based solely on

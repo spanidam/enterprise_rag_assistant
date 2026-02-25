@@ -1,0 +1,10 @@
+parameter p in Equation [12.1]). The value of p is chosen independently for each 
+training example, based on a heuristic that considers how accurately the domain 
+theory predicts the training value for this particular example. Thus, the analytical 
+component of learning is emphasized for those training examples that are correctly 
+explained by the domain theory and de-emphasized for training examples that are 
+poorly explained. 
+The inputs to EBNN include (1) a set of training examples of the form 
+(xi, f (xi)) with no training derivatives provided, and (2) a domain theory analo- 
+gous to that used in explanation-based learning (Chapter 11) and in KBANN, but 
+represented by a set of previously trained neural networks rather than a set of

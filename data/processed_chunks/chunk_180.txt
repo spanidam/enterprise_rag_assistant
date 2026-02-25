@@ -1,0 +1,10 @@
+for joint i + 1. Thus, z0 is the axis of actuation for joint 1, z1 is the axis of
+actuation for joint 2, etc. There are two cases to consider: (i) if joint i + 1 is
+revolute, zi is the axis of revolution of joint i + 1; (ii) if joint i + 1 is prismatic,
+zi is the axis of translation of joint i + 1. At ﬁrst it may seem a bit confusing
+to associate zi with joint i + 1, but recall that this satisﬁes the convention that
+we established above, namely that joint i is ﬁxed with respect to frame i, and
+that when joint i is actuated, link i and its attached frame, oixiyizi, experience
+a resulting motion.
+Once we have established the z-axes for the links, we establish the base frame.
+The choice of a base frame is nearly arbitrary. We may choose the origin o0 of

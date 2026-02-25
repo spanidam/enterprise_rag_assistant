@@ -1,0 +1,13 @@
+- ((female brown tall German)( f emale black short Indian)) 
++ 
+((male brown tall Irish) (f emale brown short Irish)) 
+Consider a hypothesis space defined over these instances, in which each hy- 
+pothesis is represented by a pair of Ctuples, and where each attribute constraint may 
+be a specific value, "?," or "0," just as in the EnjoySport hypothesis representation. 
+For example, the hypothesis 
+((male ? tall ?)(female ? ? Japanese)) 
+represents the set of all pairs of people where the first is a tall male (of any nationality 
+and hair color), and the second is a Japanese female (of any hair color and height). 
+(a) Provide a hand trace of the CANDIDATE-ELIMINATION 
+algorithm learning from 
+the above training examples and hypothesis language. In particular, show the

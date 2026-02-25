@@ -1,0 +1,10 @@
+o(2) = sgn($ . 2 ) .  
+Although we have presented the delta rule as a method for learning weights 
+for unthresholded linear units, it can easily be used to train thresholded perceptron 
+units, as well. Suppose that o = i;) . x' is the unthresholded linear unit output as 
+above, and of = sgn(G.2) is the result of thresholding o as in the perceptron. Now 
+if we wish to train a perceptron to fit training examples with target values o f f  1 for 
+o', we can use these same target values and examples to train o instead, using the 
+delta rule. Clearly, if the unthresholded output o can be trained to fit these values 
+perfectly, then the threshold output of will fit them as well (because sgn(1) = 1, 
+and sgn(-1) = -1). Even when the target values cannot be fit perfectly, the

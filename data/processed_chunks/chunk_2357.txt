@@ -1,0 +1,10 @@
+true, rather than in confidence intervals for some parameter. Suppose, for example, 
+that we are interested in the question "what is the probability that errorv(h1) > 
+errorv(h2)?' Following the setting in the previous section, suppose we measure 
+the sample errors for hl and h2 using two independent samples S1 and S2 of size 
+100 and find that errors, (hl) = .30 and errors2(h2) = -20, hence the observed 
+difference is 2 = .lo. Of course, due to random variation in the data sample, 
+we might observe this difference in the sample errors even when errorv(hl) 5 
+errorv(h2). What is the probability that errorv(hl) > errorv(h2), given the 
+observed difference in sample errors 2 = .10 in this case? Equivalently, what is 
+the probability that d > 0, given that we observed 2 = .lo?

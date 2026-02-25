@@ -1,0 +1,12 @@
+For a one link revolute arm, the conﬁguration space is merely the set of
+orientations of the link, and thus Q = S1, where S1 represents the unit circle.
+We could also say Q = SO(2).
+In fact, the choice of S1 or SO(2) is not
+particularly important, since these two are equivalent representations. In either
+case, we can parameterize Q by a single parameter, the joint angle θ1. For the
+two-link planar arm, we have Q = S1 × S1 = T 2, in which T 2 represents the
+torus, and we can represent a conﬁguration by q = (θ1, θ2). For a Cartesian
+arm, we have Q = ℜ3, and we can represent a conﬁguration by q = (d1, d2, d3) =
+(x, y, z).
+Although we have chosen to represent a conﬁguration by a vector of joint
+variables, the notion of a conﬁguration is more general than this. For example,

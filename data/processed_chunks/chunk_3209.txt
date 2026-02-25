@@ -1,0 +1,11 @@
+The detailed procedure for the second operator above is as follows. FOCL 
+first selects one of the domain theory clauses whose head (postcondition) matches 
+the target concept. If there are several such clauses, it selects the clause whose 
+body (preconditions) have the highest information gain relative to the training 
+examples of the target concept. For example, in the domain theory and training 
+data of Figure 12.3, there is only one such clause: 
+Cup t 
+Stable, Lifable, Openvessel 
+The preconditions of the selected clause form a logically sufficient condition for 
+the target concept. Each nonoperational literal in these sufficient conditions is 
+now replaced, again using the domain theory and substituting clause precondi-

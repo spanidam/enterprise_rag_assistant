@@ -1,0 +1,10 @@
+and bank balance. Although the training examples exhibit only boolean target 
+values (either a 1 or 0, depending on whether this applicant paid back the 
+loan), the underlying target function might be best modeled by outputting the 
+probability that the given applicant will repay the loan, rather than attempting 
+to output the actual 1 and 0 value for each input instance. Given such 
+situations in which we wish for the network to output probability estimates, 
+it can be shown that the best (i.e., maximum likelihood) probability estimates 
+are given by the network that minimizes the cross entropy, defined as 
+Here od is the probability estimate output by the network for training ex- 
+ample d, and td is the 1 or 0 target value for training example d. Chapter 6

@@ -1,0 +1,11 @@
+pects of robotic manipulation, dynamic aspects of manipulation, and the various
+sensors available in modern robotic systems. Equipped with these mathematical
+models, we will be able to develop methods for planning and controlling robot
+motions to perform speciﬁed tasks. Here we describe some of the basic ideas
+that are common in developing mathematical models for robot manipulators.
+1.1.1
+Symbolic Representation of Robots
+Robot Manipulators are composed of links connected by joints to form a kine-
+matic chain. Joints are typically rotary (revolute) or linear (prismatic). A
+revolute joint is like a hinge and allows relative rotation between two links. A
+prismatic joint allows a linear relative motion between two links. We denote

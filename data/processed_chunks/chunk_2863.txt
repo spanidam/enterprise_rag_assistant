@@ -1,0 +1,10 @@
+learns, then invoke it again to learn a second rule based on the remaining train- 
+ing examples. This procedure can be iterated as many times as desired to learn 
+a disjunctive set of rules that together cover any desired fraction of the positive 
+examples. This is called a sequential covering algorithm because it sequentially 
+learns a set of rules that together cover the full set of positive examples. The 
+final set of rules can then be sorted so that more accurate rules will be considered 
+first when a new instance must be classified. A prototypical sequential covering 
+algorithm is described in Table 10.1. 
+This sequential covering algorithm is one of the most widespread approaches 
+to learning disjunctive sets of rules. It reduces the problem of learning a disjunc-

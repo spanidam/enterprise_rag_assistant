@@ -1,0 +1,11 @@
+4. b. df.loc[0:2, "A"] returns rows 0 to 2 (inclusive) of column A.
+401
+5. c. loc[1] returns the row with label 1 , which corresponds to the second row of the DataFrame.
+6. b. iloc[:, 0] selects all rows corresponding to the column index 0, which equals returning the first
+column.
+7. a. The condition returns all rows where the value in the column with label A is divisible by 2.
+8. b. isnull() returns a Boolean DataFrame representing whether data entries are Null or not.
+9. a. fillna() replaces all Null values with the provided value passed as an argument.
+10. c. The function sum() is applied to each column separately and sums up values in columns. The result is
+the number of Null values in each column.
+15.5 Data visualization

@@ -1,0 +1,10 @@
+edge by inductive logic programming systems (PRG Technical report PRG-TR-9-95). Oxford 
+University Computing Laboratory. 
+Srinivasan, A,, Muggleton, S., King, R. D., & Stemberg, M. J. E. (1994). Mutagenesis: ILP ex- 
+periments in a non-determinate biological domain. Proceedings of the Fourth Inductive Logic 
+Programming Workshop. 
+Vere, S. (1975). Induction of concepts in the predicate calculus. Proceedings of the Fourth Intem- 
+tional Joint Conference on Artijicial Intelligence (pp. 351-356). 
+Winston, P. (1970). Learning structural descriptions from examples (Ph.D. dissertation) (MIT Tech- 
+nical Report AI-TR-231). 
+Wrobel, S. (1994). Concept formation and knowledge revision. Boston: Kluwer Academic Publishers.

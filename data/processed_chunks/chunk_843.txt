@@ -1,0 +1,50 @@
+0 = L(s, q)ξ
+has soltion vectors ξ that lie in a four-dimensional subspace of R6. For the case
+of a single point, it can be shown that the null space of the interaction matrix
+given in (12.15) is spanned by the four vectors
+
+
+u
+v
+λ
+0
+0
+0
+
+
+
+
+0
+0
+0
+u
+v
+λ
+
+
+
+
+uvz
+−(u2 + λ2)z
+λvz
+−λ2
+0
+uλ
+
+
+
+
+λ(u2 + v2 + λ2)z
+0
+−u(u2 + v2 + λ2)z
+uvλ
+−(u2 + λ2)z
+uλ2
+
+
+The ﬁrst two of these vectors have particularly intuitive interpretations. The
+ﬁrst corresponds to motion of the camera frame along the projection ray that
+contains the point p, and the second corresponds to rotation of the camera
+frame about a projection ray that contains p.
+12.3.4
+The Interaction Matrix for Multiple Points

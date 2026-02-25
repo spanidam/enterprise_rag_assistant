@@ -1,0 +1,13 @@
+be part of the environment; if the goal concerns the positions of the robot’s
+limbs, then these too are considered to be part of the environment—that is,
+the agent’s boundary is drawn at the interface between the limbs and their
+control systems. These things are considered internal to the robot but external
+to the learning agent. For our purposes, it is convenient to place the boundary
+of the learning agent not at the limit of its physical body, but at the limit of
+4Better places for imparting this kind of prior knowledge are the initial policy or value
+function, or in inﬂuences on these. See Lin (1992), Maclin and Shavlik (1994), and Clouse
+(1996).
+3.3. RETURNS
+59
+its control.
+The reason we do this is that the agent’s ultimate goal should be something

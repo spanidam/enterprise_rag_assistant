@@ -1,0 +1,11 @@
+set of points but there is no control on the path of the end-eﬀector in between
+taught points. Such robots are usually taught a series of points with a teach
+pendant. The points are then stored and played back. Point-to-point robots
+are severely limited in their range of applications. In continuous path robots,
+on the other hand, the entire path of the end-eﬀector can be controlled. For
+example, the robot end-eﬀector can be taught to follow a straight line between
+two points or even to follow a contour such as a welding seam. In addition, the
+velocity and/or acceleration of the end-eﬀector can often be controlled. These
+are the most advanced robots and require the most sophisticated computer
+controllers and software development.
+Geometry.

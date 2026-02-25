@@ -1,0 +1,15 @@
+influencing the model.
+Addressing Imbalances: Balancing the distribution of
+classes or categories in the dataset to avoid biases and ensure
+fair representation. This is specially useful for responsible
+model training and evaluation.
+Text Preprocessing: Cleaning and standardizing text data
+by removing stop words, punctuation, or other elements that
+may not contribute significantly to the model’s learning.
+Dealing with Ambiguities: Resolving or excluding am-
+biguous or contradictory data that might confuse the model
+during training. This can help the model to provide more
+definite and reliable answers.
+2) Deduplication: De-duplication refers to the process of
+removing duplicate instances or repeated occurrences of the
+same data in a dataset. Duplicate data points can introduce

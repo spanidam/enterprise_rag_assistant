@@ -1,0 +1,11 @@
+The target function output may be discrete-valued, real-valued, or a vector 
+of several real- or discrete-valued attributes. For example, in the ALVINN 
+system the output is a vector of 30 attributes, each corresponding to a rec- 
+ommendation regarding the steering direction. The value of each output is 
+some real number between 0 and 1, which in this case corresponds to the 
+confidence in predicting the corresponding steering direction. We can also 
+train a single network to output both the steering command and suggested 
+acceleration, simply by concatenating the vectors that encode these two out- 
+put predictions. 
+The training examples may contain errors. ANN learning methods are quite 
+robust to noise in the training data.

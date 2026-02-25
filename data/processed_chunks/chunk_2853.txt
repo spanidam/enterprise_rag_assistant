@@ -1,0 +1,10 @@
+Schwefel, H. P. (1995). Evolution and optimum seeking. New York: John Wiley & Sons. 
+Spiessens, P., & Manderick, B. (1991). A massively parallel genetic algorithm: Implementation and 
+first analysis. Proceedings of the 4th International Conference on Genetic Algorithms (pp. 
+279-286). 
+Smith, S. (1980). A learning system based on genetic adaptive algorithms (Ph.D. dissertation). Com- 
+puter Science, University of Pittsburgh. 
+Stender, J. (Ed.) (1993). Parallel genetic algorithms. Amsterdam: IOS Publishing. 
+Tanese, R. (1989). Distributed genetic algorithms. Proceedings of the 3rd International Conference 
+on Genetic Algorithms (pp. 434-439). 
+Teller, A., & Veloso, M. (1994). PADO: A new learning architecture for object recognition. In K.

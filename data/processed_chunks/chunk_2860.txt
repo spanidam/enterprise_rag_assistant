@@ -1,0 +1,9 @@
+in a mass spectrometer (Buchanan 1976; Lindsay 1980), learning which chemical 
+substructures produce mutagenic activity (a property related to carcinogenicity) 
+(Srinivasan et al. 1994), and learning to design finite element meshes to analyze 
+stresses in physical structures (Dolsak and Muggleton 1992). In each of these 
+applications, the hypotheses that must be represented involve relational assertions 
+that can be conveniently expressed using first-order representations, while they 
+are very difficult to describe using propositional representations. 
+In this chapter we begin by considering algorithms that learn sets of propo- 
+sitional rules; that is, rules without variables. Algorithms for searching the hy-

@@ -1,0 +1,15 @@
+The expected value of Y ,  E[Y], is 
+For example, if Y takes on the value 1 with probability .7 and the value 2 with 
+probability .3, then its expected value is (1 .0.7 + 2.0.3 = 1.3). In case the random 
+variable Y is governed by a Binomial distribution, then it can be shown that 
+E [Y] = np 
+(5.4) 
+where n and p are the parameters of the Binomial distribution defined in Equa- 
+tion (5.2). 
+A second property, the variance, captures the "width or "spread" of the 
+probability distribution; that is, it captures how far the random variable is expected 
+to vary from its mean value. 
+Definition: The variance of a random variable Y ,  Var[Y], is 
+Var[Y] = E[(Y - E [ Y ] ) ~ ]  
+(5.5) 
+The variance describes the expected squared error in using a single obser-

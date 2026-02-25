@@ -1,0 +1,13 @@
+something and then forgotten it!
+What we would like, ideally, is a state signal that summarizes past sensa-
+tions compactly, yet in such a way that all relevant information is retained.
+This normally requires more than the immediate sensations, but never more
+than the complete history of all past sensations.
+A state signal that suc-
+ceeds in retaining all relevant information is said to be Markov, or to have
+the Markov property (we deﬁne this formally below). For example, a check-
+ers position—the current conﬁguration of all the pieces on the board—would
+serve as a Markov state because it summarizes everything important about the
+64
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+complete sequence of positions that led to it. Much of the information about

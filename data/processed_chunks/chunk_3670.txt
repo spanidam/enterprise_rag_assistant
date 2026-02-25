@@ -1,0 +1,15 @@
+[148]
+K. Papineni, S. Roukos, T. Ward, and W.-J. Zhu, “Bleu: a method for
+automatic evaluation of machine translation,” in Proceedings of the
+40th Annual Meeting of the Association for Computational Linguistics,
+P. Isabelle, E. Charniak, and D. Lin, Eds. Philadelphia, Pennsylvania,
+USA: Association for Computational Linguistics, Jul. 2002, pp. 311–
+318. [Online]. Available: https://aclanthology.org/P02-1040
+[149]
+B. Dhingra, M. Faruqui, A. Parikh, M.-W. Chang, D. Das, and
+W. Cohen, “Handling divergent reference texts when evaluating
+table-to-text generation,” in Proceedings of the 57th Annual Meeting
+of the Association for Computational Linguistics, A. Korhonen,
+D. Traum, and L. M`arquez, Eds.
+Florence, Italy: Association
+for Computational Linguistics, Jul. 2019, pp. 4884–4895. [Online].

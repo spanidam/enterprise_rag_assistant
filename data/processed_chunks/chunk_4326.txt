@@ -1,0 +1,13 @@
+policy may take diﬀerent actions with diﬀerent positive probabilities, as may
+the behavior policy, in which case following and deviating will be a matter of
+7.8. IMPLEMENTATION ISSUES
+189
+degree. In Chapter 5 we saw how to use the ratio of the two probabilities of
+taking the action to more precisely assign credit to a single action, and the
+product of ratios to assign credit to a sequence.
+Second, Watkins’s Q(λ) confounds bootstrapping and oﬀ-policy deviation.
+Bootstrapping refers to the degree to which an algorithm builds its estimates
+from other estimates, like TD and DP, or does not, like MC methods.
+In
+TD(λ) and Sarsa(λ), the λ parameter controls the degree of bootstrapping,
+with the value λ = 1 denoting no bootstrapping, turning these TD methods

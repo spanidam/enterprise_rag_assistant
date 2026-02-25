@@ -1,0 +1,15 @@
+layers, and have a certain number of “experts” (e.g. 8), in
+which each expert is a neural network. In practice, the experts
+are FFNs, but they can also be more complex networks. A gate
+network or router, that determines which tokens are sent to
+which expert. It is worth noting that, one can send a token
+to more than one expert. How to route a token to an expert
+is one of the big decisions when working with MoEs - the
+router is composed of learned parameters and is pretrained at
+the same time as the rest of the network. Fig 29 provides an
+illustration of a Switch Transformer encoder block, which are
+used in MoE.
+(a) Absolute Positional Embeddings [129]
+(b) Relative Positional Embeddings
+(c) Rotary Positional Embedding [127]
+(d) Relative Positional Bias [128]

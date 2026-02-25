@@ -1,0 +1,10 @@
+action aﬀects only the ﬁnite number of rewards subsequently received during
+the episode. In this book we consider sometimes one kind of problem and
+sometimes the other, but often both. It is therefore useful to establish one
+notation that enables us to talk precisely about both cases simultaneously.
+To be precise about episodic tasks requires some additional notation. Rather
+than one long sequence of time steps, we need to consider a series of episodes,
+each of which consists of a ﬁnite sequence of time steps. We number the time
+steps of each episode starting anew from zero. Therefore, we have to refer not
+just to St, the state representation at time t, but to St,i, the state representa-
+tion at time t of episode i (and similarly for At,i, Rt,i, πt,i, Ti, etc.). However,

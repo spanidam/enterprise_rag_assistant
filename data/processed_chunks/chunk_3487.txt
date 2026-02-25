@@ -1,0 +1,14 @@
+extractive question answering. One prominent encoder only
+model is BERT (Bidirectional Encoder Representations from
+Transformers), proposed in [24].
+3) Decoder-Only: For these models, at each stage, for any
+word, the attention layers can only access the words positioned
+before that in the sentence. These models are also sometimes
+called auto-regressive models. The pretraining of these models
+is usually formulated as predicting the next word (or token)
+in the sequence. The decoder-only models are best suited for
+tasks involving text generation. GPT models are prominent
+example of this model category.
+4) Encoder-Decoder: These models use both encoder and
+decoder, and are sometimes called sequence-to-sequence mod-
+els. At each stage, the attention layers of the encoder can access

@@ -1,0 +1,43 @@
+operators.
+Strings
+8
+Operator
+Description
+Example
+Output
+Explanation
+> or >=
+Checks whether the
+first string value is
+greater than (or greater
+than or equal to) the
+second string value.
+"c" >
+"d"
+False
+When comparing "c" operand to "d"
+operand, the ASCII value for "c" is smaller
+than the ASCII value for "d". Therefore, "c"
+< "d". The expression "c" > "d"
+evaluates to False.
+< or <=
+Checks whether the
+first string value is less
+than (or less than or
+equal to) the second
+string value.
+"ab" <
+"ac"
+True
+When comparing "ab" operand to "ac"
+operand, the first characters are the same,
+but the second character of "ab" is less
+than the second character in "ac" and as
+such "ab" < "ac".
+==
+Checks whether two
+string values are equal.
+"aa" ==
+"aa"
+True
+Since all characters in the first operand and

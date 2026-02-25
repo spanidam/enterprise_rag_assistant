@@ -1,0 +1,13 @@
+really high level and say that your actions are your choices of where to drive.
+What is the right level, the right place to draw the line between agent and
+environment? On what basis is one location of the line to be preferred over
+another?
+Is there any fundamental reason for preferring one location over
+another, or is it a free choice?
+Exercise 3.4
+Suppose you treated pole-balancing as an episodic task but
+also used discounting, with all rewards zero except for −1 upon failure. What
+then would the return be at each time? How does this return diﬀer from that
+in the discounted, continuing formulation of this task?
+Exercise 3.5 Imagine that you are designing a robot to run a maze. You de-
+cide to give it a reward of +1 for escaping from the maze and a reward of zero

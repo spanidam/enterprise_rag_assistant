@@ -1,0 +1,23 @@
+=
+s2 + k2s + k1
+(10.33)
+and hence the closed loop poles of the system with respect to the coordi-
+nates (y1, y2) are completely speciﬁed by the choice of k1 and k2. Figure 10.3
+illustrates the inner loop/outer loop implementation of the above control strat-
+Fig. 10.3
+Feedback linearization control architecture
+egy. The response in the y variables is easy to determine. The corresponding
+response of the system in the original coordinates (x1, x2) can be found by
+inverting the transformation (10.26)-(10.27), in this case
+x1
+=
+y1
+x2
+=
+sin−1(y2/a)
+−a < y2 < +a
+(10.34)
+This example illustrates several important features of feedback linearization.
+The ﬁrst thing to note is the local nature of the result. We see from (10.26)
+308
+GEOMETRIC NONLINEAR CONTROL

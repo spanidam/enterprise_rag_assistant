@@ -1,0 +1,10 @@
+For on-line methods (and λ > 0) the ﬁrst edition of this book established
+only approximate episode-by-episode equivalences between the λ-return algo-
+rithm and TD(λ). In the random-walk problem, at the end of episodes, TD(λ)
+with accumulating traces is almost the same as the λ-return algorithm, but
+only for small α and λ. With dutch traces the approximation is closer, but it
+is still not exact even on an episode-by-episode basis (compare the upper-left
+and middle left panels of Figure 7.6). Only recently has an interesting exact
+equivalence been established between a λ-based forward view and an eﬃcient
+backward-view implementation, in particular, between a “real-time” λ-return
+algorithm and the “true online TD(λ)” algorithm (van Seijen and Sutton,

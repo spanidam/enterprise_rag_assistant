@@ -1,0 +1,20 @@
+!= 0
+!=.3
+!=.6
+" × 5
+Steps per episode
+averaged over
+first 20 trials
+and 30 runs
+ﬁrst 20 episodes
+Figure 9.11: The eﬀect of α, λ, and the kind of traces on early performance
+on the mountain–car task. This study used ﬁve 9 × 9 tilings.
+eﬀect of the parameters α and λ, and of the kind of traces, on the rate of
+learning on this task.
+9.5
+Should We Bootstrap?
+At this point you may be wondering why we bother with bootstrapping meth-
+ods at all. Nonbootstrapping methods can be used with function approxima-
+tion more reliably and over a broader range of conditions than bootstrapping
+methods. Nonbootstrapping methods achieve a lower asymptotic error than
+bootstrapping methods, even when backups are done according to the on-

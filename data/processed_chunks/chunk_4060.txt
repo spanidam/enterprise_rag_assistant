@@ -1,0 +1,32 @@
+Each policy is guaranteed to be a strict improvement over the previous one
+4.3. POLICY ITERATION
+97
+1. Initialization
+V (s) ∈R and π(s) ∈A(s) arbitrarily for all s ∈S
+2. Policy Evaluation
+Repeat
+∆←0
+For each s ∈S:
+v ←V (s)
+V (s) ←P
+s′,r p(s′, r|s, π(s))
+
+r + γV (s′)
+
+∆←max(∆, |v −V (s)|)
+until ∆< θ (a small positive number)
+3. Policy Improvement
+policy-stable ←true
+For each s ∈S:
+a ←π(s)
+π(s) ←argmaxa
+P
+s′,r p(s′, r|s, a)
+
+r + γV (s′)
+
+If a ̸= π(s), then policy-stable ←false
+If policy-stable, then stop and return V and π; else go to 2
+Figure 4.3: Policy iteration (using iterative policy evaluation) for v∗. This
+algorithm has a subtle bug, in that it may never terminate if the policy con-
+tinually switches between two or more policies that are equally good. The bug

@@ -1,0 +1,22 @@
+194
+DYNAMICS
+position coordinates of the two particles. In particular, when the constraints
+are of the form (6.12), the principle applies. To see this, consider once again
+a single constraint of the form (6.12). In this case the constraint force, if any,
+must be exerted by the rigid massless wire, and therefore must be directed along
+the radial vector connecting the two particles. In other words, the force exerted
+on particle 1 by the wire must be of the form
+f (a)
+1
+=
+c(r1 −r2)
+(6.22)
+for some constant c (which could change as the particles move about). By the
+law of action and reaction, the force exerted on particle 2 by the wire must be
+just the negative of the above, that is,
+f (a)
+2
+=
+−c(r1 −r2)
+(6.23)
+Now the work done by the constraint forces corresponding to a set of virtual

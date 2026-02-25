@@ -1,0 +1,9 @@
+and first-order logics, there exist well-understood algorithms for automated deduc- 
+tion. Interestingly, it is possible to develop inverses of these procedures in order 
+to automate the process of inductive generalization. The insight that induction 
+might be performed by inverting deduction appears to have been first observed 
+by the nineteenth century economist W. S. Jevons, who wrote: 
+Induction is, in fact, the inverse operation of deduction, and cannot be con- 
+ceived to exist without the corresponding operation, so that the question of relative 
+importance cannot arise. Who thinks of asking whether addition or subtraction is 
+the more important process in arithmetic? But at the same time much difference in

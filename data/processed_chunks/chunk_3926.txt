@@ -1,0 +1,12 @@
+have been selected.
+Example 3.1: Bioreactor
+Suppose reinforcement learning is being applied
+to determine moment-by-moment temperatures and stirring rates for a biore-
+actor (a large vat of nutrients and bacteria used to produce useful chemicals).
+The actions in such an application might be target temperatures and target
+stirring rates that are passed to lower-level control systems that, in turn, di-
+rectly activate heating elements and motors to attain the targets. The states
+are likely to be thermocouple and other sensory readings, perhaps ﬁltered and
+delayed, plus symbolic inputs representing the ingredients in the vat and the
+target chemical. The rewards might be moment-by-moment measures of the
+rate at which the useful chemical is produced by the bioreactor. Notice that

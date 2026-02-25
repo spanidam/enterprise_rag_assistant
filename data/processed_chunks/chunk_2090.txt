@@ -1,0 +1,10 @@
+amples that are completely separated by attribute A (e.g., Date). In this case, the 
+Splitlnfomzation value will be log, n. In contrast, a boolean attribute B that splits 
+the same n examples exactly in half will have Splitlnfomzation of 1. If attributes 
+A and B produce the same information gain, then clearly B will score higher 
+according to the Gain Ratio measure. 
+One practical issue that arises in using GainRatio in place of Gain to 
+select attributes is that the denominator can be zero or very small when ISi 1 x IS1 
+for one of the Si. This either makes the GainRatio undefined or very large for 
+attributes that happen to have the same value for nearly all members of S. To 
+avoid selecting attributes purely on this basis, we can adopt some heuristic such

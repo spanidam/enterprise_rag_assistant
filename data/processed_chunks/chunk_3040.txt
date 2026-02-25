@@ -1,0 +1,11 @@
+0 The explanation of how the example satisfies the target concept determines 
+which example attributes are relevant: those mentioned by the explanation. 
+0 The further analysis of the explanation, regressing the target concept to de- 
+termine its weakest preimage with respect to the explanation, allows deriving 
+more general constraints on the values of the relevant features. 
+0 Each learned Horn clause corresponds to a sufficient condition for satisfy- 
+ing the target concept. The set of learned Horn clauses covers the positive 
+training examples encountered by the learner, as well as other instances that 
+share the same explanations. 
+0 The generality of the learned Horn clauses will depend on the formulation 
+of the domain theory and on the sequence in which training examples are

@@ -1,0 +1,9 @@
+by adding a single new literal to the clause preconditions. FOCL uses this same 
+method for producing candidate specializations, but also generates additional spe- 
+cializations based on the domain theory. The solid edges in the search tree of Fig- 
+ure 12.8 show the general-to-specific search steps considered in a typical search by 
+FOIL. The dashed edge in the search tree of Figure 12.8 denotes an additional can- 
+didate specialization that is considered by FOCL and based on the domain theory. 
+Although FOCL and FOIL both learn first-order Horn clauses, we illustrate 
+their operation here using the simpler domain of propositional (variable-free) Horn 
+clauses. In particular, consider again the Cup target concept, training examples,

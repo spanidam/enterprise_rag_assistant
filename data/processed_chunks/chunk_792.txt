@@ -1,0 +1,44 @@
+Therefore, we can simplify (11.41) to obtain
+σ2
+=
+zt
+X
+z=0
+[(z −µ0)2 + (µ0 −µ)2]P(z) +
+N−1
+X
+z=zt+1
+[(z −µ1)2 + (µ1 −µ)2]P(z)
+=
+q0σ2
+0 + q0(µ0 −µ)2 + q1σ2
+1 + q1(µ1 −µ)2
+=
+{q0σ2
+0 + q1σ2
+1} + {q0(µ0 −µ)2 + q1(µ1 −µ)2}
+=
+σ2
+w + σ2
+b
+(11.42)
+in which
+σ2
+b = q0(µ0 −µ)2 + q1(µ1 −µ)2.
+(11.43)
+Since σ2 does not depend on the threshold value (i.e., it is constant for a spe-
+ciﬁc image), minimizing σ2
+w is equivalent to maximizing σ2
+b. This is preferable
+because σ2
+b is a function only of the qi and µi, and is thus simpler to compute
+344
+COMPUTER VISION
+than σ2
+w, which depends also on the σ2
+i . In fact, by expanding the squares in
+(11.43), using the facts that q1 = 1 −q0 and µ = q1µ0 + q1µ1, we obtain
+σ2
+b = q0(1 −q0)(µ0 −µ1)2.
+(11.44)
+The simplest algorithm to maximize σ2

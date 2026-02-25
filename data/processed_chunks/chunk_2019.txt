@@ -1,0 +1,11 @@
+an attribute? We will define a statistical property, called informution gain, that 
+measures how well a given attribute separates the training examples according to 
+their target classification. ID3 uses this information gain measure to select among 
+the candidate attributes at each step while growing the tree. 
+3.4.1.1 ENTROPY MEASURES HOMOGENEITY OF EXAMPLES 
+In order to define information gain precisely, we begin by defining a measure com- 
+monly used in information theory, called entropy, that characterizes the (im)purity 
+of an arbitrary collection of examples. Given a collection S, containing positive 
+and negative examples of some target concept, the entropy of S relative to this 
+boolean classification is 
+ID3(Examples, Targetattribute, Attributes)

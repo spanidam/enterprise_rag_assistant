@@ -1,0 +1,14 @@
+tial design of experiments,” introduced by Thompson (1933, 1934) and
+50
+CHAPTER 2. MULTI-ARM BANDITS
+Robbins (1952), and studied by Bellman (1956). Berry and Fristedt
+(1985) provide an extensive treatment of bandit problems from the
+perspective of statistics. Narendra and Thathachar (1989) treat bandit
+problems from the engineering perspective, providing a good discussion
+of the various theoretical traditions that have focused on them. In psy-
+chology, bandit problems have played roles in statistical learning theory
+(e.g., Bush and Mosteller, 1955; Estes, 1950).
+The term greedy is often used in the heuristic search literature (e.g.,
+Pearl, 1984).
+The conﬂict between exploration and exploitation is
+known in control engineering as the conﬂict between identiﬁcation (or

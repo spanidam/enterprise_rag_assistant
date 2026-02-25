@@ -1,0 +1,25 @@
+Removing Noise
+Handling Outliers
+Addressing Imbalances
+Text Preprocessing
+Deduplication
+LLM Architectures
+Encoder-Only
+Decoder-Only
+Encoder-Decoder
+...
+Supervised Fine-tuning
+General Fine-tuning
+Multi-turn Instructions
+Instruction Following
+Fig. 25: This figure shows different components of LLMs.
+Fig. 26: High-level overview of transformer work. Courtesy of
+[44].
+CommonCrawl. They also released an extract of 600 billion
+tokens from our REFINEDWEB dataset, and 1.3/7.5B param-
+eters language models trained on it. 27 shows the Refinement
+process of CommonCrawl data by this work.
+Fig. 27: Subsequent stages of Macrodata Refinement remove
+nearly 90% of the documents originally in CommonCrawl.
+Courtesy of [124].
+1) Data Filtering: Data filtering aims to enhance the qual-

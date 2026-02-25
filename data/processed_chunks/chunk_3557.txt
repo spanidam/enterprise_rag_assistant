@@ -1,0 +1,17 @@
+responses adhere to certain standards or criteria, enhancing the
+relevance, safety, and accuracy of the output. The concept of
+Rails involves setting up a framework or a set of guidelines
+that the LLM must follow while generating responses. These
+guidelines are typically defined using a modeling language or
+templates known as Canonical Forms, which standardize the
+way natural language sentences are structured and delivered.
+Rails can be designed for various purposes, depending on
+the specific needs of the application:
+•
+Topical Rails: Ensure that the LLM sticks to a
+particular topic or domain.
+•
+Fact-Checking Rails: Aimed at minimizing the gen-
+eration of false or misleading information.
+•
+Jailbreaking Rails: Prevent the LLM from generating

@@ -1,0 +1,11 @@
+what resources it will use that satisﬁes all the constraints while taking as
+little overall time as possible. This is the job-shop scheduling problem. In its
+general form, it is NP-complete, meaning that there is probably no eﬃcient
+procedure for exactly ﬁnding shortest schedules for arbitrary instances of the
+problem. Job-shop scheduling is usually done using heuristic algorithms that
+take advantage of special properties of each speciﬁc instance.
+Zhang and Dietterich (1995, 1996; Zhang, 1996) were motivated to apply
+reinforcement learning to job-shop scheduling because the design of domain-
+speciﬁc, heuristic algorithms can be expensive and time-consuming.
+Their
+goal was to show how reinforcement learning can be used to learn how to

@@ -1,0 +1,11 @@
+12.8. Consider again the question from Section 12.2.1, regarding what criterion to use 
+for choosing among hypotheses when both data and prior knowledge are available. 
+Give your own viewpoint on this issue. 
+REFERENCES 
+Abu-Mostafa, Y. S. (1989). Learning from hints in neural networks. Journal of Complexity, 6(2), 
+192-198. 
+Bergadano, F., & Giordana, A. (1990). Guiding induction with domain theories. In R. Michalski et 
+al. (Eds.), Machine learning: An art$cial intelligence approach 3 (pp. 474-492). San Mateo, 
+CA: Morgan Kaufmann. 
+Bradshaw, G., Fozzard, R., & Cice, L. (1989). A connectionist expert system that really works. In 
+Advances in neural information processing. San Mateo, CA: Morgan Kaufmam.

@@ -1,0 +1,36 @@
+Here, we deﬁne O = ∪Oi. The set of collision-free conﬁgurations, referred to
+as the free conﬁguration space, is then simply
+Qfree = Q \ QO
+Example 5.1 A Rigid Body that Translates in the Plane.
+b2
+b3
+V O
+4
+V O
+3
+a3
+V A
+2
+a2
+a1
+V A
+1
+V A
+3
+b1
+b4
+V O
+1
+V O
+2
+(a)
+(b)
+Fig. 5.1
+(a) a rigid body, A, in a workspace containing a single rectangular obstacle,
+O, (b) illustration of the algorithm to construct QO, with the boundary of QO shown
+as the dashed line
+152
+PATH AND TRAJECTORY PLANNING
+Consider a simple gantry robot with two prismatic joints and forward kine-
+matics given by x = d1, y = d2. For this case, the robot’s conﬁguration space
+is Q = ℜ2, so it is particularly easy to visualize both the conﬁguration space

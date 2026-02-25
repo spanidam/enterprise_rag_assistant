@@ -1,0 +1,19 @@
+that jointly describe the target concept Ancestor. Here we use the predicate 
+Parent(x, y) to indicate that y is the mother or father of x, and the predicate 
+Ancestor(x, y) to indicate that y is an ancestor of x related by an arbitrary num- 
+ber of family generations. 
+IF 
+Parent (x, y) 
+THEN 
+Ancestor(x,y) 
+IF 
+Parent(x, z) A Ancestor(z, y) 
+THEN 
+Ancestor(x, y) 
+Note these two rules compactly describe a recursive function that would be very 
+difficult to represent using a decision tree or other propositional representation. 
+One way to see the representational power of first-order rules is to consider the 
+general purpose programming language PROLOG. 
+In PROLOG, 
+programs are sets of 
+first-order rules such as the two shown above (rules of this form are also called

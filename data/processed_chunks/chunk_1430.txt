@@ -1,0 +1,36 @@
+a.
+5
+b.
+4
+5. What is the final value of i for the following counting for loop?
+for i in range(0, len(my_list)):
+a.
+9
+b.
+4
+c.
+5
+6. What is the output of the code below?
+for i in range(0, len(my_list), 2):
+print(my_list[i], end=' ')
+a.
+2 5 9
+b.
+2 3 5 7 9
+9.1 • Modifying and iterating lists
+225
+c.
+2
+5
+9
+TRY IT
+Sports list
+Create a list of sports played on a college campus. The sports to be included are baseball, football, tennis,
+and table tennis.
+Next, add volleyball to the list.
+Next, remove "football" from the list and add "soccer" to the list.
+Show the list contents after each modification.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+9-1-modifying-and-iterating-lists)
+TRY IT
+Simple Searching

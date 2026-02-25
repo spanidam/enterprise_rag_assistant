@@ -1,0 +1,18 @@
+"approach," and so on. Notice that long text documents will require a larger 
+number of attributes than short documents. As we shall see, this will not cause 
+us any trouble. 
+CHAPTER 6 BAYESIAN LEARNING 181 
+Given this representation for text documents, we can now apply the naive 
+Bayes classifier. For the sake of concreteness, let us assume we are given a set of 
+700 training documents that a friend has classified as dislike and another 300 she 
+has classified as like. We are now given a new document and asked to classify 
+it. Again, for concreteness let us assume the new text document is the preceding 
+paragraph. In this case, we instantiate Equation (6.20) to calculate the naive Bayes 
+classification as 
+- a -  
+Vns = argmax 
+P(Vj) n ~ ( a i  
+lvj) 
+vj~{like,dislike} 
+i=l 
+-

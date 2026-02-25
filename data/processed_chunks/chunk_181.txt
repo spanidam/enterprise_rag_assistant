@@ -1,0 +1,13 @@
+The choice of a base frame is nearly arbitrary. We may choose the origin o0 of
+FORWARD KINEMATICS: THE DENAVIT-HARTENBERG CONVENTION
+73
+the base frame to be any point on z0. We then choose x0, y0 in any convenient
+manner so long as the resulting frame is right-handed. This sets up frame 0.
+Once frame 0 has been established, we begin an iterative process in which
+we deﬁne frame i using frame i −1, beginning with frame 1. Figure 3.4 will be
+useful for understanding the process that we now describe.
+Fig. 3.4
+Denavit-Hartenberg frame assignment
+In order to set up frame i it is necessary to consider three cases: (i) the axes
+zi−1, zi are not coplanar, (ii) the axes zi−1, zi intersect (iii) the axes zi−1, zi are
+parallel. Note that in both cases (ii) and (iii) the axes zi−1 and zi are coplanar.

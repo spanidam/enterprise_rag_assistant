@@ -1,0 +1,14 @@
+policies. In the general case, a stochastic policy π speciﬁes probabilities, π(a|s),
+for taking each action, a, in each state, s. We will not go through the details,
+but in fact all the ideas of this section extend easily to stochastic policies. In
+particular, the policy improvement theorem carries through as stated for the
+stochastic case, under the natural deﬁnition:
+qπ(s, π′(s)) =
+X
+a
+π′(a|s)qπ(s, a).
+In addition, if there are ties in policy improvement steps such as (4.9)—that
+is, if there are several actions at which the maximum is achieved—then in the
+stochastic case we need not select a single action from among them. Instead,
+each maximizing action can be given a portion of the probability of being
+selected in the new greedy policy. Any apportioning scheme is allowed as long

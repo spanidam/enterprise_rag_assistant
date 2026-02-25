@@ -1,0 +1,23 @@
+For a square matrices, we can use tools such as the determinant, eigenvalues and
+eigenvectors to analyze their properties. However, for nonsquare matrices these
+384
+LINEAR ALGEBRA
+tools simply do not apply. Their generalizations are captured by the Singular
+Value Decomposition (SVD) of a matrix, which we now introduce.
+As we described above, for J ∈Rm×n, we have JJT ∈Rm×m. This square
+matrix has eigenvalues and eigenvectors that satisfy
+JJT ui = λiui
+(B.30)
+in which λi and ui are corresponding eigenvalue and eigenvector pairs for JJT .
+We can rewrite this equation to obtain
+JJT ui −λiui
+=
+0
+(JJT −λiI)ui
+=
+0.
+(B.31)
+The latter equation implies that the matrix (JJT −λiI) is singular, and we can
+express this in terms of its determinant as
+det(JJT −λiI) = 0.
+(B.32)

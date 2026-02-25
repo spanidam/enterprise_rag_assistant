@@ -1,0 +1,12 @@
+The chief benefit of KBANN over purely inductive BACKPROPAGATION 
+(be- 
+ginning with random initial weights) is that it typically generalizes more accurately 
+than BACKPROPAGATION 
+when given an approximately correct domain theory, es- 
+pecially when training data is scarce. KBANN and other initialize-the-hypothesis 
+approaches have been demonstrated to outperform purely inductive systems in 
+several practical problems. For example, Towel1 et al. (1990) describe the appli- 
+cation of KBANN to a molecular genetics problem. Here the task was to learn to 
+CHAPTER 12 COMBINING INDUCTIVE AND ANALYTICAL LEARNING 345 
+recognize DNA segments called promoter regions, which influence gene activity. 
+In this experiment KBANN was given an initial domain theory obtained from a

@@ -1,0 +1,14 @@
+are most relevant to the agent. This kind of focusing is a repeated theme in
+reinforcement learning.
+104
+CHAPTER 4. DYNAMIC PROGRAMMING
+4.6
+Generalized Policy Iteration
+Policy iteration consists of two simultaneous, interacting processes, one making
+the value function consistent with the current policy (policy evaluation), and
+the other making the policy greedy with respect to the current value function
+(policy improvement). In policy iteration, these two processes alternate, each
+completing before the other begins, but this is not really necessary. In value
+iteration, for example, only a single iteration of policy evaluation is performed
+in between each policy improvement. In asynchronous DP methods, the eval-
+uation and improvement processes are interleaved at an even ﬁner grain. In

@@ -1,0 +1,21 @@
+A stored case: T-junction pipe 
+Structure: 
+QIJT 
+T = temperature 
+'L 
+Q = watertlow 
+r 
+Q3J5 
+Qz4 
+A problem specification: Water faucet 
+Structure: 
+Function: 
+Function: 
+FIGURE 8.3 
+A stored case and a new problem. The top half of the figure describes a typical design fragment 
+in the case library of CADET. The function is represented by the graph of qualitative dependencies 
+among the T-junction variables (described in the text). The bottom half of the figure shows a typical 
+design problem. 
+a "-" label indicates that the variable at the head decreases with the variable at 
+the tail. The bottom half of this figure depicts a new design problem described 
+by its desired function. This particular function describes the required behavior of

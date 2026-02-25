@@ -1,0 +1,11 @@
+learning tasks (Ph.D. thesis). Department of Computer Science, Rutgers University, New 
+Jersey. (Also Rutgers Computer Science Technical Report ML-TR-37.) 
+Pratt, L. Y. (1993b). Discriminability-based transfer among neural networks. In J. E. Moody et 
+al. (Eds.), Advances in Nerual Infomtion Processing Systems 5. San Mateo, CA: Morgan 
+Kaufmann. 
+Rosenbloom, P. S., & Aasman, J. (1990). Knowledge level and inductive uses of chunking (ebl). 
+Proceedings of the Eighth National Conference on Artificial Intelligence (pp. 821-827). AAAI 
+Press. 
+Russell, S., Binder, J., Koller, D., & Kanazawa, K. (1995). Local learning in probabilistic networks 
+with hidden variables. Proceedings of the 14th International Joint Conference on Artificial 
+Intelligence, Montreal. Morgan Kaufmann.

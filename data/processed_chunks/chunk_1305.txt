@@ -1,0 +1,41 @@
+4
+5
+def park_greet():
+6
+"""Output greeting."""
+7
+print("Welcome. Open sunrise to sunset.")
+8
+9
+car_count = 1
+10
+park_greet()
+11
+if car_count > 50:
+12
+extra_lot()
+a.
+5
+b.
+8
+c.
+12
+4. What is the output?
+def park_greet():
+"""Output greeting."""
+print("Welcome to the park")
+print("Open sunrise to sunset")
+park_greet()
+a.
+Welcome to the park
+b.
+Welcome to the park
+Open sunrise to sunset
+c.
+Open sunrise to sunset
+Welcome to the park
+Functions calling functions
+Functions frequently call other functions to keep the modularity of each function performing one task. Ex: A
+function that calculates an order total may call a function that calculates sales tax. When a function called from
+another function finishes execution, control flow returns to the calling function.
+CHECKPOINT

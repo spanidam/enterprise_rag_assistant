@@ -1,0 +1,11 @@
+substantive and fruitful interactions with other engineering and scientiﬁc disci-
+plines. Reinforcement learning is part of a decades-long trend within artiﬁcial
+intelligence and machine learning toward greater integration with statistics,
+optimization, and other mathematical subjects. For example, the ability of
+some reinforcement learning methods to learn with parameterized approxima-
+tors addresses the classical “curse of dimensionality” in operations research
+and control theory.
+More distinctively, reinforcement learning has also in-
+teracted strongly with psychology and neuroscience, with substantial beneﬁts
+going both ways. Of all the forms of machine learning, reinforcement learn-
+ing is the closest to the kind of learning that humans and other animals do,

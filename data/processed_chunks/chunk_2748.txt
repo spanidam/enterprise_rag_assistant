@@ -1,0 +1,14 @@
+query time rather than in advance), difficulties in determining an appropriate 
+distance metric for retrieving "related" instances (especially when examples 
+are represented by complex symbolic descriptions), and the negative impact 
+of irrelevant features on the distance metric. 
+0 k-NEAREST 
+NEIGHBOR 
+is an instance-based algorithm for approximating real- 
+valued or discrete-valued target functions, assuming instances correspond to 
+points in an n-dimensional Euclidean space. The target function value for 
+a new query is estimated from the known values of the k nearest training 
+examples. 
+0 Locally weighted regression methods are a generalization of k-NEAREST 
+NEIGHBOR 
+in which an explicit local approximation to the target function

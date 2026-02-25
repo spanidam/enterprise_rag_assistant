@@ -1,0 +1,12 @@
+They may still compute action (or state) values, but they do not use them
+directly to select actions. Instead, the policy is represented directly, with its
+own weights independent of any value function.
+11.1
+Actor–Critic Methods
+Actor–critic methods are TD methods that have a separate memory structure
+to explicitly represent the policy independent of the value function. The policy
+structure is known as the actor, because it is used to select actions, and the
+estimated value function is known as the critic, because it criticizes the actions
+made by the actor. Learning is always on-policy: the critic must learn about
+and critique whatever policy is currently being followed by the actor. The
+critique takes the form of a TD error. This scalar signal is the sole output

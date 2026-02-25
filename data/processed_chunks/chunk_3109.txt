@@ -1,0 +1,11 @@
+tion and neural network BACKPROPAGATION, 
+seek general hypotheses that fit the 
+observed training data. Analytical methods, such as PROLOG-EBG, seek general 
+hypotheses that fit prior knowledge while covering the observed data. These two 
+learning paradigms are based on fundamentally different justifications for learned 
+hypotheses and offer complementary advantages and disadvantages. Combining 
+them offers the possibility of more powerful learning methods. 
+CHAPTER 12 COMBINING INDUCTIVE AND ANALYTICAL LEARNING 335 
+Purely analytical learning methods offer the advantage of generalizing more 
+accurately from less data by using prior knowledge to guide learning. However, 
+they can be misled when given incorrect or insufficient prior knowledge. Purely

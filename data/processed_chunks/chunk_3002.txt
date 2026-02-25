@@ -1,0 +1,9 @@
+knowledge, guided by specific training examples encountered as we play the game. 
+This chapter describes learning algorithms that automatically construct and 
+learn from such explanations. In the remainder of this section we define more 
+precisely the analytical learning problem. The next section presents a particular 
+explanation-based learning algorithm called PROLOG-EBG. Subsequent sections 
+then examine the general properties of this algorithm and its relationship to in- 
+ductive learning algorithms discussed in other chapters. The final section describes 
+the application of explanation-based learning to improving performance at large 
+state-space search problems. In this chapter we consider the special case in which

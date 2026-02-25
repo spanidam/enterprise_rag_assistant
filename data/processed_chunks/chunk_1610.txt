@@ -1,0 +1,23 @@
+in any folder location. Ex: To open a file named logfile.log located in /users/turtle/desktop the following
+can be used:
+fileobj = open("/users/turtle/desktop/logfile.log")
+14.3 • Files in different locations and working with CSV files
+335
+Operating
+System
+File location
+open() function example
+Mac
+/users/student/
+fileobj = open("/users/student/output.txt")
+Linux
+/usr/code/
+fileobj = open("/usr/code/output.txt")
+Windows
+c:\projects\
+code\
+fileobj = open("c:/projects/code/output.txt")
+or
+fileobj =
+open("c:\\projects\\code\\output.txt")
+Table 14.2 Opening files on different paths. In each of the following cases, a file called output.txt is located in a different folder

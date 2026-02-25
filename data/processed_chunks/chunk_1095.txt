@@ -1,0 +1,14 @@
+1.7 Comments
+Learning objectives
+By the end of this section you should be able to
+•
+Write concise, meaningful comments that explain intended functionality of the code.
+•
+Write a docstring (more verbose comment) that describes the program functionality.
+The hash character
+Comments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the following
+program contain comments. Each comment begins with a hash character (#). All text from the hash character
+to the end of the line is ignored when running the program. In contrast, hash characters inside of strings are
+treated as regular text. Ex: The string "Item #1: " does not contain a comment.
+When writing comments:
+•

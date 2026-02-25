@@ -1,0 +1,9 @@
+ABC's simplicity was ideal for beginners, but the language lacked features required to write advanced
+programs.
+Several years later, van Rossum joined a different team at CWI working on an operating system. The team
+needed an easier way to write programs for monitoring computers and analyzing data. Languages common in
+the 1980's were (and still are) difficult to use for these kinds of programs. van Rossum envisioned a new
+language that would have a simple syntax, like ABC, but also provide advanced features that professionals
+would need.
+At first, van Rossum started working on this new language as a hobby during his free time. He named the
+language Python because he was a fan of the British comedy group Monty Python (https://openstax.org/r/

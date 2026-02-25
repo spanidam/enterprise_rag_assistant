@@ -1,0 +1,23 @@
+ℒ(𝑤) = ∑
+𝑖
+( ̂𝑦𝑖−𝑦𝑖)
+2
+where 𝑦𝑖is the ground truth value associated with the 𝑖-th sample in our dataset.
+Let us have a look at this quantity as a function of 𝑤:
+import numpy as np
+def loss(w, x, y):
+w = np.array(w)
+return np.sum(
+(w[:, None] * x.to_numpy()[None, :] - y.to_numpy()[None, :]) ** 2,
+axis=1
+)
+w = np.linspace(-2, 10, num=100)
+x = boston["RM"]
+y = boston["PRICE"]
+plt.plot(w, loss(w, x, y), "r-");
+1.2. Optimization
+5
+Deep Learning Basics (lecture notes)
+Here, it seems that a value of 𝑤around 4 should be a good pick, but this method (generating lots of values for the
+parameter and computing the loss for each value) cannot scale to models that have lots of parameters, so we will try
+something else.

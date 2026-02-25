@@ -1,0 +1,35 @@
+1,2 denotes the angular velocity of frame o2x2y2z2
+that corresponds to the changing R1
+2, expressed relative to the coordinate system
+o1x1y1z1. Thus, the product R0
+1ω1
+1,2 expresses this angular velocity relative to
+the coordinate system o0x0y0z0, i.e., R0
+1ω1
+1,2 gives the coordinates of the free
+vector ω1,2 with respect to frame 0.
+Now, combining the above expressions we have shown that
+S(ω0
+2)R0
+2
+=
+{S(ω0
+0,1) + S(R0
+1ω1
+1,2)}R0
+2
+(4.27)
+Since S(a) + S(b) = S(a + b), we see that
+ω0
+2
+=
+ω0
+0,1 + R0
+1ω1
+1,2
+(4.28)
+In other words, the angular velocities can be added once they are expressed
+relative to the same coordinate frame, in this case o0x0y0z0.
+LINEAR VELOCITY OF A POINT ATTACHED TO A MOVING FRAME
+121
+The above reasoning can be extended to any number of coordinate systems.

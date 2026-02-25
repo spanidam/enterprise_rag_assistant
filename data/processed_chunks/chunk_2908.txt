@@ -1,0 +1,9 @@
+accommodate noisy data, as described in the text. 
+eralize the current disjunctive hypothesis (i.e., to increase the number of instances 
+it classifies as positive), by adding a,new disjunct. Viewed at this level, the search 
+is a specific-to-general search through the space of hypotheses, beginning with the 
+most specific empty disjunction and terminating when the hypothesis is sufficiently 
+general to cover all positive training examples. The inner loop of FOIL performs a 
+finer-grained search to determine the exact definition of each new rule. This inner 
+loop searches a second hypothesis space, consisting of conjunctions of literals, to 
+find a conjunction that will form the preconditions for the new rule. Within this

@@ -1,0 +1,30 @@
+.
+(11.31)
+Thus, the image histogram is a scaled version of our approximation of P.
+340
+COMPUTER VISION
+Given P, we can compute the average, or mean value of the gray level values
+in the image. We denote the mean by µ, and compute it by
+µ =
+N−1
+X
+z=0
+zP(z).
+(11.32)
+In many applications, the image will consist of one or more objects against
+some background. In such applications, it is often useful to compute the mean
+for each object in the image, and also for the background. This computation
+can be eﬀected by constructing individual histogram arrays for each object, and
+for the background, in the image. If we denote by Hi the histogram for the ith
+object in the image (where i = 0 denotes the background), the mean for the ith
+object is given by
+µi =
+N−1
+X
+z=0
+z
+Hi[z]
+PN−1
+z=0 Hi[z]
+,
+(11.33)

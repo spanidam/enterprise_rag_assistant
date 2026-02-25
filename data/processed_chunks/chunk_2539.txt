@@ -1,0 +1,11 @@
+denote the 
+observed data in a set of m independently drawn instances, let Z = {zl, . . . , z,} 
+denote the unobserved data in these same instances, and let Y = X U Z denote 
+the full data. Note the unobserved Z can be treated as a random variable whose 
+probability distribution depends on the unknown parameters 8 and on the observed 
+data X. Similarly, Y is a random variable because it is defined in terms of the 
+random variable Z. In the remainder of this section we describe the general form 
+of the EM algorithm. We use h to denote the current hypothesized values of the 
+parameters 8, and h' to denote the revised hypothesis that is estimated on each 
+iteration of the EM algorithm. 
+The EM algorithm searches for the maximum likelihood hypothesis h' by

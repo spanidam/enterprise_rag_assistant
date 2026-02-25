@@ -1,0 +1,15 @@
+of rigid robots that we discussed in Chapter 7 can be rigorously shown to work
+in the general case.1. An independent joint PD-control scheme can be written
+in vector form as
+u
+=
+KP ˜q −KD ˙q
+(8.7)
+where ˜q = qd −q is the error between the desired joint displacements qd and
+the actual joint displacements q, and KP , KD are diagonal matrices of (pos-
+itive) proportional and derivative gains, respectively. We ﬁrst show that, in
+the absence of gravity, that is, if g is zero in (8.6), the PD control law (8.7)
+achieves asymptotic tracking of the desired joint positions. This, in eﬀect, re-
+produces the result derived previously, but is more rigorous, in the sense that
+the nonlinear equations of motion (8.1) are not approximated by a constant
+disturbance.

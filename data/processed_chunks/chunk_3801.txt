@@ -1,0 +1,10 @@
+one hand, and learning, on the other, were slow to be recognized. We can-
+not be sure about what accounted for this separation, but its main cause was
+likely the separation between the disciplines involved and their diﬀerent goals.
+Also contributing may have been the prevalent view of dynamic programming
+as an oﬀ-line computation depending essentially on accurate system models
+and analytic solutions to the Bellman equation. Further, the simplest form
+of dynamic programming is a computation that proceeds backwards in time,
+making it diﬃcult to see how it could be involved in a learning process that
+must proceed in a forward direction. Perhaps the ﬁrst to connect optimal con-
+trol and dynamic programming with learning was Paul Werbos (1977), who

@@ -1,0 +1,22 @@
+in terms of an input that has unit norm. Consider the set of all robot joint
+velocities ˙q such that
+∥˙q∥= ( ˙q2
+1 + ˙q2
+2 + . . . ˙q2
+m)1/2 ≤1
+(4.135)
+If we use the minimum norm solution ˙q = J+ξ, we obtain
+∥˙q∥
+=
+˙qT ˙q
+=
+(J+ξ)T J+ξ
+=
+ξT (JJT )−1ξ ≤1
+(4.136)
+The derivation of this is left as an exercise (Problem 4-26). This ﬁnal inequality
+gives us a quantitative characterization of the scaling that is eﬀected by the
+Jacobian. In particular, if the manipulator Jacobian is full rank, i.e., rank J =
+m, then Equation (4.136) deﬁnes an m-dimensional ellipsoid that is known as
+the manipulability ellipsoid. If the input (i.e., joint velocity) vector has unit
+norm, then the output (i.e., end-eﬀector velocity) will lie within the ellipsoid

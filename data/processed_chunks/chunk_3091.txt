@@ -1,0 +1,10 @@
+of goals and prior knowledge in human and machine learning is provided by Ram 
+and Leake (1995), and a recent overview of explanation-based learning is given 
+by DeJong (1997). 
+The most serious attempts to employ explanation-based learning with perfect 
+domain theories have been in the area of learning search control, or "speedup" 
+learning. The SOAR system described by Laird et al. (1986) and the PRODIGY 
+system described by Carbonell et al. (1990) are among the most developed sys- 
+tems that use explanation-based learning methods for learning in problem solv- 
+ing. Rosenbloom and Laird (1986) discuss the close relationship between SOAR'S 
+learning method (called "chunking") and other explanation-based learning meth-

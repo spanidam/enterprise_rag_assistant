@@ -1,0 +1,12 @@
+gradient descent algorithm similar to the one presented above, but which can
+be applied to robots with more complicated kinematics.
+5.3.1
+Deﬁning Workspace Potential Fields
+As before, our goal in deﬁning potential functions is to construct a ﬁeld that
+repels the robot from obstacles, with a global minimum that corresponds to
+qﬁnal. In the conﬁguration space, this task was conceptually simple because the
+robot was represented by a single point, which we treated as a point mass under
+the inﬂuence of a potential ﬁeld. In the workspace, things are not so simple;
+the robot is an articulated arm with ﬁnite volume. Evaluating the eﬀect of
+a potential ﬁeld over the arm would involve computing an integral over the
+volume of the arm, and this can be quite complex (both mathematically and

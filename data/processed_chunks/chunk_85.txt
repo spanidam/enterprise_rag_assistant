@@ -1,0 +1,21 @@
+also for a mechanism that allows us to transform the coordinates of points that
+are expressed in one coordinate system into the appropriate coordinates with
+32
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+o0, o1
+y0
+y1
+θ
+x1
+sin θ
+cos θ
+x0
+Fig. 2.2
+Coordinate frame o1x1y1 is oriented at an angle θ with respect to o0x0y0.
+respect to some other coordinate frame. Such coordinate transformations and
+their derivations are the topic for much of the remainder of this chapter.
+2.2
+REPRESENTING ROTATIONS
+In order to represent the relative position and orientation of one rigid body
+with respect to another, we will rigidly attach coordinate frames to each body,
+and then specify the geometric relationships between these coordinate frames.

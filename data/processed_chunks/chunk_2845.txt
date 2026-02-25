@@ -1,0 +1,10 @@
+Complex Systems, 4, 11-49. 
+Belew, R. K., & Mitchell, M. (Eds.). (1996). Adaptive individuals in evolving populations: Models 
+and algorithms. Reading, MA: Addison-Wesley. 
+Bledsoe, W. (1961). The use of biological concepts in the analytical study of systems. Proceedings 
+of the ORSA-TIMS National Meeting, San Francisco. 
+Booker, L. B., Goldberg, D. E., & Holland, J. H. (1989). Classifier systems and genetic algorithms. 
+Artificial Intelligence, 40, 235-282. 
+Box, G. (1957). Evolutionary operation: A method for increasing industrial productivity. Jountal of 
+the Royal Statistical Society, 6(2), 81-101. 
+Cohoon, J. P., Hegde, S. U., Martin, W. N., & Richards, D. (1987). Punctuated equilibria: A parallel

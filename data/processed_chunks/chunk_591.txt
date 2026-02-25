@@ -1,0 +1,11 @@
+choose it so that e(t) →0 as t →∞, in which case the estimate ˆx converges
+to the true state x. In order to do this we obviously want to choose ℓso that
+the eigenvalues of A −ℓcT are in the left half plane. This is similar to the pole
+assignment problem considered previously. In fact it is dual, in a mathematical
+sense. to the pole assignment problem. It turns out that the eigenvalues of
+A −ℓcT can be assigned arbitrarily if and only if the pair (A, c) satisﬁes the
+property known as observability. Observability is deﬁned by the following:
+(i) Deﬁnition 7.4.6
+A linear system is completely observable, or observable for short, if every
+initial state x(t0) can be exactly determined from measurements of the output
+y(t) and the input u(t) in a ﬁnite time interval t0 ≤t ≤tf.

@@ -1,0 +1,88 @@
+Koala
+13B
+2023
+LLaMA
+✓
+-
+Dialogue data
+Mistral-7B
+7.3B
+2023
+✓
+-
+-
+Code Llama
+34
+2023
+LLaMA2
+✓
+500B
+Publicly available code
+LongLLaMA
+3B, 7B
+2023
+OpenLLaMA
+✓
+1T
+-
+LLaMA-Pro-8B
+8.3B
+2024
+LLaMA2-7B
+✓
+80B
+Code and math corpora
+TinyLlama-1.1B
+1.1B
+2024
+LLaMA1.1B
+✓
+3T
+SlimPajama, Starcoderdata
+PaLM
+8B, 62B, 540B
+2022
+-
+×
+780B
+Web documents, books, Wikipedia, conversations,
+GitHub code
+U-PaLM
+8B, 62B, 540B
+2022
+-
+×
+1.3B
+Web documents, books, Wikipedia, conversations,
+GitHub code
+PaLM Family
+PaLM-2
+340B
+2023
+-
+✓
+3.6T
+Web documents, books, code, mathematics, con-
+versational data
+Med-PaLM
+540B
+2022
+PaLM
+×
+780B
+HealthSearchQA, MedicationQA, LiveQA
+Med-PaLM 2
+-
+2023
+PaLM 2
+×
+-
+MedQA, MedMCQA, HealthSearchQA, LiveQA,
+MedicationQA
+FLAN
+137B
+2021
+LaMDA-PT
+✓
+-
+Web documents, code, dialog data, Wikipedia

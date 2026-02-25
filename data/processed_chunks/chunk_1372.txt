@@ -1,0 +1,19 @@
+(https://openstax.org/r/100pypy), a different project).
+PyPI allows anyone to develop and share modules with the Python community. Module authors include
+individuals, large companies, and non-profit organizations. PyPI helps programmers install modules and
+receive updates.
+Most software available on PyPI is free and open source. PyPI is supported by the Python Software Foundation
+(https://openstax.org/r/100foundation) and is maintained by an independent group of developers.
+Module
+Description
+arrow
+Convert and format dates, times, and timestamps.
+BeautifulSoup
+Extract data from HTML and XML documents.
+bokeh
+Interactive plots and applications in the browser.
+matplotlib
+Static, animated, and interactive visualizations.
+moviepy
+Video editing, compositing, and processing.
+nltk

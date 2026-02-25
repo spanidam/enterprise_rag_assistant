@@ -1,0 +1,29 @@
+using weighted importance sampling. Here we have to form a weighted average
+of the returns, and a slightly diﬀerent incremental algorithm is required.
+Suppose we have a sequence of returns G1, G2, . . . , Gn−1, all starting in the
+same state and each with a corresponding random weight Wi (e.g., Wi = ρT(t)
+t
+).
+We wish to form the estimate
+Vn =
+Pn−1
+k=1 WkGk
+Pn−1
+k=1 Wk
+,
+n ≥2,
+(5.6)
+and keep it up-to-date as we obtain a single additional return Gn. In addition
+to keeping track of Vn, we must maintain for each state the cumulative sum
+Cn of the weights given to the ﬁrst n returns. The update rule for Vn is
+Vn+1 = Vn + Wn
+Cn
+h
+Gn −Vn
+i
+,
+n ≥1,
+(5.7)
+and
+Cn+1 = Cn + Wn+1,
+where C0 = 0 (and V1 is arbitrary and thus need not be speciﬁed). Figure 5.9

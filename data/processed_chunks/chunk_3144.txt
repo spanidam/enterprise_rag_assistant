@@ -1,0 +1,9 @@
+negated antecedent, the weight is set to - W. The threshold weight of the unit, wo 
+is then set to -(n- .5) W, where n is the number of non-negated antecedents. When 
+unit input values are 1 or 0, this assures that their weighted sum plus wo will be 
+positive (and the sigmoid output will therefore be greater than 0.5) if and only if 
+all clause antecedents are satisfied. Note for sigmoid units at the second and sub- 
+sequent layers, unit inputs will not necessarily be 1 and 0 and the above argument 
+may not apply. However, if a sufficiently large value is chosen for W, this KBANN 
+algorithm can correctly encode the domain theory for arbitrarily deep networks. 
+Towell and Shavlik (1994) report using W = 4.0 in many of their experiments.

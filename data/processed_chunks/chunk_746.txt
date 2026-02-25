@@ -1,0 +1,54 @@
+Chow’s theorem tells us when a driftless system is locally controllability but
+does not tell us how to ﬁnd the control input to steer the system from x0 to x1.
+Example: 10.10 Consider the system on R3 −{0}.
+˙x
+=
+
+
+x3
+x2
+0
+
+u1 +
+
+
+0
+0
+x1
+
+u2
+=
+g1(x)u1 + g2(x)u2
+(10.123)
+326
+GEOMETRIC NONLINEAR CONTROL
+For x ̸= 0 the distribution ∆= span{g1, g2} has rank two. It is easy to compute
+the Lie Bracket [g1, g2] as
+[g1, g2] =
+
+
+−x1
+0
+x3
+
+
+and therefore
+rank[g1, g2, [g1, g2]] = rank
+
+
+x3
+0
+−x1
+x2
+0
+0
+0
+x1
+x3
+
+
+which has rank three for x ̸= 0. Therefore the system is locally controllable on
+R3 −{0}. Note that the origin is an equilibrium for the system independent
+of the control input, which is why we must exclude the origin from the above
+analysis.
+Example 10.11

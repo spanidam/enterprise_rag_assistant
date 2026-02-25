@@ -1,0 +1,36 @@
+a.
+line plot
+b.
+bar plot
+c.
+histogram plot
+Data visualization tools
+Many Python data visualization libraries exist that offer a range of capabilities and features to create different
+15.5 • Data visualization
+369
+plot types. Some of the most commonly used frameworks are Matplotlib, Plotly, and Seaborn. Here, some
+useful functionalities of Matplotlib are summarized.
+Plot type
+Method
+Bar plot
+The plt.bar(x, height) function takes in two inputs, x and height,
+and plots bars for each x value with the height given in the height
+variable.
+Example
+Output
+import
+matplotlib.pyplot as
+plt
+# Data
+categories = ["Course
+A", "Course B", "Course
+C"]
+values = [25, 40, 30]
+# Create the bar chart
+fig =
+plt.bar(categories,
+values)
+# Customize the chart
+plt.title("Number of
+students in each
+course')

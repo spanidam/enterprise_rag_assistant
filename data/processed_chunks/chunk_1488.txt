@@ -1,0 +1,29 @@
+together most topics presented in the chapter.
+260
+10 • Dictionaries
+Access for free at openstax.org
+Concept
+Description
+Dictionary creation using curly braces
+my_dict = {key1:value1, key2:value2}
+Dictionary creation using the dict() method
+# Using a list
+my_list = [(key1, value1), (key2, value2)]
+my_dict = dict(my_list)
+# Using keyword arguments
+my_dict = dict(key1=value1, key2=value2)
+# From another dictionary
+old_dict = {key1: value1, key2: value2}
+new_dict = dict(old_dict)
+Accessing dictionary items
+my_dict = {key1: value1, key2: value2}
+# Accessing item using square bracket
+notation
+my_dict[key1]
+# Accessing item through get() method
+my_dict.get(key1)
+Accessing all dictionary items
+my_dict.items()
+Accessing all dictionary keys
+my_dict.keys()
+Accessing all dictionary values

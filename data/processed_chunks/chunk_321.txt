@@ -1,0 +1,47 @@
+4-9 Given the Euler angle transformation
+R
+=
+Rz,ψRy,θRz,φ
+show that
+d
+dtR = S(ω)R where
+ω
+=
+{cψsθ ˙φ −sψ ˙θ}i + {sψsθ ˙φ + cψ ˙θ}j + {˙[si + cθ ˙φ}k.
+The components of i, j, k, respectively, are called the nutation, spin, and
+precession.
+4-10 Repeat Problem 9 for the Roll-Pitch-Yaw transformation. In other words,
+ﬁnd an explicit expression for ω such that
+d
+dtR = S(ω)R, where R is given
+by Equation (2.39).
+CHAPTER SUMMARY
+147
+4-11 Two frames o0x0y0z0 and o1x1y1z1 are related by the homogeneous trans-
+formation
+H
+=
+
+
+0
+−1
+0
+1
+1
+0
+0
+−1
+0
+0
+1
+0
+0
+0
+0
+1
+
+.
+A particle has velocity v1(t) = (3, 1, 0)T relative to frame o1x1y1z1. What
+is the velocity of the particle in frame o0x0y0z0?
+4-12 Three frames o0x0y0z0 and o1x1y1z1, and o2x2y2z2 are given below. If the
+angular velocities ω0

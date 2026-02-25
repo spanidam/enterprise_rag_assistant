@@ -1,0 +1,12 @@
+every four time steps. The torque applied at the second joint is denoted by
+τ ∈{+1, −1, 0}. There were no constraints on the joint positions, but the
+angular velocities were limited to ˙θ1 ∈[−4π, 4π] and ˙θ2 ∈[−9π, 9π]. The
+constants were m1 = m2 = 1 (masses of the links), l1 = l2 = 1 (lengths of
+links), lc1 = lc2 = 0.5 (lengths to center of mass of links), I1 = I2 = 1 (moments
+of inertia of links), and g = 9.8 (gravity).
+284
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+for use by the agent/controller in any way. The training and interaction were
+just as if a real, physical acrobot had been used. Each episode began with
+both links of the acrobot hanging straight down and at rest. Torques were
+applied by the reinforcement learning agent until the goal was reached, which

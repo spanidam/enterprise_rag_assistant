@@ -1,0 +1,58 @@
+We ﬁrst reformulate the manipulator dynamic equations in a form more
+suitable for the discussion to follow.
+Recall the robot equations of motion
+(7.25) and (7.26)
+n
+X
+j=1
+djk(q)¨qj +
+n
+X
+i,j=1
+cijk(q) ˙qi ˙qj + φk
+=
+τk
+(8.1)
+Jmk ¨θmk + Bk ˙θmk
+=
+Kmk/RkVk −τk/rk.
+(8.2)
+where Bk = Bmk + KbkKmk/Rk. Multiplying (8.2) by rk and using the fact
+that
+θmk
+=
+rkqk
+(8.3)
+263
+264
+MULTIVARIABLE CONTROL
+we write Equation (8.2) as
+r2
+kJm¨qk + r2
+kBk ˙qk
+=
+rkKmk/RVk −τk
+(8.4)
+Substituting (8.4) into (8.1) yields
+r2
+kJmk ¨qk +
+n
+X
+j−1
+djk¨qj +
+n
+X
+i,j=1
+cijk ˙qi ˙qj + r2
+kBk ˙qk + φk
+=
+rk
+Km
+R Vk. (8.5)
+In matrix form these equations of motion can be written as
+M(q)¨q + C(q, ˙q) ˙q + B ˙q + g(q)
+=
+u
+(8.6)
+where M(q) = D(q) + J where J is a diagonal matrix with diagonal elements
+r2

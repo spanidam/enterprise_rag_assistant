@@ -1,0 +1,14 @@
+The involutive closure, ¯∆, of a distribution ∆= span{g1, . . . , gm} is the small-
+est involutive distribution containing ∆. In other words, ¯∆is an involutive
+distribution such that if ∆0 is any involutive distribution satisfying ∆⊂∆0
+then ¯∆⊂∆0.
+Conceptually, the involutive closure of ∆can be found by forming larger and
+larger distributions by repeatedly computing Lie Brackets until an involutive
+4A complete vector ﬁeld is one for which the solution of the associated diﬀerential equation
+exists for all time t
+CHOW’S THEOREM AND CONTROLLABILITY OF DRIFTLESS SYSTEMS
+325
+distribution is found, i.e.
+¯∆= span{g1, . . . , gm, [gi, gj] , [gk, [gi, gj]] , . . . }
+(10.120)
+The involutive closure ¯∆in (10.120) is also called the Control Lie Algebra for

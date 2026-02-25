@@ -1,0 +1,16 @@
+and approximate dynamic programming. John Wiley and Sons.
+Singh, S. P. (1992a).
+Reinforcement learning with a hierarchy of abstract
+models.
+In Proceedings of the Tenth National Conference on Artiﬁcial
+Intelligence, pp. 202–207. AAAI/MIT Press, Menlo Park, CA.
+Singh, S. P. (1992b).
+Scaling reinforcement learning algorithms by learning
+variable temporal resolution models.
+In Proceedings of the Ninth Inter-
+national Machine Learning Conference, pp. 406–415. Morgan Kaufmann,
+San Mateo, CA.
+Singh, S. P. (1993). Learning to Solve Markovian Decision Processes. Ph.D. the-
+sis, University of Massachusetts, Amherst. Appeared as CMPSCI Techni-
+cal Report 93-77.
+Singh, S. P., Bertsekas, D. (1997). Reinforcement learning for dynamic channel

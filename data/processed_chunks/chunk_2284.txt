@@ -1,0 +1,9 @@
+using the squashing function tanh in place of the sigmoid function. That is, assume 
+the output of a single unit is o = tanh(6.x'). Give the weight update rule for output 
+layer weights and hidden layer weights. Hint: tanh'(x) = 1 - tanh2(x). 
+4.9. Recall the 8 x 3 x 8 network described in Figure 4.7. Consider trying to train a 8 x 1 x 8 
+network for the same task; that is, a network with just one hidden unit. Notice the 
+eight training examples in Figure 4.7 could be represented by eight distinct values for 
+the single hidden unit (e.g., 0.1,0.2, . . . ,0.8). Could a network with just one hidden 
+unit therefore learn the identity function defined over these training examples? Hint: 
+Consider questions such as "do there exist values for the hidden unit weights that

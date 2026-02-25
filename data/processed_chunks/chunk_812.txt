@@ -1,0 +1,52 @@
+d(r, c) = r cos θ + c sin θ −ρ.
+(11.59)
+Thus, our task is to ﬁnd
+L⋆= min
+ρ,θ
+X
+r,c
+(r cos θ + c sin θ −ρ)2I(r, c)
+(11.60)
+POSITION AND ORIENTATION
+351
+We compute the partial derivative with respect to ρ as
+d
+dρL
+=
+d
+dρ
+X
+r,c
+(r cos θ + c sin θ −ρ)2I(r, c)
+(11.61)
+=
+−2
+X
+r,c
+(r cos θ + c sin θ −ρ)I(r, c)
+(11.62)
+=
+−2 cos θ
+X
+r,c
+rI(r, c) −2 sin θ
+X
+r,c
+cI(r, c) + 2ρ
+X
+r,c
+I(r, c)(11.63)
+=
+−2(cos θm10 + sin θm01 −ρm00)
+(11.64)
+=
+−2(m00¯r cos θ + m00¯c sin θ −ρm00)
+(11.65)
+=
+−2m00(¯r cos θ + ¯c sin θ −ρ).
+(11.66)
+Now, setting this to zero we obtain
+¯r cos θ + ¯c sin θ −ρ = 0.
+(11.67)
+But this is just the equation of a line that passes through the point (¯r, ¯c),
+and therefore we conclude that the inertia is minimized by a line that passes

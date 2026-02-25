@@ -1,0 +1,14 @@
+the nature of the data and the requirements of the particular
+language model being trained. It may involve comparing entire
+data points or specific features to identify and eliminate du-
+plicates. At the document level, existing works mainly rely on
+the overlap ratio of high-level features (e.g. n-grams overlap)
+between documents to detect duplicate samples.
+C. Tokenizations
+Tokenization referes to the process of converting a se-
+quence of text into smaller parts, known as tokens. While
+the simplest tokenization tool simply chops text into tokens
+based on white space, most tokenization tools rely on a word
+dictionary. However, out-of-vocabulary (OOV) is a problem
+in this case because the tokenizer only knows words in its
+dictionary. To increase the coverage of dictionaries, popular

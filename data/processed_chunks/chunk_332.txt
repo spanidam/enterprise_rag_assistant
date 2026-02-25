@@ -1,0 +1,11 @@
+A collision occurs when the robot contacts an obstacle in the workspace.
+To describe collisions, we introduce some additional notation. We will denote
+the robot by A, and by A(q) the subset of the workspace that is occupied by
+the robot at conﬁguration q. We denote by Oi the obstacles in the workspace,
+and by W the workspace (i.e., the Cartesian space in which the robot moves).
+To plan a collision free path, we must ensure that the robot never reaches a
+conﬁguration q that causes it to make contact with an obstacle in the workspace.
+The set of conﬁgurations for which the robot collides with an obstacle is referred
+to as the conﬁguration space obstacle, and it is deﬁned by
+QO = {q ∈Q | A(q) ∩O ̸= ∅}
+Here, we deﬁne O = ∪Oi. The set of collision-free conﬁgurations, referred to

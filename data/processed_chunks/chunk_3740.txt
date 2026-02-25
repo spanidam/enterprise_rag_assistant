@@ -1,0 +1,10 @@
+including reward signals, play out over extended time periods—are the three
+most important distinguishing features of reinforcement learning problems.
+A full speciﬁcation of reinforcement learning problems in terms of optimal
+control of Markov decision processes must wait until Chapter 3, but the basic
+idea is simply to capture the most important aspects of the real problem facing
+a learning agent interacting with its environment to achieve a goal. Clearly,
+such an agent must be able to sense the state of the environment to some extent
+and must be able to take actions that aﬀect the state. The agent also must
+have a goal or goals relating to the state of the environment. The formulation
+is intended to include just these three aspects—sensation, action, and goal—in

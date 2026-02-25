@@ -1,0 +1,87 @@
+51
+83.4
+Falcon 7B
+44.4
+76.3
+Alpaca
+43.4
+73.9
+Pythia 7B
+37.2
+64
+Pythia 12B
+43.2
+68.1
+LLAMA 7B
+42.4
+73
+Dolly 6B
+41.2
+67.6
+Dolly 12B
+40.4
+71
+Alpaca 7B
+43.4
+73.9
+Alpaca Lora 7B
+42.6
+74
+GPT-J 6.7B
+38.2
+66.2
+LLama 7B
+42.4
+73
+LLama 13B
+42.2
+76.2
+Pythia 6.7B
+37.2
+64
+Pythia 12B
+38
+67.3
+StableLM Tuned
+33.4
+53.6
+Koala 13B
+42.8
+72.6
+Mosaic mpt-7B
+42.6
+76.3
+LLAMA 2 70B
+-
+87.33
+LLAMA 65B
+-
+86.09
+Falcon 40B
+-
+85.3
+Falcon 180B
+-
+88.86
+MPT Instruct 30B
+-
+84.31
+MPT Instruct 7B
+-
+77.91
+Yi 6B
+-
+76.42
+Yi 34B
+-
+85.69
+GPT-4
+-
+95.3
+Gemini Ultra
+-
+87.8
+From the results presented in Table V it is clear that GPT-4
+achieves best results for HellaSwag while Davinci-003 is best
+model for OBQA. It is also good to note that results for OBQA
+are not reported for all of the models and possibly davinci-003

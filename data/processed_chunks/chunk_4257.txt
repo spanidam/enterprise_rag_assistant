@@ -1,0 +1,13 @@
+(the form treated in this chapter) has been proved by Satinder Singh
+(personal communication). The “windy gridworld” example was sug-
+gested by Tom Kalt.
+Holland’s (1986) bucket brigade idea evolved into an algorithm closely
+related to Sarsa. The original idea of the bucket brigade involved chains
+of rules triggering each other; it focused on passing credit back from
+the current rule to the rules that triggered it. Over time, the bucket
+brigade came to be more like TD learning in passing credit back to
+any temporally preceding rule, not just to the ones that triggered the
+current rule. The modern form of the bucket brigade, when simpliﬁed
+in various natural ways, is nearly identical to one-step Sarsa, as detailed
+by Wilson (1994).
+6.5

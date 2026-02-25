@@ -1,0 +1,31 @@
+z
+−u
+
+
+ vz
+ωz
+
+If we genaralize this to k feature points, we stack the resulting interaction
+matrices as in Section 12.3.4, and the resulting relationship is given by
+˙s
+=
+Lxyξxy + Lzξz
+(12.26)
+=
+˙sxy + ˙sz
+(12.27)
+In Equation (12.27), ˙sz = Lzξz gives the component of ˙s due to the camera
+motion along and rotation about the optic axis, while ˙sxy = Lxyξxy gives the
+component of ˙s due to velocity along and rotation about the camera x and y
+axes.
+370
+VISION-BASED CONTROL
+TO APPEAR
+Fig. 12.2
+Feature used to determine ωz.
+Equation (12.26) allows us to partition the control u into two components,
+uxy = ξxy and uz = ξz. Suppose that we have established a control scheme to
+determine the value ξz = uz. Using an image-based method to ﬁnd uxy, we
+would solve Equation (12.26) for ξxy,
+ξxy
+=

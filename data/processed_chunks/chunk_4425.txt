@@ -1,0 +1,12 @@
+If
+the processes must share computational resources, then the division can be
+handled almost arbitrarily—by whatever organization is most convenient and
+eﬃcient for the task at hand.
+In this chapter we have touched upon a number of dimensions of variation
+among state-space planning methods. One of the most important of these is
+the distribution of backups, that is, of the focus of search. Prioritized sweep-
+ing focuses on the predecessors of states whose values have recently changed.
+Heuristic search applied to reinforcement learning focuses, inter alia, on the
+successors of the current state. Trajectory sampling is a convenient way of fo-
+cusing on the on-policy distribution. All of these approaches can signiﬁcantly
+speed planning and are current topics of research.

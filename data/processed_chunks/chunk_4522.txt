@@ -1,0 +1,13 @@
+classiﬁers can implement only aggregation boundaries that are parallel to the
+feature axes. Perhaps the most important limitation of conventional classi-
+ﬁer systems is that the classiﬁers are learned via the genetic algorithm, an
+evolutionary method. As we discussed in Chapter 1, there is available dur-
+ing learning much more detailed information about how to learn than can be
+9.6. SUMMARY
+253
+used by evolutionary methods. This perspective led us to instead adapt super-
+vised learning methods for use in reinforcement learning, speciﬁcally gradient-
+descent and neural network methods.
+These diﬀerences between Holland’s
+approach and ours are not surprising because Holland’s ideas were developed
+during a period when neural networks were generally regarded as being too

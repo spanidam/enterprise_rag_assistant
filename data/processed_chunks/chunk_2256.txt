@@ -1,0 +1,10 @@
+values, usually to enforce some constraint known in advance to the human 
+designer. For example, Waibel et al. (1989) and Lang et al. (1990) describe 
+an application of neural networks to speech recognition, in which the net- 
+work inputs are the speech frequency components at different times within a 
+144 millisecond time window. One assumption that can be made in this ap- 
+plication is that the frequency components that identify a specific sound (e.g., 
+"eee") should be independent of the exact time that the sound occurs within 
+the 144 millisecond window. To enforce this constraint, the various units that 
+receive input from different portions of the time window are forced to share 
+weights. The net effect is to constrain the space of potential hypotheses,

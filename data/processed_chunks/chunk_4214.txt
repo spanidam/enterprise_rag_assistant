@@ -1,0 +1,24 @@
+If both TD and Monte Carlo methods converge asymptotically to the cor-
+rect predictions, then a natural next question is “Which gets there ﬁrst?” In
+other words, which method learns faster? Which makes the more eﬃcient use
+of limited data? At the current time this is an open question in the sense
+that no one has been able to prove mathematically that one method converges
+6.2. ADVANTAGES OF TD PREDICTION METHODS
+149
+A
+B
+C
+D
+E
+1
+0
+0
+0
+0
+0
+start
+Figure 6.5: A small Markov process for generating random walks.
+faster than the other. In fact, it is not even clear what is the most appro-
+priate formal way to phrase this question! In practice, however, TD methods
+have usually been found to converge faster than constant-α MC methods on
+stochastic tasks, as illustrated in the following example.

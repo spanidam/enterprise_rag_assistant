@@ -1,0 +1,10 @@
+docode, see Figures 4.1 and 4.3). Indicate how the action values are initialized
+and updated after each reward. Indicate how the step-size parameters are set
+for each action as a function of how many times it has been tried.
+Exercise 2.3 If the step-size parameters, αk, are not constant, then the esti-
+mate Qk is a weighted average of previously received rewards with a weighting
+diﬀerent from that given by (2.6). What is the weighting on each prior reward
+for the general case, analogous to (2.6), in terms of αk?
+Exercise 2.4 (programming) Design and conduct an experiment to demon-
+strate the diﬃculties that sample-average methods have for nonstationary
+problems. Use a modiﬁed version of the 10-armed testbed in which all the

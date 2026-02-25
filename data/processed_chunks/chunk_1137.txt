@@ -1,0 +1,23 @@
+Access for free at openstax.org
+exactly equal to (0.1)10.
+# Print floats with 30 decimal places
+print(f'{0.1:.30f}') # prints 0.1
+print(f'{0.2:.30f}') # prints 0.2
+print(f'{0.4:.30f}') # prints 0.4
+0.100000000000000005551115123126
+0.200000000000000011102230246252
+0.400000000000000022204460492503
+Table 2.1 Round-off error. (The example above shows a formatted string or f-string, which are introduced in the
+Objects chapter.)
+An overflow error occurs when a value is too large to be stored. The maximum and minimum floating-point
+values that can be represented are
+and
+, respectively. Attempting to store a floating-
+point value outside the range
+leads to an overflow error.
+Below,
+and
+can be represented, but
+is too large and causes an overflow error.
+print('3.0 to the power of 256 =',
+3.0**256)

@@ -1,0 +1,12 @@
+called conjdence interval estimates. 
+Definition: An N% confidence interval for some parameter p is an interval that is 
+expected with probability N% to contain p. 
+For example, if we observe r = 12 errors in a sample of n = 40 independently 
+drawn examples, we can say with approximately 95% probability that the interval 
+0.30 f 
+0.14 contains the true error errorv(h). 
+How can we derive confidence intervals for errorv(h)? The answer lies in 
+the fact that we know the Binomial probability distribution governing the estima- 
+tor errors(h). The mean value of this distribution is errorV(h), and the standard 
+deviation is given by Equation (5.9). Therefore, to derive a 95% confidence in- 
+terval, we need only find the interval centered around the mean value errorD(h),

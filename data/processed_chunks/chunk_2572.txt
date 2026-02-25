@@ -1,0 +1,11 @@
+0 the manner in which training examples are presented to the learner 
+For the most part, we will focus not on individual learning algorithms, but 
+rather on broad classes of learning algorithms characterized by the hypothesis 
+spaces they consider, the presentation of training examples, etc. Our goal is to 
+answer questions such as: 
+0 Sample complexity. How many training examples are needed for a learner 
+to converge (with high probability) to a successful hypothesis? 
+0 Computational complexity. How much computational effort is needed for a 
+learner to converge (with high probability) to a successful hypothesis? 
+0 Mistake bound. How many training examples will the learner misclassify 
+before converging to a successful hypothesis?

@@ -1,0 +1,9 @@
+(7.15)
+where 𝑟𝑡is an extra gate that can hide part of the previous hidden state.
+Formulas for gates 𝑧𝑡and 𝑟𝑡are similar to those provided for 𝑓𝑡, 𝑖𝑡and 𝑜𝑡in the case of LSTMs.
+A graphical study of the ability of these variants of recurrent networks to learn long-term dependencies is provided in
+[Madsen, 2019].
+7.4 Conclusion
+In this chapter, we have reviewed neural network architectures that are used to learn from time series datasets. Because
+of time constraints, we have not tackled attention-based models in this course. We have presented convolutional models
+that aim at extracting discriminative local shapes in the series and recurrent models that rather leverage the notion of

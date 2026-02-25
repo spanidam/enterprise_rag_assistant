@@ -1,0 +1,15 @@
+hypothesis, then the algorithm can output the entire set of hypotheses consistent 
+with the observed data. 
+In principle, the LIST-THEN-ELIMINATE 
+algorithm can be applied whenever 
+the hypothesis space H is finite. It has many advantages, including the fact that it 
+is guaranteed to output all hypotheses consistent with the training data. Unfortu- 
+nately, it requires exhaustively enumerating all hypotheses in H-an 
+unrealistic 
+requirement for all but the most trivial hypothesis spaces. 
+2.5.3 A More Compact Representation for Version Spaces 
+The CANDIDATE-ELIMINATION 
+algorithm works on the same principle as the above 
+LIST-THEN-ELIMINATE 
+algorithm. However, it employs a much more compact rep- 
+resentation of the version space. In particular, the version space is represented

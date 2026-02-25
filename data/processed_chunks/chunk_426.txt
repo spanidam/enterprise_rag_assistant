@@ -1,0 +1,11 @@
+on). To motivate the Euler-Lagrange approach we begin with a simple deriva-
+tion of these equations from Newton’s Second Law for a one-degree-of-freedom
+system. We then derive the Euler-Lagrange equations from the principle of
+virtual work in the general case.
+In order to determine the Euler-Lagrange equations in a speciﬁc situation,
+one has to form the Lagrangian of the system, which is the diﬀerence between
+the kinetic energy and the potential energy; we show how to do this in sev-
+eral commonly encountered situations. We then derive the dynamic equations
+of several example robotic manipulators, including a two-link cartesian robot,
+a two-link planar robot, and a two-link robot with remotely driven joints.
+The Euler-Lagrange equations have several very important properties that

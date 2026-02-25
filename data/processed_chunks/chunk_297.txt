@@ -1,0 +1,36 @@
+nate frames so that o3 = o4 = o5 = o6 = o, then JO becomes
+JO
+=
+ 0
+0
+0
+z3
+z4
+z5
+
+(4.113)
+In this case the Jacobian matrix has the block triangular form
+J
+=
+ J11
+0
+J21
+J22
+
+(4.114)
+with determinant
+det J
+=
+det J11 det J22
+(4.115)
+where J11 and J22 are each 3×3 matrices. J11 has i-th column zi−1 ×(o−oi−1)
+if joint i is revolute, and zi−1 if joint i is prismatic, while
+J22
+=
+[z3 z4 z5]
+(4.116)
+Therefore the set of singular conﬁgurations of the manipulator is the union
+of the set of arm conﬁgurations satisfying det J11 = 0 and the set of wrist
+conﬁgurations satisfying det J22 = 0. Note that this form of the Jacobian does
+not necessarily give the correct relation between the velocity of the end-eﬀector
+and the joint velocities. It is intended only to simplify the determination of

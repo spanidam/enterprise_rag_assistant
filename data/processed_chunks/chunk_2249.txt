@@ -1,0 +1,10 @@
+to some degree the encoding in this final set of weights. For example, consider the 
+output unit that indicates a person is looking to his right. This unit has a strong 
+positive weight from the second hidden unit and a strong negative weight from 
+the third hidden unit. Examining the weights of these two hidden units, it is easy 
+to see that if the person's face is turned to his right (i.e., our left), then his bright 
+skin will roughly align with strong positive weights in this hidden unit, and his 
+dark hair will roughly align with negative weights, resulting in this unit outputting 
+a large value. The same image will cause the third hidden unit to output a value 
+close to zero, as the bright face will tend to align with the large negative weights 
+in this case.

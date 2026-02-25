@@ -1,0 +1,18 @@
+program. Local variables are limited in scope, such as to a function.
+•
+Parameters are function inputs defined with the function. Arguments are values passed to the function as
+170
+6 • Functions
+Access for free at openstax.org
+input by the calling code. Parameters are assigned with the arguments' values.
+•
+Function calls can use positional arguments to map values to parameters in order.
+•
+Function calls can use keyword arguments to map values using parameter names in any order.
+•
+Functions can define default parameter values to allow for optional arguments in function calls.
+•
+Python uses a pass-by-object-reference system to assign parameters with the object values referenced by
+the arguments.
+•
+Functions can use return statements to return values back to the calling code.

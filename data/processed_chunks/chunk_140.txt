@@ -1,0 +1,28 @@
+transformation takes the form
+H
+=
+" R3×3
+d3×1
+f 1×3
+s1×1
+#
+=
+"
+Rotation
+Translation
+perspective
+scale factor
+#
+(2.72)
+For our purposes we always take the last row vector of H to be (0, 0, 0, 1),
+although the more general form given by (2.72) could be useful, for example,
+for interfacing a vision system into the overall robotic system or for graphic
+simulation.
+2.8
+CHAPTER SUMMARY
+In this chapter, we have seen how matrices in SE(n) can be used to represent
+the relative position and orientation of two coordinate frames for n = 2, 3. We
+have adopted a notional convention in which a superscript is used to indicate a
+reference frame. Thus, the notation p0 represents the coordinates of the point
+p relative to frame 0.
+The relative orientation of two coordinate frames can be speciﬁed by a rota-

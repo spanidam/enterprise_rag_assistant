@@ -1,0 +1,10 @@
+to statistics that elaborates on the issues discussed here. Other texts on statistics 
+include DeGroot (1986); Casella and Berger (1990). Duda and Hart (1973) provide 
+a treatment of these issues in the context of numerical pattern recognition. 
+Segre et al. (1991, 1996), Etzioni and Etzioni (1994), and Gordon and 
+Segre (1996) discuss statistical significance tests for evaluating learning algo- 
+rithms whose performance is measured by their ability to improve computational 
+efficiency. 
+Geman et al. (1992) discuss the tradeoff involved in attempting to minimize 
+bias and variance simultaneously. There is ongoing debate regarding the best way 
+to learn and compare hypotheses from limited data. For example, Dietterich (1996)

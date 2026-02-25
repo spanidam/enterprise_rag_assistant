@@ -1,0 +1,14 @@
+launch of ChatGPT (Chat Generative Pre-trained Transformer)
+[60] on November 30, 2022. ChatGPT is chatbot that enables
+users to steer a conversation to complete a wide range of
+tasks such as question answering, information seeking, text
+summarization, and more. ChatGPT is powered by GPT-3.5
+(and later by GPT-4), a sibling model to InstructGPT, which
+is trained to follow an instruction in a prompt and provide a
+detailed response.
+GPT-4 [33] is the latest and most powerful LLM in the
+GPT family. Launched in March, 2023, GPT-4 is a multi-
+modal LLM in that it can take image and text as inputs and
+produce text outputs. While still less capable than humans
+in some of the most challenging real-world scenarios, GPT-4
+exhibits human-level performance on various professional and

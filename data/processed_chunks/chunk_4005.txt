@@ -1,0 +1,10 @@
+and third assumptions present no problems for the game of backgammon, the
+second is a major impediment. Since the game has about 1020 states, it would
+take thousands of years on today’s fastest computers to solve the Bellman
+equation for v∗, and the same is true for ﬁnding q∗. In reinforcement learning
+one typically has to settle for approximate solutions.
+Many diﬀerent decision-making methods can be viewed as ways of ap-
+proximately solving the Bellman optimality equation. For example, heuristic
+search methods can be viewed as expanding the right-hand side of (3.17) sev-
+eral times, up to some depth, forming a “tree” of possibilities, and then using
+a heuristic evaluation function to approximate v∗at the “leaf” nodes. (Heuris-

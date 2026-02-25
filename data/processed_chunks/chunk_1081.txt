@@ -1,0 +1,21 @@
+1.4 • String basics
+19
+•
+Assigns the string "happy" to a variable, feel.
+•
+Prints the string "Hi Freda!" with a single print() function using the variable name.
+•
+Prints the string "I'm glad you feel happy." with a single print() function using the variable
+feel.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-4-string-basics)
+1.5 Number basics
+Learning objectives
+By the end of this section you should be able to
+•
+Use arithmetic operators to perform calculations.
+•
+Explain the precedence of arithmetic operators.
+Numeric data types
+Python supports two basic number formats, integer and floating-point. An integer represents a whole number,
+and a floating-point format represents a decimal number. The format a language uses to represent data is

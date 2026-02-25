@@ -1,0 +1,10 @@
+error for h gives a misleading estimate of the true errorv(h)?" 
+Notice the close relationship between this question and the questions con- 
+sidered in Chapter 5. Recall that in Chapter 5 we defined the sample error of h 
+with respect to a set S of examples to be the fraction of S rnisclassified by h. The 
+training error defined above is just the sample error when S is the set of training 
+examples. In Chapter 5 we determined the probability that the sample error will 
+provide a misleading estimate of the true error, under the assumption that the data 
+sample S is drawn independent of h. However, when S is the set of training data, 
+the learned hypothesis h depends very much on S! Therefore, in this chapter we 
+provide an analysis that addresses this important special case.

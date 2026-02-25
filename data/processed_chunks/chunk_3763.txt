@@ -1,0 +1,13 @@
+is part of his internal reinforcement learning agent’s environment. The reward
+signal is the primary basis for altering the policy. If an action selected by the
+policy is followed by low reward, then the policy may be changed to select
+some other action in that situation in the future. In general, reward signals
+may be stochastic functions of the state of the environment and the actions
+8
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM
+taken.
+Whereas the reward signal indicates what is good in an immediate sense,
+a value function speciﬁes what is good in the long run. Roughly speaking, the
+value of a state is the total amount of reward an agent can expect to accumulate
+over the future, starting from that state.
+Whereas rewards determine the

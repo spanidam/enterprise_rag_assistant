@@ -1,0 +1,25 @@
+By the end of this section you should be able to
+•
+Identify the scope of a program's variables.
+•
+Discuss the impact of a variable's scope.
+Global scope
+A variable's scope is the part of a program where the variable can be accessed. A variable created outside of a
+function has global scope and can be accessed anywhere in the program. A Python program begins in global
+scope, and the global scope lasts for the entire program execution.
+CHECKPOINT
+Global variables in a program with a function
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-3-variable-scope)
+CONCEPTS IN PRACTICE
+Global variables
+1. Which variables are global?
+num = float(input())
+num_sq = num * num
+print(num, "squared is", num_sq)
+a.
+num only
+b.
+num_sq only
+c.
+num and num_sq

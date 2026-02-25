@@ -1,0 +1,15 @@
+a linear observer with output injection can be designed as
+˙ˆx = Aˆx + bu + φ(y) + L(y −Cˆx)
+10-18 Fill in the details in Example 10.7 showing that the constraints are non-
+holonomic.
+10-19 Fill in the details in Example 10.8 necessary to derive the vector ﬁelds
+g1 and g2 and show that the constraints are nonholonomic.
+10-20 Carry out the calculations necessary to show that the equations of motion
+for the satellite with reaction wheels is given by Equation 10.124.
+10-21 Show that the distribution ∆= span(g1, g2, g3) in for the satellite model
+(10.124) is involutive of rank 3.
+10-22 Using Chow’s Theorem, show that the satellite with reaction wheels
+(10.124) is controllable as long as any two of the three reaction wheels
+are functioning.
+11
+COMPUTER VISION

@@ -1,0 +1,22 @@
+4-7-conditional-expressions)
+4.7 • Conditional expressions
+117
+4.8 Chapter summary
+Highlights from this chapter include:
+•
+Booleans represent a value of True or False.
+•
+Comparison operators compare values and produce True or False.
+•
+Logical operators take condition operand(s) and produce True or False.
+•
+Operators are evaluated in order according to precedence and associativity.
+•
+Conditions are expressions that evaluate to True or False.
+•
+Decision statements allow different paths of execution (branches) through code based on conditions.
+•
+Decision statements can be nested inside other decision statements.
+•
+Conditional expressions are single-line versions of if-else statements.
+At this point, you should be able to write programs that evaluate conditions and execute code statements

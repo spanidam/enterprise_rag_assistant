@@ -1,0 +1,13 @@
+dividual units are interconnected in layers that form a directed acyclic graph. In 
+general, ANNs can be graphs with many types of structures-acyclic 
+or cyclic, 
+directed or undirected. This chapter will focus on the most common and practical 
+ANN approaches, which are based on the BACKPROPAGATION 
+algorithm. The BACK- 
+PROPAGATION algorithm assumes the network is a fixed structure that corresponds 
+to a directed graph, possibly containing cycles. Learning corresponds to choosing 
+a weight value for each edge in the graph. Although certain types of cycles are 
+allowed, the vast majority of practical applications involve acyclic feed-forward 
+networks, similar to the network structure used by ALVINN. 
+4.3 APPROPRIATE PROBLEMS FOR NEURAL NETWORK 
+LEARNING

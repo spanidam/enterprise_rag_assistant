@@ -1,0 +1,24 @@
+sent the vector of forces and torques at the end-eﬀector, expressed in the tool
+frame. Thus Fx, Fy, Fz are the components of the force at the end-eﬀector, and
+nx, ny, nz are the components of the torque at the end-eﬀector.
+Let τ denote the vector of joint torques, and let δX represent a virtual end-
+eﬀector displacement caused by the force F. Finally, let δq represent the cor-
+responding virtual joint displacement. These virtual displacements are related
+through the manipulator Jacobian J(q) according to
+δX
+=
+J(q)δq.
+(9.13)
+The virtual work δw of the system is
+δw
+=
+F T δX −τ T δq.
+(9.14)
+Substituting (9.13)) into (9.14) yields
+δw
+=
+(F T J −τ T )δq
+(9.15)
+which is equal to zero if the manipulator is in equilibrium. Since the generalized
+coordinates q are independent we have the equality
+τ

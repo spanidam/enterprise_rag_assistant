@@ -1,0 +1,17 @@
+connectionist reinforcement learning. Machine Learning, 8:229–256.
+Williams, R. J., Baird, L. C. (1990). A mathematical analysis of actor-critic
+architectures for learning optimal controls through incremental dynamic
+programming.
+In Proceedings of the Sixth Yale Workshop on Adaptive
+and Learning Systems, pp. 96–101. Center for Systems Science, Dunham
+Laboratory, Yale University, New Haven.
+Wilson, S. W. (1994).
+ZCS: A zeroth order classiﬁer system.
+Evolutionary
+Computation, 2:1–18.
+Witten, I. H. (1976). The apparent conﬂict between estimation and control—
+A survey of the two-armed problem.
+Journal of the Franklin Institute,
+301:161–189.
+Witten, I. H. (1977). An adaptive optimal controller for discrete-time Markov
+environments. Information and Control, 34:286–295.

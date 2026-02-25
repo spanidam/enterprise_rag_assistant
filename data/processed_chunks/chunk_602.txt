@@ -1,0 +1,39 @@
+[Remark: The system of Problem 7-23 is said to be stabilizable, which
+is a weaker notion than controllability.]
+7-24 Repeat the above for the system
+
+˙x1
+˙x2
+
+=
+
++1
+0
+0
+2
+ 
+x1
+x2
+
++
+
+0
+1
+
+u
+7-25 Consider the block diagram of Figure 7.18. Suppose that G(s) =
+1
+2s2+s′
+and suppose that it is desired to track a reference signal r(t) = sin(t) +
+cos(2t). If we further specify that the closed loop system should have
+262
+INDEPENDENT JOINT CONTROL
+a natural frequency less than 10 radians with a damping ratio greater
+than 0.707, compute an appropriate compensator C(s) and feedforward
+transfer function F(s).
+8
+MULTIVARIABLE
+CONTROL
+8.1
+INTRODUCTION
+In the previous chapter we discussed techniques to derive a control law for

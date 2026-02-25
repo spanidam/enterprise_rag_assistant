@@ -1,0 +1,37 @@
+specifier for minute is 02d.
+Format
+Description
+Example
+Result
+d
+Decimal integer (default integer format).
+f"{12345678:d}"
+'12345678'
+,d
+Decimal integer, with comma separators.
+f"{12345678:,d}"
+'12,345,678'
+10d
+Decimal integer, at least 10 characters wide.
+f"{12345678:10d}"
+'
+12345678'
+010d
+Decimal integer, at least 10 characters wide, with
+leading zeros.
+f"{12345678:010d}"
+'0012345678'
+Table 3.3 Example format specifiers. The table shows common ways that numbers can be formatted. Many more formatting
+options are available and described in Python's Format Specification Mini-Language (https://docs.python.org/3/library/
+string.html#formatspec).
+3.2 • Formatted strings
+77
+Format
+Description
+Example
+Result
+f
+Fixed-point (default is 6 decimal places).
+f"{math.pi:f}"
+'3.141593'
+.4f

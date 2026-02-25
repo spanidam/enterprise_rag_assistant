@@ -1,0 +1,17 @@
+stands for entropy and S for the original collection of examples. Given an initial collection S of 9 
+positive and 5 negative examples, [9+, 5-1, sorting these by their Humidity produces collections of 
+[3+, 4-1 (Humidity = High) and [6+, 1-1 (Humidity = Normal). The information gained by this 
+partitioning is .151, compared to a gain of only .048 for the attribute Wind. 
+3.4.2 
+An Illustrative Example 
+To illustrate the operation of ID3, consider the learning task represented by the 
+training examples of Table 3.2. Here the target attribute PlayTennis, which can 
+have values yes or no for different Saturday mornings, is to be predicted based 
+on other attributes of the morning in question. Consider the first step through 
+Day 
+Outlook 
+Temperature 
+Humidity 
+Wind 
+PlayTennis 
+D l

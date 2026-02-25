@@ -1,0 +1,25 @@
+distinct program modules that represent the central components in many learning 
+systems. These four modules, summarized in Figure 1.1, are as follows: 
+0 The Performance System is the module that must solve the given per- 
+formance task, in this case playing checkers, by using the learned target 
+function(s). It takes an instance of a new problem (new game) as input and 
+produces a trace of its solution (game history) as output. In our case, the 
+12 
+MACHINE LEARNING 
+Experiment 
+Generator 
+New problem 
+Hypothesis 
+(initial game board) 
+f VJ 
+Performance 
+Generalizer 
+System 
+Solution tract 
+Training examples 
+(game history) 
+/<bl .Ymtn (blJ >. <bZ. Em(b2) 
+>. ... I 
+Critic 
+FIGURE 1.1 
+Final design of the checkers learning program.

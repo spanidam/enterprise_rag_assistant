@@ -1,0 +1,46 @@
+articulated and spherical arms.
+3.3.3.1
+Articulated Conﬁguration
+Consider the elbow manipulator shown in
+Figure 3.13, with the components of o0
+c denoted by xc, yc, zc. We project oc
+onto the x0 −y0 plane as shown in Figure 3.14.
+θ1
+θ2
+z0
+y0
+x0
+r
+d1
+yc
+xc
+zc
+s
+θ3
+Fig. 3.13
+Elbow manipulator
+θ1
+x0
+xc
+yc
+y0
+r
+Fig. 3.14
+Projection of the wrist center onto x0 −y0 plane
+INVERSE KINEMATICS
+91
+We see from this projection that
+θ1
+=
+atan2(xc, yc)
+(3.44)
+in which atan2(x, y) denotes the two argument arctangent function deﬁned in
+Chapter 2.
+Note that a second valid solution for θ1 is
+θ1
+=
+π + atan2(xc, yc)
+(3.45)
+Of course this will, in turn, lead to diﬀerent solutions for θ2 and θ3, as we will
+see below.
+These solutions for θ1, are valid unless xc = yc = 0. In this case (3.44) is un-

@@ -1,0 +1,13 @@
+tion methods for stochastic optimal control problems that are related to
+modern reinforcement learning methods (see also Werbos, 1982, 1987,
+1988, 1989, 1992). Although Werbos’s ideas were not widely recognized
+at the time, they were prescient in emphasizing the importance of ap-
+proximately solving optimal control problems in a variety of domains,
+including artiﬁcial intelligence. The most inﬂuential integration of rein-
+forcement learning and MDPs is due to Watkins (1989). His treatment
+of reinforcement learning using the MDP formalism has been widely
+adopted.
+84
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+Our characterization of the dynamics of an MDP in terms of p(s′, r|s, a)
+is slightly unusual. It is more common in the MDP literature to describe

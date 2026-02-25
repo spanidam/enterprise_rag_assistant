@@ -1,0 +1,19 @@
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+my_dict["pineapple"] = 1
+print(my_dict) # Prints: {"apple": 2, "banana": 3, "orange": 4, "pineapple": 1}
+•
+update() method: the update() method can be called with additional key-value pairs to update the
+dictionary content.
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+my_dict.update({"pineapple": 1, "cherry": 0})
+print(my_dict) # Prints: {"apple": 2, "banana": 3, "orange": 4, "pineapple": 1,
+"cherry": 0}
+To modify a dictionary item, the two approaches above can be used on an existing dictionary key along with
+the updated value. Ex:
+•
+Square bracket notation:
+my_dict = {"apple": 2, "banana": 3, "orange": 4}
+my_dict["apple"] = 1
+print(my_dict) # Prints: {"apple": 1, "banana": 3, "orange": 4}
+•
+update() method:

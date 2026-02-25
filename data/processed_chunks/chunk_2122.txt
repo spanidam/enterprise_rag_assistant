@@ -1,0 +1,9 @@
+lo4 others. Neuron activity is typically excited or inhibited through connections to 
+other neurons. The fastest neuron switching times are known to be on the order of 
+loe3 seconds--quite slow compared to computer switching speeds of 10-lo sec- 
+onds. Yet humans are able to make surprisingly complex decisions, surprisingly 
+quickly. For example, it requires approximately lo-' seconds to visually recognize 
+your mother. Notice the sequence of neuron firings that can take place during this 
+10-'-second interval cannot possibly be longer than a few hundred steps, given 
+the switching speed of single neurons. This observation has led many to speculate 
+that the information-processing abilities of biological neural systems must follow

@@ -1,0 +1,10 @@
+(the last) has been learned so far. With planning, again only one step is learned
+during the ﬁrst episode, but here during the second episode an extensive policy
+has been developed that by the episode’s end will reach almost back to the
+start state. This policy is built by the planning process while the agent is still
+wandering near the start state. By the end of the third episode a complete
+optimal policy will have been found and perfect performance attained.
+In Dyna-Q, learning and planning are accomplished by exactly the same al-
+gorithm, operating on real experience for learning and on simulated experience
+for planning. Because planning proceeds incrementally, it is trivial to intermix
+planning and acting. Both proceed as fast as they can. The agent is always

@@ -1,0 +1,14 @@
+of robot motion planners use one of these packages, rather than implementing
+their own collision detection routines.
+5.5.3
+Enhancement
+After the initial PRM has been constructed, it is likely that it will consist of
+multiple connected components. Often these individual components lie in large
+regions of Qfree that are connected by narrow passages in Qfree. The goal of
+the enhancement process is to connect as many of these disjoint components as
+possible.
+One approach to enhancement is to merely attempt to directly connect nodes
+in two disjoint components, perhaps by using a more sophisticated planner such
+as RPP. A common approach is to identify the largest connected component,
+and to attempt to connect the smaller components to it.
+The node in the

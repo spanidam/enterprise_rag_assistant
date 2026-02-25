@@ -1,0 +1,9 @@
+activities. With that focus, the material is often more concise, with less text and more activity.
+Each section's content is organized in subsections. The subsection begins with a concise introduction to the
+concept, with key term definitions and brief context for its relevance and importance. The concept is then
+explained in detail using video-based animations and interactive learning questions.
+Animation videos use a step-by-step approach to show the execution of Python code. Explanations for each
+step describe Python syntax, show how fundamental programming concepts are used, illustrate how variables
+are assigned, emphasize how code executes line by line, apply problem solving to create programs, and more.
+CHECKPOINT
+Displaying output to the user

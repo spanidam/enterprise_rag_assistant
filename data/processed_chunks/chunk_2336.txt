@@ -1,0 +1,10 @@
+terval, we need only find the interval centered around the mean value errorD(h), 
+which is wide enough to contain 95% of the total probability under this distribu- 
+tion. This provides an interval surrounding errorv(h) into which errors(h) must 
+fall 95% of the time. Equivalently, it provides the size of the interval surrounding 
+errordh) into which errorv(h) must fall 95% of the time. 
+For a given value of N how can we find the size of the interval that con- 
+tains N% of the probability mass? Unfortunately, for the Binomial distribution 
+this calculation can be quite tedious. Fortunately, however, an easily calculated 
+and very good approximation can be found in most cases, based on the fact that 
+for sufficiently large sample sizes the Binomial distribution can be closely ap-

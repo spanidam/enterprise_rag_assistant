@@ -1,0 +1,17 @@
+•
+AI2 Reasoning Challenge (ARC) [193] is used
+for commonsense reasoning. This benchmark encom-
+passes 7, 787 science examination questions. These
+questions are in English, and most of them are set
+up in a multiple-choice format. The questions have
+been divided into two groups: a Challenge Set with
+2, 590 difficult questions and an Easy Set with 5,197
+questions. Each collection has also been pre-divided
+into Train, Development, and Test subsets.
+•
+PIQA [194] is intended to evaluate the language
+representations on their knowledge of physical com-
+monsense. In this dataset, the focus is on everyday
+situations with a preference for uncommon solutions.
+The central task is a multiple-choice question answer-
+ing, where a question (q) is provided along with two

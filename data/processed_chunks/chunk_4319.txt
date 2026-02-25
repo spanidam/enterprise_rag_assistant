@@ -1,0 +1,12 @@
+sequence. The degree of strengthening (indicated by the size of the arrows)
+falls oﬀ(according to γλ or (1 −α)γλ) with steps from the reward. In this
+example, the fall oﬀis 0.9 per step.
+7.6
+Watkins’s Q(λ)
+When Chris Watkins (1989) ﬁrst proposed Q-learning, he also proposed a
+simple way to combine it with eligibility traces. Recall that Q-learning is an
+oﬀ-policy method, meaning that the policy learned about need not be the same
+as the one used to select actions. In particular, Q-learning learns about the
+greedy policy while it typically follows a policy involving exploratory actions—
+occasional selections of actions that are suboptimal according to Q. Because
+of this, special care is required when introducing eligibility traces.

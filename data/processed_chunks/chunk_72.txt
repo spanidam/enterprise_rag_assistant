@@ -1,0 +1,21 @@
+United States.
+How many are in operation in Japan?
+What country
+ranks third in the number of industrial robots in use?
+1-11 Suppose we could close every factory today and reopen then tomorrow
+fully automated with robots. What would be some of the economic and
+social consequences of such a development?
+1-12 Suppose a law were passed banning all future use of industrial robots.
+What would be some of the economic and social consequences of such an
+act?
+1-13 Discuss possible applications where redundant manipulators would be use-
+ful.
+1-14 Referring to Figure 1.28, suppose that the tip of a single link travels a
+distance d between two points. A linear axis would travel the distance d
+CHAPTER SUMMARY
+27
+ℓ
+ℓθ
+d
+Fig. 1.28
+Diagram for Problem 1-15

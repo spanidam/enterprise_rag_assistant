@@ -1,0 +1,76 @@
+c2 + 2ℓ1ℓc2 cos q2) + I1 + I2
+d12
+=
+d21 = m2(ℓ2
+c2 + ℓ1ℓc2 cos q2) + I2
+d22
+=
+m2ℓ2
+c2 + I2
+(6.81)
+Now we can compute the Christoﬀel symbols using the deﬁnition (6.58). This
+gives
+c111
+=
+1
+2
+∂d11
+∂q1
+= 0
+c121
+=
+c211 = 1
+2
+∂d11
+∂q2
+= −m2ℓ1ℓc2 sin q2 =: h
+c221
+=
+∂d12
+∂q2
+−1
+2
+∂d22
+∂q1
+= h
+c112
+=
+∂d21
+∂q1
+−1
+2
+∂d11
+∂q2
+= −h
+(6.82)
+c122
+=
+c212 = 1
+2
+∂d22
+∂q1
+= 0
+c222
+=
+1
+2
+∂d22
+∂q2
+= 0
+Next, the potential energy of the manipulator is just the sum of those of the
+two links. For each link, the potential energy is just its mass multiplied by the
+gravitational acceleration and the height of its center of mass. Thus
+P1
+=
+m1gℓc1 sin q1
+P2
+=
+m2g(ℓ1 sin q1 + ℓc2 sin(q1 + q2))
+P
+=
+P1 + P2 = (m1ℓc1 + m2ℓ1)g sin q1 + m2ℓc2g sin(q1 + q2) (6.83)
+Hence, the functions φk deﬁned in (6.59) become
+φ1
+=
+∂P
+∂q1

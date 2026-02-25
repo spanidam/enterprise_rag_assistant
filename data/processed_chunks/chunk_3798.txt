@@ -1,0 +1,12 @@
+Before doing that, however, we brieﬂy discuss the optimal control thread.
+The term “optimal control” came into use in the late 1950s to describe
+the problem of designing a controller to minimize a measure of a dynamical
+system’s behavior over time. One of the approaches to this problem was de-
+veloped in the mid-1950s by Richard Bellman and others through extending
+a nineteenth century theory of Hamilton and Jacobi. This approach uses the
+concepts of a dynamical system’s state and of a value function, or “optimal
+return function,” to deﬁne a functional equation, now often called the Bell-
+1.7. HISTORY OF REINFORCEMENT LEARNING
+17
+man equation. The class of methods for solving optimal control problems by
+solving this equation came to be known as dynamic programming (Bellman,

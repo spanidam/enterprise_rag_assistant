@@ -1,0 +1,32 @@
+Qk+1
+=
+Qk + α
+h
+Rk −Qk
+i
+=
+αRk + (1 −α)Qk
+=
+αRk + (1 −α) [αRk−1 + (1 −α)Qk−1]
+=
+αRk + (1 −α)αRk−1 + (1 −α)2Qk−1
+=
+αRk + (1 −α)αRk−1 + (1 −α)2αRk−2 +
+· · · + (1 −α)k−1αR1 + (1 −α)kQ1
+=
+(1 −α)kQ1 +
+k
+X
+i=1
+α(1 −α)k−iRi.
+(2.6)
+We call this a weighted average because the sum of the weights is (1 −α)k +
+Pk
+i=1 α(1 −α)k−i = 1, as you can check yourself. Note that the weight, α(1 −
+α)k−i, given to the reward Ri depends on how many rewards ago, k −i, it was
+1The notation (a, b] as a set denotes the real interval between a and b including b but
+not including a. Thus, here we are saying that 0 < α ≤1.
+2.5. OPTIMISTIC INITIAL VALUES
+39
+observed. The quantity 1 −α is less than 1, and thus the weight given to Ri
+decreases as the number of intervening rewards increases. In fact, the weight

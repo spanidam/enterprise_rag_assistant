@@ -1,0 +1,15 @@
+next state s'. Note we have used P(slls, a )  here to rewrite the expected value of 
+V*(6(s, a)) in terms of the probabilities associated with the possible outcomes of 
+the probabilistic 6. 
+As before we can re-express Q recursively 
+Q(s, a )  = E[r(s, a)] + y 
+P(sfls, a) m y  Q(sl, a') 
+(13.9) 
+S' 
+a 
+which is the generalization of the earlier Equation (13.6). To summarize, we have 
+simply redefined Q(s, a) in the nondeterministic case to be the expected value of 
+its previously defined quantity for the deterministic case. 
+Now that we have generalized the definition of Q to accommodate the non- 
+deterministic environment functions r and 6, a new training rule is needed. Our 
+earlier training rule derived for the deterministic case (Equation 13.7) fails to con-

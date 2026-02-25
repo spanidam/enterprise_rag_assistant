@@ -1,0 +1,15 @@
+In Monte Carlo ES, all the returns for each state–action pair are accumu-
+lated and averaged, irrespective of what policy was in force when they were
+observed. It is easy to see that Monte Carlo ES cannot converge to any sub-
+optimal policy. If it did, then the value function would eventually converge to
+the value function for that policy, and that in turn would cause the policy to
+change. Stability is achieved only when both the policy and the value func-
+tion are optimal. Convergence to this optimal ﬁxed point seems inevitable as
+the changes to the action-value function decrease over time, but has not yet
+5.3. MONTE CARLO CONTROL
+123
+Initialize, for all s ∈S, a ∈A(s):
+Q(s, a) ←arbitrary
+π(s) ←arbitrary
+Returns(s, a) ←empty list
+Repeat forever:

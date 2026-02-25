@@ -1,0 +1,10 @@
+together in 1989 with Chris Watkins’s development of Q-learning. This work
+extended and integrated prior work in all three threads of reinforcement learn-
+ing research. Paul Werbos (1987) contributed to this integration by arguing
+for the convergence of trial-and-error learning and dynamic programming since
+1977. By the time of Watkins’s work there had been tremendous growth in
+reinforcement learning research, primarily in the machine learning subﬁeld
+of artiﬁcial intelligence, but also in neural networks and artiﬁcial intelligence
+more broadly. In 1992, the remarkable success of Gerry Tesauro’s backgammon
+playing program, TD-Gammon, brought additional attention to the ﬁeld.
+In the time since publication of the ﬁrst edition of this book, a ﬂourishing

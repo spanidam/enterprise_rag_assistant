@@ -1,0 +1,11 @@
+practice. 
+The training rule in Equation (4.10) is known as the delta rule, or sometimes 
+the LMS (least-mean-square) rule, Adaline rule, or Widrow-Hoff rule (after its 
+inventors). In Chapter 1 we referred to it as the LMS weight-update rule when 
+describing its use for learning an evaluation function for game playing. Notice 
+the delta rule in Equation (4.10) is similar to the perceptron training rule in 
+Equation (4.4.2). In fact, the two expressions appear to be identical. However, 
+the rules are different because in the delta rule o refers to the linear unit output 
+o(2) = i;) .?, whereas for the perceptron rule o refers to the thresholded output 
+o(2) = sgn($ . 2 ) .  
+Although we have presented the delta rule as a method for learning weights

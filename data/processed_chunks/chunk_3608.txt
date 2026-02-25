@@ -1,0 +1,65 @@
+Public
+Tuned
+LLAMA 2 7B
+Medium
+7
+Foundation
+Public
+Original
+Vicuna 13B
+Large
+13
+Foundation
+Public
+Tuned
+Vicuna 7B
+Medium
+7
+Foundation
+Public
+Tuned
+Claude
+Large
+93
+Chat
+Unavailable
+Original
+Claude 2
+Very Large
+137
+Chat
+Unavailable
+Original
+Not all models report their performance on all datasets, and
+because of that, the number of models for which performance
+is reported in different tables varies.
+TABLE VI: Symbolic reasoning comparison.
+Model
+Cobjects
+Penguins
+GPT-NeoX
+26
+33.56
+OPT 66B
+31.2
+28.08
+Bloomberg GPT
+34.8
+37.67
+BLOOM 176B
+36.8
+40.41
+PaLM 540B
+38
+44.5
+Gopher-280B
+49.2
+40.6
+Chinchilla-70B
+59.7
+48.7
+PaLM 2
+61.2
+65.8
+World knowledge is mostly about general knowledge ques-
+tions, for example, in Wikifact dataset questions such as ”Who

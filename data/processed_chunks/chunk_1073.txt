@@ -1,0 +1,47 @@
+guide recommends writing variable names in snake case, which is all lowercase with underscores in between
+each word, such as first_name or total_price.
+A name should be short and descriptive, so words are preferred over single characters in programs for
+readability. Ex: A variable named count indicates the variable's purpose better than a variable named c.
+Python has reserved words, known as keywords, which have special functions and cannot be used as names
+for variables (or other objects).
+False
+await
+else
+import
+pass
+None
+break
+except
+in
+raise
+True
+class
+finally
+is
+return
+and
+continue
+for
+lambda
+try
+as
+def
+from
+nonlocal
+while
+assert
+del
+global
+not
+with
+asynch
+elif
+if
+or
+yield
+Table 1.2 Keywords
+CONCEPTS IN PRACTICE
+Valid variable names
+5. Which can be used as a variable name?
+a.
+median

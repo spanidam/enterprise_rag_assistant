@@ -1,0 +1,11 @@
+specific search in this case is that there is a single maximally general hypothesis 
+from which to begin the search, whereas there are very many specific hypotheses 
+in most hypothesis spaces (i.e., one for each possible instance). Given many 
+maximally specific hypotheses, it is unclear which to select as the starting point of 
+the search. One program that conducts a specific-to-general search, called GOLEM 
+(Muggleton and Feng 1990), addresses this issue by choosing several positive 
+examples at random to initialize and to guide the search. The best hypothesis 
+obtained through multiple random choices is then selected. 
+A third dimension is whether the LEARN-ONE-RULE 
+search is a generate then 
+test search through the syntactically legal hypotheses, as it is in our suggested

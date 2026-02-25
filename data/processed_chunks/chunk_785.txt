@@ -1,0 +1,19 @@
+choice of zt, since it is the choice of zt that determines which pixels will belong
+to each of the two groups. The approach that we take in this section is to
+determine the value for zt that minimizes a function of the variances of these
+two groups of pixels.
+In this section, it will be convenient to rewrite the conditional means and
+variances in terms of the pixels in the two groups. To do this, we deﬁne qi(zt) as
+the probability that a pixel in the image will belong to group i for a particular
+choice of threshold, zt. Since all pixels in the background have gray value less
+than or equal to zt and all pixels in the object have gray value greater than zt,
+we can deﬁne qi(zt) for i = 0, 1 by
+q0(zt) =
+Pzt
+z=0 H[z]
+(Nrows × Ncols),
+q1(zt) =
+PN−1
+z=zt+1 H[z]
+(Nrows × Ncols).
+(11.36)

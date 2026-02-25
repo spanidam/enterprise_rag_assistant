@@ -1,0 +1,11 @@
+the case in which the learner makes no prior assumption about the form of the 
+target concept. 
+7.3 SAMPLE COMPLEXITY FOR FINITE HYPOTHESIS SPACES 
+As noted above, PAC-learnability is largely determined by the number of training 
+examples required by the learner. The growth in the number of required training 
+examples with problem size, called the sample complexity of the learning problem, 
+is the characteristic that is usually of greatest interest. The reason is that in most 
+practical settings the factor that most limits success of the learner is the limited 
+availability of training data. 
+Here we present a general bound on the sample complexity for a very broad 
+class of learners, called consistent learners. A learner is consistent if it outputs

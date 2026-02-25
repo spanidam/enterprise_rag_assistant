@@ -1,0 +1,14 @@
+type of robot as they impact the control problem. Discuss the nature of
+the coupling nonlinearities, the eﬀect of gravity, and inertial variations
+as the robots move about. For which manipulator would you expect PD
+control to work best? worst?
+7-11 Consider the two-link cartesian robot of Example 6.4.1. Suppose that each
+joint is actuated by a permanent magnet DC-motor. Write the complete
+dynamics of the robot assuming perfect gears.
+7-12 Carry out the details of a PID control for the two-link cartesian robot of
+Problem 11. Note that the system is linear and the gravitational forces
+are conﬁguration independent. What does this say about the validity of
+this approach to control?
+260
+INDEPENDENT JOINT CONTROL
+7-13 Simulate the above PID control law. Choose reasonable numbers for the

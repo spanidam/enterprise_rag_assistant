@@ -1,0 +1,16 @@
+Machine Learning, pp. 330–337. Morgan Kaufmann, San Mateo, CA.
+Tesauro, G. J. (1986). Simple neural models of classical conditioning. Biolog-
+ical Cybernetics, 55:187–200.
+Tesauro, G. J. (1992). Practical issues in temporal diﬀerence learning. Ma-
+chine Learning, 8:257–277.
+Tesauro, G. J. (1994).
+TD-Gammon, a self-teaching backgammon program,
+achieves master-level play. Neural Computation, 6(2):215–219.
+Tesauro, G. J. (1995). Temporal diﬀerence learning and TD-Gammon. Com-
+munications of the ACM, 38:58–68.
+Tesauro, G. J., Galperin, G. R. (1997).
+On-line policy improvement using
+Monte-Carlo search. In Advances in Neural Information Processing Sys-
+tems: Proceedings of the 1996 Conference, pp. 1068–1074.
+MIT Press,
+Cambridge, MA.

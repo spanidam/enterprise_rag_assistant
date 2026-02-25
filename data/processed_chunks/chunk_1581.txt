@@ -1,0 +1,34 @@
+Employee, Developer, SalesRep
+c.
+Dessert, BakedGood, ApplePie
+Implementing hierarchical inheritance
+Multiple classes can inherit from a single class by simply including the superclass name in each subclass
+definition.
+EXAMPLE 13.4
+Choir members
+class ChoirMember:
+def display(self):
+print("Current choir member")
+class Soprano(ChoirMember):
+def display(self):
+super().display()
+print("Part: Soprano")
+class Soprano1(Soprano):
+def display(self):
+super().display()
+print("Division: Soprano 1")
+class Alto(ChoirMember):
+def display(self):
+super().display()
+print("Part: Alto")
+class Tenor(ChoirMember):
+def display(self):
+super().display()
+print("Part: Tenor")
+class Bass(ChoirMember):
+def display(self):
+super().display()
+print("Part: Bass")
+mem_10 = Alto()
+13.4 • Hierarchical inheritance
+317

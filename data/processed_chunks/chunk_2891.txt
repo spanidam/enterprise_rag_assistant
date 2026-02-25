@@ -1,0 +1,14 @@
+to override the prior assumed accuracy p. The m-estimate measure is advo- 
+cated by Cestnik and Bratko (1991) and has been used in some versions of 
+the CN2 algorithm. It is also used in the naive Bayes classifier discussed in 
+Section 6.9.1. 
+0 Entropy. This is the measure used by the PERFORMANCE subroutine in the 
+algorithm of Table 10.2. Let S be the set of examples that match the rule 
+preconditions. Entropy measures the uniformity of the target function values 
+for this set of examples. We take the negative of the entropy so that better 
+rules will have higher scores. 
+C 
+-Entropy (S) = 
+pi logl pi 
+where c is the number of distinct values the target function may take on, 
+and where pi is the proportion of examples from S for which the target

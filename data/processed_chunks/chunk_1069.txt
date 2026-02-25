@@ -1,0 +1,14 @@
+Write a program that uses multiple print() statements to output the following poem by Robert Frost
+(https://openstax.org/r/100robertfrost). Each print() statement should correspond to one line of output.
+Tip: You don't need to write the entire program all at once. Try writing the first print() statement, and
+then click the Run button. Then write the next print() statement, and click the Run button again.
+Continue writing and testing the code incrementally until you finish the program.
+I shall be telling this with a sigh
+Somewhere ages and ages hence:
+Two roads diverged in a wood, and I--
+I took the one less traveled by,
+And that has made all the difference.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-2-inputoutput)
+TRY IT
+Name and likes

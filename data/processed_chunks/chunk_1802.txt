@@ -1,0 +1,11 @@
+rithms are available via the World Wide Web at http://www.cs.cmu.edu/-tom1 
+mlbook.html. These include neural network code and data for face recognition, 
+decision tree learning, code and data for financial loan analysis, and Bayes clas- 
+sifier code and data for analyzing text documents. I am grateful to a number of 
+colleagues who have helped to create these online resources, including Jason Ren- 
+nie, Paul Hsiung, Jeff Shufelt, Matt Glickman, Scott Davies, Joseph O'Sullivan, 
+Ken Lang, Andrew McCallum, and Thorsten Joachims. 
+ACKNOWLEDGMENTS 
+In writing this book, I have been fortunate to be assisted by technical experts 
+in many of the subdisciplines that make up the field of machine learning. This 
+book could not have been written without their help. I am deeply indebted to

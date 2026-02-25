@@ -1,0 +1,10 @@
+sible in each state, A = {up, down, right, left}, which deterministically
+cause the corresponding state transitions, except that actions that would take
+the agent oﬀthe grid in fact leave the state unchanged. Thus, for instance,
+p(6|5, right) = 1, p(10|5, right) = 0, and p(7|7, right) = 1. This is an undis-
+counted, episodic task. The reward is −1 on all transitions until the terminal
+state is reached. The terminal state is shaded in the ﬁgure (although it is
+shown in two places, it is formally one state). The expected reward function is
+thus r(s, a, s′) = −1 for all states s, s′ and actions a. Suppose the agent follows
+the equiprobable random policy (all actions equally likely). The left side of
+Figure 4.2 shows the sequence of value functions {vk} computed by iterative

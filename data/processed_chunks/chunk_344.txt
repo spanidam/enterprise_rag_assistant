@@ -1,0 +1,13 @@
+First,
+Uatt should be monotonically increasing with distance from qﬁnal. The simplest
+choice for such a ﬁeld is a ﬁeld that grows linearly with the distance from qﬁnal,
+a so-called conic well potential. However, the gradient of such a ﬁeld has unit
+magnitude everywhere but the origin, where it is zero. This can lead to stability
+problems, since there is a discontinuity in the attractive force at the origin. We
+PATH PLANNING USING CONFIGURATION SPACE POTENTIAL FIELDS
+155
+prefer a ﬁeld that is continuously diﬀerentiable, such that the attractive force
+decreases as the robot approaches qﬁnal. The simplest such ﬁeld is a ﬁeld that
+grows quadratically with the distance to qﬁnal.
+Let ρf(q) be the Euclidean
+distance between q and qﬁnal, i.e., ρf(q) = ||q −qﬁnal||. Then we can deﬁne the

@@ -1,0 +1,32 @@
+r + γv∗(s′)
+
+.
+(3.17)
+The last two equations are two forms of the Bellman optimality equation for
+v∗. The Bellman optimality equation for q∗is
+q∗(s, a)
+=
+E
+h
+Rt+1 + γ max
+a′
+q∗(St+1, a′)
+ St = s, At = a
+i
+=
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γ max
+a′
+q∗(s′, a′)
+i
+.
+The backup diagrams in Figure 3.7 show graphically the spans of future
+states and actions considered in the Bellman optimality equations for v∗and
+q∗. These are the same as the backup diagrams for vπ and qπ except that arcs
+have been added at the agent’s choice points to represent that the maximum
+over that choice is taken rather than the expected value given some policy.
+Figure 3.7a graphically represents the Bellman optimality equation (3.17).
+For ﬁnite MDPs, the Bellman optimality equation (3.17) has a unique so-

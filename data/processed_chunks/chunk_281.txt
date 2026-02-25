@@ -1,0 +1,72 @@
+Consider the two-link planar manipulator of Example 3.1. Since both joints
+are revolute the Jacobian matrix, which in this case is 6 × 2, is of the form
+J(q)
+=
+ z0 × (o2 −o0)
+z1 × (o2 −o1)
+z0
+z1
+
+(4.83)
+The various quantities above are easily seen to be
+o0 =
+
+
+0
+0
+0
+
+
+o1 =
+
+
+a1c1
+a1s1
+0
+
+
+o2 =
+
+
+a1c1 + a2c12
+a1s1 + a2s12
+0
+
+
+(4.84)
+z0 = z1
+=
+
+
+0
+0
+1
+
+
+(4.85)
+128
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+Performing the required calculations then yields
+J
+=
+
+
+−a1s1 −a2s12
+−a2s12
+a1c1 + a2c12
+a2c12
+0
+0
+0
+0
+0
+0
+1
+1
+
+
+(4.86)
+It is easy to see how the above Jacobian compares with Equation (1.1) derived
+in Chapter 1.
+The ﬁrst two rows of Equation (4.85) are exactly the 2 × 2
+Jacobian of Chapter 1 and give the linear velocity of the origin o2 relative to

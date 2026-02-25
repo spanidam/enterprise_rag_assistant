@@ -1,0 +1,9 @@
+less than 5 arises from two other domain theory rules that assert that Obj 1 should 
+be Lighter than the Endtable, and that the Weight of the Endtable is 5. Thus, 
+it is the particular composition and instantiation of these primitive terms from the 
+domain theory that gives rise to defining this new feature. 
+The issue of automatically learning useful features to augment the instance 
+representation is an important issue for machine learning. The analytical derivation 
+of new features in explanation-based learning and the inductive derivation of new 
+features in the hidden layer of neural networks provide two distinct approaches. 
+Because they rely on different sources of information (statistical regularities over

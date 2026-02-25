@@ -1,0 +1,10 @@
+ical result. There are always practical considerations to be taken into account,
+however. The most serious factor to be considered in observer design is noise in
+the measurement of the output. To place the poles of the observer very far to
+the left of the imaginary axis in the complex plane requires that the observer
+gains be large. Large gains can amplify noise in the output measurement and
+result in poor overall performance. Large gains in the state feedback control law
+(7.79) can result in saturation of the input, again resulting in poor performance.
+Also uncertainties in the system parameters, nonlinearities such as a nonlinear
+spring characteristic or backlash, will reduce the achievable performance from
+the above design. Therefore, the above ideas are intended only to illustrate

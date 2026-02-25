@@ -1,0 +1,15 @@
+based on their frequency.
+3) SentencePieceEncoding: Although both tokenizers de-
+scribed before are strong and have many advantages compared
+to white-space tokenization, they still take assumption of
+words being always separated by white-space as granted. This
+assumption is not always true, in fact in some languages, words
+can be corrupted by many noisy elements such as unwanted
+spaces or even invented words. SentencePieceEncoding tries
+to address this issue.
+D. Positional Encoding
+1) Absolute Positional Embeddings: (APE) [44] has been
+used in the original Transformer model to preserve the infor-
+mation of sequence order. Therefore, the positional information
+of words is added to the input embeddings at the bottom of
+both the encoder and decoder stacks. There are various options

@@ -1,0 +1,25 @@
+sented by (7.26) are linear. The eﬀect of the nonlinear coupling terms is treated
+as a disturbance dk, which may be small for large gear reduction provided the
+velocities and accelerations of the joints are also small.
+Henceforth we suppress the subscript k representing the particular joint and
+represent (7.30) in the Laplace domain by the block diagram of Figure 7.9. The
+d
+−
+
+u
++/L
+/
+1
+Jeff s+Beff
+/
+1
+s
+θm/
+Fig. 7.9
+Block diagram of simpliﬁed open loop system with eﬀective inertia and damp-
+ing.
+set-point tracking problem is now the problem of tracking a constant or step
+reference command θd while rejecting a constant disturbance, d.
+7.3.1
+PD Compensator
+As a ﬁrst illustration, we choose a so-called PD-compensator. The resulting

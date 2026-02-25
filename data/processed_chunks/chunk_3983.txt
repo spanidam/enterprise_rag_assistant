@@ -1,0 +1,21 @@
+looking ahead from one state to its possible successor states, as suggested by
+Figure 3.4a. Each open circle represents a state and each solid circle represents
+a state–action pair. Starting from state s, the root node at the top, the agent
+could take any of some set of actions—three are shown in Figure 3.4a. From
+each of these, the environment could respond with one of several next states,
+s′, along with a reward, r. The Bellman equation (3.12) averages over all the
+possibilities, weighting each by its probability of occurring. It states that the
+72
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+s,a
+s
+a
+s'
+r
+a'
+s'
+r
+(b)
+(a)
+Figure 3.4: Backup diagrams for (a) vπ and (b) qπ.
+value of the start state must equal the (discounted) value of the expected next

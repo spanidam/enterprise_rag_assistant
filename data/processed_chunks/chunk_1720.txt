@@ -1,0 +1,15 @@
+not connected to an if statement and produces an error.
+385
+4.7 Conditional expressions
+1. c. The conditional expression will assign response with "even" if x is even. response is assigned with
+"odd" if x is odd.
+2. a. 100 < 100 is False so result is assigned with x - offset = 100 - 10 = 90.
+3. c. min_num cannot be assigned with min_num = y. The correct expression is min_num = x if x < y
+else y"
+4. b. Conditional expressions that evaluate to a Boolean are redundant. The Boolean expression should be
+used instead.
+5. b. The expression is evaluated as (fee + 10) if hours > 12 else 2. So if hours > 12, the result will
+be fee + 10; otherwise, the result will be 2.
+Chapter 5
+5.1 While loop
+1. b. The loop runs six times for values of g = 1 , 2 , 3 , 5 , 8 , and 13 .

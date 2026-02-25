@@ -1,0 +1,11 @@
+Step 3: Locate the origin oi where the common normal to zi and zi−1 intersects
+zi. If zi intersects zi−1 locate oi at this intersection. If zi and zi−1 are
+parallel, locate oi in any convenient position along zi.
+Step 4: Establish xi along the common normal between zi−1 and zi through
+oi, or in the direction normal to the zi−1−zi plane if zi−1 and zi intersect.
+Step 5: Establish yi to complete a right-handed frame.
+Step 6: Establish the end-eﬀector frame onxnynzn. Assuming the n-th joint
+is revolute, set zn = a along the direction zn−1. Establish the origin on
+conveniently along zn, preferably at the center of the gripper or at the
+tip of any tool that the manipulator may be carrying. Set yn = s in the
+direction of the gripper closure and set xn = n as s × a. If the tool is

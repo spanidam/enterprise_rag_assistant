@@ -1,0 +1,39 @@
+4. Which value might be returned by id(rating)?
+a.
+9793344
+b.
+<class 'float'>
+c.
+10.0
+5. Which value might be returned by type(rating)?
+a.
+10.0
+b.
+"float"
+c.
+<class 'float'>
+6. What expression returns the value of an object?
+a.
+value(rating)
+b.
+rating
+c.
+"rating"
+3.3 • Variables revisited
+81
+EXPLORING FURTHER
+As shown in a memory diagram, variables and objects are two separate ideas. Calling a function like id()
+or type() returns information about an object, not a variable. In fact, a variable doesn't have an identity or
+a type, as shown in this example:
+>>> rating = 10
+# Integer object somewhere in memory.
+>>> type(rating)
+<class 'int'>
+>>> id(rating)
+9793344
+>>> rating = "ten"
+# String object somewhere else in memory.
+>>> type(rating)
+<class 'str'>
+>>> id(rating)
+140690967388272

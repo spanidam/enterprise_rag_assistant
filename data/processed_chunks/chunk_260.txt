@@ -1,0 +1,19 @@
+ferentiable as a function of t, an argument identical to the one in the previous
+section shows that the time derivative ˙R(t) of R(t) is given by
+˙R(t)
+=
+S(t)R(t)
+(4.18)
+where the matrix S(t) is skew symmetric. Now, since S(t) is skew symmetric,
+it can be represented as S(ω(t)) for a unique vector ω(t). This vector ω(t) is
+the angular velocity of the rotating frame with respect to the ﬁxed frame at
+time t. Thus, the time derivative ˙R(t) is given by
+˙R(t)
+=
+S(ω(t))R(t)
+(4.19)
+in which ω(t) is the angular velocity.
+Equation (4.19) shows the relationship between angular velocity and the
+derivative of a rotation matrix. In particular, if the instantaneous orientation
+of a frame o1x1y1z1 with respect to a frame o0x0y0z0 is given by R0
+1, then the

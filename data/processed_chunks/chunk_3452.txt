@@ -1,0 +1,13 @@
+better open-source LLMs to compete the closed-source ones or
+to develop task-specific LLMs for mission-critical applications.
+The first set of LLaMA models [32] was released in Febru-
+ary 2023, ranging from 7B to 65B parameters. These models
+are pre-trained on trillions of tokens, collected from publicly
+available datasets. LLaMA uses the transformer architecture of
+GPT-3, with a few minor architectural modifications, including
+(1) using a SwiGLU activation function instead of ReLU,
+(2) using rotary positional embeddings instead of absolute
+positional embedding, and (3) using root-mean-squared layer-
+normalization instead of standard layer-normalization. The
+open-source LLaMA-13B model outperforms the proprietary
+GPT-3 (175B) model on most benchmarks, making it a good

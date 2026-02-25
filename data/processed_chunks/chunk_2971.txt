@@ -1,0 +1,13 @@
+tion and deduction. Vere (1975) also explored learning logical representations, 
+and Buchanan's (1976) META-DENDRAL program learned relational descriptions 
+representing molecular substructures likely to fragment in a mass spectrometer. 
+This program succeeded in discovering useful rules that were subsequently pub- 
+lished in the chemistry literature. Mitchell's (1979) CANDIDATE-ELIMINATION 
+ver- 
+sion space algorithm was applied to these same relational descriptions of chemical 
+structures. 
+With the popularity of the PROLOG 
+language in the mid-1980~~ 
+researchers 
+began to look more carefully at learning relational descriptions represented by 
+Horn clauses. Early work on learning Horn clauses includes Shapiro's (1983)

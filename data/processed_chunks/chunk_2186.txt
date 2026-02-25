@@ -1,0 +1,14 @@
+100 
+MACHINE LEARNING 
+criterion. The choice of termination criterion is an important one, because too few 
+iterations can fail to reduce error sufficiently, and too many can lead to overfitting 
+the training data. This issue is discussed in greater detail in Section 4.6.5. 
+4.5.2.1 ADDING MOMENTUM 
+Because BACKPROPAGATION 
+is such a widely used algorithm, many variations have 
+been developed. Perhaps the most common is to alter the weight-update rule in 
+Equation (T4.5) in the algorithm by making the weight update on the nth iteration 
+depend partially on the update that occurred during the (n - 1)th iteration, as 
+follows: 
+Here Awji(n) is the weight update performed during the nth iteration through the 
+main loop of the algorithm, and 0 5 a < 1 is a constant called the momentum.

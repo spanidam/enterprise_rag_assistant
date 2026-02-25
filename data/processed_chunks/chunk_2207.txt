@@ -1,0 +1,12 @@
+error gradient that provides a very useful structure for organizing the search for 
+the best hypothesis. This structure is quite different from the general-to-specific 
+ordering used to organize the search for symbolic concept learning algorithms, 
+or the simple-to-complex ordering over decision trees used by the ID3 and C4.5 
+algorithms. 
+What is the inductive bias by which BACKPROPAGATION 
+generalizes beyond 
+the observed data? It is difficult to characterize precisely the inductive bias of 
+BACKPROPAGATION 
+learning, because it depends on the interplay between the gra- 
+dient descent search and the way in which the weight space spans the space of 
+representable functions. However, one can roughly characterize it as smooth in-

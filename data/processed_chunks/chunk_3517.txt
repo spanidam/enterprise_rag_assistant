@@ -1,0 +1,13 @@
+1) Greedy Search: Greedy search takes the most probable
+token at each step as the next token in the sequence, discarding
+all other potential options. As you can imagine, this is a simple
+approach and can loose a lot of temporal consistency and
+coherency. It only considers the most probable token at each
+step, without considering the overall effect on the sequence.
+This property makes it fast, but it also means that it can miss
+out on better sequences that might have appeared with slightly
+less probable next tokens.
+2) Beam Search: Unlike greedy search that only considers
+the next most probable token, beam search takes into account
+the N most likely tokens, where N denotes the number of
+beams. This procedure is repeated until a predefined maxi-

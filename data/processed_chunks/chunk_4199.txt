@@ -1,0 +1,22 @@
+V (St) ←V (St) + α
+h
+Gt −V (St)
+i
+,
+(6.1)
+where Gt is the actual return following time t, and α is a constant step-
+size parameter (c.f., Equation 2.4). Let us call this method constant-α MC.
+Whereas Monte Carlo methods must wait until the end of the episode to
+determine the increment to V (St) (only then is Gt known), TD methods need
+wait only until the next time step. At time t+1 they immediately form a target
+and make a useful update using the observed reward Rt+1 and the estimate
+V (St+1). The simplest TD method, known as TD(0), is
+V (St) ←V (St) + α
+h
+Rt+1 + γV (St+1) −V (St)
+i
+.
+(6.2)
+In eﬀect, the target for the Monte Carlo update is Gt, whereas the target for
+the TD update is Rt+1 + γV (St+1).
+Because the TD method bases its update in part on an existing estimate,

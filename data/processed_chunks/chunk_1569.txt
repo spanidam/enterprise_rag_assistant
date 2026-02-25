@@ -1,0 +1,20 @@
+309
+13.3 Methods
+Learning objectives
+By the end of this section you should be able to
+•
+Write overridden methods to change behavior of inherited methods.
+•
+Use super() to access superclass methods.
+•
+Identify applications of polymorphism in method and function use.
+Overriding methods
+Sometimes a programmer wants to change the functions a subclass inherits. Mint is a subclass that has the
+same functionality as Plant, except for one function. A subclass can override a superclass method by defining
+a method with the same name as the superclass method.
+CHECKPOINT
+Overriding a superclass method
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-3-methods)
+CONCEPTS IN PRACTICE
+Overriding methods

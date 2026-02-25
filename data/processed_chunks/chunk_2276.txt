@@ -1,0 +1,14 @@
+ting results in networks that generalize poorly to new data despite excellent 
+performance over the training data. Cross-validation methods can be used to 
+estimate an appropriate stopping point for gradient descent search and thus 
+to minimize the risk of overfitting. 
+0 Although BACKPROPAGATION 
+is the most common ANN learning algorithm, 
+many others have been proposed, including algorithms for more specialized 
+tasks. For example, recurrent neural network methods train networks con- 
+taining directed cycles, and algorithms such as CASCADE 
+CORRELATION 
+alter 
+the network structure as well as the network weights. 
+Additional information on ANN learning can be found in several other chap- 
+ters in this book. A Bayesian justification for choosing to minimize the sum of

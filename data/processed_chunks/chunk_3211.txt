@@ -1,0 +1,10 @@
+BottomIsFlat , HasHandle, Light, HasConcavity , ConcavityPointsUp 
+As a final step in generating the candidate specialization, this sufficient condition is 
+pruned. For each literal in the expression, the literal is removed unless its removal 
+reduces classification accuracy over the training examples. This step is included 
+to recover from overspecialization in case the imperfect domain theory includes 
+irrelevant literals. In our current example, the above set of literals matches two 
+positive and two negative examples. Pruning (removing) the literal HasHandle re- 
+sults in improved performance. The final pruned, operational, sufficient conditions 
+are, therefore, 
+BottomZsFlat , Light, HasConcavity , ConcavityPointsUp

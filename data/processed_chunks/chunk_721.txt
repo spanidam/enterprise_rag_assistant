@@ -1,0 +1,11 @@
+in such a way that the resulting linear system is composed of subsystems, each
+of which is aﬀected by only a single one of the outer loop control inputs. Since
+we are concerned only with the application of these ideas to manipulator control
+we will not need the most general results in multi-input feedback linearization.
+Instead, we will use the physical insight gained by our detailed derivation of
+this result in the single-link case to derive a feedback linearizing control both
+for n-link rigid manipulators and for n-link manipulators with elastic joints
+directly.
+Example 10.5
+We will ﬁrst verify what we have stated previously, namely
+that for an n-link rigid manipulator the feedback linearizing control is identical

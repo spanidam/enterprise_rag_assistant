@@ -1,0 +1,22 @@
+Given the Pet class, create a Bird class inherited from Pet and a Finch class inherited from Bird.
+Override the display() method in Bird and Finch such that the program output is:
+Pet type: Bird
+Bird type: Finch
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-3-methods)
+13.3 • Methods
+315
+TRY IT
+Using super()
+Given the Employee class, create a Developer class inherited from Employee with methods __init__()
+and print_info() such that:
+__init__()
+•
+Uses super() to call Employee's __init__() to initialize e_id and hire_year.
+•
+Assigns lang_xp with list parameter lang_xp.
+print_info()
+•
+Uses super() to print e_id and hire_year.
+•
+Prints "Language(s):" followed by lang_xp.

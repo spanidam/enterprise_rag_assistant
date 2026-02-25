@@ -1,0 +1,16 @@
+•
+Examples of Usage: timedelta (https://openstax.org/r/100timedeltaex)
+Write a program that creates a date object representing your birthday. Then get a date object
+representing today's date (the date the program is run). Calculate the difference between the two dates,
+and output the results in the following format:
+Your birth date: 2005-03-14
+Today's date is: 2023-06-01
+You were born 6653 days ago
+(that is 574819200 seconds)
+You are about 18 years old
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+7-5-finding-modules)
+TRY IT
+More exact age
+The datetime module does not provide a built-in way to display a person's exact age. Ex: The following
+program calculates an exact age (in years and days) using floor division and modulo. The output is: You

@@ -1,0 +1,21 @@
+id() function returns the object's identity.
+•
+An object's type determines the possible values and operations of an object. Ex: Integers and floats can be
+"divided" using the / operator, but strings cannot. The built-in type() function returns the object's type.
+•
+An object's value represents the current state of the object. Many objects, such as numbers and strings,
+cannot be modified once created. Some objects, such as lists (introduced later), are designed to be
+modified.
+CHECKPOINT
+Identity, type, and value
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+3-3-variables-revisited)
+CONCEPTS IN PRACTICE
+id() and type()
+4. Which value might be returned by id(rating)?
+a.
+9793344
+b.
+<class 'float'>
+c.
+10.0

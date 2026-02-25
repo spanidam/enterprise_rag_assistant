@@ -1,0 +1,14 @@
+4. <Sunny, Warm, High, Strong, Cool, Change>, EnjoySport = Yes 
+FIGURE 2.6 
+CANDIDATE-ELIMINATION 
+Trace 3. The positive training example generalizes the S boundary, from 
+S3 to S4. One member of Gg must also be deleted, because it is no longer more general than the S4 
+boundary. 
+bounded by S4 and G4, is shown in Figure 2.7. This learned version space is 
+independent of the sequence in which the training examples are presented (be- 
+cause in the end it contains all hypotheses consistent with the set of examples). 
+As further training data is encountered, the S and G boundaries will move mono- 
+tonically closer to each other, delimiting a smaller and smaller version space of 
+candidate hypotheses. 
+<Sunny, ?, ?, Strong, ?, ?> <Sunny, Warm, ?, ?, ?, ?> <?, Warm, ?, Strong, ?, ?> 
+s4:

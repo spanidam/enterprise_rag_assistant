@@ -1,0 +1,12 @@
+which corresponded to a diﬀerent scheduling algorithm.
+Figure 14.11 shows how the mean performance of the 12 TDNN networks
+(labeled G12TDN) compared with the performances of two versions of Zweben
+and Daun’s iterative repair algorithm, one using the number of constraint
+violations as the function to be minimized by simulated annealing (IR-V)
+and the other using the RDF measure (IR-RDF). The ﬁgure also shows the
+performance of the ﬁrst version of their system that did not use a TDNN
+(G12N). The mean RDF of the best schedule found by repeatedly running
+an algorithm is plotted against the total number of schedule repairs (using a
+log scale). These results show that the learning system produced scheduling
+algorithms that needed many fewer repairs to ﬁnd conﬂict-free schedules of the
+300

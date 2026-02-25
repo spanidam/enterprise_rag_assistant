@@ -1,0 +1,9 @@
+by Equations (5.17) and (5.18), which can be restated using our current notation as 
+where sp is the estimated standard deviation of the sample mean 
+and where tN,k-l is a constant analogous to our earlier ZN. In fact, the constant 
+t~,k-l characterizes the area under a probability distribution known as the t distri- 
+bution, just as the constant ZN characterizes the area under a Normal distribution. 
+The t distribution is a bell-shaped distribution similar to the Normal distribu- 
+tion, but wider and shorter to reflect the greater variance introduced by using sp 
+to approximate the true standard deviation ap. The t distribution approaches the 
+Normal distribution (and therefore tN,k-l approaches zN) as k approaches infinity.

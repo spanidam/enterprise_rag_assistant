@@ -1,0 +1,26 @@
+Volume(x, vx) r\ Volurne(y, vy) A LessThan(vx, vy) 
+rn Target concept: SafeToStack(x,y) 
+rn Training Examples: A typical positive example, SafeToStack(Obj1, ObjZ), is shown below: 
+On(Objl.Obj2) 
+Owner(0bj I ,  Fred) 
+Type(0bj I ,  Box) 
+Owner(Obj2, Louise) 
+Type(Obj2, Endtable) 
+Density(0bj 1 ,0.3) 
+Color(Obj1, Red) 
+Material(Obj1, Cardboard) 
+Color(Obj2, Blue) 
+Material (Obj2, Wood) 
+Volume(Objl,2) 
+Domain Theory B: 
+SafeToStack(x, y) c 
+-Fragile(y) 
+SafeToStack(x, y) c 
+Lighter(x, y) 
+Lighter@, y) c Weight(x, wx) A Weight(y, wy) r\ LessThan(wx, wy) 
+Weight(x, w )  c Volume(x, v) A Density(x,d) A Equal(w, times(v, d ) )  
+Weight(x, 5) c Type(x, Endtable) 
+Fragile(x) c 
+Material (x, Glass) 
+Determine: 
+rn A hypothesis from H consistent with the training examples and domain theory.

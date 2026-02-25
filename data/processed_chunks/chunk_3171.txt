@@ -1,0 +1,10 @@
+tives of the target function with respect to transformations of its inputs. It combines 
+this prior knowledge with observed training data, by minimizing an objective func- 
+tion that measures both the network's error with respect to the training example 
+values (fitting the data) and its error with respect to the desired derivatives (fitting 
+the prior knowledge). The value of p determines the degree to which the network 
+will fit one or the other of these two components in the total error. The behavior 
+of the algorithm is sensitive to p, which must be chosen by the designer. 
+Although TANGENTPROP 
+succeeds in combining prior knowledge with train- 
+ing data to guide learning of neural networks, it is not robust to errors in the prior

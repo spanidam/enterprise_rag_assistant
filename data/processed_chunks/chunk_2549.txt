@@ -1,0 +1,11 @@
+i 
+0 The naive Bayes classifier is a Bayesian learning method that has been found 
+to be useful in many practical applications. It is called "naive" because it in- 
+corporates the simplifying assumption that attribute values are conditionally 
+independent, given the classification of the instance. When this assumption 
+is met, the naive Bayes classifier outputs the MAP classification. Even when 
+this assumption is not met, as in the case of learning to classify text, the 
+naive Bayes classifier is often quite effective. Bayesian belief networks pro- 
+vide a more expressive representation for sets of conditional independence 
+assumptions among subsets of the attributes. 
+0 The framework of Bayesian reasoning can provide a useful basis for ana-

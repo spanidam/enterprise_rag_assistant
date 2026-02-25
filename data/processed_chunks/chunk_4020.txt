@@ -1,0 +1,15 @@
+interaction does not terminate. Our episodic and continuing tasks are
+3.10. SUMMARY
+83
+similar to indeﬁnite-horizon and inﬁnite-horizon tasks, respectively, but
+we prefer to emphasize the diﬀerence in the nature of the interaction.
+This diﬀerence seems more fundamental than the diﬀerence in the ob-
+jective functions emphasized by the usual terms. Often episodic tasks
+use an indeﬁnite-horizon objective function and continuing tasks an
+inﬁnite-horizon objective function, but we see this as a common coin-
+cidence rather than a fundamental diﬀerence.
+The pole-balancing example is from Michie and Chambers (1968) and
+Barto, Sutton, and Anderson (1983).
+3.5
+For further discussion of the concept of state, see Minsky (1967).
+3.6

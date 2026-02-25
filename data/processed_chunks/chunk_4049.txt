@@ -1,0 +1,43 @@
+Figure 4.2 shows the sequence of value functions {vk} computed by iterative
+policy evaluation. The ﬁnal estimate is in fact vπ, which in this case gives for
+each state the negation of the expected number of steps from that state until
+4.1. POLICY EVALUATION
+93
+ 0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0  0.0
+ 0.0  0.0  0.0
+-1.0 -1.0 -1.0
+-1.0 -1.0 -1.0 -1.0
+-1.0 -1.0 -1.0 -1.0
+-1.0 -1.0 -1.0
+-1.7 -2.0 -2.0
+-1.7 -2.0 -2.0 -2.0
+-2.0 -2.0 -2.0 -1.7
+-2.0 -2.0 -1.7
+-2.4 -2.9 -3.0
+-2.4 -2.9 -3.0 -2.9
+-2.9 -3.0 -2.9 -2.4
+-3.0 -2.9 -2.4
+-6.1 -8.4 -9.0
+-6.1 -7.7 -8.4 -8.4
+-8.4 -8.4 -7.7 -6.1
+-9.0 -8.4 -6.1
+-14. -20. -22.
+-14. -18. -20. -20.
+-20. -20. -18. -14.
+-22. -20. -14.
+Vk  for the
+Random Policy
+Greedy Policy
+w.r.t. Vk
+k = 0
+k = 1
+k = 2
+k = 10
+k = !
+k = 3
+optimal 
+policy
+random 
+policy

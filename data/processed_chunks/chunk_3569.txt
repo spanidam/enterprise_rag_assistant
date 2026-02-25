@@ -1,0 +1,16 @@
+action, an action executor that performs an action selected by
+the policy (consolidating evidence from external knowledge,
+or prompting the LLM to generate responses), and a utility
+that accesses the alignment of the LLM’s responses with user
+expectations or specific business requirements, and generate
+feedback to improve agent performance.
+For more details on LLM-based AI agents see recent survey
+[172], [173], [174].
+a) Prompt engineering techniques for agents:
+Like
+RAG and Tools, prompt engineering techniques that specif-
+ically address the needs of LLM-based agents have been
+developed. Three such examples are Reasoning without Ob-
+servation (ReWOO), Reason and Act (ReAct), and Dialog-
+Enabled Resolving Agents (DERA).
+Reasoning without Observation (ReWOO) [175] aims to

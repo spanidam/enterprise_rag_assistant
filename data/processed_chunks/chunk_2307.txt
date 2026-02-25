@@ -1,0 +1,12 @@
+accuracy of h over future instances drawn from the same distribution? 
+2. What is the probable error in this accuracy estimate? 
+5.2.1 Sample Error and True Error 
+To answer these questions, we need to distinguish carefully between two notions 
+of accuracy or, equivalently, error. One is the error rate of the hypothesis over the 
+sample of data that is available. The other is the error rate of the hypothesis over 
+the entire unknown distribution D of examples. We will call these the sample 
+error and the true error respectively. 
+The sample error of a hypothesis with respect to some sample S of instances 
+drawn from X is the fraction of S that it misclassifies: 
+Definition: The sample error (denoted errors(h)) of hypothesis h with respect to 
+target function f and data sample S is

@@ -1,0 +1,11 @@
+relationship between the individual joints of the robot manipulator and the po-
+sition and orientation of the tool or end-eﬀector. The joint variables are the
+angles between the links in the case of revolute or rotational joints, and the link
+extension in the case of prismatic or sliding joints.
+We will develop a set of conventions that provide a systematic procedure
+for performing this analysis.
+It is, of course, possible to carry out forward
+kinematics analysis even without respecting these conventions, as we did for
+the two-link planar manipulator example in Chapter 1. However, the kinematic
+analysis of an n-link manipulator can be extremely complex and the conventions
+introduced below simplify the analysis considerably. Moreover, they give rise

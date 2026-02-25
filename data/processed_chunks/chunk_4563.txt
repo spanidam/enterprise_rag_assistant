@@ -1,0 +1,22 @@
+After playing about 300,000 games against itself, TD-Gammon 0.0 as de-
+scribed above learned to play approximately as well as the best previous
+backgammon computer programs. This was a striking result because all the
+previous high-performance computer programs had used extensive backgam-
+mon knowledge. For example, the reigning champion program at the time
+was, arguably, Neurogammon, another program written by Tesauro that used
+a neural network but not TD learning. Neurogammon’s network was trained
+on a large training corpus of exemplary moves provided by backgammon ex-
+perts, and, in addition, started with a set of features specially crafted for
+278
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+Program
+Hidden
+Training
+Opponents
+Results
+Units
+Games
+TD-Gam 0.0
+40
+300,000
+other programs

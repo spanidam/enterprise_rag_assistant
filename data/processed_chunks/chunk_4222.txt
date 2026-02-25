@@ -1,0 +1,28 @@
+sample averages of the actual returns experienced after visiting each state s.
+These are optimal estimates in the sense that they minimize the mean-squared
+error from the actual returns in the training set. In this sense it is surprising
+that the batch TD method was able to perform better according to the root
+mean-squared error measure shown in Figure 6.8. How is it that batch TD
+was able to perform better than this optimal method? The answer is that the
+Monte Carlo method is optimal only in a limited way, and that TD is optimal
+in a way that is more relevant to predicting returns. But ﬁrst let’s develop our
+152
+CHAPTER 6. TEMPORAL-DIFFERENCE LEARNING
+.0
+.05
+.1
+.15
+.2
+.25
+0
+25
+50
+75
+100
+TD
+MC
+BATCH TRAINING
+Walks / Episodes
+RMS error,
+averaged
+over states

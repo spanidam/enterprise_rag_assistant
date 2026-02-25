@@ -1,0 +1,17 @@
+and S. Yao, “Reflexion: Language agents with verbal reinforcement
+learning,” 2023.
+[161]
+S. J. Zhang, S. Florin, A. N. Lee, E. Niknafs, A. Marginean, A. Wang,
+K. Tyser, Z. Chin, Y. Hicke, N. Singh, M. Udell, Y. Kim, T. Buonassisi,
+A. Solar-Lezama, and I. Drori, “Exploring the mit mathematics and
+eecs curriculum using large language models,” 2023.
+[162]
+T. Wu, E. Jiang, A. Donsbach, J. Gray, A. Molina, M. Terry, and C. J.
+Cai, “Promptchainer: Chaining large language model prompts through
+visual programming,” 2022.
+[163]
+Y. Zhou, A. I. Muresanu, Z. Han, K. Paster, S. Pitis, H. Chan, and
+J. Ba, “Large language models are human-level prompt engineers,”
+2023.
+[164]
+P. S. H. Lewis, E. Perez, A. Piktus, F. Petroni, V. Karpukhin,

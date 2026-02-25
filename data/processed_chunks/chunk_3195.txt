@@ -1,0 +1,11 @@
+to these derivatives and to the training example values. Fitting the derivatives 
+constrains the learned network to fit dependencies given by the domain theory, 
+while fitting the training values constrains it to fit the observed data itself. The 
+weight pi placed on fitting the derivatives is determined independently for each 
+training example, based on how accurately the domain theory predicts the training 
+value for this example. 
+EBNN has been shown to be an effective method for learning from ap- 
+proximate domain theories in several domains. Thrun (1996) describes its ap- 
+plication to a variant of the Cup learning task discussed above and reports that 
+EBNN generalizes more accurately than standard BACKPROPAGATION, 
+especially

@@ -1,0 +1,13 @@
+popular.
+Chapter 2
+2.1 The Python shell
+1. a. Most programming languages are high-level and meant to be understood by humans.
+2. c. The most basic line of Python code is a single expression, such as the integer 1 .
+3. b. After the input is stored in memory, the shell displays a prompt for the next line.
+4. c. The up arrow displays the previous line, and the left arrow moves within that line.
+5. a. Pressing the up arrow twice moves to the line before the previous line.
+2.2 Type conversion
+1. a. book_rating was assigned with 3.5 on line 5 and converted from an integer to a float by the
+interpreter. book_rating isn't modified after line 5.
+2. a. Combining a float and an integer in a calculation produces a float. book_rating would be assigned
+with 4.0 .

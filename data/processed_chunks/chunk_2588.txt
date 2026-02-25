@@ -1,0 +1,13 @@
+hypothesis-we 
+will require only that its error be bounded by some constant, c, 
+that can be made arbitrarily small. Second, we will not require that the learner 
+succeed for every sequence of randomly drawn training examples-we 
+will require 
+only that its probability of failure be bounded by some constant, 6, that can be 
+made arbitrarily small. In short, we require only that the learner probably learn a 
+hypothesis that is approximately correct-hence 
+the term probably approximately 
+correct learning, or PAC learning for short. 
+Consider some class C of possible target concepts and a learner L using 
+hypothesis space H. Loosely speaking, we will say that the concept class C 
+is PAC-learnable by L using H if, for any target concept c in C, L will with

@@ -1,0 +1,13 @@
+Wind = strong are 
+P(Wind = stronglPlayTennis = yes) = 319 = .33 
+P(Wind = strongl PlayTennis = no) = 315 = .60 
+Using these probability estimates and similar estimates for the remaining attribute 
+values, we calculate V N B  according to Equation (6.21) as follows (now omitting 
+attribute names for brevity) 
+Thus, the naive Bayes classifier assigns the target value PlayTennis = no to this 
+new instance, based on the probability estimates learned from the training data. 
+Furthermore, by normalizing the above quantities to sum to one we can calculate 
+the conditional probability that the target value is no, given the observed attribute 
+values. For the current example, this probability is ,02$ym,, 
+= -795. 
+6.9.1.1 ESTIMATING PROBABILITIES

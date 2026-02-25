@@ -1,0 +1,10 @@
+input to the network. One interesting difference is that in ALVINN, each coarse 
+resolution pixel intensity is obtained by selecting the intensity of a single pixel at 
+random from the appropriate region within the high-resolution image, rather than 
+taking the mean of all pixel intensities within this region. The motivation for this 
+ic ALVINN is that it significantly reduces the computation required to produce the 
+coarse-resolution image from the available high-resolution image. This efficiency 
+is especially important when the network must be used to process many images 
+per second while autonomously driving the vehicle. 
+Output encoding. The ANN must output one of four values indicating the di- 
+rection in which the person is looking (left, right, up, or straight). Note we could

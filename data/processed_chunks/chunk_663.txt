@@ -1,0 +1,13 @@
+In this section we introduce the notion of Mechanical Impedance which cap-
+tures the relation between force and motion. We introduce so-called Network
+NETWORK MODELS AND IMPEDANCE
+287
+Fig. 9.6
+Compliant Environment
+Models, which are particularly useful for modeling the robot/environment inter-
+action. We model the robot and environment as One Port Networks as shown
+in Figure 9.7. The dynamics of the robot and environment, respectively, deter-
+mine the relation between the Port Variables, Vr, Fr, and Ve, Fe, respectively.
+Fr, Fe are known as Eﬀort or Across variables while Vr, Ve are known as Flow
+or Through variables. In a mechanical system, such as a robot, force and veloc-
+ity are the eﬀort and ﬂow variables while in an electrical system, voltage and

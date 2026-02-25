@@ -1,0 +1,15 @@
+executes this action, then observes the resulting reward r = r(s, a) and the new 
+state s' = 6(s, a). It then updates the table entry for ~ ( s ,  
+a) following each such 
+transition, according to the rule: 
+Q(S, a) t 
+r + y max &(st, a') 
+a' 
+(13.7) 
+Note this training rule uses the agent's current Q values for the new state 
+s' to refine its estimate of ~ ( s ,  
+a) for the previous state s. This training rule 
+is motivated by Equation (13.6), although the training rule concerns the agent's 
+approximation Q, whereas Equation (13.6) applies to the actual Q function. Note 
+although Equation (13.6) describes Q in terms of the functions 6(s, a) and r(s, a), 
+the agent does not need to know these general functions to apply the training

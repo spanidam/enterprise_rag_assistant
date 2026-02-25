@@ -1,0 +1,15 @@
+randomly generated tasks of two sizes and various branching factors, b.
+8.7. HEURISTIC SEARCH
+217
+problems generated in a particular, random way, but they do suggest that
+sampling according to the on-policy distribution can be a great advantage
+for large problems, in particular for problems in which a small subset of the
+state–action space is visited under the on-policy distribution.
+8.7
+Heuristic Search
+The predominant state-space planning methods in artiﬁcial intelligence are
+collectively known as heuristic search. Although superﬁcially diﬀerent from
+the planning methods we have discussed so far in this chapter, heuristic search
+and some of its component ideas can be combined with these methods in
+useful ways.
+Unlike these methods, heuristic search is not concerned with

@@ -1,0 +1,15 @@
+V = torch.randn(1, 6, 10) # values have the same length as keys, but can have a␣
+↪different dim
+scores = torch.matmul(Q, K.transpose(-2, -1)) / np.sqrt(8)
+weights = F.softmax(scores, dim=-1)
+output = torch.matmul(weights, V)
+output.shape
+# (1, 4, 10)
+torch.Size([1, 4, 10])
+8.5 Self-attention
+In some cases, such as sequence processing, the inputs 𝑋and 𝑌are the same sequence (we want to compare the elements
+of the sequence pairwise): this is called self-attention.
+This means that each position in the sequence 𝑋“looks at” all other positions in that same sequence to build its own
+representation.
+8.6 Multi-head attention
+In practice, in most models, the attention mechanism is duplicated several times (with different weights) and their outputs

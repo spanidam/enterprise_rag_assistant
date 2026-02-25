@@ -1,0 +1,20 @@
+and 0 if di # h(xi). Therefore, 
+1 if di = h(xi) for all di in D 
+P(D1h) = 
+(6.4) 
+0 otherwise 
+In other words, the probability of data D given hypothesis h is 1 if D is consistent 
+with h, and 0 otherwise. 
+Given these choices for P(h) and for P(Dlh) we now have a fully-defined 
+problem for the above BRUTE-FORCE 
+MAP LEARNING 
+algorithm. Let us consider the 
+first step of this algorithm, which uses Bayes theorem to compute the posterior 
+probability P(h1D) of each hypothesis h given the observed training data D. 
+CHAPTER 6 BAYESIAN LEARNING 161 
+Recalling Bayes theorem, we have 
+First consider the case where h is inconsistent with the training data D. Since 
+Equation (6.4) defines P(D)h) to be 0 when h is inconsistent with D, we have 
+P ( ~ ( D )  
+= - 
+' P(h) -

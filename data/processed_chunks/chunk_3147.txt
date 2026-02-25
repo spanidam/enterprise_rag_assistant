@@ -1,0 +1,34 @@
+step therefore alters the initial network weights. The resulting trained network 
+is summarized in Figure 12.3, with dark solid lines indicating the largest posi- 
+tive weights, dashed lines indicating the largest negative weights, and light lines 
+344 
+MACHINE LEARNING 
+Expensive a;.- 
+,*: 
+~ .- -...* ". , ,--" 
+. 
+BottodsFlat ' '*' 
+Stable 
+MadeOfCeramic 
+Madeofstyrofoam 
+MadeOfPaper 
+HasHandle 
+Lifrable 
+HandleOnTop 
+HandleOnSide 
+Light 
+\ 
+cup 
+Open-Vessel 
+HasConcaviiy 
+ConcavityPointsUp ,i ,,.,,... *. 
+Fragile "
+.
+ ""- 
+Large negative weight 
+"- 
+" 
+Negligible weight 
+FIGURE 12.3 
+Result of inductively refining the initial network. KBANN uses the training examples to modify 
+the network weights derived from the domain theory. Notice the new dependency of Lifable on

@@ -1,0 +1,17 @@
+[100]
+W. Huang, F. Xia, T. Xiao, H. Chan, J. Liang, P. Florence, A. Zeng,
+J. Tompson, I. Mordatch, Y. Chebotar et al., “Inner monologue:
+Embodied reasoning through planning with language models,” arXiv
+preprint arXiv:2207.05608, 2022.
+[101]
+S. Smith, M. Patwary, B. Norick, P. LeGresley, S. Rajbhandari,
+J. Casper, Z. Liu, S. Prabhumoye, G. Zerveas, V. Korthikanti
+et al., “Using deepspeed and megatron to train megatron-turing
+nlg 530b, a large-scale generative language model,” arXiv preprint
+arXiv:2201.11990, 2022.
+[102]
+I. Beltagy, M. E. Peters, and A. Cohan, “Longformer: The long-
+document transformer,” arXiv preprint arXiv:2004.05150, 2020.
+[103]
+S. Iyer, X. V. Lin, R. Pasunuru, T. Mihaylov, D. Simig, P. Yu, K. Shus-
+ter, T. Wang, Q. Liu, P. S. Koura et al., “Opt-iml: Scaling language

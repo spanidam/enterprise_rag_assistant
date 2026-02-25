@@ -1,0 +1,14 @@
+a low-rank decomposition W0 + ∆W = W0 + BA, where
+B ∈Rd×r , A ∈Rr×k, and the rank r ≪min(d, k). During
+training, W0 is frozen and does not receive gradient updates,
+while A and B contain trainable parameters. It is worth
+mentioning that both W0 and ∆W = BA are multiplied with
+the same input, and their respective output vectors are summed
+coordinate-wise. For h = W0x, their modified forward pass
+yields: h = W0x + ∆Wx = W0x + BAx. Usually a random
+Gaussian initialization is used for A, and zero initialization
+for B, so ∆W = BA is zero at the beginning of training.
+They then scale ∆Wx by αr, where α is a constant in r. This
+reparametrization is illustrated in Figure 34
+It is worth mentioning that LoRA can be applied to a subset
+of weight matrices in a neural network to reduce the number

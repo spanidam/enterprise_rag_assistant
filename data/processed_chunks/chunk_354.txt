@@ -1,0 +1,12 @@
+to a minimum in the ﬁeld, but there is no guarantee that this minimum will be
+the global minimum. In our case, this implies that there is no guarantee that
+this method will ﬁnd a path to qﬁnal. An example of this situation is shown in
+Figure 5.4. We will discuss ways to deal this below in Section 5.4.
+One of the main diﬃculties with this planning approach lies in the evaluation
+of ρ and ∇ρ. In the general case, in which both rotational and translational
+degrees of freedom are allowed, this becomes even more diﬃcult. We address
+this general case in the next section.
+5.3
+PLANNING USING WORKSPACE POTENTIAL FIELDS
+As described above, in the general case, it is extremely diﬃcult to compute an
+explicit representation of QO, and thus it can be extremely diﬃcult to compute

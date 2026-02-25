@@ -1,0 +1,35 @@
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7
+1 2 3 4 5 6
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+Finish!
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+5-3-nested-loops)
+TRY IT
+Printing two triangles
+Write a program that prints the following output using nested while and for loops:
+****
+***
+**
+*
+++++
++++
+++
++
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+5-3-nested-loops)
+5.4 Break and continue
+Learning objectives
+By the end of this section you should be able to
+•
+Analyze a loop's execution with break and continue statements.
+•
+Use break and continue control statements in while and for loops.
+5.4 • Break and continue
+133
+Break

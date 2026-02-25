@@ -1,0 +1,15 @@
+BACKPROPAGATION 
+(but unlike KBANN), TANGENTPROP 
+begins the search with an 
+initial network of small random weights. However, the gradient descent training 
+rule produces different weight updates than BACKPROPAGATION, 
+resulting in a dif- 
+ferent final hypothesis. As shown in the figure, the set of hypotheses that minimizes 
+the TANGENTPROP 
+objective may differ from the set that minimizes the BACKPROP- 
+AGATION objective. Importantly, if the training examples and prior knowledge are 
+both correct, and the target function can be accurately represented by the ANN, 
+then the set of weight vectors that satisfy the TANGENTPROP 
+objective will be a 
+subset of those satisfying the weaker BACKPROPAGATION 
+objective. The difference

@@ -1,0 +1,15 @@
+•
+Obtain user input using the input() function.
+Basic output
+The print() function displays output to the user. Output is the information or result produced by a program.
+The sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end.
+Multiple values, separated by commas, can be printed in the same statement. By default, each value is
+separated by a space character in the output. The sep option can be used to change this behavior.
+By default, the print() function adds a newline character at the end of the output. A newline character tells
+10
+1 • Statements
+Access for free at openstax.org
+the display to move to the next line. The end option can be used to continue printing on the same line.
+Code
+Output
+print("Today is Monday.")

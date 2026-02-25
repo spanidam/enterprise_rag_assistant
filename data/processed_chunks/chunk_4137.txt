@@ -1,0 +1,10 @@
+iteration of iterative policy evaluation is performed between each step of policy
+improvement. The in-place version of value iteration is even more extreme;
+there we alternate between improvement and evaluation steps for single states.
+For Monte Carlo policy evaluation it is natural to alternate between eval-
+uation and improvement on an episode-by-episode basis. After each episode,
+the observed returns are used for policy evaluation, and then the policy is
+improved at all the states visited in the episode. A complete simple algorithm
+along these lines is given in Figure 5.4. We call this algorithm Monte Carlo
+ES, for Monte Carlo with Exploring Starts.
+In Monte Carlo ES, all the returns for each state–action pair are accumu-

@@ -1,0 +1,12 @@
+to bound the number of examples needed by any consistent learner, we need only 
+bound the number of examples needed to assure that the version space contains no 
+unacceptable hypotheses. The following definition, after Haussler (1988), states 
+this condition precisely. 
+Definition: Consider a hypothesis space H, target concept c, instance distribution 
+V, 
+and set of training examples D of c. The version space V S , ,  is said to be 
+€-exhausted with respect to c and V, 
+if every hypothesis h in VSH,* has error less 
+than 6 with respect to c and V. 
+This definition is illustrated in Figure 7.2. The version space is €-exhausted 
+just in the case that all the hypotheses consistent with the observed training ex-

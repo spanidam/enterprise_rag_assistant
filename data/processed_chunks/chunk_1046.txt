@@ -1,0 +1,17 @@
+Italic
+Indicates emphasized text, filenames, and file extensions.
+Constant width
+Used for code listings and code elements within paragraphs. Code elements include variable names, Python
+keywords, etc.
+Constant width bold
+Shows commands or keyboard input that should be typed literally by the user.
+Ex:
+Abbreviation for "Example:"
+Preface
+3
+About the Authors
+Senior Contributing Authors
+Senior contributing authors, left to right: Udayan Das, Aubrey Lawson, Chris Mayfield, and Narges Norouzi.
+Udayan Das, Saint Mary's College of California
+Udayan Das, PhD, is an Associate Professor and Program Director of Computer Science at Saint Mary's College
+of California. He received his PhD in Computer Science and a master's in Computer Engineering from the

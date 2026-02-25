@@ -1,0 +1,48 @@
+one episode had been completed, but the car has oscillated back and forth in
+the valley, following circular trajectories in state space. All the states visited
+frequently are valued worse than unexplored states, because the actual rewards
+have been worse than what was (unrealistically) expected. This continually
+drives the agent away from wherever it has been, to explore new states, until
+a solution is found. Figure 9.11 shows the results of a detailed study of the
+9.5. SHOULD WE BOOTSTRAP?
+247
+!=.9
+400
+500
+600
+700
+800
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+" × 5
+REPLACE  TRACES
+ACCUMULATE  TRACES
+!= 1
+!=.99
+!=.95
+!= 0
+!=.4
+!=.7
+!=.8
+!=.5
+!= 0
+!=.3
+!=.6
+" × 5
+Steps per episode
+averaged over
+first 20 trials
+and 30 runs
+ﬁrst 20 episodes

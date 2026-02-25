@@ -1,0 +1,26 @@
+b.
+1 + 1
+c.
+1
+3. What result does the shell display after running the line name = input()?
+a.
+the name that was input
+b.
+nothing (except for >>>)
+The arrow keys
+A Python shell is convenient for exploring and troubleshooting code. The user can try something, look at the
+40
+2 • Expressions
+Access for free at openstax.org
+results, and then try something else. When an error occurs, an error message is displayed, but the program
+keeps running. That way, the user can edit the previous line and correct the error interactively.
+The acronym REPL (pronounced "rep ul") is often used when referring to a shell. REPL stands for "read-eval-
+print loop," which describes the repetitive nature of a shell:
+1.
+Read/input some code
+2.
+Evaluate/run the code
+3.
+Print any results
+4.
+Loop back to step 1

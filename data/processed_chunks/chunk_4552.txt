@@ -1,0 +1,25 @@
+tion gives the basic idea. With 30 pieces and 24 possible locations (26, count-
+ing the bar and oﬀ-the-board) it should be clear that the number of possible
+backgammon positions is enormous, far more than the number of memory el-
+ements one could have in any physically realizable computer. The number of
+moves possible from each position is also large. For a typical dice roll there
+might be 20 diﬀerent ways of playing. In considering future moves, such as
+14.1. TD-GAMMON
+275
+Vt+1! Vt
+hidden units (40-80)
+backgammon position (198 input units)
+predicted probability
+of winning, Vt
+TD error,
+. . .
+. . .
+. . .
+. . .
+. . .
+. . .
+ˆv(St+1,w) −ˆv(St,w)
+TD error
+ˆv(St,w)
+Figure 14.2: The neural network used in TD-Gammon
+the response of the opponent, one must consider the possible dice rolls as well.

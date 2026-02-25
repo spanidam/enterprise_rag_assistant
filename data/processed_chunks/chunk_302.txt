@@ -1,0 +1,34 @@
+Consider the spherical arm of Figure 4.8. This manipulator is in a singular
+θ1
+z0
+Fig. 4.8
+Singularity of spherical manipulator with no oﬀsets.
+conﬁguration when the wrist center intersects z0 as shown since, as before, any
+rotation about the base leaves this point ﬁxed.
+⋄
+Example 4.11 SCARA Manipulator
+We have already derived the complete Jacobian for the the SCARA manip-
+ulator. This Jacobian is simple enough to be used directly rather than deriving
+the modiﬁed Jacobian as we have done above. Referring to Figure 4.9 we can
+see geometrically that the only singularity of the SCARA arm is when the elbow
+is fully extended or fully retracted. Indeed, since the portion of the Jacobian of
+the SCARA governing arm singularities is given as
+J11
+=
+
+
+α1
+α3
+0
+α2
+α4
+0
+0
+0
+−1
+
+
+(4.121)
+where
+α1
+=

@@ -1,0 +1,26 @@
+2(C20 −C02) cos 2θ + 1
+2C11 sin 2θ (11.78)
+=
+−(C20 −C02) sin 2θ + C11 cos 2θ,
+(11.79)
+and we setting this to zero we obtain
+tan 2θ =
+C11
+C20 −C02
+.
+(11.80)
+Figure 11.7 shows the orientations for the connected components of the image
+of Figure 11.3.
+POSITION AND ORIENTATION
+353
+Problems
+TO BE WRITTEN
+12
+VISION-BASED
+CONTROL
+In Chapter 9 we described how feedback from a force sensor can be used to
+control the forces and torques applied by the manipulator. In the case of force
+control, the quantities to be controlled (i.e., forces and torques) are measured
+directly by the sensor. Indeed, the output of a typical force sensor comprises
+six electric voltages that are proportional to the forces and torques experienced
+by the sensor. Force control is very similar to state-feedback control in this

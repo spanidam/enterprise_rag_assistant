@@ -1,0 +1,32 @@
+only if the grouping enables module reuse, as a key benefit of modules is reusability.
+CHECKPOINT
+Importing classes from files
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-5-using-modules-with-classes)
+CONCEPTS IN PRACTICE
+Importing classes
+1. Consider the example above. How many classes are imported in the second main.py?
+a.
+1
+b.
+2
+c.
+3
+2. Which line imports only the Level class from character?
+a.
+import Level from character
+b.
+from character import Level
+c.
+import Level
+3. How many classes can be in a module?
+a.
+none
+b.
+only 1
+c.
+any number
+11.5 • Using modules with classes
+281
+Using aliases
+Aliasing allows the programmer to use an alternative name for imported items. Ex: import triangle as

@@ -1,0 +1,10 @@
+It is intuitively plausible that we can represent the version space in terms of 
+its most specific and most general members. Below we define the boundary sets 
+G and S precisely and prove that these sets do in fact represent the version space. 
+Definition: The general boundary G, with respect to hypothesis space H and training 
+data D, is the set of maximally general members of H consistent with D. 
+G = {g E HIConsistent(g, D) A (-3gf E H)[(gf >, g) A Consistent(gt, D)]] 
+Definition: The specific boundary S, with respect to hypothesis space H and training 
+data D, is the set of minimally general (i.e., maximally specific) members of H 
+consistent with D. 
+S rn {s E H(Consistent(s, D) A (-3s' E H)[(s >, sf) A Consistent(st, D)])

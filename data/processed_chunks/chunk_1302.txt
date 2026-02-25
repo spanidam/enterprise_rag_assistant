@@ -1,0 +1,22 @@
+Given inputs 1 and "Y", the output is:
+Do you accept the terms and conditions?
+Y
+Thank you for accepting.
+Given inputs 2, "N", and "Y", the output is:
+Do you accept the terms and conditions?
+N
+Have a good day.
+Do you accept the terms and conditions?
+Y
+Thank you for accepting.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-1-defining-functions)
+6.2 Control flow
+Learning objectives
+By the end of this section you should be able to
+•
+Identify the control flow of a program.
+•
+Describe how control flow moves between statements and function calls.
+Control flow and functions
+Control flow is the sequence of program execution. A program's control flow begins at the main program but

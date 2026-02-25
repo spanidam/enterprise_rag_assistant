@@ -1,0 +1,13 @@
+and developing the relationships to the theory of optimal control and dynamic
+programming.
+The overall problem of learning from interaction to achieve
+PREFACE
+ix
+goals is still far from being solved, but our understanding of it has improved
+signiﬁcantly. We can now place component ideas, such as temporal-diﬀerence
+learning, dynamic programming, and function approximation, within a coher-
+ent perspective with respect to the overall problem.
+Our goal in writing this book was to provide a clear and simple account of
+the key ideas and algorithms of reinforcement learning. We wanted our treat-
+ment to be accessible to readers in all of the related disciplines, but we could
+not cover all of these perspectives in detail. For the most part, our treatment

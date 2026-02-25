@@ -1,0 +1,49 @@
+Instance 
+Sky 
+AirTemp 
+Humidity 
+Wind 
+Water 
+Forecast 
+EnjoySport 
+- 
+A 
+Sunny 
+Warm 
+Normal 
+Strong 
+Cool 
+Change 
+? 
+B 
+Rainy 
+Cold 
+Normal 
+Light 
+Warm 
+Same 
+? 
+C 
+Sunny 
+Warm 
+Normal 
+Light 
+Warm 
+Same 
+? 
+D 
+Sunny 
+Cold 
+Normal 
+Strong 
+Warm 
+Same 
+? 
+TABLE 2.6 
+New instances to be classified. 
+classifies the instance as positive. This condition will be met if and only if the 
+instance satisfies every member of S (why?). The reason is that every other hy- 
+pothesis in the version space is at least as general as some member of S. By our 
+definition of more-general~han, if the new instance satisfies all members of S it 
+must also satisfy each of these more general hypotheses. 
+Similarly, instance B is classified as a negative instance by every hypothesis

@@ -1,0 +1,11 @@
+first step in this sequence, the direction chosen is the negative of the gradient. 
+On each subsequent step, a new direction is chosen so that the component of the 
+error gradient that has just been made zero, remains zero. 
+While alternative error-minimization methods sometimes lead to improved 
+efficiency in training the network, methods such as conjugate gradient tend to 
+have no significant impact on the generalization error of the final network. The 
+only likely impact on the final error is that different error-minimization procedures 
+may fall into different local minima. Bishop (1996) contains a general discussion 
+of several parameter optimization methods for training networks. 
+4.8.3 Recurrent Networks 
+Up to this point we have considered only network topologies that correspond

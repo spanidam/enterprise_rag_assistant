@@ -1,0 +1,11 @@
+example features. With this neural network representation, however, infor- 
+mation about relevance is expressed in the form of derivatives of the target 
+function value with respect to instance features. The network hypothesis is 
+trained using a variant of the TANGENTPROP 
+algorithm, in which the error to 
+be minimized includes both the error in network output values and the error 
+in network derivatives obtained from explanations. 
+FOCL uses the domain theory to expand the set of candidates considered at 
+each step in the search. It uses an approximate domain theory represented 
+by first order Horn clauses to learn a set of Horn clauses that approximate 
+the target function. FOCL employs a sequential covering algorithm, learning

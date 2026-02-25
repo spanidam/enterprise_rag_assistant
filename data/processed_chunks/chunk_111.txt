@@ -1,0 +1,56 @@
+R′
+=
+Rz,θRy,φ
+(2.19)
+=
+
+
+cθ
+−sφ
+0
+sθ
+cθ
+0
+0
+0
+1
+
+
+
+
+cφ
+0
+sφ
+0
+1
+0
+−sφ
+0
+cφ
+
+
+=
+
+
+cθcφ
+−sθ
+cθsφ
+sθcφ
+cθ
+sθsφ
+−sφ
+0
+cφ
+
+
+Comparing Equations (2.18) and (2.19) we see that R ̸= R′.
+⋄
+2.4.2
+Rotation with respect to the ﬁxed frame
+Many times it is desired to perform a sequence of rotations, each about a
+given ﬁxed coordinate frame, rather than about successive current frames. For
+example we may wish to perform a rotation about x0 followed by a rotation
+about y0 (and not y1!). We will refer to o0x0y0z0 as the ﬁxed frame. In this
+case the composition law given by Equation (2.17) is not valid. It turns out
+that the correct composition law in this case is simply to multiply the successive
+rotation matrices in the reverse order from that given by Equation (2.17). Note

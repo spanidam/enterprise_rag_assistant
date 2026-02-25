@@ -1,0 +1,91 @@
+under different scenarios. We then look at the performance
+of prominent large language models on some of the popular
+datasets and benchmarks.
+TABLE II: LLM Datasets Overview.
+Benchmark Name
+Evaluation Metric
+Leaderboard
+Source
+paperswithcode
+HumanEval
+PASS@k
+Link
+Link
+Link
+MBPP
+PASS@k, Accuracy
+-
+Link
+Link
+APPS
+PASS@k, Accuracy
+-
+Link
+Link
+WikiSQL
+Accuracy
+-
+Link
+Link
+CoNaLa
+BLEU
+Link
+Link
+CodeParrot
+PASS@k
+-
+Link
+-
+HellaSwag
+Accuracy
+Link
+Link
+Link
+AI2
+Reasoning
+Challenge (ARC)
+Accuracy
+Link
+Link
+Link
+BoolQ
+Accuracy
+-
+Link
+Link
+MultiRC
+F1-score, Accuracy
+-
+Link
+Link
+CNN/Daily Mail [200]
+Accuracy
+-
+Link
+-
+SQuAD
+F1-score, EM
+Link
+Link
+Link
+RACE
+Accuracy
+-
+Link
+Link
+CNN/Daily Mail [201]
+ROUGE
+-
+Link
+Link
+Drop
+F1-score, EM
+Link
+Link
+Link
+QuAC
+F1-score, HEQ-Q, HEQ-D
+Link
+Link
+Link
+TriviaQA

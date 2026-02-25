@@ -1,0 +1,41 @@
+while loop
+# initialization
+while expression:
+# loop body
+# statements after the loop
+for loop
+# initialization
+for loop_variable in container:
+# loop body
+# statements after the loop
+Nested while loop
+while outer_loop_expression:
+# outer loop body (1)
+while inner_loop_expression:
+# inner loop body
+# outer loop body (2)
+# statements after the loop
+break statement
+# initialization
+while loop_expression:
+# loop body
+if break_condition:
+break
+# remaining body of loop
+# statements after the loop
+Table 5.4 Chapter 5 reference.
+5.6 • Chapter summary
+141
+Function
+Description
+continue statement
+# initialization
+while loop_expression:
+# loop body
+if continue_condition:
+continue
+# remaining body of loop
+# statements after the loop
+Loop else statement
+# initialization
+for loop_expression:

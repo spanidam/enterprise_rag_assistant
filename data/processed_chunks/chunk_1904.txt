@@ -1,0 +1,14 @@
+0 For each attribute constraint a, in h 
+If the constraint a, is satisfied by x 
+Then do nothing 
+Else replace a, in h by the next more general constraint that is satisfied by x 
+3. Output hypothesis h 
+TABLE 2.3 
+FIND-S Algorithm. 
+2.4 FIND-S: FINDING A MAXIMALLY SPECIFIC HYPOTHESIS 
+How can we use the more-general-than partial ordering to organize the search for 
+a hypothesis consistent with the observed training examples? One way is to begin 
+with the most specific possible hypothesis in H, then generalize this hypothesis 
+each time it fails to cover an observed positive training example. (We say that 
+a hypothesis "covers" a positive example if it correctly classifies the example as 
+positive.) To be more precise about how the partial ordering is used, consider the

@@ -1,0 +1,15 @@
+Cost ( A )  
+Nunez (1988) describes a related approach and its application to learning 
+medical diagnosis rules. Here the attributes are different symptoms and laboratory 
+tests with differing costs. His system uses a somewhat different attribute selection 
+measure 
+2GaWS.A) - 1 
+(Cost(A) + 
+where w E [0, 11 is a constant that determines the relative importance of cost 
+versus information gain. Nunez (1991) presents an empirical comparison of these 
+two approaches over a range of tasks. 
+3.8 SUMMARY AND FURTHER READING 
+The main points of this chapter include: 
+Decision tree learning provides a practical method for concept learning and 
+for learning other discrete-valued functions. The ID3 family of algorithms 
+infers decision trees by growing them from the root downward, greedily

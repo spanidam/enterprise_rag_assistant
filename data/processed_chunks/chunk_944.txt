@@ -1,0 +1,23 @@
+rho = 1e-6
+ww = np.linspace(-2, 10, num=100)
+plt.plot(ww, loss(ww, x, y), "r-", alpha=.5);
+w = [0.]
+for t in range(10):
+w_update = w[t] - rho * grad_loss(w[t], x, y)
+w.append(w_update)
+plt.plot(w, loss(w, x, y), "ko-")
+plt.text(x=w[0]+.1, y=loss([w[0]], x, y), s="$w_{0}$")
+plt.text(x=w[10]+.1, y=loss([w[10]], x, y), s="$w_{10}$");
+It would definitely take more time to converge. But, take care, a larger learning rate is not always a good idea:
+rho = 5e-5
+ww = np.linspace(-2, 10, num=100)
+plt.plot(ww, loss(ww, x, y), "r-", alpha=.5);
+w = [0.]
+for t in range(10):
+w_update = w[t] - rho * grad_loss(w[t], x, y)
+w.append(w_update)
+plt.plot(w, loss(w, x, y), "ko-")
+plt.text(x=w[0]-1., y=loss([w[0]], x, y), s="$w_{0}$")
+plt.text(x=w[10]-1., y=loss([w[10]], x, y), s="$w_{10}$");
+1.2. Optimization
+7

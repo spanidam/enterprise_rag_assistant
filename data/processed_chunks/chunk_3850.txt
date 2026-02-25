@@ -1,0 +1,11 @@
+If you maintain estimates of the action values, then at any time step there
+is at least one action whose estimated value is greatest. We call this a greedy
+action.
+If you select a greedy action, we say that you are exploiting your
+current knowledge of the values of the actions. If instead you select one of
+the nongreedy actions, then we say you are exploring, because this enables
+you to improve your estimate of the nongreedy action’s value. Exploitation is
+the right thing to do to maximize the expected reward on the one step, but
+exploration may produce the greater total reward in the long run. For example,
+suppose the greedy action’s value is known with certainty, while several other
+actions are estimated to be nearly as good but with substantial uncertainty.

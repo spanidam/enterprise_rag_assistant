@@ -1,0 +1,11 @@
+fashion 
+An equivalent recursive definition for Qh is 
+Note if we choose h = 0 we have our original training estimate Q('), which 
+considers only one-step discrepancies in the Q estimates. As h is increased, the al- 
+gorithm places increasing emphasis on discrepancies based on more distant looka- 
+heads. At the extreme value A. = 1, only the observed r,+i values are considered, 
+with no contribution from the current Q estimate. Note when Q = Q, the training 
+values given by Qh will be identical for all values of h such that 0 5 h 5 I. 
+The motivation for the TD(h) method is that in some settings training will 
+be more efficient if more distant lookaheads are considered. For example, when 
+the agent follows an optimal policy for choosing actions, then eh with h = 1 will

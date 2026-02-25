@@ -1,0 +1,35 @@
+5. What is the return value for len("Hi Ali")?
+a.
+2
+b.
+5
+c.
+6
+6. What is the length of an empty string variable ("")?
+a.
+undefined
+b.
+0
+c.
+2
+7. What is the output of the following code?
+number = "12"
+number_of_digits = len(number)
+print("Number", number, "has", number_of_digits, "digits.")
+a.
+Number 12 has 12 digits.
+b.
+Number 12 has 2 digits.
+c.
+Number 12 has number_of_digits digits.
+Concatenation
+Concatenation is an operation that combines two or more strings sequentially with the concatenation operator
+(+). Ex: "A" + "part" produces the string "Apart".
+CHECKPOINT
+Concatenating multiple strings
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-4-string-basics)
+CONCEPTS IN PRACTICE
+String concatenation
+8. Which produces the string "10"?
+a.

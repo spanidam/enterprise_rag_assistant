@@ -1,0 +1,33 @@
+4. What f-string formats a date as MM/DD/YYYY?
+a.
+f"{month:02d}/{day:02d}/{year}"
+b.
+f"{month:2d}/{day:2d}/{year}"
+c.
+f"{month}/{day}/{year}"
+5. What statement displays the variable money rounded to two decimal places?
+a.
+print(f"{money:2d}")
+b.
+print(f"{money:2f}")
+c.
+print(f"{money:.2f}")
+6. What format specifier displays a floating-point number with comma separators and rounded to two
+decimal places?
+a.
+.2,f
+b.
+,.2f
+c.
+,d.2f
+TRY IT
+Mad lib (f-string)
+A mad lib (https://openstax.org/r/100fstring) is a funny story that uses words provided by a user. The
+following mad lib is based on four words (user input in bold):
+Enter a name: Buster
+Enter a noun: dog
+78
+3 • Objects
+Access for free at openstax.org
+Enter an adjective: super
+Verb ending in -ing: swimming

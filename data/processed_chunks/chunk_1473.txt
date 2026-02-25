@@ -1,0 +1,31 @@
+True
+Table 10.1
+Conditionals on values or keys
+# dictionary[key] operand test_value
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print(movies["The godfather"] < 2000)
+True
+Table 10.2
+10.4 • Conditionals and looping in dictionaries
+251
+dict.keys()
+# key in dictionary.keys()
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print("Interstellar" in movies.keys())
+True
+Table 10.3
+dict.values()
+# value in dictionary.values()
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print(2014 in movies.values())
+True
+Table 10.4
+CONCEPTS IN PRACTICE
+Conditionals on dictionaries
+Given the dictionary fruit_count = {"apple": 2, "orange": 5, "pomegranate": 1}, answer the
+following questions.
+1. What is the output of "apple" in fruit_count.keys()?
+a.
+True
+b.
+False

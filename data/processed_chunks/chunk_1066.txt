@@ -1,0 +1,32 @@
+a.
+print(Hello world!)
+b.
+print("Hello", "world", "!")
+c.
+print("Hello world!")
+2. Which lines of code prints Hello world! as one line of output?
+a.
+print("Hello")
+print(" world!")
+b.
+print("Hello")
+print(" world!", end="")
+c.
+print("Hello", end="")
+print(" world!")
+3. What output is produced by the following statement?
+print("555", "0123", sep="-")
+1.2 • Input/output
+11
+a.
+555 0123
+b.
+5550123-
+c.
+555-0123
+DO SPACES REALLY MATTER?
+Spaces and newline characters are not inherently important. However, learning to be precise is an essential
+skill for programming. Noticing little details, like how words are separated and how lines end, helps new
+programmers become better.
+Basic input
+Computer programs often receive input from the user. Input is what a user enters into a program. An input

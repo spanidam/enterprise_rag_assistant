@@ -1,0 +1,9 @@
+6. a. Showing only the necessary information reduces clutter and improves the overall experience.
+11.2 Classes and instances
+1. a. Cat follows the class keyword at the top of the class definition and is the name of the class.
+2. c. pet_1 is an instance of the Cat class created by calling Cat(). The other instance is pet_2.
+3. a. breed is an instance attribute defined in __init__(). The other instance attributes are name and age.
+4. c. CapWords style, with all words capitalized and no spaces between words, is recommended for class
+names. "Pet" and "cat" are separate words, so each is capitalized and one directly follows the other.
+5. b. Two instances, room_1 and room_3, are created by calling Rectangle(), which calls the constructor
+__init__().

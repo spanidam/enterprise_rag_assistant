@@ -1,0 +1,9 @@
+the scope of this text, the idea is simple: a set of parallel lines in the world will
+project onto image lines that intersect at a single point, and this intersection
+point is known as a vanishing point. The vanishing points for three mutually
+orthogonal sets of lines in the world will deﬁne a triangle in the image. The
+orthocenter of this triangle (i.e., the point at which the three altitudes intersect)
+is the image principal point (a proof of this is beyond the scope of this text).
+Thus, a simple way to compute the principal point is to position a cube in
+the workspace, ﬁnd the edges of the cube in the image (this will produce the
+three sets of mutually orthogonal parallel lines), compute the intersections of

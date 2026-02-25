@@ -1,0 +1,14 @@
+large amount of computation speciﬁcally relevant to the candidate actions, a
+much better decision can be made than by relying on unfocused backups.
+220CHAPTER 8. PLANNING AND LEARNING WITH TABULAR METHODS
+8.8
+Monte Carlo Tree Search
+8.9
+Summary
+We have presented a perspective emphasizing the surprisingly close relation-
+ships between planning optimal behavior and learning optimal behavior. Both
+involve estimating the same value functions, and in both cases it is natural
+to update the estimates incrementally, in a long series of small backup op-
+erations. This makes it straightforward to integrate learning and planning
+processes simply by allowing both to update the same estimated value func-
+tion. In addition, any of the learning methods can be converted into planning

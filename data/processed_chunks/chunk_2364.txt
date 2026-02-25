@@ -1,0 +1,10 @@
+of the test set errors for these different experiments. This leads to the procedure 
+shown in Table 5.5 for estimating the difference between errors of two learning 
+methods, based on a fixed sample Do of available data. This procedure first parti- 
+tions the data into k disjoint subsets of equal size, where this size is at least 30. It 
+then trains and tests the learning algorithms k times, using each of the k subsets 
+in turn as the test set, and using all remaining data as the training set. In this 
+way, the learning algorithms are tested on k independent test sets, 'and the mean 
+difference in errors 8 is returned as an estimate of the difference between the two 
+learning algorithms. 
+The quantity 8 returned by the procedure of Table 5.5 can be taken as an

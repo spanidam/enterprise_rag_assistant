@@ -1,0 +1,12 @@
+the time evolution of mechanical systems subjected to holonomic constraints,
+when the constraint forces satisfy the principle of virtual work. These are called
+the Euler-Lagrange equations of motion. Note that there are at least two
+distinct ways of deriving these equations. The method presented here is based
+on the method of virtual displacements; but it is also possible to derive the
+same equations based on Hamilton’s principle of least action [?].
+6.1.1
+One Dimensional System
+To motivate the subsequent derivation, we show ﬁrst how the Euler-Lagrange
+equations can be derived from Newton’s Second Law for a single degree of
+freedom system consisting of a particle of constant mass m, constrained to
+move in the y-direction, and subject to a force f and the gravitational force

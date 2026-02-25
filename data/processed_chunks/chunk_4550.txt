@@ -1,0 +1,11 @@
+player.
+In this ﬁgure, white has just rolled the dice and obtained a 5 and a 2. This
+means that he can move one of his pieces 5 steps and one (possibly the same
+piece) 2 steps. For example, he could move two pieces from the 12 point, one
+to the 17 point, and one to the 14 point. White’s objective is to advance all of
+his pieces into the last quadrant (points 19–24) and then oﬀthe board. The
+ﬁrst player to remove all his pieces wins. One complication is that the pieces
+interact as they pass each other going in diﬀerent directions. For example, if
+it were black’s move in Figure 14.1, he could use the dice roll of 2 to move a
+piece from the 24 point to the 22 point, “hitting” the white piece there. Pieces
+that have been hit are placed on the “bar” in the middle of the board (where

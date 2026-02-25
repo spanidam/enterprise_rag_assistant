@@ -1,0 +1,11 @@
+to output the target values of Q given by the training rules of Equations (13.7) 
+and (13.10). An alternative that has sometimes been found to be more successful 
+in practice is to train a separate network for each action, using the state as input 
+and Q as output. Another common alternative -is to train one network with the 
+state as input, but with one Q output for each action. Recall that in Chapter 1, we 
+discussed approximating an evaluation function over checkerboard states using a 
+linear function and the LMS algorithm. 
+In practice, a number of successful reinforcement learning systems have been 
+developed by incorporating such function approximation algorithms in place of the 
+lookup table. Tesauro's successful TD-GAMMON 
+program for playing backgammon

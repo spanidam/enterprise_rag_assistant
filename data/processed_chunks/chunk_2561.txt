@@ -1,0 +1,12 @@
+Dempster, A. P., Laird, N. M., & Rubin, D. B. (1977). Maximum likelihood from incomplete data 
+via the EM algorithm. Journal of the Royal Statistical Society, Series B, 39(1), 1-38. 
+Domingos, P., & Pazzani, M. (1996). Beyond independence: Conditions for the optimality of the sim- 
+ple Bayesian classifier. Proceedings of the 13th International Conference on Machine Learning 
+@p. 105-112). 
+Duda, R. O., & Hart, P. E. (1973). Pattern class$cation and scene analysis. New York: John Wiley 
+& Sons. 
+Hearst, M., & Hirsh, H. (Eds.) (1996). Papers from the AAAI Spring Symposium on Machine 
+Learning in Information Access, Stanford, March 25-27. http://www.parc.xerox.com/ist~ 
+projects/mlia/ 
+200 
+MACHINE LEARNING

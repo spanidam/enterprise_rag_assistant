@@ -1,0 +1,10 @@
+this and a discussion of possible solution methods are given in Chapter 10.
+Beyond these theoretical results, linear learning methods are also of inter-
+est because in practice they can be very eﬃcient in terms of both data and
+computation. Whether or not this is so depends critically on how the states
+are represented in terms of the features. Choosing features appropriate to the
+task is an important way of adding prior domain knowledge to reinforcement
+learning systems. Intuitively, the features should correspond to the natural
+features of the task, those along which generalization is most appropriate. If
+we are valuing geometric objects, for example, we might want to have features
+for each possible shape, color, size, or function. If we are valuing states of a

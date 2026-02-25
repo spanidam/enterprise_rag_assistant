@@ -1,0 +1,10 @@
+A genetic algorithm can be viewed as a general optimization method that searches 
+a large space of candidate objects seeking one that performs best according to the 
+fitness function. Although not guaranteed to find an optimal object, GAS often 
+succeed in finding an object with high fitness. GAS have been applied to a number 
+of optimization problems outside machine learning, including problems such as 
+circuit layout and job-shop scheduling. Within machine learning, they have been 
+applied both to function-approximation problems and to tasks such as choosing 
+the network topology for artificial neural network learning systems. 
+To illustrate the use of GAS for concept learning, we briefly summarize 
+the GABIL system described by DeJong et al. (1993). GABIL uses a GA to

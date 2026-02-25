@@ -1,0 +1,26 @@
+concerns.
+At this point, you should be able to write subclasses that inherit instance attributes and methods, and
+subclasses that have unique attributes and overridden methods. You should also be able to create hierarchical
+inheritance relationships and multiple inheritance relationships between classes.
+Task
+Example
+Define a subclass
+class SuperClass:
+pass
+class SubClass(SuperClass):
+pass
+Define a subclass's __init__() using
+super()
+class SubClass(SuperClass):
+def __init__(self):
+super().__init__() # Calls superclass
+__init__()
+# Initialize subclass instance attributes
+Override a superclass method
+class SuperClass:
+def display(self):
+print('Superclass method')
+class SubClass(SuperClass):
+def display(self): # Same name as superclass
+method
+print('Subclass method')

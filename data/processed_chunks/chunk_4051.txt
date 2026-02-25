@@ -1,0 +1,25 @@
+94
+CHAPTER 4. DYNAMIC PROGRAMMING
+termination.
+4.2
+Policy Improvement
+Our reason for computing the value function for a policy is to help ﬁnd better
+policies. Suppose we have determined the value function vπ for an arbitrary
+deterministic policy π. For some state s we would like to know whether or not
+we should change the policy to deterministically choose an action a ̸= π(s).
+We know how good it is to follow the current policy from s—that is vπ(s)—but
+would it be better or worse to change to the new policy? One way to answer
+this question is to consider selecting a in s and thereafter following the existing
+policy, π. The value of this way of behaving is
+qπ(s, a)
+=
+Eπ[Rt+1 + γvπ(St+1) | St =s, At =a]
+(4.6)
+=
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+.

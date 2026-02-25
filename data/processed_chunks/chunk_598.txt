@@ -1,0 +1,12 @@
+7-13 Simulate the above PID control law. Choose reasonable numbers for the
+masses, inertias, etc. Also place reasonable limits on the magnitude of
+the control input. Use various methods, such as root locus, Bode plots,
+etc. to design the PID gains.
+7-14 Search the control literature (e.g., [6]) to ﬁnd out what is meant by inte-
+grator windup. Did you experience this problem with the PID control
+law of Problem 13? Find out what is meant by anti-windup (or anti-
+reset windup). Implement the above PID control with anti-reset windup.
+Is the response better?
+7-15 Repeat the above analysis and control design (Problems 11 – 14 for the
+two-link elbow manipulator of Example 6.4.2. Note that you will have to
+make some assumptions to arrive at a value of the eﬀective inertias Jeff.

@@ -1,0 +1,11 @@
+Morgan Kaufmann Publishers. 
+Lewis, D. (1991). Representation and learning in information retrieval, (Ph.D. thesis), (COINS Tech- 
+nical Report 91-93). Dept. of Computer and Information Science, University of Massachusetts. 
+Madigan, D., & Rafferty, A. (1994). ~ o d e l  
+selection and accounting for model uncertainty in graphi- 
+cal models using Occam's window. Journal of the American Statistical Association, 89, 1535- 
+1546. 
+Maisel, L. (1971). Probability, statistics, and random processes. Simon and Schuster Tech Outlines. 
+New York: Simon and Schuster. 
+Mehta, M., Rissanen, J., & Agrawal, R. (1995). MDL-based decision tree pruning. In U. M. Fayyard 
+and R. Uthurusamy (Eds.), Proceedings of the First International Conference on Knowledge

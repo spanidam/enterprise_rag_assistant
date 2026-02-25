@@ -1,0 +1,39 @@
+in 2023")
+plt.xlabel("Month")
+plt.ylabel("Inflation")
+# Display the chart
+plt.show()
+Table 15.9 Matplotlib functionalities. Line plot.
+15.5 • Data visualization
+371
+Plot type
+Method
+Scatter plot
+The plt.scatter(x, y) function takes in two inputs, x and y, and
+plots points representing (x, y) pairs.
+Example
+Output
+import matplotlib.pyplot
+as plt
+# Data
+x = [1, 2, 3, 4, 5, 6, 7,
+8, 9, 10]
+y = [10, 8, 6, 4, 2, 5, 7,
+9, 3, 1]
+# Create the scatter plot
+plt.scatter(x, y,
+marker="o", color="blue")
+# Customize the chart
+plt.title("Scatter Plot
+Example")
+plt.xlabel("X")
+plt.ylabel("Y")
+# Display the chart
+plt.show()
+Table 15.10 Matplotlib functionalities. Scatter plot.
+372
+15 • Data Science
+Access for free at openstax.org
+Plot type
+Method
+Histogram plot

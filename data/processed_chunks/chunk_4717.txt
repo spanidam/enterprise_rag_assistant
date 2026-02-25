@@ -1,0 +1,15 @@
+Minsky, M. L. (1954). Theory of Neural-Analog Reinforcement Systems and
+Its Application to the Brain-Model Problem. Ph.D. thesis, Princeton Uni-
+versity.
+Minsky, M. L. (1961). Steps toward artiﬁcial intelligence. Proceedings of the
+Institute of Radio Engineers, 49:8–30. Reprinted in E. A. Feigenbaum and
+J. Feldman (eds.), Computers and Thought, pp. 406–450. McGraw-Hill,
+New York, 1963.
+Minsky, M. L. (1967). Computation: Finite and Inﬁnite Machines. Prentice-
+Hall, Englewood Cliﬀs, NJ.
+Montague, P. R., Dayan, P., Sejnowski, T. J. (1996). A framework for mesen-
+cephalic dopamine systems based on predictive Hebbian learning. Journal
+of Neuroscience, 16:1936–1947.
+Moore, A. W. (1990).
+Eﬃcient Memory-Based Learning for Robot Control.
+Ph.D. thesis, University of Cambridge.

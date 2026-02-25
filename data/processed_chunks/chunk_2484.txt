@@ -1,0 +1,12 @@
+If both n 
+and m are nonzero, then the observed fraction 2 
+and prior p will be combined 
+according to the weight m. The reason m is called the equivalent sample size is 
+that Equation (6.22) can be interpreted as augmenting the n actual observations 
+by an additional m virtual samples distributed according to p. 
+6.10 AN EXAMPLE: LEARNING TO CLASSIFY TEXT 
+To illustrate the practical importance of Bayesian learning methods, consider learn- 
+ing problems in which the instances are text documents. For example, we might 
+wish to learn the target concept "electronic news articles that I find interesting," 
+or "pages on the World Wide Web that discuss machine learning topics." In both 
+cases, if a computer could learn the target concept accurately, it could automat-

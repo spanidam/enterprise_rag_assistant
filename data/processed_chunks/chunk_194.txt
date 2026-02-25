@@ -1,0 +1,38 @@
+s4s5
+s4s5d6
+−s5c6
+s5s6
+c5
+c5d6
+0
+0
+0
+1
+
+
+(3.15)
+Comparing the rotational part R3
+6 of T 3
+6 with the Euler angle transformation
+(2.27) shows that θ4, θ5, θ6 can indeed be identiﬁed as the Euler angles φ, θ and
+ψ with respect to the coordinate frame o3x3y3z3.
+⋄
+Example 3.4 Cylindrical Manipulator with Spherical Wrist
+Suppose that we now attach a spherical wrist to the cylindrical manipulator
+of Example 3.2 as shown in Figure 3.9. Note that the axis of rotation of joint 4
+80
+FORWARD AND INVERSE KINEMATICS
+d3
+θ1
+d2
+θ5
+θ4
+θ6
+n
+s
+a
+Fig. 3.9
+Cylindrical robot with spherical wrist
+is parallel to z2 and thus coincides with the axis z3 of Example 3.2. The impli-
+cation of this is that we can immediately combine the two previous expression
+(3.14) and (3.15) to derive the forward kinematics as

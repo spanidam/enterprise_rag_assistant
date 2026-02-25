@@ -1,0 +1,14 @@
+Machine Learning, 6(2). 
+Segre, A.M, Gordon G., & Elkan, C. P. (1996). Exploratory analysis of speedup learning data using 
+expectation maximization. Artificial Intelligence, 85, 301-3 19. 
+Speigel, M. R. (1991). Theory and problems of probability and statistics. Schaum's Outline Series. 
+New York: McGraw Hill. 
+Thompson, M.L., & Zucchini, W. (1989). On the statistical analysis of ROC curves. Statistics in 
+Medicine, 8, 1277-1290. 
+White, A. P., & Liu, W. Z. (1994). Bias in information-based measures in decision tree induction. 
+Machine Learning, 15, 321-329. 
+CHAPTER 
+BAYESIAN 
+LEARNING 
+Bayesian reasoning provides a probabilistic approach to inference. It is based on 
+the assumption that the quantities of interest are governed by probability distri-

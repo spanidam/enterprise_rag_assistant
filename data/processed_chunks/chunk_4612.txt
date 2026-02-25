@@ -1,0 +1,17 @@
+considered the problem of allocating channels so that the number of blocked
+calls is minimized.
+A simple example provides some intuition about the nature of the problem.
+Imagine a situation with three cells sharing two channels. The three cells are
+arranged in a line where no two adjacent cells can use the same channel without
+violating the channel reuse constraint. If the left cell is serving a call on channel
+1 while the right cell is serving another call on channel 2, as in the left diagram
+below, then any new call arriving in the middle cell must be blocked.
+292
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+1
+2
+1
+1
+2
+Obviously, it would be better for both the left and the right cells to use channel
+1 for their calls. Then a new call in the middle cell could be assigned channel 2,

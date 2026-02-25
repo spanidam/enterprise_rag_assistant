@@ -1,0 +1,12 @@
+also seem to limit the learned function to a coarse approximation, unable
+to make discriminations much ﬁner than the width of the receptive ﬁelds.
+Happily, this is not the case. Initial generalization from one point to another
+is indeed controlled by the size and shape of the receptive ﬁelds, but acuity,
+the ﬁnest discrimination ultimately possible, is controlled more by the total
+number of features.
+Example 9.1: Coarseness of Coarse Coding
+This example illustrates
+the eﬀect on learning of the size of the receptive ﬁelds in coarse coding. Linear
+function approximation based on coarse coding and (9.3) was used to learn a
+one-dimensional square-wave function (shown at the top of Figure 9.4). The
+values of this function were used as the targets, Vt. With just one dimension,

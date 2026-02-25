@@ -1,0 +1,13 @@
+For example, the instance 
+(Outlook = Sunny, Temperature = Hot, Humidity = High, Wind = Strong) 
+would be sorted down the leftmost branch of this decision tree and would therefore 
+be classified as a negative instance (i.e., the tree predicts that PlayTennis = no). 
+This tree and the example used in Table 3.2 to illustrate the ID3 learning algorithm 
+are adapted from (Quinlan 1986). 
+In general, decision trees represent a disjunction of conjunctions of con- 
+straints on the attribute values of instances. Each path from the tree root to a leaf 
+corresponds to a conjunction of attribute tests, and the tree itself to a disjunc- 
+tion of these conjunctions. For example, the decision tree shown in Figure 3.1 
+corresponds to the expression 
+(Outlook = Sunny A Humidity = Normal) 
+V

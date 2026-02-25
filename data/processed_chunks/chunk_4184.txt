@@ -1,0 +1,13 @@
+because then no returns will be obtained for alternative actions, and it may
+never be learned that they are actually better. One approach is to ignore this
+problem by assuming that episodes begin with state–action pairs randomly
+selected to cover all possibilities. Such exploring starts can sometimes be ar-
+ranged in applications with simulated episodes, but are unlikely in learning
+from real experience.
+In on-policy methods, the agent commits to always
+exploring and tries to ﬁnd the best policy that still explores. In oﬀ-policy
+methods, the agent also explores, but learns a deterministic optimal policy
+5.9. SUMMARY
+139
+that may be unrelated to the policy followed.
+Oﬀ-policy Monte Carlo prediction refers to learning the value function of

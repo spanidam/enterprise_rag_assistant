@@ -1,0 +1,13 @@
+and control methods.
+7.1
+n-Step TD Prediction
+What is the space of methods lying between Monte Carlo and TD methods?
+Consider estimating vπ from sample episodes generated using π. Monte Carlo
+methods perform a backup for each state based on the entire sequence of
+observed rewards from that state until the end of the episode. The backup of
+simple TD methods, on the other hand, is based on just the one next reward,
+using the value of the state one step later as a proxy for the remaining rewards.
+One kind of intermediate method, then, would perform a backup based on an
+intermediate number of rewards: more than one, but less than all of them
+until termination. For example, a two-step backup would be based on the ﬁrst
+two rewards and the estimated value of the state two steps later. Similarly,

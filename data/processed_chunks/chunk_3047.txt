@@ -1,0 +1,11 @@
+particular, the learned rule asserts that the essential constraint on the Volume and 
+Density of x is that their product is less than 5. In fact, the training examples 
+contain no description of such a product, or of the value it should take on. Instead, 
+this constraint is formulated automatically by the learner. 
+Notice this learned "feature" is similar in kind to the types of features repre- 
+sented by the hidden units of neural networks; that is, this feature is one of a very 
+large set of potential features that can be computed from the available instance 
+attributes. Like the BACKPROPAGATION 
+algorithm, PROLOG-EBG 
+automatically for- 
+mulates such features in its attempt to fit the training data. However, unlike the

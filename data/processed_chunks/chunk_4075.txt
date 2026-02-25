@@ -1,0 +1,12 @@
+The lower graph shows the ﬁnal policy.
+4.5. ASYNCHRONOUS DYNAMIC PROGRAMMING
+103
+other states happen to be available. The values of some states may be backed
+up several times before the values of others are backed up once. To converge
+correctly, however, an asynchronous algorithm must continue to backup the
+values of all the states: it can’t ignore any state after some point in the
+computation. Asynchronous DP algorithms allow great ﬂexibility in selecting
+states to which backup operations are applied.
+For example, one version of asynchronous value iteration backs up the
+value, in place, of only one state, sk, on each step, k, using the value iteration
+backup (4.10). If 0 ≤γ < 1, asymptotic convergence to v∗is guaranteed given

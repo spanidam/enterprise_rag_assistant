@@ -1,0 +1,10 @@
+useful to it in making decisions. If the agent is playing blackjack, we should not
+expect it to know what the next card in the deck is. If the agent is answering
+the phone, we should not expect it to know in advance who the caller is. If
+the agent is a paramedic called to a road accident, we should not expect it
+to know immediately the internal injuries of an unconscious victim. In all
+of these cases there is hidden state information in the environment, and that
+information would be useful if the agent knew it, but the agent cannot know it
+because it has never received any relevant sensations. In short, we don’t fault
+an agent for not knowing something that matters, but only for having known
+something and then forgotten it!

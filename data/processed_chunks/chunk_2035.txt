@@ -1,0 +1,12 @@
+is zero). Figure 3.4 illustrates the computations of information gain for the next 
+step in growing the decision tree. The final decision tree learned by ID3 from the 
+14 training examples of Table 3.2 is shown in Figure 3.1. 
+3.5 
+HYPOTHESIS SPACE SEARCH IN DECISION TREE 
+LEARNING 
+As with other inductive learning methods, ID3 can be characterized as searching a 
+space of hypotheses for one that fits the training examples. The hypothesis space 
+searched by ID3 is the set of possible decision trees. ID3 performs a simple-to- 
+complex, hill-climbing search through this hypothesis space, beginning with the 
+empty tree, then considering progressively more elaborate hypotheses in search of 
+a decision tree that correctly classifies the training data. The evaluation function

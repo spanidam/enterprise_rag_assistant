@@ -1,0 +1,80 @@
+q(t)
+=
+a0 + a1t + a2t2
+(5.57)
+so that the velocity is
+˙q(t)
+=
+a1 + 2a2t
+(5.58)
+180
+PATH AND TRAJECTORY PLANNING
+The constraints q0 = 0 and ˙q(0) = 0 imply that
+a0
+=
+q0
+(5.59)
+a1
+=
+0
+(5.60)
+At time tb we want the velocity to equal a given constant, say V . Thus, we
+have
+˙q(tb) = 2a2tb = V
+(5.61)
+which implies that
+a2
+=
+V
+2tb
+(5.62)
+Therefore the required trajectory between 0 and tb is given as
+q(t)
+=
+q0 + V
+2tb
+t2
+(5.63)
+=
+q0 + α
+2 t2
+˙q(t)
+=
+V
+tb
+t = αt
+(5.64)
+¨q
+=
+V
+tb
+= α
+(5.65)
+where α denotes the acceleration.
+Now, between time tf and tf −tb, the trajectory is a linear segment (corre-
+sponding to a constant velocity V )
+q(t)
+=
+a0 + a1t = a0 + V t
+(5.66)
+Since, by symmetry,
+q
+tf
+2
+
+=
+q0 + qf
+2
+(5.67)
+we have
+q0 + qf
+2
+=
+a0 + V tf
+2
+(5.68)
+which implies that
+a0
+=
+q0 + qf −V tf
+2

@@ -1,0 +1,13 @@
+tant to keep in mind that while the unit labeled Liftable was initially defined 
+by the given Horn clause for Liftable, the subsequent weight changes performed 
+by BACKPROPAGATION 
+may have dramatically changed,the meaning of this hidden 
+unit. After training of the network, this unit may take on a very different meaning 
+unrelated to the initial notion of Liftable. 
+12.3.3 Remarks 
+To summarize, KBANN analytically creates a network equivalent to the given 
+domain theory, then inductively refines this initial hypothesis to better fit the 
+training data. In doing so, it modifies the network weights as needed to overcome 
+inconsistencies between the domain theory and observed data. 
+The chief benefit of KBANN over purely inductive BACKPROPAGATION 
+(be-

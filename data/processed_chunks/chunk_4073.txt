@@ -1,0 +1,13 @@
+found, for the case of ph = 0.4. This policy is optimal, but not unique. In
+fact, there is a whole family of optimal policies, all corresponding to ties for
+the argmax action selection with respect to the optimal value function. Can
+you guess what the entire family looks like?
+4.5
+Asynchronous Dynamic Programming
+A major drawback to the DP methods that we have discussed so far is that
+they involve operations over the entire state set of the MDP, that is, they
+require sweeps of the state set. If the state set is very large, then even a single
+sweep can be prohibitively expensive. For example, the game of backgammon
+has over 1020 states. Even if we could perform the value iteration backup on
+a million states per second, it would take over a thousand years to complete a
+single sweep.

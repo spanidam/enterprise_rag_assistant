@@ -1,0 +1,11 @@
+to learning disjunctive sets of rules. It reduces the problem of learning a disjunc- 
+tive set of rules to a sequence of simpler problems, each requiring that a single 
+conjunctive rule be learned. Because it performs a greedy search, formulating a 
+sequence of rules without backtracking, it is not guaranteed to find the smallest 
+or best set of rules that cover the training examples. 
+How shall we design LEARN-ONE-RULE 
+to meet the needs of the sequential 
+covering algorithm? We require an algorithm that can formulate a single rule 
+with high accuracy, but that need not cover all of the positive examples. In this 
+section we present a variety of algorithms and describe the main variations that 
+have been explored in the research literature. In this section we consider learning

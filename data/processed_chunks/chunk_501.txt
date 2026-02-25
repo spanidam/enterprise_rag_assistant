@@ -1,0 +1,11 @@
+type of analysis, the Lagrangian formulation is superior while in the latter case
+the Newton-Euler formulation is superior. Looking ahead to topics beyond the
+scope of the book, if one wishes to study more advanced mechanical phenomena
+such as elastic deformations of the links (i.e., if one no longer assumes rigidity
+of the links), then the Lagrangian formulation is clearly superior.
+In this section we present the general equations that describe the Newton-
+Euler formulation. In the next section we illustrate the method by applying
+it to the planar elbow manipulator studied in Section 6.4 and show that the
+resulting equations are the same as (6.86).
+The facts of Newtonian mechanics that are pertinent to the present discussion
+can be stated as follows:

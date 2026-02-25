@@ -1,0 +1,12 @@
+concept, according to the domain theory. PROLOG-EBG 
+is a refinement of the EBG 
+algorithm introduced by Mitchell et al. (1986) and is similar to the EGGS algo- 
+rithm described by DeJong and Mooney (1986). The PROLOG-EBG algorithm is 
+summarized in Table 1 1.2. 
+11.2.1 An Illustrative Trace 
+To illustrate, consider again the training example and domain theory shown in 
+Table 1 1.1. As summarized in Table 1 1.2, the PROLOG-EBG algorithm is a se- 
+quential covering algorithm that considers the training data incrementally. For 
+each new positive training example that is not yet covered by a learned Horn 
+clause, it forms a new Horn clause by: (1) explaining the new positive training 
+example, (2) analyzing this explanation to determine an appropriate generaliza-

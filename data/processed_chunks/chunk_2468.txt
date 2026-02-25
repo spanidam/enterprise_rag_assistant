@@ -1,0 +1,10 @@
+instance is classified correctly, given the available data, hypothesis space, and 
+prior probabilities over the hypotheses. 
+For example, in learning boolean concepts using version spaces as in the 
+earlier section, the Bayes optimal classification of a new instance is obtained 
+by taking a weighted vote among all members of the version space, with each 
+candidate hypothesis weighted by its posterior probability. 
+Note one curious property of the Bayes optimal classifier is that the pre- 
+dictions it makes can correspond to a hypothesis not contained in H! Imagine 
+using Equation (6.18) to classify every instance in X. The labeling of instances 
+defined in this way need not correspond to the instance labeling of any single

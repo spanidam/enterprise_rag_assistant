@@ -1,0 +1,36 @@
+0
+0.05
+0.1
+0.15
+0.2
+0.25
+0
+25
+50
+75
+100
+Walks / Episodes
+TD
+MC
+!=.05
+!=.01
+!=.1
+!=.15
+!=.02
+!=.04
+!=.03
+RMS error,
+averaged
+over states
+Figure 6.7: Learning curves for TD(0) and constant-α MC methods, for various
+values of α, on the prediction problem for the random walk. The performance
+measure shown is the root mean-squared (RMS) error between the value func-
+tion learned and the true value function, averaged over the ﬁve states. These
+data are averages over 100 diﬀerent sequences of episodes.
+6.3. OPTIMALITY OF TD(0)
+151
+6.3
+Optimality of TD(0)
+Suppose there is available only a ﬁnite amount of experience, say 10 episodes
+or 100 time steps. In this case, a common approach with incremental learning
+methods is to present the experience repeatedly until the method converges

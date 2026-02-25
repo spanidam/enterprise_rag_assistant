@@ -1,0 +1,76 @@
+output y of the form
+an
+dny
+dtn + an−1
+dn−1y
+dtn−1 + · · · + a + 1dy
+dt + a0y
+=
+u.
+(D.12)
+The characteristic polynomial, whose roots are the open loop poles, is given as
+p(s)
+=
+ansn + an−1sn−1 + · · · + a0.
+(D.13)
+For simplicity we suppose that p(x) is monic, that is, an = 1. The stan-
+dard way of representing (D.12) in state space is to deﬁne n state variables
+x1, x2, . . . , xn as
+x1
+=
+y
+x2
+=
+˙y = ˙x1
+x3
+=
+¨y = ˙x2
+...
+(D.14)
+xn
+=
+dn−1y
+dtn−1 = ˙xn−1
+396
+STATE SPACE THEORY OF DYNAMICAL SYSTEMS
+and express (D.12) as the system of ﬁrst order diﬀerential equations
+˙x1
+=
+x2
+(D.15)
+˙x2
+=
+x3
+˙xn−1
+=
+xn
+˙xn
+=
+dny
+dtn = −a0y −a1
+dy
+dt −· · · −an−1
+dn −y
+dtn
++ u
+=
+−a0x1 −a1x2 −· · · −an−1xn + u.
+In matrix form this system of equations is written as
+
+
+˙x1
+...
+˙xn
+
+
+=
+
+
+0
+1
+·
+·
+0
+0
+0
+1

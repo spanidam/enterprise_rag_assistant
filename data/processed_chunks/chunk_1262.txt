@@ -1,0 +1,17 @@
+Table 4.5 Chapter 4 reference.
+120
+4 • Decisions
+Access for free at openstax.org
+Figure 5.1 credit: modification of work "Quantum Computing", by Kevin Dooley/Flickr, CC BY 2.0
+Chapter Outline
+5.1 While loop
+5.2 For loop
+5.3 Nested loops
+5.4 Break and continue
+5.5 Loop else
+5.6 Chapter summary
+Introduction
+A loop is a code block that runs a set of statements while a given condition is true. A loop is often used for
+performing a repeating task. Ex: The software on a phone repeatedly checks to see if the phone is idle. Once
+the time set by a user is reached, the phone is locked. Loops can also be used for iterating over lists like
+student names in a roster, and printing the names one at a time.

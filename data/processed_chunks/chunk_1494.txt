@@ -1,0 +1,16 @@
+a.
+program code
+b.
+real-world entity
+Encapsulation
+Encapsulation is a key concept in OOP that involves wrapping data and procedures that operate on that data
+into a single unit. Access to the unit's data is restricted to prevent other units from directly modifying the data.
+Ex: A ticket website manages all transactions for a concert, keeping track of tickets sold and tickets still
+available to avoid accidental overbooking.
+CHECKPOINT
+Encapsulating concert ticket information
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-1-object-oriented-programming-basics)
+CONCEPTS IN PRACTICE
+Encapsulation
+3. Consider the example above. Suppose the venue has to be changed due to inclement weather. How

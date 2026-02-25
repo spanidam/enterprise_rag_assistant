@@ -1,0 +1,52 @@
+v(0)
+c,i
+=
+v(0)
+e,i−1 + ω(0)
+i
+× r(0)
+i,ci
+(6.152)
+To obtain an expression for the acceleration, we use (??), and note that the
+vector r(0)
+i,ci is constant in frame i. Thus
+a(0)
+c,i
+=
+a(0)
+e,i−1 × r(0)
+i,ci + ω(0)
+i
+× (ω(0)
+i
+× r(0)
+i,ci)
+(6.153)
+Now
+ac,i
+=
+(Ri
+0)T a(0)
+c,i
+(6.154)
+222
+DYNAMICS
+Let us carry out the multiplication and use the familiar property
+R(a × b)
+=
+(Ra) × (Rb)
+(6.155)
+We also have to account for the fact that ae,i−1 is expressed in frame i −1 and
+transform it to frame i. This gives
+ac,i
+=
+(Ri
+i−1)T ae,i−1 + ˙ωi × ri,ci + ωi × (ωi × ri,ci)
+(6.156)
+Now to ﬁnd the acceleration of the end of link i, we can use (6.156) with ri,i+1
+replacing ri,ci. Thus
+ae,i
+=
+(Ri
+i−1)T ae,i−1 + ˙ωi × ri,i+1 + ωi × (ωi × ri,i+1)
+(6.157)

@@ -1,0 +1,50 @@
+=
+a sin(x2) = ˙x1
+(10.27)
+then, by the chain rule, y1 and y2 satisfy
+˙y1
+=
+y2
+˙y2
+=
+a cos(x2)(−x2
+1 + u)
+(10.28)
+We see that the nonlinearities can now be cancelled by the input
+u
+=
+1
+a cos(x2)v + x2
+1
+(10.29)
+FEEDBACK LINEARIZATION
+307
+which result in the linear system in the (y1, y2) coordinates
+˙y1
+=
+y2
+˙y2
+=
+v
+(10.30)
+The term v has the interpretation of an outer loop control and can be de-
+signed to place the poles of the second order linear system (10.30) in the coor-
+dinates (y1, y2). For example the outer loop control
+v
+=
+−k1y1 −k2y2
+(10.31)
+applied to (10.30) results in the closed loop system
+˙y1
+=
+y2
+(10.32)
+˙y2
+=
+−k1y1 −k2y2
+which has characteristic polynomial
+p(s)
+=
+s2 + k2s + k1
+(10.33)
+and hence the closed loop poles of the system with respect to the coordi-

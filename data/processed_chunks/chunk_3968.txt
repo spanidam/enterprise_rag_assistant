@@ -1,0 +1,12 @@
+Markov decision process, or MDP. If the state and action spaces are ﬁnite,
+then it is called a ﬁnite Markov decision process (ﬁnite MDP). Finite MDPs
+are particularly important to the theory of reinforcement learning. We treat
+them extensively throughout this book; they are all you need to understand
+90% of modern reinforcement learning.
+A particular ﬁnite MDP is deﬁned by its state and action sets and by the
+one-step dynamics of the environment. Given any state and action s and a,
+the probability of each possible pair of next state and reward, s′, r, is denoted
+p(s′, r|s, a) = Pr{St+1 =s′, Rt+1 = r | St =s, At =a}.
+(3.6)
+These quantities completely specify the dynamics of a ﬁnite MDP. Most of the
+theory we present in the rest of this book implicitly assumes the environment

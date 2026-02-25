@@ -1,0 +1,16 @@
+Bℓ= 1
+k = 100
+Jm = 2
+Bm = 0.5
+(a) Sketch the open loop poles of the transfer functions (7.61).
+(b) Apply a PD compensator to the system (7.61). Sketch the root locus
+for the system. Choose a reasonable location for the compensator
+zero. Using the Routh criterion ﬁnd the value of the compensator
+gain K when the root locus crosses the imaginary axis.
+7-21 One of the problems encountered in space applications of robots is the
+fact that the base of the robot cannot be anchored, that is, cannot be
+ﬁxed in an inertial coordinate frame.
+Consider the idealized situation
+shown in Figure 7.31, consisting of an inertia J1 connected to the rotor of
+a motor whose stator is connected to an inertia J2. For example, J1 could
+represent the space shuttle robot arm and J2 the inertia of the shuttle

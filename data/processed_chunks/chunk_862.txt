@@ -1,0 +1,21 @@
+would solve Equation (12.26) for ξxy,
+ξxy
+=
+L+
+xy { ˙s −Lzξz}
+(12.28)
+=
+L+
+xy { ˙s −˙sz}
+(12.29)
+This equation has an intuitive explanation. −L+
+xyLzξz is the required value of
+ξxy to cancel the feature motion ˙sz. The control uxy = ξxy = L+
+xy ˙s gives the
+velocity along and rotation about the camera x and y axes that produce the
+desired ˙s once image feature motion due to ξz has been accounted for.
+In [15], ξz, is computed using two image features that are simple and com-
+putationally inexpensive to compute. The image feature used to determine ωz
+is θij, with 0 ≤θij < 2π the angle between the horizontal axis of the image
+plane and the directed line segment joining feature points two feature point.
+This is illustrated in Figure 12.2. For numerical conditioning it is advantageous

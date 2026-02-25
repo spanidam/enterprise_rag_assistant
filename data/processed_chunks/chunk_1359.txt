@@ -1,0 +1,14 @@
+level-code)
+7.4 The help function
+Learning objectives
+By the end of this section you should be able to
+•
+Use the help() function to explore a module's contents.
+•
+Identify portions of code included in the documentation.
+Colors on websites
+This section introduces an example module for working with HTML colors (https://openstax.org/r/
+100htmlcolors). HyperText Markup Language (HTML) is used to design websites and graphical applications.
+Web browsers like Chrome and Safari read HTML and display the corresponding contents. Ex: The HTML code
+<p style="color: Red">Look out!</p> represents a paragraph with red text.
+HTML defines 140 standard color names (https://openstax.org/r/100colornames). Additional colors can be

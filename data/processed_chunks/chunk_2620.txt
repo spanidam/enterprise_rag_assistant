@@ -1,0 +1,11 @@
+the larger concept class has polynomial computation complexity per example and 
+still has polynomial sample complexity. This larger class is the class of k-CNF 
+expressions: conjunctions of arbitrary length of the form TI A T2 A .  . . A I;., where 
+each 
+is a disjunction of up to k boolean attributes. It is straightforward to show 
+that k-CNF subsumes k-DNF, because any k-term DNF expression can easily be 
+rewritten as a k-CNF expression (but not vice versa). Although k-CNF is more 
+expressive than k-term DNF, it has both polynomial sample complexity and poly- 
+nomial time complexity. Hence, the concept class k-term DNF is PAC learnable 
+by an efficient algorithm using H = k-CNF. See Kearns and Vazirani (1994) for 
+a more detailed discussion.

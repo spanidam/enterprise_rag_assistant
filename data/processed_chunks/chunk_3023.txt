@@ -1,0 +1,9 @@
+Note the bottom of this figure depicts in graphical form the positive training 
+example SafeToStack ( Objl , 0 b j 2  ) from Table 1 1.1. The top of the figure depicts 
+the explanation constructed for this training example. Notice the explanation, or 
+proof, states that it is SafeToStack Objl on 0 b j 2  because Objl is Lighter than 
+Obj2. Furthermore, Objl is known to be Lighter, because its Weight can be 
+inferred from its Density and Volume, and because the Weight of 0 b j 2  can be 
+inferred from the default weight of an Endtable. The specific Horn clauses that 
+underlie this explanation are shown in the domain theory of Table 1 1.1. Notice that 
+the explanation mentions only a small fraction of the known attributes of Objl

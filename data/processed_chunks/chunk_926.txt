@@ -1,0 +1,40 @@
+Brushless DC, 231
+DC, 230–231
+Rotor, 231
+Stator, 231
+Natural Constraint, 284–285
+Network Model, 287
+Newton-Euler formulation, 215
+Newton’s Second Law, 188
+Non-assembly, 6
+Nonholonomic constraint, 299, 319
+Non-servo, 6
+406
+INDEX
+Normal, 74
+Norton Equivalent, 289
+Norton Network, 289
+Numerically controlled milling machines, 2
+Observability, 257
+Observability matrix, 258
+Observable, 257
+Observer, 256–257
+Oﬀset, 69
+One-Port, 287
+One-Port Network, 287
+Opening, 9
+Operator
+Impedance, 288
+Orientation, 4
+Orientation matrix, 19
+Orientation of the tool frame, 19
+Orthogonal, 34, 284
+Orthonormal Basis, 284
+Outer-loop, 269
+Outer Loop, 291
+Outer loop control, 299, 307
+Parallelogram linkage, 10
+Partitioned methods, 369
+Permanent magnet, 232
+Permanent Magnet DC Motor, 230
+Perspective projection, 334

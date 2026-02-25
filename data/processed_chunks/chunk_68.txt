@@ -1,0 +1,13 @@
+cannot be used. Instead, we can use computer vision to close the control loop
+around the vision sensor. This is the topic of Chapter 12. There are several
+approaches to vision-based control, but we will focus on the method of Image-
+Based Visual Servo (IBVS). This method has become very popular in recent
+years, and it relies on mathematical development analogous to that given in
+Chapter 4.
+1.5
+CHAPTER SUMMARY
+In this chapter, we have given an introductory overview of some of the basic
+concepts required to develop mathematical models for robot arms. We have
+also discussed a few of the relevant mechanical aspects of robotic systems. In
+the remainder of the text, we will address the basic problems confronted in
+sensor-based robotic manipulation.

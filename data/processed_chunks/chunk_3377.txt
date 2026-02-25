@@ -1,0 +1,36 @@
+- - 
+weight update rules in, 237-238 
+164-167 
+prediction of probabilities with, 
+167-170 
+MDP. See Markov decision processes 
+Mean error, 143 
+Mean value, 133, 136 
+Means-ends planner, 326 
+Mechanical design, case-based reasoning 
+in, 240-244 
+Medical diagnosis: 
+attribute selection measure, 76 
+Bayes theorem in, 157-158 
+META-DENDRAL, 302 
+MFOIL, 302 
+Minimum Description Length principle, 
+66,69, 171-173, 197, 198 
+in decision tree learning, 173-174 
+in inductive logic programming, 
+292-293 
+MIS, 302 
+Mistake-bound learning, 202, 220, 226 
+in CANDIDATE-ELIMINATION 
+algorithm, 
+221-222 
+in FIND-S algorithm, 220-221 
+in HALVING algorithm, 221-222 
+in LIST-THEN-ELIMINATE 
+algorithm, 
+221-222 
+in WEIGHTED-MAJORITY 
+algorithm, 
+224-225 
+Mistake bounds, optimal. See Optimal 
+mistake bounds

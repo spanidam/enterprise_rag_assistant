@@ -1,0 +1,10 @@
+errorv(h2) is approximately .95. In the terminology of the statistics literature, we 
+say that we accept the hypothesis that "errorv(hl) > errorv(h2)" with confidence 
+0.95. Alternatively, we may state that we reject the opposite hypothesis (often 
+called the null hypothesis) at a (1 - 0.95) = .05 level of significance. 
+5.6 COMPARING LEARNING ALGORITHMS 
+Often we are interested in comparing the performance of two learning algorithms 
+LA and LB, rather than two specific hypotheses. What is an appropriate test for 
+comparing learning algorithms, and how can we determine whether an observed 
+difference between the algorithms is statistically significant? Although there is 
+active debate within the machine-learning research community regarding the best

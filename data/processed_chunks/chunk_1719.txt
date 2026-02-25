@@ -1,0 +1,12 @@
+condition fails: that is, price >= 9.99. The third branch executes if the first and second conditions fail:
+that is, price >= 19.99. Chaining can simplify decision statements.
+4.6 Nested decisions
+1. c. leaf_count == 3 is False , so the outer else ' s body is executed.
+2. c. num_dancers is positive, so the else branch is taken. num_dancers is odd, so the error is printed
+before the program continues after the nested if and prints num_dancers.
+3. b. 256 == 513 is False , and 256 < 513 is True , so the elif branch is taken and Body 2 executes.
+513 >= 512 is True , so Body 3 executes.
+4. c. The first else isn't indented and is treated as the else to the original if . Thus the second else is
+not connected to an if statement and produces an error.
+385
+4.7 Conditional expressions

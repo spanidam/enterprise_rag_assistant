@@ -1,0 +1,41 @@
+•
+airline_code: OA
+Method:
+•
+__init__(): initializes the instance attributes
+•
+print_info(): prints ticket information (provided in template)
+Given input:
+2121
+KEF
+D22B
+11:45
+12B
+Jules Laurent
+The output is:
+Passenger Jules Laurent departs on flight # 2121 at 11:45 from KEF D22B in seat
+12B
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-2-classes-and-instances)
+TRY IT
+Creating a class for fantasy books
+Write a class, Book, as described below. Then create two instances and assign each instance attribute with
+values read from input.
+11.2 • Classes and instances
+271
+Instance attributes:
+•
+title: ''
+•
+author: ''
+•
+year: 0
+•
+pages: 0
+Class attribute:
+•
+imprint: Fantasy Tomes
+Method:
+•
+__init__(): initializes the instance attributes
+•

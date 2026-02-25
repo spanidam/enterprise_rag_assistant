@@ -1,0 +1,19 @@
+viewpoints. We can give a second interpretation of the control law (8.17) as
+follows. Consider again the manipulator dynamic equations (8.15). Since M(q)
+is invertible for q ∈Rn we may solve for the acceleration ¨q of the manipulator
+as
+¨q
+=
+M −1{u −C(q, ˙q) ˙q −g(q)}.
+(8.25)
+Suppose we were able to specify the acceleration as the input to the system.
+That is, suppose we had actuators capable of producing directly a commanded
+acceleration (rather than indirectly by producing a force or torque). Then the
+dynamics of the manipulator, which is after all a position control device, would
+be given as
+¨q(t)
+=
+aq(t)
+(8.26)
+where aq(t) is the input acceleration vector. This is again the familiar double
+integrator system. Note that (8.26) is not an approximation in any sense; rather

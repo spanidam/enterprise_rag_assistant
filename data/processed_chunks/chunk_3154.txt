@@ -1,0 +1,12 @@
+hypothesis that generalizes beyond the data in a way that is more similar to the 
+domain theory predictions. On the other hand, the particular hypothesis to which 
+BACKPROPAGATION 
+converges will more likely be a hypothesis with small weights, 
+corresponding roughly to a generalization bias of smoothly interpolating between 
+training examples. In brief, KBANN uses a domain-specific theory to bias gen- 
+eralization, whereas BACKPROPAGATION 
+uses a domain-independent syntactic bias 
+toward small weight values. Note in this summary we have ignored the effect of 
+local minima on the search. 
+Limitations of KBANN include the fact that it can accommodate only propo- 
+sitional domain theories; that is, collections of variable-free Horn clauses. It is also

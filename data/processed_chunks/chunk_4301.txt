@@ -1,0 +1,12 @@
+tendency to do that will be undiminished during the episode. On-line TD(1),
+on the other hand, learns in an n-step TD way from the incomplete ongoing
+episode, where the n steps are all the way up to the current step. If something
+unusually good or bad happens during an episode, control methods based on
+180
+CHAPTER 7. ELIGIBILITY TRACES
+TD(1) can learn immediately and alter their behavior on that same episode.
+It is revealing to revisit the 19-state random walk example (Example 7.1)
+to see how well the backward-view TD(λ) algorithm does in approximating
+the ideal of the forward-view λ-return algorithm. The performances of oﬀ-line
+and on-line TD(λ) with accumulating traces are shown in the upper-right and
+middle-right panels of Figure 7.6. In the oﬀ-line case it has been proven that

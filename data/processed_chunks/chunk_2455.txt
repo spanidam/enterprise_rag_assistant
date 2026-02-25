@@ -1,0 +1,10 @@
+h €H  
+Somewhat surprisingly, Equation (6.16) can be interpreted as a statement 
+that short hypotheses are preferred, assuming a particular representation scheme 
+for encoding hypotheses and data. To explain this, let us introduce a basic result 
+from information theory: Consider the problem of designing a code to transmit 
+messages drawn at random, where the probability of encountering message i is 
+pi. We are interested here in the most compact code; that is, we are interested in 
+the code that minimizes the expected number of bits we must transmit in order to 
+encode a message drawn at random. Clearly, to minimize the expected code length 
+we should assign shorter codes to messages that are more probable. Shannon and

@@ -1,0 +1,13 @@
+decreases as the number of intervening rewards increases. In fact, the weight
+decays exponentially according to the exponent on 1 −α. (If 1 −α = 0, then
+all the weight goes on the very last reward, Rk, because of the convention that
+00 = 1.) Accordingly, this is sometimes called an exponential, recency-weighted
+average.
+Sometimes it is convenient to vary the step-size parameter from step to
+step. Let αk(a) denote the step-size parameter used to process the reward
+received after the kth selection of action a.
+As we have noted, the choice
+αk(a) = 1
+k results in the sample-average method, which is guaranteed to con-
+verge to the true action values by the law of large numbers. But of course
+convergence is not guaranteed for all choices of the sequence {αk(a)}. A well-

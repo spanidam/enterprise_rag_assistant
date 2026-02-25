@@ -1,0 +1,16 @@
+volves testing the two learned hypotheses on identical test sets. This contrasts with 
+the method described in Section 5.5 for comparing hypotheses that have been eval- 
+uated using two independent test sets. Tests where the hypotheses are evaluated 
+over identical samples are called paired tests. Paired tests typically produce tighter 
+confidence intervals because any differences in observed errors in a paired test 
+are due to differences between the hypotheses. In contrast, when the hypotheses 
+are tested on separate data samples, differences in the two sample errors might be 
+partially attributable to differences in the makeup of the two samples. 
+Confidence level N 
+90% 
+95% 
+98% 
+99% 
+TABLE 5.6 
+Values  oft^," for two-sided confidence intervals. As v + w, t ~ , "  
+approaches ZN.

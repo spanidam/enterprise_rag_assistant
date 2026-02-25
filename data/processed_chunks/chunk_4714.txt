@@ -1,0 +1,13 @@
+D. S. Touretzky, J. L. Elman, and A. S. Weigend (eds.), Proceedings of the
+1990 Connectionist Models Summer School. Erlbaum, Hillsdale, NJ.
+Mazur, J. E. (1994). Learning and Behavior, 3rd ed. Prentice-Hall, Englewood
+Cliﬀs, NJ.
+McCallum, A. K. (1993). Overcoming incomplete perception with utile dis-
+tinction memory. In Proceedings of the Tenth International Conference on
+Machine Learning, pp. 190–196. Morgan Kaufmann, San Mateo, CA.
+McCallum, A. K. (1995).
+Reinforcement Learning with Selective Perception
+and Hidden State. Ph.D. thesis, University of Rochester, Rochester, NY.
+Mendel, J. M. (1966). A survey of learning control systems. ISA Transactions,
+5:297–303.
+Mendel, J. M., McLaren, R. W. (1970). Reinforcement learning control and

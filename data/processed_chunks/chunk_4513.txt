@@ -1,0 +1,12 @@
+have been Michie and Chambers’s BOXES system (1968). The theory
+of state aggregation in reinforcement learning has been developed by
+Singh, Jaakkola, and Jordan (1995) and Tsitsiklis and Van Roy (1996).
+9.3
+TD(λ) with linear gradient-descent function approximation was ﬁrst ex-
+plored by Sutton (1984, 1988), who proved convergence of TD(0) in the
+mean to the minimal RMSE solution for the case in which the feature
+vectors, {x(s) : s ∈S}, are linearly independent. Convergence with
+probability 1 for general λ was proved by several researchers at about
+the same time (Peng, 1993; Dayan and Sejnowski, 1994; Tsitsiklis, 1994;
+Gurvits, Lin, and Hanson, 1994). In addition, Jaakkola, Jordan, and
+Singh (1994) proved convergence under on-line updating. All of these

@@ -1,0 +1,24 @@
+9. Suppose A is a 2 × 2 rotation matrix.
+In other words AT A = I and
+det A = 1. Show that there exists a unique θ such that A is of the form
+A
+=
+ cos θ
+−sin θ
+sin θ
+cos θ
+
+10. Consider the following sequence of rotations:
+(a) Rotate by φ about the world x-axis.
+(b) Rotate by θ about the current z-axis.
+(c) Rotate by ψ about the world y-axis.
+Write the matrix product that will give the resulting rotation matrix (do
+not perform the matrix multiplication).
+60
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+11. Consider the following sequence of rotations:
+(a) Rotate by φ about the world x-axis.
+(b) Rotate by θ about the world z-axis.
+(c) Rotate by ψ about the current x-axis.
+Write the matrix product that will give the resulting rotation matrix (do
+not perform the matrix multiplication).

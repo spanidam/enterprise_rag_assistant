@@ -1,0 +1,15 @@
+function graph query x,. 
+The above sketch of the CADET system illustrates several generic properties 
+of case-based reasoning systems that distinguish them from approaches such as 
+k-NEAREST 
+NEIGHBOR. 
+0 Instances or cases may be represented by rich symbolic descriptions, such 
+as the function graphs used in CADET. This may require a similarity metric 
+different from Euclidean distance, such as the size of the largest shared 
+subgraph between two function graphs. 
+0 Multiple retrieved cases may be combined to form the solution to the new 
+problem. This is similar to the k-NEAREST 
+NEIGHBOR 
+approach, in that mul- 
+tiple similar cases are used to construct a response for the new query. 
+However, the process for combining these multiple retrieved cases can be

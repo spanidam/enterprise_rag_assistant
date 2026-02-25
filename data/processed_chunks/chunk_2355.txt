@@ -1,0 +1,12 @@
+(5.13) 
+nl 
+n2 
+where zN is the same constant described in Table 5.1. The above expression gives 
+the general two-sided confidence interval for estimating the difference between 
+errors of two hypotheses. In some situations we might be interested in one-sided 
+bounds--either bounding the largest possible difference in errors or the smallest, 
+with some confidence level. One-sided confidence intervals can be obtained by 
+modifying the above expression as described in Section 5.3.6. 
+Although the above analysis considers the case in which hl and h2 are tested 
+on independent data samples, it is often acceptable to use the confidence interval 
+seen in Equation (5.13) in the setting where h 1 and h2 are tested on a single sample

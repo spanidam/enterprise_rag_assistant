@@ -1,0 +1,12 @@
+extracting symbolic descriptions from the refined network. Pratt (1993a, 1993b) 
+describes an initialize-the-hypothesis approach in which the prior knowledge is 
+provided by a previously learned neural network for a related task, rather than 
+a manually provided symbolic domain theory. Methods for training the values 
+of Bayesian belief networks, as discussed in Section 6.11, can also be viewed 
+as using prior knowledge to initialize the hypothesis.. Here the prior knowledge 
+corresponds to a set of conditional independence assumptions that determine the 
+graph structure of the Bayes net, whose conditional probability tables are then 
+induced from the training data. 
+12.4 
+USING PRIOR KNOWLEDGE TO ALTER THE SEARCH 
+OBJECTIVE

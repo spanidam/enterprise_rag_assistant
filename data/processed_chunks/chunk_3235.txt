@@ -1,0 +1,8 @@
+Lacher, R., Hmska, S., & Kuncicky, D. (1991). Backpropagation learning in expert networks (Dept. 
+of Computer Science Technical Report TR91-015). Florida State University, Tallahassee. 
+Mach, R., & Shavlik, J. (1993). Using knowledge-based neural networks to improve algorithms: 
+Refining the Chou-Fasman algorithm for protein folding. Machine Learning, 11(3), 195-215. 
+Mitchell, T. M., & Thrun, S. B. (1993a). Explanation-based neural network learning for robot control. 
+In S. Hanson, J. Cowan, & C. Giles (Eds.), Advances in neural infomtionprocessing systems 
+5 (pp. 287-294). San Mateo, CA: Morgan-Kaufmann Press. 
+Mitchell, T. M., & Thrun, S. B. (1993b). Explanation-based learning: A comparison of symbolic and

@@ -1,0 +1,13 @@
+256 
+MACHINE LEARNING 
+1 
+tournament selection, two hypotheses are first chosen at random from the current 
+population. With some predefined probability p the more fit of these two is then 
+selected, and with probability (1 - p) the less fit hypothesis is selected. Tourna- 
+ment selection often yields a more diverse population than fitness proportionate 
+selection (Goldberg and Deb 1991). In another method called rank selection, the 
+hypotheses in the current population are first sorted by fitness. The probability 
+that a hypothesis will be selected is then proportional to its rank in this sorted 
+list, rather than its fitness. 
+9.3 AN ILLUSTRATIVE EXAMPLE 
+A genetic algorithm can be viewed as a general optimization method that searches

@@ -1,0 +1,43 @@
+begins and ends at rest, that is, with zero initial and ﬁnal velocities, symmetry
+considerations would suggest that the switching time ts is just
+tf
+2 .
+This is
+indeed the case.
+For nonzero initial and/or ﬁnal velocities, the situation is
+more complicated and we will not discuss it here.
+If we let Vs denote the velocity at time ts then we have
+Vs
+=
+αts
+(5.75)
+and also
+ts
+=
+q0 −qf + Vstf
+Vs
+(5.76)
+The symmetry condition ts = tf
+2 implies that
+Vs
+=
+qf −q0
+ts
+(5.77)
+Combining these two we have the conditions
+qf −q0
+ts
+=
+αts
+(5.78)
+which implies that
+ts
+=
+s
+qf −q0
+α
+(5.79)
+5.6.2
+Trajectories for Paths Speciﬁed by Via Points
+Now that we have examined the problem of planning a trajectory between two
+conﬁguration, we generalize our approach to the case of planning a trajectory

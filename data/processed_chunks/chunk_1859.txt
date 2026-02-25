@@ -1,0 +1,9 @@
+examples, then try to find the "closest" stored situation to match any new situation 
+(nearest neighbor algorithm, Chapter 8). Or we might generate a large number of 
+candidate checkers programs and allow them to play against each other, keep- 
+ing only the most successful programs and further elaborating or mutating these 
+in a kind of simulated evolution (genetic algorithms, Chapter 9). Humans seem 
+to follow yet a different approach to learning strategies, in which they analyze, 
+or explain to themselves, the reasons underlying specific successes and failures 
+encountered during play (explanation-based learning, Chapter 11). Our design is 
+simply one of many, presented here to ground our discussion of the decisions that

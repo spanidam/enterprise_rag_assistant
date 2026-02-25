@@ -1,0 +1,11 @@
+to drive all the way to within the small −1 contour, but only to anywhere
+on the green; from there we can use the putter. The optimal action-value
+function gives the values after committing to a particular ﬁrst action, in this
+case, to the driver, but afterward using whichever actions are best. The −3
+contour is still farther out and includes the starting tee. From the tee, the best
+sequence of actions is two drives and one putt, sinking the ball in three strokes.
+76
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+Because v∗is the value function for a policy, it must satisfy the self-
+consistency condition given by the Bellman equation for state values (3.12).
+Because it is the optimal value function, however, v∗’s consistency condition

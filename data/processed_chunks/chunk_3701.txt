@@ -1,0 +1,15 @@
+code for state-of-the-art models (e.g., Vicuna, MT-Bench), and
+a distributed multi-model serving system with web UI and
+OpenAI-compatible RESTful APIs.
+Skypilot [229] is a framework for running LLMs, AI,
+and batch jobs on any cloud, offering maximum cost savings,
+highest GPU availability, and managed execution.
+vLLM [230] is a fast and easy-to-use library for LLM in-
+ference and serving. vLLM seamlessly supports many Hugging
+Face models, including the following architectures: Aquila,
+Baichuan, BLOOM, ChatGLM, DeciLM, Falcon, GPT Big-
+Code, LLaMA, LLaMA 2, Mistral, Mixtral, MPT, OPT, Qwen,
+Yi, and many more.
+text-generation-inference [231] is a toolkit for deploying
+and serving Large Language Models (LLMs). TGI enables
+high-performance text generation for the most popular open-

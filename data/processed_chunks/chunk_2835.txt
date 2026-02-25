@@ -1,0 +1,12 @@
+In contrast to coarse-grained parallel implementations of GAS, fine-grained 
+implementations typically assign one processor per individual in the population. 
+Recombination then takes place among neighboring individuals. Several differ- 
+ent types of neighborhoods have been proposed, ranging from planar grid to 
+torus. Examples of such systems are described by Spiessens and Manderick 
+(1991). An edited collection of papers on parallel GAS is available in Stender 
+(1993). 
+9.8 SUMMARY AND FURTHER READING 
+The main points of this chapter include: 
+0 Genetic algorithms (GAS) conduct a randomized, parallel, hill-climbing 
+search for hypotheses that optimize a predefined fitness function. 
+0 The search performed by GAS is based on an analogy to biological evolu-

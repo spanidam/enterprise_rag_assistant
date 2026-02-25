@@ -1,0 +1,12 @@
+tion about the sun and about its own axis. Deﬁne for the Earth a local
+coordinate frame whose z-axis is the Earth’s axis of rotation. Deﬁne t = 0
+to be the exact moment of the summer solstice, and the global reference
+frame to be coincident with the Earth’s frame at time t = 0. Give an
+expression R(t) for the rotation matrix that represents the instantaneous
+orientation of the earth at time t. Determine as a function of time the
+homogeneous transformation that speciﬁes the Earth’s frame with respect
+to the global reference frame.
+41. In general, multiplication of homogeneous transformation matrices is not
+commutative. Consider the matrix product
+H = Rotx,αTransx,bTransz,dRotz,θ
+Determine which pairs of the four matrices on the right hand side com-

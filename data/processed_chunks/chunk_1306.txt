@@ -1,0 +1,28 @@
+another function finishes execution, control flow returns to the calling function.
+CHECKPOINT
+Example: Book club email messages
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-2-control-flow)
+CONCEPTS IN PRACTICE
+Functions calling functions
+Consider the book club example above.
+6.2 • Control flow
+151
+5. How many function calls occur during the execution of the program?
+a.
+2
+b.
+3
+c.
+6
+6. When line 3 is reached and executed, which line does control flow return to?
+a.
+1
+b.
+11
+c.
+16
+TRY IT
+Updated terms and conditions prompt
+Write an updated function, terms(), that asks the user to accept the terms and conditions, reads in Y/N,
+and outputs a response by calling accepted() or rejected(). accepted() prints "Thank you for

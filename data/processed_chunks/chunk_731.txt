@@ -1,0 +1,21 @@
+constraint is frequently used interchangeably with holonomic constraint for
+this reason.
+10.6.1
+Involutivity and Holonomy
+Now, given a set of Pfaﬃan constraints < wi(q), ˙q > i = 1, . . . k, let Ωbe
+the codistribution deﬁned by the covectors w1, . . . , wk and let {g1, . . . , gm} for
+m = n −k be a basis for the distribution ∆that annihilates Ω, i.e. such that
+< wi, gj >= 0
+for each i, j
+(10.103)
+We use the notation ∆= Ω⊥(This is pronounced “Ωperp”). Notice from
+Equation (10.102) that
+0 =< wi, gj >=< dhi, gj >
+for each i, j
+(10.104)
+Using our previous notation for Lie Derivative, the above system of equations
+may be written as
+Lgjhi = 0
+i = 1, . . . , k; j = 1, . . . , m
+(10.105)
+The following theorem thus follows immediately from the Frobenius Theorem

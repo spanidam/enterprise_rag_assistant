@@ -1,0 +1,10 @@
+In this example, the agent moves one cell to the right in its grid world and receives 
+an immediate reward of zero for this transition. It then applies the training rule 
+of Equation (13.7) to refine its estimate Q for the state-action transition it just 
+executed. According to the training rule, the new Q estimate for this transition 
+is the sum of the received reward (zero) and the highest Q value associated with 
+the resulting state (loo), discounted by y (.9). 
+Each time the agent moves forward from an old state to a new one, Q 
+learning propagates Q estimates backward from the new state to the old. At the 
+same time, the immediate reward received by the agent for the transition is used 
+to augment these propagated values of Q.

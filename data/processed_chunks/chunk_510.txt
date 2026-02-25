@@ -1,0 +1,22 @@
+Fig. 6.11
+Forces and moments on link i
+together with all forces and torques acting on it. Let us analyze each of the
+forces and torques shown in the ﬁgure. First, fi is the force applied by link
+i −1 to link i. Next, by the law of action and reaction, link i + 1 applies a
+force of −fi+1 to link i, but this vector is expressed in frame i + 1 according to
+our convention. In order to express the same vector in frame i, it is necessary
+to multiply it by the rotation matrix Ri+1
+i
+. Similar explanations apply to the
+torques τi and −Ri+1
+i
+τi+1. The force migi is the gravitational force. Since all
+vectors in Figure 6.11 are expressed in frame i, the gravity vector gi is in general
+a function of i.
+220
+DYNAMICS
+Writing down the force balance equation for link i gives
+fi −Ri+1
+i
+fi+1 + migi
+=

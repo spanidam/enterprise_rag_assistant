@@ -1,0 +1,16 @@
+each regression step (i.e., the substitution Oh[ in Table 11.3) applied to it. This 
+substitution is necessary in order to keep consistent variable names between the 
+head and body of the created clause, and to specialize the clause head when the 
+R ~ ~ ~ ~ s s ( F r o n t i e r ,  
+Rule, Literal, &i) 
+Frontier: Set of literals to be regressed through Rule 
+Rule: A Horn clause 
+Literal: A literal in Frontier that is inferred by Rule in the explanation 
+Oki: The substitution that unijies the head of Rule to the corresponding literal in the explanation 
+Returns the set of literals forming the weakest preimage of Frontier with respect to Rule 
+head t 
+head of Rule 
+body t 
+body of Rule 
+Bkl t the most general unifier of head with Literal such that there exists a substitution Bli 
+for which

@@ -1,0 +1,10 @@
+schedule can be constructed eﬃciently by scheduling each task prior to launch
+as late as the temporal constraints permit, and each task after landing as early
+as these constraints permit. Resource pools are assigned randomly. Two types
+of operators are used to modify schedules. They can be applied to any task
+that violates a resource constraint. A Reassign-Pool operator changes the
+pool assigned to one of the task’s resources. This type of operator applies only
+if it can reassign a pool so that the resource requirement is satisﬁed. A Move
+operator moves a task to the ﬁrst earlier or later time at which its resource
+needs can be satisﬁed and uses the critical path method to reschedule all of
+the task’s temporal dependents.

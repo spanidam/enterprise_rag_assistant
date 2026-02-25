@@ -1,0 +1,36 @@
+Warm 
+Same 
+Yes 
+3 
+Rainy 
+Cold 
+High 
+Strong 
+Warm 
+Change 
+No 
+4 
+Sunny 
+Warm 
+High 
+Strong 
+Cool 
+Change 
+Yes 
+TABLE 2.1 
+Positive and negative training examples for the target concept EnjoySport. 
+22 
+MACHINE LEARNING 
+The most general hypothesis-that 
+every day is a positive example-is 
+repre- 
+sented by 
+(?, ?, ?, ?, ?, ?) 
+and the most specific possible hypothesis-that 
+no day is a positive example-is 
+represented by 
+(0,0,0,0,0,0) 
+To summarize, the EnjoySport concept learning task requires learning the 
+set of days for which EnjoySport = yes, describing this set by a conjunction 
+of constraints over the instance attributes. In general, any concept learning task 
+can be described by the set of instances over which the target function is defined,

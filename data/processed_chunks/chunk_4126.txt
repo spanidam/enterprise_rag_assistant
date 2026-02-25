@@ -1,0 +1,10 @@
+achieve this, we ﬁrst consider the policy evaluation problem for action values.
+The policy evaluation problem for action values is to estimate qπ(s, a),
+the expected return when starting in state s, taking action a, and thereafter
+following policy π. The Monte Carlo methods for this are essentially the same
+as just presented for state values, except now we talk about visits to a state–
+action pair rather than to a state. A state–action pair s, a is said to be visited
+in an episode if ever the state s is visited and action a is taken in it. The every-
+visit MC method estimates the value of a state–action pair as the average of the
+returns that have followed visits all the visits to it. The ﬁrst-visit MC method
+averages the returns following the ﬁrst time in each episode that the state was

@@ -1,0 +1,12 @@
+resent them. We ﬁrst consider angular velocity about a ﬁxed axis, and then
+generalize this to rotation about an arbitrary, possibly moving axis with the
+aid of skew symmetric matrices. Equipped with this general representation of
+angular velocities, we are able to derive equations for both the angular velocity
+and the linear velocity for the origin of a moving frame.
+We then proceed to the derivation of the manipulator Jacobian. For an n-link
+manipulator we ﬁrst derive the Jacobian representing the instantaneous trans-
+formation between the n-vector of joint velocities and the 6-vector consisting
+113
+114
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+of the linear and angular velocities of the end-eﬀector. This Jacobian is then

@@ -1,0 +1,9 @@
+tion Cup, with each rectangular block representing a distinct neural network in the 
+domain theory. Notice in this example there is one network for each of the Horn 
+clauses in the symbolic domain theory of Table 12.3. For example, the network 
+labeled Graspable takes as input the description of an instance and produces as 
+output a value indicating whether the object is graspable (EBNN typically repre- 
+sents true propositions by the value 0.8 and false propositions by the value 0.2). 
+This network is analogous to the Horn clause for Graspable given in Table 12.3. 
+Some networks take the outputs of other networks as their inputs (e.g., the right- 
+most network labeled Cup takes its inputs from the outputs of the Stable, Lifable,

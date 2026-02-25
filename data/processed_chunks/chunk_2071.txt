@@ -1,0 +1,10 @@
+set is unlikely to exhibit the same random fluctuations. Therefore, the validation 
+set can be expected to provide a safety check against overfitting the spurious 
+characteristics of the training set. Of course, it is important that the validation set 
+be large enough to itself provide a statistically significant sample of the instances. 
+One common heuristic is to withhold one-third of the available examples for the 
+validation set, using the other two-thirds for training. 
+3.7.1.1 REDUCED ERROR PRUNING 
+How exactly might we use a validation set to prevent overfitting? One approach, 
+called reduced-error pruning (Quinlan 1987), is to consider each of the decision 
+nodes in the.tree to be candidates for pruning. Pruning a decision node consists of

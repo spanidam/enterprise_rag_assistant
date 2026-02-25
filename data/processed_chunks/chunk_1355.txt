@@ -1,0 +1,33 @@
+volume = sphere(r)
+a.
+true
+b.
+false
+3. The following greeting.py module causes a side effect.
+name = input("What is your name? ")
+7.3 • Top-level code
+181
+print(f"Nice to meet you, {name}!")
+live = input("Where do you live? ")
+print(f"{live} is a great place.")
+a.
+true
+b.
+false
+Using __name__
+Python modules often include the statement if __name__ == "__main__" to prevent side effects. This
+statement is true when the module is run as a program and false when the module is imported.
+CHECKPOINT
+The main module
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/7-3-top-
+level-code)
+CONCEPTS IN PRACTICE
+Using __name__
+4. What is the output when running the following test.py module?
+import math
+print(math.__name__)
+print(__name__)
+a.
+>math
+test
+b.

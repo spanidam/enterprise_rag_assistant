@@ -1,0 +1,38 @@
+side effect. The unintended code is generally at the top level, outside of function definitions.
+CHECKPOINT
+Sphere test code
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/7-3-top-
+level-code)
+CONCEPTS IN PRACTICE
+Side effects
+1. Which line would cause a side effect when imported?
+1
+import math
+2
+3
+print("Defining sphere function")
+4
+5
+def sphere(radius):
+6
+"""Gets the volume of a sphere."""
+7
+return 4/3 * math.pi * radius**3
+a.
+line 1
+b.
+line 3
+c.
+line 5
+2. The following volume.py module causes a side effect.
+import math
+def sphere(radius):
+"""Gets the volume of a sphere."""
+return 4/3 * math.pi * radius**3
+for r in range(10000000):
+volume = sphere(r)
+a.
+true
+b.
+false
+3. The following greeting.py module causes a side effect.

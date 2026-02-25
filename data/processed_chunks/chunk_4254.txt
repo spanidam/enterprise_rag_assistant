@@ -1,0 +1,13 @@
+of Samuel (1959) and Klopf (1972).
+Samuel’s work is described as a case
+study in Section 15.2. Also related to TD learning are Holland’s (1975, 1976)
+early ideas about consistency among value predictions. These inﬂuenced one
+of the authors (Barto), who was a graduate student from 1970 to 1975 at the
+University of Michigan, where Holland was teaching. Holland’s ideas led to a
+number of TD-related systems, including the work of Booker (1982) and the
+bucket brigade of Holland (1986), which is related to Sarsa as discussed below.
+6.1–2 Most of the speciﬁc material from these sections is from Sutton (1988),
+6.7. SUMMARY
+163
+including the TD(0) algorithm, the random walk example, and the term
+“temporal-diﬀerence learning.” The characterization of the relationship

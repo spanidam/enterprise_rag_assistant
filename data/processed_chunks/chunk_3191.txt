@@ -1,0 +1,13 @@
+CHAPTER 12 C O M B m G  INDUCTIVE AND ANALYTICAL LEARNING 355 
+Although the notation here appears a bit tedious, the idea is simple. The 
+error given by Equation (12.2) has the same general form as the error function 
+in Equation (12.1) minimized by TANGENTPROP. 
+The leftmost term measures the 
+usual sum of squared errors between the training value f (xi) and the value pre- 
+dicted by the target network f"(xi). The rightmost term measures the squared error 
+between the training derivatives 
+extracted from the domain theory and the 
+actual derivatives of the target network e. 
+Thus, the leftmost term contributes 
+the inductive constraint that the hypothesis must fit the observed training data, 
+whereas the rightmost term contributes the analytical constraint that it must fit

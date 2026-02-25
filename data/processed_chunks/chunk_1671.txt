@@ -1,0 +1,78 @@
+True
+The df.isnull()
+function returns a
+Boolean array with
+Boolean values
+representing whether
+each entry is Null.
+fillna()
+df["Column 2"] =\
+df["Column
+2"].fillna(df["Column
+2"]
+.mean())
+Column
+1
+Column
+2
+Column
+3
+0
+A
+172.5
+True
+1
+B
+200.0
+True
+2
+C
+500.0
+False
+3
+D
+0.0
+NaN
+4
+E
+-10.0
+NaN
+Null values in
+Column 2 are
+replaced with the
+mean of non-Null
+values in the column.
+dropna()
+# Applied after the
+run
+# of the previous row
+df = df.dropna()
+Column
+1
+Column
+2
+Column
+3
+0
+A
+172.5
+True
+1
+B
+200.0
+True
+2
+C
+500.0
+False
+All rows containing a
+Null value are
+removed from the
+DataFrame.
+Table 15.6 Null identification and removal examples.
+15.4 • Exploratory data analysis
+367
+CONCEPTS IN PRACTICE
+Missing value treatment
+8. Which of the following is used to check the DataFrame for Null values?
+a.

@@ -1,0 +1,13 @@
+range of the random walk. If certain characteristics of local minima (e.g., the
+size of the basin of attraction) are known in advance, these can be used to
+select the parameters vi and t. Otherwise, they can be determined empirically,
+or based on weak assumptions about the potential ﬁeld (the latter approach
+was used in the original RPP).
+5.5
+PROBABILISTIC ROADMAP METHODS
+The potential ﬁeld approaches described above incrementally explore Qfree,
+searching for a path from qinit to qﬁnal.
+At termination, these planners re-
+turn a single path. Thus, if multiple path planning problems must be solved,
+such a planner must be applied once for each problem. An alternative approach
+is to construct a representation of Qfree that can be used to quickly generate

@@ -1,0 +1,11 @@
+infinite, hypothesis spaces. 
+If we view learning as a search problem, then it is natural that our study 
+of learning algorithms will exa~the different strategies for searching the hypoth- 
+esis space. We will be particula ly interested in algorithms capable of efficiently 
+searching very large or infinite hypothesis spaces, to find the hypotheses that best 
+fit the training data. 
+2.3.1 General-to-Specific Ordering of Hypotheses 
+Many algorithms for concept learning organize the search through the hypothesis 
+space by relying on a very useful structure that exists for any concept learning 
+problem: a general-to-specific ordering of hypotheses. By taking advantage of this 
+naturally occurring structure over the hypothesis space, we can design learning

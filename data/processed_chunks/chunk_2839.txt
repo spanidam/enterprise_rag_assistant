@@ -1,0 +1,11 @@
+followed up by Schwefel (1975, 1977, 1995) and others. Evolutionary program- 
+ming, developed by Folgel, Owens, and Walsh (1966) as a method for evolv- 
+ing finite-state machines, was followed up by numerous researchers (e.g., 
+Fogel and Atmar 1993). Genetic algorithms, introduced by Holland (1962, 1975) 
+included the notion of maintaining a large population of individuals and em- 
+phasized crossover as a key operation in such systems. Genetic programming, 
+introduced by Koza (1992), applies the search strategy of genetic algorithms to 
+hypotheses consisting of computer programs. As computer hardware continues to 
+become faster and less expensive, interest in evolutionary approaches continues 
+to grow. 
+One approach to using GAS to learn sets of rules was developed by

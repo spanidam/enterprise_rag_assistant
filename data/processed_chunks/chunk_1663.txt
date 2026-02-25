@@ -1,0 +1,13 @@
+main goal of EDA is to become familiar with the data and assess the quality of the data. Once data are
+understood and cleaned, data scientists may perform feature creation and hypothesis formation. A feature is
+362
+15 • Data Science
+Access for free at openstax.org
+an individual variable or attribute that is calculated from the raw data in the dataset.
+Data indexing can be used to select and access specific rows and columns. Data indexing is essential in
+examining a dataset. In Pandas, two types of indexing methods exist:
+•
+Label-based indexing using loc[]: loc[] allows you to access data in a DataFrame using row/column
+labels. Ex: df.loc[row_label, column_label] returns specific data at the intersection of row_label
+and column_label.
+•

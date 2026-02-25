@@ -1,0 +1,15 @@
+pattern:
+•
+Learning objectives
+•
+1–3 subsections
+•
+Programming practice
+The learning objectives are designed to help readers identify the section's focus. Each objective completes the
+sentence, "By the end of this section you should be able to". The programming practice aligns with the
+learning objectives and gives readers an opportunity to apply concepts learned in the section.
+Pedagogical Foundation
+Concise text and video-based animations
+Introduction to Python Programming is designed to foster active learning and student engagement. It focuses
+on interactivity and practice through its integrated code runner, videos, and links to external environments and
+activities. With that focus, the material is often more concise, with less text and more activity.

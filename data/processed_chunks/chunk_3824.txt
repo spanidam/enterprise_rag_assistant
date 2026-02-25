@@ -1,0 +1,14 @@
+sively developed by many researchers to form a major branch of reinforcement
+learning research (reviewed by Urbanowicz and Moore, 2009), but genetic
+algorithms—which we do not consider to be reinforcement learning systems
+by themselves—have received much more attention, as have other approaches
+to evolutionary computation (e.g., Fogel, Owens and Walsh, 1966, and Koza,
+1992).
+The individual most responsible for reviving the trial-and-error thread to
+reinforcement learning within artiﬁcial intelligence was Harry Klopf (1972,
+1975, 1982).
+Klopf recognized that essential aspects of adaptive behavior
+were being lost as learning researchers came to focus almost exclusively on
+supervised learning. What was missing, according to Klopf, were the hedonic
+1.7. HISTORY OF REINFORCEMENT LEARNING
+23

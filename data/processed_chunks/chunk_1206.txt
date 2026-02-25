@@ -1,0 +1,23 @@
+integer number can also be used as an index. Similar to strings, negative indexing can also be used to address
+individual elements. Ex: Index -1 refers to the last element and -2 the second-to-last element.
+The len() function, when called on a list, returns the length of the list.
+EXAMPLE 3.1
+List indexes and len() function
+The following code demonstrates the use of list indexes and the len() function. Line 6 shows the use of the
+len() function to get the length of the list. Line 10 shows how to access an element using an index. Line 14
+shows how to modify a list element using an index.
+1
+# Setup a list of numbers
+2
+num_list = [2, 3, 5, 9, 11]
+3
+print(num_list)
+4
+5
+# Print the length of the list
+6
+print("Length: ", len(num_list))
+7
+8
+# Print the 4th element in the list
+9

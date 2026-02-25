@@ -1,0 +1,11 @@
+λ = 0.9, ϵ = 0, and w0 = 0. The use of a greedy policy (ε = 0) seemed
+preferable on this task because long sequences of correct actions are needed to
+do well. One exploratory action could spoil a whole sequence of good actions.
+Exploration was ensured instead by starting the action values optimistically, at
+the low value of 0. As discussed in Section 2.7 and Example 9.2, this makes the
+agent continually disappointed with whatever rewards it initially experiences,
+driving it to keep trying new things.
+Figure 14.6 shows learning curves for the acrobot task and the learning al-
+gorithm described above. Note from the single-run curve that single episodes
+were sometimes extremely long.
+On these episodes, the acrobot was usu-

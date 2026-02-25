@@ -1,0 +1,10 @@
+One strategy for dealing with the missing attribute value is to assign it the 
+value that is most common among training examples at node n. Alternatively, we 
+might assign it the most common value among examples at node n that have the 
+classification c(x). The elaborated training example using this estimated value for 
+A(x) can then be used directly by the existing decision tree learning algorithm. 
+This strategy is examined by Mingers (1989a). 
+A second, more complex procedure is to assign a probability to each of the 
+possible values of A rather than simply assigning the most common value to A(x). 
+These probabilities can be estimated again based on the observed frequencies of 
+the various values for A among the examples at node n. For example, given a

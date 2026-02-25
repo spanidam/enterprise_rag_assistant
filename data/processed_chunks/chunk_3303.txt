@@ -1,0 +1,18 @@
+assure convergence of Q to Q: 
+Q ~ ( s ,  
+a) -+ (1 - un)Qn-l(s, a) + a,[r + y max Q,-~(S', a')] 
+at 
+(13.10) 
+where 
+a, = 
+1 
+1 + visits, (s, a) 
+where s and a here are the state and action updated during the nth iteration, and 
+where visits,(s, a) is the total number of times this state-action pair has been 
+visited up to and including the nth iteration. 
+The key idea in this revised rule is that revisions to Q are made more 
+gradually than in the deterministic case. Notice if we were to set a, to 1 in 
+Equation (13.10) we would have exactly the training rule for the deterministic case. 
+With smaller values of a ,  this term is now averaged in with the current ~ ( s ,  
+a )  to 
+produce the new updated value. Notice that the value of a, in Equation (13.11)

@@ -1,0 +1,21 @@
+Expensive 
+RottomlsFlat 
+Madeofceramic 
+Madeofstyrofoam 
+MadeOfPaper 
+HasHandle 
+HandleOnTop 
+Handleonside 
+Light 
+Hasconcavity 
+ConcavityPointsUp 
+Fragile 
+Stable 
+Lifable 
+FIGURE 12.2 
+A neural network equivalent to the domain theory. This network, created in the first stage of the 
+KBANN algorithm, produces output classifications identical to those of the given domain theory 
+clauses. Dark lines indicate connections with weight W and correspond to antecedents of clauses 
+from the domain theory. Light lines indicate connections with weights of approximately zero. 
+the weight is set to some positive constant W. For each input corresponding to a 
+negated antecedent, the weight is set to - W. The threshold weight of the unit, wo

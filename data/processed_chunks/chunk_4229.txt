@@ -1,0 +1,10 @@
+or the minimum squared-error estimates, they can be understood as moving
+roughly in these directions. Nonbatch TD(0) may be faster than constant-α
+MC because it is moving toward a better estimate, even though it is not get-
+ting all the way there. At the current time nothing more deﬁnite can be said
+about the relative eﬃciency of on-line TD and Monte Carlo methods.
+Finally, it is worth noting that although the certainty-equivalence estimate
+is in some sense an optimal solution, it is almost never feasible to compute
+it directly. If N is the number of states, then just forming the maximum-
+likelihood estimate of the process may require N 2 memory, and computing the
+corresponding value function requires on the order of N 3 computational steps

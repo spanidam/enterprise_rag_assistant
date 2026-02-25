@@ -1,0 +1,13 @@
+the true initial condition x(t0) for (7.68) will generally be unknown, this idea
+is not feasible. However the idea of using the model of the system (7.68) is a
+good starting point to construct a state estimator in software. Let us, therefore,
+consider an estimate ˆx(t) satisfying the system
+˙ˆx
+=
+Aˆx + bu + ℓ(y −cT ˆx).
+(7.82)
+Equation (7.82) is called an observer for (7.68) and represents a model of the
+system (7.68) with an additional term ℓ(y −cT ˆx). This additional term is a
+measure of the error between the output y(t) = cT x(t) of the plant and the
+estimate of the output, cT ˆx(t). Since we know the coeﬃcient matrices in (7.82)
+and can measure y directly, we can solve the above system for ˆx(t) starting from

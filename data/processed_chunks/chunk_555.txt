@@ -1,0 +1,30 @@
+θ/
+−
+O
+Fig. 7.11
+Second Order System with PD Compensator
+loop characteristic polynomial is
+p(s)
+=
+s2 + (1 + KD)s + Kp
+(7.41)
+Suppose θd = 10 and there is no disturbance (d = 0). With ζ = 1, the required
+PD gains for various values of ω are shown in Table 7.1. The corresponding
+step responses are shown in Figure 7.12.
+Now suppose that there is a constant disturbance d = 40 acting on the sys-
+tem. The response of the system with the PD gains of Table 7.1 are shown in
+Figure 7.13. We see that the steady state error due to the disturbance is smaller
+for large gains as expected.
+⋄
+7.3.3
+PID Compensator
+In order to reject a constant disturbance using PD control we have seen that
+large gains are required. By using integral control we may achieve zero steady
+SET-POINT TRACKING
+241
+0
+0.5
+1
+1.5
+2
+0

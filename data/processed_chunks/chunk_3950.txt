@@ -1,0 +1,12 @@
+approach not because we consider state representation to be unimportant, but
+6Ways to formulate tasks that are both continuing and undiscounted are the subject of
+current research (e.g., Mahadevan, 1996; Schwartz, 1993; Tadepalli and Ok, 1994). Some of
+the ideas are discussed in Section 11.2.
+∗3.5. THE MARKOV PROPERTY
+63
+in order to focus fully on the decision-making issues. In other words, our main
+concern is not with designing the state signal, but with deciding what action
+to take as a function of whatever state signal is available.
+Certainly the state signal should include immediate sensations such as sen-
+sory measurements, but it can contain much more than that. State represen-
+tations can be highly processed versions of original sensations, or they can be

@@ -1,0 +1,16 @@
+of these model [220], would help them to better detect potential
+adversarial attacks.
+Addressing ethical concerns and biases in LLMs is another
+active area of research. Efforts are being made to ensure that
+LLMs are fair, unbiased, and capable of handling sensitive
+information responsibly. As LLMs are being used more and
+more by a large number of people on a daily basis, making
+sure they are unbiased and behave responsibly is crucial.
+VIII.
+CONCLUSION
+This paper present a survey of LLMs developed in the
+past few years. We first provide an overview of early pre-
+trained language models (e.g., as BERT), then review three
+popular LLM families (GPT, LLaMA, PaLM), and other
+representative LLMs. We then survey methods and techniques
+of building, augmenting, and using LLMs. We review popular

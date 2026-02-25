@@ -1,0 +1,37 @@
+their returns). Both oﬀ-policy methods closely approximated this value after
+1000 oﬀ-policy episodes using the random policy. Figure 5.7 shows the mean
+squared error (estimated from 100 independent runs) for each method as a
+function of number of episodes. The weighted importance-sampling method
+has much lower overall error in this example, as is typical in practice.
+Ordinary 
+importance 
+sampling
+Weighted importance sampling
+Episodes (log scale)
+0
+10
+100
+1000
+10,000
+Mean
+square
+error
+(average over
+100 runs)
+0
+2
+4
+Figure 5.7: Weighted importance sampling produces lower error estimates of
+the value of a single blackjack state from oﬀ-policy episodes (see Example 5.4).
+5.5. OFF-POLICY PREDICTION VIA IMPORTANCE SAMPLING
+131
+1
+100,000
+1,000,000
+10,000,000
+100,000,000
+2
+0.1
+0.9
+R = +1
+s

@@ -1,0 +1,14 @@
+lower than the training one?
+5.3. DropOut
+31
+Deep Learning Basics (lecture notes)
+® Solution
+In fact, the training loss is computed as the average loss over all training mini-batches during an epoch. Now, if
+we recall that during training, at each minibatch, 30% of the neurons are switched-off, one can see that only a
+subpart of the full model is used when evaluating the training loss while the full model is retrieved when predicting
+on the validation set, which explains why the measured validation loss is lower than the training one.
+32
+Chapter 5. Regularization
+CHAPTER 6
+CONVOLUTIONAL NEURAL NETWORKS
+Convolutional Neural Networks (aka ConvNets) are designed to take advantage of the structure in the data. In this

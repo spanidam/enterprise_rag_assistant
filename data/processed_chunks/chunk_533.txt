@@ -1,0 +1,10 @@
+As an illustration of the eﬀect of the mechanical design on the control prob-
+lem, compare a robot actuated by permanent magnet DC motors with gear
+reduction to a direct-drive robot using high-torque motors with no gear reduc-
+tion. In the ﬁrst case, the motor dynamics are linear and well understood and
+the eﬀect of the gear reduction is largely to decouple the system by reducing the
+inertia coupling among the joints. However, the presence of the gears introduces
+friction, drive train compliance and backlash.
+In the case of a direct-drive robot, the problems of backlash, friction, and
+compliance due to the gears are eliminated. However, the coupling among the
+links is now signiﬁcant, and the dynamics of the motors themselves may be much

@@ -1,0 +1,36 @@
+that for an n-link rigid manipulator the feedback linearizing control is identical
+to the inverse dynamics control of Chapter 8. To see this, consider the rigid
+equations of motion (8.6), which we write in state space as
+˙x1
+=
+x2
+˙x2
+=
+−M(x1)−1(C(x1, x2)x2 + g(x1)) + M(x1)−1u
+(10.83)
+316
+GEOMETRIC NONLINEAR CONTROL
+with x1 = q; x2 = ˙q. In this case a feedback linearizing control is found by
+simply inspecting (10.83) as
+u
+=
+M(x1)v + C(x1, x2)x2 + g(x1)
+(10.84)
+Substituting (10.84) into (10.83) yields
+˙x1
+=
+x2
+˙x2
+=
+v
+(10.85)
+Equation (10.85) represents a set of n-second order systems of the form
+˙x1i
+=
+x2i
+˙x2i
+=
+vi,
+i = 1, . . . , n
+(10.86)
+Comparing (10.84) with (8.17) we see indeed that the feedback linearizing control

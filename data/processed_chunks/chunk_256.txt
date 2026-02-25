@@ -1,0 +1,26 @@
+cross product a × b and then rotating to obtain R(a × b).
+4. For R ∈SO(3) and a ∈R3
+RS(a)RT
+=
+S(Ra)
+(4.9)
+This property follows easily from Equations (4.7) and (4.8) as follows. Let
+b ∈R3 be an arbitrary vector. Then
+RS(a)RT b
+=
+R(a × RT b)
+=
+(Ra) × (RRT b)
+=
+(Ra) × b
+=
+S(Ra)b
+and the result follows.
+As we will see, Equation (4.9) is one of the most useful expressions that we
+will derive. The left hand side of Equation (4.9) represents a similarity trans-
+formation of the matrix S(a).
+The equation says therefore that the matrix
+representation of S(a) in a coordinate frame rotated by R is the same as the
+skew symmetric matrix S(Ra) corresponding to the vector a rotated by R.
+4.2.2
+The Derivative of a Rotation Matrix

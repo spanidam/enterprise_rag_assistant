@@ -1,0 +1,36 @@
+Consider the Stanford manipulator of Example 3.5 with its associated Denavit-
+Hartenberg coordinate frames. Note that joint 3 is prismatic and that o3 = o4 =
+o5 as a consequence of the spherical wrist and the frame assignment. Denoting
+this common origin by o we see that the columns of the Jacobian have the form
+Ji
+=
+
+zi−1 × (o6 −oi−1)
+zi−1
+
+i = 1, 2
+J3
+=
+
+z2
+0
+
+Ji
+=
+
+zi−1 × (o6 −o)
+zi−1
+
+i = 4, 5, 6
+Now, using the A-matrices given by Equations (3.18)-(3.23) and the T-
+matrices formed as products of the A-matrices, these quantities are easily com-
+puted as follows: First, oj is given by the ﬁrst three entries of the last column
+of T 0
+j = A1 · · · Aj, with o0 = (0, 0, 0)T = o1. The vector zj is given as
+zj
+=
+R0
+jk
+(4.88)
+where R0
+j is the rotational part of T 0

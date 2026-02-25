@@ -1,0 +1,27 @@
+sentence = "This is a sentence"
+index = sentence.index(" ")
+print(sentence[:index])
+a.
+"This"
+b.
+"This "
+c.
+"sentence"
+TRY IT
+Finding all spaces
+Write a program that, given a string, counts the number of space characters in the string. Also, print the
+given string with all spaces removed.
+Input: "This is great"
+prints:
+2
+Thisisgreat
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+8-3-searchingtesting-strings)
+8.4 String formatting
+Learning objectives
+By the end of this section you should be able to
+•
+Format a string template using input arguments.
+•
+Use format() to generate numerical formats based on a given template.
+String format specification

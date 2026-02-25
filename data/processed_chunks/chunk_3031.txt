@@ -1,0 +1,10 @@
+ure, the explanation from Figure 11.2 is redrawn in standard (nonitalic) font. The 
+frontier of regressed expressions created at each step by the regression proce- 
+dure is shown underlined in italics. The process begins at the root of the tree, 
+with the frontier initialized to the general target concept SafeToStack(x,y). The 
+first step is to compute the weakest preimage of this frontier expression with 
+respect to the final (top-most) inference rule in the explanation. The rule in 
+this case is SafeToStack(x, y) t 
+Lighter(x, y), so the resulting weakest preim- 
+age is Lighter@, y). The process now continues by regressing the new frontier, 
+{Lighter(x, y)], through the next Horn clause in the explanation, resulting in the

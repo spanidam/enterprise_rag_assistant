@@ -1,0 +1,33 @@
+vectors are equal if they have the same direction and the same magnitude.
+When assigning coordinates to vectors, we use the same notational conven-
+tion that we used when assigning coordinates to points. Thus, v1 and v2 are
+geometric entities that are invariant with respect to the choice of coordinate
+systems, but the representation by coordinates of these vectors depends directly
+on the choice of reference coordinate frame. In the example of Figure 2.1, we
+would obtain
+v0
+1 =
+ 5
+6
+
+,
+v1
+1 =
+ 7.77
+0.8
+
+,
+v0
+2 =
+ −5.1
+1
+
+,
+v1
+2 =
+ −2.89
+4.2
+
+Coordinate Convention
+In order to perform algebraic manipulations using coordinates, it is essential
+that all coordinate vectors be deﬁned with respect to the same coordinate frame.

@@ -1,0 +1,12 @@
+is Q = ℜ2, so it is particularly easy to visualize both the conﬁguration space
+and the conﬁguration space obstacle region. If there is only one obstacle in the
+workspace and both the robot end-eﬀector and the obstacle are convex polygons,
+it is a simple matter to compute the conﬁguration space obstacle region, QO (we
+assume here that the arm itself is positioned above the workspace, so that the
+only possible collisions are between the end-eﬀector and obstacles the obstacle).
+Let V A
+i
+denote the vector that is normal to the ith edge of the robot and V O
+i
+denote the vector that is normal to the ith edge of the obstacle. Deﬁne ai to be
+the vector from the origin of the robot’s coordinate frame to the ith vertex of

@@ -1,0 +1,14 @@
+Father(x,Tom) I 
+and select the clause C1 = Father(Shannon, Tom) from the background in- 
+formation. To apply the inverse resolution operator we have only one choice 
+for the literal L1, namely Father(Shannon, Tom). Suppose we choose the in- 
+verse substitutions 9;' = {} and 9;' 
+= {Shannon/x}. In this case, the result- 
+ing clause C2 is the union of the clause (C - (C1 - {Ll})91)9;~ = ( ~ 9 1 ) 9 ; '  
+= GrandChild(Bob, x), and the clause { - ~ ~ 9 ~ 9 , ' )  
+= -.Father(x, Tom). Hence 
+the result is the clause GrandChild(Bob, x) v -Father(x, Tom), or equivalently 
+(GrandChild(Bob, x) t 
+Father(x, Tom)). Note this general rule, together with 
+C1 entails the training example GrandChild(Bob, Shannon). 
+In similar fashion, this inferred clause may now be used as the conclusion

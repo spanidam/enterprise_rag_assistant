@@ -1,0 +1,15 @@
+in dialogue systems: The BEGIN benchmark,” Transactions of the
+Association for Computational Linguistics, vol. 10, pp. 1066–1083,
+2022. [Online]. Available: https://aclanthology.org/2022.tacl-1.62
+[154]
+S. Santhanam, B. Hedayatnia, S. Gella, A. Padmakumar, S. Kim,
+Y. Liu, and D. Z. Hakkani-T¨ur, “Rome was built in 1776: A case study
+on factual correctness in knowledge-grounded response generation,”
+ArXiv, vol. abs/2110.05456, 2021.
+[155]
+S. Min, K. Krishna, X. Lyu, M. Lewis, W. tau Yih, P. W. Koh, M. Iyyer,
+L. Zettlemoyer, and H. Hajishirzi, “Factscore: Fine-grained atomic
+evaluation of factual precision in long form text generation,” 2023.
+[156]
+D. Sculley, G. Holt, D. Golovin, E. Davydov, T. Phillips, D. Ebner,
+V. Chaudhary, and M. Young, “Machine learning: The high interest

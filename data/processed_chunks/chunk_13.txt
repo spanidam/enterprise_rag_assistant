@@ -1,0 +1,14 @@
+a rigorous treatment of the topics in this text.
+The term robot was ﬁrst introduced into our vocabulary by the Czech play-
+wright Karel Capek in his 1920 play Rossum’s Universal Robots, the word
+robota being the Czech word for work. Since then the term has been applied to
+a great variety of mechanical devices, such as teleoperators, underwater vehi-
+cles, autonomous land rovers, etc. Virtually anything that operates with some
+degree of autonomy, usually under computer control, has at some point been
+called a robot. In this text the term robot will mean a computer controlled
+industrial manipulator of the type shown in Figure 1.1. This type of robot is
+1
+2
+INTRODUCTION
+Fig. 1.1
+The ABB IRB6600 Robot. Photo courtesy of ABB.

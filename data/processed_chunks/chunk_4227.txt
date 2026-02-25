@@ -1,0 +1,11 @@
+value whose probability of generating the data is greatest. In this case, the
+maximum-likelihood estimate is the model of the Markov process formed in the
+obvious way from the observed episodes: the estimated transition probability
+from i to j is the fraction of observed transitions from i that went to j, and
+the associated expected reward is the average of the rewards observed on
+those transitions. Given this model, we can compute the estimate of the value
+function that would be exactly correct if the model were exactly correct. This
+is called the certainty-equivalence estimate because it is equivalent to assuming
+that the estimate of the underlying process was known with certainty rather
+than being approximated. In general, batch TD(0) converges to the certainty-
+equivalence estimate.

@@ -1,0 +1,12 @@
+decreases at first, then may later increase due to overfitting the training examples. The network most 
+IikeIy to generalize correctly to unseen data is the network with the lowest error over the validation 
+set. Notice in the second plot, one must be careful to not stop training too soon when the validation 
+set error begins to increase. 
+0.07 
+0.06 
+this variation for two fairly typical applications of BACKPROPAGATION. 
+Consider 
+first the top plot in this figure. The lower of the two lines shows the monotoni- 
+cally decreasing error E over the training set, as the number of gradient descent 
+iterations grows. The upper line shows the error E measured over a different vali- 
+dation set of examples, distinct from the training examples. This line measures the

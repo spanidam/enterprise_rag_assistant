@@ -1,0 +1,20 @@
+Related to the skew symmetry property is the so-called Passivity Property
+which, in the present context, means that there exists a constant, β ≥0, such
+that
+The Passivity Property
+Z T
+0
+˙qT (ζ)τ(ζ)dζ ≥−β,
+∀T > 0
+(6.110)
+The term ˙qT τ has units of power and therefore the expression
+R T
+0 ˙qT (ζ)τ(ζ)dζ
+is the energy produced by the system over the time interval [0, T]. Passivity
+PROPERTIES OF ROBOT DYNAMIC EQUATIONS
+213
+therefore means that the amount of energy dissipated by the system has a
+lower bound given by −β. The word passivity comes from circuit theory where
+a passive system according to the above deﬁnition is one that can be built
+from passive components (resistors, capacitors, inductors). Likewise a passive
+mechanical system can be built from masses, springs, and dampers.

@@ -1,0 +1,12 @@
+view is still common today, but much less dominant. From our point of view,
+it was simply premature: too little eﬀort had been put into the search for
+general principles to conclude that there were none. Modern AI now includes
+much research looking for general principles of learning, search, and decision-
+making, as well as trying to incorporate vast amounts of domain knowledge. It
+is not clear how far back the pendulum will swing, but reinforcement learning
+research is certainly part of the swing back toward simpler and fewer general
+principles of artiﬁcial intelligence.
+1.2
+Examples
+A good way to understand reinforcement learning is to consider some of the
+examples and possible applications that have guided its development.

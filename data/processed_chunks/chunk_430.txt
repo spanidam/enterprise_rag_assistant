@@ -1,0 +1,43 @@
+∂y
+(6.3)
+where P = mgy is the potential energy due to gravity. If we deﬁne
+L
+=
+K −P
+=
+1
+2m ˙y2 −mgy
+(6.4)
+and note that
+∂L
+∂˙y
+=
+∂K
+∂˙y
+and
+∂L
+∂y
+=
+−∂P
+∂y
+then we can write Equation (6.1) as
+d
+dt
+∂L
+∂˙y −∂L
+∂y
+=
+f
+(6.5)
+The function L, which is the diﬀerence of the kinetic and potential energy, is
+called the Lagrangian of the system, and Equation (6.5) is called the Euler-
+Lagrange Equation. The Euler-Lagrange equations provide a formulation of
+the dynamic equations of motion equivalent to those derived using Newton’s
+Second Law. However, as we shall see, the Lagrangian approach is advantageous
+for more complex systems such as multi-link robots.
+Example: 6.1 Single-Link Manipulator
+Consider the single-link robot arm shown in Figure 6.2, consisting of a rigid
+Link
+
+
+

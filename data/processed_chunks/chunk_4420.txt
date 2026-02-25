@@ -1,0 +1,23 @@
+You may spend more of
+your life playing chess than checkers, but when you play checkers, it pays to
+think about checkers and about your particular checkers position, your likely
+next moves, and successor positions. However you select actions, it is these
+states and actions that are of highest priority for backups and where you
+2There are interesting exceptions to this. See, e.g., Pearl (1984).
+8.7. HEURISTIC SEARCH
+219
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Figure 8.15: The deep backups of heuristic search can be implemented as a
+sequence of one-step backups (shown here outlined). The ordering shown is
+for a selective depth-ﬁrst search.
+most urgently want your approximate value function to be accurate. Not only
+should your computation be preferentially devoted to imminent events, but so

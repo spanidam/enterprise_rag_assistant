@@ -1,0 +1,13 @@
+of different file types.
+PyPDF (https://openstax.org/r/100readthedocs) is a popular library that can be used to extract information
+from PDF files.
+BeautifulSoup (https://openstax.org/r/100software) can be used to extract information from XML and HTML
+files. XML and HTML files usually contain unicode with structure provided through the use of angled <>
+bracket tags.
+python-docx (https://openstax.org/r/100readwrtedocx) can be used to read and write DOCX files.
+Additionally, csv (https://openstax.org/r/100csvlibrary) is a built-in library that can be used to extract
+information from CSV files.
+TRY IT
+Processing a CSV file
+The file fe.csv contains scores for a group of students on a final exam. Write a program to display the
+average score.

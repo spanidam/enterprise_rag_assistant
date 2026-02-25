@@ -1,0 +1,28 @@
+Example 8.3: Shortcut Maze
+The problem caused by this kind of en-
+vironmental change is illustrated by the maze example shown in Figure 8.8.
+Initially, the optimal path is to go around the left side of the barrier (upper
+left). After 3000 steps, however, a shorter path is opened up along the right
+side, without disturbing the longer path (upper right). The graph shows that
+two of the three Dyna agents never switched to the shortcut. In fact, they
+never realized that it existed.
+Their models said that there was no short-
+cut, so the more they planned, the less likely they were to step to the right
+8.3. WHEN THE MODEL IS WRONG
+205
+Cumulative
+reward
+S
+G
+G
+S
+0
+3000
+6000
+Time steps
+400
+0
+Dyna-Q+
+Dyna-Q
+Dyna-AC
+Figure 8.8: Average performance of Dyna agents on a shortcut task. The left

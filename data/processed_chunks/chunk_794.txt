@@ -1,0 +1,55 @@
+determine the recursive expression for q0 as
+q0(zt + 1) =
+zt+1
+X
+z=0
+P(z) = P(zt + 1) +
+zt
+X
+z=0
+P(z) = P(zt + 1) + q0(zt).
+(11.45)
+In this expression, P(zt + 1) can be obtained directly from the histogram ar-
+ray, and q0(zt) is directly available because it was computed on the previous
+iteration of the algorithm. Thus, given the results from iteration zt, very little
+computation is required to compute the value for q0 at iteration zt + 1.
+For the conditional mean µ0(zt) we have
+µ0(zt + 1)
+=
+zt+1
+X
+z=0
+z
+P(z)
+q0(zt + 1)
+(11.46)
+=
+(zt + 1)P(zt + 1)
+q0(zt + 1)
++
+zt
+X
+z=0
+z
+P(z)
+q0(zt + 1)
+(11.47)
+=
+(zt + 1)P(zt + 1)
+q0(zt + 1)
++
+q0(zt)
+q0(zt + 1)
+zt
+X
+z=0
+z P(z)
+q0(zt)
+(11.48)
+=
+(zt + 1)P(zt + 1)
+q0(zt + 1)
++
+q0(zt)
+q0(zt + 1)µ0(zt)
+(11.49)

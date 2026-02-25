@@ -1,0 +1,10 @@
+CHAFI%R 2 CONCEPT LEARNING AND THE GENERAL-TO-SPECIFIC ORDERING 43 
+inductive bias of L to be the set of assumptions B such that for all new instances xi 
+( B  A D, A xi) F L(xi, D,) 
+where the notation y t z indicates that z follows deductively from y (i.e., that z 
+is provable from y). Thus, we define the inductive bias of a learner as the set of 
+additional assumptions B sufficient to justify its inductive inferences as deductive 
+inferences. To summarize, 
+Definition: Consider a concept learning algorithm L  for the set of instances X. Let 
+c be an arbitrary concept defined over X, and let D, = ( ( x ,  c(x))} be an arbitrary 
+set of training examples of c. Let L(xi, D,) denote the classification assigned to

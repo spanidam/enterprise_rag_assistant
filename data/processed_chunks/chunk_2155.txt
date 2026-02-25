@@ -1,0 +1,13 @@
+size in the gradient descent search. The negative sign is present because we want 
+to move the weight vector in the direction that decreases E. This training rule 
+can also be written in its component form 
+where 
+which makes it clear that steepest descent is achieved by altering each component 
+w, of ii in proportion to E. 
+To construct a practical algorithm for iteratively updating weights according 
+to Equation ( 4 4 ,  we need an efficient way of calculating the gradient at each 
+step. Fortunately, this is not difficult. The vector of 
+derivatives that form the 
+gradient can be obtained by differentiating E from Equation (4.2), as 
+where xid denotes the single input component xi for training example d. We now 
+have an equation that gives

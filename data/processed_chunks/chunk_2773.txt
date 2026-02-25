@@ -1,0 +1,11 @@
+genetic operators used in this algorithm. 
+9.2.1 Representing Hypotheses 
+Hypotheses in GAS are often represented by bit strings, so that they can be easily 
+manipulated by genetic operators such as mutation and crossover. The hypotheses 
+represented by these bit strings can be quite complex. For example, sets of if-then 
+rules can easily be represented in this way, by choosing an encoding of rules 
+that allocates specific substrings for each rule precondition and postcondition. 
+Examples of such rule representations in GA systems are described by Holland 
+(1986); Grefenstette (1988); and DeJong et al. (1993). 
+To see how if-then rules can be encoded by bit strings, .first consider how we 
+might use a bit string to describe a constraint on the value of a single attribute. To

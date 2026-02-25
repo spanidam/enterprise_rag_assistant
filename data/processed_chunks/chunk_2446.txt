@@ -1,0 +1,11 @@
+any particular instance xi is independent of the hypothesis h. For example, the 
+probability that our training set contains a particular patient xi is independent of 
+our hypothesis about survival rates (though of course the survival d, of the patient 
+CHAPTER 6 BAYESIAN LEARNING 169 
+does depend strongly on h). When x is independent of h we can rewrite the above 
+expression (applying the product rule from Table 6.1) as 
+Now what is the probability P(dilh, xi) of observing di = 1 for a single 
+instance xi, given a world in which hypothesis h holds? Recall that h is our 
+hypothesis regarding the target function, which computes this very probability. 
+Therefore, P(di = 1 1 h, xi) = h(xi), and in general 
+In order to substitute this into the Equation (6.8) for P(Dlh), let us first

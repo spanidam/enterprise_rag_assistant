@@ -1,0 +1,21 @@
+pairs. Nested dictionaries are dictionaries that are stored as values within another dictionary. Ex: An
+organizational chart with keys being different departments and values being dictionaries of employees in a
+given department. For storing employee information in a department, a dictionary can be used with keys
+being employee IDs and values being employee names. The tables below outline the structure of such nested
+dictionaries and how nested values can be accessed.
+256
+10 • Dictionaries
+Access for free at openstax.org
+EXAMPLE 10.4
+Defining nested dictionaries and accessing elements
+Defining nested dictionaries
+company_org_chart = {
+"Marketing": {
+"ID234": "Jane Smith"
+},
+"Sales": {
+"ID123": "Bob Johnson",
+"ID122": "David Lee"
+},
+"Engineering": {
+"ID303": "Radhika Potlapally",

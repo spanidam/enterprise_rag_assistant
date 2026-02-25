@@ -1,0 +1,9 @@
+of machine learning problems and the capabilities of several types of machine learn- 
+ing algorithms. This theory seeks to answer questions such as "Under what condi- 
+tions is successful learning possible and impossible?" and "Under what conditions 
+is a particular learning algorithm assured of learning successfully?' Two specific 
+frameworks for analyzing learning algorithms are considered. Within the probably 
+approximately correct (PAC) framework, we identify classes of hypotheses that can 
+and cannot be learned from a polynomial number of training examples and we de- 
+fine a natural measure of complexity for hypothesis spaces that allows bounding 
+the number of training examples required for inductive learning. Within the mistake

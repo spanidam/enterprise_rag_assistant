@@ -1,0 +1,18 @@
+function. The estimation policy is the one involved in GPI. It is typically the
+greedy policy with respect to the action-value function. If π is the estimation
+policy, then the action-value function, Q, is an approximation of qπ and the
+average reward, ¯R, is an approximation of ¯r(π). The complete algorithm is
+given in Figure 11.2.
+262
+CHAPTER 11. POLICY APPROXIMATION
+Initialize ¯R and Q(s, a), for all s, a, arbitrarily
+Repeat forever:
+S ←current state
+Choose action A in S using behavior policy (e.g., ϵ-greedy)
+Take action A, observe R, S′
+δ ←R −¯R + maxa Q(S′, a) −Q(S, A)
+Q(S, A) ←Q(S, A) + αδ
+If Q(S, A) = maxa Q(S, a), then:
+¯R ←¯R + βδ
+Figure 11.2: R-learning: An oﬀ-policy TD control algorithm for undiscounted,
+continuing tasks. The scalars α and β are step-size parameters.

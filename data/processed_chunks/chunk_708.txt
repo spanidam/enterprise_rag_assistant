@@ -1,0 +1,82 @@
+tem. The feedback linearization is said to be global if the region U is all of
+Rn.
+We next derive necessary and suﬃcient conditions on the vector ﬁelds f and
+g in (10.35) for the existence of such a transformation. Let us set
+y
+=
+T(x)
+(10.40)
+and see what conditions the transformation T(x) must satisfy. Diﬀerentiating
+both sides of (10.40) with respect to time yields
+˙y
+=
+∂T
+∂x ˙x
+(10.41)
+where ∂T
+∂x is the Jacobian matrix of the transformation T(x). Using (10.35)
+and (10.38), Equation (10.41) can be written as
+∂T
+∂x (f(x) + g(x)u)
+=
+Ay + bv
+(10.42)
+In component form with
+T =
+
+
+T1
+·
+·
+·
+Tn
+
+
+A =
+
+
+0
+1
+0
+0
+0
+0
+1
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+1
+0
+0
+·
+·
+0
+0
+
+
+b =
+
+
+0
+0
+·
+·
+·
+1
+
+
+(10.43)
+we see that the ﬁrst equation in (10.42) is
+∂T1
+∂x1

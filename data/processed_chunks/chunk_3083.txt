@@ -1,0 +1,10 @@
+explanation, in which heuristics are used to produce partial and approximate, but 
+tractable, explanations. Rules are extracted from these imperfect explanations as 
+though the explanations were perfect. Of course these learned rules may be in- 
+correct due to the incomplete explanations. The system accommodates this by 
+monitoring the performance of the rule on subsequent cases. If the rule subse- 
+quently makes an error, then the original explanation is incrementally elaborated 
+to cover the new case, and a more refined rule is extracted from this incrementally 
+improved explanation. 
+Many additional research efforts have explored the use of explanation-based 
+learning for improving the efficiency of search-based problem solvers (for exam-

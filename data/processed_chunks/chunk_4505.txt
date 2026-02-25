@@ -1,0 +1,76 @@
+approached 1, the nonbootstrapping case. The example in the upper right of
+the ﬁgure is particularly signiﬁcant in this regard. This is a policy evaluation
+(prediction) task and the performance measure used is RMSE (at the end of
+each episode, averaged over the ﬁrst 20 episodes). Asymptotically, the λ = 1
+case must be best according to this measure, but here, short of the asymptote,
+248CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+accumulating
+traces  
+0.2
+0.3
+0.4
+0.5
+0
+0.2
+0.4
+0.6
+0.8
+1
+!
+RANDOM WALK
+50
+100
+150
+200
+250
+300
+Failures per
+100,000 steps
+0
+0.2
+0.4
+0.6
+0.8
+1
+!
+CART AND POLE
+400
+450
+500
+550
+600
+650
+700
+ Steps per
+episode
+0
+0.2
+0.4
+0.6
+0.8
+1
+!
+MOUNTAIN CAR
+replacing
+traces
+150
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Cost per
+episode
+0
+0.2
+0.4
+0.6
+0.8
+1
+!
+PUDDLE WORLD
+replacing

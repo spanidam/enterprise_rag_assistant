@@ -1,0 +1,10 @@
+Notice the algorithm in Table 4.2 begins by constructing a network with the 
+desired number of hidden and output units and initializing all network weights 
+to small random values. Given this fixed network structure, the main loop of the 
+algorithm then repeatedly iterates over the training examples. For each training 
+example, it applies the network to the example, calculates the error of the network 
+output for this example, computes the gradient with respect to the error on this 
+example, then updates all weights in the network. This gradient descent step is 
+iterated (often thousands of times, using the same training examples multiple 
+times) until the network performs acceptably well. 
+The gradient descent weight-update rule (Equation [T4.5] in Table 4.2) is

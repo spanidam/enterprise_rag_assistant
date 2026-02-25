@@ -1,0 +1,36 @@
+EXAMPLE 12.1
+Finding the nth Fibonacci number
+The Fibonacci function recursion is more complex with the value at n depending on two function calls with
+smaller values.
+294
+12 • Recursion
+Access for free at openstax.org
+""" Recursive Fibonacci function """
+def fib(n):
+# Base case
+if n == 0 or n == 1:
+return n
+# Recursive case
+elif n > 1:
+return fib(n - 1) + fib(n - 2)
+# Error case
+else:
+print("Fibonacci numbers begin at 0.")
+return
+# Test code
+print(fib(7))
+The above code's output is:
+13
+CHECKPOINT
+Recursive Fibonacci function
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+12-4-more-math-recursion)
+CONCEPTS IN PRACTICE
+Fibonacci numbers
+1. fib(9) results in _____.
+a.
+13
+b.
+21
+c.
+34

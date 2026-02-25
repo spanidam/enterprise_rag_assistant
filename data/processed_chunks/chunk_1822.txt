@@ -1,0 +1,11 @@
+ed while observing a human driver 
+Our definition of learning is broad enough to include most tasks that we 
+would conventionally call "learning" tasks, as we use the word in everyday lan- 
+guage. It is also broad enough to encompass computer programs that improve 
+from experience in quite straightforward ways. For example, a database system 
+CHAFTlB 1 INTRODUCTION 5 
+that allows users to update data entries would fit our definition of a learning 
+system: it improves its performance at answering database queries, based on the 
+experience gained from database updates. Rather than worry about whether this 
+type of activity falls under the usual informal conversational meaning of the word 
+"learning," we will simply adopt our technical definition of the class of programs

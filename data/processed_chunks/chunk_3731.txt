@@ -1,0 +1,12 @@
+ways: Ron Williams, Charles Anderson, Satinder Singh, Sridhar Mahadevan,
+Steve Bradtke, Bob Crites, Peter Dayan, and Leemon Baird. Our view of re-
+inforcement learning has been signiﬁcantly enriched by discussions with Paul
+Cohen, Paul Utgoﬀ, Martha Steenstrup, Gerry Tesauro, Mike Jordan, Leslie
+Kaelbling, Andrew Moore, Chris Atkeson, Tom Mitchell, Nils Nilsson, Stuart
+Russell, Tom Dietterich, Tom Dean, and Bob Narendra. We thank Michael
+Littman, Gerry Tesauro, Bob Crites, Satinder Singh, and Wei Zhang for pro-
+viding speciﬁcs of Sections 4.7, 15.1, 15.4, 15.5, and 15.6 respectively. We
+PREFACE
+xi
+thank the the Air Force Oﬃce of Scientiﬁc Research, the National Science
+Foundation, and GTE Laboratories for their long and farsighted support.

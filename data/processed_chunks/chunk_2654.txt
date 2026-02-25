@@ -1,0 +1,12 @@
+is log2 I H I. In fact one can show the bound is Llog, I H (1. Consider, for example, 
+the case in which IHI = 7. The first mistake must reduce IHI to at most 3, and 
+the second mistake will then reduce it to 1. 
+Note that [log2 IH(1 is a worst-case bound, and that it is possible for the 
+HALVING 
+algorithm to learn the target concept exactly without making any mis- 
+takes at all! This can occur because even when the majority vote is correct, the 
+algorithm will remove the incorrect, minority hypotheses. If this occurs over the 
+entire training sequence, then the version space may be reduced to a single member 
+while making no mistakes along the way. 
+One interesting extension to the HALVING 
+algorithm is to allow the hy-

@@ -1,0 +1,10 @@
+lengths of links and 3 are the same, and that the two lengths marked ℓ2 are the
+same; in this way the closed path in the ﬁgure is in fact a parallelogram, which
+greatly simpliﬁes the computations. Notice, however, that the quantities ℓc1,
+and ℓc3 need not be equal. For example, even though links 1 and 3 have the
+same length, they need not have the same mass distribution.
+It is clear from the ﬁgure that, even though there are four links being moved,
+there are in fact only two degrees-of-freedom, identiﬁed as q1 and q2. Thus, in
+contrast to the earlier mechanisms studied in this book, this one is a closed
+kinematic chain (though of a particularly simple kind). As a result, we cannot
+use the earlier results on Jacobian matrices, and instead have to start from

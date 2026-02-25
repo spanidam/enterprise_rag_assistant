@@ -1,0 +1,44 @@
+341
+11.4 Connected Components
+346
+11.5 Position and Orientation
+348
+11.5.1 Moments
+349
+11.5.2 The Centroid of an Object
+349
+11.5.3 The Orientation of an Object
+350
+Problems
+353
+12 VISION-BASED CONTROL
+355
+12.1 Approaches to vision based-control
+356
+12.1.1 Where to put the camera
+356
+12.1.2 How to use the image data
+357
+12.2 Camera Motion and Interaction Matrix
+357
+12.2.1 Interaction matrix vs. Image Jacobian
+358
+CONTENTS
+ix
+12.3 The interaction matrix for points
+359
+12.3.1 Velocity of a ﬁxed point relative to a moving
+camera
+360
+12.3.2 Constructing the Interaction Matrix
+361
+12.3.3 Properties of the Interaction Matrix for
+Points
+363
+12.3.4 The Interaction Matrix for Multiple Points
+363
+12.4 Image-Based Control Laws
+364
+12.4.1 Computing Camera Motion
+365
+12.4.2 Proportional Control Schemes

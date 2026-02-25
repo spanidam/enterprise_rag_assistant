@@ -1,0 +1,90 @@
+y-axes are given as (Problem 2-8)
+Rx,θ
+=
+
+
+1
+0
+0
+0
+cos θ
+−sin θ
+0
+sin θ
+cos θ
+
+
+(2.6)
+Ry,θ
+=
+
+
+cos θ
+0
+sin θ
+0
+1
+0
+−sin θ
+0
+cos θ
+
+
+(2.7)
+which also satisfy properties analogous to Equations (2.3)-(2.5).
+Example 2.2
+3See also Appendix B.
+ROTATIONAL TRANSFORMATIONS
+37
+Consider the frames o0x0y0z0 and o1x1y1z1 shown in Figure 2.4. Projecting
+the unit vectors x1, y1, z1 onto x0, y0, z0 gives the coordinates of x1, y1, z1 in
+the o0x0y0z0 frame. We see that the coordinates of x1 are
+
+1
+√
+2, 0,
+1
+√
+2
+T
+, the
+coordinates of y1 are
+
+1
+√
+2, 0, −1
+√
+2
+T
+and the coordinates of z1 are (0, 1, 0)T . The
+rotation matrix R0
+1 specifying the orientation of o1x1y1z1 relative to o0x0y0z0
+has these as its column vectors, that is,
+R0
+1
+=
+
+
+1
+√
+2
+1
+√
+2
+0
+0
+0
+1
+1
+√
+2
+−1
+√
+2
+0
+
+
+(2.8)
+z0
+x1
+y1

@@ -1,0 +1,10 @@
+They analyzed this rule and showed how it could learn to play blackjack. This
+was an isolated foray into reinforcement learning by Widrow, whose contribu-
+tions to supervised learning were much more inﬂuential. Our use of the term
+“critic” is derived from Widrow, Gupta, and Maitra’s paper.
+Research on learning automata had a more direct inﬂuence on the trial-
+and-error thread leading to modern reinforcement learning research. These
+are methods for solving a nonassociative, purely selectional learning problem
+known as the n-armed bandit by analogy to a slot machine, or “one-armed
+bandit,” except with n levers (see Chapter 2). Learning automata are simple,
+low-memory machines for improving the probability of reward in these prob-

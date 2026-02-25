@@ -1,0 +1,10 @@
+Now consider the following idealization of the method in Table 5.5 for com- 
+paring learning methods. Assume that instead of having a fixed sample of data Do, 
+we can request new training examples drawn according to the underlying instance 
+distribution. In particular, in this idealized method we modify the procedure of 
+Table 5.5 so that on each iteration through the loop it generates a new random 
+training set Si and new random test set Ti by drawing from this underlying instance 
+distribution instead of drawing from the fixed sample Do. This idealized method 
+perfectly fits the form of the above estimation problem. In particular, the Si mea- 
+sured by the procedure now correspond to the independent, identically distributed 
+random variables Yi.

@@ -1,0 +1,11 @@
+digits." .
+8. c. The 1 and 0 are enclosed in quotes indicating valid strings, and the + is not, indicating a concatenation
+operation. Thus, the string "10" is produced. Note that concatenation operator does not include any
+default separator characters like the space character.
+379
+9. c. "A" and "wake" are valid strings, and the + is not enclosed in quotes, indicating a concatenation
+operation. Thus the string "Awake" is produced. Note that the concatenation operator does not include
+any default separator characters like the space character.
+10. c. Note that space characters must be explicitly included when using the concatenation operator.
+11. c. A concatenation of the two strings is assigned to the variable holiday. Note that "one-sided" would
+assign the same string to holiday.

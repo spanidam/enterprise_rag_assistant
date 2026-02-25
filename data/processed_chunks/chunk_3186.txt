@@ -1,0 +1,16 @@
+EBNN calculates the partial derivative of this prediction with respect to each 
+instance feature, yielding the set of derivatives 
+acup 
+acup 
+aBottomIsFlat ' aConcavityPointsUp " " aMadeOf 
+acup 
+Styrof oam 1 
+This set of derivatives is the gradient of the domain theory prediction function with 
+respect to the input instance. The subscript refers to the fact that these derivatives 
+354 
+MACHINE LEARNING 
+hold when x = xi. In the more general case where the target function has multiple 
+output units, the gradient is computed for each of these outputs. This matrix of 
+gradients is called the Jacobian of the target function. 
+To see the importance of these training derivatives in helping to learn the 
+target network, consider the derivative , E ~ ~ ~ i , , e .

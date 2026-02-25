@@ -1,0 +1,30 @@
+a.
+Break up the string into multiple smaller strings.
+print("..." # first part of string
+"..." # next part of string
+"...")
+b.
+Print the string using multiple print statements.
+print("...") # first part of string
+print("...") # next part of string
+print("...")
+2.7 • Formatting code
+63
+c.
+Assign the string to a variable and print the variable.
+text = "..." # the entire string
+print(text)
+10. Which example consists of two statements?
+a.
+print("Happy "
+"New Year")
+b.
+saying = ("Happy "
+"New Year")
+c.
+saying= "Happy "
+"New Year"
+TRY IT
+Spaced out
+The following code works correctly but is formatted poorly. In particular, the code does not include spaces
+recommended by PEP 8. Furthermore, two of the lines are about 90 characters long. Reformat the code to

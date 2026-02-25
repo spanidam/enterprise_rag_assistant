@@ -1,0 +1,11 @@
+case is an essential foundation for extending it to the more complex and real-
+istic non-Markov case. Finally, we note that the assumption of Markov state
+representations is not unique to reinforcement learning but is also present in
+most if not all other approaches to artiﬁcial intelligence.
+Example 3.5: Pole-Balancing State
+In the pole-balancing task intro-
+duced earlier, a state signal would be Markov if it speciﬁed exactly, or made
+it possible to reconstruct exactly, the position and velocity of the cart along
+the track, the angle between the cart and the pole, and the rate at which this
+angle is changing (the angular velocity). In an idealized cart–pole system, this
+information would be suﬃcient to exactly predict the future behavior of the

@@ -1,0 +1,10 @@
+operates. In particular, they do not take into account the possiblity of collision
+between the robot and objects in the workspace. In this chapter, we address the
+problem of planning collision free paths for the robot. We will assume that the
+initial and ﬁnal conﬁgurations of the robot are speciﬁed, and that the problem
+is to ﬁnd a collision free path for the robot that connects them.
+The description of this problem is deceptively simple, yet the path planning
+problem is among the most diﬃcult problems in computer science. The compu-
+tational complexity of the best known complete1 path planning algorithm grows
+exponentially with the number of internal degrees of freedom of the robot. For
+this reason, for robot systems with more than a few degrees of freedom, com-

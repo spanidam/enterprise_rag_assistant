@@ -1,0 +1,16 @@
+ing language understanding by generative pre-training,” 2018.
+[51]
+A. Radford, J. Wu, R. Child, D. Luan, D. Amodei, I. Sutskever et al.,
+“Language models are unsupervised multitask learners,” OpenAI blog,
+vol. 1, no. 8, p. 9, 2019.
+[52]
+C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena,
+Y. Zhou, W. Li, and P. J. Liu, “Exploring the limits of transfer learning
+with a unified text-to-text transformer,” The Journal of Machine
+Learning Research, vol. 21, no. 1, pp. 5485–5551, 2020.
+[53]
+L. Xue, N. Constant, A. Roberts, M. Kale, R. Al-Rfou, A. Siddhant,
+A. Barua, and C. Raffel, “mt5: A massively multilingual pre-trained
+text-to-text transformer,” arXiv preprint arXiv:2010.11934, 2020.
+[54]
+K. Song, X. Tan, T. Qin, J. Lu, and T.-Y. Liu, “Mass: Masked

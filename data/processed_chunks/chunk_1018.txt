@@ -1,0 +1,16 @@
+49
+Deep Learning Basics (lecture notes)
+9.2 Variational Auto-Encoders (VAE)
+VAEs [Kingma and Welling, 2014] turn the auto-encoder into a generative model by imposing a prior on the latent
+variable 𝑧, typically a normal distribution 𝑧∼𝒩(0, 𝐼). A penalty, in the form of Kullback-Leibler (KL) divergence, is
+added to the loss function to encourage the latent distribution to match this prior.
+To generate new data:
+1. sample 𝑧from 𝒩(0, 𝐼)
+2. compute 𝑥gen = Decoder(𝑧)
+9.3 Generative Adversarial Networks (GAN)
+Proposed by [Goodfellow et al., 2014], GANs train two networks:
+• a Generator 𝐺that produces 𝑥fake = 𝐺(𝑧) from noise 𝑧∼𝒩(0, 𝐼)
+• a Discriminator 𝐷that predicts whether an input 𝑥is real (𝑦= 1) or generated (𝑦= 0)
+The optimized loss function is:
+𝔼𝑥∼𝑝𝑟[log 𝐷(𝑥)] + 𝔼𝑧∼𝑝𝑧[log(1 −𝐷(𝐺(𝑧)))]
+(9.3)

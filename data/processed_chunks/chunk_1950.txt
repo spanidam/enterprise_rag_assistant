@@ -1,0 +1,12 @@
+2.6.3 How Can Partially Learned Concepts Be Used? 
+Suppose that no additional training examples are available beyond the four in 
+our example above, but that the learner is now required to classify new instances 
+that it has not yet observed. Even though the version space of Figure 2.3 still 
+contains multiple hypotheses, indicating that the target concept has not yet been 
+fully learned, it is possible to classify certain examples with the same degree of 
+confidence as if the target concept had been uniquely identified. To illustrate, 
+suppose the learner is asked to classify the four new instances shown in Ta- 
+ble 2.6. 
+9 
+Note that although instance A was not among the training examples, it is 
+classified as a positive instance by every hypothesis in the current version space

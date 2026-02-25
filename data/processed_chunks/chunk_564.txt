@@ -1,0 +1,48 @@
+minimum phase.
+If there is a disturbance D(s) entering the system as shown in Figure 7.19,
+then it is easily shown that the tracking error E(s) is given by
+E(s)
+=
+q(s)d(s)
+p(s)d(s) + q(s)c(s)D(s)
+(7.50)
+We have thus shown that, in the absence of disturbances the closed loop system
+will track any desired trajectory r(t) provided that the closed loop system is
+stable. The steady state error is thus due only to the disturbance.
+Let us apply this idea to the robot model of Section 7.3.
+Suppose that
+θd(t) is an arbitrary trajectory that we wish the system to track. In this case
+246
+INDEPENDENT JOINT CONTROL
+F(s)
+7777777
+D(s)
++
+
+r
++/
+/
+L
+/ H(s)
++
++/L
+/ G(s)
+y/
+−
+O
+Fig. 7.19
+Feedforward control with disturbance.
+Jeffs2 + Beffs
+55555555 rD(s)
+−
+
+θd
++/
+/
+L
+/ KP + KDs
++
++/L
+/
+1
+Jeff s2+Beff s

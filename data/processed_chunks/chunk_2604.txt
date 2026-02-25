@@ -1,0 +1,10 @@
+bound is mainly due to the IHI term, which arises in the proof when summing 
+the probability that a single hypothesis could be unacceptable, over all possible 
+hypotheses. In fact, a much tighter bound is possible in many cases, as well as a 
+bound that covers infinitely large hypothesis spaces. This will be the subject of 
+Section 7.4. 
+7.3.1 Agnostic Learning and Inconsistent Hypotheses 
+Equation (7.2) is important because it tells us how many training examples suffice 
+to ensure (with probability (1 - 6)) that every hypothesis in H having zero training 
+error will have a true error of at most E .  Unfortunately, if H does not contain 
+the target concept c, then a zero-error hypothesis cannot always be found. In this

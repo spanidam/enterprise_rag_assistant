@@ -1,0 +1,12 @@
+its linear motion and its angular motion. Of course, since each link is coupled
+to other links, these equations that describe each link contain coupling forces
+and torques that appear also in the equations that describe neighboring links.
+By doing a so-called forward-backward recursion, we are able to determine all
+216
+DYNAMICS
+of these coupling terms and eventually to arrive at a description of the ma-
+nipulator as a whole. Thus we see that the philosophy of the Newton-Euler
+formulation is quite diﬀerent from that of the Lagrangian formulation.
+At this stage the reader can justly ask whether there is a need for another
+formulation, and the answer is not clear. Historically, both formulations were
+evolved in parallel, and each was perceived as having certain advantages. For

@@ -1,0 +1,39 @@
+# Read the Excel file into
+a DataFrame
+df =
+pd.read_excel("data.xlsx")
+# Display the DataFrame
+df
+The content of the Excel file will
+be printed in a tabular format.
+The
+pd.read_excel()
+function reads an
+Excel file into a
+DataFrame and
+organizes the
+content in a tabular
+format.
+Table 15.2 DataFrame creation.
+CONCEPTS IN PRACTICE
+Pandas basics
+1. Which of the following is a Pandas data structure?
+a.
+Series
+b.
+dictionary
+c.
+list
+2. A DataFrame object can be considered as a collection of Series objects.
+a.
+true
+b.
+false
+3. What are the benefits of Pandas over NumPy?
+a.
+Pandas provides integration with other libraries.
+b.
+Pandas supports heterogeneous data whereas NumPy supports homogenous numerical data.
+c.
+Pandas supports both one-dimensional and two-dimensional data structures.
+358

@@ -1,0 +1,17 @@
+New design problems are then presented by specifying the desired function and 
+requesting the corresponding structure. This problem setting is illustrated in Fig- 
+ure 8.3. The top half of the figure shows the description of a typical stored case 
+called a T-junction pipe. Its function is represented in terms of the qualitative re- 
+lationships among the waterflow levels and temperatures at its inputs and outputs. 
+In the functional description at its right, an arrow with a "+" label indicates that 
+the variable at the arrowhead increases with the variable at its tail. For example, 
+the output waterflow Q3 increases with increasing input waterflow Ql. Similarly, 
+A stored case: T-junction pipe 
+Structure: 
+QIJT 
+T = temperature 
+'L 
+Q = watertlow 
+r 
+Q3J5 
+Qz4

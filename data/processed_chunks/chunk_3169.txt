@@ -1,0 +1,12 @@
+GENTPROP and purely inductive BACKPROPAGATION 
+for the problem of recognizing 
+handwritten characters. More specifically, the task in this case is to label images 
+containing a single digit between 0 and 9. In one experiment, both TANGENT- 
+PROP and BACKPROPAGATION 
+were trained using training sets of varying size, then 
+evaluated based on their performance over a separate test set of 160 examples. 
+The prior knowledge given to TANGENTPROP 
+was the fact that the classification 
+of the digit is invariant of vertical and horizontal translation of the image (i.e., 
+that the derivative of the target function was 0 with respect to these transforma- 
+tions). The results, shown in Table 12.4, demonstrate the ability of TANGENTPROP

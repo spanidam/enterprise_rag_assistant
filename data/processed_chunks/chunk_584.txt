@@ -1,0 +1,17 @@
+since
+det[b, Ab, A2b, A3b]
+=
+k2
+J4mJ2
+ℓ
+(7.77)
+which is never zero since k > 0. Thus we can achieve any desired set of closed
+loop poles that we wish, which is much more than was possible using the pre-
+vious PD compensator.
+There are many algorithms that can be used to determine the feedback gains
+in (7.73) to achieve a desired set of closed loop poles. This is known as the
+pole assignment problem. In this case most of the diﬃculty lies in choosing
+an appropriate set of closed loop poles based on the desired performance, the
+limits on the available torque, etc. We would like to achieve a fast response
+from the system without requiring too much torque from the motor. One way
+to design the feedback gains is through an optimization procedure. This takes

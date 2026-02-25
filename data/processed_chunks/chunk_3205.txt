@@ -1,0 +1,16 @@
+clauses. In particular, consider again the Cup target concept, training examples, 
+and domain theory from Figure 12.3. To describe the operation of FOCL, we must 
+first draw a distinction between two kinds of literals that appear in the domain 
+theory and hypothesis representation. We will say a literal is operational if it is 
+allowed to be used in describing an output hypothesis. For example, in the Cup 
+example of Figure 12.3 we allow output hypotheses to refer only to the 12 at- 
+tributes that describe the training examples (e.g., HasHandle, HandleOnTop). 
+Literals based on these 12 attributes are thus considered operational. In contrast, 
+literals that occur only as intermediate features in the domain theory, but not as 
+Cup C 
+[2+,3-I 
+I( 
+i 
+\ 
+Cup C Fragile 
+...

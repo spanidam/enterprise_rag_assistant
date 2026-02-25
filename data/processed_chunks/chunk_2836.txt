@@ -1,0 +1,12 @@
+0 The search performed by GAS is based on an analogy to biological evolu- 
+tion. A diverse population of competing hypotheses is maintained. At each 
+iteration, the most fit members of the population are selected to produce new 
+offspring that replace the least fit members of the population. Hypotheses 
+are often encoded by strings that are combined by crossover operations, and 
+. 
+subjected to random mutations. 
+a GAS illustrate how learning can be viewed as a special case of optimization. 
+In particular, the learning task is to find the optimal hypothesis, according to 
+the predefined fitness function. This suggests that other optimization tech- 
+niques such as simulated annealing can also be applied to machine learning 
+problems.

@@ -1,0 +1,11 @@
+a particularly realistic one.) Recall that the agent makes a decision at times
+determined by external events (or by other parts of the robot’s control system).
+At each such time the robot decides whether it should (1) actively search for
+a can, (2) remain stationary and wait for someone to bring it a can, or (3) go
+back to home base to recharge its battery. Suppose the environment works
+as follows. The best way to ﬁnd cans is to actively search for them, but this
+runs down the robot’s battery, whereas waiting does not. Whenever the robot
+is searching, the possibility exists that its battery will become depleted. In
+this case the robot must shut down and wait to be rescued (producing a low
+reward).
+The agent makes its decisions solely as a function of the energy level of

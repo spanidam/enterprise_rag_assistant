@@ -1,0 +1,10 @@
+From Chapter 2 one can see that an arbitrary homogeneous transformation
+matrix can be characterized by six numbers, such as, for example, three numbers
+to specify the fourth column of the matrix and three Euler angles to specify the
+upper left 3 × 3 rotation matrix. In the DH representation, in contrast, there
+are only four parameters. How is this possible? The answer is that, while frame
+i is required to be rigidly attached to link i, we have considerable freedom in
+choosing the origin and the coordinate axes of the frame. For example, it is not
+necessary that the origin, oi, of frame i be placed at the physical end of link i.
+In fact, it is not even necessary that frame i be placed within the physical link;
+frame i could lie in free space — so long as frame i is rigidly attached to link

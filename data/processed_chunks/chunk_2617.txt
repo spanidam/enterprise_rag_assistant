@@ -1,0 +1,15 @@
+therefore ICI = 21'1 
+= 2' 
+distinct concepts. Of course to learn such an unbiased 
+concept class, the learner must itself use an unbiased hypothesis space H = C. 
+Substituting I H I = 22n into Equation (7.2) gives the sample complexity for learning 
+the unbiased concept class relative to X. 
+Thus, this unbiased class of target concepts has exponential sample complexity 
+under the PAC model, according to Equation (7.2). Although Equations (7.2) 
+and (7.5) are not tight upper bounds, it can in fact be proven that the sample 
+complexity for the unbiased concept class is exponential in n. 
+I1 
+I 
+7.3.3.2 K-TERM DNF AND K-CNF CONCEPTS 
+I1 
+It is also possible to find concept classes that have polynomial sample complexity,

@@ -1,0 +1,30 @@
+Velocity
+Velocity
+Velocity
+Position
+Position
+Position
+0
+27
+0
+120
+0
+104
+0
+46
+Episode 12
+Episode 104
+Episode 1000
+Episode 9000
+MOUNTAIN   CAR
+Figure 9.10: The mountain–car task (upper left panel) and the cost-to-go
+function (−maxa ˆq(s, a,w)) learned during one run.
+where the bound operation enforces −1.2 ≤pt+1 ≤0.5 and −0.07 ≤˙pt+1 ≤
+0.07.
+When pt+1 reached the left bound, ˙pt+1 was reset to zero.
+When it
+reached the right bound, the goal was reached and the episode was terminated.
+Each episode started from a random position and velocity uniformly chosen
+from these ranges. To convert the two continuous state variables to binary
+features, we used gridtilings as in Figure 9.5. We used ten 9 × 9 tilings, each
+oﬀset by a random fraction of a tile width.

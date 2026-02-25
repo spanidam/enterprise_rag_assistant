@@ -1,0 +1,34 @@
+˙z
+=
+xωy −yωx −vz
+(12.9)
+Assuming that the imaging geometry can be modeled by perspective pro-
+jection as given by Equation (11.5), we can express x and y in terms of image
+coordinates u, v of the projection of p in the image and the depth z as
+x = uz
+λ ,
+y = vz
+λ
+Substituting these into Equations (12.7)-(12.9) we obtain
+˙x
+=
+vz
+λ ωz −zωy −vx
+(12.10)
+˙y
+=
+zωx −uz
+λ ωz + −vy
+(12.11)
+˙z
+=
+uz
+λ ωy −vz
+λ ωx −vz
+(12.12)
+362
+VISION-BASED CONTROL
+These equations express the velocity ˙p in terms of the image coordinates u, v
+the depth of the point p, and the angular and linear velocity of the camera.
+Our goal is to derive an expression that relates the image velocity ( ˙u, ˙v)T to the
+angular and linear velocity of the camera frame. Therefore, we will now ﬁnd

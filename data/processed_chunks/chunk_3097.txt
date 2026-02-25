@@ -1,0 +1,11 @@
+generating new features? (Warning: This is an open research problem.) 
+REFERENCES 
+Ahn, W., Mooney, R. J., Brewer, W. F., & DeJong, G. F. (1987). Schema acquisition from one 
+example: Psychological evidence for explanation-based learning. Ninth Annual Conference of 
+the Cognitive Science Society (pp. 50-57). Hillsdale, NJ: Lawrence Erlbaum Associates. 
+Bennett, S. W., & DeJong, G. F. (1996). Real-world robotics: Learning to plan for robust execution. 
+Machine kaming, 23, 121. 
+Carbonell, J., Knoblock, C., & Minton, S. (1990). PRODIGY: An integrated architecture for planning 
+and learning. In K. VanLehn (Ed.), Architectures for Intelligence. Hillsdale, NJ: Lawrence 
+Erlbaum Associates. 
+Chien, S. (1993). NONMON: Learning with recoverable simplifications. In G. DeJong (Ed.), Znvesti-

@@ -1,0 +1,11 @@
+choices of design subgoals and, therefore, rejecting cases that were previously 
+retrieved. CADET has very limited capabilities for combining and adapting multi- 
+ple retrieved cases to form the final design and relies heavily on the user for this 
+adaptation stage of the process. As described by Sycara et al. (1992), CADET is 
+CHAPTER 8 INSTANCE-BASED LEARMNG 243 
+a research prototype system intended to explore the potential role of case-based 
+reasoning in conceptual design. It does not have the range of analysis algorithms 
+needed to refine these abstract conceptual designs into final designs. 
+It is instructive to examine the correspondence between the problem setting 
+of CADET and the general setting for instance-based methods such as k-NEAREST 
+NEIGHBOR.

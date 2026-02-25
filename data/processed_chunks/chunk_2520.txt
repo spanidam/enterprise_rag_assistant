@@ -1,0 +1,10 @@
+likelihood hypothesis for the table entries. 
+6.11.5 Gradient Ascent Training of Bayesian Networks 
+The gradient ascent rule given by Russell et al. (1995) maximizes P(D1h) by 
+following the gradient of In P(D Ih) with respect to the parameters that define the 
+conditional probability tables of the Bayesian network. Let wi;k denote a single 
+entry in one of the conditional probability tables. In particular, let wijk denote 
+the conditional probability that the network variable Yi will take on the value yi, 
+given that its immediate parents Ui take on the values given by uik. For example, 
+if wijk is the top right entry in the conditional probability table in Figure 6.3, then 
+Yi is the variable Campjire, Ui is the tuple of its parents (Stomz, BusTourGroup),

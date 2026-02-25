@@ -1,0 +1,19 @@
+0
+(C.6)
+for x ̸= 0.
+Note that V (0) = 0. V (x) will be positive deﬁnite if and only if the matrix P
+is a positive deﬁnite matrix, that is, has all eigenvalues positive.
+The level surfaces of V , given as solutions of V (x) = constant are ellipsoids
+in Rn. A positive deﬁnite quadratic form is like a norm. In fact, given the usual
+norm ∥x∥on Rn, the function V given as
+V (x)
+=
+xT x = ∥x∥2
+(C.7)
+is a positive deﬁnite quadratic form.
+Deﬁnition C.6 Let V (x) : Rn →R be a continuous function with continuous
+ﬁrst partial derivatives in a neighborhood of the origin in Rn. Further suppose
+that V is positive deﬁnite, that is, V (0) = 0 and V > 0 for x ̸= 0. Then V is
+called a Lyapunov Function Candidate (for the system (C.1).
+The positive deﬁnite function V is also like a norm.
+For the most part we

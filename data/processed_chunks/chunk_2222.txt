@@ -1,0 +1,18 @@
+dation set of examples, distinct from the training examples. This line measures the 
+generalization accuracy of the network-the 
+accuracy with which it fits examples 
+beyond the training data. 
+- 
+Training set error 
+* 
+- 
+Validation set error 
++ 
+y+:L 
+CHAPTER 4 ARTIFICIAL NEURAL NETWORKS 111 
+Notice the generalization accuracy measured over the validation examples 
+first decreases, then increases, even as the error over the training examples contin- 
+ues to decrease. How can this occur? This occurs because the weights are being 
+tuned to fit idiosyncrasies of the training examples that are not representative of 
+the general distribution of examples. The large number of weight parameters in 
+ANNs provides many degrees of freedom for fitting such idiosyncrasies.

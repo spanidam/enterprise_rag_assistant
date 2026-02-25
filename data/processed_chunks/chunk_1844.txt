@@ -1,0 +1,10 @@
+wi to best fit these training examples. 
+1.2.4.1 ESTIMATING TRAINING VALUES 
+Recall that according to our formulation of the learning problem, the only training 
+information available to our learner is whether the game was eventually won or 
+lost. On the other hand, we require training examples that assign specific scores 
+to specific board states. While it is easy to assign a value to board states that 
+correspond to the end of the game, it is less obvious how to assign training values 
+to the more numerous intermediate board states that occur before the game's end. 
+Of course the fact that the game was eventually won or lost does not necessarily 
+indicate that every board state along the game path was necessarily good or bad.

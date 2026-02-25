@@ -1,0 +1,35 @@
+Consider again the two-link
+PLANNING USING WORKSPACE POTENTIAL FIELDS
+165
+F2
+F1
+Fig. 5.7
+This example illustrates why forces must be mapped to the conﬁguration
+space before they are added. The two forces illustrated in the ﬁgure are vectors of equal
+magnitude in opposite directions. Vector addition of these two forces produces zero net
+force, but there is a net moment induced by these forces
+planar arm.
+Suppose that that the workspace repulsive forces are given by
+Frep,i(θ1, θ2) = [Fx,i, Fy,i]T . For the two-link planar arm, the repulsive forces
+in the conﬁguration space are then given by
+Frep(q) =
+ −a1s1
+a1c1
+0
+0
+ 
+Fx,1
+Fy,1
+
++
+ −a1s1 −a2s12
+a1c1 + a2c12
+−a2s12
+a2c12
+  Fx,2
+Fy,2
+
+(5.29)
+⋄
+5.3.3
+Motion Planning Algorithm

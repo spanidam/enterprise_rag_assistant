@@ -1,0 +1,11 @@
+duced after 137 generations, exhibited performance very similar to the desired 
+behavior. 
+In most cases, the performance of genetic programming depends crucially 
+on the choice of representation and on the choice of fitness function. For this 
+reason, an active area of current research is aimed at the automatic discovery 
+and incorporation of subroutines that improve on the original set of primitive 
+functions, thereby allowing the system to dynamically alter the primitives from 
+which it constructs individuals. See, for example, Koza (1994). 
+9.6 MODELS OF EVOLUTION AND LEARNING 
+In many natural systems, individual organisms learn to adapt significantly during 
+their lifetime. At the same time, biological and social processes allow their species

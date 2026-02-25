@@ -1,0 +1,9 @@
+training data if there exists some alternative hypothesis h' E H, such that h has 
+smaller error than h' over the training examples, but h' has a smaller error than h 
+over the entire distribution of instances. 
+Figure 3.6 illustrates the impact of overfitting in a typical application of deci- 
+sion tree learning. In this case, the ID3 algorithm is applied to the task of learning 
+which medical patients have a form of diabetes. The horizontal axis of this plot 
+indicates the total number of nodes in the decision tree, as the tree is being con- 
+structed. The vertical axis indicates the accuracy of predictions made by the tree. 
+The solid line shows the accuracy of the decision tree over the training examples,

@@ -1,0 +1,34 @@
+•
+Explain the purpose of logical operators.
+•
+Describe the truth tables for and, or, and not.
+•
+Create expressions with logical operators.
+•
+Interpret if-else statements with conditions using logical operators.
+Logical operator: and
+Decisions are often based on multiple conditions. Ex: A program printing if a business is open may check that
+hour >= 9 and hour < 17. A logical operator takes condition operand(s) and produces True or False.
+Python has three logical operators: and, or, and not. The and operator takes two condition operands and
+returns True if both conditions are true.
+100
+4 • Decisions
+Access for free at openstax.org
+p
+q
+p and q
+True
+True
+True
+True
+False
+False
+False
+True
+False
+False
+False
+False
+Table 4.1 Truth table: p and q.
+CHECKPOINT
+Example: Museum entry

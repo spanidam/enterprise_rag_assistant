@@ -1,0 +1,50 @@
+S(ω0
+n)
+=
+˙R0n(R0
+n)T
+(4.41)
+deﬁne the angular velocity vector ω0
+n of the end-eﬀector, and let
+v0
+n
+=
+˙o0
+n
+(4.42)
+denote the linear velocity of the end eﬀector. We seek expressions of the form
+v0
+n
+=
+Jv ˙q
+(4.43)
+ω0
+n
+=
+Jω ˙q
+(4.44)
+where Jv and Jω are 3×n matrices. We may write Equations (4.43) and (4.44)
+together as
+ξ
+=
+J ˙q
+(4.45)
+in which ξ and J are given by
+ξ =
+ v0
+n
+ω0
+n
+
+and
+J =
+ Jv
+Jω
+
+(4.46)
+DERIVATION OF THE JACOBIAN
+123
+The vector ξ is sometimes called a body velocity. Note that this velocity vector
+is not the derivative of a position variable, since the angular velocity vector is
+not the derivative of any particular time varying quantity. The matrix J is
+called the Manipulator Jacobian or Jacobian for short. Note that J is a

@@ -1,0 +1,11 @@
+the idea of trial-and-error learning goes as far back as the 1850s to Alexander
+Bain’s discussion of learning by “groping and experiment” and more explicitly
+to the British ethologist and psychologist Conway Lloyd Morgan’s 1894 use of
+the term to describe his observations of animal behavior (Woodworth, 1938).
+Perhaps the ﬁrst to succinctly express the essence of trial-and-error learning
+as a principle of learning was Edward Thorndike:
+Of several responses made to the same situation, those which are
+accompanied or closely followed by satisfaction to the animal will,
+other things being equal, be more ﬁrmly connected with the sit-
+uation, so that, when it recurs, they will be more likely to recur;
+those which are accompanied or closely followed by discomfort to

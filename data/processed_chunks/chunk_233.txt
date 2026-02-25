@@ -1,0 +1,15 @@
+direction of the gripper closure and set xn = n as s × a. If the tool is
+not a simple gripper set xn and yn conveniently to form a right-handed
+frame.
+Step 7: Create a table of link parameters ai, di, αi, θi.
+ai = distance along xi from oi to the intersection of the xi and zi−1 axes.
+di = distance along zi−1 from oi−1 to the intersection of the xi and zi−1
+axes. di is variable if joint i is prismatic.
+αi = the angle between zi−1 and zi measured about xi.
+θi = the angle between xi−1 and xi measured about zi−1. θi is variable
+if joint i is revolute.
+Step 8: Form the homogeneous transformation matrices Ai by substituting
+the above parameters into (3.10).
+Step 9: Form T 0
+n = A1 · · · An. This then gives the position and orientation of
+the tool frame expressed in base coordinates.

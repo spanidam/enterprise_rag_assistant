@@ -1,0 +1,22 @@
+COORDINATE FRAMES AND CONSTRAINTS
+283
+Fig. 9.2
+Robot End-Eﬀector in contact with a Rigid Surface
+are each elements of six dimensional vector spaces, which we denote by M and
+F, the motion and force spaces, respectively. The vectors V and F are called
+Twists and Wrenches in more advanced texts [?] although we will continue to
+refer to them simply as velocity and force for simplicity. If e1, . . . , e6 is a basis
+for the vector space so(3), and f1, . . . , f6 is a basis for so∗(3), we say that these
+basis vectors are reciprocal provided
+eifj
+=
+0
+if i ̸= j
+eifj
+=
+1
+if i = j
+We can deﬁne the product of V ∈so(3) and F ∈so∗(3) in the usual way as
+V · F = V T F = vT f + ωT n
+(9.1)
+The advantage of using reciprocal basis vectors is that the product V T F is

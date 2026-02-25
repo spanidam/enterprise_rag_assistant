@@ -1,0 +1,21 @@
+the long run the average reward is the same, but there is a transient. From
+some states better-than-average rewards are received for a while, and from
+others worse-than-average rewards are received. It is this transient that deﬁnes
+the value of a state:
+vπ(s) =
+∞
+X
+k=1
+Eπ[Rt+k −¯r(π) | St =s] ,
+and the value of a state–action pair is similarly the transient diﬀerence in
+reward when starting in that state and taking that action:
+qπ(s, a) =
+∞
+X
+k=1
+Eπ[Rt+k −¯r(π) | St =s, At =a] .
+We call these relative values because they are relative to the average reward
+under the current policy.
+There are subtle distinctions that need to be drawn between diﬀerent kinds
+of optimality in the undiscounted continuing case.
+Nevertheless, for most

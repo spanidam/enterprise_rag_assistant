@@ -1,0 +1,12 @@
+can then be evaluated by computing the information gain associated with each. 
+In the current example, there are two candidate thresholds, corresponding to the 
+values of Temperature at which the value of PlayTennis changes: (48 + 60)/2, 
+and (80 + 90)/2. The information gain can then be computed for each of the 
+candidate attributes, Temperat~re,~~ 
+and Temperat~re,~~, 
+and the best can be 
+selected (Temperat~re,~~). 
+This dynamically created boolean attribute can then 
+compete with the other discrete-valued candidate attributes available for growing 
+the decision tree. Fayyad and Irani (1993) discuss an extension to this approach 
+that splits the continuous attribute into multiple intervals rather than just two in-

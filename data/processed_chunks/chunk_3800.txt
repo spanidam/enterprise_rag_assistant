@@ -1,0 +1,12 @@
+is still far more eﬃcient and more widely applicable than any other general
+method.
+Dynamic programming has been extensively developed since the
+late 1950s, including extensions to partially observable MDPs (surveyed by
+Lovejoy, 1991), many applications (surveyed by White, 1985, 1988, 1993), ap-
+proximation methods (surveyed by Rust, 1996), and asynchronous methods
+(Bertsekas, 1982, 1983). Many excellent modern treatments of dynamic pro-
+gramming are available (e.g., Bertsekas, 1995; Puterman, 1994; Ross, 1983;
+and Whittle, 1982, 1983). Bryson (1996) provides an authoritative history of
+optimal control.
+Connections between optimal control and dynamic programming, on the
+one hand, and learning, on the other, were slow to be recognized. We can-

@@ -1,0 +1,15 @@
+1-4 Make a list of robotics related magazines and journals carried by the
+university library.
+1-5 Make a list of 10 robot applications. For each application discuss which
+type of manipulator would be best suited; which least suited. Justify your
+choices in each case.
+1-6 List several applications for non-servo robots; for point-to point robots,
+for continuous path robots.
+1-7 List ﬁve applications that a continuous path robot could do that a point-
+to-point robot could not do.
+1-8 List ﬁve applications where computer vision would be useful in robotics.
+1-9 List ﬁve applications where either tactile sensing or force feedback control
+would be useful in robotics.
+1-10 Find out how many industrial robots are currently in operation in the
+United States.
+How many are in operation in Japan?

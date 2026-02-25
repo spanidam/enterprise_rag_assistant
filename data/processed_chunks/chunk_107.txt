@@ -1,0 +1,38 @@
+2.4.1
+Rotation with respect to the current frame
+Recall that the matrix R0
+1 in Equation (2.9) represents a rotational transfor-
+mation between the frames o0x0y0z0 and o1x1y1z1.
+Suppose we now add a
+third coordinate frame o2x2y2z2 related to the frames o0x0y0z0 and o1x1y1z1
+by rotational transformations. A given point p can then be represented by co-
+ordinates speciﬁed with respect to any of these three frames: p0, p1 and p2. The
+relationship among these representations of p is
+p0
+=
+R0
+1p1
+(2.13)
+p1
+=
+R1
+2p2
+(2.14)
+p0
+=
+R0
+2p2
+(2.15)
+where each Ri
+j is a rotation matrix. Substituting Equation (2.14) into Equation
+(2.13) results in
+p0
+=
+R0
+1R1
+2p2
+(2.16)
+Note that R0
+1 and R0
+2 represent rotations relative to the frame o0x0y0z0 while
+R1

@@ -1,0 +1,12 @@
+having minimum description length (measured by the number of literals). 
+This part of the search is guided by an A*-like heuristic that allows pruning 
+without running the risk of pruning away the shortest hypothesis. 
+The details of the PROGOL algorithm are described by Muggleton (1992, 
+1995). 
+10.8 SUMMARY AND FURTHER READING 
+The main points of this chapter include: 
+The sequential covering algorithm learns a disjunctive set of rules by first 
+learning a single accurate rule, then removing the positive examples covered 
+by this rule and iterating the process over the remaining training examples. 
+It provides an efficient, greedy algorithm for learning rule sets, and an al- 
+ternative to top-down decision tree learning algorithms such as ID3, which

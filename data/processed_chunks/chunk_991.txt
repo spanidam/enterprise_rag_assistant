@@ -1,0 +1,22 @@
+(x ∗f) (𝑖, 𝑗) =
+𝐾
+∑
+𝑘=−𝐾
+𝐿
+∑
+𝑙=−𝐿
+3
+∑
+𝑐=1
+𝑓𝑘,𝑙,𝑐𝑥𝑖+𝑘,𝑗+𝑙,𝑐.
+(6.2)
+In other words, the output image pixels are computed as the dot product between a convolution filter (which is a tensor
+of shape (2𝐾+ 1, 2𝐿+ 1, 𝑐)) and the image patch centered at the given position.
+Let us, for example, consider the following 9x9 convolution filter:
+34
+Chapter 6. Convolutional Neural Networks
+Deep Learning Basics (lecture notes)
+Then the output of the convolution of the cat image above with this filter is the following greyscale (ie. single channel)
+image:
+One might notice that this image is a blurred version of the original image. This is because we used a Gaussian filter in
+the process. As for time series, when using convolution operations in neural networks, the contents of the filters will be

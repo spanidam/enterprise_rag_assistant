@@ -1,0 +1,30 @@
+a.
+food.remove("Butter Chicken")
+b.
+del food["Butter Chicken"]
+c.
+del food.del("Butter Chicken")
+9. What is the content of the food dictionary after calling food.update({"Kabob": "$22", "Sushi":
+"$16"})?
+a.
+{"Coconut soup": "$15", "Butter Chicken": "$18", "Kabob": "$22", "Sushi":
+"$16"}
+b.
+{"Coconut soup": "$15", "Butter Chicken": "$18", "Kabob": "$20", "Sushi":
+"$16"}
+c.
+{ "Sushi": "$16", "Coconut soup": "$15", "Butter Chicken": "$18", "Kabob":
+"$20"}
+TRY IT
+Create a dictionary of cars step-by-step
+Follow the steps below to create a dictionary of cars and modify it step-by-step.
+1.
+Create an empty dictionary.
+2.
+Add a key-value pair of "Mustang": 10.
+3.
+Add another key-value pair of "Volt": 3.
+4.
+Print the dictionary.
+5.
+Modify the value associated with key "Mustang" to be equal to 2.

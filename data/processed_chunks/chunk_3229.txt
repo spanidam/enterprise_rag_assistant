@@ -1,0 +1,13 @@
+each hypothesis h(x) is of the form 
+(a) Derive a gradient descent rule that minimizes the same criterion as BACKPROP- 
+AGATION; 
+that is, the sum of squared errors between the hypothesis and target 
+values of the training data. 
+(b) Derive a second gradient descent rule that minimizes the same criterion as 
+TANGENTPROP. 
+Consider only the single transformation s(a, x )  = x + a. 
+12.5. EBNN extracts training derivatives from explanations by examining the weights 
+and activations of the neural networks that make up the explanation. Consider the 
+simple example in which the explanation is formed by a single sigmoid unit with 
+n inputs. Derive a procedure for extracting the derivative 91,=,~ 
+where xi is a

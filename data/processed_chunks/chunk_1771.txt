@@ -1,0 +1,12 @@
+are removed. Thus, the base case should include len(word) == 0, which is resolved with the condition
+len(word) <= 1.
+3. b. The strip() function removes a given letter from the beginning and end of the string, including
+repeated letters. When strip('m') is used with "madamm" , the resultant string is "ada" .
+4. a. Both lists have the same items in a different order.
+5. b. The two lists have four overlapping items, but list_num has an extra 15, and other_list has an extra
+22.
+6. a. Both lists have the same items in a different order. The function works for items of any type.
+7. a. Both lists have the same items in a different order. The function works for items of any type, including
+other lists.
+8. a. Both lists have the same items in the same order.
+12.4 More math recursion

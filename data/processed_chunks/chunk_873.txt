@@ -1,0 +1,22 @@
+ties of vectors and matrices, such as matrix addition, subtraction, multiplica-
+tion, matrix transpose, and determinants. These concepts will not be deﬁned
+here. For additional background see [4].
+The symbol R will denote the set of real numbers, and Rn will denote the
+usual vector space on n-tuples over R. We use lower case letters a, b, c, x, y, etc.,
+to denote scalars in R and vectors in Rn. Uppercase letters A, B, C, R, etc.,
+denote matrices. Unless otherwise stated, vectors will be deﬁned as column
+vectors. Thus, the statement x ∈Rn means that
+x
+=
+
+
+x1
+...
+xn
+
+, xi ∈R.
+(B.1)
+The vector x is thus an n-tuple, arranged in a column with components x1, . . . , xn.
+We will frequently denote this as
+x = [x1, . . . , xn]T
+(B.2)

@@ -1,0 +1,14 @@
+157-188. 
+Veloso, M. M. (1992). Planning and learning by analogical reasoning. Berlin: Springer-Verlag. 
+Veloso, M. M., & Aamodt, A. (Eds.). (1995). Case-based reasoning research and development. 
+Lectwe Notes in Artificial Intelligence. Berlin: Springer-Verlag. 
+Watson, I. (Ed.). (1995). Progress in case-based reasoning: First United Kingdom workshop. Berlin: 
+Springer-Verlag. 
+Wess, S., Althoff, K., & Richter, M. (Eds.). (1994). Topics in case-based reasoning. Berlin: Springer- 
+Verlag. 
+CHAPTER 
+GENETIC 
+ALGORITHMS 
+Genetic algorithms provide an approach to learning that is based loosely on simulated 
+evolution. Hypotheses are often described by bit strings whose interpretation depends 
+on the application, though hypotheses may also be described by symbolic expressions

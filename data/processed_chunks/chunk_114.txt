@@ -1,0 +1,33 @@
+matrices, but in the reverse order.
+⋄
+46
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+Summary
+We can summarize the rule of composition of rotational transformations by
+the following recipe. Given a ﬁxed frame o0x0y0z0 a current frame o1x1y1z1,
+together with rotation matrix R0
+1 relating them, if a third frame o2x2y2z2 is
+obtained by a rotation R performed relative to the current frame then post-
+multiply R0
+1 by R = R1
+2 to obtain
+R0
+2
+=
+R0
+1R1
+2
+(2.22)
+If the second rotation is to be performed relative to the ﬁxed frame then
+it is both confusing and inappropriate to use the notation R1
+2 to represent this
+rotation. Therefore, if we represent the rotation by R, we premultiply R0
+1 by
+R to obtain
+R0
+2
+=
+RR0
+1
+(2.23)
+In each case R0

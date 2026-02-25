@@ -1,0 +1,27 @@
+13-3-methods)
+CONCEPTS IN PRACTICE
+Overriding methods
+1. Suppose a programmer inherits the ContractTax class from class Tax and wants to override Tax's
+calc_tax(). What should the programmer do?
+a.
+Define another calc_tax() method in Tax.
+b.
+Define a calc_tax() method in ContractTax.
+c.
+Define a function that takes a ContractTax instance.
+2. Which is the error in the program that attempts to override calc_tax() for ContractTaxDE?
+class Tax:
+def calc_tax(self):
+print('Calculating tax')
+class ContractTax(Tax):
+def calc_tax(self):
+print('Calculating contract tax')
+class ContractTaxDE(ContractTax):
+def calc_tax():
+print('Calculating German contract tax')
+my_tax = ContractTaxDE()
+my_tax.calc_tax()
+a.
+ContractTaxDE must inherit from Tax, not ContractTax.
+310
+13 • Inheritance

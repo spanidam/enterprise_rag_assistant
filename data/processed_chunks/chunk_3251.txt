@@ -1,0 +1,10 @@
+target function to be learned in this case is a control policy, n : S + A, that 
+outputs an appropriate action a from the set A, given the current state s from the 
+set S. However, this reinforcement learning problem differs from other function 
+approximation tasks in several important respects. 
+0 Delayed reward. The task of the agent is to learn a target function n that 
+maps from the current state s to the optimal action a = n(s). In earlier 
+chapters we have always assumed that when learning some target function 
+such as n, each training example would be a pair of the form (s, n(s)). In 
+reinforcement learning, however, training information is not available in this 
+form. Instead, the trainer provides only a sequence of immediate reward val-

@@ -1,0 +1,11 @@
+2.5.1
+Euler Angles
+A common method of specifying a rotation matrix in terms of three independent
+quantities is to use the so-called Euler Angles. Consider the ﬁxed coordinate
+frame o0x0y0z0 and the rotated frame o1x1y1z1 shown in Figure 2.11. We can
+specify the orientation of the frame o1x1y1z1 relative to the frame o0x0y0z0 by
+three angles (φ, θ, ψ), known as Euler Angles, and obtained by three successive
+rotations as follows: First rotate about the z-axis by the angle φ. Next rotate
+about the current y-axis by the angle θ. Finally rotate about the current z-axis
+by the angle ψ. In Figure 2.11, frame oaxayaza represents the new coordinate
+frame after the rotation by φ, frame obxbybzb represents the new coordinate

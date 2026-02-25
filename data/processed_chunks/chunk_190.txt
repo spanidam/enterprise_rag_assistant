@@ -1,0 +1,19 @@
+components of the origin o2 in the base frame; that is,
+x
+=
+a1c1 + a2c12
+y
+=
+a1s1 + a2s12
+are the coordinates of the end-eﬀector in the base frame. The rotational part of
+T 0
+2 gives the orientation of the frame o2x2y2z2 relative to the base frame.
+⋄
+Example 3.2 Three-Link Cylindrical Robot Consider now the three-link
+cylindrical robot represented symbolically by Figure 3.7.
+We establish o0 as
+shown at joint 1. Note that the placement of the origin o0 along z0 as well as
+the direction of the x0 axis are arbitrary. Our choice of o0 is the most natural,
+but o0 could just as well be placed at joint 2. The axis x0 is chosen normal
+to the page. Next, since z0 and z1 coincide, the origin o1 is chosen at joint 1
+as shown. The x1 axis is normal to the page when θ1 = 0 but, of course its

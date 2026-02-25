@@ -1,0 +1,10 @@
+Transactions on Computers @p. 404408). 
+Hunt, E. B. (1975). Art$cial Intelligence. New Yorc Academic Press. 
+Hunt, E. B., Marin, J., & Stone, P. J. (1966). Experiments in Induction. New York: Academic Press. 
+Kearns, M., & Mansour, Y. (1996). On the boosting ability of top-down decision tree learning 
+algorithms. Proceedings of the 28th ACM Symposium on the Theory of Computing. New York: 
+ACM Press. 
+Kononenko, I., Bratko, I., & Roskar, E. (1984). Experiments in automatic learning of medical diag- 
+nostic rules (Technical report). Jozef Stefan Institute, Ljubljana, Yugoslavia. 
+Lopez de Mantaras, R. (1991). A distance-based attribute selection measure for decision tree induc- 
+tion. Machine Learning, 6(1), 81-92.

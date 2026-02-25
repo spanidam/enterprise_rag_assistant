@@ -1,0 +1,15 @@
+other attributes.
+The structure of this dataset dictates:
+• the number of neurons in the input layer, which is equal to the number of descriptive attributes in our dataset (here,
+4), and
+• the number of neurons in the output layer, which is here equal to 3, since the model is expected to output one
+probability per target class.
+In more generality, for the output layer, one might face several situations:
+• when regression is at stake, the number of neurons in the output layer is equal to the number of features to be
+predicted by the model,
+• when it comes to classification
+– in the case of binary classification, the model will have a single output neuron which will indicate the proba-
+bility of the positive class
+2.2. Deciding on an MLP architecture
+11
+Deep Learning Basics (lecture notes)

@@ -1,0 +1,9 @@
+one in Figure 13.1. Assume as before that we train the agent with a sequence of 
+episodes. For each episode, the agent is placed in a random initial state and is 
+allowed to perform actions and to update its Q table until it reaches the absorbing 
+goal state. A new training episode is then begun by removing the agent from the 
+goal state and placing it at a new random initial state. As noted earlier, if we 
+begin with all Q values initialized to zero, then after the first full episode only 
+one entry in the agent's Q table will have been changed: the entry corresponding 
+to the final transition into the goal state. Note that if the agent happens to follow 
+the same sequence of actions from the same random initial state in its second full

@@ -1,0 +1,13 @@
+Training with LoRA is much faster, memory-efficient, and
+produces smaller model weights (a few hundred MBs), that are
+easier to store and share. One property of low-rank matrices
+is that they can be represented as the product of two smaller
+matrices. This realization leads to the hypothesis that this delta
+between fine-tuned weights and initial pre-trained weights can
+be represented as the matrix product of two much smaller
+matrices. By focusing on updating these two smaller matrices
+rather than the entire original weight matrix, computational
+efficiency can be substantially improved.
+Specifically, for a pre-trained weight matrix W0 ∈Rd×k,
+LoRA constrains its update by representing the latter with
+a low-rank decomposition W0 + ∆W = W0 + BA, where

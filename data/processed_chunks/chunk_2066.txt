@@ -1,0 +1,10 @@
+not. However, given that the new decision node is simply a consequence of fitting 
+the noisy training example, we expect h to outperform h' over subsequent data 
+drawn from the same instance distribution. 
+The above example illustrates how random noise in the training examples 
+can lead to overfitting. In fact, overfitting is possible even when the training data 
+are noise-free, especially when small numbers of examples are associated with leaf 
+nodes. In this case, it is quite possible for coincidental regularities to occur, in 
+which some attribute happens to partition the examples very well, despite being 
+unrelated to the actual target function. Whenever such coincidental regularities 
+exist, there is a risk of overfitting.

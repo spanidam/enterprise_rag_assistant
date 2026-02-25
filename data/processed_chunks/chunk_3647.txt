@@ -1,0 +1,18 @@
+ficient finetuning of quantized llms,” arXiv preprint arXiv:2305.14314,
+2023.
+[64]
+X. Geng, A. Gudibande, H. Liu, E. Wallace, P. Abbeel, S. Levine,
+and D. Song, “Koala: A dialogue model for academic research,” Blog
+post, April, vol. 1, 2023.
+[65]
+A. Q. Jiang, A. Sablayrolles, A. Mensch, C. Bamford, D. S. Chaplot,
+D. d. l. Casas, F. Bressand, G. Lengyel, G. Lample, L. Saulnier et al.,
+“Mistral 7b,” arXiv preprint arXiv:2310.06825, 2023.
+[66]
+B. Roziere, J. Gehring, F. Gloeckle, S. Sootla, I. Gat, X. E. Tan, Y. Adi,
+J. Liu, T. Remez, J. Rapin et al., “Code llama: Open foundation models
+for code,” arXiv preprint arXiv:2308.12950, 2023.
+[67]
+S. G. Patil, T. Zhang, X. Wang, and J. E. Gonzalez, “Gorilla: Large
+language model connected with massive apis,” 2023.
+[68]

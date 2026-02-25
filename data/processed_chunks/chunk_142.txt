@@ -1,0 +1,24 @@
+reference frame (in this case, frame 0).
+58
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+The set of n × n rotation matrices is known as the special orthogonal group
+of order n, and is denoted by SO(n). An important property of these matrices
+is that R−1 = RT for any R ∈SO(n).
+Rotation matrices can be used to perform coordinate transformations be-
+tween frames that diﬀer only in orientation. We derived rules for the composi-
+tion of rotational transformations as
+R0
+2
+=
+R0
+1R
+for the case where the second transformation, R, is performed relative to the
+current frame and
+R0
+2
+=
+RR0
+1
+for the case where the second transformation, R, is performed relative to the
+ﬁxed frame.
+In the three dimensional case, a rotation matrix can be parameterized using

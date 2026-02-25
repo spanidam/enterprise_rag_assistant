@@ -1,0 +1,56 @@
+end-eﬀector frame. Let
+X =
+ d(q)
+α(q)
+
+(4.99)
+denote the end-eﬀector pose, where d(q) is the usual vector from the origin of
+the base frame to the origin of the end-eﬀector frame and α denotes a minimal
+representation for the orientation of the end-eﬀector frame relative to the base
+frame. For example, let α = [φ, θ, ψ]T be a vector of Euler angles as deﬁned in
+Chapter 2. Then we look for an expression of the form
+˙X =
+
+˙d
+˙α
+
+= Ja(q) ˙q
+(4.100)
+to deﬁne the analytical Jacobian.
+It can be shown (Problem 4-9) that, if R = Rz,ψRy,θRz,φ is the Euler angle
+transformation then
+˙R = S(ω)R
+(4.101)
+in which ω, deﬁning the angular velocity is given by
+ω
+=
+
+
+cψsθ ˙φ −sψ ˙θ
+sψsθ ˙ψ + cψθ
+˙ψ + cθ ˙ψ
+
+
+(4.102)
+=
+
+
+cψsθ
+−sψ
+0
+sψsθ
+cψ
+0
+cθ
+0
+1
+
+
+
+
+˙φ
+˙θ
+˙ψ
+
+= B(α) ˙α
+(4.103)

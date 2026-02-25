@@ -1,0 +1,24 @@
+(9.30)
+since Ze(0) = ∞(capacitive environment) and Zr ̸= 0 (non-capacitive
+robot).
+The implications of the above calculation are that we can track a constant
+force reference value, while simultaneously specifying a given impedance,
+Zr, for the robot.
+In order to realize this result we need to design outer loop control term ax
+in (9.28) using only position, velocity, and force feedback. This imposes a
+practical limitation on the the achievable robot impedance functions, Zr.
+2In fact, for a resistive environment, either representation may be used
+TASK SPACE DYNAMICS AND CONTROL
+295
+Suppose Z−1
+r
+has relative degree one. This means that
+Zr(s) = Mcs + Zrem(s)
+(9.31)
+where Zrem(s) is a proper rational function. If we now choose
+ax = −1
+Mc
+Zrem ˙x + 1
+mc
+(Fs −F)
+(9.32)

@@ -1,0 +1,17 @@
+control using policy iteration. In Proceedings of the American Control Con-
+ference, pp. 3475–3479. American Automatic Control Council, Evanston,
+IL.
+Bradtke, S. J., Duﬀ, M. O. (1995).
+Reinforcement learning methods for
+continuous-time Markov decision problems. In G. Tesauro, D. Touretzky,
+and T. Leen (eds.), Advances in Neural Information Processing Systems:
+Proceedings of the 1994 Conference, pp. 393–400. MIT Press, Cambridge,
+MA.
+Bridle, J. S. (1990).
+Training stochastic model recognition algorithms as
+networks can lead to maximum mutual information estimates of parame-
+ters. In D. S. Touretzky (ed.), Advances in Neural Information Processing
+Systems: Proceedings of the 1989 Conference, pp. 211–217. Morgan Kauf-
+mann, San Mateo, CA.
+316
+CHAPTER 15. PROSPECTS

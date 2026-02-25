@@ -1,0 +1,10 @@
+require initial knowledge of many probabilities. When these probabilities are not 
+known in advance they are often estimated based on background knowledge, pre- 
+viously available data, and assumptions about the form of the underlying distribu- 
+tions. A second practical difficulty is the significant computational cost required to 
+determine the Bayes optimal hypothesis in the general case (linear in the number 
+of candidate hypotheses). In certain specialized situations, this computational cost 
+can be significantly reduced. 
+The remainder of this chapter is organized as follows. Section 6.2 intro- 
+duces Bayes theorem and defines maximum likelihood and maximum a posteriori 
+probability hypotheses. The four subsequent sections then apply this probabilistic

@@ -1,0 +1,12 @@
+237
+sum making up the approximate value function (9.8) is almost trivial to com-
+pute. Rather than performing n multiplications and additions, one simply
+computes the indices of the m ≪n present features and then adds up the
+m corresponding components of the parameter vector. The eligibility trace
+computation (9.7) is also simpliﬁed because the components of the gradient,
+∇ˆv(s,w), are also usually 0, and otherwise 1.
+The computation of the indices of the present features is particularly easy
+if gridlike tilings are used. The ideas and techniques here are best illustrated
+by examples. Suppose we address a task with two continuous state variables.
+Then the simplest way to tile the space is with a uniform two-dimensional
+grid:

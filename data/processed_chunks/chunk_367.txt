@@ -1,0 +1,60 @@
+conﬁguration is given by q = (x, y, θ), the forward kinematic map for vertex a
+(i.e., the mapping from q = (x, y, θ) to the global coordinates of the vertex a) is
+given by
+a(x, y, θ) =
+ x + ax cos θ −ay sin θ
+y + ax sin θ + ay cos θ
+
+(5.21)
+The corresponding Jacobian matrix is given by
+Ja(x, y, θ) =
+ 1
+0
+−ax sin θ −ay cos θ
+0
+1
+ax cos θ −ay sin θ
+
+(5.22)
+PLANNING USING WORKSPACE POTENTIAL FIELDS
+163
+ax
+yA
+F
+ay
+xA
+θ
+a
+Fig. 5.6
+The robot A, with coordinate frame oriented at angle θ from the world frame,
+and vertex a with local coordinates (ax, ay)
+Therefore, the conﬁguration space force is given by
+
+
+Fx
+Fy
+Fθ
+
+
+=
+
+
+1
+0
+0
+1
+−ax sin θ −ay cos θ
+ax cos θ −ay sin θ
+
+
+ Fx
+Fy
+
+=
+
+
+Fx
+Fy
+−Fx(ax sin θ −ay cos θ) + Fy(ax cos θ −ay sin θ)
+
+(5.23)

@@ -1,0 +1,36 @@
+from arrays.
+•
+Linear algebra operations: NumPy offers a set of linear algebra functions for matrix operations, like matrix
+multiplication, matrix inversion, eigenvalues, and eigenvectors.
+CHECKPOINT
+NumPy array operations
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+15-2-numpy)
+CONCEPTS IN PRACTICE
+NumPy operations
+4. What is the output of the following code?
+import numpy as np
+arr = np.array([[1, 2], [3, 4]])
+out = 2 * arr
+print(out)
+a.
+[[2 4]
+[8 16]]
+b.
+[[2 4]
+[6 8]]
+c.
+[[1 2]
+[3 4]]
+5. Which of the following results in a 2 by 3 ndarray?
+a.
+import numpy as np
+arr = np.array(2, 3)
+b.
+import numpy as np
+15.2 • NumPy
+353
+arr = np.array([[1, 2], [1, 2], [1, 2]])
+c.
+import numpy as np
+arr = np.array([[1, 2], [1, 2], [1, 2]]).T

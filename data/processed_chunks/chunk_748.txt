@@ -1,0 +1,17 @@
+(10.124)
+It is easy to show (Problem 10-21) that the distribution ∆= span{g1, g2, g3}
+is involutive of rank 3 on R3 −{0}. A more interesting property is that the
+satellite is controllable as long as any two of the three reaction wheels are func-
+tioning. The proof of this strictly nonlinear phenomenon is left as a exercise
+(Problem 10-22).
+⋄
+328
+GEOMETRIC NONLINEAR CONTROL
+Problems
+10-1 Complete the proof of Lemma 10.1 by direct calculation.
+10-2 Show that the function h = z −φ(x, y) satisﬁes the system (10.20) if φ is
+a solution of (10.13)-(10.14) and X1, X2 are deﬁned by (10.18).
+10-3 Show that if h(x, y, z) satisﬁes (10.20), then, if ∂h
+∂z ̸= 0, Equation (10.21)
+can be solved for z as z = φ(x, y) where φ satisﬁes (10.13)-(10.14). Also
+show that ∂h

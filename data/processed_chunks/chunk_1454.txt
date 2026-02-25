@@ -1,0 +1,20 @@
+data type is introduced. This chapter also introduces ways to use dictionaries, including looping over dictionary
+items and performing conditional statements on a dictionary.
+10.1 Dictionary basics
+Learning objectives
+By the end of this section you should be able to
+•
+Describe the structure of a dictionary object.
+•
+Use type() to identify the type of a dictionary object.
+•
+Explain why a dictionary object does not have duplicate key values.
+Dictionaries
+A dictionary in Python is a container object including key-value pairs. An example of a key-value item is a
+word in an English dictionary with its corresponding definition.
+Dictionaries
+10
+CHECKPOINT
+Dictionaries
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+10-1-dictionary-basics)

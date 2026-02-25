@@ -1,0 +1,21 @@
+Thus V is a positive function except at the “goal” q = qd, ˙q = 0, at which point
+V is zero. The idea is to show that along any motion of the robot, the function
+V is decreasing to zero. This will imply that the robot is moving toward the
+desired goal conﬁguration.
+To show this we note that, since J and qd are constant, the time derivative
+of V is given by
+˙V
+=
+˙qT M(q)¨q + 1/2 ˙qT ˙D(q) ˙q −˙qT KP ˜q.
+(8.9)
+Solving for M(q)¨q in (8.6) with g(q) = 0 and substituting the resulting expres-
+sion into (8.9) yields
+˙V
+=
+˙qT (u −C(q, ˙q) ˙q) + 1/2 ˙qT ˙D(q) ˙q −˙qT KP ˜q
+(8.10)
+=
+˙qT (u −KP ˜q) + 1/2 ˙qT ( ˙D(q) −2C(q, ˙q)) ˙q
+=
+˙qT (u −KP ˜q)
+where in the last equality we have used the fact (Theorem 6.3.1) that ˙D −2C

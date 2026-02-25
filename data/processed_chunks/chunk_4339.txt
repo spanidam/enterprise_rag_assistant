@@ -1,0 +1,15 @@
+and the relationships to Monte Carlo methods, were proved by Sutton
+(1988) for undiscounted episodic tasks, then extended to the general
+case in the ﬁrst edition of this book (1989).
+We see these as now
+superceded by the analyses and step-by-step equivalences in Section
+9.??.
+7.5
+Sarsa(λ) was ﬁrst explored as a control method by Rummery and Ni-
+ranjan (1994; Rummery, 1995). Our presentation of replacing traces
+omits a subtlety which is sometimes found to be beneﬁcial: clearing
+(setting to zero) the traces of all the actions not taken in the state that
+is visited, as suggested by Singh and Sutton (1996). This can also be
+done in Q(λ). Nowadays we would recommend just using dutch traces,
+which generalize better to function approximation.
+7.6

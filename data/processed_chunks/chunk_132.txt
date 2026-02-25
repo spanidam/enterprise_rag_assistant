@@ -1,0 +1,30 @@
+respect to o0x0y0z0) by d0
+1, then the coordinates p0 are given by
+p0 = R0
+1p1 + d0
+1
+(2.55)
+Two points are worth noting in this ﬁgure. First, note that we cannot simply
+add the vectors p0 and p1 since they are deﬁned relative to frames with diﬀerent
+orientations, i.e. with respect to frames that are not parallel. However, we are
+able to add the vectors p1 and R0
+1p1 precisely because multiplying p1 by the
+orientation matrix R0
+1 expresses p1 in a frame that is parallel to frame o0x0y0z0.
+Second, it is not important in which order the rotation and translation are
+performed.
+If we have the two rigid motions
+p0
+=
+R0
+1p1 + d0
+1
+(2.56)
+and
+p1
+=
+R1
+2p2 + d1
+2
+(2.57)
+then their composition deﬁnes a third rigid motion, which we can describe by

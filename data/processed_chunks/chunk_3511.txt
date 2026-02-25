@@ -1,0 +1,14 @@
+and avoid unintended behaviors 3. We review the most popular
+approaches to alignment in this subsection.
+RLHF (reinforcement learning from human feedback) and
+RLAIF (reinforcement learning from AI feedback) are two
+popular approaches. RLHF uses a reward model to learn
+alignment from human feedback. This reward model, after
+being tuned, is able to rate different outputs and score them
+according to their alignment preferences given by humans. The
+reward model gives feedback to the original LLM and this
+feedback is used to tune the LLM further [137]. Reinforcement
+learning from AI feedback on the other hand, directly connects
+a pretrained and well-aligned model to the LLM and helps it
+to learn from larger and more aligned models [138].
+In another recent work (known as DPO) [139], Rafailov

@@ -1,0 +1,14 @@
+EBNN generalizes more accurately than standard BACKPROPAGATION, 
+especially 
+when training data is scarce. For example, after 30 training examples, EBNN 
+achieved a root-mean-squared error of 5.5 on a separate set of test data, compared 
+to an error of 12.0 for BACKPROPAGATION. 
+Mitchell and Thrun (1993a) describe 
+applying EBNN to learning to control a simulated mobile robot, in which the do- 
+main theory consists of neural networks that predict the effects of various robot 
+actions on the world state. Again, EBNN using an approximate, previously learned 
+domain theory, outperformed BACKPROPAGATION. 
+Here BACKPROPAGATION 
+required 
+approximately 90 training episodes to reach the level of performance achieved 
+by EBNN after 25 training episodes. O'Sullivan et al. (1997) and Thrun (1996)

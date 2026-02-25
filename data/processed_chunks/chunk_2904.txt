@@ -1,0 +1,11 @@
+hypotheses learned by FOIL are sets of first-order rules, where each rule is sim- 
+ilar to a Horn clause with two exceptions. First, the rules learned by FOIL are 
+more restricted than general Horn clauses, because the literals are not pennitted 
+to contain function symbols (this reduces the complexity of the hypothesis space 
+search). Second, FOIL rules are more expressive than Horn clauses, because the 
+literals appearing in the body of the rule may be negated. FOIL has been applied 
+to a variety of problem domains. For example, it has been demonstrated to learn a 
+recursive definition of the QUICKSORT 
+algorithm and to learn to discriminate legal 
+from illegal chess positions. 
+The FOIL algorithm is summarized in Table 10.4. Notice the outer loop

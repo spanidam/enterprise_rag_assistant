@@ -1,0 +1,11 @@
+In other words, we wish to estimate the expected value 
+of the difference in their errors 
+where L(S) denotes the hypothesis output by learning method L when given 
+the sample S of training data and where the subscript S c V indicates that 
+the expected value is taken over samples S drawn according to the underlying 
+instance distribution V. The above expression describes the expected value of the 
+difference in errors between learning methods LA and L B. 
+Of course in practice we have only a limited sample Do of data when 
+comparing learning methods. In such cases, one obvious approach to estimating 
+the above quantity is to divide Do into a training set So and a disjoint test set To. 
+The training data can be used to train both LA and LB, and the test data can be

@@ -1,0 +1,12 @@
+K of its distance from x, : 
+3. Combine 1 and 2: 
+Criterion two is perhaps the most esthetically pleasing because it allows 
+every training example to have an impact on the classification of x,. However, 
+this approach requires computation that grows linearly with the number of training 
+examples. Criterion three is a good approximation to criterion two and has the 
+advantage that computational cost is independent of the total number of training 
+examples; its cost depends only on the number k of neighbors considered. 
+If we choose criterion three above and rederive the gradient descent rule 
+using the same style of argument as in Chapter 4, we obtain the following training 
+rule (see Exercise 8.1): 
+Notice the only differences between this new rule and the rule given by Equa-

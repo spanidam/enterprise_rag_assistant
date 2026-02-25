@@ -1,0 +1,55 @@
+h
+r + γv∗(s′)
+i
+(4.1)
+or
+q∗(s, a)
+=
+E
+h
+Rt+1 + γ max
+a′
+q∗(St+1, a′)
+ St =s, At =a
+i
+=
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γ max
+a′
+q∗(s′, a′)
+i
+,
+(4.2)
+for all s ∈S, a ∈A(s), and s′ ∈S+. As we shall see, DP algorithms are
+obtained by turning Bellman equations such as these into assignments, that is,
+into update rules for improving approximations of the desired value functions.
+4.1
+Policy Evaluation
+First we consider how to compute the state-value function vπ for an arbitrary
+policy π. This is called policy evaluation in the DP literature. We also refer
+to it as the prediction problem. Recall from Chapter 3 that, for all s ∈S,
+vπ(s)
+=
+Eπ
+
+Rt+1 + γRt+2 + γ2Rt+3 + · · ·
+ St =s
+
+=
+Eπ[Rt+1 + γvπ(St+1) | St =s]
+(4.3)
+=
+X
+a
+π(a|s)
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+,
+(4.4)

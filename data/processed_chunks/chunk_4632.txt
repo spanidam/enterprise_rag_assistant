@@ -1,0 +1,12 @@
+the task’s temporal dependents.
+At each step of the iterative repair search, one operator is applied to the
+current schedule, selected according to the following rules. The earliest task
+with a resource constraint violation is found, and a Reassign-Pool oper-
+ator is applied to this task if possible. If more than one applies, that is, if
+several diﬀerent pool reassignments are possible, one is selected at random.
+If no Reassign-Pool operator applies, then a Move operator is selected at
+random based on a heuristic that prefers short-distance moves of tasks having
+14.6. JOB-SHOP SCHEDULING
+297
+few temporal dependents and whose resource requirements are close to the
+task’s overallocation. After an operator is applied, the number of constraint

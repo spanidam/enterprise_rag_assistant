@@ -1,0 +1,13 @@
+, Y if there is a directed path from Y to X. Second, a conditional probability table 
+is given for each variable, describing the probability distribution for that variable 
+given the values of its immediate predecessors. The joint probability for any de- 
+sired assignment of values (yl, . . . , y,) to the tuple of network variables (YI . . . Y,) 
+can be computed by the formula 
+n 
+~ ( Y I , .  
+. . , yd = n p ( y i ~ p a r e n t s ( ~ i ) )  
+i=l 
+where Parents(Yi) denotes the set of immediate predecessors of Yi in the net- 
+work. Note the values of P(yiJ Parents(Yi)) are precisely the values stored in the 
+conditional probability table associated with node Yi. 
+To illustrate, the Bayesian network in Figure 6.3 represents the joint prob-

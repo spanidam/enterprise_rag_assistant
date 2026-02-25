@@ -1,0 +1,14 @@
+binary) is known as coarse coding.
+Assuming linear gradient-descent function approximation, consider the ef-
+fect of the size and density of the circles. Corresponding to each circle is a
+single parameter (a component of w) that is aﬀected by learning. If we train
+at one point (state) X, then the parameters of all circles intersecting X will be
+aﬀected. Thus, by (9.8), the approximate value function will be aﬀected at all
+points within the union of the circles, with a greater eﬀect the more circles a
+point has “in common” with X, as shown in Figure 9.2. If the circles are small,
+then the generalization will be over a short distance, as in Figure 9.3a, whereas
+9.3. LINEAR METHODS
+235
+a) Narrow generalization
+b) Broad generalization
+c) Asymmetric generalization

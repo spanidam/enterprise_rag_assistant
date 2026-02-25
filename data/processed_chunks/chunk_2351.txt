@@ -1,0 +1,11 @@
+is the mean error), the distribution governing this estimator can be approximated 
+by a Normal distribution for sufficiently large n. If we also know the variance 
+for this (approximately) Normal distribution, then we can use Equation (5.1 1) to 
+compute confidence intervals. A common rule of thumb is that we can use the 
+Normal approximation when n 2 30. Recall that in the preceding section we used 
+such a Normal distribution to approximate the Binomial distribution that more 
+precisely describes errors (h) . 
+5.5 DIFFERENCE IN ERROR OF TWO HYPOTHESES 
+Consider the case where we have two hypotheses hl and h2 for some discrete- 
+valued target function. Hypothesis hl has been tested on a samj4e S1 containing 
+nl randomly drawn examples, and ha has been tested on an indi:pendent sample

@@ -1,0 +1,10 @@
+enough weight-tuning iterations, BACKPROPAGATION 
+will often be able to create 
+overly complex decision surfaces that fit noise in the training data or unrepresen- 
+tative characteristics of the particular training sample. This overfitting problem is 
+analogous to the overfitting problem in decision tree learning (see Chapter 3). 
+Several techniques are available to address the overfitting problem for BACK- 
+PROPAGATION learning. One approach, known as weight decay, is to decrease each 
+weight by some small factor during each iteration. This is equivalent to modifying 
+the definition of E to include a penalty term corresponding to the total magnitude 
+of the network weights. The motivation for this approach is to keep weight values

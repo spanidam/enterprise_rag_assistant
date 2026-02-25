@@ -1,0 +1,14 @@
+in a variety of tasks, and there has already been a descent
+progress in this direction, which needs a dedicated paper to
+discuss all its details.
+D. Improved LLM Usage and Augmentation techniques
+As we described in sectionIV, many of the shortcomings
+and limitations of LLMs such as hallucination can be ad-
+dressed through advanced prompt engineering, use of tools,
+or other augmentation techniques. We should expect not only
+continued, but accelerated research in this area. It is worth
+mentioning that, in the specific case of software engineering,
+some works ([218]) tried to automatically eliminate this issue
+from the overall software engineering workflow
+LLM-based systems are already starting to replace ma-
+chine learning systems that were until recently using other

@@ -1,0 +1,40 @@
+124
+CONTENTS
+v
+5.5
+Oﬀ-policy Prediction via Importance Sampling . . . . . . . . .
+127
+5.6
+Incremental Implementation . . . . . . . . . . . . . . . . . . .
+133
+5.7
+Oﬀ-Policy Monte Carlo Control . . . . . . . . . . . . . . . . .
+135
+∗5.8
+Importance Sampling on Truncated Returns . . . . . . . . . .
+136
+5.9
+Summary
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+138
+6
+Temporal-Diﬀerence Learning
+143
+6.1
+TD Prediction . . . . . . . . . . . . . . . . . . . . . . . . . . .
+143
+6.2
+Advantages of TD Prediction Methods . . . . . . . . . . . . .
+148
+6.3
+Optimality of TD(0)
+. . . . . . . . . . . . . . . . . . . . . . .
+151
+6.4
+Sarsa: On-Policy TD Control
+. . . . . . . . . . . . . . . . . .
+154
+6.5
+Q-Learning: Oﬀ-Policy TD Control . . . . . . . . . . . . . . .
+157
+6.6

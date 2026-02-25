@@ -1,0 +1,47 @@
+Input layer
+x
+Hidden layer 1
+h(1)
+Hidden layer 2
+h(2)
+Output layer
+̂y
+w(0)
+w(1)
+w(2)
+The above graphical representation corresponds to the following model:
+̂𝑦= 𝜑out (∑
+𝑖
+𝑤(2)
+𝑖ℎ(2)
+𝑖
++ 𝑏(2))
+(2.1)
+∀𝑖, ℎ(2)
+𝑖
+= 𝜑(∑
+𝑗
+𝑤(1)
+𝑖𝑗ℎ(1)
+𝑗
++ 𝑏(1)
+𝑖)
+(2.2)
+∀𝑖, ℎ(1)
+𝑖
+= 𝜑(∑
+𝑗
+𝑤(0)
+𝑖𝑗𝑥𝑗+ 𝑏(0)
+𝑖)
+(2.3)
+To be even more precise, the bias terms 𝑏(𝑙)
+𝑖
+are not represented in the graphical representation above.
+Such models with one or more hidden layers are called Multi Layer Perceptrons (MLP).
+10
+Chapter 2. Multi Layer Perceptrons
+Deep Learning Basics (lecture notes)
+2.2 Deciding on an MLP architecture
+When designing a Multi-Layer Perceptron model to be used for a specific problem, some quantities are fixed by the
+problem at hand and other are left as hyper-parameters.

@@ -1,0 +1,13 @@
+space equipped with multiple coordinate frames. Following this, we introduce
+the concept of a rotation matrix to represent relative orientations among co-
+ordinate frames. Then we combine these two concepts to build homogeneous
+transformation matrices, which can be used to simultaneously represent the
+position and orientation of one coordinate frame relative to another. Further-
+more, homogeneous transformation matrices can be used to perform coordinate
+transformations. Such transformations allow us to represent various quantities
+in diﬀerent coordinate frames, a facility that we will often exploit in subsequent
+chapters.
+1Since we make extensive use of elementary matrix theory, the reader may wish to review
+Appendix B before beginning this chapter.
+29
+30

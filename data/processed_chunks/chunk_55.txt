@@ -1,0 +1,13 @@
+among coordinate frames.
+Inverse Kinematics
+Now, given the joint angles θ1, θ2 we can determine the end-eﬀector coordinates
+x and y. In order to command the robot to move to location A we need the
+20
+INTRODUCTION
+inverse; that is, we need the joint variables θ1, θ2 in terms of the x and y
+coordinates of A. This is the problem of inverse kinematics. In other words,
+given x and y in the forward kinematic Equations (1.1) and (1.2), we wish to
+solve for the joint angles. Since the forward kinematic equations are nonlinear,
+a solution may not be easy to ﬁnd, nor is there a unique solution in general.
+We can see in the case of a two-link planar mechanism that there may be no
+solution, for example if the given (x, y) coordinates are out of reach of the

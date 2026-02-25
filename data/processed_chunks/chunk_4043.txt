@@ -1,0 +1,11 @@
+sequence {vk} can be shown in general to converge to vπ as k →∞under the
+same conditions that guarantee the existence of vπ. This algorithm is called
+iterative policy evaluation.
+To produce each successive approximation, vk+1 from vk, iterative policy
+evaluation applies the same operation to each state s: it replaces the old value
+of s with a new value obtained from the old values of the successor states
+of s, and the expected immediate rewards, along all the one-step transitions
+possible under the policy being evaluated. We call this kind of operation a
+full backup. Each iteration of iterative policy evaluation backs up the value of
+every state once to produce the new approximate value function vk+1. There
+are several diﬀerent kinds of full backups, depending on whether a state (as

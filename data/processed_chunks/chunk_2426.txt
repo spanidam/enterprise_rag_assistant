@@ -1,0 +1,13 @@
+values other than 0 and 1, and by introducing into P(D1h) additional assumptions 
+about the probability distributions that govern the noise. 
+6.4 
+MAXIMUM LIKELIHOOD AND LEAST-SQUARED ERROR 
+HYPOTHESES 
+As illustrated in the above section, Bayesian analysis can sometimes be used to 
+show that a particular learning algorithm outputs MAP hypotheses even though it 
+may not explicitly use Bayes rule or calculate probabilities in any form. 
+In this section we consider the problem of learning a continuous-valued 
+target function-a 
+problem faced by many learning approaches such as neural 
+network learning, linear regression, and polynomial curve fitting. A straightfor- 
+ward Bayesian analysis will show that under certain assumptions any learning

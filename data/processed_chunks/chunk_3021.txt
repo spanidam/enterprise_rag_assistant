@@ -1,0 +1,17 @@
+When dealing with imperfect prior knowledge, the notion of explanation must be 
+extended to allow for plausible, approximate arguments rather than perfect proofs. 
+PROWG-EBG(TargetConcept, TrainingExamples, DomainTheory) 
+0 LearnedRules c (1 
+0 Pos c the positive examples from TrainingExamples 
+0 for each PositiveExample in Pos that is not covered by LearnedRules, do 
+I .  Explain: 
+Explanation c an explanation (proof) in terms of the DomainTheory that PositiveEx- 
+ample satisfies the TargetConcept 
+2. Analyze: 
+SufJicientConditions t the most general set of features of PositiveExample sufficient 
+to satisfy the TargetConcept according to the Explanation. 
+3. Rejine: 
+0 LearnedRules c LearnedRules + NewHornClause, where NewHornCIause is of 
+the form 
+TargetConcept c 
+SufJicientConditions

@@ -1,0 +1,14 @@
+mann. 
+Wright, S. (1977). Evolution and the genetics of populations. Vol. 4: Variability within and among 
+Natural Populations. Chicago: University of Chicago Press. 
+Zbignlew, M. (1992). Genetic algorithms + data structures = evolution programs. Berlin: Springer- 
+Verlag. 
+CHAPTER 
+LEARNING 
+SETS OF RULES 
+One of the most expressive and human readable representations for learned hypothe- 
+ses is sets of if-then rules. This chapter explores several algorithms for learning such 
+sets of rules. One important special case involves learning sets of rules containing 
+variables, called first-order Horn clauses. Because sets of first-order Horn clauses 
+can be interpreted as programs in the logic programming language PROLOG, 
+learning

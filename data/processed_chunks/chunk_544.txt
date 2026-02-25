@@ -1,0 +1,49 @@
+Θm(s)
+V (s)
+=
+Km
+s [(Ls + R)(Jms + Bm) + KbKm]
+(7.12)
+ACTUATOR DYNAMICS
+235
+τl/r
+−
+
+V (s)
++/L
+/
+1
+Ls+R
+Ia(s) / Ki
++/L
+/
+1
+Jms+Bm
+/
+o
+1
+s
+θm(s)
+/
+Kb
+−
+O
+Fig. 7.6
+Block diagram for a DC motor system
+The transfer function from the load torque τℓ(s)/r to Θm(s) is given by (with
+V = 0)
+Θm(s)
+τℓ(s)
+=
+−(Ls + R)
+s [(Ls + R)(Jms + Bm) + KbKm]
+(7.13)
+Frequently it is assumed that the “electrical time constant” L
+R is much
+smaller than the “mechanical time constant” Jm
+Bm .
+This is a reasonable as-
+sumption for many electro-mechanical systems and leads to a reduced order
+model of the actuator dynamics. If we now divide numerator and denominator
+of Equations (7.12) and (7.13) by R and neglect the electrical time constant by
+setting L

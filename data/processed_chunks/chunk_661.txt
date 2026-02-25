@@ -1,0 +1,24 @@
+constraints as
+fx = 0
+fy = 0
+vz = vd
+nx = 0
+ny = 0
+ωz = 0
+(9.8)
+where vd is the desired speed of insertion of the peg in the z-direction.
+Figures 9.4 and 9.5 show natural and artiﬁcial constraints for two additional
+tasks, that of turning a crank and and turning a screw, respectively.
+9.3
+NETWORK MODELS AND IMPEDANCE
+The reciprocity condition V T F = 0 means that the forces of constraint do no
+work in directions compatible with motion constraints and holds under the ideal
+286
+FORCE CONTROL
+Fig. 9.4
+Turning a crank
+Fig. 9.5
+Turning a screw.
+conditions of no friction and perfect rigidity of both the robot and environment.
+In practice, compliance and friction in the robot/environment interface will
+alter the strict separation between motion constraints and force constraints. For

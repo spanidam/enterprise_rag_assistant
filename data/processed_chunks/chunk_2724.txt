@@ -1,0 +1,13 @@
+approximations to the target function. One key advantage to RBF networks is that 
+they can be trained much more efficiently than feedforward networks trained with 
+BACKPROPAGATION. 
+This follows from the fact that the input layer and the output 
+layer of an RBF are trained separately. 
+8.5 CASE-BASED REASONING 
+Instance-based methods such as k-NEAREST 
+NEIGHBOR 
+and locally weighted re- 
+gression share three key properties. First, they are lazy learning methods in that 
+they defer the decision of how to generalize beyond the training data until a new 
+query instance is observed. Second, they classify new query instances by ana- 
+lyzing similar instances while ignoring instances that are very different from the

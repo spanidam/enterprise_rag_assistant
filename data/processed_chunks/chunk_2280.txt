@@ -1,0 +1,11 @@
+A number of textbooks are devoted to the topic of neural network learning. 
+An early but still useful book on parameter learning methods for pattern recog- 
+nition is Duda and Hart (1973). The text by Widrow and Stearns (1985) covers 
+perceptrons and related single-layer networks and their applications. Rumelhart 
+and McClelland (1986) produced an edited collection of papers that helped gen- 
+erate the increased interest in these methods beginning in the mid-1980s. Recent 
+books on neural network learning include Bishop (1996); Chauvin and Rumelhart 
+(1995); Freeman and Skapina (1991); Fu (1994); Hecht-Nielsen (1990); and Hertz 
+et al. (1991). 
+EXERCISES 
+4.1. What are the values of weights wo, wl, and w2 for the perceptron whose decision

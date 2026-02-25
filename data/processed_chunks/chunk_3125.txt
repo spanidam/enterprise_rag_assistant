@@ -1,0 +1,9 @@
+posterior probability based on the observed data D, together with prior knowledge 
+in the form of P(h), P ( D ) ,  and P(Dlh). Thus we can think of P(h), P ( D ) ,  and 
+P(Dlh) as a form of background knowledge or domain theory, and we can think 
+of Bayes theorem as a method for weighting this domain theory, together with 
+the observed data D ,  to assign a posterior probability P(hlD) to h. The Bayesian 
+view is that one should simply choose the hypothesis whose posterior probability 
+is greatest, and that Bayes theorem provides the proper method for weighting 
+the contribution of this prior knowledge and observed data. Unfortunately, Bayes 
+theorem implicitly assumes pe$ect knowledge about the probability distributions

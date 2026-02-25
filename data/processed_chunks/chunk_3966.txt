@@ -1,0 +1,10 @@
+The players’ bets also inﬂuence your assessment of their hands. In fact, much
+of your past history with these particular players is part of the Markov state.
+Does Ellen like to bluﬀ, or does she play conservatively? Does her face or
+demeanor provide clues to the strength of her hand? How does Joe’s play
+change when it is late at night, or when he has already won a lot of money?
+Although everything ever observed about the other players may have an
+eﬀect on the probabilities that they are holding various kinds of hands, in
+practice this is far too much to remember and analyze, and most of it will have
+no clear eﬀect on one’s predictions and decisions. Very good poker players are
+adept at remembering just the key clues, and at sizing up new players quickly,

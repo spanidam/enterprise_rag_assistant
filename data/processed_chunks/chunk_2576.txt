@@ -1,0 +1,12 @@
+the problem setting that defines the PAC learning model, then consider the ques- 
+tions of how many training examples and how much computation are required 
+in order to learn various classes of target functions within this PAC model. For 
+i 
+the sake of simplicity, we restrict the discussion to the case of learning boolean- 
+valued concepts from noise-free training data. However, many of the results can 
+be extended to the more general scenario of learning real-valued target functions 
+(see, for example, Natarajan 1991), and some can be extended to learning from 
+certain types of noisy data (see, for example, Laird 1988; Kearns and Vazirani 
+1994). 
+7.2.1 The Problem Setting 
+As in earlier chapters, let X refer to the set of all possible instances over which

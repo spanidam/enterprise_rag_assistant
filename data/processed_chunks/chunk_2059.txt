@@ -1,0 +1,10 @@
+the decision tree, handling continuous attributes, choosing an appropriate attribute 
+selection measure, andling training data with missing attribute values, handling 
+attributes with differing costs, and improving computational efficiency. Below 
+we discuss each of these issues and extensions to the basic ID3 algorithm that 
+address them. ID3 has itself been extended to address most of these issues, with 
+the resulting system renamed C4.5 (Quinlan 1993). 
+3.7.1 Avoiding Overfitting the Data 
+The algorithm described in Table 3.1 grows each branch of the tree just deeply 
+enough to perfectly classify the training examples. While this is sometimes a 
+reasonable strategy, in fact it can lead to difficulties when there is noise in the data,

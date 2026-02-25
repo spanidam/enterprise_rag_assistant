@@ -1,0 +1,11 @@
+introduces the naive Bayes classifier; the next section applies it to the practical 
+problem of learning to classify natural language text documents. 
+The naive Bayes classifier applies to learning tasks where each instance x 
+is described by a conjunction of attribute values and where the target function 
+f ( x )  can take on any value from some finite set V. A set of training examples of 
+the target function is provided, and a new instance is presented, described by the 
+tuple of attribute values (al, a2.. .a,). The learner is asked to predict the target 
+value, or classification, for this new instance. 
+The Bayesian approach to classifying the new instance is to assign the most 
+probable target value, VMAP, given the attribute values (al, a2 . . . a,) that describe 
+the instance.

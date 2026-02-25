@@ -1,0 +1,11 @@
+training data. This approach is used by the KBANN (Knowledge-Based Artificial 
+Neural Network) algorithm to learn artificial neural networks. In KBANN an initial 
+network is first constructed so that for every possible instance, the classification 
+assigned by the network is identical to that assigned by the domain theory. The 
+BACKPROPAGATION 
+algorithm is then employed to adjust the weights of this initial 
+network as needed to fit the training examples. 
+It is easy to see the motivation for this technique: if the domain theory is 
+correct, the initial hypothesis will correctly classify all the training examples and 
+there will be no need to revise it. However, if the initial hypothesis is found 
+to imperfectly classify the training examples, then it will be refined inductively

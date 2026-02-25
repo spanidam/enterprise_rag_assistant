@@ -1,0 +1,14 @@
+components. It aims to support developers to write their
+distributed deep learning models just like how they write their
+model on their laptop. They provide user-friendly tools to
+kickstart distributed training and inference in a few lines. In
+terms of Parallelism strategies, they support: Data Parallelism,
+Pipeline Parallelism, Sequence Parallelism, Zero Redundancy
+Optimizer (ZeRO) [140], and Auto-Parallelism.
+B. Deployment Tools
+We provide an overview of some of the most popular LLM
+deployment tools here.
+FastChat [228] is an open platform for training, serv-
+ing, and evaluating large language model based chatbots.
+FastChat’s core features include: The training and evaluation
+code for state-of-the-art models (e.g., Vicuna, MT-Bench), and

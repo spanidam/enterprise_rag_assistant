@@ -1,0 +1,13 @@
+eﬀector as the manipulator executes all possible motions. The workspace is
+constrained by the geometry of the manipulator as well as mechanical con-
+straints on the joints.
+For example, a revolute joint may be limited to less
+than a full 360◦of motion. The workspace is often broken down into a reach-
+able workspace and a dexterous workspace. The reachable workspace is
+the entire set of points reachable by the manipulator, whereas the dexterous
+workspace consists of those points that the manipulator can reach with an ar-
+bitrary orientation of the end-eﬀector. Obviously the dexterous workspace is a
+subset of the reachable workspace. The workspaces of several robots are shown
+later in this chapter.
+1.2
+ROBOTS AS MECHANICAL DEVICES

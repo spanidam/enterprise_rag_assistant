@@ -1,0 +1,11 @@
+trical Engineering Dept., Stanford University, Stanford, CA. 
+Morik, K., Wrobel, S., Kietz, J.-U., & Emde, W. (1993). Knowledge acquisition and machine learning: 
+Theory, methods, and applications. London: Academic Press. 
+Muggleton, S. (1987). DUCE: An oracle based approach to constructive induction. Proceedings of the 
+International Joint Conference on AI @p. 287-292). San Mateo, CA: Morgan Kaufmann. 
+Muggleton, S. (1995a). Inverse entailment and PROGOL. 
+New Generation Computing, 13, 245-286. 
+Muggleton, S. (1995b). Foundations of inductive logic programming. Englewood Cliffs, NJ: Prentice 
+Hall. 
+Muggleton, S., & Buntine, W. (1988). Machine invention of first-order predicates by inverting res- 
+olution. Proceedings of the Fzfth International Machine Learning Conference (pp. 339-352).

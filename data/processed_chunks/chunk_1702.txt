@@ -1,0 +1,13 @@
+12. b. Adding a float and an integer produces a float.
+13. b. '3.14' and '159' are concatenated.
+14. c. String repetition only works with strings and integers.
+381
+2.4 Floating-point errors
+1. b. An overflow error occurs because the value is larger than the upper limit of the floating-point range.
+2. a. The digits starting from the eighteenth place after the decimal are inaccurate due to approximation, so
+a round-off error occurs.
+3. c. round(6.6) = 7 as 7 is the closest whole number to 6.6.
+4. c. round(3.5, 2) = 3.50 as the input is rounded to two decimal places.
+5. b. When round() is applied to an integer value without specifying the number of decimal places, there
+will be no change to the value.
+6. a. The round(0.1, 1) rounds the value 0.1 to one decimal place, which is 0.1 .

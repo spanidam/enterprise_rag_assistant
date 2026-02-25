@@ -1,0 +1,26 @@
+qπ(s, a)
+=
+Eπ[Rt+1 + γvπ(St+1) | St =s, At =a]
+(4.6)
+=
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+.
+The key criterion is whether this is greater than or less than vπ(s). If it is
+greater—that is, if it is better to select a once in s and thereafter follow π
+than it would be to follow π all the time—then one would expect it to be
+better still to select a every time s is encountered, and that the new policy
+would in fact be a better one overall.
+That this is true is a special case of a general result called the policy
+improvement theorem. Let π and π′ be any pair of deterministic policies such
+that, for all s ∈S,
+qπ(s, π′(s)) ≥vπ(s).
+(4.7)
+Then the policy π′ must be as good as, or better than, π. That is, it must
+obtain greater or equal expected return from all states s ∈S:
+vπ′(s) ≥vπ(s).
+(4.8)

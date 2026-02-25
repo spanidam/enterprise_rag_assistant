@@ -1,0 +1,12 @@
+space of plans. Operators transform one plan into another, and value func-
+tions, if any, are deﬁned over the space of plans. Plan-space planning includes
+evolutionary methods and partial-order planning, a popular kind of planning
+in artiﬁcial intelligence in which the ordering of steps is not completely de-
+termined at all stages of planning. Plan-space methods are diﬃcult to apply
+eﬃciently to the stochastic optimal control problems that are the focus in rein-
+forcement learning, and we do not consider them further (but see Section 15.6
+for one application of reinforcement learning within plan-space planning).
+The uniﬁed view we present in this chapter is that all state-space planning
+methods share a common structure, a structure that is also present in the
+8.1. MODELS AND PLANNING
+197

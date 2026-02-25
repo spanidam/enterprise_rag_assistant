@@ -1,0 +1,9 @@
+basis we might be tempted to reject Occam's razor altogether. However, consider 
+the following scenario that examines the question of which internal representa- 
+tions might arise from a process of evolution and natural selection. Imagine a 
+population of artificial learning agents created by a simulated evolutionary pro- 
+cess involving reproduction, mutation, and natural selection of these agents. Let 
+us assume that this evolutionary process can alter the perceptual systems of these 
+agents from generation to generation, thereby changing the internal attributes by 
+which they perceive their world. For the sake of argument, let us also assume that 
+the learning agents employ a fixed learning algorithm (say ID3) that cannot be

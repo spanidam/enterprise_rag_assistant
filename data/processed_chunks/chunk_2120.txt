@@ -1,0 +1,11 @@
+of problems, such as learning to interpret complex real-world sensor data, artificial 
+neural networks are among the most effective learning methods currently known. 
+For example, the BACKPROPAGATION 
+algorithm described in this chapter has proven 
+surprisingly successful in many practical problems such as learning to recognize 
+handwritten characters (LeCun et al. 1989), learning to recognize spoken words 
+(Lang et al. 1990), and learning to recognize faces (Cottrell 1990). One survey of 
+practical applications is provided by Rumelhart et al. (1994). 
+4.1.1 Biological Motivation 
+The study of artificial neural networks (ANNs) has been inspired in part by the 
+observation that biological learning systems are built of very complex webs of

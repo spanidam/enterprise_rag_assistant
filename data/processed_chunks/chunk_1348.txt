@@ -1,0 +1,27 @@
+•
+Import functions from a module using the from keyword.
+•
+Explain how to avoid a name collision when importing a module.
+7.2 • Importing names
+177
+The from keyword
+Specific functions in a module can be imported using the from keyword:
+from area import triangle, cylinder
+These functions can be called directly, without referring to the module:
+print(triangle(1, 2))
+print(cylinder(3, 4))
+EXPLORING FURTHER
+As shown below, the from keyword can lead to confusing names.
+CHECKPOINT
+Importing functions
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+7-2-importing-names)
+CONCEPTS IN PRACTICE
+The from keyword
+1. Which import statement would be needed before running print(sqrt(25))?
+a.
+from math import sqrt
+b.
+import sqrt from math
+c.
+import math

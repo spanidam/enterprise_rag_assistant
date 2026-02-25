@@ -1,0 +1,23 @@
+tinually, the agent selecting actions and the environment responding to those
+actions and presenting new situations to the agent.1 The environment also
+1We use the terms agent, environment, and action instead of the engineers’ terms con-
+troller, controlled system (or plant), and control signal because they are meaningful to a
+53
+54
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+Agent
+Environment
+action
+At
+reward
+Rt
+state
+St
+Rt+1
+St+1
+Figure 3.1: The agent–environment interaction in reinforcement learning.
+gives rise to rewards, special numerical values that the agent tries to maximize
+over time.
+A complete speciﬁcation of an environment deﬁnes a task, one
+instance of the reinforcement learning problem.
+More speciﬁcally, the agent and environment interact at each of a sequence

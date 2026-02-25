@@ -1,0 +1,27 @@
+fileobj = open("/users/turtle/files/out.txt")
+c.
+fileobj = open("/users/turtle/files/out.txt", 'w')
+2. c:\documents\ on a Windows computer for reading
+a.
+fileobj = open("out.txt")
+b.
+fileobj = open("c:/documents/out.txt", 'a')
+c.
+fileobj = open("c:/documents/out.txt")
+3. /users/turtle/logs on a Linux computer for writing
+a.
+fileobj = open("out.txt")
+b.
+fileobj = open("/users/turtle/logs/out.txt")
+c.
+fileobj = open("/users/turtle/logs/out.txt", 'w')
+4. c:\proj\assets on a Windows computer in append mode
+a.
+fileobj = open("c:\\proj\\assets\\out.txt", 'a')
+b.
+fileobj = open("c:\proj\assets\out.txt", 'a')
+Working with CSV files
+In Python, files are read from and written to as Unicode by default. Many common file formats use Unicode
+336
+14 • Files
+Access for free at openstax.org

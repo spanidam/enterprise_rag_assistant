@@ -1,0 +1,32 @@
+ωi = Jωi(q) ˙q
+(6.45)
+Now suppose the mass of link i is mi and that the inertia matrix of link i,
+evaluated around a coordinate frame parallel to frame i but whose origin is at
+the center of mass, equals Ii. Then from (6.41) it follows that the overall kinetic
+energy of the manipulator equals
+K
+=
+1
+2 ˙qT
+n
+X
+i=1
+
+miJvi(q)T Jvi(q) + Jωi(q)T Ri(q)IiRi(q)T Jωi(q)
+
+˙q
+(6.46)
+In other words, the kinetic energy of the manipulator is of the form
+K
+=
+1
+2 ˙qT D(q) ˙q
+(6.47)
+200
+DYNAMICS
+where D(q) is a symmetric positive deﬁnite matrix that is in general conﬁgura-
+tion dependent. The matrix D is called the inertia matrix, and in Section 6.4
+we will compute this matrix for several commonly occurring manipulator con-
+ﬁgurations.
+6.2.3
+Potential Energy for an n-Link Robot

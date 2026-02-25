@@ -1,0 +1,11 @@
+this new unit is added to each output unit. The process is now repeated. The 
+original weights are retrained (holding the hidden unit weights fixed), the residual 
+error is checked, and a second hidden unit added if the residual error is still above 
+threshold. Whenever a new hidden unit is added, its inputs include all of the orig- 
+inal network inputs plus the outputs of any existing hidden units. The network is 
+122 MACHINE LEARNING 
+grown in this fashion, accumulating hidden units until the network residual enor 
+is reduced to some acceptable level. Fahlman and Lebiere (1990) report cases in 
+which CASCADE-CORRELATION 
+significantly reduces training times, due to the fact 
+that only a single layer of units is trained at each step. One practical difficulty

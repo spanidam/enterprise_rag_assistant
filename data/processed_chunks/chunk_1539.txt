@@ -1,0 +1,20 @@
+b.
+Nothing. The function would work the same.
+c.
+The function would not recognize any palindromes.
+3. What would happen if the condition in line 8 palindrome() is changed to if
+292
+12 • Recursion
+Access for free at openstax.org
+palindrome(word.strip(word[0])).
+a.
+Nothing. The function would work the same: the first and last letter would be removed.
+b.
+Some words, such as "madamm", would be incorrectly recognized as a palindrome.
+Recursion with lists
+The animation below shows a recursive way to check whether two lists contain the same items but in different
+order.
+The count() function returns a count of the number of items in a list that match the given item, and returns 0
+otherwise. Ex: For list_num = [1, 3, 3, 4], list_num.count(3) returns 2.
+CHECKPOINT
+Checking list permutations

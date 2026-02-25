@@ -1,0 +1,10 @@
+distinctive clue about its identity (but not its action values). Maybe you are
+facing an actual slot machine that changes the color of its display as it changes
+its action values. Now you can learn a policy associating each task, signaled
+by the color you see, with the best action to take when facing that task—for
+instance, if red, play arm 1; if green, play arm 2. With the right policy you
+can usually do much better than you could in the absence of any information
+distinguishing one bandit task from another.
+This is an example of an associative search task, so called because it in-
+volves both trial-and-error learning in the form of search for the best actions
+and association of these actions with the situations in which they are best.2

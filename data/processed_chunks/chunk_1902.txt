@@ -1,0 +1,9 @@
+hypotheses related by the p, relation? As noted earlier, hypothesis h2 is more 
+general than hl because every instance that satisfies hl also satisfies h2. Simi- 
+larly, h2 is more general than h3. Note that neither hl nor h3 is more general 
+than the other; although the instances satisfied by these two hypotheses intersect, 
+neither set subsumes the other. Notice also that the p, and >, relations are de- 
+fined independent of the target concept. They depend only on which instances 
+satisfy the two hypotheses and not on the classification of those instances accord- 
+ing to the target concept. Formally, the p, relation defines a partial order over 
+the hypothesis space H (the relation is reflexive, antisymmetric, and transitive).

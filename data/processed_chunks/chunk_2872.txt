@@ -1,0 +1,19 @@
+of Attributes, and v is a value of a that occurs in the current set of Examples 
+a Newrandidatehypotheses c 
+for each h in Candidatehypotheses, 
+for each c in Alll-onstraints, 
+create a specialization of h by adding the constraint c 
+a Remove from Newl-andidatehypotheses any hypotheses that are duplicates, inconsis- 
+tent, or not maximally specific 
+2. Update Besthypothesis 
+a For all h in Newnandidatehypotheses do 
+a If  PERFORMANCE(^, Examples, Targetattribute) 
+z PERFORMANCE(Besthypothesis, Examples, Targetattribute)) 
+Then Besthypothesis t 
+h 
+3. Update Candidatehypotheses 
+a Candidatehypotheses c the k best members of New-candidatehypotheses, 
+according 
+to the PERFORMANCE measure. 
+a Return a rule of the form 
+"IF Best hypothesis THEN prediction"

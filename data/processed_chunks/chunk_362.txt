@@ -1,0 +1,22 @@
+=
+aj(q) −b
+||aj(q) −b||
+(5.15)
+PLANNING USING WORKSPACE POTENTIAL FIELDS
+161
+A
+E1
+a1
+a2
+O
+Fig. 5.5
+The repulsive forces exerted on the robot vertices a1 and a2 may not be suﬃ-
+cient to prevent a collision between edge E1 and the obstacle
+i.e., the unit vector directed from b toward aj(q).
+It is important to note that this selection of repulsive control points does not
+guarantee that the robot cannot collide with an obstacle. Figure 5.5 shows an
+example where this is the case. In this ﬁgure, the repulsive control points a1
+and a2 are very far from the obstacle O, and therefore the repulsive inﬂuence
+may not be great enough to prevent the robot edge E1 from colliding with the
+obstacle.
+To cope with this problem, we can use a set of ﬂoating repulsive

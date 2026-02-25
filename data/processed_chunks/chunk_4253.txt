@@ -1,0 +1,12 @@
+term predictions about dynamical systems. For example, TD methods may
+be relevant to predicting ﬁnancial data, life spans, election outcomes, weather
+patterns, animal behavior, demands on power stations, or customer purchases.
+It was only when TD methods were analyzed as pure prediction methods, inde-
+pendent of their use in reinforcement learning, that their theoretical properties
+ﬁrst came to be well understood. Even so, these other potential applications
+of TD learning methods have not yet been extensively explored.
+Bibliographical and Historical Remarks
+As we outlined in Chapter 1, the idea of TD learning has its early roots in
+animal learning psychology and artiﬁcial intelligence, most notably the work
+of Samuel (1959) and Klopf (1972).
+Samuel’s work is described as a case

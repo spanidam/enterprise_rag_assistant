@@ -1,0 +1,19 @@
+•
+Implement a program with nested if-else statements.
+Nested decision statements
+Suppose a programmer is writing a program that reads in a game ID and player count and prints whether the
+user has the right number of players for the game.
+The programmer may start with:
+if game == 1 and players < 2:
+print("Not enough players")
+if game == 1 and players > 4:
+print("Too many players")
+if game == 1 and (2 <= players <= 4):
+print("Ready to start")
+if game == 2 and players < 3:
+print("Not enough players")
+if game == 2 and players > 6:
+print("Too many players")
+if game == 2 and (3 <= players <= 6):
+print("Ready to start")
+The programmer realizes the code is redundant. What if the programmer could decide the game ID first and

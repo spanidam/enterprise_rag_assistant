@@ -1,0 +1,10 @@
+ples. Therefore, Outlook is selected as the decision attribute for the root node, 
+and branches are created below the root for each of its possible values (i.e., 
+Sunny, Overcast, and Rain). The resulting partial decision tree is shown in Fig- 
+ure 3.4, along with the training examples sorted to each new descendant node. 
+Note that every example for which Outlook = Overcast is also a positive ex- 
+ample of PlayTennis. Therefore, this node of the tree becomes a leaf node with 
+the classification PlayTennis = Yes. In contrast, the descendants corresponding to 
+Outlook = Sunny and Outlook = Rain still have nonzero entropy, and the decision 
+tree will be further elaborated below these nodes. 
+The process of selecting a new attribute and partitioning the training exam-

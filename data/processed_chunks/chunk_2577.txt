@@ -1,0 +1,10 @@
+As in earlier chapters, let X refer to the set of all possible instances over which 
+target functions may be defined. For example, X might represent the set of all 
+people, each described by the attributes age (e.g., young or old) and height (short 
+or tall). Let C refer to some set of target concepts that our learner might be called 
+upon to learn. Each target concept c in C corresponds to some subset of X, or 
+equivalently to some boolean-valued function c : X + {0, 1). For example, one 
+target concept c in C might be the concept "people who are skiers." If x is a 
+positive example of c, then we will write c(x) = 1; if x is a negative example, 
+c(x) = 0. 
+We assume instances are generated at random from X according to some

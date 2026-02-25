@@ -1,0 +1,15 @@
+when DP targets are used such as Vt = Eπ[Rt+1 + γˆv(St+1,wt) | St]. Never-
+theless, such bootstrapping methods can be quite eﬀective, and other perfor-
+mance guarantees are available for important special cases, as we discuss later
+in this chapter. For now we emphasize the relationship of these methods to
+the general gradient-descent form (9.3). Although increments as in (9.4) are
+not themselves gradients, it is useful to view this method as a gradient-descent
+method (9.3) with a bootstrapping approximation in place of the desired out-
+put, vπ(St).
+As (9.4) provides the forward view of gradient-descent TD(λ), so the back-
+ward view is provided by
+wt+1 = wt + αδtet,
+(9.5)
+where δt is the usual TD error, now using ˆv,
+δt = Rt+1 + γˆv(St+1,wt) −ˆv(St,wt),
+(9.6)

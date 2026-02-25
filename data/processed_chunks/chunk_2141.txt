@@ -1,0 +1,10 @@
+The ability of perceptrons to represent AND, OR, NAND, and NOR is 
+important because every boolean function can be represented by some network of 
+interconnected units based on these primitives. In fact, every boolean function can 
+be represented by some network of perceptrons only two levels deep, in which 
+FIGURE 4.3 
+The decision surface represented by a two-input perceptron. (a) A set of training examples and the 
+decision surface of a perceptron that classifies them correctly. (b) A set of training examples that is 
+not linearly separable (i.e., that cannot be correctly classified by any straight line). xl and x2 are the 
+Perceptron inputs. Positive examples are indicated by "+", negative by "-". 
+the inputs are fed to multiple units, and the outputs of these units are then input to

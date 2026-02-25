@@ -1,0 +1,17 @@
+that predict when it is True and rules that predict when it is False. Also, FOIL 
+performs a simple hillclimbing search rather than a beam search (equivalently, it 
+uses a beam of width one). 
+The hypothesis space search performed by FOIL is best understood by view- 
+ing it hierarchically. Each iteration through FOIL'S outer loop adds a new rule to 
+its disjunctive hypothesis, Learned~ules. The effect of each new rule is to gen- 
+-- 
+FOIL(Target-predicate, Predicates, Examples) 
+Pos c those Examples for which the Target-predicate is True 
+Neg c those Examples for which the Target-predicate is False 
+while Pos, do 
+Learn a NewRule 
+New Rule t the rule that predicts Target-predicate with no preconditions 
+NewRuleNeg t 
+Neg 
+while NewRuleNeg, do 
+Add a new literal to specialize New Rule

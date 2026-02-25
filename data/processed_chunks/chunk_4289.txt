@@ -1,0 +1,10 @@
+The experiment was just as in the n-step case (Figure 7.2) except that here we
+varied λ instead of n. Note that overall performance of the λ-return algorithms
+is comparable to that of the n-step algorithms. In both cases we get best
+performance with an intermediate value of the truncation parameter, n or λ.
+The approach that we have been taking so far is what we call the theoret-
+ical, or forward, view of a learning algorithm. For each state visited, we look
+forward in time to all the future rewards and decide how best to combine them.
+We might imagine ourselves riding the stream of states, looking forward from
+each state to determine its update, as suggested by Figure 7.5. After looking
+forward from and updating one state, we move on to the next and never have

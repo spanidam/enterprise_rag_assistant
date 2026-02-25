@@ -1,0 +1,17 @@
+12.5 • Using recursion to solve problems
+299
+EXAMPLE 12.4
+Solving N towers
+The solution to Three Towers is simple with recursion. In the code below, rings are numbered from the top
+down. The smallest ring is 1, the next ring is 2, and when solving for three rings, the bottom ring is 3.
+""" Solving the towers problem recursively """
+def three_towers(N, source_tower, dest_tower, temp_tower):
+# Base case: simply move the single(bottom) ring from source to destination
+tower
+if N==1:
+print("Move ring 1 from tower", source_tower, "to tower", dest_tower)
+return # Exit when the base case is reached
+# Recursive case
+# Call the smaller version of the problem:
+# to move the N-1 stack to the middle tower
+three_towers(N-1, source_tower, temp_tower, dest_tower)

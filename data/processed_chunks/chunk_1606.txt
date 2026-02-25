@@ -1,0 +1,30 @@
+# Ensure changes are saved by closing the file
+opfile.close()
+# Read and display the contents of the modified file
+infile = open("output.txt")
+print("\nRead the modified file:\n")
+print(infile.read())
+infile.close()
+The code's output is:
+14.2 • Writing to files
+333
+Read the original file:
+Writing to a new file.
+Second line.
+Read the modified file:
+Writing to a new file.
+Second line.
+Adding to the file.
+Adding another line.
+CHECKPOINT
+write() and close()
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+14-2-writing-to-files)
+CONCEPTS IN PRACTICE
+Writing to files
+resources.txt already exists. What would happen for each of the following snippets of code?
+4. outfile = open("resources.txt", 'w')
+outfile.write("new content")
+a.
+nothing
+b.

@@ -1,0 +1,10 @@
+they can be misled when given incorrect or insufficient prior knowledge. Purely 
+inductive methods offer the advantage that they require no explicit prior knowl- 
+edge and learn regularities based solely on the training data. However, they can 
+fail when given insufficient training data, and can be misled by the implicit in- 
+ductive bias they must adopt in order to generalize beyond the observed data. 
+Table 12.1 summarizes these complementary advantages and pitfalls of induc- 
+tive and analytical learning methods. This chapter considers the question of how 
+to combine the two into a single algorithm that captures the best aspects of 
+both. 
+The difference between inductive and analytical learning methods can be

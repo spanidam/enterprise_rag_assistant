@@ -1,0 +1,25 @@
+X
+i
+r2
+ij
+=
+1,
+j ∈{1, 2, 3}
+(2.25)
+r1ir1j + r2ir2j + r3ir3j
+=
+0,
+i ̸= j
+(2.26)
+Equation (2.25) follows from the fact the the columns of a rotation matrix
+are unit vectors, and Equation (2.26) follows from the fact that columns of a
+rotation matrix are mutually orthogonal. Together, these constraints deﬁne six
+independent equations with nine unknowns, which implies that there are three
+free variables.
+In this section we derive three ways in which an arbitrary rotation can be
+represented using only three independent quantities: the Euler Angle repre-
+sentation, the roll-pitch-yaw representation, and the axis/angle representa-
+tion.
+2.5.1
+Euler Angles
+A common method of specifying a rotation matrix in terms of three independent

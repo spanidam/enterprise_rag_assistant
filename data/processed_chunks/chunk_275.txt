@@ -1,0 +1,121 @@
+n as the
+product of three transformations as follows
+
+R0
+n
+o0
+n
+0
+1
+
+=
+T 0
+n
+(4.54)
+=
+T 0
+i−1T i−1
+i
+T i
+n
+(4.55)
+=
+
+R0
+i−1
+o0
+i−1
+0
+1
+ 
+Ri−1
+i
+oi−1
+i
+0
+1
+ 
+Ri
+n
+oi
+n
+0
+1
+
+(4.56)
+=
+
+R0
+n
+R0
+i oi
+n + R0
+i−1oi−1
+i
++ o0
+i−1
+0
+1
+
+,
+(4.57)
+which gives
+o0
+n
+=
+R0
+i oi
+n + R0
+i−1oi−1
+i
++ o0
+i−1
+(4.58)
+If only joint i is allowed to move, then both of oi
+n and o0
+i−1 are constant.
+Furthermore, if joint i is prismatic, then the rotation matrix R0
+i−1 is also con-
+stant (again, assuming that only joint i is allowed to move). Finally, recall
+from Chapter 3 that, by the DH convention, oi−1
+i
+= (aici, aisi, di)T . Thus,
+DERIVATION OF THE JACOBIAN
+125
+diﬀerentiation of o0
+n gives
+∂o0
+n
+∂qi
+=
+∂
+∂di
+R0
+i−1oi−1
+i
+(4.59)
+=
+R0
+i−1
+∂
+∂di
+
+
+aici
+aisi
+di
+
+
+(4.60)
+=
+˙diR0
+i−1
+
+
+0
+0
+1
+
+
+(4.61)
+=

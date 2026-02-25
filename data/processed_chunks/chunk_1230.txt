@@ -1,0 +1,22 @@
+else-statements)
+TRY IT
+Converting temperature units
+The following program reads in a temperature as a float and the unit as a string: "f" for Fahrenheit or "c"
+for Celsius.
+Calculate new_temp, the result of converting temp from Fahrenheit to Celsius or Celsius to Fahrenheit
+based on unit. Calculate new_unit: "c" if unit is "f" and "f" if unit is "c".
+Conversion formulas:
+•
+Degrees Celsius = (degrees Fahrenheit - 32) * 5/9
+•
+Degrees Fahrenheit = (degrees Celsius * 5/9) + 32
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/4-2-if-
+else-statements)
+4.3 Boolean operations
+Learning objectives
+By the end of this section you should be able to
+•
+Explain the purpose of logical operators.
+•
+Describe the truth tables for and, or, and not.
+•

@@ -1,0 +1,40 @@
+the string.
+EXAMPLE 8.1
+Converting characters in a string
+In the example below, the lower() and upper() string methods are called on the string variable x to
+convert all characters to lowercase and uppercase, respectively.
+x = "Apples"
+# The lower() method converts a string to all lowercase characters
+print(x.lower())
+# The upper() method converts a string to all uppercase characters
+print(x.upper())
+The above code's output is:
+apples
+APPLES
+CONCEPTS IN PRACTICE
+Using lower() and upper()
+4. What is the output of "aBbA".lower()?
+a.
+abba
+b.
+ABBA
+c.
+abbA
+5. What is the output of "aBbA".upper()?
+a.
+abba
+8.1 • String operations
+199
+b.
+ABBA
+c.
+ABbA
+d.
+aBBA
+6. What is the output of ("a".upper() == "A")?
+a.
+True
+b.
+False
+TRY IT
+Number of characters in the string

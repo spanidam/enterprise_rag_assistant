@@ -1,0 +1,12 @@
+•
+Use format() to generate numerical formats based on a given template.
+String format specification
+Python provides string substitutions syntax for formatting strings with input arguments. Formatting string
+includes specifying string pattern rules and modifying the string according to the formatting specification.
+Examples of formatting strings include using patterns for building different string values and specifying
+modification rules for the string's length and alignment.
+String formatting with replacement fields
+Replacement fields are used to define a pattern for creating multiple string values that comply with a given
+8.4 • String formatting
+209
+format. The example below shows two string values that use the same template for making requests to

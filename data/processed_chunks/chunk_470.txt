@@ -1,0 +1,68 @@
+only a function of q1 and q2. Hence we can use the formulae in Section 6.3
+to obtain the dynamical equations. Also, since both joints are prismatic, the
+angular velocity Jacobian is zero and the kinetic energy of each link consists
+solely of the translational term.
+It follows that the velocity of the center of mass of link 1 is given by
+vc1
+=
+Jvc1 ˙q
+(6.64)
+where
+Jvc1 =
+
+
+0
+0
+0
+0
+1
+0
+
+,
+˙q =
+ ˙q1
+˙q2
+
+(6.65)
+Similarly,
+vc2
+=
+Jvc2 ˙q
+(6.66)
+where
+Jvc2
+=
+
+
+0
+0
+0
+1
+1
+0
+
+
+(6.67)
+204
+DYNAMICS
+Hence the kinetic energy is given by
+K
+=
+1
+2 ˙qT 
+m1JT
+vcJvc1 + m2JT
+vc2Jvc2
+	
+˙q
+(6.68)
+Comparing with (6.50), we see that the inertia matrix D is given simply by
+D
+=
+ m1 + m2
+0
+0
+m2
+
+(6.69)
+Next, the potential energy of link 1 is m1gq1, while that of link 2 is m2gq1,

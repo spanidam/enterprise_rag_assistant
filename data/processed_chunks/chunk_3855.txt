@@ -1,0 +1,13 @@
+If Nt(a) = 0, then we deﬁne Qt(a) instead as some default value, such as
+Q1(a) = 0. As Nt(a) →∞, by the law of large numbers, Qt(a) converges
+to q(a). We call this the sample-average method for estimating action values
+because each estimate is a simple average of the sample of relevant rewards.
+Of course this is just one way to estimate action values, and not necessarily
+the best one. Nevertheless, for now let us stay with this simple estimation
+method and turn to the question of how the estimates might be used to select
+actions.
+The simplest action selection rule is to select the action (or one of the
+actions) with highest estimated action value, that is, to select at step t one
+of the greedy actions, A∗
+t, for which Qt(A∗
+t) = maxa Qt(a). This greedy action

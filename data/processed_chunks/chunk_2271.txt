@@ -1,0 +1,9 @@
+appears to be more successful in practice, is to consider the effect that a small 
+variation in the weight has on the error E. The effect on E of varying w (i.e., g) 
+can be taken as a measure of the salience of the connection. LeCun et al. (1990) 
+describe a process in which a network is trained, the least salient connections 
+removed, and this process iterated until some termination condition is met. They 
+refer to this as the "optimal brain damage" approach, because at each step the 
+algorithm attempts to remove the least useful connections. They report that in 
+a character recognition application this approach reduced the number of weights 
+in a large network by a factor of 4, with a slight improvement in generalization

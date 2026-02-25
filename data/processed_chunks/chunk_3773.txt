@@ -1,0 +1,11 @@
+fact, some of these methods take advantage of value function estimates to im-
+prove their gradient estimates. Overall, the distinction between policy gradient
+methods and other methods we include as reinforcement learning methods is
+not sharply deﬁned.
+Reinforcement learning’s connection to optimization methods deserves some
+additional comment because it is a source of a common misunderstanding.
+When we say that a reinforcement learning agent’s goal is to maximize a nu-
+merical reward signal, we of course are not insisting that the agent has to
+actually achieve the goal of maximum reward. Trying to maximize a quantity
+does not mean that that quantity is ever maximized. The point is that a re-
+inforcement learning agent is always trying to increase the amount of reward

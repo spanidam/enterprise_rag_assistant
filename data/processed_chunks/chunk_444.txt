@@ -1,0 +1,30 @@
+THE EULER-LAGRANGE EQUATIONS
+193
+see that the set of all virtual displacements is precisely
+δri
+=
+n
+X
+j=1
+∂ri
+∂qj
+δqj,
+i = 1, . . . , k
+(6.18)
+where the virtual displacements δq1, . . . , δqn of the generalized coordinates are
+unconstrained (that is what makes them generalized coordinates).
+Next we begin a discussion of constrained systems in equilibrium. Suppose
+each particle is in equilibrium.
+Then the net force on each particle is zero,
+which in turn implies that the work done by each set of virtual displacements
+is zero. Hence the sum of the work done by any set of virtual displacements is
+also zero; that is,
+k
+X
+i=1
+F T
+i δri
+=
+0
+(6.19)
+where F i is the total force on particle i. As mentioned earlier, the force F i

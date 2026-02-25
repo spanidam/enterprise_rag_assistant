@@ -1,0 +1,25 @@
+3. Which operation can be used to remove an element from the end of a list?
+a.
+only pop()
+b.
+only remove()
+c.
+either pop() or remove()
+Iterating lists
+An iterative for loop can be used to iterate through a list. Alternatively, lists can be iterated using list indexes
+with a counting for loop. The animation below shows both ways of iterating a list.
+CHECKPOINT
+Using len() to get the length of a list
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+9-1-modifying-and-iterating-lists)
+CONCEPTS IN PRACTICE
+Iterating lists
+For the following questions, consider the list:
+my_list = [2, 3, 5, 7, 9]
+4. How many times will the following for loop execute?
+for element in my_list:
+a.
+5
+b.
+4
+5. What is the final value of i for the following counting for loop?

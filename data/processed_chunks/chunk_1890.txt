@@ -1,0 +1,14 @@
+Humidity, Wind, Water, and Forecast. The concept or function to be learned is 
+called the target concept, which we denote by c. In general, c can be any boolean- 
+valued function defined over the instances X; that is, c : X + {O, 1). In the current 
+example, the target concept corresponds to the value of the attribute EnjoySport 
+(i.e., c(x) = 1 if EnjoySport = Yes, and c(x) = 0 if EnjoySport = No). 
+- 
+0 Given: 
+0 Instances X: Possible days, each described by the attributes 
+0 Sky (with possible values Sunny, Cloudy, and Rainy), 
+0 AirTemp (with values Warm and Cold), 
+0 Humidity (with values Normal and High), 
+0 Wind (with values Strong and Weak), 
+0 Water (with values Warm and Cool), and 
+0 Forecast (with values Same and Change).

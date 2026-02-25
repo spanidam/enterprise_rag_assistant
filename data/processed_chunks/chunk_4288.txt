@@ -1,0 +1,35 @@
+is (1 −λ)λ2
+is λT −t−1
+Figure 7.4: Weighting given in the λ-return to each of the n-step returns.
+7.2. THE FORWARD VIEW OF TD(λ)
+175
+Time
+rt+3
+rt+2
+rt+1
+rT
+st+1
+st+2
+st+3
+stSt
+St+1
+St+2
+St+3
+R
+R
+R
+R
+Figure 7.5: The forward or theoretical view. We decide how to update each
+state by looking forward to future rewards and states.
+∆t(St), to the value of the state occurring on that step:
+∆t(St) = α
+h
+Lt −Vt(St)
+i
+.
+(7.7)
+(The increments for other states are of course ∆t(s) = 0, for all s ̸= St.)
+As with n-step TD methods, the updating can be either on-line or oﬀ-line.
+The upper row of Figure 7.6 shows the performance of the on-line and oﬀ-
+line λ-return algorithms on the 19-state random walk task (Example 7.1).
+The experiment was just as in the n-step case (Figure 7.2) except that here we

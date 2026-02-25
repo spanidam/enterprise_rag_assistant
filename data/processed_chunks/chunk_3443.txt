@@ -1,0 +1,54 @@
+-
+✓
+-
+Instruction dataset
+Falcon 180B
+180B
+2023
+-
+✓
+3.5T
+RefinedWeb
+Gemini
+1.8B, 3.25B
+2023
+✓
+-
+Web documents, books, and code, image data,
+audio data, video data
+DeepSeek-Coder
+1.3B, 6.7B, 33B
+2024
+-
+✓
+2T
+GitHub’s Markdown and StackExchange
+DocLLM
+1B,7B
+2024
+-
+×
+2T
+IIT-CDIP Test Collection 1.0, DocBank
+encoder and decoder for language embedding and generation,
+respectively.
+BART [55] uses a standard sequence-to-sequence transla-
+tion model architecture. It is pre-trained by corrupting text with
+an arbitrary noising function, and then learning to reconstruct
+the original text.
+B. Large Language Model Families
+Large
+language
+models
+(LLMs)
+mainly
+refer
+to
+transformer-based
+PLMs
+that
+contain
+tens
+to
+hundreds
+of billions of parameters. Compared to PLMs reviewed above,

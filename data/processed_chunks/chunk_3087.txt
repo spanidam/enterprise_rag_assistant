@@ -1,0 +1,11 @@
+diate features as a side effect of analyzing individual training examples. This 
+analytical approach to feature generation complements the statistically based 
+generation of intermediate features (eg., hidden unit features) in inductive 
+methods such as BACKPROPAGATION. 
+a Although PROLOG-EBG does not produce hypotheses that extend the deduc- 
+tive closure of its domain theory, other deductive learning procedures can. 
+For example, a domain theory containing determination assertions (e.g., "na- 
+tionality determines language") can be used together with observed data to 
+deductively infer hypotheses that go beyond the deductive closure of the 
+domain theory. 
+a One important class of problems for which a correct and complete domain

@@ -1,0 +1,14 @@
+S
+G
+actions
+Figure 8.5: A simple maze (inset) and the average learning curves for Dyna-Q
+agents varying in their number of planning steps (n) per real step. The task
+is to travel from S to G as quickly as possible.
+nonplanning agent took about 25 episodes to reach (ε-)optimal performance,
+whereas the n = 5 agent took about ﬁve episodes, and the n = 50 agent took
+only three episodes.
+Figure 8.6 shows why the planning agents found the solution so much faster
+than the nonplanning agent. Shown are the policies found by the n = 0 and
+n = 50 agents halfway through the second episode. Without planning (n = 0),
+each episode adds only one additional step to the policy, and so only one step
+(the last) has been learned so far. With planning, again only one step is learned

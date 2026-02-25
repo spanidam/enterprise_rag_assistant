@@ -1,0 +1,19 @@
+5:297–303.
+Mendel, J. M., McLaren, R. W. (1970). Reinforcement learning control and
+pattern recognition systems. In J. M. Mendel and K. S. Fu (eds.), Adap-
+tive, Learning and Pattern Recognition Systems: Theory and Applications,
+pp. 287–318. Academic Press, New York.
+Michie, D. (1961). Trial and error. In S. A. Barnett and A. McLaren (eds.),
+Science Survey, Part 2, pp. 129–145. Penguin, Harmondsworth.
+Michie, D. (1963).
+Experiments on the mechanisation of game learning. 1.
+characterization of the model and its parameters.
+Computer Journal,
+1:232–263.
+Michie, D. (1974).
+On Machine Intelligence.
+Edinburgh University Press,
+Edinburgh.
+Michie, D., Chambers, R. A. (1968).
+BOXES: An experiment in adaptive
+control. In E. Dale and D. Michie (eds.), Machine Intelligence 2, pp. 137–

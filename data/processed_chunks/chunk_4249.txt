@@ -1,0 +1,12 @@
+6.7
+Summary
+In this chapter we introduced a new kind of learning method, temporal-
+diﬀerence (TD) learning, and showed how it can be applied to the reinforce-
+ment learning problem. As usual, we divided the overall problem into a pre-
+diction problem and a control problem. TD methods are alternatives to Monte
+Carlo methods for solving the prediction problem. In both cases, the extension
+to the control problem is via the idea of generalized policy iteration (GPI) that
+we abstracted from dynamic programming. This is the idea that approximate
+policy and value functions should interact in such a way that they both move
+toward their optimal values.
+One of the two processes making up GPI drives the value function to accu-

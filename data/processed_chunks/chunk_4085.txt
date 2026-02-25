@@ -1,0 +1,10 @@
+ignore a few technical details, then the (worst case) time DP methods take to
+ﬁnd an optimal policy is polynomial in the number of states and actions. If n
+and m denote the number of states and actions, this means that a DP method
+takes a number of computational operations that is less than some polynomial
+function of n and m. A DP method is guaranteed to ﬁnd an optimal policy in
+polynomial time even though the total number of (deterministic) policies is mn.
+In this sense, DP is exponentially faster than any direct search in policy space
+could be, because direct search would have to exhaustively examine each policy
+to provide the same guarantee. Linear programming methods can also be used
+to solve MDPs, and in some cases their worst-case convergence guarantees are

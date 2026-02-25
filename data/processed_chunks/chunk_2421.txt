@@ -1,0 +1,11 @@
+increase for hypotheses remaining in the version space. 
+CHAPTER 6 BAYESIAN LEARNING 163 
+of the version space. However, by identifying distributions for P(h) and P(D(h) 
+under which its output hypotheses will be MAP hypotheses, we have a useful way 
+of characterizing the behavior of FIND-S. 
+Are there other probability distributions for P(h) and P(D1h) under which 
+FIND-S outputs MAP hypotheses? Yes. Because FIND-S outputs a maximally spe- 
+cz$c hypothesis from the version space, its output hypothesis will be a MAP 
+hypothesis relative to any prior probability distribution that favors more specific 
+hypotheses. More precisely, suppose 3-1 is any probability distribution P(h) over 
+H that assigns P(h1) 2 P(hz) if hl is more specific than h2. Then it can be shown

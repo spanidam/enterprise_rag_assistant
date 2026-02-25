@@ -1,0 +1,11 @@
+bindings of rule R that are still covered after adding literal L to R. When a new 
+variable is introduced into R by adding L, then any original binding is considered 
+to be covered so long as some binding extending it is present in the bindings 
+of R'. 
+This Foil-Gain function has a straightforward interpretation in terms of 
+information theory. According to information theory, - log2 --/& is the minimum 
+number of bits needed to encode the classification of an arbitrary positive binding 
+among the bindings covered by rule R. Similarly, -log2 A 
+is the number 
+of bits required if the binding is one of those covered by rule R'. Since t is 
+just the number of positive bindings covered by R that remain covered by R',

@@ -1,0 +1,10 @@
+and R. Uthurusamy (Eds.), Proceedings of the First International Conference on Knowledge 
+Discovery and Data Mining. Menlo Park, CA: AAAI Press. 
+Michie, D., Spiegelhalter, D. J., & Taylor, C. C. (1994). Machine learning, neural and statistical 
+classification, (edited collection). New York: Ellis Horwood. 
+Opper, M., & Haussler, D. (1991). Generalization performance of Bayes optimal prediction algorithm 
+for learning a perceptron. Physical Review Letters, 66, 2677-2681. 
+Pearl, J. (1988). Probabilistic reasoning in intelligent systems: Networks of plausible inference. San 
+Mateo, CA: Morgan-Kaufmann. 
+Pradham, M., & Dagum, P. (1996). Optimal Monte Carlo estimation of belief network inference. In 
+Proceedings of the Conference on Uncertainty in Artijicial Intelligence (pp. 44-53).

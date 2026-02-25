@@ -1,0 +1,9 @@
+avoid selecting attributes purely on this basis, we can adopt some heuristic such 
+as first calculating the Gain of each attribute, then applying the GainRatio test 
+only considering those attributes with above average Gain (Quinlan 1986). 
+An alternative to the GainRatio, designed to directly address the above 
+difficulty, is a distance-based measure introduced by Lopez de Mantaras (1991). 
+This measure is based on defining a distance metric between partitions of'the 
+data. Each attribute is evaluated based on the distance between the data partition 
+it creates and the perfect partition (i.e., the partition that perfectly classifies the 
+training data). The attribute whose partition is closest to the perfect partition is

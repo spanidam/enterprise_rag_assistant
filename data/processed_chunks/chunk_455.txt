@@ -1,0 +1,30 @@
+context, it is therefore important that one be able to compute these terms
+readily for an n-link robotic manipulator. In this section we derive formulas
+for the kinetic energy and potential energy of a rigid robot using the Denavit-
+Hartenberg joint variables as generalized coordinates.
+To begin we note that the kinetic energy of a rigid object is the sum of two
+terms: the translational energy obtained by concentrating the entire mass of
+the object at the center of mass, and the rotational kinetic energy of the body
+about the center of mass. Referring to Figure 6.4 we attach a coordinate frame
+at the center of mass (called the body attached frame) as shown. The kinetic
+r
+y
+c
+x
+c
+z
+c
+z
+0
+y
+0
+x
+0
+Fig. 6.4
+A General Rigid Body
+energy of the rigid body is then given as
+K
+=
+1
+2mvT v + 1
+2ωT Iω

@@ -1,0 +1,16 @@
+Englewood Cliﬀs, NJ.
+Hinton, G. E. (1984). Distributed representations. Technical Report CMU-
+CS-84-157. Department of Computer Science, Carnegie-Mellon University,
+Pittsburgh, PA.
+Hochreiter, S., Schmidhuber, J. (1997). LTSM can solve hard time lag prob-
+lems. In Advances in Neural Information Processing Systems: Proceedings
+of the 1996 Conference, pp. 473–479. MIT Press, Cambridge, MA.
+Holland, J. H. (1975). Adaptation in Natural and Artiﬁcial Systems. Univer-
+sity of Michigan Press, Ann Arbor.
+Holland, J. H. (1976).
+Adaptation.
+In R. Rosen and F. M. Snell (eds.),
+Progress in Theoretical Biology, vol. 4, pp. 263–293. Academic Press, New
+York.
+Holland, J. H. (1986). Escaping brittleness: The possibility of general-purpose
+learning algorithms applied to rule-based systems.

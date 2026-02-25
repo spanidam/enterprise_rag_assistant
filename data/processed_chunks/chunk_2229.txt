@@ -1,0 +1,12 @@
+in the training set for the other k - 1 experiments. On each experiment the above 
+cross-validation approach is used to determine the number of iterations i that yield 
+the best performance on the validation set. The mean i of these estimates for i 
+is then calculated, and a final run of BACKPROPAGATION 
+is performed training on 
+all n examples for i iterations, with no validation set. This procedure is closely 
+related to the procedure for comparing two learning methods based on limited 
+data, described in Chapter 5. 
+4.7 AN ILLUSTRATIVE EXAMPLE: FACE RECOGNITION 
+To illustrate some of the practical design choices involved in applying BACKPROPA- 
+GATION, 
+this section discusses applying it to a learning task involving face recogni-

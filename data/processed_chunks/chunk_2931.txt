@@ -1,0 +1,10 @@
+the more important process in arithmetic? But at the same time much difference in 
+difficulty may exist between a direct and inverse operation; . . . it must be allowed 
+that inductive investigations are of a far higher degree of difficulty and complexity 
+than any questions of deduction.. . . (Jevons 1874) 
+In the remainder of this chapter we will explore this view of induction 
+as the inverse of deduction. The general issue we will be interested in here is 
+designing inverse entailment operators. An inverse entailment operator, O(B, D) 
+takes the training data D = {(xi, f (xi))} and background knowledge B as input 
+and produces as output a hypothesis h satisfying Equation (10.2). 
+O(B, D) = h such that (V(xi, f (xi)) E D) (B ~h A xi) F f (xi)

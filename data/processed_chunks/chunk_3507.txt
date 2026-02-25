@@ -1,0 +1,13 @@
+example, in the original BERT paper [24], the model was fine-
+tuned to 11 different tasks. While more recent LLMs no longer
+require fine-tuning to be used, they can still benefit from task
+or data-specific fine-tuning. For example, OpenAI reports that
+the much smaller GPT-3.5 Turbo model can outperform GPT-4
+when fine-tuned with task specific data 2.
+Fine-tuning does not need to be performed to a single
+task though, and there are different approaches to multi-task
+fine-tuning (see e.g. Mahabi et al. [132]). Fine-tuning to one
+or more tasks is known to improve results and reduce the
+complexity of prompt engineering, and it can serve as an
+alternative to retrieval augmented generation. Furthermore,
+there are other reasons why it might be advisable to fine-tune.

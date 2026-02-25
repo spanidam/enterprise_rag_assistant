@@ -1,0 +1,78 @@
+William Marsh Rice University 
+CONTENTS
+Preface
+1
+Statements
+7
+1
+Introduction
+7
+1.1 Background
+8
+1.2 Input/output
+10
+1.3 Variables
+14
+1.4 String basics
+16
+1.5 Number basics
+20
+1.6 Error messages
+24
+1.7 Comments
+27
+1.8 Why Python?
+31
+1.9 Chapter summary
+34
+Expressions
+39
+2
+Introduction
+39
+2.1 The Python shell
+40
+2.2 Type conversion
+42
+2.3 Mixed data types
+45
+2.4 Floating-point errors
+48
+2.5 Dividing integers
+51
+2.6 The math module
+54
+2.7 Formatting code
+60
+2.8 Python careers
+65
+2.9 Chapter summary
+67
+Objects
+71
+3
+Introduction
+71
+3.1 Strings revisited
+71
+3.2 Formatted strings
+76
+3.3 Variables revisited
+79
+3.4 List basics
+83
+3.5 Tuple basics
+85
+3.6 Chapter summary
+88
+Decisions
+91
+4
+Introduction
+91
+4.1 Boolean values
+91
+4.2 If-else statements
+96
+4.3 Boolean operations
+100

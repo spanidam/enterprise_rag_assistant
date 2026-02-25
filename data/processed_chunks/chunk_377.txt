@@ -1,0 +1,14 @@
+is stuck in a local minimum and deﬁning the random walk. Typically, a heuristic
+is used to recognize a local minimum.
+For example, if several successive qi
+lie within a small region of the conﬁguration space, it is likely that there is a
+nearby local minimum (e.g., if for some small positive ϵ we have ∥qi −qi+1∥< ϵ,
+∥qi −qi+2∥< ϵ, and ∥qi −qi+3∥< ϵ then assume qi is near a local minimum).
+Deﬁning the random walk requires a bit more care. The original approach
+used in RPP is as follows. The random walk consists of t random steps. A
+random step from q = (q1, · · · qn) is obtained by randomly adding a small ﬁxed
+constant to each qi,
+qrandom−step = (q1 ± v1, · · · qn ± vn)
+PROBABILISTIC ROADMAP METHODS
+167
+with vi a ﬁxed small constant and the probability of adding +vi or −vi equal to

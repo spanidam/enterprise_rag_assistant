@@ -1,0 +1,24 @@
+easier than ﬁnding all the roots of the characteristic polynomial and, for large
+systems, is more eﬃcient than, say, the Routh test.
+The strict inequality in (C.7) may be diﬃcult to obtain for a given system
+and Lyapunov function candidate.
+We therefore discuss LaSalle’s Theorem
+which can be used to prove asymptotic stability even when V is only negative
+semi-deﬁnite.
+C.0.4
+LaSalle’s Theorem
+Given the system (C.1) suppose a Lyapunov function candidate V is found such
+that, along solution trajectories
+˙V
+≤0.
+(C.16)
+Then (C.1) is asymptotically stable if V does not vanish identically along any
+solution of (C.1) other than the null solution, that is, (C.1) is asymptotically
+stable if the only solution of (C.1) satisfying
+˙V
+≡
+0
+(C.17)
+is the null solution.
+Appendix D
+State Space Theory of

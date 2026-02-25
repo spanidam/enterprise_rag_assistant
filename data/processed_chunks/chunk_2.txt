@@ -1,0 +1,72 @@
+49
+2.5.3
+Axis/Angle Representation
+50
+2.6
+Rigid Motions
+53
+2.7
+Homogeneous Transformations
+54
+2.8
+Chapter Summary
+57
+3
+FORWARD AND INVERSE KINEMATICS
+65
+3.1
+Kinematic Chains
+65
+3.2
+Forward Kinematics: The Denavit-Hartenberg
+Convention
+68
+3.2.1
+Existence and uniqueness issues
+69
+3.2.2
+Assigning the coordinate frames
+72
+3.2.3
+Examples
+75
+3.3
+Inverse Kinematics
+85
+3.3.1
+The General Inverse Kinematics Problem
+85
+3.3.2
+Kinematic Decoupling
+87
+3.3.3
+Inverse Position: A Geometric Approach
+89
+3.3.4
+Inverse Orientation
+97
+3.3.5
+Examples
+98
+CONTENTS
+v
+3.4
+Chapter Summary
+100
+3.5
+Notes and References
+102
+Problems
+103
+4
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN113
+4.1
+Angular Velocity: The Fixed Axis Case
+114
+4.2
+Skew Symmetric Matrices
+115
+4.2.1
+Properties of Skew Symmetric Matrices
+116
+4.2.2

@@ -1,0 +1,11 @@
+Shumeet Baluja, Andrew Banas, Andy Barto, Jim Blackson, Justin Boyan, 
+Rich Caruana, Philip Chan, Jonathan Cheyer, Lonnie Chrisman, Dayne Frei- 
+tag, Geoff Gordon, Warren Greiff, Alexander Harm, Tom Ioerger, Thorsten 
+PREFACE xvii 
+Joachim, Atsushi Kawamura, Martina Klose, Sven Koenig, Jay Modi, An- 
+drew Ng, Joseph O'Sullivan, Patrawadee Prasangsit, Doina Precup, Bob 
+Price, Choon Quek, Sean Slattery, Belinda Thom, Astro Teller, Will Tracz 
+I would like to thank Joan Mitchell for creating the index for the book. I 
+also would like to thank Jean Harpley for help in editing many of the figures. 
+Jane Loftus from ETP Harrison improved the presentation significantly through 
+her copyediting of the manuscript and generally helped usher the manuscript

@@ -1,0 +1,11 @@
+guishing feature of on-policy methods is that they estimate the value of a
+policy while using it for control. In oﬀ-policy methods these two functions are
+separated. The policy used to generate behavior, called the behavior policy,
+may in fact be unrelated to the policy that is evaluated and improved, called
+the target policy. An advantage of this separation is that the target policy
+may be deterministic (e.g., greedy), while the behavior policy can continue to
+sample all possible actions.
+Oﬀ-policy Monte Carlo control methods use one of the techniques presented
+in the preceding two sections. They follow the behavior policy while learning
+about and improving the target policy. These techniques requires that the
+behavior policy has a nonzero probability of selecting all actions that might

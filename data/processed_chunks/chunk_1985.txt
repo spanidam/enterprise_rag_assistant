@@ -1,0 +1,10 @@
+as well as the related notion of 8-subsumption (discussed in Chapter 10). Simon 
+and Lea (1973) give an early account of learning as search through a hypothesis 
+CHAFTER 2 CONCEPT LEARNING AND THE GENERALTO-SPECIFIC ORDEIUNG 47 
+space. Other early concept learning systems include (Popplestone 1969; Michal- 
+ski 1973; Buchanan 1974; Vere 1975; Hayes-Roth 1974). A very large number 
+of algorithms have since been developed for concept learning based on symbolic 
+representations. Chapter 10 describes several more recent algorithms for con- 
+cept learning, including algorithms that learn concepts represented in first-order 
+logic, algorithms that are robust to noisy training data, and algorithms whose 
+performance degrades gracefully if the target concept is not representable in the

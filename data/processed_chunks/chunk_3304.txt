@@ -1,0 +1,12 @@
+a )  to 
+produce the new updated value. Notice that the value of a, in Equation (13.11) 
+decreases as n increases, so that updates become smaller as training progresses. 
+By reducing a at an appropriate rate during training, we can achieve convergence 
+to the correct Q function. The choice of a, given above is one of many that 
+satisfy the conditions for convergence, according to the following theorem due to 
+Watkins and Dayan (1992). 
+Theorem 13.2. Convergence of Q learning for nondeterministic Markov de- 
+cision processes. Consider a Q learning agent in a nondeterministic MDP with 
+bounded rewards (Vs, a)lr(s, a)l 5 c. The Q learning agent uses the training rule of 
+Equation (13.10), initializes its table ~ ( s ,  
+a )  to arbitrary finite values, and uses a

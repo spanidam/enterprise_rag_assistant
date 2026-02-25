@@ -1,0 +1,24 @@
+with comma separated values within the square brackets. Ex: list_1 = [1, 2, 4].
+Empty lists can be defined in two ways:
+•
+list_1 = []
+•
+list_1 = list()
+Lists can be made of elements of any type. Lists can contain integers, strings, floats, or any other type. Lists
+can also contain a combination of types. Ex: [2, "Hello", 2.5] is a valid list.
+Python lists allow programmers to change the contents of the list in various ways.
+CHECKPOINT
+Lists
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/3-4-list-
+basics)
+CONCEPTS IN PRACTICE
+Lists
+1. Which is the correct way to make a list of the numbers 3, 4, and 5?
+a.
+new_list == [3, 4, 5]
+b.
+new_list = [3, 4, 5]
+c.
+new_list = (3, 4, 5)
+3.4 • List basics
+83

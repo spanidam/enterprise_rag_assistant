@@ -1,0 +1,11 @@
+above approximation works well when 
+Above we summarized the procedure for calculating confidence intervals for 
+discrete-valued hypotheses. The following section presents the underlying statis- 
+tical justification for this procedure. 
+5.3 BASICS OF SAMPLING THEORY 
+This section introduces basic notions from statistics and sampling theory, in- 
+cluding probability distributions, expected value, variance, Binomial and Normal 
+distributions, and two-sided and one-sided intervals. A basic familiarity with these 
+a A random variable can be viewed as the name of an experiment with a probabilistic outcome. Its 
+value is the outcome of the experiment. 
+A probability distribution for a random variable Y specifies the probability Pr(Y = yi) that Y will

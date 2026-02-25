@@ -1,0 +1,11 @@
+it is certain that the CANDIDATE-ELIMINATION 
+algorithm will rnisclassify at least 
+some instances from X. 
+Because inductive learning requires some form of prior assumptions, or 
+inductive bias, we will find it useful to characterize different learning approaches 
+by the inductive biast they employ. Let us define this notion of inductive bias 
+more precisely. The key idea we wish to capture here is the policy by which the 
+learner generalizes beyond the observed training data, to infer the classification 
+of new instances. Therefore, consider the general setting in which an arbitrary 
+learning algorithm L is provided an arbitrary set of training data D, = {(x, c(x))} 
+of some arbitrary target concept c. After training, L is asked to classify a new

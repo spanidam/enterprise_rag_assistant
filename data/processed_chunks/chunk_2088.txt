@@ -1,0 +1,12 @@
+Because of this, it will have a very high information gain relative to the training 
+examples, despite being a very poor predictor of the target function over unseen 
+instances. 
+One way to avoid this difficulty is to select decision attributes based on some 
+measure other than information gain. One alternative measure that has been used 
+successfully is the gain ratio (Quinlan 1986). The gain ratio measure penalizes 
+attributes such as Date by incorporating a term, called split informution, that is 
+sensitive to how broadly and uniformly the attribute splits the data: 
+74 
+MACHINE LEARNING 
+where S1 through S, are the c subsets of examples resulting from partitioning S 
+by the c-valued attribute A. Note that Splitlnfomzation is actually the entropy of

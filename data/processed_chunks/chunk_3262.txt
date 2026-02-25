@@ -1,0 +1,13 @@
+environment, the only action available to the agent once it enters the state G is 
+to remain in this state. For this reason, we call G an absorbing state. 
+Once the states, actions, and immediate rewards are defined, and once we 
+choose a value for the discount factor y, we can determine the optimal policy n* 
+and its value function V*(s). In this case, let us choose y = 0.9. The diagram 
+at the bottom of the figure shows one optimal policy for this setting (there are 
+others as well). Like any policy, this policy specifies exactly one action that the 
+r (s, a) (immediate reward) values 
+Q(s, a) values 
+V*(s) values 
+One optimal policy 
+FIGURE 13.2 
+A simple deterministic world to illustrate the basic concepts of Q-learning. Each grid square represents

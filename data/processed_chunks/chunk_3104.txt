@@ -1,0 +1,11 @@
+In S. Hanson et al. (Eds.), Advances in neural infomtionprocessing systems 5 (pp. 287-2941. 
+San Mateo, CA: Morgan-Kaufmann Press. 
+CHAF'TER 
+11 ANALYTICAL LEARNING 333 
+Newell, A. (1990). Unified theories of cognition. Cambridge, MA: Harvard University Press. 
+Qin, Y., Mitchell, T., & Simon, H. (1992). Using explanation-based generalization to simulate hu- 
+man learning from examples and learning by doing. Proceedings of the Florida A1 Research 
+Symposium (pp. 235-239). 
+Ram, A., & Leake, D. B. (Eds.). (1995). Goal-driven learning. Cambridge, MA: MIT Press. 
+Rosenblwm, P., & Laird, J. (1986). Mapping explanation-based generalization onto SOAR. Fifih 
+National Conference on Artificial Intelligence (pp. 561-567). AAAI Press.

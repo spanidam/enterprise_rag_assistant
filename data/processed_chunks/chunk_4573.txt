@@ -1,0 +1,10 @@
+path to a win. Samuel gave it a “a sense of direction” by decreasing a position’s
+value a small amount each time it was backed up a level (called a ply) during
+the minimax analysis. “If the program is now faced with a choice of board
+positions whose scores diﬀer only by the ply number, it will automatically
+make the most advantageous choice, choosing a low-ply alternative if winning
+and a high-ply alternative if losing” (Samuel, 1959, p. 80). Samuel found this
+discounting-like technique essential to successful learning. Rote learning pro-
+duced slow but continuous improvement that was most eﬀective for opening
+and endgame play. His program became a “better-than-average novice” after
+learning from many games against itself, a variety of human opponents, and

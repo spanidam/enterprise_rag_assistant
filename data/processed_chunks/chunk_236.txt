@@ -1,0 +1,17 @@
+NOTES AND REFERENCES
+103
+Problems
+1. Verify the statement after Equation (3.14) that the rotation matrix R has
+the form (3.13) provided assumptions DH1 and DH2 are satisﬁed.
+2. Consider the three-link planar manipulator shown in Figure 3.23. Derive
+Fig. 3.23
+Three-link planar arm of Problem 3-2
+the forward kinematic equations using the DH-convention.
+3. Consider the two-link cartesian manipulator of Figure 3.24. Derive the
+Fig. 3.24
+Two-link cartesian robot of Problem 3-3
+forward kinematic equations using the DH-convention.
+4. Consider the two-link manipulator of Figure 3.25 which has joint 1 revo-
+lute and joint 2 prismatic. Derive the forward kinematic equations using
+the DH-convention.
+5. Consider the three-link planar manipulator of Figure 3.26 Derive the for-

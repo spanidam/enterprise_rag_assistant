@@ -1,0 +1,16 @@
+𝐶𝑡= 𝑓𝑡⊙𝐶𝑡−1 + 𝑖𝑡⊙
+̃
+𝐶𝑡
+(7.8)
+where 𝑓𝑡is the forget gate (which pushes the network to forget about useless parts of the past cell state), 𝑖𝑡is the input
+gate and
+̃
+𝐶𝑡is an updated version of the cell state (which, in turn, can be partly censored by the input gate).
+7.2. Long Short-Term Memory
+43
+Deep Learning Basics (lecture notes)
+Let us delay for now the details about how these 3 terms are computed, and rather focus on how the formula above is
+significantly different from the update rule of the hidden state in vanilla RNNs. Indeed, in this case, if the network learns
+so (through 𝑓𝑡), the full information from the previous cell state 𝐶𝑡−1 can be recovered, which would allow gradients to
+flow through time (and not vanish anymore).
+Then, the link between the cell and hidden states is:

@@ -1,0 +1,14 @@
+than N-Grams would be used. However, metrics such as BERT-
+Score are also good for these cases but they are also heavily
+erroneous because another model is used to judge. Still, even
+today, evaluating purely generated content is very hard and
+no completely fitting metric is not found, metrics are either
+looking for simplistic features such as N-Gram, SkipGram,
+etc, or they are models with unknown accuracy and preciseness
+[204].
+Generative evaluation metrics are also another type of eval-
+uation metric for LLMs that use another LLM for evaluating
+the answer. However, depending on the task itself, evaluation
+can be possible in this way or not. Another dependency
+that makes generative evaluation error-prone is reliance on
+the prompt itself. RAGAS is one of the good examples that

@@ -1,0 +1,9 @@
+5. b. The code point for the character "0" is 48.
+6. b. Tilde (~) is the character for code point 126. The chr() function returns a string of length one.
+7. c. An escape sequence is two characters long and begins with a backslash (\).
+8. c. The first backslash indicates an escape sequence, and the second backslash indicates the character.
+9. c. The escape sequence \n produces a new line. print("Enter\nhere") produces the same result.
+3.2 Formatted strings
+1. b. The same variable, says, is used in three replacement fields.
+2. a. The string is not an f-string, so the brace characters (around temp and food) are printed literally.
+3. c. Using an f-string allows the entire output to be specified without commas and extra quote marks.

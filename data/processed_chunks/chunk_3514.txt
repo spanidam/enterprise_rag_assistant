@@ -1,0 +1,13 @@
+use in the real world than preference optimization methods, as
+the kind of data it needs is far more abundant. As an example,
+3According to very recent research by Ethayarajh et al. [136], further
+alignment besides SFT mainly improves models of at least 7B parameters.
+For smaller models, SFT is sufficient.
+Fig. 30: DPO optimizes for human preferences while avoiding
+reinforcement learning. Existing methods for fine-tuning lan-
+guage models with human feedback first fit a reward model
+to a dataset of prompts and human preferences over pairs of
+responses, and then use RL to find a policy that maximizes
+the learned reward. In contrast, DPO directly optimizes for
+the policy best satisfying the preferences with a simple classi-
+fication objective, without an explicit reward function or RL.

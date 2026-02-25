@@ -1,0 +1,39 @@
+. . . .  . . . . . . . . . . . . . . . . . . . . .  
+- 
+.-.. ......."... ..... - _  
+.._ -_ 
+. -. 
+-- _ _ _ 
+_ _ _ 
+_ 
+...... 
+......................................... 1 
+110 
+MACHINE LEARNING 
+Error versus weight updates (example 1) 
+Validation set error 
+0.008 
+0.007 
+0 
+5000 
+loo00 
+15000 
+20000 
+Number of weight updates 
+0 
+lo00 
+2000 
+3000 
+4000 
+5000 
+6000 
+Number of weight updates 
+Error versus weight updates (example 2) 
+0.08 %** 
+I 
+r 
+8 
+FIGURE 4.9 
+Plots of error E as a function of the number of weight updates, for two different robot perception 
+tasks. In both learning cases, error E over the training examples decreases monotonically, as gradient 
+descent minimizes this measure of error. Error over the separate "validation" set of examples typically

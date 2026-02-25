@@ -1,0 +1,16 @@
+object that can be iterated, such as a list or string.
+EXAMPLE 9.5
+Creating a new list with a list comprehension
+A list comprehension shown below in the second code has the same effect as the regular for loop shown in
+the first code. The resultant list is [0, 1, 4, 9, 16, 25, 36, 49, 64, 81] in both cases.
+Creating a list of squares using a for loop.
+# Create an empty List.
+squares_list = []
+# Add items to a list, as squares of numbers starting at 0 and ending at 9.
+for i in range(10):
+squares_list.append(i*i)
+Creating a list of squares using the list comprehension.
+square_list = [i*i for i in range(10)]
+The expression i*i is applied for each value of the loop_variable i.
+EXAMPLE 9.6
+A Dr. Seuss poem

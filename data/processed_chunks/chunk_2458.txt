@@ -1,0 +1,13 @@
+plus the description length of the data given the hypothesis. 
+where CH and CDlh are the optimal encodings for H and for D given h, 
+respectively. 
+The Minimum Description Length (MDL) principle recommends choosing 
+the hypothesis that minimizes the sum of these two description lengths. Of course 
+to apply this principle in practice we must choose specific encodings or represen- 
+tations appropriate for the given learning task. Assuming we use the codes C1 and 
+CZ to represent the hypothesis and the data given the hypothesis, we can state the 
+MDL principle as 
+1' I 
+Minimum Description Length principle: Choose hMDL where 
+The above analysis shows that if we choose C1 to be the optimal encoding 
+of hypotheses CH, and if we choose C2 to be the optimal encoding CDlh, then

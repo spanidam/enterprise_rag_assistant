@@ -1,0 +1,10 @@
+1977). The regression procedure operates on a domain theory represented by an 
+arbitrary set of Horn clauses. It works iteratively backward through the explana- 
+tion, first computing the weakest preimage of the target concept with respect to 
+the final proof step in the explanation, then computing the weakest preimage of 
+the resulting expressions with respect to the preceding step, and so on. The pro- 
+cedure terminates when it has iterated over all steps :in the explanation, yielding 
+the weakest precondition of the target concept with respect to the literals at the 
+leaf nodes of the explanation. 
+A trace of this regression process is illustrated in Figure 11.3. In this fig- 
+ure, the explanation from Figure 11.2 is redrawn in standard (nonitalic) font. The

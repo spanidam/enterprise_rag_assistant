@@ -1,0 +1,10 @@
+described by the conjunction of up to three boolean literals. What is VC(H)? We 
+FIGURE 7.4 
+The VC dimension for linear decision surfaces in the x ,  y plane is 3. (a) A set of three points that 
+can be shattered using linear decision surfaces. (b) A set of three that cannot be shattered. 
+can show that it is at least 3, as follows. Represent each instance by a 3-bit string 
+corresponding to the values of each of its three literals 11, 12, and 13. Consider the 
+following set of three instances: 
+This set of three instances can be shattered by H, because a hypothesis 
+can be constructed for any desired dichotomy as follows: If the dichotomy is to 
+exclude instancei, add the literal -li to the hypothesis. For example, suppose we

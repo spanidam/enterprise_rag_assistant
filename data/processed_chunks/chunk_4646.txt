@@ -1,0 +1,33 @@
+algorithms that needed many fewer repairs to ﬁnd conﬂict-free schedules of the
+300
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+1.15
+1.2
+1.25
+1.3
+1.35
+1.4
+1.45
+1.5
+1024
+2048
+4096
+8192
+16384
+32768
+65536
+131072
+262144
+RDF
+Accepted Repairs
+G12TDN
+G12N
+IR-RDF
+IR-V
+Figure 14.11: Comparison of accepted schedule repairs. Reprinted with per-
+mission from Zhang and Dietterich, 1996.
+same quality as those found by the iterative repair algorithms. Figure 14.12
+compares the computer time required by each scheduling algorithm to ﬁnd
+schedules of various RDFs. According to this measure of performance, the
+best trade-oﬀbetween computer time and schedule quality is produced by
+the non-TDNN algorithm (G12N). The TDNN algorithm (G12TDN) suﬀered

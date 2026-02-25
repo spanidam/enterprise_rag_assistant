@@ -1,0 +1,113 @@
+84.3
+49.7
+MathCoder-L-70B
+83.9
+-
+MetaMath 70B
+82.3
+26
+MuggleMATH 70B
+82.3
+-
+MathCoder-CL-34B
+81.7
+45.2
+ToRA-Code 34B
+80.7
+50.8
+MetaMath-Mistral-7B
+77.7
+-
+Arithmo2-Mistral-7B
+76.4
+-
+ToRA-Code 13B
+75.8
+48.1
+Arithmo-Mistral-7B
+74.7
+-
+MathCoder-CL-13B
+74.1
+35.9
+MuggleMATH 13B
+74
+-
+CodeT5+
+73.8
+-
+KwaiYiiMath 13B
+73.3
+-
+ToRA-Code 7B
+72.6
+44.6
+MathCoder-L-13B
+72.6
+29.9
+MetaMath 13B
+71
+22.5
+LLaMA 65B
+69.7
+10.6
+MuggleMATH 7B
+68.4
+-
+MathCoder-CL-7B
+67.8
+23.3
+MetaMath 7B
+66.4
+19.4
+RFT 70B
+64.8
+-
+MathCoder-L-7B
+64.2
+-
+Orca 2-13B
+59.14
+-
+U-PaLM
+58.5
+-
+PaLM-540B
+58.1
+8.8
+LLaMA 2 70B
+56.8
+-
+RFT 13B
+55.3
+-
+LLaMA 33B
+53.1
+7.1
+Mistral 7B
+52.2
+13.1
+RFT 7B
+51.2
+-
+LLaMA 65B
+50.9
+20.5
+Orca 2-7B
+47.23
+-
+Text-davinci-002
+40.7
+19.1
+LLaMA 33B
+35.6
+3.9
+GPT-Neo-2.7B
+19.5
+-
+LLaMA 7B
+18.1
+2.9
+PaLM 540B
+17.9
+8.8

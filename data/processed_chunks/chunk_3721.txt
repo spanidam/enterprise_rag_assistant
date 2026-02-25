@@ -1,0 +1,11 @@
+closer inspection, though, we found that it had been explored only slightly.
+While reinforcement learning had clearly motivated some of the earliest com-
+putational studies of learning, most of these researchers had gone on to other
+things, such as pattern classiﬁcation, supervised learning, and adaptive con-
+trol, or they had abandoned the study of learning altogether. As a result, the
+special issues involved in learning how to get something from the environment
+received relatively little attention. In retrospect, focusing on this idea was
+the critical step that set this branch of research in motion. Little progress
+could be made in the computational study of reinforcement learning until it
+was recognized that such a fundamental idea had not yet been thoroughly
+explored.

@@ -1,0 +1,11 @@
+require that the agent learn a policy n that maximizes V"(s) for all states s. 
+We will call such a policy an optimal policy and denote it by T*. 
+n* r argmax V" (s), (Vs) 
+X 
+To simplify notation, we will refer to the value function v"*(s) of such an optimal 
+policy as V*(s). V*(s) gives the maximum discounted cumulative reward that the 
+agent can obtain starting from state s; that is, the discounted cumulative reward 
+obtained by following the optimal policy beginning at state s. 
+To illustrate these concepts, a simple grid-world environment is depicted 
+in the topmost diagram of Figure 13.2. The six grid squares in this diagram 
+represent six possible states, or locations, for the agent. Each arrow in the diagram

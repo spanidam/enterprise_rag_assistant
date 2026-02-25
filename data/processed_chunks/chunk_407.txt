@@ -1,0 +1,56 @@
+ad = 2*a(3).*c + 6*a(4).*t +12*a(5).*t.^2 +20*a(6).*t.^3;
+Fig. 5.14
+Matlab code to generate coeﬃcients for quintic trajectory segment
+TRAJECTORY PLANNING
+179
+0
+0.5
+1
+1.5
+2
+0
+5
+10
+15
+20
+Time (sec) 
+Position (deg) 
+0
+0.5
+1
+1.5
+2
+0
+5
+10
+15
+20
+25
+30
+35
+40
+Time (sec)
+Velocity (deg/sec)
+0
+0.5
+1
+1.5
+2
+−60
+−40
+−20
+0
+20
+40
+60
+Time (sec)
+Acceleration (deg/sec2)
+(a)
+(b)
+(c)
+Fig. 5.15
+(a) Quintic Polynomial Trajectory. (b) Velocity Proﬁle for Quintic Polyno-
+mial Trajectory. (c) Acceleration Proﬁle for Quintic Polynomial Trajectory
+and then “ramped down” when it approaches the goal position. To achieve this
+we specify the desired trajectory in three parts. The ﬁrst part from time t0 to
+time tb is a quadratic polynomial. This results in a linear “ramp” velocity. At

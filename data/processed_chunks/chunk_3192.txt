@@ -1,0 +1,11 @@
+whereas the rightmost term contributes the analytical constraint that it must fit 
+the training derivatives extracted from the domain theory. Notice the derivative 
+in Equation (12.2) is just a special case of the expression af(sfz") 
+of Equa- 
+tion (12.1), for which sj(a, xi) is the transformation that replaces x! 
+by x/ + a. 
+The precise weight-training rule used by EBNN is described by Thrun (1996). 
+The relative importance of the inductive and analytical learning components 
+is determined in EBNN by the constant pi, defined in Equation (12.3). The value 
+of pi is determined by the discrepancy between the domain theory prediction 
+A(xi) and the training value f (xi). The analytical component of learning is thus

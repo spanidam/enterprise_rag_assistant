@@ -1,0 +1,46 @@
+w(0)
+w(1)
+w(2)
+22
+Chapter 4. Optimization
+Deep Learning Basics (lecture notes)
+and let us recall that, at a given layer (ℓ), the layer output is computed as
+𝑎(ℓ) = 𝜑(𝑜(ℓ)) = 𝜑(𝑤(ℓ−1)𝑎(ℓ−1))
+where 𝜑is the activation function for the given layer (we ignore the bias terms in this simplified example).
+In order to perform (stochastic) gradient descent, gradients of the loss with respect to model parameters need to be
+computed.
+By using the chain rule, these gradients can be expressed as:
+𝜕ℒ
+𝜕𝑤(2) = 𝜕ℒ
+𝜕𝑎(3)
+𝜕𝑎(3)
+𝜕𝑜(3)
+𝜕𝑜(3)
+𝜕𝑤(2)
+𝜕ℒ
+𝜕𝑤(1) = 𝜕ℒ
+𝜕𝑎(3)
+𝜕𝑎(3)
+𝜕𝑜(3)
+𝜕𝑜(3)
+𝜕𝑎(2)
+𝜕𝑎(2)
+𝜕𝑜(2)
+𝜕𝑜(2)
+𝜕𝑤(1)
+𝜕ℒ
+𝜕𝑤(0) = 𝜕ℒ
+𝜕𝑎(3)
+𝜕𝑎(3)
+𝜕𝑜(3)
+𝜕𝑜(3)
+𝜕𝑎(2)
+𝜕𝑎(2)
+𝜕𝑜(2)
+𝜕𝑜(2)
+𝜕𝑎(1)
+𝜕𝑎(1)
+𝜕𝑜(1)
+𝜕𝑜(1)
+𝜕𝑤(0)
+There are important insights to grasp here.

@@ -1,0 +1,11 @@
+Machine Learning, 3, 225-245. 
+Grefenstette, J. J. (1991). Lamarckian learning in multi-agent environments. In R. Belew and L. 
+Booker (Eds.), Proceedings of the Fourth International Conference on Genetic Algorithms. 
+San Mateo, CA: Morgan Kaufmann. 
+Hart, W., & Belew, R. (1995). Optimization with genetic algorithm hybrids that use local search. In 
+R. Below and M. Mitchell (Eds.), Adaptive individuals in evolving populations: Models and 
+algorithms. Reading, MA: Addison-Wesley. 
+Harvey, I. (1993). The puzzle of the persistent question marks: A case study of genetic drift. In 
+Forrest (Ed.), Proceedings of the Fzfth International Conference on Genetic Algorithms. San 
+Mateo, CA: Morgan Kaufmann. 
+Hinton, G. &, & Nowlan, S. J. (1987). How learning can guide evolution. Complex Systems, 1,

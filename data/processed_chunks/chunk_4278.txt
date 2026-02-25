@@ -1,0 +1,23 @@
+max
+s
+Eπ
+
+Gt+n
+t
+(v(St+n))
+ St =s
+
+−vπ(s)
+ ≤γn max
+s
+|v(s) −vπ(s)| , (7.5)
+for all n ≥1. This is called the error reduction property of n-step returns.
+Because of the error reduction property, one can show formally that on-line and
+oﬀ-line TD prediction methods using n-step backups converge to the correct
+predictions under appropriate technical conditions. The n-step TD methods
+thus form a family of valid methods, with one-step TD methods and Monte
+Carlo methods as extreme members.
+Nevertheless, n-step TD methods are rarely used because they are incon-
+venient to implement. Computing n-step returns requires waiting n steps to
+observe the resultant rewards and states. For large n, this can become prob-
+lematic, particularly in control applications. The signiﬁcance of n-step TD

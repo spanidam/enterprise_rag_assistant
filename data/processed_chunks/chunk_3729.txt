@@ -1,0 +1,11 @@
+supervised learning method, but it can be read without prior background. We
+strongly recommend working the exercises provided throughout the book. So-
+lution manuals are available to instructors. This and other related and timely
+material is available via the Internet.
+At the end of most chapters is a section entitled “Bibliographical and His-
+torical Remarks,” wherein we credit the sources of the ideas presented in that
+chapter, provide pointers to further reading and ongoing research, and describe
+relevant historical background. Despite our attempts to make these sections
+authoritative and complete, we have undoubtedly left out some important
+prior work. For that we apologize, and welcome corrections and extensions for
+incorporation into a subsequent edition.

@@ -1,0 +1,18 @@
+∼imikolov/rnnlm/
+[43]
+S. Minaee, N. Kalchbrenner, E. Cambria, N. Nikzad, M. Chenaghlu,
+and J. Gao, “Deep learning–based text classification: a comprehensive
+review,” ACM computing surveys (CSUR), vol. 54, no. 3, pp. 1–40,
+2021.
+[44]
+A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N.
+Gomez, L. Kaiser, and I. Polosukhin, “Attention is all you need,”
+Advances in neural information processing systems, vol. 30, 2017.
+[45]
+Z. Lan, M. Chen, S. Goodman, K. Gimpel, P. Sharma, and R. Soricut,
+“Albert: A lite bert for self-supervised learning of language represen-
+tations,” arXiv preprint arXiv:1909.11942, 2019.
+[46]
+K. Clark, M.-T. Luong, Q. V. Le, and C. D. Manning, “Electra: Pre-
+training text encoders as discriminators rather than generators,” arXiv
+preprint arXiv:2003.10555, 2020.

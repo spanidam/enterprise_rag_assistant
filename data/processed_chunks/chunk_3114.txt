@@ -1,0 +1,14 @@
+Analytical learning 
+plentiful data 
+No prior knowledge 
+Perfect priorknowledge 
+Scarce data 
+FIGURE 12.1 
+A spectrum of learning tasks. At the left extreme, no prior knowledge is available, and purely 
+inductive learning methods with high sample complexity are therefore necessary. At the rightmost 
+extreme, a perfect domain theory is available, enabling the use of purely analytical methods such as 
+PROLOG-EBG. 
+Most practical problems lie somewhere between these two extremes. 
+of training data is available, but no prior knowledge. At the other extreme, strong 
+prior knowledge is available, but little training data. Most practical learning prob- 
+lems lie somewhere between these two extremes of the spectrum. For example, in

@@ -1,0 +1,20 @@
+regular polygon enclosed by the feature points. If we denote the area of the
+polygon by σ2, we determine vz as
+vz = γvz ln(σd
+σ )
+(12.30)
+PARTITIONED APPROACHES
+371
+TO APPEAR
+Fig. 12.3
+Feature used to determine vz.
+TO APPEAR
+Fig. 12.4
+Proposed partitioned IBVS for pure target rotation (πrad). (a) Image-plane
+feature motion (initial location is ◦, desired location is •), (b) Feature error trajectory,
+(c) Cartesian translation trajectory.
+The advantages of this approach are that (1) it is a scalar; (2) it is rotation
+invariant thus decoupling camera rotation from Z-axis translation. (3) it can
+be cheaply computed.
+Figure 12.4 shows the performance of the proposed partitioned controller for
+the case of desired rotation by π about the optic axis. The important features

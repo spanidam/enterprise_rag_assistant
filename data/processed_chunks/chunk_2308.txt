@@ -1,0 +1,16 @@
+target function f and data sample S is 
+Where n is the number of examples in S, and the quantity S(f (x), h(x)) is 1 if 
+f (x) # h(x), and 0 otherwise. 
+The true error of a hypothesis is the probability that it will misclassify a 
+single randomly drawn instance from the distribution D. 
+Definition: The true error (denoted errorv(h)) of hypothesis h with respect to target 
+function f and distribution D, 
+is the probability that h will misclassify an instance 
+drawn at random according to D. 
+errorv (h) = Pr [ f (x) # h(x)] 
+X E D  
+Here the notation Pr denotes that the probability is taken over the instance 
+XGV 
+distribution V. 
+What we usually wish to know is the true error errorv(h) of the hypothesis, 
+because this is the error we can expect when applying the hypothesis to future

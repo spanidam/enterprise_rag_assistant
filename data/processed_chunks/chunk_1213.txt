@@ -1,0 +1,27 @@
+3-5-tuple-basics)
+TRY IT
+Creating a tuple with user input
+Write a program that reads in two strings and two integers from input and creates a tuple, my_data, with
+the four values.
+Given input:
+3.5 • Tuple basics
+87
+x
+y
+15
+20
+The output is:
+my_data: ('x', 'y', 15, 20)
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+3-5-tuple-basics)
+3.6 Chapter summary
+Highlights from this chapter include:
+•
+A string is a sequence of values that represents Unicode code points.
+•
+An index refers to the position of a value in a sequence (string, list, tuple).
+•
+Positive indexes range from 0 to length–1. Negative indexes range from –1 to –length.
+•
+F-strings are a convenient way to print multiple outputs and format integers and floats.
+•

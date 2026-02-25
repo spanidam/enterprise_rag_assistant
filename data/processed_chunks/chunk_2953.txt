@@ -1,0 +1,14 @@
+we set the conclusion C to the training example GrandChild(Bob, Shannon) 
+GrandChild(Bob, Shannon) 
+Father (Shannon, Tom) 
+FIGURE 10.3 
+A multistep inverse resolution. In each case, the boxed clause is the result of the inference step. For 
+each step, C is the clause at the bottom, C1 the clause to the left, and C2 the boxed clause to the 
+right. In both inference steps here, el is the empty substitution (1, and 0;' 
+is the substitution shown 
+below C2. Note the final conclusion (the boxed clause at the top right) is the alternative form of the 
+Horn clause GrandChild(y, x )  c 
+Father(x, z )  A Father(z, y). 
+GrandChild(Bob,x) v 
+Father(x,Tom) I 
+and select the clause C1 = Father(Shannon, Tom) from the background in-

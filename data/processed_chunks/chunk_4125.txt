@@ -1,0 +1,13 @@
+iterative method based on local consistency.
+5.2
+Monte Carlo Estimation of Action Values
+If a model is not available, then it is particularly useful to estimate action
+values (the values of state–action pairs) rather than state values.
+With a
+model, state values alone are suﬃcient to determine a policy; one simply looks
+ahead one step and chooses whichever action leads to the best combination
+of reward and next state, as we did in the chapter on DP. Without a model,
+however, state values alone are not suﬃcient. One must explicitly estimate the
+value of each action in order for the values to be useful in suggesting a policy.
+Thus, one of our primary goals for Monte Carlo methods is to estimate q∗. To
+achieve this, we ﬁrst consider the policy evaluation problem for action values.

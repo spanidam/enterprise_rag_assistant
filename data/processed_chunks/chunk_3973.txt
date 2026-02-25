@@ -1,0 +1,10 @@
+α and reduces it to low with probability 1−α. On the other hand, a period of
+searching undertaken when the energy level is low leaves it low with probability
+β and depletes the battery with probability 1−β. In the latter case, the robot
+must be rescued, and the battery is then recharged back to high. Each can
+collected by the robot counts as a unit reward, whereas a reward of −3 results
+whenever the robot has to be rescued. Let rsearch and rwait, with rsearch > rwait,
+respectively denote the expected number of cans the robot will collect (and
+hence the expected reward) while searching and while waiting. Finally, to keep
+things simple, suppose that no cans can be collected during a run home for
+recharging, and that no cans can be collected on a step in which the battery

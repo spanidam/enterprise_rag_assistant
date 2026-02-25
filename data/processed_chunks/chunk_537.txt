@@ -1,0 +1,10 @@
+can assume that the k-th component τk of the generalized force vector τ is a
+torque about the joint axis zk−1 if joint k is revolute and is a force along the
+joint axis zk−1 if joint k is prismatic. This generalized force is produced by
+an actuator, which may be electric, hydraulic or pneumatic. Although Equa-
+tion (7.1) is extremely complicated for all but the simplest manipulators, it
+nevertheless is an idealization, and there are a number of dynamic eﬀects that
+are not included in Equation (7.1). For example, friction at the joints is not
+accounted for in these equations and may be signiﬁcant for some manipulators.
+Also, no physical body is completely rigid. A more detailed analysis of robot
+dynamics would include various sources of ﬂexibility, such as elastic deformation

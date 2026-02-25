@@ -1,0 +1,11 @@
+defined over these instances. 
+7.4.2 The Vapnik-Chervonenkis Dimension 
+The ability to shatter a set of instances is closely related to the inductive bias of 
+a hypothesis space. Recall from Chapter 2 that an unbiased hypothesis space is 
+one capable of representing every possible concept (dichotomy) definable over the 
+instance space X. Put briefly, an unbiased hypothesis space H is one that shatters 
+the instance space X. What if H cannot shatter X, but can shatter some large 
+subset S of X? Intuitively, it seems reasonable to say that the larger the subset 
+of X that can be shattered, the more expressive H. The VC dimension of H is 
+precisely this measure. 
+Definition: The Vapnik-Chervonenkis dimension, V C ( H ) ,  of hypothesis space H

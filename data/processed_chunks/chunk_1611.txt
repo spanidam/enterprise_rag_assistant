@@ -1,0 +1,15 @@
+than the Python folder. Windows uses backslash \ characters instead of forward slash / characters for the path. If the backslash is
+included directly in open(), then an additional backslash is needed for Python to understand the location correctly.
+CONCEPTS IN PRACTICE
+Opening files at different locations
+For each question, assume that the Python file executing the open() function is not in the same folder as
+the out.txt file.
+Each question indicates the location of out.txt, the type of computer, and the desired mode for opening the
+file. Choose which option is best for opening out.txt.
+1. /users/turtle/files on a Mac for reading
+a.
+fileobj = open("out.txt")
+b.
+fileobj = open("/users/turtle/files/out.txt")
+c.
+fileobj = open("/users/turtle/files/out.txt", 'w')

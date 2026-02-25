@@ -1,0 +1,18 @@
+of the Sarsa and Q-learning methods with ε-greedy action selection, ε = 0.1.
+After an initial transient, Q-learning learns values for the optimal policy, that
+which travels right along the edge of the cliﬀ. Unfortunately, this results in
+its occasionally falling oﬀthe cliﬀbecause of the ε-greedy action selection.
+Sarsa, on the other hand, takes the action selection into account and learns
+the longer but safer path through the upper part of the grid. Although Q-
+learning actually learns the values of the optimal policy, its on-line performance
+is worse than that of Sarsa, which learns the roundabout policy. Of course, if
+ε were gradually reduced, then both methods would asymptotically converge
+to the optimal policy.
+6.5. Q-LEARNING: OFF-POLICY TD CONTROL
+159
+Reward
+per
+epsiode
+!100
+!75
+!50

@@ -1,0 +1,19 @@
+Returns lowercase characters.
+count()
+Returns the number of a given substring in a string.
+find()
+Returns the index of the first occurrence of a given substring in a string. If the substring
+does not exist in the string, -1 is returned.
+index()
+Returns the index of the first occurrence of a given substring in a string. If the substring
+does not exist in the string, a ValueError is returned.
+format()
+Used to create strings with specified patterns using arguments.
+join()
+Takes a list of string values and combines string values into one string by placing a given
+separator between values.
+split()
+Separates a string into tokens based on a given separator string. If no separator string is
+provided, blank space characters are used as separators.
+Operator
+Description

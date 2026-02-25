@@ -1,0 +1,41 @@
+import math
+print(math.__name__)
+print(__name__)
+a.
+>math
+test
+b.
+__main__
+test
+c.
+math
+__main__
+5. What is the output when importing the following test.py module?
+import math
+print(math.__name__)
+print(__name__)
+a.
+math
+test
+b.
+__main__
+test
+182
+7 • Modules
+Access for free at openstax.org
+c.
+math
+__main__
+6. What line is useful for preventing side effects when importing?
+a.
+if __name__ == "main":
+b.
+if __name__ == __main__:
+c.
+if __name__ == "__main__":
+EXPLORING FURTHER
+Variables that begin and end with double underscores have special meaning in Python. Double underscores
+are informally called "dunder" or "magic" variables. Other examples include __doc__ (the module's
+docstring) and __file__ (the module's filename).
+TRY IT
+Side effects

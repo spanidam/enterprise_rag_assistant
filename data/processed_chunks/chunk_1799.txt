@@ -1,0 +1,9 @@
+control theory. My belief is that the best way to learn about machine learning is 
+to view it from all of these perspectives and to understand the problem settings, 
+algorithms, and assumptions that underlie each. In the past, this has been difficult 
+due to the absence of a broad-based single source introduction to the field. The 
+primary goal of this book is to provide such an introduction. 
+Because of the interdisciplinary nature of the material, this book makes 
+few assumptions about the background of the reader. Instead, it introduces basic 
+concepts from statistics, artificial intelligence, information theory, and other disci- 
+plines as the need arises, focusing on just those concepts most relevant to machine

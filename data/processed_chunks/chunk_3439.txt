@@ -1,0 +1,80 @@
+the masked fragment. In this way, MASS jointly trains the
+TABLE I: High-level Overview of Popular Language Models
+Type
+Model Name
+#Parameters
+Release
+Base Models
+Open
+Source
+#Tokens
+Training dataset
+BERT
+110M, 340M
+2018
+-
+✓
+137B
+BooksCorpus, English Wikipedia
+RoBERTa
+355M
+2019
+-
+✓
+2.2T
+BooksCorpus,
+English
+Wikipedia,
+CC-NEWS,
+STORIES (a subset of Common Crawl), Reddit
+Encoder-Only
+ALBERT
+12M,
+18M,
+60M,
+235M
+2019
+-
+✓
+137B
+BooksCorpus, English Wikipedia
+DeBERTa
+-
+2020
+-
+✓
+-
+BooksCorpus, English Wikipedia, STORIES, Red-
+dit content
+XLNet
+110M, 340M
+2019
+-
+✓
+32.89B
+BooksCorpus, English Wikipedia, Giga5, Com-
+mon Crawl, ClueWeb 2012-B
+Decoder-only
+GPT-1
+120M
+2018
+-
+✓
+1.3B
+BooksCorpus
+GPT-2
+1.5B
+2019
+-
+✓
+10B
+Reddit outbound
+T5 (Base)
+223M
+2019
+-
+✓
+156B
+Common Crawl
+Encoder-Decoder
+MT5 (Base)

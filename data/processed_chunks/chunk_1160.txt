@@ -1,0 +1,42 @@
+after.
+print("Hello", name)
+print("Hello" , name)
+print("Hello",name)
+Assignment: one space before and after
+the =.
+name = input("Your
+name? ")
+name=input("Your name?
+")
+name= input("Your
+name? ")
+name =input("Your
+name? ")
+Concatenation: one space before and
+after the +.
+print("Hi", name + "!")
+print("Hi", name+"!")
+print("Hi", name+ "!")
+print("Hi", name +"!")
+Arithmetic: use space to show lower
+precedence.
+x**2 + 5*x - 8
+x ** 2 + 5 * x - 8
+x ** 2+5 * x-8
+x**2+5*x-8
+Table 2.7 Guidelines for spaces.
+CONCEPTS IN PRACTICE
+Recommended spacing
+1. Which statement is formatted properly?
+a.
+name = input("What is your name? ")
+b.
+name = input ("What is your name? ")
+c.
+name = input( "What is your name? " )
+2. Which statement is formatted properly?
+a.
+name=name+"!"
+b.
+name = name+"!"
+c.

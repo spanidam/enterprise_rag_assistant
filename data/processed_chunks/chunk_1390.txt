@@ -1,0 +1,20 @@
+word = "chance"
+print(word[-1] == word[5])
+a.
+True
+b.
+False
+String slicing
+String slicing is used when a programmer must get access to a sequence of characters. Here, a string slicing
+operator can be used. When [a:b] is used with the name of a string variable, a sequence of characters
+starting from index a (inclusive) up to index b (exclusive) is returned. Both a and b are optional. If a or b are not
+provided, the default values are 0 and len(string), respectively.
+EXAMPLE 8.2
+Getting the minutes
+Consider a time value is given as "hh:mm" with "hh" representing the hour and "mm" representing the
+minutes. To retrieve only the string's minutes portion, the following code can be used:
+time_string = "13:46"
+minutes = time_string[3:5]
+print(minutes)
+8.2 • String slicing
+201

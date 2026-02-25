@@ -1,0 +1,12 @@
+the fact that the policy they are searching for is a function from states to
+actions; they do not notice which states an individual passes through during
+its lifetime, or which actions it selects. In some cases this information can
+be misleading (e.g., when states are misperceived), but more often it should
+enable more eﬃcient search. Although evolution and learning share many fea-
+tures and naturally work together, we do not consider evolutionary methods
+by themselves to be especially well suited to reinforcement learning problems.
+For simplicity, in this book when we use the term “reinforcement learning
+method” we do not include evolutionary methods.
+10
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM
+However, we do include some methods that, like evolutionary methods,

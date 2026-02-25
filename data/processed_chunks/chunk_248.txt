@@ -1,0 +1,14 @@
+tions for speciﬁed end-eﬀector velocities and accelerations. We end the chapter
+by considering redundant manipulators. This includes discussions of the inverse
+velocity problem, singular value decomposition and manipulability.
+4.1
+ANGULAR VELOCITY: THE FIXED AXIS CASE
+When a rigid body moves in a pure rotation about a ﬁxed axis, every point
+of the body moves in a circle. The centers of these circles lie on the axis of
+rotation. As the body rotates, a perpendicular from any point of the body to
+the axis sweeps out an angle θ, and this angle is the same for every point of
+the body. If k is a unit vector in the direction of the axis of rotation, then the
+angular velocity is given by
+ω = ˙θk
+(4.1)
+in which ˙θ is the time derivative of θ.

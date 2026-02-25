@@ -1,0 +1,10 @@
+Dean, T., Basye, K., & Shewchuk, J. (1993). Reinforcement learning for planning and control. In S. 
+Minton (Ed.), Machine Learning Methods for Planning @p. 67-92). San Francisco: Morgan 
+Kaufmann. 
+Dietterich, T. G., & Flann, N. S. (1995). Explanation-based learning and reinforcement learning: 
+A unified view. Proceedings of the 12th International Conference on Machine Learning @p. 
+176-184). San Francisco: Morgan Kaufmann. 
+Ford, L., & Fulkerson, D. (1962). Flows in networks. Princeton, NJ: Princeton University Press. 
+Gordon, G. (1995). Stable function approximation in dynamic programming. Proceedings of the 
+Twelfth International Conference on Machine Learning (pp. 261-268). San Francisco: Morgan 
+Kaufmann.

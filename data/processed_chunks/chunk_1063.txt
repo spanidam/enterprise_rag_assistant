@@ -1,0 +1,19 @@
+below the code. Run the program again, and see what changes.
+•
+Copy the following lines to the end of the program: print("What is your favorite song?")
+song = input() print("Cool! I like", song, "too.")
+•
+The modified program reads two lines of input: name and song. Add your favorite song to the Input
+box below your name, and run the program again.
+The next section of the book will explain how print() and input() work. Feel free to experiment with this
+code until you are ready to move on.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-1-background)
+1.2 Input/output
+Learning objectives
+By the end of this section you should be able to
+•
+Display output using the print() function.
+•
+Obtain user input using the input() function.
+Basic output

@@ -1,0 +1,13 @@
+however, during the first 2500 iterations. 
+We can directly observe the effect of BACKPROPAGATION'S 
+gradient descent 
+search by plotting the squared output error as a function of the number of gradient 
+descent search steps. This is shown in the top plot of Figure 4.8. Each line in 
+this plot shows the squared output error summed over all training examples, for 
+one of the eight network outputs. The horizontal axis indicates the number of 
+iterations through the outermost loop of the BACKPROPAGATION 
+algorithm. As this 
+plot indicates, the sum of squared errors for each output decreases as the gradient 
+descent procedure proceeds, more quickly for some output units and less quickly 
+for others. 
+The evolution of the hidden layer representation can be seen in the second

@@ -1,0 +1,10 @@
+training examples. Chapter 6 discusses settings in which minimizing the sum of 
+squared errors is equivalent to finding the most probable hypothesis given the 
+observed training data. 
+Several algorithms are known for finding weights of a linear function that 
+minimize E defined in this way. In our case, we require an algorithm that will 
+incrementally refine the weights as new training examples become available and 
+that will be robust to errors in these estimated training values. One such algorithm 
+is called the least mean squares, or LMS training rule. For each observed training 
+example it adjusts the weights a small amount in the direction that reduces the 
+error on this training example. As discussed in Chapter 4, this algorithm can be

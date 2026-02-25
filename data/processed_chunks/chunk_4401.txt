@@ -1,0 +1,12 @@
+vantage in that the values backed up from the successor states will be more
+accurate. These results suggest that sample backups are likely to be superior
+to full backups on problems with large stochastic branching factors and too
+many states to be solved exactly.
+8.6
+Trajectory Sampling
+In this section we compare two ways of distributing backups. The classical
+approach, from dynamic programming, is to perform sweeps through the entire
+state (or state–action) space, backing up each state (or state–action pair) once
+per sweep. This is problematic on large tasks because there may not be time
+to complete even one sweep. In many tasks the vast majority of the states are
+irrelevant because they are visited only under very poor policies or with very

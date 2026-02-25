@@ -1,0 +1,16 @@
+traces of gpt-4,” arXiv preprint arXiv:2306.02707, 2023.
+[97]
+R. Li, L. B. Allal, Y. Zi, N. Muennighoff, D. Kocetkov, C. Mou,
+M. Marone, C. Akiki, J. Li, J. Chim et al., “Starcoder: may the source
+be with you!” arXiv preprint arXiv:2305.06161, 2023.
+[98]
+S. Huang, L. Dong, W. Wang, Y. Hao, S. Singhal, S. Ma, T. Lv,
+L. Cui, O. K. Mohammed, Q. Liu et al., “Language is not all you
+need: Aligning perception with language models,” arXiv preprint
+arXiv:2302.14045, 2023.
+[99]
+G. Team, R. Anil, S. Borgeaud, Y. Wu, J.-B. Alayrac, J. Yu, R. Soricut,
+J. Schalkwyk, A. M. Dai, A. Hauth et al., “Gemini: a family of highly
+capable multimodal models,” arXiv preprint arXiv:2312.11805, 2023.
+[100]
+W. Huang, F. Xia, T. Xiao, H. Chan, J. Liang, P. Florence, A. Zeng,

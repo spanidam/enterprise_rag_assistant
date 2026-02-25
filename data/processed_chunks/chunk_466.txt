@@ -1,0 +1,24 @@
+(6.60)
+202
+DYNAMICS
+In the above equation, there are three types of terms.
+The ﬁrst involve
+the second derivative of the generalized coordinates. The second are quadratic
+terms in the ﬁrst derivatives of q, where the coeﬃcients may depend on q. These
+are further classiﬁed into two types. Terms involving a product of the type ˙q2
+i
+are called centrifugal, while those involving a product of the type ˙qiqj where
+i ̸= j are called Coriolis terms. The third type of terms are those involving
+only q but not its derivatives. Clearly the latter arise from diﬀerentiating the
+potential energy. It is common to write (6.60) in matrix form as
+Matrix Form of Euler-Lagrange Equations
+D(q)¨q + C(q, ˙q) ˙q + g(q)
+=
+τ
+(6.61)
+where the k, j-th element of the matrix C(q, ˙q) is deﬁned as
+ckj
+=
+n
+X
+i=1

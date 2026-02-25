@@ -1,0 +1,10 @@
+subset of instances that it classifies positive. The arrows connecting hypotheses 
+represent the m o r e - g e n e r a l - t h a n  relation, with the arrow pointing toward the less general hypothesis. 
+Note the subset of instances characterized by h2 subsumes the subset characterized by h l ,  hence h2 
+is m o r e - g e n e r a l - t h a n  h l .  
+hk (written hj >, hk) if and only if (hj p, hk) A (hk 2, hi). Finally, we will 
+sometimes find the inverse useful and will say that hj is morespecijkthan hk 
+when hk is more_general-than hj. 
+To illustrate these definitions, consider the three hypotheses hl, h2, and 
+h3 from our Enjoysport example, shown in Figure 2.1. How are these three 
+hypotheses related by the p, relation? As noted earlier, hypothesis h2 is more

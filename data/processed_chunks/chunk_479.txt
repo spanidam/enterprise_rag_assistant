@@ -1,0 +1,73 @@
+c111
+=
+1
+2
+∂d11
+∂p1
+= 0
+c121
+=
+c211 = 1
+2
+∂d11
+∂p2
+= 0
+c221
+=
+∂d12
+∂p2
+−1
+2
+∂d22
+∂p1
+= −m2ℓ1ℓc2 sin(p2 −p1)
+(6.92)
+c112
+=
+∂d21
+∂p1
+−1
+2
+∂d11
+∂p2
+= m2ℓ1ℓc2 sin(p2 −p1)
+c212
+=
+= c122 = 1
+2
+∂d22
+∂p1
+= 0
+c222
+=
+1
+2
+∂d22
+∂p2
+= 0
+Next, the potential energy of the manipulator, in terms of p1 and p2, equals
+P
+=
+m1gℓc1 sin p1 + m2g(ℓ1 sin p1 + ℓc2 sin p2)
+(6.93)
+Hence the gravitational generalized forces are
+φ1
+=
+(m1ℓc1 + m2ℓ1)g cos p1
+φ2
+=
+m2ℓc2g cos p2
+Finally, the equations of motion are
+d11¨p1 + d12¨p2 + c221 ˙p2
+2 + φ1
+=
+τ1
+d21¨p1 + d22¨p2 + c112 ˙p2
+1 + φ2
+=
+τ2
+(6.94)
+Comparing (6.94) and (6.86), we see that by driving the second joint remotely
+from the base we have eliminated the Coriolis forces, but we still have the
+centrifugal forces coupling the two joints.
+SOME COMMON CONFIGURATIONS

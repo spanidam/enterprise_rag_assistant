@@ -1,0 +1,12 @@
+3.1. THE AGENT–ENVIRONMENT INTERFACE
+55
+high-level and abstract, such as symbolic descriptions of objects in a room.
+Some of what makes up a state could be based on memory of past sensations
+or even be entirely mental or subjective. For example, an agent could be in
+the state of not being sure where an object is, or of having just been surprised
+in some clearly deﬁned sense. Similarly, some actions might be totally mental
+or computational. For example, some actions might control what an agent
+chooses to think about, or where it focuses its attention. In general, actions
+can be any decisions we want to learn how to make, and the states can be
+anything we can know that might be useful in making them.
+In particular, the boundary between agent and environment is not often

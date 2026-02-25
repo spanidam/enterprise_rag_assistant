@@ -1,0 +1,31 @@
+•
+Explain the flow of execution when an exception is raised.
+The raise statement
+A program can raise an exception when an error is detected. Raising an exception forces a program to deal
+with the error. If the exception is not handled using try and except, the program displays an error message
+and terminates.
+EXAMPLE 14.6
+Invalid pizza size
+The following class represents a pizza for sale. The SIZES dictionary maps an abbreviation to a size's name
+and price. Line 11 checks if the size received by the constructor is in the dictionary. Line 12 raises a
+ValueError with specific error message.
+1
+class Pizza:
+344
+14 • Files
+Access for free at openstax.org
+2
+3
+SIZES = {
+4
+"S": ("Small", 5.99),
+5
+"M": ("Medium", 7.99),
+6
+"L": ("Large", 9.99),
+7
+"XL": ("X-Large", 11.99),
+8
+}
+9
+10

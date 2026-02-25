@@ -1,0 +1,15 @@
+MA: MIT Press. 
+Atkeson, C. G., Schaal, S. A., & Moore, A. W. (1997a). Locally weighted learning. AIReview, (to 
+appear). 
+Atkeson, C. G., Moore, A. W., & Schaal, S. A. (1997b). Locally weighted learning for control. A1 
+Review, (to appear). 
+Bareiss, E. R., Porter, B., & Weir, C. C. (1988). PROTOS: An exemplar-based learning apprentice. 
+International Journal of Man-Machine Studies, 29, 549-561. 
+Bentley, J. L. (1975). Multidimensional binary search trees used for associative searching. Cornmu- 
+nications of the ACM, 18(9), 509-517. 
+248 
+MACHINE LEARNING 
+1 
+Bishop, C. M. (1995). Neural networks for pattern recognition. Oxford, England: Oxford University 
+Press. 
+Bisio, R., & Malabocchia, F. (1995). Cost estimation of software projects through case-based reason-

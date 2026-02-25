@@ -1,0 +1,12 @@
+improvement in the value estimate with fewer than b backups. In a large prob-
+lem with many state–action pairs, we are often in the latter situation. With
+so many state–action pairs, full backups of all of them would take a very long
+time. Before that we may be much better oﬀwith a few sample backups at
+many state–action pairs than with full backups at a few pairs. Given a unit
+of computational eﬀort, is it better devoted to a few full backups or to b times
+as many sample backups?
+Figure 8.13 shows the results of an analysis that suggests an answer to
+this question.
+It shows the estimation error as a function of computation
+time for full and sample backups for a variety of branching factors, b. The
+case considered is that in which all b successor states are equally likely and

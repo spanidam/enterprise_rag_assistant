@@ -1,0 +1,11 @@
+well as data sets and implementations of algorithms, are available on the World 
+Wide Web at http://www.cs.cmu.edu/-tom/mlbook.html. 
+1.5 SUMMARY AND FURTHER READING 
+Machine learning addresses the question of how to build computer programs that 
+improve their performance at some task through experience. Major points of this 
+chapter include: 
+Machine learning algorithms have proven to be of great practical value in a 
+variety of application domains. They are especially useful in (a) data mining 
+problems where large databases may contain valuable implicit regularities 
+that can be discovered automatically (e.g., to analyze outcomes of medical 
+treatments from patient databases or to learn general rules for credit worthi-

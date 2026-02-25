@@ -1,0 +1,10 @@
+While a point corresponds to a speciﬁc location in space, a vector speciﬁes
+a direction and a magnitude. Vectors can be used, for example, to represent
+displacements or forces. Therefore, while the point p is not equivalent to the
+vector v1, the displacement from the origin o0 to the point p is given by the
+vector v1. In this text, we will use the term vector to refer to what are sometimes
+called free vectors, i.e., vectors that are not constrained to be located at a
+particular point in space. Under this convention, it is clear that points and
+vectors are not equivalent, since points refer to speciﬁc locations in space, but
+a vector can be moved to any location in space. Under this convention, two
+vectors are equal if they have the same direction and the same magnitude.

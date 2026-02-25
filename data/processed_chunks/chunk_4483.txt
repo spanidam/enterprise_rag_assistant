@@ -1,0 +1,10 @@
+the size of the state space inherently increases exponentially. It is reasonable
+to assume that in the worst case the complexity of the target function scales
+like the size of the state space. Thus, if we focus the worst case, then there
+is no solution, no way to get good approximations for high-dimensional tasks
+without using resources exponential in the dimension.
+A more useful way to think about the problem is to focus on the complexity
+of the target function as separate and distinct from the size and dimensionality
+of the state space. The size of the state space may give an upper bound on
+complexity, but short of that high bound, complexity and dimension can be
+unrelated. For example, one might have a 1000-dimensional task where only

@@ -1,0 +1,11 @@
+methods using the same hypothesis space are more restricted because they must 
+commit to a single hypothesis that covers the entire instance space. Eager methods 
+can, of course, employ hypothesis spaces that combine multiple local approxima- 
+tions, as in RBF networks. However, even these combined local approximations do 
+not give eager methods the full ability of lazy methods to customize to unknown 
+future query instances. 
+8.7 SUMMARY AND FURTHER READING 
+The main points of this chapter include: 
+Instance-based learning methods differ from other approaches to function ap- 
+proximation because they delay processing of training examples until they 
+must label a new query instance. As a result, they need not form an explicit

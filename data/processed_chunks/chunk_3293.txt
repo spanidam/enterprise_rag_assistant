@@ -1,0 +1,9 @@
+the same sequence of actions from the same random initial state in its second full 
+episode, then a second table entry would be made nonzero, and so on. If we run 
+repeated identical episodes in this fashion, the frontier of nonzero Q values will 
+creep backward from the goal state at the rate of one new state-action transition 
+per episode. Now consider training on these same state-action transitions, but in 
+reverse chronological order for each episode. That is, we apply the same update 
+rule from Equation (13.7) for each transition considered, but perform these updates 
+in reverse order. In this case, after the first full episode the agent will have updated 
+its Q estimate for every transition along the path it took to the goal. This training

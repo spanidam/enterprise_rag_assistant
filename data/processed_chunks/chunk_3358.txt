@@ -1,0 +1,28 @@
+EM algorithm, 190-196, 197 
+applications of, 191, 194 
+derivation of algorithm for k-means, 
+195-196 
+search for maximum likelihood (ML) 
+hypothesis, 194-195 
+Entailment, 321n 
+relationship with 8-subsumption and 
+more-general-than partial ordering, 
+299-300 
+Entropy, 55-57, 282 
+of optimal code, 172n 
+Environment, in reinforcement learning, 
+368 
+Equivalent sample size, 179-1 80 
+Error bars for discrete-valued hypotheses. 
+See Confidence intervals, for 
+discrete-valued hypotheses 
+Error of hypotheses: 
+sample. See Sample error 
+training. See Training error 
+true. See True error 
+Estimation bias, 133, 137-138, 151 
+Estimator, 133, 137-138, 143, 150-151 
+Evolution of populations: 
+argument for Occam's razor, 66 
+in genetic algorithms, 260-262 
+Evolutionary computation, 250, 262

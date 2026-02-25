@@ -1,0 +1,17 @@
+and inﬁnite-step returns to obtain another way of interrelating TD and Monte
+Carlo methods. In principle, one could even average experience-based back-
+ups with DP backups to get a simple combination of experience-based and
+model-based methods (see Chapter 8).
+7.2. THE FORWARD VIEW OF TD(λ)
+173
+A backup that averages simpler component backups is called a complex
+backup. The backup diagram for a complex backup consists of the backup
+diagrams for each of the component backups with a horizontal line above
+them and the weighting fractions below. For example, the complex backup
+for the case mentioned at the start of this section, mixing half of a two-step
+backup and half of a four-step backup, has the diagram:
+1
+2
+1
+2
+The TD(λ) algorithm can be understood as one particular way of averaging

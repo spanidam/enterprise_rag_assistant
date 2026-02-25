@@ -1,0 +1,13 @@
+camera. You can see lots of things, but not all things. You can’t see objects
+that are occluded, and of course you can’t see objects that are behind you.
+After seeing that ﬁrst scene, do you have access to the Markov state of the
+environment? Suppose your camera was broken that day and you received no
+86
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+images at all, all day. Would you have access to the Markov state then?
+Exercise 3.7 There is no exercise 3.7.
+Exercise 3.8 What is the Bellman equation for action values, that is, for qπ?
+It must give the action value qπ(s, a) in terms of the action values, qπ(s′, a′),
+of possible successors to the state–action pair (s, a). As a hint, the backup
+diagram corresponding to this equation is given in Figure 3.4b.
+Show the

@@ -1,0 +1,16 @@
+1)−1
+The column vectors of R0
+1 are of unit length and mutually orthogonal (Prob-
+lem 2-4).
+Such a matrix is said to be orthogonal.
+It can also be shown
+(Problem 2-5) that det R0
+1 = ±1. If we restrict ourselves to right-handed coor-
+dinate systems, as deﬁned in Appendix B, then det R0
+1 = +1 (Problem 2-5). It
+is customary to refer to the set of all such n×n matrices by the symbol SO(n),
+which denotes the Special Orthogonal group of order n. The properties of
+such matrices are summarized in Table 2.2.1.
+To provide further geometric intuition for the notion of the inverse of a rota-
+tion matrix, note that in the two dimensional case, the inverse of the rotation
+matrix corresponding to a rotation by angle θ can also be easily computed

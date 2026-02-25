@@ -1,0 +1,16 @@
+π(s) = argmaxa
+P
+s′,r p(s′, r|s, a)
+
+r + γV (s′)
+
+Figure 4.5: Value iteration.
+a ∈{0, 1, . . . , min(s, 100 −s)}. The reward is zero on all transitions except
+those on which the gambler reaches his goal, when it is +1. The state-value
+function then gives the probability of winning from each state. A policy is a
+mapping from levels of capital to stakes. The optimal policy maximizes the
+probability of reaching the goal. Let ph denote the probability of the coin
+coming up heads. If ph is known, then the entire problem is known and it can
+be solved, for instance, by value iteration. Figure 4.6 shows the change in the
+value function over successive sweeps of value iteration, and the ﬁnal policy
+found, for the case of ph = 0.4. This policy is optimal, but not unique. In

@@ -1,0 +1,11 @@
+postcondition is called the clause head or, alternatively, the clause consequent. 
+For easy reference, these definitions are summarized in Table 10.3, along with 
+other definitions introduced later in this chapter. 
+10.5 LEARNING SETS OF FIRST-ORDER RULES: FOIL 
+A variety of algorithms has been proposed for learning first-order rules, or Horn 
+clauses. In this section we consider a program called FOIL (Quinlan 1990) that 
+employs an approach very similar to the SEQUENTIAL-COVERING 
+and LEARN-ONE- 
+RULE algorithms of the previous section. In fact, the FOIL program is the natural 
+extension of these earlier algorithms to first-order representations. Formally, the 
+hypotheses learned by FOIL are sets of first-order rules, where each rule is sim-

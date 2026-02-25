@@ -1,0 +1,28 @@
+Tax doesn't specify calc_tax() can be overridden.
+c.
+ContractTax isn't inherited from Tax.
+super()
+super() is a special method that provides a temporary superclass object instance for a subclass to use.
+super() is commonly used to call superclass methods from a subclass. super() is commonly used in a
+subclass's __init__() to assign inherited instance attributes. Ex: super().__init__().
+CHECKPOINT
+Using super() to call the superclass __init__() method
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-3-methods)
+CONCEPTS IN PRACTICE
+Using super()
+Consider the following program.
+1
+class Polygon:
+2
+def __init__(self, num_sides=3):
+3
+self.num_sides = num_sides
+4
+5
+class Rectangle(Polygon):
+13.3 • Methods
+311
+6
+def __init__(self, ln=1, wd=1):
+7

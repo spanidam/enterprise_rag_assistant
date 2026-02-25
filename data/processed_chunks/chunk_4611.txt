@@ -1,0 +1,11 @@
+the service area is divided into a number of regions called cells. In each cell
+is a base station that handles all the calls made within the cell. The total
+available bandwidth is divided permanently into a number of channels. Chan-
+nels must then be allocated to cells and to calls made within cells without
+violating the channel reuse constraint. There are a great many ways to do
+this, some of which are better than others in terms of how reliably they make
+channels available to new calls, or to calls that are “handed oﬀ” from one cell
+to another as the caller crosses a cell boundary. If no channel is available for
+a new or a handed-oﬀcall, the call is lost, or blocked. Singh and Bertsekas
+considered the problem of allocating channels so that the number of blocked
+calls is minimized.

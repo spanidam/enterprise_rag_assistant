@@ -1,0 +1,25 @@
+to design the feedback gains is through an optimization procedure. This takes
+us into the realm of optimal control theory. For example, we may choose as our
+goal the minimization of the performance criterion
+J
+=
+Z ∞
+0
+(xT Qx + Ru2)dt
+(7.78)
+where Q is a given symmetric, positive deﬁnite matrix and R > O.
+Choosing a control law to minimize (7.78) frees us from having to decide
+beforehand what the closed loop poles should be as they are automatically
+dictated by the weighting matrices Q and R in (7.78). It is shown in optimal
+control texts that the optimum linear control law that minimizes (7.78) is given
+as
+u
+=
+−k.T x
+(7.79)
+where
+k.
+=
+R−1bT P
+(7.80)
+2Since the coeﬃcients of the polynomial a(s) are real, the only restriction on the pole locations

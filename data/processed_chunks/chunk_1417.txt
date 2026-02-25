@@ -1,0 +1,38 @@
+b.
+3.1
+c.
+3.142
+11. What is the output of print('{:1>3d}'.format(3))?
+a.
+113
+b.
+311
+c.
+3.000
+12. What is the output of print('{:+d}'.format(123))?
+a.
+123
+b.
++123
+c.
+:+123
+216
+8 • Strings
+Access for free at openstax.org
+TRY IT
+Formatting a list of numbers
+Given a list of numbers (floating-point or integer), print numbers with two decimal place precision and at
+least six characters.
+Input: [12.5, 2]
+Prints: 012.50
+002:00
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+8-4-string-formatting)
+8.5 Splitting/joining strings
+Learning objectives
+By the end of this section you should be able to
+•
+Use the split() method to split a string into substrings.
+•
+Combine objects in a list into a string using join() method.
+split()

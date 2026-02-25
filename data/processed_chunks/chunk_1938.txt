@@ -1,0 +1,11 @@
+CANDIDATE-ELMNATION 
+Trace 2. Training example 3 is a negative example that forces the G2 
+boundary to be specialized to G3. Note several alternative maximally general hypotheses are included 
+in Gj. 
+is consistent with these examples. Any hypothesis more general than S will, by 
+definition, cover any example that S covers and thus will cover any past positive 
+example. In a dual fashion, the G boundary summarizes the information from 
+previously encountered negative examples. Any hypothesis more specific than G 
+is assured to be consistent with past negative examples. This is true because any 
+such hypothesis, by definition, cannot cover examples that G does not cover. 
+The fourth training example, as shown in Figure 2.6, further generalizes the

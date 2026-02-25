@@ -1,0 +1,11 @@
+when applying BACKPROPAGATION 
+to a problem such as speech recognition, one 
+must choose the encoding of input and output data, the error function to be rnin- 
+imized during gradient descent, the number of hidden units, the topology of the 
+network, the learning rate and momentum, etc. In making these choices, human 
+designers have the opportunity to embed task-specific knowledge into the learning 
+algorithm. The result, however, is a purely inductive instantiation of BACKPROPA- 
+GATION, 
+specialized by the designer's choices to the task of speech recognition. 
+Our interest here lies in something different. We are interested in systems that 
+take prior knowledge as an explicit input to the learner, in the same sense that

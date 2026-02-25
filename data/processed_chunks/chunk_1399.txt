@@ -1,0 +1,35 @@
+CHECKPOINT
+Finding the first index of a substring
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+8-3-searchingtesting-strings)
+CONCEPTS IN PRACTICE
+Using find() to locate a substring
+10. What is the output of "banana".find("a")?
+a.
+1
+b.
+3
+c.
+5
+11. What is the output of "banana".find("c")?
+8.3 • Searching/testing strings
+207
+a.
+0
+b.
+-1
+c.
+ValueError
+12. What is the output of "b".find("banana")?
+a.
+-1
+b.
+0
+c.
+ValueError
+index()
+The index() method performs similarly to the find() method in which the method returns the index of the
+first occurrence of a substring in a given string. The index() method assumes that the substring exists in the
+given string; otherwise, throws a ValueError.
+EXAMPLE 8.4
+Getting the time's minute portion

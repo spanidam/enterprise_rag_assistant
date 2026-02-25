@@ -1,0 +1,17 @@
+a solution trajectory x(t) of (C.1) and ﬁnd that V (t) is decreasing for increasing
+t. Intuitively, since V acts like a norm, this must mean that the given solution
+trajectory must be converging toward the origin. This is the idea of Lyapunov
+stability theory.
+C.0.2
+Lyapunov Stability
+Theorem 6 The null solution of (C.1) is stable if there exists a Lyapunov func-
+tion candidate V such that ˙V is negative semi-deﬁnite along solution trajectories
+of (C.1), that is, if
+˙V
+=
+⟨dV, f(x)⟩= dV T f(x) ≤0.
+(C.9)
+Equation (C.9) says that the derivative of V computed along solutions of (C.1)
+is nonpositive, which says that V itself is nonincreasing along solutions. Since
+V is a measure of how far the solution is from the origin, (C.9) says that the
+solution must remain near the origin.

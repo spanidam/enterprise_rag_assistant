@@ -1,0 +1,18 @@
+potential energy is independent of ˙q. In the next section we apply this discussion
+to study speciﬁc robot conﬁgurations.
+6.4
+SOME COMMON CONFIGURATIONS
+In this section we apply the above method of analysis to several manipulator
+conﬁgurations and derive the corresponding equations of motion. The conﬁg-
+urations are progressively more complex, beginning with a two-link cartesian
+manipulator and ending with a ﬁve-bar linkage mechanism that has a particu-
+larly simple inertia matrix.
+Two-Link Cartesian Manipulator
+Consider the manipulator shown in Figure 6.6, consisting of two links and two
+SOME COMMON CONFIGURATIONS
+203
+q2
+q1
+Fig. 6.6
+Two-link cartesian robot.
+prismatic joints. Denote the masses of the two links by m1 and m2, respec-

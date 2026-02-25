@@ -1,0 +1,58 @@
+20
+30
+40
+50
+60
+70
+80
+90
+100
+Time (sec)
+Angle (deg)
+0
+1
+2
+3
+4
+5
+6
+−10
+0
+10
+20
+30
+40
+50
+60
+Time (sec)
+Velocity (deg/sec)
+0
+1
+2
+3
+4
+5
+6
+−100
+−50
+0
+50
+100
+Time (sec)
+Acceleration (deg/sec2)
+(a)
+(b)
+(c)
+Fig. 5.19
+(a) Trajectory with Multiple Quintic Segments (b) Velocity Proﬁle for Mul-
+tiple Quintic Segments (c) Acceleration Proﬁle for Multiple Quintic Segments
+2-seconds, 30◦at 4seconds, and 90◦at 6-seconds, with zero velocity at 0,2,4,
+and 6 seconds.
+⋄
+Example 5.10 Figure 5.19 shows the same six second trajectory as in Exam-
+ple 5.9 with the added constraints that the accelerations should be zero at the
+blend times.
+⋄
+5.7
+HISTORICAL PERSPECTIVE
+The earliest work on robot planning was done in the late sixties and early sev-

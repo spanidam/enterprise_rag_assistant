@@ -1,0 +1,12 @@
+solving this equation came to be known as dynamic programming (Bellman,
+1957a). Bellman (1957b) also introduced the discrete stochastic version of the
+optimal control problem known as Markovian decision processes (MDPs), and
+Ronald Howard (1960) devised the policy iteration method for MDPs. All of
+these are essential elements underlying the theory and algorithms of modern
+reinforcement learning.
+Dynamic programming is widely considered the only feasible way of solv-
+ing general stochastic optimal control problems. It suﬀers from what Bell-
+man called “the curse of dimensionality,” meaning that its computational
+requirements grow exponentially with the number of state variables, but it
+is still far more eﬃcient and more widely applicable than any other general
+method.

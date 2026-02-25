@@ -1,0 +1,13 @@
+as queries to retrieve relevant information. This method con-
+trasts with traditional retrieval-augmented models that typically
+retrieve information once and then proceed with generation. In
+FLARE, this process is dynamic and ongoing throughout the
+generation phase. In FLARE, each sentence or segment gener-
+ated by the LLM is evaluated for confidence. If the confidence
+level is below a certain threshold, the model uses the generated
+content as a query to retrieve relevant information, which is
+then used to regenerate or refine the sentence. This iterative
+process ensures that each part of the response is informed by
+the most relevant and current information available.
+For more details on RAG framework and its relevant works,
+we refer the readers to this survey of retrieval augmented

@@ -1,0 +1,26 @@
+Figure 14.10 shows the blocking probabilities of these methods for mean
+arrival rates of 150, 200, and 350 calls/hour as well as for a case in which
+294
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+0
+10
+20
+30
+40
+50
+Nonuniform
+350 calls/hour
+200 calls/hour
+150 calls/hour
+RL
+BDCL
+FA
+% Blocking
+Traffic
+Figure 14.10: Performance of FA, BDCL, and RL channel allocation methods
+for diﬀerent mean call arrival rates.
+diﬀerent cells had diﬀerent mean arrival rates. The reinforcement learning
+method learned on-line. The data shown are for its asymptotic performance,
+but in fact learning was rapid. The RL method blocked calls less frequently
+than did the other methods for all arrival rates and soon after starting to learn.
+Note that the diﬀerences between the methods decreased as the call arrival rate

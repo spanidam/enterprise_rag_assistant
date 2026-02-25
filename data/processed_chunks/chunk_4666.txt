@@ -1,0 +1,11 @@
+ﬂexibly interrelate them. Much of our learning appears not to be about learn-
+ing values directly, but about preparing us to quickly estimate values later in
+response to new situations or new information. Considerable reinforcement
+learning research has been directed at capturing such abilities (e.g., Watkins,
+1989; Dayan and Hinton, 1993; Singh, 1992a, 1992b; Ring, 1994, Kaelbling,
+1993b; Sutton, 1995).
+Researchers have also explored ways of using the structure of particular
+tasks to advantage. For example, many problems have state representations
+that are naturally lists of variables, like the readings of multiple sensors or ac-
+tions that are lists of component actions. The independence or near indepen-
+dence of some variables from others can sometimes be exploited to obtain more

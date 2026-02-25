@@ -1,0 +1,20 @@
+(10.4)
+2. Likewise, let w1(x), . . . , wk(x) be covector ﬁelds on M, which are linearly
+independent at each point. By a Codistribution Ωwe mean the linear
+span (at each x ∈M)
+Ω= span{w1(x), . . . , wk(x)}
+(10.5)
+A distribution therefore assigns a vector space ∆(x) at each point x ∈M; a
+k-dimensional subspace of the m-dimensional tangent space TxM. A codistri-
+bution likewise deﬁnes a k-dimensional subspace at each x of the m-dimensional
+cotangent space T ∗
+xM. The reader may consult any text on diﬀerential geome-
+try, for example [?], for more details.
+Vector ﬁelds are used to deﬁne diﬀerential equations and their associated
+ﬂows. We restrict our attention here to nonlinear systems of the form
+˙x
+=
+f(x) + g1(x)1u + . . . gm(x)um
+=:
+f(x) + G(x)u
+(10.6)

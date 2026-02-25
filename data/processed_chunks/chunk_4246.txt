@@ -1,0 +1,22 @@
+position–move pairs produce the same resulting position, as in this example:
+X
+O X
+X
+O
++
+X
+O
++
+X
+X
+In such cases the position–move pairs are diﬀerent but produce the same “af-
+terposition,” and thus must have the same value. A conventional action-value
+function would have to separately assess both pairs, whereas an afterstate
+value function would immediately assess both equally. Any learning about the
+position–move pair on the left would immediately transfer to the pair on the
+right.
+Afterstates arise in many tasks, not just games. For example, in queuing
+6.7. SUMMARY
+161
+tasks there are actions such as assigning customers to servers, rejecting cus-
+tomers, or discarding information. In such cases the actions are in fact deﬁned

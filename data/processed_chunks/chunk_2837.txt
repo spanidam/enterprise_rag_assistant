@@ -1,0 +1,12 @@
+niques such as simulated annealing can also be applied to machine learning 
+problems. 
+a GAS have most commonly been applied to optimization problems outside 
+machine learning, such as design optimization problems. When applied to 
+learning tasks, GAS are especially suited to tasks in which hypotheses are 
+complex (e.g., sets of rules for robot control, or computer programs), and 
+in which the objective to be optimized may be an indirect function of 
+the hypothesis (e.g., that the set of acquired rules successfully controls a 
+robot). 
+0 Genetic programming is a variant of genetic algorithms in which the hy- 
+potheses being manipulated are computer programs rather than bit strings. 
+Operations such as crossover and mutation are generalized to apply to pro-

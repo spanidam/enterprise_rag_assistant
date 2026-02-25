@@ -1,0 +1,24 @@
+, . . . , ∂hk
+∂qn
+
+are linearly independent covectors. Note that, in order to satisfy these con-
+straints, the motion of the system must lie on the hypersurface deﬁned by the
+functions h1, . . . hk, i.e.
+hi(q(t)) = 0
+for all t > 0
+(10.98)
+As a consequence, by diﬀerentiating (10.98), we have
+< dhi, ˙q >= 0
+i = 1, . . . , k
+(10.99)
+where < ·, · > denotes the standard inner product.
+NONHOLONOMIC SYSTEMS
+319
+It frequently happens that constraints are expressed, not as constraints on
+the conﬁguration, as in (10.97), but as constraints on the velocity
+< wi, ˙q >= 0
+i = 1, . . . , k
+(10.100)
+where wi(q) are covectors.
+Constraints of the form (10.100) are known as
+Pfaﬃan constraints. The crucial question in such cases is, therefore, when

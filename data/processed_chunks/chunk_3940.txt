@@ -1,0 +1,12 @@
+process-control task, or an application to a robot with a long life span. We
+call these continuing tasks. The return formulation (3.1) is problematic for
+continuing tasks because the ﬁnal time step would be T = ∞, and the return,
+which is what we are trying to maximize, could itself easily be inﬁnite. (For
+example, suppose the agent receives a reward of +1 at each time step.) Thus,
+5Episodes are sometimes called “trials” in the literature.
+60
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+Figure 3.2: The pole-balancing task.
+in this book we usually use a deﬁnition of return that is slightly more complex
+conceptually but much simpler mathematically.
+The additional concept that we need is that of discounting. According to

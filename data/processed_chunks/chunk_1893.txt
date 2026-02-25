@@ -1,0 +1,10 @@
+the set of all possible hypotheses that the learner may consider regarding the 
+identity of the target concept. Usually H is determined by the human designer's 
+choice of hypothesis representation. In general, each hypothesis h in H represents 
+a boolean-valued function defined over X; that is, h : X --+ {O, 1). The goal of the 
+learner is to find a hypothesis h such that h(x) = c(x) for a" x in X. 
+2.2.2 The Inductive Learning Hypothesis 
+Notice that although the learning task is to determine a hypothesis h identical 
+to the target concept c over the entire set of instances X, the only information 
+available about c is its value over the training examples. Therefore, inductive 
+learning algorithms can at best guarantee that the output hypothesis fits the target

@@ -1,0 +1,17 @@
+Jacobian in Equation (1.10) is α1α2 sin θ2. The Jacobian does not have an in-
+verse, therefore, when θ2 = 0 or π, in which case the manipulator is said to be
+in a singular conﬁguration, such as shown in Figure 1.27 for θ2 = 0. The
+θ1
+y0
+x0
+θ2 = 0
+α1
+α2
+Fig. 1.27
+A singular conﬁguration.
+determination of such singular conﬁgurations is important for several reasons.
+At singular conﬁgurations there are inﬁnitesimal motions that are unachiev-
+able; that is, the manipulator end-eﬀector cannot move in certain directions.
+In the above cases the end eﬀector cannot move in the positive x2 direction
+when θ2 = 0. Singular conﬁgurations are also related to the nonuniqueness
+of solutions of the inverse kinematics. For example, for a given end-eﬀector

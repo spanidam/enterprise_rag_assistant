@@ -1,0 +1,14 @@
+given by
+e(t) = s(t) −sd.
+IMAGE-BASED CONTROL LAWS
+365
+The image-based control problem is to ﬁnd a mapping from this error function
+to a commanded camera motion, u(t). As we have seen in previous chapters,
+there are a number of control approaches that can be used to determine the
+joint-level inputs to achieve a desired trajectory.
+Therefore, in this chapter
+we will treat the manipulator as a kinematic positioning device, i.e., we will
+ignore manipulator dynamics and develop controllers that compute desired end
+eﬀector trajectories. The underlying assumption is that these trajectories can
+then be tracked by a lower level manipulator controller.
+The most common approach to image-based control is to compute a desired

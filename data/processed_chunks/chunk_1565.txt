@@ -1,0 +1,26 @@
+self.feat_1 = 1
+self.feat_2 = ""
+13.2 • Attribute access
+307
+def bc_display(self):
+print(f"Superclass: {self.feat_2}")
+class SubClass(SuperClass):
+def dc_display(self):
+print(f"Subclass: {self.feat_2}")
+dc_1 = SubClass()
+a.
+feat_2
+b.
+feat_1 and feat_2
+c.
+None
+Using __init__() to create and inherit instance attributes
+A programmer often wants a subclass to have new instance attributes as well as those inherited from the
+superclass. Explicitly defining a subclass's __init__() involves defining instance attributes and assigning
+instance attributes inherited from the superclass.
+CHECKPOINT
+Defining __init__() in a subclass
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-2-attribute-access)
+CONCEPTS IN PRACTICE
+Accessing a subclass's attributes

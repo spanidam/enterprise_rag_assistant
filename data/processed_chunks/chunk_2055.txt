@@ -1,0 +1,11 @@
+learner that uses the boolean attribute XYZ, where we define the attribute XYZ to 
+~ ~ p r e n t l ~  
+while shaving. 
+be true for instances that are classified positive by the decision tree in Figure 3.1 
+and false otherwise. Thus, two learners, both applying Occam's razor, would 
+generalize in different ways if one used the XYZ attribute to describe its examples 
+and the other used only the attributes Outlook, Temperature, Humidity, and Wind. 
+This last argument shows that Occam's razor will produce two different 
+hypotheses from the same training examples when it is applied by two learners 
+that perceive these examples in terms of different internal representations. On this 
+basis we might be tempted to reject Occam's razor altogether. However, consider

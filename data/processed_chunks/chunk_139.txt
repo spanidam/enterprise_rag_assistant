@@ -1,0 +1,42 @@
+H0
+2 = HH0
+1
+Example 2.10
+The homogeneous transformation matrix H that represents a rotation by
+angle α about the current x-axis followed by a translation of b units along the
+current x-axis, followed by a translation of d units along the current z-axis,
+CHAPTER SUMMARY
+57
+followed by a rotation by angle θ about the current z-axis, is given by
+H
+=
+Rotx,αTransx,bTransz,dRotz,θ
+=
+
+
+cθ
+−sθ
+0
+b
+cαsθ
+cαcθ
+−sα
+−dsα
+sαsθ
+sαcθ
+cα
+dcα
+0
+0
+0
+1
+
+
+⋄
+The homogeneous representation given in Equation (2.63) is a special case of
+homogeneous coordinates, which have been extensively used in the ﬁeld of com-
+puter graphics. There, one is interested in scaling and/or perspective transfor-
+mations in addition to translation and rotation. The most general homogeneous
+transformation takes the form
+H
+=

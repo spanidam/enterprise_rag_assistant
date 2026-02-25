@@ -1,0 +1,11 @@
+5 (pp. 287-294). San Francisco: Morgan-Kaufmann. 
+Moore, A., & Atkeson C. (1993). Prioritized sweeping: Reinforcement learning with less data and 
+less real time. Machine Learning, 13, 103. 
+Peng, J., & Williams, R. (1994). Incremental multi-step Q-learning. Proceedings of the Eleventh 
+international Conference on Machine Learning (pp. 226-232). San Francisco: Morgan Kauf- 
+mann. 
+Ring, M. (1994). Continual learning in reinforcement environments (Ph.D. dissertation). Computer 
+Science Department, University of Texas at Austin, Austin, TX. 
+Samuel, A. L. (1959). Some studies in machine learning using the game of checkers. IBM Journal 
+of Research and Development, 3, 21 1-229. 
+Singh, S. (1992). Reinforcement learning with a hierarchy of abstract models. Proceedings of the

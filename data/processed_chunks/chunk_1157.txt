@@ -1,0 +1,43 @@
+and math.tau. Test your program using the following values for r and h:
+Provided input
+Expected output
+r
+h
+area
+volume
+0
+0
+0.0
+0.0
+1
+1
+12.57
+3.14
+1
+2
+18.85
+6.28
+2.5
+4.8
+114.67
+94.25
+3.1
+7.0
+196.73
+211.33
+Table 2.6
+If you get an error, try to look up what that error means.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/2-6-the-
+math-module)
+2.6 • The math module
+59
+2.7 Formatting code
+Learning objectives
+By the end of this section you should be able to
+•
+Identify good spacing for expressions and statements.
+•
+Write multi-line statements using implicit line joining.
+Recommended spacing
+Most spaces in Python code are ignored when running programs; however, spaces at the start of a line are very
+important. The following two programs are equivalent:

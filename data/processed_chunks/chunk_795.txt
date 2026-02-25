@@ -1,0 +1,36 @@
+zt
+X
+z=0
+z P(z)
+q0(zt)
+(11.48)
+=
+(zt + 1)P(zt + 1)
+q0(zt + 1)
++
+q0(zt)
+q0(zt + 1)µ0(zt)
+(11.49)
+Again, all of the quantities in this expression are available either from the
+histogram, or as the results of calculations performed at iteration zt of the
+algorithm.
+To compute µ1(zt + 1), we use the relationship µ = q0µ0 + q1µ1, which can
+be easily obtained using (11.32) and (11.38). Thus, we have
+µ1(zt + 1) = µ −q0(zt + 1)µ0(zt + 1)
+q1(zt + 1)
+= µ −q0(zt + 1)µ0(zt + 1)
+1 −q0(zt + 1)
+.
+(11.50)
+We are now equipped to construct a highly eﬃcient algorithm that automat-
+ically selects a threshold value that minimizes the within-group variance. This
+SEGMENTATION BY THRESHOLDING
+345
+(a)
+(b)
+Fig. 11.3
+(a) An image with 256 gray levels. (b) Thresholded version of the image in
+(a).
+(a)
+(b)
+Fig. 11.4

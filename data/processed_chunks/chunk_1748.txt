@@ -1,0 +1,9 @@
+also done for the name replacement field and the name variable. The output is "Hi Jess" .
+7. b. The template specifies the minimum length for the name field to be 12, so len(formatted_name) is 12
+.
+8. c. The alignment and the field length specifications format the greeting field to be six characters in
+length and right-aligned. Therefore, the variable formatted_greeting will take value " Hello" , and
+character 0 of the string is a space character.
+9. c. The field length specification enforces the minimum length of the string. Inputs that are longer than the
+specified minimum length will not be modified.
+10. c. The .3 format specification shows that the output precision must be three decimal places.

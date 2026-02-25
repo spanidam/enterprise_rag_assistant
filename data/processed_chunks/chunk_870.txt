@@ -1,0 +1,21 @@
+problem). Therefore, we deﬁne the motion perceptibility, which we shall denote
+be wv, as
+wv =
+q
+det(LT L) = σ1σ2 · · · σm.
+(12.40)
+374
+VISION-BASED CONTROL
+The motion perceptibility measure, wv, has the following properties, which
+are direct analogs of properties derived by Yoshikawa for manipulability [78].
+• In general, wv = 0 holds if and only if rank(L) < min(k, m), (i.e., when
+L is not full rank).
+• Suppose that there is some error in the measured visual feature velocity,
+∆˙s.
+We can bound the corresponding error in the computed camera
+velocity, ∆ξ, by
+(σ1)−1 ≤||∆ξ||
+||∆˙s|| ≤(σm)−1.
+(12.41)
+There are other quantitative methods that could be used to evaluate the per-
+ceptibility of motion. For example, in the context of feature selection, Feddema

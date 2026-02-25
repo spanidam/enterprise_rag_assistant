@@ -1,0 +1,28 @@
+Light =T- 
+M&ofcemic 
+= T- 
+MadeOfPoper = F - 
+Modeofstyrofoam = F  7- 
+Target network: 
+B O ~ O ~ I S F I U ~  
+ConcaviryPointsUp 
+Expensive 
+Fmgile 
+HandIeOnTop 
+HandleOnSide 
+HosConcavity 
+CUP 
+HasHandle 
+Light 
+Madeofceramic 
+Madeofpaper 
+Madeofstyrofoarn 
+Training 
+derivatives 
+FIGURE 12.7 
+Explanation of a training example in EBNN. The explanation consists of a prediction of the target 
+function value by the domain theory networks (top). Training derivatives are extracted from this 
+explanation in order to train the separate target network (bottom). Each rectangular block represents 
+a distinct multilayer neural network. 
+(i.e., False), and the domain theory prediction is that Cup = 0.8 (i.e., True). 
+EBNN calculates the partial derivative of this prediction with respect to each

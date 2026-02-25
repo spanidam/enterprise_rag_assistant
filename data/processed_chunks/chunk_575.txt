@@ -1,0 +1,31 @@
+−5
+−4.5
+−4
+−3.5
+−3
+−2.5
+−2
+−1.5
+−1
+−0.5
+0
+−3
+−2
+−1
+0
+1
+2
+3
+Root Locus
+Real Axis
+Imaginary Axis
+Fig. 7.25
+Root locus for the system of Figure 7.24.
+We see that the system is stable for all values of the gain KD but that
+the presence of the open loop zeros near the jω axis may result in poor over-
+all performance, for example, undesirable oscillations with poor settling time.
+Also the poor relative stability means that disturbances and other unmodeled
+dynamics could render the system unstable.
+If we measure instead the load angle θℓ, the system with PD control is
+represented by the block diagram of Figure 7.26. The corresponding root locus
+is shown in Figure 7.27. In this case the system is unstable for large KD. The

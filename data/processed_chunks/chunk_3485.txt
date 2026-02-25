@@ -1,0 +1,12 @@
+not only as models but also as approaches. ♦shows only approaches.
+the decoder has a third sub-layer, which performs multi-head
+attention over the output of the encoder stack. The attention
+function can be described as mapping a query and a set of key-
+value pairs to an output, where the query, keys, values, and
+output are all vectors. The output is computed as a weighted
+sum of the values, where the weight assigned to each value
+is computed by a compatibility function of the query with the
+corresponding key. Instead of performing a single attention
+function with dmodel dimensional keys, values and queries,
+it is found to be beneficial to linearly project the queries,
+keys and values h with different, learned linear projections to

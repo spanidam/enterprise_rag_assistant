@@ -1,0 +1,20 @@
+frame o0x0y0z0. In cases where the angular velocities specify rotation relative to
+the base frame, we will often simplify the subscript, e.g., using ω2 to represent
+the angular velocity that corresponds to the derivative of R0
+2.
+Example 4.4
+Suppose that R(t) = Rx,θ(t). Then ˙R(t) is computed using the chain rule as
+˙R = dR
+dt = dR
+dθ
+dθ
+dt = ˙θS(i)R(t) = S(ω(t))R(t)
+(4.20)
+in which ω = i ˙θ is the angular velocity. Note, here i = (1, 0, 0)T .
+⋄
+4.4
+ADDITION OF ANGULAR VELOCITIES
+We are often interested in ﬁnding the resultant angular velocity due to the
+relative rotation of several coordinate frames. We now derive the expressions
+for the composition of angular velocities of two moving frames o1x1y1z1 and
+o2x2y2z2 relative to the ﬁxed frame o0x0y0z0. For now, we assume that the

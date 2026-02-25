@@ -1,0 +1,10 @@
+It is instructive to note the exact representation Tesauro chose. There were a
+total of 198 input units to the network. For each point on the backgammon
+board, four units indicated the number of white pieces on the point. If there
+were no white pieces, then all four units took on the value zero. If there was
+one piece, then the ﬁrst unit took on the value 1. If there were two pieces,
+then both the ﬁrst and the second unit were 1. If there were three or more
+pieces on the point, then all of the ﬁrst three units were 1. If there were more
+than three pieces, the fourth unit also came on, to a degree indicating the
+number of additional pieces beyond three. Letting n denote the total num-
+ber of pieces on the point, if n > 3, then the fourth unit took on the value

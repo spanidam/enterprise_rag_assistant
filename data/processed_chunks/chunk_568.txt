@@ -1,0 +1,52 @@
+d(t) in (7.53) represents a disturbance, it is not completely unknown since d
+satisﬁes (7.28). Thus we may consider adding to the above feedforward signal,
+a term to anticipate the eﬀects of the disturbance d(t). Consider the diagram
+of Figure 7.21. Given a desired trajectory, then we superimpose, as shown, the
+qd
+1..n
+˙qd
+1..n
+¨qd
+1..n
+
+
+
+/
+Computed
+torque
+(7.3.7)
++
+
+Jeffs2 + Beffs
+55555555
+rD(s)
+−
+								
+θd
++/
+/
+L
+/ KP + KDs
++
++/L
+/
+1
+Jeff s2+Beff s
+θm/
+−
+O
+Fig. 7.21
+Feedforward computed torque compensation.
+term
+dd
+:=
+X
+djk(qd)¨qd
+j +
+X
+cijk(qd) ˙qd
+i ˙qd
+j + gk(qd)
+(7.54)
+since dd has units of torque, the above feedforward disturbance cancellation
+control is called the method of computed torque. The expression (7.54) thus

@@ -1,0 +1,15 @@
+credit assigned to the action taken, At. For example, one of the most common
+such factors is inversely related to the probability of selecting At, resulting in
+the update rule:
+Ht(St, At) = Ht(St, At) + βδt
+h
+1 −πt(At|St)
+i
+.
+These issues were explored early on, primarily for the immediate reward case
+(Sutton, 1984; Williams, 1992) and have not been brought fully up to date.
+Many of the earliest reinforcement learning systems that used TD methods
+were actor–critic methods (Witten, 1977; Barto, Sutton, and Anderson, 1983).
+Since then, more attention has been devoted to methods that learn action-value
+functions and determine a policy exclusively from the estimated values (such
+as Sarsa and Q-learning). This divergence may be just historical accident.

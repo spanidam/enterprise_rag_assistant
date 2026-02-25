@@ -1,0 +1,11 @@
+naturally represent disjunctive expressions. 
+0 The training data may contain errors. Decision tree learning methods are 
+robust to errors, both errors in classifications of the training examples and 
+errors in the attribute values that describe these examples. 
+0 The training data may contain missing attribute values. Decision tree meth- 
+ods can be used even when some training examples have unknown values 
+(e.g., if the Humidity of the day is known for only some of the training 
+examples). This issue is discussed in Section 3.7.4. 
+Many practical problems have been found to fit these characteristics. De- 
+cision tree learning has therefore been applied to problems such as learning to 
+classify medical patients by their disease, equipment malfunctions by their cause,

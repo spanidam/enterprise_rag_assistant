@@ -1,0 +1,12 @@
+8.1
+INTRODUCTION
+In the previous chapter we discussed techniques to derive a control law for
+each joint of a manipulator based on a single-input/single-output model. Cou-
+pling eﬀects among the joints were regarded as disturbances to the individual
+systems. In reality, the dynamic equations of a robot manipulator form a com-
+plex, nonlinear, and multivariable system. In this chapter, therefore, we treat
+the robot control problem in the context of nonlinear, multivariable control.
+This approach allows us to provide more rigorous analysis of the performance
+of control systems, and also allows us to design robust and adaptive nonlinear
+control laws that guarantee stability and tracking of arbitrary trajectories.
+We ﬁrst reformulate the manipulator dynamic equations in a form more

@@ -1,0 +1,66 @@
+q0(zt) =
+Pzt
+z=0 H[z]
+(Nrows × Ncols),
+q1(zt) =
+PN−1
+z=zt+1 H[z]
+(Nrows × Ncols).
+(11.36)
+We now rewrite (11.33) as
+µi =
+N−1
+X
+z=0
+z
+Hi[z]
+PN−1
+z=0 Hi[z]
+=
+N−1
+X
+z=0
+z
+Hi[z]/(Nrows × Ncols)
+PN−1
+z=0 Hi[z]/(Nrows × Ncols)
+Using again the fact that the two pixel groups are deﬁned by the threshold zt,
+we have
+H0[z]
+(Nrows × Ncols) = P(z)
+q0(zt), z ≤zt
+and
+H1[z]
+(Nrows × Ncols) = P(z)
+q1(zt), z > zt.
+(11.37)
+Thus, we can write the conditional means for the two groups as
+µ0(zt) =
+zt
+X
+z=0
+z P(z)
+q0(zt),
+µ1(zt) =
+N−1
+X
+z=zt+1
+z P(z)
+q1(zt).
+(11.38)
+Similarly, we can write the equations for the conditional variances by
+σ2
+0(zt) =
+zt
+X
+z=0
+(z −µ0(zt))2 P(z)
+q0(zt),
+σ2
+1(zt) =
+N
+X
+z=zt+1
+(z −µ1(zt))2 P(z)
+q1(zt). (11.39)
+We now turn to the selection of zt. If nothing is known about the true values

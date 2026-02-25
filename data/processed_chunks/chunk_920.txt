@@ -1,0 +1,43 @@
+Continuous path, 6
+Control, 1
+Control computer, 7
+Control
+Independent Joint, 230
+Control
+inner loop/outer loop, 307
+Control
+inverse dynamic, 267
+Controllability, 254
+Controllability, 325
+Controllability matrix, 254
+Controllability rank condition, 325
+Controllable, 254
+Controller resolution, 8
+Control
+outer loop, 307
+Coordinates
+Generalized, 190
+Generalized, 192
+Coriolis, 202
+Cotangent space, 300
+Covector ﬁeld, 300
+Cross-product form, 22
+Current
+Armature, 233
+Current frame, 43, 46
+Cylindrical (RPP), 6
+D’Alembert’s Principle, 194
+Damping
+Apparent, 293
+DC-gain, 288
+DC-Motor, 189
+Decoupled, 211
+Degrees-of-freedom, 4
+Denavit-Hartenberg, 19
+Dexterous workspace, 5
+Diﬀeomorphism, 300, 309, 317
+Direct Drive Robot, 230
+Directional derivative, 303
+Displacement
+Virtual, 192
+Distribution, 301

@@ -1,0 +1,57 @@
+
+0
+0
+1
+0
+1
+0
+−1
+0
+0
+
+
+as shown in Figure 2.4.
+If A = Rz,θ relative to the frame o0x0y0z0, then,
+relative to frame o1x1y1z1 we have
+B
+=
+(R0
+1)−1A0R0
+1 =
+
+
+1
+0
+0
+0
+cθ
+sθ
+0
+−sθ
+cθ
+
+
+In other words, B is a rotation about the z0-axis but expressed relative to the
+frame o1x1y1z1. This notion will be useful below and in later sections.
+⋄
+4See Appendix B.
+42
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+y0
+z0
+x0
+⃗v1
+⃗v0
+π
+2
+Fig. 2.8
+Coordinate Frames for Example 2.4.
+2.4
+COMPOSITION OF ROTATIONS
+In this section we discuss the composition of rotations.
+It is important for
+subsequent chapters that the reader understand the material in this section
+thoroughly before moving on.
+2.4.1
+Rotation with respect to the current frame
+Recall that the matrix R0

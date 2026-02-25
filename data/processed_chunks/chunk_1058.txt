@@ -1,0 +1,33 @@
+1-1-background)
+CONCEPTS IN PRACTICE
+Computers and programs
+1. How many types of programs were described in the animation?
+a.
+3
+b.
+4
+c.
+5
+2. What type of program will this book explain how to write?
+a.
+a tool that summarizes an individual's music preferences
+b.
+a mobile app for managing and sharing playlists of songs
+c.
+a website that shows the top artists for the past five years
+3. Which of the following devices is an example of a computer?
+a.
+wired headphones that plug into a smartphone
+b.
+remote control that pauses or skips the current song
+c.
+wi-fi speaker that streams music from Amazon
+4. Reading this book requires a strong background in mathematics.
+a.
+true
+b.
+false
+8
+1 • Statements
+Access for free at openstax.org
+EXPLORING FURTHER

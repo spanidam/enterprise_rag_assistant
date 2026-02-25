@@ -1,0 +1,11 @@
+behavior policy has a nonzero probability of selecting all actions that might
+be selected by the target policy (coverage). To explore all possibilities, we
+require that the behavior policy be soft (i.e., that it select all actions in all
+states with nonzero probability).
+Figure 5.10 shows an oﬀ-policy Monte Carlo method, based on GPI and
+weighted importance sampling, for estimating q∗. The target policy π is the
+greedy policy with respect to Q, which is an estimate of qπ. The behavior
+policy µ can be anything, but in order to assure convergence of π to the
+optimal policy, an inﬁnite number of returns must be obtained for each pair
+of state and action. This can be assured by choosing µ to be ε-soft.
+A potential problem is that this method learns only from the tails of

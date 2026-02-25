@@ -1,0 +1,11 @@
+program may successfully generalize beyond the observed training data. 
+2.1 INTRODUCTION 
+Much of learning involves acquiring general concepts from specific training exam- 
+ples. People, for example, continually learn general concepts or categories such 
+as "bird," "car," "situations in which I should study more in order to pass the 
+exam," etc. Each such concept can be viewed as describing some subset of ob- 
+jects or events defined over a larger set (e.g., the subset of animals that constitute 
+CHAFER 2 CONCEm LEARNING AND THE GENERAL-TO-SPECIFIC ORDERWG 21 
+birds). Alternatively, each concept can be thought of as a boolean-valued function 
+defined over this larger set (e.g., a function defined over all animals, whose value 
+is true for birds and false for other animals).

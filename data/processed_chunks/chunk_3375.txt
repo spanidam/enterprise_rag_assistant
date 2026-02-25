@@ -1,0 +1,30 @@
+LMS weight update rule. See Delta rule 
+Local method, 234 
+Locally weighted regression, 23 1, 
+236-238, 246 
+limitations of, 238 
+Logical constants, 284, 285 
+Logical terms, 284, 285 
+Logistic function, 96, 104 
+Lookup table: 
+function approximation algorithms as 
+substitute, 384 
+neural network as substitute, 384 
+Lower bound on sample complexity, 
+217-218 
+m-estimate of probability, 179-180, 198, 
+282 
+Machine learning, 15. See also entries 
+beginning with Learning 
+applications, 3, 17 
+definition of, 2 
+influence of other disciplines on, 4, 17 
+search of hypothesis space, 14-15, 18 
+Manufacturing process control, 17 
+MAP hypothesis. See Maximum 
+a posteriori hypothesis 
+MAP LEARNING 
+algorithm, BRUTE-FORCE. 
+See BRUTE-FORCE 
+MAP LEARNING 
+algorithm

@@ -1,0 +1,24 @@
+Before doing this, we consider systems that are not necessarily in equilibrium.
+For such systems, D’Alembert’s principle states that, if one introduces a ﬁc-
+titious additional force −˙pi on particle i for each i, where pi is the momentum
+of particle i, then each particle will be in equilibrium. Thus, if one modiﬁes
+(6.19) by replacing F i by F i −˙pi, then the resulting equation is valid for arbi-
+trary systems. One can then remove the constraint forces as before using the
+principle of virtual work. This results in the equations
+k
+X
+i=1
+f T
+i δri −
+k
+X
+i=1
+˙pT
+i δri
+=
+0
+(6.25)
+THE EULER-LAGRANGE EQUATIONS
+195
+The above equation does not mean that each coeﬃcient of δri is zero. For this
+purpose, express each δri in terms of the corresponding virtual displacements

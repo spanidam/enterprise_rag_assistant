@@ -1,0 +1,10 @@
+prior constraints or knowledge. Much of this book is organized around dif- 
+ferent learning methods that search different hypothesis spaces (e.g., spaces 
+containing numerical functions, neural networks, decision trees, symbolic 
+rules) and around theoretical results that characterize conditions under which 
+these search methods converge toward an optimal hypothesis. 
+There are a number of good sources for reading about the latest research 
+results in machine learning. Relevant journals include Machine Learning, Neural 
+Computation, Neural Networks, Journal of the American Statistical Association, 
+and the IEEE Transactions on Pattern Analysis and Machine Intelligence. There 
+are also numerous annual conferences that cover different aspects of machine

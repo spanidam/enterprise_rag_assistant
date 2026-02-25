@@ -1,0 +1,14 @@
+CONCEPTS IN PRACTICE
+Recognizing recursion
+Can the following algorithms be written recursively?
+1. The summation of 1 + 2 + 3 + . . . + (n - 1) + n where n is a positive integer.
+2. Listing the odd numbers greater than 0 and less than a given number n.
+12.2 • Simple math recursion
+289
+3. Listing the primary numbers (prime numbers) greater than 3.
+4. Listing the Fibonacci sequence of numbers.
+Defining a recursive function
+Recursive algorithms are written in Python as functions. In a recursive function different actions are performed
+according to the input parameter value. A critical part of a recursive function is that the function must call
+itself.
+A value for which the recursion applies is called the recursive case. In the recursive case, the function calls

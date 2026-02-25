@@ -1,0 +1,12 @@
+frame. If these 3D coordinates can be obtained in real time, then they can be
+provided as set points to the robot controller, and control techniques described
+in Chapter 7 can be used. The main diﬃculties with position-based methods
+are related to the diﬃculty of building the 3D representation in real time. In
+particular, these methods tend to not be robust with respect to errors in cali-
+bration. Furthermore, with position-based methods, there is no direct control
+over the image itself. Therefore, a common problem with position-based meth-
+ods is that camera motion can cause the object of interest to leave the camera
+ﬁeld of view.
+A second method known as image-based visual servo control directly uses
+the image data to control the robot motion.
+An error funtion is deﬁned in

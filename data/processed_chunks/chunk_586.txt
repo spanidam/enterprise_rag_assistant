@@ -1,0 +1,15 @@
+2Since the coeﬃcients of the polynomial a(s) are real, the only restriction on the pole locations
+is that they occur in complex conjugate pairs.
+256
+INDEPENDENT JOINT CONTROL
+and P is the (unique) symmetric, positive deﬁnite n × n matrix satisfying the
+so-called matrix Algebraic Riccatti equation
+AT P + PA −PbR−1bT P + Q = 0.
+(7.81)
+The control law (7.79) is referred to as a Linear Quadratic (LQ) Optimal
+Control, since the performance index is quadratic and the control system is
+linear.
+(iv) Example 7.4.5
+For illustration purposes, let Q and R in (7.78) be given as Q = diag{100, 0.1, 100, 0.1}
+and R = 100. This puts a relatively large weighting on the position variables
+and control input with smaller weighting on the velocities of the motor and

@@ -1,0 +1,10 @@
+backgammon player, TD-Gammon (Section 15.1). This system used TD(λ)
+to learn an afterstate value function through many games of self-play, using a
+form of heuristic search to make its moves. As a model, TD-Gammon used a
+priori knowledge of the probabilities of dice rolls and the assumption that the
+opponent always selected the actions that TD-Gammon rated as best for it.
+Tesauro found that the deeper the heuristic search, the better the moves made
+by TD-Gammon, but the longer it took to make each move. Backgammon
+has a large branching factor, yet moves must be made within a few seconds.
+It was only feasible to search ahead selectively a few steps, but even so the
+search resulted in signiﬁcantly better action selections.

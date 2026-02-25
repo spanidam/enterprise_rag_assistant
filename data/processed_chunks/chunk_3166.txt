@@ -1,0 +1,15 @@
+to constrain the 
+weights of the neural network? In TANGENTPROP 
+these training derivatives are 
+incorporated into the error function that is minimized by gradient descent. Recall 
+from Chapter 4 that the BACKPROPAGATION 
+algorithm performs gradient descent to 
+attempt to minimize the sum of squared errors 
+where xi denotes the ith training instance, f denotes the true target function, and 
+f denotes the function represented by the learned neural network. 
+In TANGENTPROP 
+an additional term is added to the error function to penal- 
+ize discrepancies between the trainin4 derivatives and the actual derivatives of 
+the learned neural network function f. In general, TANGENTPROP 
+accepts multi- 
+ple transformations (e.g., we might wish to assert both rotational invariance and

@@ -1,0 +1,10 @@
+require that the lazy and eager learner employ the same hypothesis space H. To 
+illustrate, consider the hypothesis space consisting of linear functions. The locally 
+weighted linear regression algorithm discussed earlier is a lazy learning method 
+based on this hypothesis space. For each new query x, it generalizes from the 
+training data by choosing a new hypothesis based on the training examples near x,. 
+In contrast, an eager learner that uses the same hypothesis space of linear functions 
+CHAPTER 8 INSTANCE-BASED LEARNING 245 
+must choose its approximation before the queries are observed. The eager learner 
+must therefore commit to a single linear function hypothesis that covers the entire 
+instance space and all future queries. The lazy method effectively uses a richer

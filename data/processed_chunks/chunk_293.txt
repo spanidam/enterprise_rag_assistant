@@ -1,0 +1,14 @@
+SINGULARITIES
+133
+3. At singularities, bounded end-eﬀector forces and torques may correspond to
+unbounded joint torques. (We will see this in Chapter 9).
+4. Singularities usually (but not always) correspond to points on the boundary
+of the manipulator workspace, that is, to points of maximum reach of the
+manipulator.
+5. Singularities correspond to points in the manipulator workspace that may
+be unreachable under small perturbations of the link parameters, such as
+length, oﬀset, etc.
+6. Near singularities there will not exist a unique solution to the inverse kine-
+matics problem. In such cases there may be no solution or there may be
+inﬁnitely many solutions.
+There are a number of methods that can be used to determine the singu-

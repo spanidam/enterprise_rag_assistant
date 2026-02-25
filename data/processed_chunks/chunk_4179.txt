@@ -1,0 +1,25 @@
+returns here are called ﬂat partial returns:
+¯Gh
+t = Rt+1 + Rt+2 + · · · + Rh,
+0 ≤t < h ≤T,
+where “ﬂat” denotes the absence of discounting, and “partial” denotes that
+these returns do not extend all the way to termination but instead stop at
+h, called the horizon (and T is the time of termination of the episode). The
+conventional full return Gt can be viewed as a sum of ﬂat partial returns as
+suggested above as follows:
+Gt = Rt+1 + γRt+2 + γ2Rt+3 + · · · + γT−t−1RT
+= (1 −γ)Rt+1
++ (1 −γ)γ (Rt+1 + Rt+2)
++ (1 −γ)γ2 (Rt+1 + Rt+2 + Rt+3)
+...
++ (1 −γ)γT−t−2 (Rt+1 + Rt+2 + · · · + RT−1)
++ γT−t−1 (Rt+1 + Rt+2 + · · · + RT)
+= γT−t−1 ¯GT
+t + (1 −γ)
+T−1
+X
+h=t+1
+γh−t−1 ¯Gh
+t
+Now we need to scale the ﬂat partial returns by an importance sampling
+ratio that is similarly truncated. As Gh

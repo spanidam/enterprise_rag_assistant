@@ -1,0 +1,43 @@
+a.
+Caffeine Cafe Order 3 : 16 oz
+b.
+Cafe Coffee Order 3 : 16 oz
+c.
+Error
+12. Suppose the line self.cls_id = 5 is added to the end of __init__()'s definition. What is the new
+output?
+a.
+Cafe Coffee Order 5 : 16 oz
+b.
+Cafe Coffee Order 3 : 16 oz
+c.
+Error
+270
+11 • Classes
+Access for free at openstax.org
+TRY IT
+Creating a class for an airline's flight tickets
+Write a class, FlightTicket, as described below. Default values follow the attributes. Then create a flight
+ticket and assign each instance attribute with values read from input.
+Instance attributes:
+•
+flight_num: 1
+•
+airport: JFK
+•
+gate: T1-1
+•
+time: 8:00
+•
+seat: 1A
+•
+passenger: unknown
+Class attributes:
+•
+airline: Oceanic Airlines
+•
+airline_code: OA
+Method:
+•
+__init__(): initializes the instance attributes
+•

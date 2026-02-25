@@ -1,0 +1,19 @@
+3. Consider the example above. Suppose the venue has to be changed due to inclement weather. How
+should a programmer change the website object to allow changes to the Venue field?
+a.
+Add a procedure to change the field.
+b.
+Allow users direct access to the field.
+c.
+No valid way to allow changes to the field.
+4. Which is a benefit of encapsulation when developing complex programs?
+266
+11 • Classes
+Access for free at openstax.org
+a.
+All objects can easily access and modify each other's data.
+b.
+Each object's data is restricted for intentional access.
+Abstraction
+Abstraction is a key concept in OOP in which a unit's inner workings are hidden from users and other units
+that don't need to know the inner workings. Ex: A driver doesn't usually need to know their car engine's exact,

@@ -1,0 +1,11 @@
+NEIGHBOR 
+in which an explicit local approximation to the target function 
+is constructed for each query instance. The local approximation to the target 
+function may be based on a variety of functional forms such as constant, 
+linear, or quadratic functions or on spatially localized kernel functions. 
+0 Radial basis function (RBF) networks are a type of artificial neural network 
+constructed from spatially localized kernel functions. These can be seen as a 
+blend of instance-based approaches (spatially localized influence of each ker- 
+nel function) and neural network approaches (a global approximation to the 
+target function is formed at training time rather than a local approximation 
+at query time). Radial basis function networks have been used successfully

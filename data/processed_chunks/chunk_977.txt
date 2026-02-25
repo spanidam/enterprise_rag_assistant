@@ -1,0 +1,18 @@
+from an unknown distribution 𝒟, model parameters are optimized so as to minimize the empirical risk:
+ℛ𝑒(𝜃) =
+1
+|𝒟𝑡|
+∑
+(𝑥𝑖,𝑦𝑖)∈𝒟𝑡
+ℒ(𝑥𝑖, 𝑦𝑖; 𝑚𝜃)
+whereas the real objective is to minimize the “true” risk:
+ℛ(𝜃) = 𝔼𝑥,𝑦∼𝒟ℒ(𝑥, 𝑦; 𝑚𝜃)
+and both objectives do not have the same minimizer.
+To avoid this pitfall, one should use regularization techniques, such as the ones presented in the following.
+5.1 Early Stopping
+As illustrated below, it can be observed that training a neural network for a too large number of epochs can lead to
+overfitting. Note that here, the true risk is estimated through the use of a validation set that is not seen during training.
+iris = pd.read_csv("../data/iris.csv", index_col=0)
+iris = iris.sample(frac=1)
+y = to_categorical(iris["target"])
+X = iris.drop(columns=["target"])

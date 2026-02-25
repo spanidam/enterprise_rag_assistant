@@ -1,0 +1,30 @@
+(6.176)
++m2ℓ2
+1¨q1 −m1ℓ1ℓc2( ˙q1 + ˙q2)2 sin q2 + m2ℓ1ℓc2(¨q1 + ¨q2) cos q2
+If we now substitute for τ1 from (6.172) and collect terms, we will get the ﬁrst
+equation in (6.87); the details are routine and are left to the reader.
+PLANAR ELBOW MANIPULATOR REVISITED
+225
+Problems
+6-1 Consider a rigid body undergoing a pure rotation with no external forces
+acting on it. The kinetic energy is then given as
+K
+=
+1
+2(Ixxω2
+x + Iyyω2
+y + Izzω2
+z)
+with respect to a coordinate located at the center of mass and whose
+coordinate axes are principal axes. Take as generalized coordinates the
+Euler angles φ, θ, ψ and show that the Euler-Lagrange equations of motion
+of the rotating body are
+Ixx ˙ωx + (Izz −Iyy)ωyωz
+=
+0
+Iyy ˙ωy + (Ixx −Izz)ωzωx
+=
+0
+Izz ˙ωz + (Iyy −Ixx)ωxωy
+=
+0.

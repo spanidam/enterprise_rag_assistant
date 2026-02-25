@@ -1,0 +1,31 @@
+CONCEPTS IN PRACTICE
+Fibonacci numbers
+1. fib(9) results in _____.
+a.
+13
+b.
+21
+c.
+34
+2. How many calls to the base cases are made as a result of calling fib(5)?
+a.
+2
+b.
+5
+c.
+8
+3. A structure tracing the function calls made as a result of a complex recursive function call is called a
+_____.
+12.4 • More math recursion
+295
+a.
+tree
+b.
+recursion tree
+c.
+iteration tree
+Greatest common divisor (GCD)
+The greatest common divisor (GCD) of two positive integers is an integer that is a divisor for both integers. Ex:
+The GCD of 6 and 9 is 3 because 3 x 2 = 6, and 3 x 3 = 9.
+The GCD is found easily using Euclid's method. Euclid's method recursively subtracts the smaller integer from
+the larger integer until a base case with equal integers is reached. The greatest common divisor is the integer

@@ -1,0 +1,10 @@
+dynamics would include various sources of ﬂexibility, such as elastic deformation
+of bearings and gears, deﬂection of the links under load, and vibrations. In this
+section we are interested mainly in the dynamics of the actuators producing
+the generalized force τ. We treat only the dynamics of permanent magnet DC-
+motors, as these are the simplest actuators to analyze. Other types of motors,
+in particular AC-motors and so-called Brushless DC-motors are increasingly
+common in robot applications (See [?] for details on the dynamics of AC drives.
+A DC-motor works on the principle that a current carrying conductor in a
+magnetic ﬁeld experiences a force F = i × φ, where φ is the magnetic ﬂux and
+i is the current in the conductor. The motor itself consists of a ﬁxed stator

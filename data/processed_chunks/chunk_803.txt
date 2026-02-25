@@ -1,0 +1,52 @@
+0
+0
+0
+0
+0
+2
+2
+2
+2
+2
+0
+0
+2
+2
+2
+2
+2
+2
+2
+2
+0
+0
+2
+2
+2
+2
+2
+2
+2
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+(c)
+(d)
+Fig. 11.5
+The image in (a) is a simple binary image. Background pixels are denoted by
+0 and object pixels are denoted by X. Image (b) shows the assigned labels after the ﬁrst
+raster scan. In image (c), an X denotes those pixels at which an equivalence is noted
+during the ﬁrst raster scan. Image (d) shows the ﬁnal component labelled image.
+equivalent. Thus, in the example of Figure 11.5, at the end of the second raster
+scan labels 3 and 4 have been replaced by the label 2.
+After this algorithm has assigned labels to the components in the image,
+it is not necessarily the case that the labels will be the consecutive integers

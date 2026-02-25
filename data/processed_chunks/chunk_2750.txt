@@ -1,0 +1,12 @@
+at query time). Radial basis function networks have been used successfully 
+in applications such as interpreting visual scenes, in which the assumption 
+of spatially local influences is well-justified. 
+0 Case-based reasoning is an instance-based approach in which instances are 
+represented by complex logical descriptions rather than points in a Euclidean 
+space. Given these complex symbolic descriptions of instances, a rich variety 
+of methods have been proposed for mapping from the training examples to 
+target function values for new instances. Case-based reasoning methods have 
+been used in applications such as modeling legal reasoning and for guiding 
+searches in complex manufacturing and transportation planning problems. 
+The k-NEAREST 
+NEIGHBOR

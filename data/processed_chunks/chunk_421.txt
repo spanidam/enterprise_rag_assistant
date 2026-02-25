@@ -1,0 +1,11 @@
+lem, appeared in [12]. That real robots rarely have an exact description of the
+environment, and a drive for faster planning systems led to the development of
+potential ﬁelds approaches [39, 40].
+By the early nineties, a great deal of research had been done on the geometric
+path planning problem, and this work is nicely summarized in the textbook
+[42]. This textbook helped to generate a renewed interest in the path planning
+problem, and it provided a common framework in which to analyze and express
+path planning algorithms. Soon after, the research ﬁeld of Algorithmic Robotics
+was born at a small workshop in San Francisco [31].
+In the early nineties, randomization was introduced in the robot planning
+community [5], originally to circumvent the problems with local minima in

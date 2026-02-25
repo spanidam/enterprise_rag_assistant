@@ -1,0 +1,24 @@
+technical journal, vol. 30, no. 1, pp. 50–64, 1951.
+[4]
+F. Jelinek, Statistical methods for speech recognition.
+MIT press,
+1998.
+[5]
+C. Manning and H. Schutze, Foundations of statistical natural lan-
+guage processing.
+MIT press, 1999.
+[6]
+C. D. Manning, An introduction to information retrieval.
+Cambridge
+university press, 2009.
+[7]
+W. X. Zhao, K. Zhou, J. Li, T. Tang, X. Wang, Y. Hou, Y. Min,
+B. Zhang, J. Zhang, Z. Dong et al., “A survey of large language
+models,” arXiv preprint arXiv:2303.18223, 2023.
+[8]
+C. Zhou, Q. Li, C. Li, J. Yu, Y. Liu, G. Wang, K. Zhang, C. Ji, Q. Yan,
+L. He et al., “A comprehensive survey on pretrained foundation mod-
+els: A history from bert to chatgpt,” arXiv preprint arXiv:2302.09419,
+2023.
+[9]
+P. Liu, W. Yuan, J. Fu, Z. Jiang, H. Hayashi, and G. Neubig, “Pre-

@@ -1,0 +1,18 @@
+backups, and henceforth we call them one-step TD methods.
+More formally, consider the backup applied to state St as a result of the
+state–reward sequence, St, Rt+1, St+1, Rt+2, . . . , RT, ST (omitting the actions
+for simplicity). We know that in Monte Carlo backups the estimate of vπ(St)
+is updated in the direction of the complete return:
+Gt = Rt+1 + γRt+2 + γ2Rt+3 + · · · + γT−t−1RT,
+where T is the last time step of the episode. Let us call this quantity the target
+of the backup. Whereas in Monte Carlo backups the target is the return, in
+7.1. N-STEP TD PREDICTION
+169
+TD (1-step)
+2-step
+3-step
+n-step
+Monte Carlo
+Figure 7.1: The spectrum ranging from the one-step backups of simple TD
+methods to the up-until-termination backups of Monte Carlo methods.
+In

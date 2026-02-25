@@ -1,0 +1,13 @@
+action. Princeton University Press.
+Campbell, D. T. (1960).
+Blind variation and selective survival as a general
+strategy in knowledge-processes. In M. C. Yovits and S. Cameron (eds.),
+Self-Organizing Systems, pp. 205–231. Pergamon, New York.
+Carlstr¨om, J., Nordstr¨om, E. (1997). Control of self-similar ATM call traﬃc
+by reinforcement learning. In Proceedings of the International Workshop
+on Applications of Neural Networks to Telecommunications 3, pp. 54–62.
+Erlbaum, Hillsdale, NJ.
+Chapman, D., Kaelbling, L. P. (1991). Input generalization in delayed rein-
+forcement learning: An algorithm and performance comparisons. In Pro-
+ceedings of the Twelfth International Conference on Artiﬁcial Intelligence,
+pp. 726–731. Morgan Kaufmann, San Mateo, CA.

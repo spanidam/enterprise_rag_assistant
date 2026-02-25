@@ -1,0 +1,17 @@
+axis/angle by a single vector r as
+r
+=
+(rx, ry, rz)T = (θkx, θky, θkz)T
+(2.54)
+Note, since k is a unit vector, that the length of the vector r is the equivalent
+angle θ and the direction of r is the equivalent axis k.
+Remark 2.1 One should be careful not to interpret the representation in Equa-
+tion (2.54) to mean that two axis/angle representations may be combined using
+standard rules of vector algebra as doing so would imply that rotations commute
+which, as we have seen, in not true in general.
+2.6
+RIGID MOTIONS
+We have seen how to represent both positions and orientations. We combine
+these two concepts in this section to deﬁne a rigid motion and, in the next
+section, we derive an eﬃcient matrix representation for rigid motions using the
+notion of homogeneous transformation.

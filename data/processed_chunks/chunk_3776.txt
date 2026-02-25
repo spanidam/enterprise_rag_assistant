@@ -1,0 +1,10 @@
+solution from game theory is not correct here because it assumes a particular
+way of playing by the opponent. For example, a minimax player would never
+reach a game state from which it could lose, even if in fact it always won from
+that state because of incorrect play by the opponent. Classical optimization
+methods for sequential decision problems, such as dynamic programming, can
+compute an optimal solution for any opponent, but require as input a com-
+plete speciﬁcation of that opponent, including the probabilities with which
+the opponent makes each move in each board state. Let us assume that this
+information is not available a priori for this problem, as it is not for the vast
+majority of problems of practical interest. On the other hand, such informa-

@@ -1,0 +1,27 @@
+the vector from the origin of the robot’s coordinate frame to the ith vertex of
+the robot and bj to be the vector from the origin of the world coordinate frame
+to the jth vertex of the obstacle. An example is shown in Figure 5.1(a). The
+vertices of QO can be determined as follows.
+• For each pair V O
+j
+and V O
+j−1, if V A
+i
+points between −V O
+j
+and −V O
+j−1 then
+add to QO the vertices bj −ai and bj −ai+1.
+• For each pair V A
+i
+and V A
+i−1, if V O
+j
+points between −V A
+i
+and −V A
+i−1 then
+add to QO the vertices bj −ai and bj+1 −ai.
+This is illustrated in Figure 5.1(b). Note that this algorithm essentially places
+the robot at all positions where vertex-vertex contact between robot and obsta-
+cle are possible. The origin of the robot’s local coordinate frame at each such

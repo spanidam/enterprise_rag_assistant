@@ -1,0 +1,14 @@
+(e), and (f), respectively. If (e) and (f) were omitted, the remaining algorithm
+would be one-step tabular Q-learning.
+Example 8.1:
+Dyna Maze
+Consider the simple maze shown inset in
+Figure 8.5. In each of the 47 states there are four actions, up, down, right, and
+left, which take the agent deterministically to the corresponding neighboring
+states, except when movement is blocked by an obstacle or the edge of the
+maze, in which case the agent remains where it is.
+Reward is zero on all
+transitions, except those into the goal state, on which it is +1. After reaching
+the goal state (G), the agent returns to the start state (S) to begin a new
+episode. This is a discounted, episodic task with γ = 0.95.
+The main part of Figure 8.5 shows average learning curves from an ex-

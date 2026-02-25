@@ -1,0 +1,39 @@
+210
+8.6
+Trajectory Sampling
+. . . . . . . . . . . . . . . . . . . . . . .
+213
+8.7
+Heuristic Search . . . . . . . . . . . . . . . . . . . . . . . . . .
+217
+8.8
+Monte Carlo Tree Search . . . . . . . . . . . . . . . . . . . . .
+220
+8.9
+Summary
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+220
+II
+Approximate Solution Methods
+223
+9
+On-policy Approximation of Action Values
+225
+9.1
+Value Prediction with Function Approximation
+. . . . . . . .
+226
+9.2
+Gradient-Descent Methods . . . . . . . . . . . . . . . . . . . .
+229
+9.3
+Linear Methods . . . . . . . . . . . . . . . . . . . . . . . . . .
+232
+9.4
+Control with Function Approximation . . . . . . . . . . . . . .
+241
+9.5
+Should We Bootstrap? . . . . . . . . . . . . . . . . . . . . . .
+247
+9.6
+Summary

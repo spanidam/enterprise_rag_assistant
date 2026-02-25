@@ -1,0 +1,27 @@
+This philosophy means that the standard library should come with everything most programmers need. In
+fact, the standard library includes over 200 built-in modules!
+Module
+Description
+calendar
+General calendar-related functions.
+datetime
+Basic date and time types and functions.
+email
+Generate and process email messages.
+math
+Mathematical functions and constants.
+os
+Interact with the operating system.
+random
+Generate pseudo-random numbers.
+statistics
+Mathematical statistics functions.
+sys
+System-specific parameters and functions.
+turtle
+Educational framework for simple graphics.
+zipfile
+Read and write ZIP-format archive files.
+Table 7.1 Example built-in modules in the standard library.
+CONCEPTS IN PRACTICE
+Built-in modules

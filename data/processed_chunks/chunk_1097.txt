@@ -1,0 +1,33 @@
+a.
+avoid writing syntax errors
+b.
+explain what the code does
+c.
+make the code run faster
+2. Which symbol is used for comments in Python?
+a.
+#
+b.
+/*
+c.
+//
+3. Which comment is formatted correctly?
+a.
+0 spaces:
+#Get the user input
+b.
+1 space:
+# Get the user input
+c.
+2 spaces:
+#
+Get the user input
+Code quality
+The example program above had two parts: (1) display the menu options, and (2) get the user's preferences.
+Together, the blank lines and comments show the overall structure of the program.
+Programmers spend more time reading code than writing code. Therefore, making code easier for others to
+read and understand is important. Two ways to improve code quality include:
+•
+Separate each part (lines that have a similar purpose) with a blank line.
+28
+1 • Statements

@@ -1,0 +1,12 @@
+induced from the training data. 
+12.4 
+USING PRIOR KNOWLEDGE TO ALTER THE SEARCH 
+OBJECTIVE 
+The above approach begins the gradient descent search with a hypothesis that 
+perfectly fits the domain theory, then perturbs this hypothesis as needed to maxi- 
+mize the fit to the training data. An alternative way of using prior knowledge is 
+to incorporate it into the error criterion minimized by gradient descent, so that the 
+network must fit a combined function of the training data and domain theory. In 
+this section, we consider using prior knowledge in this fashion. In particular, we 
+consider prior knowledge in the form of known derivatives of the target function. 
+Certain types of prior knowledge can be expressed quite naturally in this form.

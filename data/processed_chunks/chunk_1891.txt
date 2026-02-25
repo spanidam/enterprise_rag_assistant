@@ -1,0 +1,13 @@
+0 Water (with values Warm and Cool), and 
+0 Forecast (with values Same and Change). 
+0 Hypotheses H: Each hypothesis is described by a conjunction of constraints on the at- 
+tributes Sky, AirTemp, Humidity, Wind, Water, and Forecast. The constraints may be "?" 
+(any value is acceptable), " 0  (no value is acceptable), or a specific value. 
+0 Target concept c: EnjoySport : X + (0,l) 
+0 Training examples D: Positive and negative examples of the target function (see Table 2.1). 
+0 Determine: 
+0 A hypothesis h in H such that h(x) = c(x) for all x in X. 
+TABLE 2.2 
+The EnjoySport concept learning task. 
+When learning the target concept, the learner is presented a set of training 
+examples, each consisting of an instance x from X, along with its target concept

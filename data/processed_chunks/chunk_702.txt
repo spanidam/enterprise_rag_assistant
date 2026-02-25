@@ -1,0 +1,39 @@
+equivalent to interchangeability of the order of partial derivatives of φ, that is,
+∂2φ
+∂x∂y = ∂2φ
+∂y∂x. The Frobenius Theorem, stated next, gives the conditions for
+the existence of a solution to the system of partial diﬀerential Equations (10.22).
+Theorem 2 A distribution ∆is completely integrable if and only if it is invo-
+lutive.
+Proof:
+See, for example, Boothby [?].
+10.3
+FEEDBACK LINEARIZATION
+To introduce the idea of feedback linearization consider the following simple
+system,
+˙x1
+=
+a sin(x2)
+(10.24)
+˙x2
+=
+−x2
+1 + u
+(10.25)
+Note that we cannot simply choose u in the above system to cancel the nonlinear
+term a sin(x2). However, if we ﬁrst change variables by setting
+y1
+=
+x1
+(10.26)
+y2
+=
+a sin(x2) = ˙x1
+(10.27)
+then, by the chain rule, y1 and y2 satisfy
+˙y1
+=
+y2
+˙y2
+=
+a cos(x2)(−x2

@@ -1,0 +1,10 @@
+Chris Mayfield, James Madison University
+Chris Mayfield, PhD, is a Professor of Computer Science at James Madison University. His research focuses on
+CS education and professional development at the undergraduate and high school levels. He received a PhD in
+Computer Science from Purdue University and bachelor’s degrees in CS and German from the University of
+Utah.
+Narges Norouzi, UC Berkeley
+Narges Norouzi received her MS and PhD from the University of Toronto, focusing on applied deep learning.
+She has since been involved in working on applied machine learning projects with a focus on biology and
+education. Her CS education research focuses on using artificial intelligence in the classroom to close the
+equity gap and leading student-centered programs that promote equity and access.

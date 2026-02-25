@@ -1,0 +1,19 @@
+M ¨x = −(1 + m)F
+=⇒
+M
+1 + m ¨x = −F
+(9.25)
+TASK SPACE DYNAMICS AND CONTROL
+293
+Hence, the object now appears to the environment as an inertia with mass
+M
+1 + m. Thus the force feedback has the eﬀect of changing the apparent inertia
+of the system.
+⋄
+The idea behind Impedance Control is to regulate the mechanical impedance,
+i.e., the apparent inertia, damping, and stiﬀness, through force feedback as in
+the above example. For example, in a grinding operation, it may be useful
+to reduce the apparent stiﬀness of the end-eﬀector normal to the part so that
+excessively large normal forces are avoided.
+We may formulate Impedance Control within our standard inner loop/outer
+loop control architecture by specifying the outer loop term, ax, in Equation (9.23).

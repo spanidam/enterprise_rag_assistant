@@ -1,0 +1,10 @@
+combinatorial arguments), it is less likely that one will find a short hypothesis that 
+coincidentally fits the training data. In contrast there are often many very complex 
+hypotheses that fit the current training data but fail to generalize correctly to 
+subsequent data. Consider decision tree hypotheses, for example. There are many 
+more 500-node decision trees than 5-node decision trees. Given a small set of 
+20 training examples, we might expect to be able to find many 500-node deci- 
+sion trees consistent with these, whereas we would be more surprised if a 5-node 
+decision tree could perfectly fit this data. We might therefore believe the 5-node 
+tree is less likely to be a statistical coincidence and prefer this hypothesis over 
+the 500-node hypothesis.

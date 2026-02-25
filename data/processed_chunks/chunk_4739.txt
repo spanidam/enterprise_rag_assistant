@@ -1,0 +1,16 @@
+(pp. 539-577). Springer Berlin Heidelberg.
+Tadepalli, P., Ok, D. (1994). H-learning: A reinforcement learning method to
+15.5. OTHER FRONTIER DIMENSIONS
+333
+optimize undiscounted average reward. Technical Report 94-30-01. Oregon
+State University, Computer Science Department, Corvallis.
+Tan, M. (1991). Learning a cost-sensitive internal representation for reinforce-
+ment learning.
+In L. A. Birnbaum and G. C. Collins (eds.), Proceedings
+of the Eighth International Workshop on Machine Learning, pp. 358–362.
+Morgan Kaufmann, San Mateo, CA.
+Tan, M. (1993).
+Multi-agent reinforcement learning: Independent vs. coop-
+erative agents.
+In Proceedings of the Tenth International Conference on
+Machine Learning, pp. 330–337. Morgan Kaufmann, San Mateo, CA.

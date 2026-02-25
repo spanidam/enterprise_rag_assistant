@@ -1,0 +1,13 @@
+technicians, one ATE, one SPCDS, and one HITS. Some resources are divided
+into pools, and if a task needs more than one resource of a speciﬁc type, the
+resources must belong to the same pool, and the pool has to be the right one.
+296
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+For example, if a task needs two quality control oﬃcers, they both have to be
+in the pool of quality control oﬃcers working on the same shift at the right
+site.
+It is not too hard to ﬁnd a conﬂict-free schedule for a job, one that
+meets all the temporal and resource constraints, but the objective is to ﬁnd a
+conﬂict-free schedule with the shortest possible total duration, which is much
+more diﬃcult.
+How can you do this using reinforcement learning? Job-shop scheduling

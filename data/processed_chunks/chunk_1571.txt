@@ -1,0 +1,30 @@
+my_tax.calc_tax()
+a.
+ContractTaxDE must inherit from Tax, not ContractTax.
+310
+13 • Inheritance
+Access for free at openstax.org
+b.
+ContractTaxDE's definition of calc_tax() is missing a parameter.
+c.
+ContractTaxDE can't override calc_tax() since ContractTax already has.
+3. The following program doesn't override calc_tax(). Why?
+class Tax:
+def calc_tax(self):
+print('Calculating tax')
+total = 0 # To replace with calculation
+return total
+class ContractTax:
+def calc_tax(self):
+print('Calculating contract tax')
+total = 0 # To replace with calculation
+return total
+my_tax = ContractTax()
+my_tax.calc_tax()
+a.
+An overridden method cannot return a value.
+b.
+Tax doesn't specify calc_tax() can be overridden.
+c.
+ContractTax isn't inherited from Tax.
+super()

@@ -1,0 +1,10 @@
+Q(s1, aright) = 72.9, where aright refers to the action that moves R to its right. When the robot 
+executes the action aright, it receives immediate reward r = 0 and transitions to state s2. It then 
+updates its estimate i)(sl, aright) based on its Q estimates for the new state s2. Here y = 0.9. 
+CHAPTER 13 REINFORCEMENT LEARNING 377 
+the agent is transported to a new, randomly chosen, initial state for the next 
+episode. 
+How will the values of Q evolve as the Q learning algorithm is applied in 
+this case? With all the Q values initialized to zero, the agent will make no changes 
+to any Q table entry until it happens to reach the goal state and receive a nonzero 
+reward. This will result in refining the Q value for the single transition leading

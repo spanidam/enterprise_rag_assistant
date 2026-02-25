@@ -1,0 +1,10 @@
+episodic task. If λ = 1, the algorithm is also known as TD(1).
+TD(1) is a way of implementing Monte Carlo algorithms that is more gen-
+eral than those presented earlier and that signiﬁcantly increases their range
+of applicability. Whereas the earlier Monte Carlo methods were limited to
+episodic tasks, TD(1) can be applied to discounted continuing tasks as well.
+Moreover, TD(1) can be performed incrementally and on-line. One disadvan-
+tage of Monte Carlo methods is that they learn nothing from an episode until
+it is over. For example, if a Monte Carlo control method does something that
+produces a very poor reward but does not end the episode, then the agent’s
+tendency to do that will be undiminished during the episode. On-line TD(1),

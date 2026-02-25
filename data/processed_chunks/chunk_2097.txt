@@ -1,0 +1,10 @@
+also be applied after learning, to classify new instances whose attribute values 
+are unknown. In this case, the classification of the new instance is simply the 
+most probable classification, computed by summing the weights of the instance 
+fragments classified in different ways at the leaf nodes of the tree. This method 
+for handling missing attribute values is used in C4.5 (Quinlan 1993). 
+3.7.5 Handling Attributes with Differing Costs 
+In some learning tasks the instance attributes may have associated costs. For 
+example, in learning to classify medical diseases we might describe patients in 
+terms of attributes such as Temperature, BiopsyResult, Pulse, BloodTestResults, 
+etc. These attributes vary significantly in their costs, both in terms of monetary

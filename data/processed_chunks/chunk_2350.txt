@@ -1,0 +1,10 @@
+5 
+approaches a Normal distribution, with zero mean and standard deviation equal to 1. 
+This is a quite surprising fact, because it states that we know the form of 
+the distribution that governs the sample mean ? even when we do not know the 
+form of the underlying distribution that governs the individual Yi that are being 
+observed! Furthermore, the Central Limit Theorem describes how the mean and 
+variance of Y can be used to determine the mean and variance of the individual Yi. 
+The Central Limit Theorem is a very useful fact, because it implies that 
+whenever we define an estimator that is the mean of some sample (e.g., errors(h) 
+is the mean error), the distribution governing this estimator can be approximated

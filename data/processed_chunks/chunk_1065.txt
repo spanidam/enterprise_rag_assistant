@@ -1,0 +1,32 @@
+Code
+Output
+print("Today is Monday.")
+print("I like string beans.")
+Today is Monday.
+I like string beans.
+print("Today", "is", "Monday")
+print("Today", "is", "Monday", sep="...")
+Today is Monday
+Today...is...Monday
+print("Today is Monday, ", end="")
+print("I like string beans.")
+Today is Monday, I like string
+beans.
+print("Today", "is", "Monday", sep="? ",
+end="!!")
+print("I like string beans.")
+Today? is? Monday!!I like string
+beans.
+Table 1.1 Example uses of print().
+CHECKPOINT
+Displaying output to the user
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-2-inputoutput)
+CONCEPTS IN PRACTICE
+The print() function
+1. Which line of code prints Hello world! as one line of output?
+a.
+print(Hello world!)
+b.
+print("Hello", "world", "!")
+c.

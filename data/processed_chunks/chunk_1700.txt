@@ -1,0 +1,12 @@
+with 4.0 .
+3. a. A calculation with a float and an integer produces a float. x is a float, 42.0 , after the code executes.
+4. a. float() converts the input number of slices from a string to a float for the pizza order calculation.
+5. b. int() removes any fractional part. Many calculations will produce a fractional part. Ex: 46 people with
+3.0 slices per person will need 138 slices or 17.25 pizzas. int(17.25) is 17 , so adding 1 produces 18
+pizzas, a better estimate to ensure enough pizza is ordered.
+6. a. y = int(4.5) = 4. The fractional part, 0.5, is removed.
+7. b. str(4.5) produces "4.5" .
+8. a. float(y) = float(4) = 4.0.The fractional part, 0.5, was removed during the integer conversion,
+int(x).
+2.3 Mixed data types
+1. b. Multiplying an integer and a float produces a float.

@@ -1,0 +1,28 @@
+result = -2 ** 3
+a.
+1
+b.
+2
+c.
+3
+TRY IT
+Values and types
+Write a Python computer program that:
+1.
+Defines an integer variable named 'int_a' and assigns 'int_a' with the value 10.
+2.
+Defines a floating-point variable named 'float_a' and assigns 'float_a' with the value 10.0.
+3.
+Defines a string variable named 'string_a' and assigns 'string_a' with the string value "10".
+4.
+Prints the value of each of the three variables along with their type.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-5-number-basics)
+TRY IT
+Meters to feet
+Write a Python computer program that:
+1.
+Assigns the integer value 10 to a variable, meters.
+2.
+Assigns the floating-point value 3.28 to a variable, meter2feet.
+3.

@@ -1,0 +1,12 @@
+this case, instances that have identical values for the 2 relevant attributes may 
+nevertheless be distant from one another in the 20-dimensional instance space. 
+As a result, the similarity metric used by k-NEAREST 
+NEIGHBOR--depending on 
+all 20 attributes-will 
+be misleading. The distance between neighbors will be 
+dominated by the large number of irrelevant attributes. This difficulty, which 
+arises when many irrelevant attributes are present, is sometimes referred to as the 
+curse of dimensionality. Nearest-neighbor approaches are especially sensitive to 
+this problem. 
+One interesting approach to overcoming this problem is to weight each 
+attribute differently when calculating the distance between two instances. This

@@ -1,0 +1,17 @@
+for sufficiently large sample sizes the Binomial distribution can be closely ap- 
+proximated by the Normal distribution. The Normal distribution, summarized in 
+Table 5.4, is perhaps the most well-studied probability distribution in statistics. 
+As illustrated in Table 5.4, it is a bell-shaped distribution fully specified by its 
+Normal dismbution with mean 0. standard deviation I 
+3 
+-2 
+-1 
+0 
+1 
+2 
+3 
+A Normal distribution (also called a Gaussian distribution) is a bell-shaped distribution defined by 
+the probability density function 
+A Normal distribution is fully determined by two parameters in the above formula: p and a. 
+If the random variable X follows a normal distribution, then: 
+0 The probability that X will fall into the interval (a, 6) is given by

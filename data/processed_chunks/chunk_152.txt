@@ -1,0 +1,20 @@
+represented by the quaternion (q0, q1, q2, q3).
+29. Determine the quaternion Q that represents the same rotation as given
+by the rotation matrix R.
+30. The quaternion Q = (q0, q1, q2, q3) can be thought of as having a scalar
+component q0 and a vector component = (q1, q2, q3)T .
+Show that the
+product of two quaternions, Z = XY is given by
+z0
+=
+x0y0 −xT y
+z
+=
+x0y + y0x + x × y,
+Hint: perform the multiplication (x0+ix1+jx2+kx3)(y0+iy1+jy2+ky3)
+and simplify the result.
+31. Show that QI = (1, 0, 0, 0) is the identity element for unit quaternion
+multiplication, i.e., that QQI = QIQ = Q for any unit quaternion Q.
+32. The conjugate Q∗of the quaternion Q is deﬁned as
+Q∗= (q0, −q1, −q2, −q3)
+Show that Q∗is the inverse of Q, i.e., that Q∗Q = QQ∗= (1, 0, 0, 0).

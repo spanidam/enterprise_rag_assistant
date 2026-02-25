@@ -1,0 +1,11 @@
+performs better than the ε = 0.1 method on both performance measures. It
+is also possible to reduce ε over time to try to get the best of both high and
+low values.
+The advantage of ε-greedy over greedy methods depends on the task. For
+example, suppose the reward variance had been larger, say 10 instead of 1.
+With noisier rewards it takes more exploration to ﬁnd the optimal action, and
+ε-greedy methods should fare even better relative to the greedy method. On
+the other hand, if the reward variances were zero, then the greedy method
+would know the true value of each action after trying it once. In this case the
+greedy method might actually perform best because it would soon ﬁnd the
+optimal action and then never explore. But even in the deterministic case,

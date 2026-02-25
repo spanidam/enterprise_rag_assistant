@@ -1,0 +1,12 @@
+estimator. It is a dynamical system (constructed in software) that attempts to
+estimate the full state x(t) using only the system model (7.68)-7.70) and the
+STATE SPACE DESIGN
+257
+measured output y(t). A complete discussion of observers is beyond the scope
+of the present text. We give here only a brief introduction to the main idea of
+observers for linear systems.
+Assuming that we know the parameters of the system (7.68) we could sim-
+ulate the response of the system in software and recover the value of the state
+x(t) at time t from the simulation. We could then use this simulated or esti-
+mated state, call in ˆx(t), in place of the true state in (7.79). However, since
+the true initial condition x(t0) for (7.68) will generally be unknown, this idea

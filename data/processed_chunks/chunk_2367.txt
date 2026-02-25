@@ -1,0 +1,9 @@
+Notice the constant t ~ , k - l  in Equation (5.17) has two subscripts. The first 
+specifies the desired confidence level, as it did for our earlier constant Z N .  The 
+second parameter, called the number of degrees of freedom and usually denoted by 
+v ,  is related to the number of independent random events that go into producing 
+the value for the random variable 8. In the current setting, the number of degrees 
+of freedom is k - 1. Selected values for the parameter t are given in Table 5.6. 
+Notice that as k + oo, the value of t ~ , k - l  approaches the constant Z N .  
+Note the procedure described here for comparing two learning methods in- 
+volves testing the two learned hypotheses on identical test sets. This contrasts with

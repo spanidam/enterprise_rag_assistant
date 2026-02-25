@@ -1,0 +1,12 @@
+asymptotic solution quality.
+Tile Coding
+Tile coding is a form of coarse coding that is particularly well suited for use on
+sequential digital computers and for eﬃcient on-line learning. In tile coding
+the receptive ﬁelds of the features are grouped into exhaustive partitions of
+the input space. Each such partition is called a tiling, and each element of the
+partition is called a tile. Each tile is the receptive ﬁeld for one binary feature.
+An immediate advantage of tile coding is that the overall number of features
+that are present at one time is strictly controlled and independent of the input
+state. Exactly one feature is present in each tiling, so the total number of
+features present is always the same as the number of tilings.
+This allows

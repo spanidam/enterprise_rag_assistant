@@ -1,0 +1,13 @@
+(Ph.D. dissertation). Harvard University. 
+Widrow, B., & Hoff, M. E. (1960). Adaptive switching circuits. IRE WESCON Convention Record, 
+4,96104. 
+Widrow, B., & Stearns, S. D. (1985). Adaptive signalprocessing. Signal Processing Series. Englewood 
+Cliffs, NJ: Prentice Hall. 
+Williams, R., & Zipser, D. (1995). Gradient-based learning algorithms for recurrent networks and their 
+computational complexity. In Y. Chauvin & D. Rumelhart (Eds.), Backpropagation: Theory, 
+architectures, and applications (pp. 433-486). Hillsdale, NJ: Lawrence Erlbaum Associates. 
+Zometzer, S. F., Davis, J. L., & Lau, C. (1994). An introduction to neural and electronic neiworks 
+(edited collection) (2nd ed.). New York: Academic Press. 
+CHAPTER 
+EVALUATING 
+HYPOTHESES

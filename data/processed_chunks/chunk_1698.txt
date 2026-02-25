@@ -1,0 +1,14 @@
+longer than the code.
+380
+Access for free at openstax.org
+1.8 Why Python?
+1. a. The language was named after Monty Python. Just for fun, the official documentation makes subtle
+references to Monty Python comedy sketches.
+2. b. Python's first release was in 1991, after being developed in the late 1980's.
+3. c. Making Python open source early on allowed for many programmers to provide feedback.
+4. b. For 20 years, Java and C traded places as the top language until Python took over in 2021!
+5. a. The line for Python crosses the line for JavaScript in the middle of 2018.
+6. b. TIOBE started tracking language popularity in 2001, several years after web search engines became
+popular.
+Chapter 2
+2.1 The Python shell

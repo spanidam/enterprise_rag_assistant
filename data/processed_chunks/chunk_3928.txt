@@ -1,0 +1,14 @@
+the current positions and velocities of the mechanical linkages. The actions
+in this case might be the voltages applied to each motor at each joint, and
+the states might be the latest readings of joint angles and velocities.
+The
+reward might be +1 for each object successfully picked up and placed. To
+encourage smooth movements, on each time step a small, negative reward can
+be given as a function of the moment-to-moment “jerkiness” of the motion.
+3.2. GOALS AND REWARDS
+57
+Example 3.3: Recycling Robot
+A mobile robot has the job of collecting
+empty soda cans in an oﬃce environment. It has sensors for detecting cans, and
+an arm and gripper that can pick them up and place them in an onboard bin; it
+runs on a rechargeable battery. The robot’s control system has components for

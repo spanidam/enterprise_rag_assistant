@@ -1,0 +1,16 @@
+new literal is based on the numbers of positive and negative bindings covered 
+before and after adding the new literal. More precisely, consider some rule R, and 
+a candidate literal L that might be added to the body of R. Let R' be the rule 
+created by adding literal L to rule R. The value Foil-Gain(L, R) of adding L to 
+R is defined as 
+P1 
+) 
+(10.1) 
+Foil -Gain(L, R) = t - 
+- log2 - 
+P1+ nl 
+PO + no 
+where po is the number of positive bindings of rule R, no is the number of 
+negative bindings of R, pl is the number of positive bindings of rule R', and 
+nl is the number of negative bindings of R'. Finally, t is the number of positive 
+bindings of rule R that are still covered after adding literal L to R. When a new

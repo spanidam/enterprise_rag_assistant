@@ -1,0 +1,20 @@
+a.
+new_list == [3, 4, 5]
+b.
+new_list = [3, 4, 5]
+c.
+new_list = (3, 4, 5)
+3.4 • List basics
+83
+2. Which of the following is not a valid way to specify a list in Python?
+a.
+my_list = [2, 2 3, 23]
+b.
+my_list = ["Jimmy", 2, "times"]
+c.
+my_list = ["C", "C++", "Python", "Java", "Rust", "Scala"]
+Using indexes
+Individual list elements can be accessed directly using an index. Indexes begin at 0 and end at one less than
+the length of the sequence. Ex: For a sequence of 50 elements, the first position is 0, and the last position is 49.
+The index number is put in square brackets [] and attached to the end of the name of the list to access the
+required element. Ex: new_list[3] accesses the 4th element in new_list. An expression that evaluates to an

@@ -1,0 +1,12 @@
+7.5
+Sarsa(λ)
+How can eligibility traces be used not just for prediction, as in TD(λ), but for
+control? As usual, the main idea of one popular approach is simply to learn
+action values, Qt(s, a), rather than state values, Vt(s). In this section we show
+how eligibility traces can be combined with Sarsa in a straightforward way to
+produce an on-policy TD control method. The eligibility trace version of Sarsa
+we call Sarsa(λ), and the original version presented in the previous chapter
+we henceforth call one-step Sarsa.
+The idea in Sarsa(λ) is to apply the TD(λ) prediction method to state–
+action pairs rather than to states. Obviously, then, we need a trace not just
+for each state, but for each state–action pair. Let Et(s, a) denote the trace for

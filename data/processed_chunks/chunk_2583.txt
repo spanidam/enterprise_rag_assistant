@@ -1,0 +1,14 @@
+and c disagree. However, the same h and c will have a much higher error if D 
+happens to assign very high probability to instances for which h and c disagree. 
+In the extreme, if V happens to assign zero probability to the instances for which 
+Instance space X 
+C 
+Where c 
+and h disagree 
+FIGURE 7.1 
+The error of hypothesis h with respect to target concept c. The error of h with respect to c is the 
+probability that a randomly drawn instance will fall into the region where h and c disagree on its 
+classification. The + and - points indicate positive and negative training examples. Note h has a 
+nonzero error with respect to c despite the fact that h and c agree on all five training examples 
+observed thus far. 
+h(x) = ~ ( x ) ,

@@ -1,0 +1,37 @@
+and empirical research.
+2.5
+Optimistic Initial Values
+All the methods we have discussed so far are dependent to some extent on
+the initial action-value estimates, Q1(a). In the language of statistics, these
+methods are biased by their initial estimates. For the sample-average methods,
+40
+CHAPTER 2. MULTI-ARM BANDITS
+0%
+20%
+40%
+60%
+80%
+100%
+%
+Optimal
+action
+0
+200
+400
+600
+800
+1000
+Plays
+optimistic, greedy
+Q0 = 5,    = 0
+realistic, !-greedy
+Q0 = 0,    = 0.1
+1
+1
+Steps
+𝜀
+𝜀
+Figure 2.2: The eﬀect of optimistic initial action-value estimates on the 10-
+armed testbed. Both methods used a constant step-size parameter, α = 0.1.
+the bias disappears once all actions have been selected at least once, but for
+methods with constant α, the bias is permanent, though decreasing over time

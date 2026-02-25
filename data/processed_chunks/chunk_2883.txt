@@ -1,0 +1,9 @@
+other words, if the decision node tests an attribute that has m possible values, the 
+choice of the decision node corresponds to choosing a precondition for each of the 
+m corresponding rules (see Exercise 10.1). Thus, sequential covering algorithms 
+such as CN2 make a larger number of independent choices than simultaneous 
+covering algorithms such as ID3. Still, the question remains, which should we 
+prefer? The answer may depend on how much training data is available. If data is 
+plentiful, then it may support the larger number of independent decisions required 
+by the sequential covering algorithm, whereas if data is scarce, the "sharing" of 
+decisions regarding preconditions of different rules may be more effective. An

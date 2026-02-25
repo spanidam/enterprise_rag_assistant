@@ -1,0 +1,21 @@
+P ( ~ ( D )  
+= - 
+' P(h) - 
+- o if h is inconsistent with D 
+P(D) 
+The posterior probability of a hypothesis inconsistent with D is zero. 
+Now consider the case where h is consistent with D. Since Equation (6.4) 
+defines P(Dlh) to be 1 when h is consistent with D, we have 
+- 
+1 
+-- 
+if h is consistent with D 
+IVSH,DI 
+where V S H , ~  
+is the subset of hypotheses from H that are consistent with D (i.e., 
+V S H , ~  
+is the version space of H with respect to D as defined in Chapter 2). It 
+is easy to verify that P(D) = 
+above, because the sum over all hypotheses 
+of P(h ID) must be one and because the number of hypotheses from H consistent 
+with D is by definition IVSH,DI. Alternatively, we can derive P(D) from the

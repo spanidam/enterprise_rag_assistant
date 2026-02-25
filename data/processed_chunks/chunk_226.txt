@@ -1,0 +1,63 @@
+s1c23
+−s1s23
+−c1
+s23
+c23
+0
+
+
+(3.62)
+The matrix R3
+6 = A4A5A6 is given as
+R3
+6
+=
+
+
+c4c5c6 −s4s6
+−c4c5s6 −s4c6
+c4s5
+s4c5c6 + c4s6
+−s4c5s6 + c4c6
+s4s5
+−s5c6
+s5s6
+c5
+
+
+(3.63)
+The equation to be solved for the ﬁnal three variables is therefore
+R3
+6
+=
+(R0
+3)T R
+(3.64)
+98
+FORWARD AND INVERSE KINEMATICS
+and the Euler angle solution can be applied to this equation. For example, the
+three equations given by the third column in the above matrix equation are given
+by
+c4s5
+=
+c1c23r13 + s1c23r23 + s23r33
+(3.65)
+s4s5
+=
+−c1s23r13 −s1s23r23 + c23r33
+(3.66)
+c5
+=
+s1r13 −c1r23
+(3.67)
+Hence, if not both of the expressions (3.65), (3.66) are zero, we obtain θ5 from
+(2.29) and (2.30) as
+θ5
+=
+atan2
+
+s1r13 −c1r23, ±
+p
+1 −(s1r13 −c1r23)2
+
+(3.68)

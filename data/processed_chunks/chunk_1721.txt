@@ -1,0 +1,11 @@
+5.1 While loop
+1. b. The loop runs six times for values of g = 1 , 2 , 3 , 5 , 8 , and 13 .
+2. c. 21 is the first Fibonacci number larger than 20, and for g = 21, the condition will evaluate to False for
+the first time.
+3. a. The code first prints the variable f's initial value. Then, at each iteration, g's value is printed, and g's
+value throughout the code's execution will be 1 , 2 , 3 , 5 , 8 , and 13 . Thus, all printed values are 1 , 1
+, 2 , 3 , 5 , 8 , and 13 .
+4. b. The loop runs for n = 4, 3 , 2 , 1 .
+5. b. The loop's termination condition is n = 0; therefore, the value of n after the loop equals 0 . The last
+printed line will be: value of n after the loop is 0.
+6. c. Since the initialization value for n equals 4 and the value of n is only increasing, the loop condition will

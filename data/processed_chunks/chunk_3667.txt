@@ -1,0 +1,17 @@
+Advances in neural information processing systems, vol. 30, 2017.
+[138]
+H. Lee, S. Phatale, H. Mansoor, K. Lu, T. Mesnard, C. Bishop, V. Car-
+bune, and A. Rastogi, “Rlaif: Scaling reinforcement learning from
+human feedback with ai feedback,” arXiv preprint arXiv:2309.00267,
+2023.
+[139]
+R. Rafailov, A. Sharma, E. Mitchell, S. Ermon, C. D. Manning, and
+C. Finn, “Direct preference optimization: Your language model is
+secretly a reward model,” arXiv preprint arXiv:2305.18290, 2023.
+[140]
+S. Rajbhandari, J. Rasley, O. Ruwase, and Y. He, “Zero: Memory
+optimizations toward training trillion parameter models,” in SC20: In-
+ternational Conference for High Performance Computing, Networking,
+Storage and Analysis.
+IEEE, 2020, pp. 1–16.
+[141]

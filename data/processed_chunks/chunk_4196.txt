@@ -1,0 +1,12 @@
+state. Exhibit several trajectories following the optimal policy.
+∗Exercise 5.10 Modify the algorithm for oﬀ-policy Monte Carlo control (Fig-
+ure 5.10) to use the idea of the truncated weighted-average estimator (5.9).
+Note that you will ﬁrst need to convert this equation to action values.
+Chapter 6
+Temporal-Diﬀerence Learning
+If one had to identify one idea as central and novel to reinforcement learning,
+it would undoubtedly be temporal-diﬀerence (TD) learning. TD learning is
+a combination of Monte Carlo ideas and dynamic programming (DP) ideas.
+Like Monte Carlo methods, TD methods can learn directly from raw experience
+without a model of the environment’s dynamics. Like DP, TD methods update
+estimates based in part on other learned estimates, without waiting for a ﬁnal

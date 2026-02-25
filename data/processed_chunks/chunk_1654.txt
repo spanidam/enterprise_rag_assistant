@@ -1,0 +1,62 @@
+"City"]
+# Create a DataFrame from
+list using column labels
+df = pd.DataFrame(data,
+columns=columns)
+# Display the DataFrame
+df
+Name
+Age
+City
+0
+Emma
+15
+Dubai
+1
+Gireeja
+28
+London
+2
+Sophia
+22
+San
+Jose
+The
+pd.DataFrame()
+function takes in a
+list containing the
+records in different
+rows of a
+DataFrame, along
+with a list of
+column labels, and
+creates a
+DataFrame with the
+given rows and
+column labels.
+Table 15.2 DataFrame creation.
+356
+15 • Data Science
+Access for free at openstax.org
+Description
+Example
+Output
+Explanation
+DataFrame
+from a
+NumPy
+array
+import numpy as np
+import pandas as pd
+# Create a NumPy array
+data = np.array([
+[1, 0, 0],
+[0, 1, 0],
+[2, 3, 4]
+])
+# Define column labels
+columns = ["A", "B", "C"]
+# Create a DataFrame from
+the NumPy array
+df = pd.DataFrame(data,
+columns=columns)

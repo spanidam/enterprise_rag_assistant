@@ -1,0 +1,37 @@
+def display(self): # Same name as superclass
+method
+print('Subclass method')
+Table 13.2 Chapter 13 reference.
+324
+13 • Inheritance
+Access for free at openstax.org
+Task
+Example
+Implement hierarchical inheritance
+class SuperClass:
+def display(self):
+print('Superclass method')
+class SubClass1(SuperClass):
+def display(self):
+print('Subclass 1 method ')
+class SubClass2(SuperClass):
+def display(self):
+print('Subclass 2 method')
+class SubClass3(SuperClass):
+def display(self):
+print('Subclass 3 method')
+Implement multiple inheritance
+class SuperClass1:
+pass
+class SuperClass2:
+pass
+class SubClass(SuperClass1, SuperClass2):
+pass
+Table 13.2 Chapter 13 reference.
+13.6 • Chapter summary
+325
+326
+13 • Inheritance
+Access for free at openstax.org
+Figure 14.1 credit: Larissa Chu, CC BY 4.0
+Chapter Outline

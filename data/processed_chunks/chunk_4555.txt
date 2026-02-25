@@ -1,0 +1,12 @@
+layer to estimate the probability of each player’s winning in a special way
+called a “gammon” or “backgammon.”) The network consisted of a layer of
+input units, a layer of hidden units, and a ﬁnal output unit. The input to the
+network was a representation of a backgammon position, and the output was
+an estimate of the value of that position.
+In the ﬁrst version of TD-Gammon, TD-Gammon 0.0, backgammon posi-
+tions were represented to the network in a relatively direct way that involved
+little backgammon knowledge. It did, however, involve substantial knowledge
+276
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+of how neural networks work and how information is best presented to them.
+It is instructive to note the exact representation Tesauro chose. There were a

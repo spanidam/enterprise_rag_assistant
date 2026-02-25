@@ -1,0 +1,17 @@
+[17]
+P.-S. Huang, X. He, J. Gao, L. Deng, A. Acero, and L. Heck, “Learning
+deep structured semantic models for web search using clickthrough
+data,” in Proceedings of the 22nd ACM international conference on
+Information & Knowledge Management, 2013, pp. 2333–2338.
+[18]
+J. Gao, C. Xiong, P. Bennett, and N. Craswell, Neural Approaches to
+Conversational Information Retrieval. Springer Nature, 2023, vol. 44.
+[19]
+I. Sutskever, O. Vinyals, and Q. V. Le, “Sequence to sequence learning
+with neural networks,” Advances in neural information processing
+systems, vol. 27, 2014.
+[20]
+K. Cho, B. Van Merri¨enboer, D. Bahdanau, and Y. Bengio, “On
+the properties of neural machine translation: Encoder-decoder ap-
+proaches,” arXiv preprint arXiv:1409.1259, 2014.
+[21]

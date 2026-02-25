@@ -1,0 +1,13 @@
+other lists.
+8. a. Both lists have the same items in the same order.
+12.4 More math recursion
+1. c. fib(9) = fib(8) + fib(7). fib(9) = fib(8) + fib(7) = 21 + 13 = 34.
+2. c. There are eight calls to base cases as seen in the animation. Those calls result in the recursion returning
+and the final value being computed.
+3. b. The structure that shows which function calls are made is called a recursion tree. A recursion tree can be
+used to trace how the final values are computed.
+4. c. 5 * 3 = 15 and 5 * 7 = 35, so 5 is a the greatest common divisor of 15 and 35 .
+5. a. The first call gcd(24, 30) results in 30 - 24 = 6, so the next call is gcd(24, 6). Thereafter, other
+calls are gcd(18, 6), gcd(12, 6), and gcd (6,6) for a total of four recursive calls after the initial
+function call.
+397

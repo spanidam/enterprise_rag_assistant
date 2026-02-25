@@ -1,0 +1,12 @@
+Certain types of prior knowledge can be expressed quite naturally in this form. 
+For example, in training a neural network to recognize handwritten characters we 
+CHAF'TER 
+12 COMBINING INDUCTIVE AND ANALYTICAL LEARNiNG 347 
+can specify certain derivatives of the target function in order to express our prior 
+knowledge that "the identity of the character is independent of small translations 
+and rotations of the image." 
+Below we describe the TANGENTPROP 
+algorithm, which trains a neural net- 
+work to fit both training values and training derivatives. Section 12.4.4 then de- 
+scribes how these training derivatives can be obtained from a domain theory 
+similar to the one used in the Cup example of Section 12.3. In particular, it

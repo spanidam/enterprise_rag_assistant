@@ -1,0 +1,13 @@
+model. This includes a discussion of the WEIGHTED 
+MAJORITY 
+algorithm for 
+combining multiple learning methods. 
+0 Chapter 8 describes instance-based learning methods, including nearest neigh- 
+bor learning, locally weighted regression, and case-based reasoning. 
+0 Chapter 9 discusses learning algorithms modeled after biological evolution, 
+including genetic algorithms and genetic programming. 
+0 Chapter 10 covers algorithms for learning sets of rules, including Inductive 
+Logic Programming approaches to learning first-order Horn clauses. 
+0 Chapter 11 covers explanation-based learning, a learning method that uses 
+prior knowledge to explain observed training examples, then generalizes 
+based on these explanations.

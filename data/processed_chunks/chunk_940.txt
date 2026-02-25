@@ -1,0 +1,18 @@
+homes in $1000 "PRICE", as a function of the average number of rooms per dwelling "RM" :
+sns.scatterplot(data=boston, x="RM", y="PRICE");
+4
+Chapter 1. Introduction
+Deep Learning Basics (lecture notes)
+A short note on this model
+In the Perceptron terminology, this model:
+• has no activation function (i.e. 𝜑is the identity function)
+• has no bias (i.e. 𝑏is forced to be 0, it is not learnt)
+Let us assume we have a naive approach in which our prediction model is linear without intercept, that is, for a given
+input 𝑥𝑖the predicted output is computed as:
+̂𝑦𝑖= 𝑤𝑥𝑖
+where 𝑤is the only parameter of our model.
+Let us further assume that the quantity we aim at minimizing (our objective, also called loss) is:
+ℒ(𝑤) = ∑
+𝑖
+( ̂𝑦𝑖−𝑦𝑖)
+2

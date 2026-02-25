@@ -1,0 +1,9 @@
+training examples. A similar symptom will appear when the training examples are 
+correct, but the target concept cannot be described in the hypothesis representation 
+(e.g., if the target concept is a disjunction of feature attributes and the hypothesis 
+space supports only conjunctive descriptions). We will consider such eventualities 
+in greater detail later. For now, we consider only the case in which the training 
+examples are correct and the true target concept is present in the hypothesis space. 
+2.6.2 What Training Example Should the Learner Request Next? 
+Up to this point we have assumed that training examples are provided to the 
+learner by some external teacher. Suppose instead that the learner is allowed to

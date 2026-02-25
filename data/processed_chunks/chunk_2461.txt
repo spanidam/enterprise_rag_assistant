@@ -1,0 +1,10 @@
+ples (the receiver can compute these values once it has received the hypothesis). 
+The description length of the classifications given the hypothesis in this case is, 
+therefore, zero. In the case where some examples are misclassified by h, then 
+for each misclassification we need to transmit a message that identifies which 
+example is misclassified (which can be done using at most logzm bits) as well 
+as its correct classification (which can be done using at most log2 k bits, where 
+k is the number of possible classifications). The hypothesis hMDL under the en- 
+coding~ C1 and C2 is just the one that minimizes the sum of these description 
+lengths. 
+Thus the MDL principle provides a way of trading off hypothesis complexity

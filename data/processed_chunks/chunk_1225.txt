@@ -1,0 +1,15 @@
+96
+4 • Decisions
+Access for free at openstax.org
+numbers. If the result is negative, the program prints an error.
+A condition is an expression that evaluates to true or false. An if statement is a decision-making structure
+that contains a condition and a body of statements. If the condition is true, the body is executed. If the
+condition is false, the body is not executed.
+The if statement's body must be grouped together and have one level of indentation. The PEP 8 style guide
+recommends four spaces per indentation level. The Python interpreter will produce an error if the body is
+empty.
+CHECKPOINT
+Example: Quantity check
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/4-2-if-
+else-statements)
+USING BOOLEAN VARIABLES

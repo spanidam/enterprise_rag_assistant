@@ -1,0 +1,26 @@
+well for different types of problems. By combining them we can hope to devise 
+a more general learning approach that covers a more broad range of learning 
+tasks. 
+Figure 12.1 summarizes a spectrum of learning problems that varies by the 
+availability of prior knowledge and training data. At one extreme, a large volume 
+Inductive learning 
+Analytical learning 
+Goal: 
+Hypothesis fits data 
+Hypothesis fits domain theory 
+Justification: 
+Statistical inference 
+Deductive inference 
+Advantagex 
+Requires little prior knowledge 
+Learns from scarce data 
+Pitfalls: 
+Scarce data, incorrect bias 
+Imperfect domain theory 
+TABLE 12.1 
+Comparison of purely analytical and purely inductive learning. 
+Inductive learning 
+Analytical learning 
+plentiful data 
+No prior knowledge 
+Perfect priorknowledge

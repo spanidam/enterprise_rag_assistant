@@ -1,0 +1,113 @@
+402
+Access for free at openstax.org
+Index
+Symbols
+!=
+94
+<
+94
+<=
+94
+=
+14
+==
+94
+>
+94
+>=
+94
+A
+Abstraction
+267
+Aliasing
+282
+and
+100
+append
+223
+argument
+158
+Arithmetic operators
+21
+ASCII
+72
+assignment operator
+14
+B
+base case
+290
+bool
+92
+bool()
+93
+branch
+91
+break
+134
+built-in function
+55
+C
+class
+267
+class attribute
+270
+code point
+72
+Comments
+27
+Comparison operators
+94
+computer
+8
+condition
+97
+conditional expression
+116
+container
+71, 125
+continue
+135
+Control flow
+149
+count()
+206
+D
+data analysis
+350
+Data filtering
+364
+Data indexing
+363
+Data science
+349
+Data Science
+349
+data science life cycle
+350
+Data slicing
+364
+data type
+20
+DataFrame
+355
+def
+147
+delimiter
+217
+diamond problem
+321
+dict
+242
+dictionary
+241, 241
+Dictionary comprehension
+258
+docstring
+29
+E
+elif
+108
+else statement
+98
+Encapsulation
+266

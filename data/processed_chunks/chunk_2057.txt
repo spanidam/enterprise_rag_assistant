@@ -1,0 +1,9 @@
+the learning agents employ a fixed learning algorithm (say ID3) that cannot be 
+altered by evolution. It is reasonable to assume that over time evolution will pro- 
+duce internal representation that make these agents increasingly successful within 
+their environment. Assuming that the success of an agent depends highly on its 
+ability to generalize accurately, we would therefore expect evolution to develop 
+internal representations that work well with whatever learning algorithm and in- 
+ductive bias is present. If the species of agents employs a learning algorithm whose 
+inductive bias is Occam's razor, then we expect evolution to produce internal rep- 
+resentations for which Occam's razor is a successful strategy. The essence of the

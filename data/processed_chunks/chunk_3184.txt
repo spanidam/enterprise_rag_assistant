@@ -1,0 +1,24 @@
+how EBNN calculates these training derivatives, consider again Figure 12.7. The 
+top portion of this figure shows the domain theory prediction of the target function 
+value for a particular training instance, xi. EBNN calculates the derivative of this 
+prediction with respect to each feature of the input instance. For the example in the 
+figure, the instance xi is described by features such as MadeOf Styrof oam = 0.2 
+CHAFER 12 COMBINING INDUCTIVE AND ANALYTICAL LEARNING 353 
+Explanation of 
+training example 
+in terms of 
+domain theory: 
+BonomlsFku = T - 
+ConcavilyPoinrsUp = T- 
+Expensive = T- 
+Fragile = T - 
+HandIeOnTop = F - 
+HandleOdide = T - 
+HasConcovity = T  - 
+HosHandle = T - 
+Light =T- 
+M&ofcemic 
+= T- 
+MadeOfPoper = F - 
+Modeofstyrofoam = F  7- 
+Target network:

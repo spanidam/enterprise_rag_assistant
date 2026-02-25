@@ -1,0 +1,11 @@
+with the string 'Ranger' . game_char can no longer be used to access classes.
+Chapter 12
+12.1 Recursion basics
+1. a. The move of the smaller ring, which is a smaller problem, is done twice on the way to solving for the two
+rings overall. The task of moving all three rings is broken down into smaller tasks of moving one ring at a
+time.
+2. b. The two-ring solution from question 1 is used in the solution for three rings.
+3. b. Once to move two rings to the middle tower following the rules, then to move two rings to the target
+tower.
+4. c. The small ring is moved to the middle tower. The bigger ring is moved to the target tower. Then, the
+small ring is moved from the middle to the target.

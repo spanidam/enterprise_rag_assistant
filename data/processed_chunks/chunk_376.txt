@@ -1,0 +1,23 @@
+speciﬁcally to cope with the problem of local minima in potential ﬁelds.
+The ﬁrst planner to use randomization to escape local minima was called
+RPP (for Randomized Potential Planner). The basic approach is straightfor-
+ward: use gradient descent until the planner ﬁnds itself stuck in a local mini-
+mum, then use a random walk to escape the local minimum. The algorithm is
+a slight modiﬁcation of the gradient descent algorithm of Section 5.3.
+1.
+q0 ←qinit, i ←0
+2.
+IF qi ̸= qﬁnal
+qi+1 ←qi + αi
+F (qi)
+||F (qi)||
+i ←i + 1
+ELSE return < q0, q1 · · · qi >
+3.
+IF stuck in a local minimum
+execute a random walk, ending at q′
+qi+1 ←q′
+4.
+GO TO 2
+The two new problems that must be solved are determining when the planner
+is stuck in a local minimum and deﬁning the random walk. Typically, a heuristic

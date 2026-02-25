@@ -1,0 +1,14 @@
+137
+The essence of the idea is to think of discounting as determining a proba-
+bility of termination or, equivalently, a degree of partial termination. For any
+γ ∈[0, 1), we can think of the return G0 as partly terminating in one step,
+to the degree 1 −γ, producing a return of just the ﬁrst reward, R1, and as
+partly terminating after two steps, to the degree (1 −γ)γ, producing a return
+of R1 + R2, and so on. The latter degree corresponds to terminating on the
+second step, 1−γ, and not having already terminated on the ﬁrst step, γ. The
+degree of termination on the third step is thus (1−γ)γ2, with the γ2 reﬂecting
+that termination did not occur on either of the ﬁrst two steps. The partial
+returns here are called ﬂat partial returns:
+¯Gh
+t = Rt+1 + Rt+2 + · · · + Rh,
+0 ≤t < h ≤T,

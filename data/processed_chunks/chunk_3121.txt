@@ -1,0 +1,14 @@
+ent approaches to combining approximate prior knowledge with available training 
+data to guide the learner's search for an appropriate hypothesis. Each of these 
+three approaches has been demonstrated to outperform purely inductive meth- 
+ods in multiple task domains. For ease of comparison, we use a single example 
+problem to illustrate all three approaches. 
+12.2 INDUCTIVE-ANALYTICAL APPROACHES TO LEARNING 
+12.2.1 The Learning Problem 
+To summarize, the learning problem considered in this chapter is 
+Given: 
+0 A set of training examples D, possibly containing errors 
+0 A domain theory B, possibly containing errors 
+A space of candidate hypotheses H 
+Determine: 
+A hypothesis that best fits the training examples and domain theory

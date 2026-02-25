@@ -1,0 +1,10 @@
+Notice the only differences between this new rule and the rule given by Equa- 
+tion (8.6) are that the contribution of instance x to the weight update is now 
+multiplied by the distance penalty K(d(x,, x)), and that the error is summed over 
+only the k nearest training examples. In fact, if we are fitting a linear function 
+to a fixed set of training examples, then methods much more efficient than gra- 
+dient descent are available to directly solve for the desired coefficients wo . . . urn. 
+Atkeson et al. (1997a) and Bishop (1995) survey several such methods. 
+8.3.2 Remarks on Locally Weighted Regression 
+Above we considered using a linear function to approximate f in the neigh- 
+borhood of the query instance x,. The literature on locally weighted regression

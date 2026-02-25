@@ -1,0 +1,11 @@
+least variance. By our definition of variance, this choice will yield the smallest 
+expected squared error between the estimate and the true value of the parameter. 
+To illustrate these concepts, suppose we test a hypothesis and find that it 
+commits r = 12 errors on a sample of n = 40 randomly drawn test examples. 
+Then an unbiased estimate for errorv(h) is given by errors(h) = rln = 0.3. 
+The variance in this estimate arises completely from the variance in r, because 
+n is a constant. Because r is Binomially distributed, its variance is given by 
+Equation (5.7) as np(1 - p). Unfortunately p is unknown, but we can substitute 
+our estimate rln for p. This yields an estimated variance in r of 4 0 .  0.3(1 - 
+0.3) = 8.4, or a corresponding standard deviation of a 
+;j: 2.9.  his implies

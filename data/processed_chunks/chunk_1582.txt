@@ -1,0 +1,39 @@
+super().display()
+print("Part: Bass")
+mem_10 = Alto()
+13.4 • Hierarchical inheritance
+317
+mem_13 = Tenor()
+mem_15 = Soprano1()
+mem_10.display()
+print()
+mem_13.display()
+print()
+mem_15.display()
+The code's output is:
+Current choir member
+Part: Alto
+Current choir member
+Part: Tenor
+Current choir member
+Part: Soprano
+Division: Soprano 1
+CONCEPTS IN PRACTICE
+Implementing hierarchical inheritance
+Consider the program:
+class A:
+def __init__(self, a_attr=0):
+self.a_attr = a_attr
+class B(A):
+def __init__(self, a_attr=0, b_attr=0):
+super().__init__(a_attr)
+self.b_attr = b_attr
+class C(A):
+def __init__(self, a_attr=0, c_attr=0):
+super().__init__(a_attr)
+self.c_attr = c_attr
+class D(B):
+def __init__(self, a_attr=0, b_attr=0, d_attr=0):
+318
+13 • Inheritance
+Access for free at openstax.org

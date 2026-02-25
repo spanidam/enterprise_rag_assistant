@@ -1,0 +1,11 @@
+sults relating these methods to reinforcement learning algorithms.
+The blackjack example is based on an example used by Widrow, Gupta,
+and Maitra (1973). The soap bubble example is a classical Dirichlet problem
+whose Monte Carlo solution was ﬁrst proposed by Kakutani (1945; see Hersh
+and Griego, 1969; Doyle and Snell, 1984). The racetrack exercise is adapted
+from Barto, Bradtke, and Singh (1995), and from Gardner (1973).
+Monte Carlo ES was introduced in the 1998 edition of this book. That
+may have been the ﬁrst explicit connection between Monte Carlo estimation
+and control methods based on policy iteration.
+Eﬃcient oﬀ-policy learning has become recognized as an important chal-
+lenge that arises in several ﬁelds. For example, it is closely related to the idea

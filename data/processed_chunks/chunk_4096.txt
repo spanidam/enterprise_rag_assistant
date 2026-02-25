@@ -1,0 +1,13 @@
+learning to DP, characterizing a class of reinforcement learning methods as
+“incremental dynamic programming.”
+4.8. SUMMARY
+109
+4.1–4 These sections describe well-established DP algorithms that are covered
+in any of the general DP references cited above. The policy improve-
+ment theorem and the policy iteration algorithm are due to Bellman
+(1957a) and Howard (1960). Our presentation was inﬂuenced by the
+local view of policy improvement taken by Watkins (1989). Our discus-
+sion of value iteration as a form of truncated policy iteration is based
+on the approach of Puterman and Shin (1978), who presented a class
+of algorithms called modiﬁed policy iteration, which includes policy it-
+eration and value iteration as special cases. An analysis showing how

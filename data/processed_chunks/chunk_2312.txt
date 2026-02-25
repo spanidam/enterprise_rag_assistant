@@ -1,0 +1,26 @@
+these experiments, the calculated interval would contain the true error. For this 
+reason, we call this interval the 95% confidence interval estimate for errorv(h). 
+In the current example, where r = 12 and n = 40, the 95% confidence interval is, 
+according to the above expression, 0.30 f (1.96 - .07) = 0.30 f 
+.14. 
+ConfidencelevelN%: 
+50% 
+68% 
+80% 
+90% 
+95% 
+98% 
+99% 
+Constant ZN: 
+0.67 
+1.00 
+1.28 
+1.64 
+1.96 
+2.33 
+2.58 
+TABLE 5.1 
+Values of z~ for two-sided N% confidence intervals. 
+The above expression for the 95% confidence interval can be generalized to 
+any desired confidence level. The constant 1.96 is used in case we desire a 95% 
+confidence interval. A different constant, ZN, is used to calculate the N% confi-

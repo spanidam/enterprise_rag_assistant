@@ -1,0 +1,10 @@
+exception of one incorrectly deleted arc and one incorrectly added arc. 
+Constraint-based approaches to learning Bayesian network structure have 
+also been developed (e.g., Spirtes et al. 1993). These approaches infer indepen- 
+dence and dependence relationships from the data, and then use these relation- 
+ships to construct Bayesian networks. Surveys of current approaches to learning 
+Bayesian networks are provided by Heckerman (1995) and Buntine (1994). 
+6.12 THE EM ALGORITHM 
+In many practical learning settings, only a subset of the relevant instance features 
+might be observable. For example, in training or using the Bayesian belief network 
+of Figure 6.3, we might have data where only a subset of the network variables

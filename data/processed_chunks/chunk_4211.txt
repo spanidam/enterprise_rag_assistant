@@ -1,0 +1,12 @@
+What advantages do TD methods have over Monte Carlo and DP methods?
+Developing and answering such questions will take the rest of this book and
+more. In this section we brieﬂy anticipate some of the answers.
+Obviously, TD methods have an advantage over DP methods in that they
+do not require a model of the environment, of its reward and next-state prob-
+ability distributions.
+The next most obvious advantage of TD methods over Monte Carlo meth-
+ods is that they are naturally implemented in an on-line, fully incremental
+fashion. With Monte Carlo methods one must wait until the end of an episode,
+because only then is the return known, whereas with TD methods one need
+wait only one time step.
+Surprisingly often this turns out to be a critical

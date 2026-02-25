@@ -1,0 +1,30 @@
+"ID123": "Bob Johnson",
+"ID122": "David Lee"
+},
+"Engineering": {
+"ID303": "Radhika Potlapally",
+"ID321": "Maryam Samimi"
+}
+}
+Table 10.8
+Accessing nested dictionary items
+print(company_org_chart["Sales"]["ID122"])
+print(company_org_chart["Engineering"]["ID321"])
+David Lee
+Maryam Samimi
+Table 10.9
+CONCEPTS IN PRACTICE
+Nested dictionary structure
+1. What is a nested dictionary in Python?
+a.
+A dictionary that contains only integers as keys and values.
+b.
+A dictionary that contains another dictionary as a value.
+c.
+A dictionary that contains only strings as keys and values.
+10.5 • Nested dictionaries and dictionary comprehension
+257
+d.
+A dictionary that contains only lists as keys and values.
+2. How can a value be accessed in a nested dictionary in Python?
+a.

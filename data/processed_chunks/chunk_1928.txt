@@ -1,0 +1,15 @@
+in D, and because g 2, h, h cannot be satisfied by any negative example in D. 
+Because h is satisfied by all positive examples in D and by no negative examples 
+in D, h is consistent with D, and therefore h is a member of V S H , ~ .  
+This proves 
+step (1). The argument for (2) is a bit more complex. It can be proven by assuming 
+some h in V S H , ~  
+that does not satisfy the right-hand side of the expression, then 
+showing that this leads to an inconsistency. (See Exercise 2.6.) 
+0 
+2.5.4 CANDIDATE-ELIMINATION 
+Learning Algorithm 
+The CANDIDATE-ELIMINATION 
+algorithm computes the version space containing 
+all hypotheses from H that are consistent with an observed sequence of training 
+examples. It begins by initializing the version space to the set of all hypotheses

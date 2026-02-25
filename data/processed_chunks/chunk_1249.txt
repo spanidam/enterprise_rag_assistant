@@ -1,0 +1,33 @@
+corresponding color using the following inclusive ranges:
+•
+Violet: 380–449
+•
+Blue: 450–484
+•
+Cyan: 485–499
+•
+Green: 500–564
+•
+Yellow: 565–589
+•
+Orange: 590–624
+•
+Red: 625–750
+Assume the input is within the visible light spectrum, 380-750 inclusive.
+Given input:
+550
+The output is:
+112
+4 • Decisions
+Access for free at openstax.org
+Green
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+4-5-chained-decisions)
+4.6 Nested decisions
+Learning objectives
+By the end of this section you should be able to
+•
+Describe the execution paths of programs with nested if-else statements.
+•
+Implement a program with nested if-else statements.
+Nested decision statements

@@ -1,0 +1,13 @@
+3. b. When splitting the multi-line string, the output is ['This', 'is', 'a', 'test'].
+4. c. Elements of the list elements are concatenated together using a comma, so the output is
+'A,beautiful,day,for,learning' .
+5. b. The output of "sss".join(["1","2"]) is "1sss2" , which has a length of 5.
+6. b. Since the separator is an empty string, elements of the list will be concatenated without a separator and
+the output will be "12" .
+Chapter 9
+9.1 Modifying and iterating lists
+1. b. The append() operation adds an element to the end of a list.
+392
+Access for free at openstax.org
+2. c. The element to be removed is passed as a parameter to the remove operation. The remove is performed
+on the specified list.

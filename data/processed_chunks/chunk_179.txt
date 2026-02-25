@@ -1,0 +1,10 @@
+n) will
+be the same, regardless of the assignment of intermediate link frames (assuming
+that the coordinate frames for link n coincide). We will begin by deriving the
+general procedure. We will then discuss various common special cases where it
+is possible to further simplify the homogeneous transformation matrix.
+To start, note that the choice of zi is arbitrary. In particular, from (3.13),
+we see that by choosing αi and θi appropriately, we can obtain any arbitrary
+direction for zi. Thus, for our ﬁrst step, we assign the axes z0, . . . , zn−1 in an
+intuitively pleasing fashion. Speciﬁcally, we assign zi to be the axis of actuation
+for joint i + 1. Thus, z0 is the axis of actuation for joint 1, z1 is the axis of

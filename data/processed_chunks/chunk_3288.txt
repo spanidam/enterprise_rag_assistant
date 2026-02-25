@@ -1,0 +1,12 @@
+during which each s, a is visited, the largest error in the table will be at most yAo. 
+After k such intervals, the error will be at most ykAo. Since each state is visited 
+infinitely often, the number of such intervals is infinite, and A, -+ 0 as n + oo. 
+This proves the theorem. 
+0 
+13.3.5 Experimentation Strategies 
+Notice the algorithm of Table 13.1 does not specify how actions are chosen by the 
+agent. One obvious strategy would be for the agent in state s to select the action a 
+that maximizes ~ ( s ,  
+a), thereby exploiting its current approximation Q. However, 
+with this strategy the agent runs the risk that it will overcommit to actions that 
+are found during early training to have high Q values, while failing to explore

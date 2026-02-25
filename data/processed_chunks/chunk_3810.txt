@@ -1,0 +1,12 @@
+lasting changes is not considered to be a reinforcer.
+The idea of implementing trial-and-error learning in a computer appeared
+among the earliest thoughts about the possibility of artiﬁcial intelligence. In a
+1948 report, Alan Turing described a design for a “pleasure-pain system” that
+worked along the lines of the Law of Eﬀect:
+When a conﬁguration is reached for which the action is undeter-
+mined, a random choice for the missing data is made and the appro-
+priate entry is made in the description, tentatively, and is applied.
+When a pain stimulus occurs all tentative entries are cancelled,
+and when a pleasure stimulus occurs they are all made permanent.
+(Turing, 1948)
+In 1952 Claude Shannon demonstrated a maze-running mouse named Theseus

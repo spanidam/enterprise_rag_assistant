@@ -1,0 +1,29 @@
+•
+imprint: Fantasy Tomes
+Method:
+•
+__init__(): initializes the instance attributes
+•
+print_info(): prints book information (provided in template)
+Given input:
+Lord of the Bracelets
+Blake R. R. Brown
+1999
+423
+A Match of Thrones
+Terry R. R. Thomas
+2020
+761
+The output is:
+Lord of the Bracelets by Blake R. R. Brown published by Fantasy Tomes
+in 1999 with 423 pages
+A Match of Thrones by Terry R. R. Thomas published by Fantasy Tomes
+in 2020 with 761 pages
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-2-classes-and-instances)
+11.3 Instance methods
+Learning objectives
+By the end of this section you should be able to
+•
+Create and implement __init__() with multiple parameters including default parameter values.
+•

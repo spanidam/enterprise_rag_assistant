@@ -1,0 +1,25 @@
+θ1
+1m
+d2
+d3
+1m
+Fig. 3.37
+Cylindrical conﬁguration
+d1
+d3
+d2
+Fig. 3.38
+Cartesian conﬁguration
+4
+VELOCITY
+KINEMATICS – THE
+MANIPULATOR
+JACOBIAN
+In the previous chapter we derived the forward and inverse position equations
+relating joint positions to end-eﬀector positions and orientations. In this chapter
+we derive the velocity relationships, relating the linear and angular velocities of
+the end-eﬀector to the joint velocities.
+Mathematically, the forward kinematic equations deﬁne a function between
+the space of cartesian positions and orientations and the space of joint posi-
+tions. The velocity relationships are then determined by the Jacobian of this
+function. The Jacobian is a matrix that can be thought of as the vector version

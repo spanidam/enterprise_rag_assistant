@@ -1,0 +1,10 @@
+MDL-based approach to decision tree pruning, and describe experiments in which 
+an MDL-based approach produced results comparable to standard tree-pruning 
+methods. 
+What shall we conclude from this analysis of the Minimum Description 
+Length principle? Does this prove once and for all that short hypotheses are best? 
+No. What we have shown is only that ifa representation of hypotheses is chosen so 
+that the size of hypothesis h is - log2 P(h), and ifa representation for exceptions 
+is chosen so that the encoding length of D given h is equal to -log2 P(Dlh), 
+then the MDL principle produces MAP hypotheses. However, to show that we 
+have such a representation we must know all the prior probabilities P(h), as well

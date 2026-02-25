@@ -1,0 +1,19 @@
+Dyna framework. Adaptive Behavior, 1(4):437–454.
+Peng, J., Williams, R. J. (1994).
+Incremental multi-step Q-learning.
+In
+W. W. Cohen and H. Hirsh (eds.), Proceedings of the Eleventh International
+Conference on Machine Learning, pp. 226–232.
+Morgan Kaufmann, San
+Francisco.
+Peng, J., Williams, R. J. (1996). Incremental multi-step Q-learning. Machine
+Learning, 22:283–290.
+Phansalkar, V. V., Thathachar, M. A. L. (1995). Local and global optimization
+algorithms for generalized learning automata. Neural Computation, 7:950–
+973.
+Poggio, T., Girosi, F. (1989).
+A theory of networks for approximation and
+learning. A.I. Memo 1140. Artiﬁcial Intelligence Laboratory, Massachusetts
+Institute of Technology, Cambridge, MA.
+328
+CHAPTER 15. PROSPECTS

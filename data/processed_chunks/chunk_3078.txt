@@ -1,0 +1,10 @@
+action. The reasoning used to resolve this impasse can be interpreted as an expla- 
+nation for how to resolve similar impasses in the future. SOAR uses a variant of 
+explanation-based learning called chunking to extract the general conditions un- 
+der which the same explanation applies. SOAR has been applied in a great number 
+of problem domains and has also been proposed as a psychologically plausible 
+model of human learning processes (see Newel1 1990). 
+PRODIGY and SOAR demonstrate that explanation-based learning methods can 
+be successfully applied to acquire search control knowledge in a variety of problem 
+domains. Nevertheless, many or most heuristic search programs still use numerical 
+evaluation functions similar to the one described in Chapter 1, rather than rules

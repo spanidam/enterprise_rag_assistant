@@ -1,0 +1,32 @@
+of Equations (7.12) and (7.13) by R and neglect the electrical time constant by
+setting L
+R equal to zero, the transfer functions in Equations (7.12) and (7.13)
+become, respectively,
+Θm(s)
+V (s)
+=
+Km/R
+s(Jms + Bm + KbKm/R).
+(7.14)
+and
+Θm(s)
+τℓ(s)
+=
+−
+1
+s(Jm(s) + Bm + KbKm/R)
+(7.15)
+In the time domain Equations (7.14) and (7.15) represent, by superposition,
+the second order diﬀerential equation
+Jm¨θm(t) + (Bm + KbKm/R) ˙θm(t)
+=
+(Km/R)V (t) −τℓ(t)/r
+(7.16)
+The block diagram corresponding to the reduced order system (7.16) is shown
+in Figure 7.7.
+If the output side of the gear train is directly coupled to the link, then the
+joint variables and the motor variables are related by
+θmk = rkqk
+;
+k = 1, . . . , n
+(7.17)

@@ -1,0 +1,20 @@
+rank [J(q) | ξ]
+(4.127)
+In other words, Equation (4.125) may be solved for ˙q ∈Rn provided that the
+rank of the augmented matrix [J(q) | ξ] is the same as the rank of the Jacobian
+140
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+J(q). This is a standard result from linear algebra, and several algorithms exist,
+such as Gaussian elimination, for solving such systems of linear equations.
+For the case when n > 6 we can solve for ˙q using the right pseudoinverse
+of J. To construct this psuedoinverse, we use the following result from linear
+algebra.
+Proposition: For J ∈Rm×n, if m < n and rank J = m, then (JJT )−1 exists.
+In this case (JJT ) ∈Rm×m, and has rank m. Using this result, we can regroup
+terms to obtain
+(JJT )(JJT )−1 = I
+J
+
+JT (JJT )−1
+= I
+JJ+ = I

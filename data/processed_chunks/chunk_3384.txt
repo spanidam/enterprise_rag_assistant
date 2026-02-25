@@ -1,0 +1,32 @@
+learning, 339-340, 362 
+weighting in inductive-analytical 
+learning, 338, 362 
+Prioritized sweeping, 380 
+Probabilistic reasoning, 163 
+Probabilities: 
+estimation of, 179-1 80 
+formulas, 159 
+maximum likelihood (ML) hypothesis 
+for prediction of, 167-170 
+87-88 
+probability density, 165 
+Probability distribution, 133. See also 
+Binomial distribution: Normal 
+distribution 
+approximately correct (PAC) 
+learning. See PAC learning 
+h x e s s  control in manufacturing, 17 
+PRODIGY, 326-327, 330 
+Product rule, 159 
+~ W L ,  
+300-302 
+~ o L @ %  
+275,302, 330 
+PROLOG-EBG, 
+313-321, 328-329 
+applications of, 325 
+deductive learning in, 321-322 
+definition of, 314 
+derivation of new features in, 320-321 
+domain theory in, 322 
+EBNN algorithm, comparison with, 356

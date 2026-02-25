@@ -1,0 +1,12 @@
+scaling factors to zero. Moore and Lee (1994) discuss efficient cross-validation 
+methods for selecting relevant subsets of the attributes for k-NEAREST 
+NEIGHBOR 
+algorithms. In particular, they explore methods based on leave-one-out cross- 
+validation, in which the set of m training instances is repeatedly divided into a 
+training set of size m - 1 and test set of size 1, in all possible ways. This leave-one- 
+out approach is easily implemented in k-NEAREST 
+NEIGHBOR 
+algorithms because 
+no additional training effort is required each time the training set is redefined. 
+Note both of the above approaches can be seen as stretching each axis by some 
+constant factor. Alternatively, we could stretch each axis by a value that varies over

@@ -1,0 +1,55 @@
+x0
+x2
+y2
+x1
+q1
+m1g
+m2g
+y1
+q2
+ℓc2
+ℓc1
+ℓ2
+ℓ1
+Fig. 6.7
+Two-link revolute joint arm.
+where
+Jvc2
+=
+
+
+−ℓ1 sin q1 −ℓc2 sin(q1 + q2)
+−ℓc2 sin(q1 + q2)
+ℓ1 cos q1 + ℓc2 cos(q1 + q2)
+ℓc2 cos(q1 + q2)
+0
+0
+
+
+(6.76)
+Hence the translational part of the kinetic energy is
+1
+2m1vT
+c1vc1 + 1
+2m2vT
+c2vc2
+=
+1
+2 ˙q
+
+m1JT
+vc1Jvc1 + m2JT
+vc2Jvc2
+	
+˙q
+(6.77)
+Next we deal with the angular velocity terms. Because of the particularly
+simple nature of this manipulator, many of the potential diﬃculties do not arise.
+First, it is clear that
+ω1 = ˙q1k,
+ω2 = ( ˙q1 + ˙q2)k
+(6.78)
+when expressed in the base inertial frame. Moreover, since ωi is aligned with
+k, the triple product ωT
+i Iiωi reduces simply to (I33)i times the square of the
+magnitude of the angular velocity. This quantity (I33)i is indeed what we have

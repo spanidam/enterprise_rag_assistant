@@ -1,0 +1,10 @@
+erated by randomly choosing the integers no and nl. For instance, in the example 
+shown in Table 9.2 the offspring are created using a mask for which no = 2 and 
+n 1 = 5. Again, the two offspring are created by switching the roles played by the 
+two parents. 
+Uniform crossover combines bits sampled uniformly from the two parents, 
+as illustrated in Table 9.2. In this case the crossover mask is generated as a random 
+bit string with each bit chosen at random and independent of the others. 
+In addition to recombination operators that produce offspring by combining 
+parts of two parents, a second type of operator produces offspring from a single 
+parent. In particular, the mutation operator produces small random changes to the

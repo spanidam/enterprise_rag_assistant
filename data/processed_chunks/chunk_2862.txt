@@ -1,0 +1,13 @@
+have a subroutine LEARN-ONE-RULE 
+that accepts a set of positive and negative 
+training examples as input, then outputs a single rule that covers many of the 
+positive examples and few of the negative examples. We require that this iaarput 
+rule have high accuracy, but not necessarily high coverage. By high accuracy, we 
+mean the predictions it makes should be correct. By accepting low coverage, we 
+mean it need not make predictions for every training example. 
+Given this LEARN-ONE-RULE 
+subroutine for learning a single rule, one obvi- 
+ous approach to learning a set of rules is to invoke LEARN-ONE-RULE 
+on all the 
+available training examples, remove any positive examples covered by the rule it 
+learns, then invoke it again to learn a second rule based on the remaining train-

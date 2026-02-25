@@ -1,0 +1,14 @@
+Recall that in the maximum likelihood, least-squared error analysis of the 
+previous section, we made the simplifying assumption that the instances (xl . . . x,) 
+were fixed. This enabled us to characterize the data by considering only the target 
+values di. Although we could make a similar simplifying assumption in this case, 
+let us avoid it here in order to demonstrate that it has no impact on the final 
+outcome. Thus treating both xi and di as random variables, and assuming that 
+each training example is drawn independently, we can write P(D1h) as 
+m 
+P(Dlh) = n 
+,(xi, 41,) 
+(6.7) 
+i=l 
+It is reasonable to assume, furthermore, that the probability of encountering 
+any particular instance xi is independent of the hypothesis h. For example, the

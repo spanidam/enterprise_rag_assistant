@@ -1,0 +1,65 @@
+p0
+b = Rz,πp0
+a
+This equation shows us how to use a rotation matrix to represent a rotational
+motion. In particular, if the point pb is obtained by rotating the point pa as
+deﬁned by the rotation matrix R, then the coordinates of pb with respect to
+the reference frame are given by
+p0
+b = Rp0
+a
+40
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+y0
+z0
+x0
+⃗v1
+⃗v0
+π
+2
+Fig. 2.7
+Rotating a vector about axis y0.
+This same approach can be used to rotate vectors with respect to a coordinate
+frame, as the following example illustrates.
+Example 2.3
+The vector v
+with coordinates v0 = (0, 1, 1)T is rotated about y0 by
+π
+2 as
+shown in Figure 2.7. The resulting vector v1 has coordinates given by
+v0
+1
+=
+Ry, π
+2 v0
+(2.10)
+=
+
+
+0
+0
+1
+0
+1
+0
+−1
+0
+0
+
+
+
+
+0
+1
+1
+
+=
+
+
+1
+1
+0
+
+
+(2.11)
+⋄

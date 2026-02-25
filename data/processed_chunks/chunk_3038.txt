@@ -1,0 +1,15 @@
+for the current example the final rule is 
+SafeToStack(x, y) t Volume(x, vx) A Density(x, d x ) ~  
+Equal(wx, times(vx, d x ) )  A LessThan(wx, 5
+)
+~
+ 
+Type(y, Endtable) 
+11.2.1.3 REFINE THE CURRENT HYPOTHESIS 
+The current hypothesis at each stage consists of the set of Horn clauses learned 
+thus far. At each stage, the sequential covering algorithm picks a new positive 
+example that is not yet covered by the current Horn clauses, explains this new 
+example, and formulates a new rule'according to the procedure described above. 
+Notice only positive examples are covered in the algorithm as we have defined 
+it, and the learned set of Horn clause rules predicts only positive examples. A 
+new instance is classified as negative if the current rules fail to predict that it is

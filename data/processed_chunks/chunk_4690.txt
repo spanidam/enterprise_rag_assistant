@@ -1,0 +1,13 @@
+forcement learning. In D. S. Touretzky, M. C. Mozer, and M. E. Hasselmo
+(eds.), Advances in Neural Information Processing Systems: Proceedings
+of the 1995 Conference, pp. 1017–1023. MIT Press, Cambridge, MA.
+Cross, J. G. (1973). A stochastic learning model of economic behavior. The
+Quarterly Journal of Economics 87(2):239-266.
+Curtiss, J. H. (1954).
+A theoretical comparison of the eﬃciencies of two
+classical methods and a Monte Carlo method for computing one component
+of the solution of a set of linear algebraic equations. In H. A. Meyer (ed.),
+Symposium on Monte Carlo Methods, pp. 191–233. Wiley, New York.
+Cziko, G. (1995).
+Without Miracles: Universal Selection Theory and the
+Second Darvinian Revolution. MIT Press, Cambridge, MA.

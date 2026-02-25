@@ -1,0 +1,9 @@
+Pomerleau, D. A. (1989). ALVINN: An autonomous land vehicle in a neural network. (Technical 
+Report CMU-CS-89-107). Pittsburgh, PA: Carnegie Mellon University. 
+Qin, Y., Mitchell, T., & Simon, H. (1992). Using EBG to simulate human learning from examples 
+and learning by doing. Proceedings of the Florida AI Research Symposium (pp. 235-239). 
+Rudnicky, A. I., Hauptmann, A. G., & Lee, K. -F. (1994). Survey of current speech technology in 
+artificial intelligence. Communications of the ACM, 37(3), 52-57. 
+Rumelhart, D., Widrow, B., & Lehr, M. (1994). The basic ideas in neural networks. Communications 
+of the ACM, 37(3), 87-92. 
+Tesauro, G. (1992). Practical issues in temporal difference learning. Machine Learning, 8, 257.

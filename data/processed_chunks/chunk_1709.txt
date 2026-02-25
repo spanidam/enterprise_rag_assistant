@@ -1,0 +1,11 @@
+6. b. A variable refers to an object, so the variable's value is the object's value.
+3.4 List basics
+1. b. A list of numbers can be set up using an assignment operator.
+2. a. Individual elements in a list must be separated by a comma. Python does not understand what is meant
+by 2 3.
+3. c. Since indexes start at 0, the required number is one less than the position being accessed.
+4. a. The index -1 always refers to the last element of a list. The expression len(name_list)-1, which
+evaluates to 3 and refers to the last element in a list of 4 elements, can also be used in place of -1 here.
+3.5 Tuple basics
+1. a. The first element, 2 , is at index 0.
+2. c. Tuples can have elements of the same type as well as elements of different types.

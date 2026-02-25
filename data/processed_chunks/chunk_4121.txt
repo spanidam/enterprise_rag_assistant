@@ -1,0 +1,13 @@
+the estimate of any other state, as is the case in DP. In other words, Monte
+Carlo methods do not bootstrap as we deﬁned it in the previous chapter.
+In particular, note that the computational expense of estimating the value
+of a single state is independent of the number of states. This can make Monte
+Carlo methods particularly attractive when one requires the value of only one
+or a subset of states. One can generate many sample episodes starting from
+the states of interest, averaging returns from only these states ignoring all
+others. This is a third advantage Monte Carlo methods can have over DP
+methods (after the ability to learn from actual experience and from simulated
+experience).
+118
+CHAPTER 5. MONTE CARLO METHODS
+terminal state

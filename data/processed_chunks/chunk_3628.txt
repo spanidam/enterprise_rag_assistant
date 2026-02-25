@@ -1,0 +1,14 @@
+multi-agent systems [172], [173], [174]. The development of
+LLM systems with access to external tools and decision-
+making capabilities is both exciting and challenging. We will
+see continued research and progress in this important area that
+some argue could lead to Artificial General Intelligence (AGI).
+E. Security and Ethical/Responsible AI
+Ensuring the robustness and security of LLMs against
+adversarial attacks and other vulnerabilities is a critical area
+of research [219]. As LLMs are increasingly deployed in real-
+world applications, they need to be protected from potential
+threats, to prevent them being used to manipulate people or
+spread mis-information. Improving the reasoning capabilities
+of these model [220], would help them to better detect potential
+adversarial attacks.

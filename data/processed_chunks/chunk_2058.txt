@@ -1,0 +1,10 @@
+resentations for which Occam's razor is a successful strategy. The essence of the 
+argument here is that evolution will create internal representations that make the 
+learning algorithm's inductive bias a self-fulfilling prophecy, simply because it 
+can alter the representation easier than it can alter the learning algorithm. 
+For now, we leave the debate regarding Occam's razor. We will revisit it in 
+Chapter 6, where we discuss the Minimum Description Length principle, a version 
+of Occam's razor that can be interpreted within a Bayesian framework. 
+3.7 ISSUES IN DECISION TREE LEARNING 
+Practical issues in learning decision trees include determining how deeply to grow 
+the decision tree, handling continuous attributes, choosing an appropriate attribute

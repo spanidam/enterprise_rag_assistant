@@ -1,0 +1,10 @@
+containing a small number of defined bits (i.e., containing a large number of *'s), 
+and especially when these defined bits are near one another within the bit string. 
+The schema theorem is perhaps the most widely cited characterization of 
+population evolution within a GA. One way in which it is incomplete is that it fails 
+to consider the (presumably) positive effects of crossover and mutation. Numerous 
+more recent theoretical analyses have been proposed, including analyses based on 
+Markov chain models and on statistical mechanics models. See, for example, 
+Whitley and Vose (1995) and Mitchell (1996). 
+9.5 GENETIC PROGRAMMING 
+Genetic programming (GP) is a form of evolutionary computation in which the in-

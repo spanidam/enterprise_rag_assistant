@@ -1,0 +1,11 @@
+the ideas apart and understanding their relationships and relative importance.
+This continues today, but in 1979 we came to realize that perhaps the simplest
+of the ideas, which had long been taken for granted, had received surprisingly
+little attention from a computational perspective. This was simply the idea of
+a learning system that wants something, that adapts its behavior in order to
+maximize a special signal from its environment. This was the idea of a “he-
+donistic” learning system, or, as we would say now, the idea of reinforcement
+learning.
+Like others, we had a sense that reinforcement learning had been thor-
+oughly explored in the early days of cybernetics and artiﬁcial intelligence. On
+closer inspection, though, we found that it had been explored only slightly.

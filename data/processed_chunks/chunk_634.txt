@@ -1,0 +1,40 @@
+the manifold BT Pe = 0. One may implement a continuous approximation to
+the discontinuous control as
+δa =
+
+
+
+
+
+
+
+−ρ(e, t) BT Pe
+||BT Pe||
+;
+if
+||BT Pe|| > ϵ
+−ρ(e, t)
+ϵ
+BT Pe
+;
+if
+||BT Pe|| ≤ϵ
+(8.63)
+In this case, since the control signal (8.63, a solution to the system (8.48) exists
+and is uniformly ultimately bounded (u.u.b). Ssee Appendix C for the deﬁnition
+of uniform ultimate boundedness.
+Theorem 1 The origin of the system (8.48) is u.u.b. with respect to the set
+S, deﬁned below, using the continuous control law (8.63).
+Proof:
+As before, choose V (e) = eT Pe and compute
+˙V
+=
+−eT Qe + 2wT (δa + η)
+(8.64)
+≤
+−eT Qe + 2wT (δa + ρ w
+||w||)
+(8.65)
+with ||w|| = ||BT Pe|| as above.
+For ||w|| ≥ϵ the argument proceeds as above and ˙V < 0. For ||w|| ≤ϵ the
+second term above becomes

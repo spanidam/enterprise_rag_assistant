@@ -1,0 +1,16 @@
+V ←an arbitrary state-value function
+Returns(s) ←an empty list, for all s ∈S
+Repeat forever:
+Generate an episode using π
+For each state s appearing in the episode:
+G ←return following the ﬁrst occurrence of s
+Append G to Returns(s)
+V (s) ←average(Returns(s))
+Figure 5.1: The ﬁrst-visit MC method for estimating vπ. Note that we use a
+capital letter V for the approximate value function because, after initialization,
+it soon becomes a random variable.
+Both ﬁrst-visit MC and every-visit MC converge to vπ(s) as the number
+of visits (or ﬁrst visits) to s goes to inﬁnity.
+This is easy to see for the
+case of ﬁrst-visit MC. In this case each return is an independent, identically
+distributed estimate of vπ(s) with ﬁnite variance. By the law of large numbers

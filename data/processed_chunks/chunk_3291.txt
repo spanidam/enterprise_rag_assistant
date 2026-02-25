@@ -1,0 +1,9 @@
+One important implication of the above convergence theorem is that Q learning 
+need not train on optimal action sequences in order to converge to the optimal 
+policy. In fact, it can learn the Q function (and hence the optimal policy) while 
+training from actions chosen completely at random at each step, as long as the 
+resulting training sequence visits every state-action transition infinitely often. This 
+fact suggests changing the sequence of training example transitions in order to 
+improve training efficiency without endangering final convergence. To illustrate, 
+consider again learning in an MDP with a single absorbing goal state, such as the 
+one in Figure 13.1. Assume as before that we train the agent with a sequence of

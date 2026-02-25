@@ -1,0 +1,12 @@
+This book can also be used as part of a broader course on machine learning,
+artiﬁcial intelligence, or neural networks. In this case, it may be desirable to
+cover only a subset of the material. We recommend covering Chapter 1 for a
+brief overview, Chapter 2 through Section 2.2, Chapter 3 except Sections 3.4,
+3.5 and 3.9, and then selecting sections from the remaining chapters according
+x
+PREFACE
+to time and interests. The ﬁve chapters of Part II build on each other and are
+best covered in sequence; of these, Chapter 6 is the most important for the
+subject and for the rest of the book. A course focusing on machine learning
+or neural networks should cover Chapter 9, and a course focusing on artiﬁcial
+intelligence or planning should cover Chapter 8. Throughout the book, sections

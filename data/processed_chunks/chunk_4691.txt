@@ -1,0 +1,15 @@
+Second Darvinian Revolution. MIT Press, Cambridge, MA.
+Daniel, J. W. (1976). Splines and eﬃciency in dynamic programming. Journal
+of Mathematical Analysis and Applications, 54:402–407.
+318
+CHAPTER 15. PROSPECTS
+Dayan, P. (1991). Reinforcement comparison. In D. S. Touretzky, J. L. El-
+man, T. J. Sejnowski, and G. E. Hinton (eds.), Connectionist Models: Pro-
+ceedings of the 1990 Summer School, pp. 45–51. Morgan Kaufmann, San
+Mateo, CA.
+Dayan, P. (1992). The convergence of TD(λ) for general λ. Machine Learning,
+8:341–362.
+Dayan, P., Hinton, G. E. (1993). Feudal reinforcement learning. In S. J. Han-
+son, J. D. Cohen, and C. L. Giles (eds.), Advances in Neural Informa-
+tion Processing Systems: Proceedings of the 1992 Conference, pp. 271–278.
+Morgan Kaufmann, San Mateo, CA.

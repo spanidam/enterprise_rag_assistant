@@ -1,0 +1,12 @@
+most lasting understanding. In this chapter we use the concept of dimensions
+in method space to recapitulate the view of reinforcement learning we have
+developed in this book and to identify some of the more important gaps in our
+coverage of the ﬁeld.
+15.1
+The Uniﬁed View
+All of the reinforcement learning methods we have explored in this book have
+three key ideas in common. First, the objective of all of them is the estimation
+of value functions. Second, all operate by backing up values along actual or
+possible state trajectories. Third, all follow the general strategy of general-
+ized policy iteration (GPI), meaning that they maintain an approximate value
+function and an approximate policy, and they continually try to improve each

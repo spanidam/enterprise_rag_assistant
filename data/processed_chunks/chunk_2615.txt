@@ -1,0 +1,11 @@
+junctions of boolean literals is PAC-learnable by the FIND-S algorithm using H = C .  
+Proof. Equation (7.4) shows that the sample complexity for this concept class is 
+polynomial in n, 116, and 116, and independent of size (c). To incrementally process 
+each training example, the FIND-S algorithm requires effort linear in n and indepen- 
+dent of 116, 116, and size(c). Therefore, this concept class is PAC-learnable by the 
+FIND-S algorithm. 
+0 
+7.3.3 PAC-Learnability of Other Concept Classes 
+As we just saw, Equation (7.2) provides a general basis for bounding the sample 
+complexity for learning target concepts in some given class C. Above we applied 
+it to the class of conjunctions of boolean literals. It can also be used to show

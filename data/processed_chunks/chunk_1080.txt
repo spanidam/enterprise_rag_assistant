@@ -1,0 +1,27 @@
+holiday = "one" + "sided"
+b.
+holiday = one-sided
+c.
+holiday = "one-" + "sided"
+TRY IT
+Name length
+Write a program that asks the user to input their first and last name separately. Use the following prompts
+(example input in bold):
+What is your first name? Alan
+What is your last name? Turing
+The program should then output the length of each name. Based on the example input above, the output
+would be:
+Your first name is 4 letters long
+Your last name is 6 letters long
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-4-string-basics)
+TRY IT
+Punctuation
+Write a Python computer program that:
+•
+Assigns the string "Freda" to a variable, name.
+1.4 • String basics
+19
+•
+Assigns the string "happy" to a variable, feel.
+•

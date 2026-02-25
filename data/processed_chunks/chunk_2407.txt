@@ -1,0 +1,11 @@
+by normalizing the above quantities so that they sum to 1 (e.g., P(cancer($) = 
+.00;~~298 = .21). This step is warranted because Bayes theorem states that the 
+posterior probabilities are just the above quantities divided by the probability of 
+the data, P(@). Although P($) was not provided directly as part of the problem 
+statement, we can calculate it in this fashion because we know that P(cancerl$) 
+and P(-cancerl$) 
+must sum to 1 (i.e., either the patient has cancer or they do 
+not). Notice that while the posterior probability of cancer is significantly higher 
+than its prior probability, the most probable hypothesis is still that the patient does 
+not have cancer. 
+As this example illustrates, the result of Bayesian inference depends strongly

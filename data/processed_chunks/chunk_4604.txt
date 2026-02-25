@@ -1,0 +1,14 @@
+time.
+• 10 units: The location of the other elevators superimposed over the 10
+ﬂoors. Each elevator had a “footprint” that depended on its direction
+and speed. For example, a stopped elevator caused activation only on
+the unit corresponding to its current ﬂoor, but a moving elevator caused
+activation on several units corresponding to the ﬂoors it was approaching,
+with the highest activations on the closest ﬂoors. No information was
+provided about which one of the other cars was at a particular location.
+• 1 unit: This unit was on if the elevator whose decision was required was
+at the highest ﬂoor with a passenger waiting.
+• 1 unit: This unit was on if the elevator whose decision was required was
+at the ﬂoor with the passenger who had been waiting for the longest
+amount of time.
+290

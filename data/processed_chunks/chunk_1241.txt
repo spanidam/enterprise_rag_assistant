@@ -1,0 +1,35 @@
+106
+4 • Decisions
+Access for free at openstax.org
+b.
+All operators are evaluated right to left.
+c.
+Order is random when parentheses aren't used.
+8. Given x = 8 and y = 9, what is the result of the following?
+x + 3 * y - 5
+a.
+30
+b.
+44
+c.
+94
+9. Given x = 8 and y = 9, what is the result of the following?
+(x+3) * (y-5)
+a.
+30
+b.
+44
+c.
+94
+PEP 8 RECOMMENDATIONS: SPACING AROUND OPERATORS
+The PEP 8 style guide recommends consistent spacing around operators to avoid extraneous and confusing
+whitespace.
+•
+Avoid multiple spaces and an unequal amount of whitespace around operators with two operands.
+Avoid: x= y * 44
+Better: x = y * 44
+•
+Avoid spaces immediately inside parentheses.
+Avoid: x = ( 4 * y )
+Better: x = (4 * y)
+•

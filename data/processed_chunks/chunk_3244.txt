@@ -1,0 +1,11 @@
+strategy, or policy, for choosing actions that achieve its goals. For example, the 
+robot may have a goal of docking onto its battery charger whenever its battery 
+level is low. 
+This chapter is concerned with how such agents can learn successful control 
+policies by experimenting in their environment. We assume that the goals of the 
+agent can be defined by a reward function that assigns a numerical value-an 
+immediate payoff-to 
+each distinct action the agent may take from each distinct 
+state. For example, the goal of docking to the battery charger can be captured by 
+assigning a positive reward (e.g., +loo) to state-action transitions that immediately 
+result in a connection to the charger and a reward of zero to every other state-action

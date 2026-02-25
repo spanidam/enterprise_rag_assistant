@@ -1,0 +1,13 @@
+−→denotes a complete
+policy improvement. Policy evaluation is done exactly as described in the pre-
+ceding section. Many episodes are experienced, with the approximate action-
+value function approaching the true function asymptotically. For the moment,
+let us assume that we do indeed observe an inﬁnite number of episodes and
+that, in addition, the episodes are generated with exploring starts.
+Under
+these assumptions, the Monte Carlo methods will compute each qπk exactly,
+for arbitrary πk.
+Policy improvement is done by making the policy greedy with respect to
+the current value function. In this case we have an action-value function, and
+therefore no model is needed to construct the greedy policy. For any action-
+value function q, the corresponding greedy policy is the one that, for each

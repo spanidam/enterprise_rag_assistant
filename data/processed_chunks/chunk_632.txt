@@ -1,0 +1,40 @@
+(8.55)
+Since KP and KD are chosen in so that A in (8.48) is a Hurwitz matrix, we
+choose Q > 0 and let P > 0 be the unique symmetric positive deﬁnite matrix
+satisfying the Lyapunov equation,
+AT P + PA = −Q.
+(8.56)
+Deﬁning the control δa according to
+δa =
+
+
+
+
+
+−ρ(e, t) BT Pe
+||BT Pe||
+;
+if
+||BT Pe|| ̸= 0
+0
+;
+if
+||BT Pe|| = 0
+(8.57)
+it follows that the Lyapunov function V = eT Pe satisﬁes ˙V ≤0 along solution
+trajectories of the system (8.48). To show this result, we compute
+˙V
+=
+−eT Qe + 2eT PB{δa + η}
+(8.58)
+For simplicity, set w = BT Pe and consider the second term, wT {δa + η} in the
+above expression. If w = 0 this term vanishes and for w ̸= 0, we have
+δa = −ρ w
+||w||
+(8.59)
+274
+MULTIVARIABLE CONTROL
+and (8.58) becomes, using the Cauchy-Schwartz inequality,
+wT (−ρ w
+||w|| + η)
+≤

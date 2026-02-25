@@ -1,0 +1,11 @@
+example, Jordan 1986; Elman 1990; Mozer 1995; Williams and Zipser 1995). 
+Interestingly, recurrent networks such as the one shown in Figure 4.1 1(b) can be 
+trained using a simple variant of BACKPROPAGATION. 
+TO understand how, consider 
+Figure 4.11(c), which shows the data flow of the recurrent network "unfolded 
+in time. Here we have made several copies of the recurrent network, replacing 
+the feedback loop by connections between the various copies. Notice that this 
+large unfolded network contains no cycles. Therefore, the weights in the unfolded 
+network can be trained directly using BACKPROPAGATION. 
+Of course in practice 
+we wish to keep only one copy of the recurrent network and one set of weights.

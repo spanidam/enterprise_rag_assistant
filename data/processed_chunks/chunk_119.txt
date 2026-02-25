@@ -1,0 +1,69 @@
+frame after the rotation by φ, frame obxbybzb represents the new coordinate
+frame after the rotation by θ, and frame o1x1y1z1 represents the ﬁnal frame,
+after the rotation by ψ. Frames oaxayaza and obxbybzb are shown in the ﬁgure
+only to help you visualize the rotations.
+48
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+In terms of the basic rotation matrices the resulting rotational transformation
+R0
+1 can be generated as the product
+RZY Z
+=
+Rz,φRy,θRz,ψ
+=
+
+
+cφ
+−sφ
+0
+sφ
+cφ
+0
+0
+0
+1
+
+
+
+
+cθ
+0
+sθ
+0
+1
+0
+−sθ
+0
+cθ
+
+
+
+
+cψ
+−sψ
+0
+sψ
+cψ
+0
+0
+0
+1
+
+
+=
+
+
+cφcθcψ −sφsψ
+−cφcθsψ −sφcψ
+cφsθ
+sφcθcψ + cφsψ
+−sφcθsψ + cφcψ
+sφsθ
+−sθcψ
+sθsψ
+cθ
+
+
+(2.27)
+The matrix RZY Z in Equation (2.27) is called the ZY Z-Euler Angle Trans-
+formation.

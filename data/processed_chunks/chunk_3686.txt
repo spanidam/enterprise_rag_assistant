@@ -1,0 +1,18 @@
+arc, the AI2 reasoning challenge,” CoRR, vol. abs/1803.05457, 2018.
+[Online]. Available: http://arxiv.org/abs/1803.05457
+[194]
+Y. Bisk, R. Zellers, R. L. Bras, J. Gao, and Y. Choi, “PIQA:
+reasoning about physical commonsense in natural language,” CoRR,
+vol. abs/1911.11641, 2019. [Online]. Available: http://arxiv.org/abs/
+1911.11641
+[195]
+M. Sap, H. Rashkin, D. Chen, R. L. Bras, and Y. Choi, “Socialiqa:
+Commonsense reasoning about social interactions,” CoRR, vol.
+abs/1904.09728, 2019. [Online]. Available: http://arxiv.org/abs/1904.
+09728
+[196]
+T. Mihaylov, P. Clark, T. Khot, and A. Sabharwal, “Can a suit of
+armor conduct electricity? A new dataset for open book question
+answering,” CoRR, vol. abs/1809.02789, 2018. [Online]. Available:
+http://arxiv.org/abs/1809.02789
+[197]

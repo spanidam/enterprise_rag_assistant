@@ -1,0 +1,10 @@
+tion-value function, but in Chapter 1 we presented a TD method for learning
+to play tic-tac-toe that learned something much more like a state-value func-
+tion. If we look closely at that example, it becomes apparent that the function
+learned there is neither an action-value function nor a state-value function in
+the usual sense. A conventional state-value function evaluates states in which
+the agent has the option of selecting an action, but the state-value function
+used in tic-tac-toe evaluates board positions after the agent has made its move.
+Let us call these afterstates, and value functions over these, afterstate value
+functions. Afterstates are useful when we have knowledge of an initial part
+of the environment’s dynamics but not necessarily of the full dynamics. For

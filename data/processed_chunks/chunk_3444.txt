@@ -1,0 +1,20 @@
+PLMs
+that
+contain
+tens
+to
+hundreds
+of billions of parameters. Compared to PLMs reviewed above,
+LLMs are not only much larger in model size, but also exhibit
+stronger language understanding and generation and emergent
+abilities that are not present in smaller-scale models. In what
+follows, we review three LLM families: GPT, LLaMA, and
+PaLM, as illustrated in Fig 8.
+1) The GPT Family: Generative Pre-trained Transform-
+ers (GPT) are a family of decoder-only Transformer-based
+language models, developed by OpenAI. This family con-
+sists of GPT-1, GPT-2, GPT-3, InstrucGPT, ChatGPT, GPT-4,
+Fig. 3: Overall pre-training and fine-tuning procedures for
+BERT. Courtesy of [24]
+Fig. 4: A comparison between replaced token detection and
+masked language modeling. Courtesy of [46].

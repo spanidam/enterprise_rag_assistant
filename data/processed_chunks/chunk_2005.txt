@@ -1,0 +1,9 @@
+the 13th International Conference on Machine Learning (pp. 444-452). San Francisco: Morgan 
+Kaufmann. 
+Simon, H. A,, & Lea, G. (1973). Problem solving and rule induction: A unified view. In Gregg (Ed.), 
+Knowledge and Cognition (pp. 105-127). New Jersey: Lawrence Erlbaum Associates. 
+Smith, B. D., & Rosenbloom, P. (1990). Incremental non-backtracking focusing: A polynomially 
+bounded generalization algorithm for version spaces. Proceedings of the 1990 National Con- 
+ference on ArtQcial Intelligence (pp. 848-853). Boston. 
+Subramanian, D., & Feigenbaum, J. (1986). Factorization in experiment generation. Proceedings of 
+the I986 National Conference on ArtQcial Intelligence (pp. 518-522). Morgan Kaufmann.

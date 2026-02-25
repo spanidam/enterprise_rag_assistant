@@ -1,0 +1,17 @@
+a token. While fine-tuning and alignment improves their per-
+formance and adds different dimensions to their abilities, there
+are still some important limitations that come up, particularly
+if they are used naively. Some of them include the following:
+•
+They don’t have state/memory. LLMs on their own
+cannot remember even what was sent to them in the
+previous prompt. That is an important limitation for
+many of the use cases that require some form of state.
+•
+They are stochastic/probabilistic. If you send the same
+prompt to an LLM several times, you are likely to get
+different responses. While there are parameters, and
+in particular the temperature, to limit the variability
+in the response, this is an inherent property of their
+training that can create issues.
+•

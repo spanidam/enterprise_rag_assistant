@@ -1,0 +1,12 @@
+trol, Signals, and Systems, 2, 303-3 14. 
+Cottrell, G. W. (1990). Extracting features from faces using compression networks: Face, identity, 
+emotion and gender recognition using holons. In D. Touretzky (Ed.), Connection Models: 
+Proceedings of the 1990 Summer School. San Mateo, CA: Morgan Kaufmann. 
+Dietterich, T. G., Hild, H., & Bakiri, G. (1995). A comparison of ID3 and BACKPROPAGATION 
+for 
+English text-to-speech mapping. Machine Learning, 18(1), 51-80. 
+Duda, R., & Hart, P. (1973). Pattern class@cation and scene analysis. New York: John Wiley & 
+Sons. 
+Elman, J. L. (1990). Finding structure in time. Cognitive Science, 14, 179-21 1. 
+Fahlman, S., & Lebiere, C. (1990). The CASCADE-CORRELATION 
+learning architecture (Technical

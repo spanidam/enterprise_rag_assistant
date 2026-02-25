@@ -1,0 +1,10 @@
+ations on a core algorithm that employs a top-down, greedy search through the 
+space of possible decision trees. This approach is exemplified by the ID3 algorithm 
+(Quinlan 1986) and its successor C4.5 (Quinlan 1993), which form the primary 
+focus of our discussion here. In this section we present the basic algorithm for 
+decision tree learning, corresponding approximately to the ID3 algorithm. In Sec- 
+tion 3.7 we consider a number of extensions to this basic algorithm, including 
+extensions incorporated into C4.5 and other more recent algorithms for decision 
+tree learning. 
+Our basic algorithm, ID3, learns decision trees by constructing them top- 
+down, beginning with the question "which attribute should be tested at the root

@@ -1,0 +1,26 @@
+items() function, both the key and value for each item are passed to the loop variable.
+A FOR LOOP OVER A DICTIONARY RETRIEVES EACH KEY IN THE DICTIONARY
+for key in dictionary: # Loop expression
+# Statements to execute in the loop
+# Statements to execute after the loop
+EXAMPLE 10.3
+Iterating over a dictionary
+dict.items()
+zip_codes = {"Berkeley": 94709, "Santa Cruz": 95064, "Mountain View": 94030}
+for key, value in zip_codes.items():
+print(key, value)
+Berkeley 94709
+Santa Cruz 95064
+Mountain View 94030
+Table 10.5
+10.4 • Conditionals and looping in dictionaries
+253
+dict.keys()
+zip_codes = {"Berkeley": 94709, "Santa Cruz": 95064, "Mountain View": 94030}
+for key in zip_codes.keys():
+print(key)
+Berkeley
+Santa Cruz
+Mountain View
+Table 10.6
+dict.values()

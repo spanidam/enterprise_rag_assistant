@@ -1,0 +1,17 @@
+Assertion " Hcontains 
+the target concept" 
+-D 
+P 
+Inductive bias 
+made explicit 
+FIGURE 2.8 
+Modeling inductive systems by equivalent deductive systems. The input-output behavior of the 
+CANDIDATE-ELIMINATION 
+algorithm using a hypothesis space H is identical to that of a deduc- 
+tive theorem prover utilizing the assertion "H contains the target concept." This assertion is therefore 
+called the inductive bias of the CANDIDATE-ELIMINATION 
+algorithm. Characterizing inductive systems 
+by their inductive bias allows modeling them by their equivalent deductive systems. This provides a 
+way to compare inductive systems according to their policies for generalizing beyond the observed 
+training data. 
+theorem prover is given these same two inputs plus the assertion "H contains the

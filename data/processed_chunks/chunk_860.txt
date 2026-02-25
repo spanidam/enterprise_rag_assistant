@@ -1,0 +1,54 @@
+This
+problem is a consequence of the fact that image-based control does not explicitly
+take camera motion into acount. Instead, image-based control determines a
+desired trajector in the image feature space, and maps this trajectory, using
+the interaction matrix, to a camera velocity.
+To combat this problem, a number of partitioned methods have been
+introduced. These methods use the interaction matrix to control only a subset
+of the camera degrees of freedom, using other methods to control the remaining
+degrees of freedom. Consider Equation (12.15). We can write this equation as
+
+˙u
+˙v
+
+=
+
+
+−λ
+z
+0
+uv
+λ
+−λ2 + u2
+λ
+0
+−λ
+z
+λ2 + v2
+λ
+−uv
+λ
+
+
+
+
+vx
+vy
+ωx
+ωy
+
++
+
+
+u
+z
+v
+v
+z
+−u
+
+
+ vz
+ωz
+
+If we genaralize this to k feature points, we stack the resulting interaction

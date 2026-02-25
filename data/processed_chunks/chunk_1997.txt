@@ -1,0 +1,12 @@
+2.6. Complete the proof of the version space representation theorem (Theorem 2.1). 
+Consider a concept learning problem in which each instance is a real number, and in 
+which each hypothesis is an interval over the reals. More precisely, each hypothesis 
+in the hypothesis space H is of the form a < x < b, where a and b are any real 
+constants, and x refers to the instance. For example, the hypothesis 4.5 < x < 6.1 
+classifies instances between 4.5 and 6.1 as positive, and others as negative. Explain 
+informally why there cannot be a maximally specific consistent hypothesis for any 
+set of positive training examples. Suggest a slight modification to the hypothesis 
+representation so that there will be. 
+'C 
+50 
+MACHINE LEARNING

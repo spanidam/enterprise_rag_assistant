@@ -1,0 +1,10 @@
+the response of the opponent, one must consider the possible dice rolls as well.
+The result is that the game tree has an eﬀective branching factor of about 400.
+This is far too large to permit eﬀective use of the conventional heuristic search
+methods that have proved so eﬀective in games like chess and checkers.
+On the other hand, the game is a good match to the capabilities of TD
+learning methods. Although the game is highly stochastic, a complete de-
+scription of the game’s state is available at all times. The game evolves over
+a sequence of moves and positions until ﬁnally ending in a win for one player
+or the other, ending the game. The outcome can be interpreted as a ﬁnal
+reward to be predicted. On the other hand, the theoretical results we have

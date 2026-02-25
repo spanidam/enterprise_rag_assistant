@@ -1,0 +1,14 @@
+able in the algorithm. In particular, the 100 most frequent words were removed 
+(these include words such as "the" and "of '), and any word occurring fewer than 
+three times was also removed. The resulting vocabulary contained approximately 
+38,500 words. 
+Similarly impressive results have been achieved by others applying similar 
+statistical learning approaches to text classification. For example, Lang (1995) 
+describes another variant of the naive Bayes algorithm and its application to 
+learning the target concept "usenet articles that I find interesting." He describes 
+the NEWSWEEDER 
+system-a 
+program for reading netnews that allows the user to 
+rate articles as he or she reads them. NEWSWEEDER 
+then uses these rated articles as 
+TABLE 6.3

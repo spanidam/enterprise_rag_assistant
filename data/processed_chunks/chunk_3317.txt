@@ -1,0 +1,10 @@
+space, it must move about the real world and observe the consequences. In this 
+latter case our primary concern is usually the number of real-world actions that the 
+agent must perform to converge to an acceptable policy, rather than the number of 
+computational cycles it must expend. The reason is that in many practical domains 
+such as manufacturing problems, the costs in time and in dollars of performing 
+actions in the external world dominate the computational costs. Systems that learn 
+by moving about the real environment and observing the results are typically called 
+online systems, whereas those that learn solely by simulating actions within an 
+internal model are called ofline systems. 
+The close correspondence between these earlier approaches and the rein-

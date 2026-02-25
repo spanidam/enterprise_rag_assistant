@@ -1,0 +1,12 @@
+The learning problem faced by BACKPROPAGATION 
+is to search a large hypoth- 
+esis space defined by all possible weight values for all the units in the network. 
+The situation can be visualized in terms of an error surface similar to that shown 
+for linear units in Figure 4.4. The error in that diagram is replaced by our new 
+definition of E, and the other dimensions of the space correspond now to all of 
+the weights associated with all of the units in the network. As in the case of 
+training a single unit, gradient descent can be used to attempt to find a hypothesis 
+to minimize E. 
+B~c~~~o~~GATIO~(trainingaxamp~es, 
+q, ni, , no,, , nhidden) 
+Each training example is a pair of the form (2, i ), where x' is the vector of network input

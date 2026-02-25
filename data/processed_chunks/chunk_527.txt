@@ -1,0 +1,18 @@
+the links are uniform rectangular solids of length 1, width 1
+4, and
+height 1
+4, and mass 1.
+b) Compute the 3 × 3 inertia matrix D(q) for this manipulator.
+c) Show that the Christoﬀel symbols cijk are all zero for this robot. In-
+terpret the meaning of this for the dynamic equations of motion.
+d) Derive the equations of motion in matrix form:
+D(q)¨q + C(q, ˙q) ˙q + g(q)
+=
+u.
+226
+DYNAMICS
+6-7 Derive the Euler-Lagrange equations for the planar RP robot in Figure ??.
+6-8 Derive the Euler-Lagrange equations for the planar PR robot in Figure ??.
+6-9 Derive the Euler-Lagrange equations of motion for the three-link RRR
+robot of Figure ??. Explore the use of symbolic software, such as Maple or
+Mathematica, for this problem. See, for example, the Robotica package [?].

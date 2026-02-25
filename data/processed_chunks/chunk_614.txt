@@ -1,0 +1,40 @@
+independently of the motion of the other links.
+Since aqk can now be designed to control a linear second order system, the
+obvious choice is to set
+aq
+=
+−K0q −K1 ˙q + r
+(8.19)
+where K0 and K1 are diagonal matrices with diagonal elements consisting of
+position and velocity gains, respectively. The closed loop system is then the
+linear system
+¨q + K1 ˙q + K0q
+=
+r.
+(8.20)
+Now, given a desired trajectory
+t
+→
+(qd(t), ˙qd(t)).
+(8.21)
+if one chooses the reference input r(t) as3
+r(t)
+=
+¨qd(t) + K0qd(t) + K1 ˙qd(t)
+(8.22)
+then the tracking error e(t) = q −qd satisﬁes
+¨e(t) + K1e(t) + K0e(t)
+=
+0.
+(8.23)
+A simple choice for the gain matrices K0 and K1 is
+K0
+=
+diag{ω2
+1, . . . , ω2
+n}
+(8.24)
+K1
+=
+diag{2ω1, . . . , 2ωn}
+which results in a closed loop system which is globally decoupled, with each joint

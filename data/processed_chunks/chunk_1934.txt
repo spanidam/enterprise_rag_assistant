@@ -1,0 +1,17 @@
+date of the G boundary is needed in response to this training example because 
+Go correctly covers this example. When the second training example (also pos- 
+itive) is observed, it has a similar effect of generalizing S further to S2, leaving 
+G again unchanged (i.e., G2 = GI = GO). Notice the processing of these first 
+34 
+MACHINE LEARNING 
+S 1 : {<Sunny, Warm, Normal, Strong, Warm, Same> } 
+1 
+Training examples: 
+t 
+1 .  <Sunny, Warm, Normal, Strong, Warm, Same>, Enjoy Sport = Yes 
+2 .  <Sunny, Warm, High, Strong, Warm, Same>, Enjoy Sport = Yes 
+S2 : 
+FIGURE 2.4 
+CANDIDATE-ELIMINATION 
+Trace 1. So and Go are the initial boundary sets corresponding to the most 
+specific and most general hypotheses. Training examples 1 and 2 force the S boundary to become

@@ -1,0 +1,40 @@
+work?" To include a double quote ("), enclose the string with matching single quotes ('). Ex: 'They said "Try
+it!", so I did'.
+16
+1 • Statements
+Access for free at openstax.org
+Valid string
+Invalid string
+"17" or '17'
+17
+"seventeen" or 'seventeen'
+seventeen
+"Where?" or 'Where?'
+"Where?'
+"I hope you aren't sad."
+'I hope you aren't sad.'
+'The teacher said "Correct!" '
+"The teacher said "Correct!" "
+Table 1.3 Rules for strings.
+CONCEPTS IN PRACTICE
+Valid and invalid strings
+1. Which of the following is a string?
+a.
+Hello!
+b.
+29
+c.
+"7 days"
+2. Which line of code assigns a string to the variable email?
+a.
+"fred78@gmail.com"
+b.
+"email = fred78@gmail.com"
+c.
+email = "fred78@gmail.com"
+3. Which is a valid string?
+a.
+I know you'll answer correctly!
+b.
+'I know you'll answer correctly!'
+c.

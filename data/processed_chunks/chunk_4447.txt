@@ -1,0 +1,10 @@
+of reinforcement learning methods for value prediction with a wide range of
+function approximation methods, using the backups of the former to generate
+training examples for the latter. We have also outlined a range of RMSE per-
+formance measures to which these methods may aspire. The range of possible
+methods is far too large to cover all, and anyway too little is known about
+most of them to make a reliable evaluation or recommendation. Of necessity,
+we consider only a few possibilities. In the rest of this chapter we focus on
+function approximation methods based on gradient principles, and on linear
+gradient-descent methods in particular. We focus on these methods in part
+because we consider them to be particularly promising and because they re-

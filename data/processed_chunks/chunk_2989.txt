@@ -1,0 +1,10 @@
+Robinson, J. A. (1965). A machine-oriented logic based on the resolution principle. Journal of the 
+ACM, 12(1), 23-41. 
+Sammut, C. A. (1981). Concept learning by experiment. Seventh International Joint Conference on 
+Artijicial Intelligence, Vancouver. 
+Sammut, C. A., & Banerji, R. B. (1986). Learning concepts by asking questions. In R. S. Michalski, 
+J. G. Carbonell, & T. M. Mitchell (Eds.), Machine learning: An art$cial intelligence approach 
+(Vol 2, pp. 167-192). Los Altos, California: Morgan Kaufmann. 
+Shapiro, E. (1983). Algorithmic program debugging. Cambridge M A :  MIT Press. 
+Srinivasan, A., Muggleton, S., & King, R. D. (1995). Comparing the use of background knowl- 
+edge by inductive logic programming systems (PRG Technical report PRG-TR-9-95). Oxford

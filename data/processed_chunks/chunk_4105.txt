@@ -1,0 +1,14 @@
+your results graphically, as in Figure 4.6. Are your results stable as θ →0?
+Exercise 4.10 What is the analog of the value iteration backup (4.10) for
+action values, qk+1(s, a)?
+112
+CHAPTER 4. DYNAMIC PROGRAMMING
+Chapter 5
+Monte Carlo Methods
+In this chapter we consider our ﬁrst learning methods for estimating value func-
+tions and discovering optimal policies. Unlike the previous chapter, here we
+do not assume complete knowledge of the environment. Monte Carlo methods
+require only experience—sample sequences of states, actions, and rewards from
+actual or simulated interaction with an environment. Learning from actual ex-
+perience is striking because it requires no prior knowledge of the environment’s
+dynamics, yet can still attain optimal behavior. Learning from simulated ex-

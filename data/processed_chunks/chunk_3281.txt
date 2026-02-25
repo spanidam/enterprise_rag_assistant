@@ -1,0 +1,12 @@
+algorithm of Table 13.1 will converge to the correct Q function. First consider 
+two general properties of this Q learning algorithm that hold for any deterministic 
+MDP in which the rewards are non-negative, assuming we initialize all Q values to 
+zero. The first property is that under these conditions the Q values never decrease 
+during training. More formally, let Q,(s, a) denote the learned ~ ( s ,  
+a) value after 
+the nth iteration of the training procedure (i.e., after the nth state-action transition 
+taken by the agent). Then 
+A second general property that holds under these same conditions is that through- 
+out the training process every Q value wi:l remain in the interval between zero 
+and its true Q value. 
+13.3.4 Convergence

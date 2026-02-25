@@ -1,0 +1,12 @@
+function for a given policy. Recall that the value of a state is the expected
+return—expected cumulative future discounted reward—starting from that
+state.
+An obvious way to estimate it from experience, then, is simply to
+average the returns observed after visits to that state. As more returns are
+observed, the average should converge to the expected value. This idea under-
+lies all Monte Carlo methods.
+In particular, suppose we wish to estimate vπ(s), the value of a state s
+under policy π, given a set of episodes obtained by following π and passing
+through s. Each occurrence of state s in an episode is called a visit to s. Of
+course, s may be visited multiple times in the same episode; let us call the ﬁrst
+time it is visited in an episode the ﬁrst visit to s. The ﬁrst-visit MC method

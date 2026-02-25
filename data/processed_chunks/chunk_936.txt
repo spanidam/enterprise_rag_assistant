@@ -1,0 +1,28 @@
+47
+9
+Generative Neural Networks
+49
+9.1
+Auto-encoders
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+49
+9.2
+Variational Auto-Encoders (VAE) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+9.3
+Generative Adversarial Networks (GAN) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+9.4
+Diffusion Models . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+9.5
+Conditional Flow Matching . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+50
+9.6
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+51
+Bibliography
+53
+ii
+Deep Learning Basics (lecture notes)
+by Romain Tavenard

@@ -1,0 +1,11 @@
+over the set D containing m randomly drawn examples, then 
+This gives us a bound on the probability that an arbitrarily chosen single hypothesis 
+has a very misleading training error. To assure that the best hypothesis found by 
+L has an error bounded in this way, we must consider the probability that any 
+one of the 1 H 1 hypotheses could have a large error 
+Pr[(3h E H)(errorv(h) > error~(h) + E)] 5 1 H ~ e - ~ ~ ' ~  
+If we call this probability 6, and ask how many examples m suffice to hold S to 
+some desired value, we now obtain 
+This is the generalization of Equation (7.2) to the case in which the learner still 
+picks the best hypothesis h E H, but where the best hypothesis may have nonzero 
+training error. Notice that m depends logarithmically on H and on 116, as it did

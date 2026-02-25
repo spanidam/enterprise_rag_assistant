@@ -1,0 +1,38 @@
+4 , while A tan(−1, 1) = + 3π
+4 . Note that if both
+x and y are zero, A tan is undeﬁned.
+377
+378
+GEOMETRY AND TRIGONOMETRY
+A.1.2
+Reduction formulas
+sin(−θ) = −sin θ
+sin( π
+2 + θ) = cos θ
+cos(−θ) = cos θ
+tan( π
+2 + θ) = −cot θ
+tan(−θ) = −tan θ
+tan(θ −π) = tan θ
+A.1.3
+Double angle identitites
+sin(x ± y)
+=
+sin x cos y ± cos x sin y
+cos(x ± y)
+=
+cos x cos y ∓sin x sin y
+tan(x ± y)
+=
+tan x ± y
+1 ∓tan x tan y
+A.1.4
+Law of cosines
+If a triangle has sides of length a, b and c, and θ is the angle opposite the side
+of length a, then
+a2 = b2 + c2 −2bc cos θ
+(A.2)
+Appendix B
+Linear Algebra
+In this book we assume that the reader has some familiarity with basic proper-
+ties of vectors and matrices, such as matrix addition, subtraction, multiplica-

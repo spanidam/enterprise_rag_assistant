@@ -1,0 +1,20 @@
+The program's output should match the following example (input in bold):
+How fast were you driving? 180
+Woah, that's like 112 mph!
+What was the temperature? 35
+That's 95 degrees Fahrenheit!
+Notice this exercise requires two files:
+1.
+european.py, the main program. Input and output statements are provided as a starting point. Edit the
+lines with TODO comments to use the conversion module.
+2.
+conversion.py, the other module. Copy and paste your code from the previous exercise. Import this
+module in european.py after the docstring.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+7-1-module-basics)
+7.2 Importing names
+Learning objectives
+By the end of this section you should be able to
+•
+Import functions from a module using the from keyword.
+•

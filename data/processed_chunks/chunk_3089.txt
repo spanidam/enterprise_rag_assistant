@@ -1,0 +1,10 @@
+and analytical learning methods in order to learn effectively from imperfect 
+domain theories and limited training data. 
+The roots of analytical learning methods can be traced to early work by 
+Fikes et al. (1972) on learning macro-operators through analysis of operators 
+in ABSTRIPS and to somewhat later work by Soloway (1977) on the use of 
+explicit prior knowledge in learning. Explanation-based learning methods similar 
+to those discussed in this chapter first appeared in a number of systems developed 
+during the early 1980s, including DeJong (1981); Mitchell (1981); Winston et al. 
+(1983); and Silver (1983). DeJong and Mooney (1986) and Mitchell et al. (1986) 
+provided general descriptions of the explanation-based learning paradigm, which

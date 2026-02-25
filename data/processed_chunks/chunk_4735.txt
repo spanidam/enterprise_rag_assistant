@@ -1,0 +1,18 @@
+and reacting. SIGART Bulletin, 2:160–163. ACM Press.
+Sutton, R. S. (1991b).
+Planning by incremental dynamic programming.
+In
+L. A. Birnbaum and G. C. Collins (eds.), Proceedings of the Eighth Interna-
+tional Workshop on Machine Learning, pp. 353–357. Morgan Kaufmann,
+San Mateo, CA.
+Sutton, R. S. (1995). TD models: Modeling the world at a mixture of time
+scales. In A. Prieditis and S. Russell (eds.), Proceedings of the Twelfth In-
+ternational Conference on Machine Learning, pp. 531–539. Morgan Kauf-
+mann, San Francisco.
+Sutton, R. S. (1996).
+Generalization in reinforcement learning: Successful
+examples using sparse coarse coding.
+In D. S. Touretzky, M. C. Mozer
+332
+CHAPTER 15. PROSPECTS
+and M. E. Hasselmo (eds.), Advances in Neural Information Processing

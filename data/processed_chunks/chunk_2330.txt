@@ -1,0 +1,11 @@
+defining the Binomial distribution. We then have 
+where n is the number of instances in the sample S, r is the number of instances 
+from S misclassified by h, and p is the probability of misclassifying a single 
+instance drawn from 23. 
+Statisticians call errors(h) an estimator for the true error errorv(h). In 
+general, an estimator is any random variable used to estimate some parameter of 
+the underlying population from which the sample is drawn. An obvious question 
+to ask about any estimator is whether on average it gives the right estimate. We 
+define the estimation bias to be the difference between the expected value of the 
+estimator and the true value of the parameter. 
+Definition: The estimation bias of an estimator Y for an arbitrary parameter p is

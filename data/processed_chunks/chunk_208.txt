@@ -1,0 +1,10 @@
+multiple solutions. Having closed form solutions allows one to develop rules for
+choosing a particular solution among several.
+The practical question of the existence of solutions to the inverse kinematics
+problem depends on engineering as well as mathematical considerations. For
+example, the motion of the revolute joints may be restricted to less than a full
+360 degrees of rotation so that not all mathematical solutions of the kinematic
+equations will correspond to physically realizable conﬁgurations of the manip-
+ulator. We will assume that the given position and orientation is such that at
+least one solution of (3.32) exists. Once a solution to the mathematical equa-
+tions is identiﬁed, it must be further checked to see whether or not it satisﬁes

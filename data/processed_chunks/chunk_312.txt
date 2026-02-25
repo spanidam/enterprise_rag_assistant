@@ -1,0 +1,18 @@
+matrix U. In the original coordinate system, the axes of the ellipsoid are given
+by the vectors σiui. The volume of the ellipsoid is given by
+volume = Kσ1σ2 · · · σm
+in which K is a constant that depends only on the dimension, m, of the ellipsoid.
+The manipulability measure, as deﬁned by Yoshikawa [78], is given by
+µ = σ1σ2 · · · σm
+(4.139)
+MANIPULABILITY
+143
+Note that the constant K is not included in the deﬁnition of manipulability,
+since it is ﬁxed once the task has been deﬁned (i.e., once the dimension of the
+task space has been ﬁxed).
+Now, consider the special case that the robot is not redundant, i.e., J ∈
+Rm×m. Recall that the determinant of a product is equal to the product of the
+determinants, and that a matrix and its transpose have the same determinant.
+Thus, we have
+det JJT
+=

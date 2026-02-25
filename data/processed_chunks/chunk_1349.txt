@@ -1,0 +1,32 @@
+a.
+from math import sqrt
+b.
+import sqrt from math
+c.
+import math
+2. How many variables are defined by the statement from math import sin, cos, tan?
+a.
+0
+b.
+3
+c.
+4
+3. What error would occur if attempting to call a function that was not imported?
+a.
+ImportError
+b.
+NameError
+c.
+SyntaxError
+Name collisions
+Modules written by different programmers might use the same name for a function. A name collision occurs
+when a function is defined multiple times. If a function is defined more than once, the most recent definition is
+178
+7 • Modules
+Access for free at openstax.org
+used:
+from area import cube
+def cube(x):
+# Name collision (replaces the imported function)
+return x ** 3
+print(cube(2)) # Calls the local cube() function, not area.cube()

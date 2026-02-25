@@ -1,0 +1,39 @@
+Ex: is_on = not is_on.
+p
+not p
+True
+False
+False
+True
+Table 4.3 Truth table:
+not p.
+CHECKPOINT
+Example: Diving warning
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+4-3-boolean-operations)
+CONCEPTS IN PRACTICE
+Using the not operator
+8. Given x = 13, what is the value of not(x < 10)?
+a.
+True
+b.
+False
+9. Given x = 18, is x in the correct range?
+if not(x > 15 and x < 20):
+# x in correct range
+a.
+yes
+b.
+no
+10. Given is_turn = False and timer = 65, what is the final value of is_turn?
+4.3 • Boolean operations
+103
+if timer > 60:
+is_turn = not is_turn
+a.
+True
+b.
+False
+TRY IT
+Speed limits
+Write a program that reads in a car's speed as an integer and checks if the car's speed is within the freeway

@@ -1,0 +1,11 @@
+just the number of positive bindings covered by R that remain covered by R', 
+Foil-Gain(L, R )  can be seen as the reduction due to L in the total number of 
+bits needed to encode the classification of all positive bindings of R. 
+10.5.3 Learning Recursive Rule Sets 
+In the above discussion, we ignored the possibility that new literals added to the 
+rule body could refer to the target predicate itself (i.e., the predicate occurring 
+in the rule head). However, if we include the target predicate in the input list of 
+Predicates, then FOIL will consider it as well when generating candidate literals. 
+This will allow it to form recursive rules-rules 
+that use the same predicate in 
+the body and the head of the rule. For instance, recall the following rule set that

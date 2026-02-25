@@ -1,0 +1,10 @@
+typically assume the learner lacks such knowledge. 
+The common theme that underlies much of the work on reinforcement learn- 
+ing is to iteratively reduce the discrepancy between evaluations of successive 
+states. Some of the earliest work on such methods is due to Samuel (1959). His 
+checkers learning program attempted to learn an evaluation function for checkers 
+by using evaluations of later states to generate training values for earlier states. 
+Around the same time, the Bellman-Ford, single-destination, shortest-path algo- 
+rithm was developed (Bellman 1958; Ford and Fulkerson 1962), which propagated 
+distance-to-goal values from nodes to their neighbors. Research on optimal control 
+led to the solution of Markov decision processes using similar methods (Bellman

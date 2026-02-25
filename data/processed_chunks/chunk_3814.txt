@@ -1,0 +1,10 @@
+wards and punishments—but the systems they studied were supervised learn-
+ing systems suitable for pattern recognition and perceptual learning. Even to-
+day, some researchers and textbooks minimize or blur the distinction between
+these types of learning. For example, some neural-network textbooks have
+used the term “trial-and-error” to describe networks that learn from training
+examples. This is an understandable confusion because these networks use
+error information to update connection weights, but this substantially misses
+the essential selectional character of trial-and-error learning.
+Partly as a result of these confusions, research into genuine trial-and-error
+learning became rare in the the 1960s and 1970s. In the next few paragraphs

@@ -1,0 +1,9 @@
+sary to deﬁne what is meant by connectivity. For our purposes, it is suﬃcient
+to say that a pixel, A, with image pixel coordinates (r, c) is adjacent to four
+pixels, those with image pixel coordinates (r −1, c), (r + 1, c), (r, c + 1), and
+(r, c −1). In other words, each image pixel A (except those at the edges of
+the image) has four neighbors: the pixel directly above, directly below, directly
+to the right and directly to the left of pixel A. This relationship is sometimes
+referred to as 4-connectivity, and we say that two pixels are 4-connected if they
+are adjacent by this deﬁnition. If we expand the deﬁnition of adjacency to in-
+clude those pixels that are diagonally adjacent (i.e., the pixels with coordinates

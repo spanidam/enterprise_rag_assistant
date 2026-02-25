@@ -1,0 +1,13 @@
+operator (**).
+1.6 Error messages
+1. b. The filename can be found after the last slash (/). Other names, like Desktop, refer to folders.
+2. b. Line 2 is mentioned immediately after the filename.
+3. b. The type of error is always the first word on the last line of the error message.
+4. a. The middle three lines are indented. In Python, lines may not begin with spaces or tabs unexpectedly.
+5. c. The quote marks are missing at the end of the input prompt.
+6. b. The name for "input" is misspelled.
+1.7 Comments
+1. b. Comments help explain the purpose of code so that other programmers understand what the code
+intends.
+2. a. The hash character indicates the beginning of a comment.
+3. b. Having one space after the # is the community standard.

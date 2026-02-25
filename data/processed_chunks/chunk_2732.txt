@@ -1,0 +1,9 @@
+is bound when matching the function graph against the case library. In fact, the 
+function graph for the faucet shown in Figure 8.3 is an elaboration of the original - 
+functional specification produced by applying such rewrite rules. 
+By retrieving multiple cases that match different subgraphs, the entire de- 
+sign can sometimes be pieced together. In general, the process of producing a 
+final solution from multiple retrieved cases can be very complex. It may require 
+designing portions of the system from first principles, in addition to merging re- 
+trieved portions from stored cases. It may also require backtracking on earlier 
+choices of design subgoals and, therefore, rejecting cases that were previously

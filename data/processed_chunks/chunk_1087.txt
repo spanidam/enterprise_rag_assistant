@@ -1,0 +1,20 @@
+2.
+Assigns the floating-point value 3.28 to a variable, meter2feet.
+3.
+Calculates 10 meters in feet by multiplying meter by meter2feet. Store the result in a variable, feet.
+1.5 • Number basics
+23
+4.
+Prints the content of variable feet in the output.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-5-number-basics)
+1.6 Error messages
+Learning objectives
+By the end of this section you should be able to
+•
+Identify the error type and line number in error messages.
+•
+Correct syntax errors, name errors, and indentation errors.
+How to read errors
+A natural part of programming is making mistakes. Even experienced programmers make mistakes when
+writing code. Errors may result when mistakes are made when writing code. The computer requires very

@@ -1,0 +1,12 @@
+update its steering command as the vehicle drives forward. 
+I 
+The ability of humans to understand the learned target function is not impor- 
+tant. The weights learned by neural networks are often difficult for humans to 
+interpret. Learned neural networks are less easily communicated to humans 
+than learned rules. 
+The rest of this chapter is organized as follows: We first consider several 
+alternative designs for the primitive units that make up artificial neural networks 
+(perce~trons, linear units, and sigmoid units), along with learning algorithms for 
+training single units. We then present the BACKPROPAGATION 
+algorithm for training 
+multilayer networks of such units and consider several general issues such as the

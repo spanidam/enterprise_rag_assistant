@@ -1,0 +1,39 @@
+eters is 20 × 3 = 60 for the weights plus 3 extra parameters for the biases.
+Overall, we have 220 + 63 = 283 parameters in this model.
+® Exercise #2
+Declare, in keras, an MLP with one hidden layer made of 100 neurons and ReLU activation for the Iris dataset
+presented above.
+® Solution
+model = Sequential([
+InputLayer(input_shape=(4, )),
+Dense(units=100, activation="relu"),
+Dense(units=3, activation="softmax")
+])
+® Exercise #3
+Same question for the full Boston Housing dataset shown below (the goal here is to predict the PRICE feature based
+on the other ones).
+® Solution
+model = Sequential([
+InputLayer(input_shape=(6, )),
+Dense(units=100, activation="relu"),
+Dense(units=1, activation="relu")
+])
+RM
+CRIM
+INDUS
+NOX
+AGE
+TAX
+PRICE
+0
+6.575
+0.00632
+2.31
+0.538
+65.2
+296.0
+24.0
+1
+6.421
+0.02731
+7.07

@@ -1,0 +1,32 @@
+CHECKPOINT
+Mutability of a tuple vs. a list
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+3-5-tuple-basics)
+86
+3 • Objects
+Access for free at openstax.org
+CONCEPTS IN PRACTICE
+Using tuples
+4. Consider the final program in the example above. What is the value of my_tuple?
+a.
+(0.693, 0.414, 3.142)
+b.
+(0.693, 1.414, 3.142)
+c.
+Error
+5. Why does the following code produce an error?
+tuple_1 = ('alpha', 'bravo', 'charlie')
+tuple_1.append('charlie')
+a.
+Append isn't allowed.
+b.
+Duplicates aren't allowed.
+c.
+Strings aren't allowed
+6. A programmer wants to create a sequence of constants for easy reference that can't be changed
+anywhere in the program. Which sequence would be the most appropriate?
+a.
+list
+b.
+tuple
+MUTABILITY AND PERFORMANCE

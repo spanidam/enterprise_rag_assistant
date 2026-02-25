@@ -1,0 +1,29 @@
+the torque exerted by link i −1 on link i
+Ri+1
+i
+=
+the rotation matrix from frame i + 1 to frame i
+The ﬁnal set of vectors pertain to physical features of the manipulator. Note
+that each of the following vectors is constant as a function of q.
+In other
+words, each of the vectors listed here is independent of the conﬁguration of the
+manipulator.
+mi
+=
+the mass of link i
+Ii
+=
+the inertia matrix of link i about a frame parallel
+to frame i whose origin is at the center of mass of link i
+ri,ci
+=
+the vector from joint i to the center of mass of link i
+ri+1,ci
+=
+the vector from joint i + 1 to the center of mass of link i
+ri,i+1
+=
+the vector from joint i to joint i + 1
+Now consider the free body diagram shown in Figure 6.11; this shows link i
+Fig. 6.11
+Forces and moments on link i

@@ -1,0 +1,13 @@
+model is updated to better match reality. As the model changes, the ongoing
+planning process will gradually compute a diﬀerent way of behaving to match
+the new model.
+8.3
+When the Model Is Wrong
+In the maze example presented in the previous section, the changes in the
+model were relatively modest. The model started out empty, and was then
+ﬁlled only with exactly correct information. In general, we cannot expect to be
+so fortunate. Models may be incorrect because the environment is stochastic
+and only a limited number of samples have been observed, because the model
+was learned using function approximation that has generalized imperfectly, or
+simply because the environment has changed and its new behavior has not
+yet been observed. When the model is incorrect, the planning process will

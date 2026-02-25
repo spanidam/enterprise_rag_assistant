@@ -1,0 +1,10 @@
+of heads p. You toss the coin n times and record the number of times r that it 
+turns up heads. A reasonable estimate of p is rln. Note that if the experiment 
+were rerun, generating a new set of n coin tosses, we might expect the number 
+of heads r to vary somewhat from the value measured in the first experiment, 
+yielding a somewhat different estimate for p. The Binomial distribution describes 
+for each possible value of r (i.e., from 0 to n), the probability of observing exactly 
+r heads given a sample of n independent tosses of a coin whose true probability 
+of heads is p. 
+Interestingly, estimating p from a random sample of coin tosses is equivalent 
+to estimating errorv(h) from testing h on a random sample of instances. A single

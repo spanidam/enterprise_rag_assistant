@@ -1,0 +1,10 @@
+We are interested in calculating the expected value of m(s, t + l), which 
+we denote E[m(s, t + I)]. We can calculate E[m (s, t + I)] using the probability 
+distribution for selection given in Equation (9. I), which can be restated using our 
+current terminology as follows: 
+Now if we select one member for the new population according to this probability 
+distribution, then the probability that we will select a representative of schema s is 
+The second step above follows from the fact that by definition, 
+Equation (9.2) gives the probability that a single hypothesis selected by the G A  
+will be an instance of schema s. Therefore, the expected number of instances 
+of s resulting from the n independent selection steps that create the entire new

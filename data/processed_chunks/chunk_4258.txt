@@ -1,0 +1,15 @@
+in various natural ways, is nearly identical to one-step Sarsa, as detailed
+by Wilson (1994).
+6.5
+Q-learning was introduced by Watkins (1989), whose outline of a con-
+vergence proof was later made rigorous by Watkins and Dayan (1992).
+More general convergence results were proved by Jaakkola, Jordan, and
+Singh (1994) and Tsitsiklis (1994).
+164
+CHAPTER 6. TEMPORAL-DIFFERENCE LEARNING
+6.6
+R-learning is due to Schwartz (1993). Mahadevan (1996), Tadepalli
+and Ok (1994), and Bertsekas and Tsitsiklis (1996) have studied rein-
+forcement learning for undiscounted continuing tasks. In the literature,
+the undiscounted continuing case is often called the case of maximiz-
+ing “average reward per time step” or the “average-reward case.” The

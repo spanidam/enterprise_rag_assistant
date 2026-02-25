@@ -1,0 +1,19 @@
+reinforcement learning problem in which one neither discounts nor divides
+11.3. R-LEARNING AND THE AVERAGE-REWARD SETTING
+261
+experience into distinct episodes with ﬁnite returns. In this average-reward
+setting, one seeks to maximize the average reward per time step. The value
+functions for a policy, π, are deﬁned relative to the average expected reward
+per step under the policy, ¯r(π):
+¯r(π) = lim
+n→∞
+1
+n
+n
+X
+t=1
+Eπ[Rt] .
+This average reward is well deﬁned if we assume that the process is ergodic
+(nonzero probability of reaching any state from any other under any policy),
+and thus that ¯r(π) does not depend on the starting state. From any state, in
+the long run the average reward is the same, but there is a transient. From

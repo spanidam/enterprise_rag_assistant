@@ -1,0 +1,17 @@
+method (9.2) is guaranteed to converge to a local optimum.
+We turn now to the case in which the target output, Vt, of the tth training
+example, St 7→Vt, is not the true value, vπ(St), but some, possibly random,
+approximation of it. For example, Vt might be a noise-corrupted version of
+vπ(St), or it might be one of the backed-up values using ˆv mentioned in the
+previous section.
+In such cases we cannot perform the exact update (9.2)
+because vπ(St) is unknown, but we can approximate it by substituting Vt in
+place of vπ(St). This yields the general gradient-descent method for state-value
+prediction:
+wt+1 = wt + α
+h
+Vt −ˆv(St,wt)
+i
+∇ˆv(St,wt).
+(9.3)
+If Vt is an unbiased estimate, that is, if E[Vt] = vπ(St), for each t, then wt is

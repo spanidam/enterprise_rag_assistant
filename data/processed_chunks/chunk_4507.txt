@@ -1,0 +1,13 @@
+1984).
+9.6. SUMMARY
+249
+we see it performing much worse.
+At this time it is unclear why methods that involve some bootstrapping
+perform so much better than pure nonbootstrapping methods. It could be
+that bootstrapping methods learn faster, or it could be that they actually
+learn something better than nonbootstrapping methods. The available results
+indicate that nonbootstrapping methods are better than bootstrapping meth-
+ods at reducing RMSE from the true value function, but reducing RMSE is
+not necessarily the most important goal. For example, if you add 1000 to the
+true action-value function at all state–action pairs, then it will have very poor
+RMSE, but you will still get the optimal policy. Nothing quite that simple is

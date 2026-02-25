@@ -1,0 +1,21 @@
+have been explored in the research literature. In this section we consider learning 
+only propositional rules. In later sections, we extend these algorithms to learn 
+first-order Horn clauses. 
+S E Q U E N T I A L - C O V E R I N G ( T ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ,  
+Attributes, Examples, Threshold) 
+0 Learnedxules c 
+{} 
+0 Rule c 
+~ ~ ~ ~ ~ - o ~ ~ - ~ ~ ~ ~ ( T a r g e t a t t r i b u t e ,  
+Attributes, Examples) 
+0 while PERFORMANCE(RU~~, 
+Examples) > Threshold, do 
+0 Learned~ules c 
+Learnedxules + Rule 
+0 Examples c Examples - {examples correctly classified by Rule] 
+0 Rule c 
+~~~~~-oN~-RuL~(Targetllttribute, 
+Attributes, Examples) 
+0 Learnedxules c sort Learned-rules accord to PERFORMANCE over Examples 
+0 return Learnedxules 
+TABLE 10.1

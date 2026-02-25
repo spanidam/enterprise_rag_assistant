@@ -1,0 +1,11 @@
+to the “conﬂict” between exploration and exploitation.
+In any speciﬁc case, whether it is better to explore or exploit depends in a
+complex way on the precise values of the estimates, uncertainties, and the num-
+ber of remaining steps. There are many sophisticated methods for balancing
+exploration and exploitation for particular mathematical formulations of the
+n-armed bandit and related problems. However, most of these methods make
+strong assumptions about stationarity and prior knowledge that are either
+violated or impossible to verify in applications and in the full reinforcement
+learning problem that we consider in subsequent chapters. The guarantees of
+optimality or bounded loss for these methods are of little comfort when the
+assumptions of their theory do not apply.

@@ -1,0 +1,14 @@
+0 The probability that X will fall into the interval (a, 6) is given by 
+The expected, or mean value of X, E[X], is 
+The variance of X, Var(X), is 
+Var(X) = a2 
+0 The standard deviation of X, ax, is 
+ax = a 
+The Central Limit Theorem (Section 5.4.1) states that the sum of a large number of independent, 
+identically distributed random variables follows a distribution that is approximately Normal. 
+TABLE 5.4 
+The Normal or Gaussian distribution. 
+mean p and standard deviation a. For large n, any Binomial distribution is very 
+closely approximated by a Normal distribution with the same mean and variance. 
+One reason that we prefer to work with the Normal distribution is that most 
+statistics references give tables specifying the size of the interval about the mean

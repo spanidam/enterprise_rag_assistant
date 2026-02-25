@@ -1,0 +1,49 @@
+ratio that is similarly truncated. As Gh
+t only involves rewards up to a horizon
+h, we only need the ratio of the probabilities up to h. We deﬁne an ordinary
+importance-sampling estimator, analogous to (5.4), as
+V (s) =
+P
+t∈T(s)
+
+γT(t)−t−1ρT(t)
+t
+¯GT(t)
+t
++ (1 −γ) PT(t)−1
+h=t+1 γh−t−1ρh
+t ¯Gh
+t
+
+|T(s)|
+, (5.8)
+and a weighted importance-sampling estimator, analogous to (5.5), as
+V (s) =
+P
+t∈T(s)
+
+γT(t)−t−1ρT(t)
+t
+¯GT(t)
+t
++ (1 −γ) PT(t)−1
+h=t+1 γh−t−1ρh
+t ¯Gh
+t
+
+P
+t∈T(s)
+
+γT(t)−t−1ρT(t)
+t
++ (1 −γ) PT(t)−1
+h=t+1 γh−t−1ρh
+t
+
+. (5.9)
+138
+CHAPTER 5. MONTE CARLO METHODS
+5.9
+Summary
+The Monte Carlo methods presented in this chapter learn value functions and
+optimal policies from experience in the form of sample episodes. This gives

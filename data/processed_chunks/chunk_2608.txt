@@ -1,0 +1,10 @@
+to experiments involving m distinct Bernoulli trials (e.g., m independent flips of a 
+coin with some probability of turning up heads). This is exactly analogous to the 
+setting we consider when estimating the error of a hypothesis in Chapter 5: The 
+CHAPTER 7 COMPUTATIONAL LEARNING THEORY 211 
+probability of the coin being heads corresponds to the probability that the hypothe- 
+sis will misclassify a randomly drawn instance. The m independent coin flips corre- 
+spond to the m independently drawn instances. The frequency of heads over the m 
+examples corresponds to the frequency of misclassifications over the m instances. 
+The Hoeffding bounds state that if the training error errOrD(h) is measured 
+over the set D containing m randomly drawn examples, then

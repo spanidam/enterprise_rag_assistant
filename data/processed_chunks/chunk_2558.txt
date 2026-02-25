@@ -1,0 +1,13 @@
+correct classification 
+can be inferred to be the opposite of that predicted by the hypothesis). 
+(a) Write down the expression for the quantity to be minimized according to the 
+Minimum Description Length principle. 
+(b) Is it possible to construct a set of training data such that a consistent hypothesis 
+exists, but MDL chooses a less consistent hypothesis? If so, give such a training 
+set. If not, explain why not. 
+(c) Give probability distributions for P(h) and P(D1h) such that the above MDL 
+algorithm outputs MAP hypotheses. 
+6.6. Draw the Bayesian belief network that represents the conditional independence as- 
+sumptions of the naive Bayes classifier for the PlayTennis problem of Section 6.9.1. 
+Give the conditional probability table associated with the node Wind. 
+REFERENCES

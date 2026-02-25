@@ -1,0 +1,32 @@
+improvement
+π→greedy(q)
+These two kinds of changes work against each other to some extent, as each
+creates a moving target for the other, but together they cause both policy and
+5.3. MONTE CARLO CONTROL
+121
+value function to approach optimality.
+To begin, let us consider a Monte Carlo version of classical policy iteration.
+In this method, we perform alternating complete steps of policy evaluation and
+policy improvement, beginning with an arbitrary policy π0 and ending with
+the optimal policy and optimal action-value function:
+π0
+E
+−→qπ0
+I
+−→π1
+E
+−→qπ1
+I
+−→π2
+E
+−→· · ·
+I
+−→π∗
+E
+−→q∗,
+where
+E
+−→denotes a complete policy evaluation and
+I
+−→denotes a complete
+policy improvement. Policy evaluation is done exactly as described in the pre-

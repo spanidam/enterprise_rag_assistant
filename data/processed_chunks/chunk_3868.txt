@@ -1,0 +1,26 @@
+2.4
+Tracking a Nonstationary Problem
+The averaging methods discussed so far are appropriate in a stationary envi-
+ronment, but not if the bandit is changing over time. As noted earlier, we
+often encounter reinforcement learning problems that are eﬀectively nonsta-
+tionary. In such cases it makes sense to weight recent rewards more heavily
+than long-past ones. One of the most popular ways of doing this is to use a
+constant step-size parameter. For example, the incremental update rule (2.3)
+for updating an average Qk of the k −1 past rewards is modiﬁed to be
+Qk+1 = Qk + α
+h
+Rk −Qk
+i
+,
+(2.5)
+where the step-size parameter α ∈(0, 1]1 is constant. This results in Qk+1
+being a weighted average of past rewards and the initial estimate Q1:
+Qk+1
+=
+Qk + α
+h
+Rk −Qk
+i
+=
+αRk + (1 −α)Qk
+=

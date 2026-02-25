@@ -1,0 +1,12 @@
+MIT Press, Cambridge, MA.
+Gordon, G. J. (2001). Reinforcement learning with function approximation
+converges to a region. Advances in neural information processing systems.
+Greensmith, E., Bartlett, P. L., Baxter, J. (2001). Variance reduction tech-
+niques for gradient estimates in reinforcement learning. In Advances in
+Neural Information Processing Systems: Proceedings of the 2000 Confer-
+ence, pp. 1507–1514.
+Greensmith, E., Bartlett, P. L., Baxter, J. (2004). Variance reduction tech-
+niques for gradient estimates in reinforcement learning. Journal of Machine
+Learning Research 5, 1471-1530.
+Griﬃth, A. K. (1966). A new machine learning technique applied to the game
+of checkers. Technical Report Project MAC, Artiﬁcial Intelligence Memo

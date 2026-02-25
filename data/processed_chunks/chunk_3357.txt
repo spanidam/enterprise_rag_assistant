@@ -1,0 +1,30 @@
+336 
+Domain theory, 310, 329. See also 
+imperfect domain theory; Perfect 
+domain theory; Prior knowledge 
+in analytical learning, 31 1-312 
+as KBANN neural network, 342-343 
+in PROLOG-EBG, 322 
+weighting of components in EBNN, 
+35 1-352 
+DYNA, 380 
+Dynamic programming: 
+applications to reinforcement learning, 
+380 
+reinforcement learning and, 385-387 
+Eager learning methods, comparison with 
+lazy learning, 244245 
+EBG algorithm, 3 13 
+EBNN algorithm, 351-356, 362, 387 
+other explanation-based learning 
+methods, comparison with, 356 
+prior knowledge and gradient descent in, 
+339 
+TANGENTPROP 
+algorithm in, 353 
+weighting of inductive-analytical 
+components in, 355,362 
+EGGS algorithm, 3 13 
+EM algorithm, 190-196, 197 
+applications of, 191, 194 
+derivation of algorithm for k-means,

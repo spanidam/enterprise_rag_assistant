@@ -1,0 +1,13 @@
+sentations of coordinate systems and transformations among various coordinate
+systems.
+Typically, the manipulator will be able to sense its own position in some
+manner using internal sensors (position encoders located at joints 1 and 2) that
+can measure directly the joint angles θ1 and θ2.
+We also need therefore to
+express the positions A and B in terms of these joint angles. This leads to the
+forward kinematics problem studied in Chapter 3, which is to determine
+the position and orientation of the end-eﬀector or tool in terms of the joint
+variables.
+It is customary to establish a ﬁxed coordinate system, called the world or
+base frame to which all objects including the manipulator are referenced. In
+this case we establish the base coordinate frame o0x0y0 at the base of the robot,

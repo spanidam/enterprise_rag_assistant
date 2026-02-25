@@ -1,0 +1,35 @@
+eters (see [1])
+k = 0.8Nm/rad
+Bm = 0.015Nms/rad
+(7.64)
+Jm = 0.0004Nms2/rad
+Bℓ= 0.0Nms/rad
+Jℓ= 0.0004Nm2/rad
+If we implement a PD controller KD(s + a) then the response of the system
+with motor (respectively, load) feedback is shown in Figure 7.28 (respectively,
+Figure 7.29).
+⋄
+7.6
+STATE SPACE DESIGN
+In this section we consider the application of state space methods for the control
+of the ﬂexible joint system above. The previous analysis has shown that PD
+252
+INDEPENDENT JOINT CONTROL
+0
+2
+4
+6
+8
+10
+12
+0
+2
+4
+6
+8
+10
+12
+Fig. 7.28
+Step response – PD-control with motor angle feedback.
+control is inadequate for robot control unless the joint ﬂexibility is negligible or
+unless one is content with relatively slow response of the manipulator. Not only

@@ -1,0 +1,15 @@
+user. The statement count = 0 instructs Python to assign the integer 0 to the variable count.
+This chapter introduces statements for input and output, assigning variables, and basic arithmetic. Making
+mistakes is a normal part of programming, and the chapter includes advice on understanding error messages.
+The chapter ends with a short history of Python and discusses why Python has become so popular today.
+Statements
+1
+1.1 Background
+Learning Objectives
+By the end of this section you should be able to
+•
+Name two examples of computer programs in everyday life.
+•
+Explain why Python is a good programming language to learn.
+Computer programs
+A computer is an electronic device that stores and processes information. Examples of computers include

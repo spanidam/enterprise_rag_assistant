@@ -1,0 +1,19 @@
+body. Since in robotic applications the mass is constant as a function of time,
+(6.130) can be simpliﬁed to the familiar relationship
+ma
+=
+f
+(6.131)
+where a = ˙v is the acceleration of the center of mass.
+Applying the third fact to the angular motion of a body gives
+d(I0ω0)
+dt
+=
+τ0
+(6.132)
+where I0 is the moment of inertia of the body about an inertial frame whose
+origin is at the center of mass, ω0 is the angular velocity of the body, and τ0
+is the sum of torques applied to the body. Now there is an essential diﬀerence
+between linear motion and angular motion. Whereas the mass of a body is
+constant in most applications, its moment of inertia with respect an inertial
+frame may or may not be constant. To see this, suppose we attach a frame

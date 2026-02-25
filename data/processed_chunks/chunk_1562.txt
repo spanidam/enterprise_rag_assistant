@@ -1,0 +1,18 @@
+use the Developer instance, python_dev, to call print_company() and update_codebase().
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-1-inheritance-basics)
+TRY IT
+Polygon classes
+Define three classes: Polygon, Rectangle, and Square:
+•
+Polygon has the method p_disp(), which prints "object is a Polygon".
+•
+Rectangle inherits from Polygon and has the method r_disp(), which prints "object is a
+Rectangle".
+•
+Square inherits from Rectangle and has the method s_disp(), which prints "object is a
+Square".
+Create an instance of each class. Then, for each instance, call all the methods the instance has access to.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-1-inheritance-basics)
+13.2 Attribute access

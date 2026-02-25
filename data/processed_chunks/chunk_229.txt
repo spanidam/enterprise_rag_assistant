@@ -1,0 +1,64 @@
+
+s1r13 −c1r23, ±
+p
+1 −(s1r13 −c1r23)2
+
+(3.79)
+θ6
+=
+atan2(−s1r11 + c1r21, s1r12 −c1r22)
+(3.80)
+The other possible solutions are left as an exercise (Problem 3-24).
+⋄
+Example 3.10 SCARA Manipulator
+As another example, we consider the SCARA manipulator whose forward
+kinematics is deﬁned by T 0
+4 from (3.30). The inverse kinematics solution is
+then given as the set of solutions of the equation
+T 1
+4
+=
+ R
+o
+0
+1
+
+=
+
+
+c12c4 + s12s4
+s12c4 −c12s4
+0
+a1c1 + a2c12
+s12c4 −c12s4
+−c12c4 −s12s4
+0
+a1s1 + a2s12
+0
+0
+−1
+−d3 −d4
+0
+0
+0
+1
+
+(3.81)
+We ﬁrst note that, since the SCARA has only four degrees-of-freedom, not
+every possible H from SE(3) allows a solution of (3.81). In fact we can easily
+see that there is no solution of (3.81) unless R is of the form
+R
+=
+
+
+cα
+sα
+0
+sα
+−cα
+0
+0
+0
+−1
+
+

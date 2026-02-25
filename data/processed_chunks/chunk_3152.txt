@@ -1,0 +1,10 @@
+applied by Fu (1993), who reports an error rate of 21106 on the same data. Thus, 
+the impact of prior knowledge in these experiments was to reduce significantly 
+the error rate. The training data for this experiment is available at World Wide 
+Web site http:llwww.ics.uci.edu/~mlearn/MLRepository.html. 
+Both Fu (1993) and Towel1 et al. (1990) report that Horn clauses extracted 
+from the final trained network provided a refined domain theory that better fit 
+the observed data. Although it is sometimes possible to map from the learned 
+network weights back to a refined set of Horn clauses, in the general case this 
+is problematic because some weight settings have no direct Horn clause analog. 
+Craven and Shavlik (1994) and Craven (1996) describe alternative methods for

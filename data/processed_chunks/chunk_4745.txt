@@ -1,0 +1,13 @@
+Heidelberg.
+Werbos, P. J. (1977). Advanced forecasting methods for global crisis warning
+and models of intelligence. General Systems Yearbook, 22:25–38.
+Werbos, P. J. (1982). Applications of advances in nonlinear sensitivity analy-
+sis. In R. F. Drenick and F. Kozin (eds.), System Modeling and Optimiza-
+15.5. OTHER FRONTIER DIMENSIONS
+335
+tion, pp. 762–770. Springer-Verlag, Berlin.
+Werbos, P. J. (1987). Building and understanding adaptive systems: A statis-
+tical/numerical approach to factory automation and brain research. IEEE
+Transactions on Systems, Man, and Cybernetics, 17:7–20.
+Werbos, P. J. (1988). Generalization of back propagation with applications to
+a recurrent gas market model. Neural Networks, 1:339–356.

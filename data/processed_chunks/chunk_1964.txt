@@ -1,0 +1,10 @@
+all the other instances, taking a vote will be futile: each unobserved instance will 
+be classified positive by precisely half the hypotheses in the version space and 
+will be classified negative by the other half (why?). To see the reason, note that 
+when H is the power set of X and x is some previously unobserved instance, 
+then for any hypothesis h in the version space that covers x, there will be anoQer 
+hypothesis h' in the power set that is identical to h except for its classification of 
+x. And of course if h is in the version space, then h' will be as well, because it 
+agrees with h on all the observed training examples. 
+2.7.3 The Futility of Bias-Free Learning 
+The above discussion illustrates a fundamental property of inductive inference:

@@ -1,0 +1,10 @@
+searchers into believing that DP was restricted to analytically tractable prob-
+lems and therefore largely irrelevant to artiﬁcial intelligence. Andreae (1969b)
+mentioned DP in the context of reinforcement learning, speciﬁcally policy iter-
+ation, although he did not make speciﬁc connections between DP and learning
+algorithms. Werbos (1977) suggested an approach to approximating DP called
+“heuristic dynamic programming” that emphasizes gradient-descent methods
+for continuous-state problems (Werbos, 1982, 1987, 1988, 1989, 1992). These
+methods are closely related to the reinforcement learning algorithms that we
+discuss in this book. Watkins (1989) was explicit in connecting reinforcement
+learning to DP, characterizing a class of reinforcement learning methods as

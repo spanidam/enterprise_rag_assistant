@@ -1,0 +1,37 @@
+def eat(self):
+print("Eating")
+class VenusFlyTrap(Plant)
+def eat(self):
+print("Eating")
+a.
+Move photosynth() into Rose.
+b.
+Remove redundancy of eat().
+6. The programmer edits the code to create a mixin class containing eat(). Which class name, replacing
+X, is most appropriate for the mixin?
+class Plant:
+def photosynth(self):
+print("Photosynthesizing")
+322
+13 • Inheritance
+Access for free at openstax.org
+class X:
+def eat(self):
+print("Eating")
+class Rose(Plant):
+pass
+class Pitcher(Plant, X):
+pass
+class VenusFlyTrap(Plant, X)
+pass
+a.
+CarnivClass
+b.
+CarnivMixin
+TRY IT
+Fixing the diamond problem with a mixin class
+The program below represents multiple inheritance and has the diamond problem. Edit the program to use
+a mixin class, OnlineMixin. OnlineMixin:
+•
+Replaces OnlineShop.
+•

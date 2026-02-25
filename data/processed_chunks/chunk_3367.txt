@@ -1,0 +1,31 @@
+by ID3 algorithm, 60-62,64, 76 
+by KBANN algorithm, 346 
+by learning algorithms, 24 
+by LEARN-ONE-RULE, 
+277 
+in machine learning, 14-15, 18 
+use of prior knowledge, 339-340, 362 
+ID3 algorithm, 55-64,77 
+backtracking and, 62 
+CANDIDATE-ELIMINATION 
+algorithm, 
+comparison with, 61-62 
+choice of attributes in, 280-281 
+choice of decision tree, 63 
+cost-sensitive measures, 75-76 
+extensions to, 77. See also C4.5 
+algorithm 
+inductive bias of, 63-64, 76 
+LEARN-ONE-RULE, 
+search comparison 
+with, 277 
+limitations of, 61-62 
+overfitting in, 67-68 
+search of hypothesis space, 60-62, 64, 
+76 
+sequential covering algorithms, 
+comparison with, 280-281 
+specialized for concept learning, 56 
+use of information gain in, 58-60 
+ID5R algorithm, comparison with GABIL, 
+258

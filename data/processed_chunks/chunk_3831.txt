@@ -1,0 +1,11 @@
+animal learning psychology.
+Sutton (1978a, 1978b, 1978c) developed Klopf’s ideas further, particu-
+larly the links to animal learning theories, describing learning rules driven
+by changes in temporally successive predictions. He and Barto reﬁned these
+ideas and developed a psychological model of classical conditioning based on
+temporal-diﬀerence learning (Sutton and Barto, 1981a; Barto and Sutton,
+1982). There followed several other inﬂuential psychological models of classical
+conditioning based on temporal-diﬀerence learning (e.g., Klopf, 1988; Moore
+et al., 1986; Sutton and Barto, 1987, 1990). Some neuroscience models devel-
+oped at this time are well interpreted in terms of temporal-diﬀerence learning
+(Hawkins and Kandel, 1984; Byrne, Gingrich, and Baxter, 1990; Gelperin,

@@ -1,0 +1,11 @@
+as shown. Find the homogeneous transformations relating each of these
+frames to the base frame o0x0y0z0. Find the homogeneous transformation
+relating the frame o2x2y2z2 to the camera frame o3x3y3z3.
+38. In Problem 37, suppose that, after the camera is calibrated, it is rotated
+90◦about z3. Recompute the above coordinate transformations.
+39. If the block on the table is rotated 90◦about z2 and moved so that its
+center has coordinates (0, .8, .1)T relative to the frame o1x1y1z1, compute
+the homogeneous transformation relating the block frame to the camera
+frame; the block frame to the base frame.
+40. Consult an astronomy book to learn the basic details of the Earth’s rota-
+tion about the sun and about its own axis. Deﬁne for the Earth a local

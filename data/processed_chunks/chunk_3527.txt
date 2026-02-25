@@ -1,0 +1,14 @@
+of weight matrices in a neural network to reduce the number
+of trainable parameters. In the Transformer architecture, there
+are four weight matrices in the self-attention module (Wq ,
+Wk, Wv , Wo), and two in the MLP module. Most of the
+time, LoRA is focused on adapting the attention weights only
+for downstream tasks, and freezes the MLP modules, so they
+are not trained in downstream tasks both for simplicity and
+parameter-efficiency.
+3) Knowledge Distillation: Knowledge distillation is the
+process of learning from a larger model [143]. Earlier days of
+best-performing models release have proven that this approach
+is very useful even if it is used in an API distillation approach.
+Fig. 34: An illustration of LoRA reparametrizan. Only A and
+B trained during this process. Courtesy of [142].

@@ -1,0 +1,15 @@
+Fig. 6: Overview of unified LM pre-training. The model
+parameters are shared across the LM objectives (i.e., bidirec-
+tional LM, unidirectional LM, and sequence-to-sequence LM).
+Courtesy of [49].
+WebGPT is trained in three steps. The first is for WebGPT
+to learn to mimic human browsing behaviors using human
+demonstration data. Then, a reward function is learned to
+predict human preferences. Finally, WebGPT is refined to
+optimize the reward function via reinforcement learning and
+rejection sampling.
+To enable LLMs to follow expected human instructions,
+InstructGPT [59] is proposed to align language models with
+user intent on a wide range of tasks by fine-tuning with
+human feedback. Starting with a set of labeler-written prompts
+and prompts submitted through the OpenAI API, a dataset

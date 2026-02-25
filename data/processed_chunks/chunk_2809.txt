@@ -1,0 +1,10 @@
+crossover operator-in 
+particular, it describes the probability that an arbitrary in- 
+dividual representing s will still represent s following application of this crossover 
+operator. The rightmost term describes the probability that an arbitrary individual 
+representing schema s will still represent schema s following application of the 
+mutation operator. Note that the effects of single-point crossover and mutation 
+increase with the number of defined bits o(s) in the schema and with the distance 
+d(s) between the defined bits. Thus, the schema theorem can be roughly interpreted 
+as stating that more fit schemas will tend to grow in influence, especially schemas 
+containing a small number of defined bits (i.e., containing a large number of *'s),

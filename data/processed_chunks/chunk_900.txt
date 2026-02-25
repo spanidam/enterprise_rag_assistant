@@ -1,0 +1,47 @@
+⋄
+The x1 −x2 plane is called the phase plane and the trajectories of the
+system (D.3)-(D.4) form what is called the phase portrait. For linear systems
+of the form
+˙x
+=
+Ax
+(D.8)
+in R2 the phase portrait is determined by the eigenvalues and eigenvectors of
+A . For example, consider the system
+˙x1
+=
+x2
+(D.9)
+˙x2
+=
+x1.
+(D.10)
+395
+Fig. D.2
+Phase portrait for Example B.2.
+In this case
+A
+=
+ 0
+1
+1
+0
+
+.
+(D.11)
+The phase portrait is shown in Figure D.2.
+The lines ℓ1 and ℓ2 are in the
+direction of the eigenvectors of A and are called eigen-subspaces of A.
+D.0.5
+State Space Representation of Linear Systems
+Consider a single-input/single-output linear control system with input u and
+output y of the form
+an
+dny
+dtn + an−1
+dn−1y
+dtn−1 + · · · + a + 1dy
+dt + a0y
+=
+u.
+(D.12)

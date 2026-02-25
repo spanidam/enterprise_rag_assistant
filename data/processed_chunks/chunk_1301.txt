@@ -1,0 +1,34 @@
+the original and revised programs respectively?
+a.
+3, 1
+b.
+4, 4
+c.
+12, 4
+9. How many times can calc_distance() be called?
+a.
+1
+b.
+3
+c.
+many
+TRY IT
+Cinema concession stand
+Write a function, concessions(), that prints the food and drink options at a cinema.
+Given:
+concessions()
+The output is:
+Food/Drink Options:
+Popcorn: $8-10
+Candy: $3-5
+Soft drink: $5-7
+148
+6 • Functions
+Access for free at openstax.org
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-1-defining-functions)
+TRY IT
+Terms and conditions prompt
+Write a function, terms(), that asks the user to accept the terms and conditions, reads in Y/N, and outputs
+a response. In the main program, read in the number of users and call terms() for each user.
+Given inputs 1 and "Y", the output is:

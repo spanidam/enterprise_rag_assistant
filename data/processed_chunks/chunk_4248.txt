@@ -1,0 +1,13 @@
+afterstates would enable all actions that produced the same number of free
+servers to share experience. This should result in a signiﬁcant reduction in
+learning time.
+It is impossible to describe all the possible kinds of specialized problems
+and corresponding specialized learning algorithms. However, the principles
+developed in this book should apply widely. For example, afterstate methods
+are still aptly described in terms of generalized policy iteration, with a policy
+and (afterstate) value function interacting in essentially the same way. In many
+cases one will still face the choice between on-policy and oﬀ-policy methods
+for managing the need for persistent exploration.
+6.7
+Summary
+In this chapter we introduced a new kind of learning method, temporal-

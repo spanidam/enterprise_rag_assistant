@@ -1,0 +1,11 @@
+(as we shall see, P(D) will be determined once we choose the other two). We 
+may choose the probability distributions P(h) and P(D1h) in any way we wish, 
+to describe our prior knowledge about the learning task. Here let us choose them 
+to be consistent with the following assumptions: 
+1. The training data D is noise free (i.e., di = c(xi)). 
+2. The target concept c is contained in the hypothesis space H 
+3. We have no a priori reason to believe that any hypothesis is more probable 
+than any other. 
+Given these assumptions, what values should we specify for P(h)? Given no 
+prior knowledge that one hypothesis is more likely than another, it is reasonable to 
+assign the same prior probability to every hypothesis h in H. Furthermore, because

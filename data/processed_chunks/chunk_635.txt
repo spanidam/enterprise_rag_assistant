@@ -1,0 +1,39 @@
+For ||w|| ≥ϵ the argument proceeds as above and ˙V < 0. For ||w|| ≤ϵ the
+second term above becomes
+2wT (−ρ
+ϵ w + ρ w
+||w||)
+=
+−2ρ
+ϵ ||w||2 + 2ρ||w||
+This expression attains a maximum value of ϵρ
+2 when ||w|| = ϵ
+2. Thus we have
+˙V = −eT Qe + ϵρ
+2 < 0
+(8.66)
+ROBUST AND ADAPTIVE MOTION CONTROL
+275
+provided
+−eT Qe > ϵρ
+2
+(8.67)
+Using the relationship
+λmin(Q)||e||2 ≤eT Qe ≤λmax(Q)||e||2
+(8.68)
+where λmin(Q), λmax(Q) denote the minimum and maximum eigenvalues, re-
+spectively, of the matrix Q, we have that ˙V < 0 if
+λmin(Q)||e||2 ≥ϵρ
+2
+(8.69)
+or, equivalently
+||e|| ≥
+
+ϵρ
+2λmin(Q)
+ 1
+2
+=: δ
+(8.70)
+Let Sδ denote the smallest level set of V containing B(δ), the ball of radius
+δ and let Br denote the smallest ball containing Sδ. Then all solutions of the

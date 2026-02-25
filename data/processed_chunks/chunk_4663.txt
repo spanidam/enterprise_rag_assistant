@@ -1,0 +1,11 @@
+Moore, 1994; Rivest and Schapire, 1987; Colombetti and Dorigo, 1994; White-
+head and Ballard, 1991; Hochreiter and Schmidhuber, 1997).
+All of the above methods involve constructing an improved state repre-
+sentation from the non-Markov one provided by the environment. Another
+approach is to leave the state representation unchanged and use methods that
+are not too adversely aﬀected by its being non-Markov (e.g., Singh, Jaakkola,
+and Jordan, 1994, 1995; Jaakkola, Singh and Jordan, 1995).
+In fact, most
+function approximation methods can be viewed in this way. For example, state
+aggregation methods for function approximation are in eﬀect equivalent to a
+non-Markov representation in which all members of a set of states are mapped

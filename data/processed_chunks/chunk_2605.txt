@@ -1,0 +1,10 @@
+the target concept c, then a zero-error hypothesis cannot always be found. In this 
+case, the most we might ask of our learner is to output the hypothesis from H 
+that has the minimum error over the training examples. A learner that makes no 
+assumption that the target concept is representable by H and that simply finds 
+the hypothesis with minimum training error, is often called an agnostic learner, 
+because it makes no prior commitment about whether or not C g H. 
+Although Equation (7.2) is based on the assumption that the learner outputs 
+a zero-error hypothesis, a similar bound can be found for this more general case 
+in which the learner entertains hypotheses with nonzero training error. To state 
+this precisely, let D denote the particular set of training examples available to

@@ -1,0 +1,11 @@
+Pazzani, M. J., & Brunk, C. (1993). Finding accurate frontiers: A knowledge-intensive approach to 
+relational learning. Proceedings of the I993 National Conference on Artificial Intelligence (pp. 
+328-334). AAAI Press. 
+Pazzani, M. J., Brunk, C. A., & Silverstein, G. (1991). A knowledge-intensive approach to learning 
+relational concepts. Proceedings of the Eighth International Workshop on Machine Learning 
+(pp. 432436). San Mateo, CA: Morgan Kaufmann. 
+Pazzani, M. J., & Kibler, D. (1992). The utility of knowledge in inductive learning. MachineLearning, 
+9(1), 57-94. 
+Pratt, L. Y. (1993a). Transferring previously learned BACKPROPAGATION 
+neural networks to new 
+learning tasks (Ph.D. thesis). Department of Computer Science, Rutgers University, New

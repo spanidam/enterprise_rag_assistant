@@ -1,0 +1,11 @@
+rections without distracting from the simplicity and potential generality of the
+underlying ideas.
+The book consists of three parts. Part I is introductory and problem ori-
+ented. We focus on the simplest aspects of reinforcement learning and on its
+main distinguishing features. One full chapter is devoted to introducing the
+reinforcement learning problem whose solution we explore in the rest of the
+book. Part II presents tabular versions (assuming a small ﬁnite state space)
+of all the basic solution methods based on estimating action values. We intro-
+duce dynamic programming, Monte Carlo methods, and temporal-diﬀerence
+learning. There is a chapter on eligibility traces which uniﬁes the latter two
+methods, and a chapter that uniﬁes planning methods (such as dynamic pro-

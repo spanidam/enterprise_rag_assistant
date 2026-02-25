@@ -1,0 +1,10 @@
+Advances in neural information processing. San Mateo, CA: Morgan Kaufmam. 
+Caruana, R. (1996). Algorithms and applications for multitask learning. Proceedings of the 13th 
+International Conference on Machine Learning. San Francisco: Morgan Kaufmann. 
+Cooper, G. C., & Herskovits, E. (1992). A Bayesian method for the induction of probabilistic networks 
+from data. Machine Learning, 9, 309-347. 
+Craven, M. W. (1996). Extracting comprehensible modelsfrom trained neural networks (PhD thesis) 
+(UW Technical Report CS-TR-96-1326). Department of Computer Sciences, University of 
+Wisconsin-Madison. 
+Craven, M. W., & Shavlik, J. W. (1994). Using sampling and queries to extract rules from trained 
+neural networks. Proceedings of the 11th International Conference on Machine Learning (pp.

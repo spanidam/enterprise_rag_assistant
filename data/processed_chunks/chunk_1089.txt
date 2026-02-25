@@ -1,0 +1,12 @@
+print "Hello"
+^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello")?
+The caret character (^) shows where Python found the error. Sometimes the error may be located one or two
+lines before where the caret symbol is shown because Python may not have discovered the error until then.
+Traceback is a Python report of the location and type of error. The word traceback suggests a programmer
+trace back in the code to find the error if the error is not seen right away.
+Learning to read error messages carefully is an important skill. The amount of technical jargon can be
+overwhelming at first. But this information can be very helpful.
+CHECKPOINT
+Incorrect variable name
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/

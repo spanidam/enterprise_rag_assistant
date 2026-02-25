@@ -1,0 +1,21 @@
+or frame o1x1y1. In the former case, we might assign to p the coordinate vector
+(5, 6)T , and in the latter case (−2.8, 4.2)T . So that the reference frame will
+always be clear, we will adopt a notation in which a superscript is used to
+denote the reference frame. Thus, we would write
+p0 =
+ 5
+6
+
+,
+p1 =
+ −2.8
+4.2
+
+Geometrically, a point corresponds to a speciﬁc location in space. We stress
+here that p is a geometric entity, a point in space, while both p0 and p1 are
+coordinate vectors that represent the location of this point in space with respect
+to coordinate frames o0x0y0 and o1x1y1, respectively.
+REPRESENTING POSITIONS
+31
+Since the origin of a coordinate system is just a point in space, we can assign
+coordinates that represent the position of the origin of one coordinate system

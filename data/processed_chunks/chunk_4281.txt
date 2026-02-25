@@ -1,0 +1,39 @@
+the left, all values initialized to 0). Results are shown for on-line and oﬀ-line
+n-step TD methods with a range of values for n and α. The performance
+measure for each algorithm and parameter setting, shown on the vertical axis,
+is the square-root of the average squared error between its predictions at the
+end of the episodenfor the 19 states and their true values, then averaged over
+172
+CHAPTER 7. ELIGIBILITY TRACES
+On-line n-step TD methods
+Off-line n-step TD methods
+↵
+↵
+RMS error
+over ﬁrst
+10 episodes
+n=1
+n=2
+n=4
+n=8
+n=16
+n=32
+n=64
+256
+128
+512
+n=3
+n=64
+n=1
+n=2
+n=4
+n=8
+n=16
+n=32
+n=32
+n=64
+128
+512
+256
+Figure 7.2: Performance of n-step TD methods as a function of α, for various
+values of n, on a 19-state random walk task (Example 7.1).

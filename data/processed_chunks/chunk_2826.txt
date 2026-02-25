@@ -1,0 +1,9 @@
+an individual learned during its lifetime to avoid some toxic food, it could pass 
+this trait on genetically to its offspring, which therefore would not need to learn 
+the trait. This is an attractive conjecture, because it would presumably allow for 
+more efficient evolutionary progress than a generate-and-test process (like that of 
+GAS and GPs) that ignores the experience gained during an individual's lifetime. 
+Despite the attractiveness of this theory, current scientific evidence overwhelm- 
+ingly contradicts Lamarck's model. The currently accepted view is that the genetic 
+makeup of an individual is, in fact, unaffected by the lifetime experience of one's 
+biological parents. Despite this apparent biological fact, recent computer studies

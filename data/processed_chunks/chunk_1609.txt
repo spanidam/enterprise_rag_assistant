@@ -1,0 +1,12 @@
+Learning objectives
+By the end of this section you should be able to
+•
+Demonstrate how to access files within a file system.
+•
+Demonstrate how to process a CSV file.
+Opening a file at any location
+When only the filename is used as the argument to the open() function, the file must be in the same folder as
+the Python file that is executing. Ex: For fileobj = open("file1.txt") in files.py to execute successfully,
+the file1.txt file should be in the same folder as files.py.
+Often a programmer needs to open files from folders other than the one in which the Python file exists. A path
+uniquely identifies a folder location on a computer. The path can be used along with the filename to open a file

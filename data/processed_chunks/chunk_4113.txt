@@ -1,0 +1,12 @@
+distributed estimate of vπ(s) with ﬁnite variance. By the law of large numbers
+the sequence of averages of these estimates converges to their expected value.
+Each average is itself an unbiased estimate, and the standard deviation of its
+error falls as 1/√n, where n is the number of returns averaged. Every-visit
+MC is less straightforward, but its estimates also converge asymptotically to
+vπ(s) (Singh and Sutton, 1996).
+The use of Monte Carlo methods is best illustrated through an example.
+Example 5.1: Blackjack
+The object of the popular casino card game of
+blackjack is to obtain cards the sum of whose numerical values is as great as
+possible without exceeding 21. All face cards count as 10, and an ace can count
+either as 1 or as 11. We consider the version in which each player competes

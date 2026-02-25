@@ -1,0 +1,35 @@
+tri allows the program to refer to the triangle module as tri. Aliasing is useful to avoid name collisions but
+should be used carefully to avoid confusion.
+EXAMPLE 11.3
+Using aliasing to import character
+character.py
+class Level:
+def __init__(self, level=1):
+self.level = level
+...
+def level_up(self):
+...
+class XP:
+def __init__(self, XP=0):
+self.XP = XP
+...
+def add_xp(self, num):
+...
+main.py
+import character as c
+bard_level = c.Level(1)
+bard_XP = c.XP(0)
+bard_XP.add_xp(300)
+bard_level.level_up()
+...
+CONCEPTS IN PRACTICE
+Using an alias
+Consider the example above. Suppose a program imports the character module using import character
+as game_char.
+4. How would the program create a Level instance?
+a.
+rogue_level = character.Level()
+b.
+rogue_level = game_char.Level()
+282
+11 • Classes

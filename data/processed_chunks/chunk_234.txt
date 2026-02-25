@@ -1,0 +1,23 @@
+the tool frame expressed in base coordinates.
+This DH convention deﬁnes the forward kinematics equations for a manipu-
+lator, i.e., the mapping from joint variables to end eﬀector position and orienta-
+tion. To control a manipulator, it is necessary to solve the inverse problem, i.e.,
+given a position and orientation for the end eﬀector, solve for the corresponding
+set of joint variables. In this chapter, we have considered the special case of
+manipulators for which kinematic decoupling can be used (e.g., a manipulator
+with a sperical wrist). For this class of manipulators the determination of the
+inverse kinematics can be summarized by the following algorithm.
+Step 1: Find q1, q2, q3 such that the wrist center oc has coordinates given by
+o0
+c
+=
+o −d6R
+
+
+0
+0
+1
+
+
+(3.89)
+102

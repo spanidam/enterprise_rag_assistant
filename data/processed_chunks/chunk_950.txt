@@ -1,0 +1,92 @@
+problem at hand and other are left as hyper-parameters.
+Let us take the example of the well-known Iris classification dataset:
+import pandas as pd
+iris = pd.read_csv("../data/iris.csv", index_col=0)
+iris
+sepal length (cm)
+sepal width (cm)
+petal length (cm)
+petal width (cm)
+\
+0
+5.1
+3.5
+1.4
+0.2
+1
+4.9
+3.0
+1.4
+0.2
+2
+4.7
+3.2
+1.3
+0.2
+3
+4.6
+3.1
+1.5
+0.2
+4
+5.0
+3.6
+1.4
+0.2
+..
+...
+...
+...
+...
+145
+6.7
+3.0
+5.2
+2.3
+146
+6.3
+2.5
+5.0
+1.9
+147
+6.5
+3.0
+5.2
+2.0
+148
+6.2
+3.4
+5.4
+2.3
+149
+5.9
+3.0
+5.1
+1.8
+target
+0
+0
+1
+0
+2
+0
+3
+0
+4
+0
+..
+...
+145
+2
+146
+2
+147
+2
+148
+2
+149
+2
+[150 rows x 5 columns]
+The goal here is to learn how to infer the target attribute (3 different possible classes) from the information in the 4
+other attributes.
+The structure of this dataset dictates:

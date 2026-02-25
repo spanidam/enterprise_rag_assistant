@@ -1,0 +1,23 @@
+to the surface. In so doing the robot will cut or grind the surface according
+to a predetermined speciﬁcation. To accomplish this and even more general
+tasks, a we must solve a number of problems. Below we give examples of these
+problems, all of which will be treated in more detail in the remainder of the
+text.
+Forward Kinematics
+The ﬁrst problem encountered is to describe both the position of the tool and
+the locations A and B (and most likely the entire surface S) with respect to a
+common coordinate system. In Chapter 2 we give some background on repre-
+18
+INTRODUCTION
+Fig. 1.22
+The ABB IRB940 Tricept Parallel Robot. Photo courtesy of ABB.
+B
+F
+A
+S
+Home
+Camera
+Fig. 1.23
+Two-link planar robot example.
+sentations of coordinate systems and transformations among various coordinate
+systems.

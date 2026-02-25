@@ -1,0 +1,10 @@
+middle-right panels of Figure 7.6. In the oﬀ-line case it has been proven that
+the λ-return algorithm and TD(λ) are identical in their overall updates at the
+end of the episode. Thus, the one set of results in the upper-right panel is
+suﬃcient for both of these algorithms. However, recall that the oﬀ-line case
+is not our main focus, as all of its performance levels are generally lower and
+obtained over a narrower range of parameter values than can be obtained with
+on-line methods, as we saw earlier for n-step methods in Figure 7.2 and for
+λ-return methods in the upper two panels of Figure 7.6.
+In the on-line case, the performances of TD(λ) with accumulating traces
+(middle-right panel) are indeed much better and closer to that of the on-line

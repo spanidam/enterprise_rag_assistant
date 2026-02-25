@@ -1,0 +1,23 @@
+y
+=
+Ax
+(B.24)
+y is called the image of x under the transformation A. If the vectors x and y are
+represented in terms of the standard unit vectors i, j, and k, then the columns
+of A are themselves vectors which represent the images of the basis vectors i, j,
+k. Often it is desired to represent vectors with respect to a second coordinate
+frame with basis vectors e, f, and g. In this case the matrix representing the
+same linear transformation as A, but relative to this new basis, is given by
+A′
+=
+T −1AT
+(B.25)
+where T is a non-singular matrix with column vectors e, f, g. The transforma-
+tion T −1AT is called a similarity transformation of the matrix A .
+B.4
+EIGENVALUES AND EIGENVECTORS
+The eigenvalues of a matrix A are the solutions in s of the equation
+det(sI −A)
+=
+O.
+(B.26)

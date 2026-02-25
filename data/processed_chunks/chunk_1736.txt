@@ -1,0 +1,13 @@
+6. c. msg is a required argument assigned with "Greetings" . name and count use the default values.
+"Greetings Friend" is printed.
+7. b. msg="Hello", name="Friend", and count=0, so the call is valid. The function executes but doesn't
+enter the for loop because count=0.
+389
+Chapter 7
+7.1 Module basics
+1. b. The code has ten def statements, each of which defines a function.
+2. a. Many modules consist of function definitions only. The functions are intended to be called in other
+modules.
+3. c. area.cube(5) is 6 * 5**2, which is 6 * 25, which is 150 .
+4. a. When importing a module from another file, the suffix .py is removed.
+5. b. The circle function must be called using the area variable that refers to the module.

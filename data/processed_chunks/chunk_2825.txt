@@ -1,0 +1,11 @@
+their lifetime. At the same time, biological and social processes allow their species 
+to adapt over a time frame of many generations. One interesting question regarding 
+evolutionary systems is "What is the relationship between learning during the 
+lifetime of a single individual, and the longer time frame species-level learning 
+afforded by evolution?' 
+9.6.1 Lamarckian Evolution 
+Larnarck was a scientist who, in the late nineteenth century, proposed that evo- 
+lution over many generations was directly influenced by the experiences of indi- 
+vidual organisms during their lifetime. In particular, he proposed that experiences 
+of a single organism directly affected the genetic makeup of their offspring: If 
+an individual learned during its lifetime to avoid some toxic food, it could pass

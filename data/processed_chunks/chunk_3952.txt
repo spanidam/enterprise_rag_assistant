@@ -1,0 +1,10 @@
+representation including information about velocity. In all of these cases the
+state is constructed and maintained on the basis of immediate sensations to-
+gether with the previous state or some other memory of past sensations. In
+this book, we do not explore how that is done, but certainly it can be and has
+been done. There is no reason to restrict the state representation to immediate
+sensations; in typical applications we should expect the state representation
+to be able to inform the agent of more than that.
+On the other hand, the state signal should not be expected to inform the
+agent of everything about the environment, or even everything that would be
+useful to it in making decisions. If the agent is playing blackjack, we should not

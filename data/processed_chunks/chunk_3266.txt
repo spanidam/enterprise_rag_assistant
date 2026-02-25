@@ -1,0 +1,11 @@
+choice is V*. The agent should prefer state sl over state s2 whenever V*(sl) > 
+V*(s2), because the cumulative future reward will be greater from sl. Of course 
+the agent's policy must choose among actions, not among states. However, it can 
+use V* in certain settings to choose among actions as well. The optimal action 
+in state s is the action a that maximizes the sum of the immediate reward r(s, a) 
+plus the value V* of the immediate successor state, discounted by y. 
+n*(s) = argmax[r(s, a) f y V*(G(s, a))] 
+a 
+(recall that 6(s, a) denotes the state resulting from applying action a to state s.) 
+Thus, the agent can acquire the optimal policy by learning V*, provided it has 
+perfect knowledge of the immediate reward function r and the state transition

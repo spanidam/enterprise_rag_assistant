@@ -1,0 +1,10 @@
+PAC-learning results discussed in Chapter 7. 
+Given that analytical methods provide logically justified hypotheses and in- 
+ductive methods provide statistically justified hypotheses, it is easy to see why 
+combining them would be useful: Logical justifications are only as compelling as 
+the assumptions, or prior knowledge, on which they are built. They are suspect or 
+powerless if prior knowledge is incorrect or unavailable. Statistical justifications 
+are only as compelling as the data and statistical assumptions on which they rest. 
+They are suspect or powerless when assumptions about the underlying distribu- 
+tions cannot be trusted or when data is scarce. In short, the two approaches work 
+well for different types of problems. By combining them we can hope to devise

@@ -1,0 +1,10 @@
+links is now signiﬁcant, and the dynamics of the motors themselves may be much
+more complex. The result is that in order to achieve high performance from
+this type of manipulator, a diﬀerent set of control problems must be addressed.
+In this chapter we consider the simplest type of control strategy, namely,
+independent joint control. In this type of control each axis of the manipulator is
+controlled as a single-input/single-output (SISO) system. Any coupling eﬀects
+due to the motion of the other links is treated as a disturbance. We assume, in
+this chapter, that the reader has had an introduction to the theory of feedback
+control systems up to the level of say, Kuo [?].
+The basic structure of a single-input/single-output feedback control system

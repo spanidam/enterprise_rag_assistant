@@ -1,0 +1,24 @@
+self.max_mph = speed
+car_1 = ProductionCar('McLaren', 'Speedtail', 2020) # car_1.max_mph is 0.0
+car_1.update_max(250.0) # car_1.max_mph is 250.0
+print(car_1.make, car_1.model, 'reaches', car_1.max_mph, 'mph (',
+car_1.max_kmh(), 'km/h)') # Prints McLaren Speedtail reaches 250.0 mph (402.336
+km/h)
+CONCEPTS IN PRACTICE
+CoffeeOrder instance methods
+Consider the example below:
+class CoffeeOrder:
+loc = 'Cafe Coffee'
+cls_id = 1
+def __init__(self, size=16, milk=False, sugar=False):
+self.order_id = CoffeeOrder.cls_id
+self.cup_size = size
+self.with_milk = milk
+self.with_sugar = sugar
+CoffeeOrder.cls_id += 1
+def change(self, milk, sugar):
+self.with_milk = milk
+self.with_sugar = sugar
+def print_order(self):
+print(CoffeeOrder.loc,'Order', self.order_id, ':', self.cup_size, 'oz')
+if self.with_milk:

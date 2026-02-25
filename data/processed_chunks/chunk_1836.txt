@@ -1,0 +1,9 @@
+4. if b is a not a final state in the game, then V(b) = V(bl), where b' is the best 
+final board state that can be achieved starting from b and playing optimally 
+until the end of the game (assuming the opponent plays optimally, as well). 
+While this recursive definition specifies a value of V(b) for every board 
+state b, this definition is not usable by our checkers player because it is not 
+efficiently computable. Except for the trivial cases (cases 1-3) in which the game 
+has already ended, determining the value of V(b) for a particular board state 
+requires (case 4) searching ahead for the optimal line of play, all the way to 
+the end of the game! Because this definition is not efficiently computable by our

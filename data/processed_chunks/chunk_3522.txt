@@ -1,0 +1,16 @@
+In this part, we review some of the popular approaches
+used for more cost-friendly (and compute-friendly) training
+and usage of LLMs.
+1) Optimized Training: There are many frameworks de-
+veloped for optimized training of LLMs, here we introduce
+some of the prominent ones.
+ZeRO:
+In [140], Rajbhandari et al. developed a novel
+solution, Zero Redundancy Optimizer (ZeRO), to optimize
+memory, vastly improving training speed of LLMs while
+increasing the model size that can be efficiently trained. ZeRO
+eliminates memory redundancies in data- and model-parallel
+training while retaining low communication volume and high
+computational granularity, allowing one to scale the model
+size proportional to the number of devices with sustained high
+efficiency.

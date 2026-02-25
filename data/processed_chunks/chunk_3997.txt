@@ -1,0 +1,25 @@
+For ﬁnite MDPs, the Bellman optimality equation (3.17) has a unique so-
+lution independent of the policy. The Bellman optimality equation is actually
+a system of equations, one for each state, so if there are N states, then there
+are N equations in N unknowns.
+If the dynamics of the environment are
+known (p(s′, r|s, a)), then in principle one can solve this system of equations
+3.8. OPTIMAL VALUE FUNCTIONS
+77
+s,a
+s
+a
+s'
+r
+a'
+s'
+r
+(b)
+(a)
+max
+max
+Figure 3.7: Backup diagrams for (a) v∗and (b) q∗
+for v∗using any one of a variety of methods for solving systems of nonlinear
+equations. One can solve a related set of equations for q∗.
+Once one has v∗, it is relatively easy to determine an optimal policy. For
+each state s, there will be one or more actions at which the maximum is ob-

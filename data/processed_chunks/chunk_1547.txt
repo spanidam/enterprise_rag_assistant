@@ -1,0 +1,15 @@
+Learning objectives
+By the end of this section you should be able to
+•
+Use recursion to efficiently search a list.
+•
+Demonstrate a solution to the Three Towers problem.
+12.5 • Using recursion to solve problems
+297
+Binary search
+Searching a sorted list usually involves looking at each item. If the item being searched is not found, then the
+search can take a long time.
+A binary search is a recursive algorithm used to efficiently search sorted lists. In each recursive step, about half
+the items are discarded as not being potential matches, so the search proceeds much faster.
+A binary search begins by checking the middle element of the list. If the search key is found, the algorithm
+returns the matching location (base case). Otherwise, the search is repeated on approximately half the list. If

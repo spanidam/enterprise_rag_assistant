@@ -1,0 +1,16 @@
+of real anonymized, aggregated queries submitted to
+the Google search engine as questions. An annotator
+is presented with a question along with a Wikipedia
+page from the top 5 search results, and annotates a
+long answer (typically a paragraph) and a short answer
+(one or more entities) if present on the page, or marks
+null if no long/short answer is present.
+•
+MMLU [180] is intended to evaluate the knowl-
+edge gained in zero-shot and few-shot scenarios. That
+means that MMLU assesses both the general knowl-
+edge and problem-solving ability of a model. It covers
+57 subjects in STEM, humanities, social sciences,
+and other areas. The benchmark varies in complexity,
+ranging from elementary to advanced professional.
+It is worth mentioning that the main contribution of

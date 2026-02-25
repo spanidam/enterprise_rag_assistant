@@ -1,0 +1,30 @@
+other words, to consider the new greedy policy, π′, given by
+π′(s)
+=
+argmax
+a
+qπ(s, a)
+=
+argmax
+a
+E[Rt+1 + γvπ(St+1) | St =s, At =a]
+(4.9)
+=
+argmax
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+,
+where argmaxa denotes the value of a at which the expression that follows is
+maximized (with ties broken arbitrarily). The greedy policy takes the action
+that looks best in the short term—after one step of lookahead—according to
+vπ.
+By construction, the greedy policy meets the conditions of the policy
+improvement theorem (4.7), so we know that it is as good as, or better than,
+the original policy. The process of making a new policy that improves on an
+original policy, by making it greedy with respect to the value function of the
+original policy, is called policy improvement.

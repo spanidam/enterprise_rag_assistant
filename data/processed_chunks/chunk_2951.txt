@@ -1,0 +1,14 @@
+factorization of 8, we can restate Equation (10.3) as 
+Keep in mind that "-" here stands for set difference. Now if we restrict inverse 
+resolution to infer only clauses C2 that contain no literals in common with C1 
+(corresponding to a preference for shortest C2 clauses), then we can re-express 
+the above as 
+c - (Cl - {LlHel = (C2 - IL2W2 
+Finally we use the fact that by definition of the resolution rule L2 = -~1818;', 
+and solve for C2 to obtain 
+Inverse resolution: 
+cz = (c - (CI - { ~ ~ ~ ) e ~ ) e , - l  
+u { - ~ , e ~ e ; ' ~  
+(10.4) 
+Equation (10.4) gives the inverse resolution rule for first-order logic. As in the 
+propositional case, this inverse entailment operator is nondeterministic. In partic-

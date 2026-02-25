@@ -1,0 +1,16 @@
+making processes, making AI reasoning more relatable and
+trustworthy.
+V.
+POPULAR DATASETS FOR LLMS
+Large language models exhibit promising accomplish-
+ments, but the main question that arises is how effectively
+they function and how their performance can be assessed in
+specific tasks or applications.
+Fig. 39: HuggingGPT: An agent-based approach to use tools and planning [image courtesy of [171]]
+Fig. 40: A LLM-based agent for conversational information
+seeking. Courtesy of [36].
+The evaluation of LLMs poses particular challenges due
+to the evolving landscape of their applications. The original
+intent behind developing LLMs was to boost the performance
+of NLP tasks such as translation, summarization, question-
+answering, and so on [178]. However, it is evident today

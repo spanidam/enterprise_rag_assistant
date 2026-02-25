@@ -1,0 +1,11 @@
+regression uses nearby or distance-weighted training examples to form this local 
+approximation to f. For example, we might approximate the target function in 
+the neighborhood surrounding x, using a linear function, a quadratic function, 
+a multilayer neural network, or some other functional form. The phrase "locally 
+weighted regression" is called local because the function is approximated based 
+a 
+only on data near the query point, weighted because the contribution of each 
+training example is weighted by its distance from the query point, and regression 
+because this is the term used widely in the statistical learning community for the 
+problem of approximating real-valued functions. 
+Given a new query instance x,, the general approach in locally weighted

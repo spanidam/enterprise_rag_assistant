@@ -1,0 +1,12 @@
+approaches to force control, namely hybrid control and impedance control.
+Vision
+Cameras have become reliable and relatively inexpensive sensors in many robotic
+applications. Unlike joint sensors, which give information about the internal
+conﬁguration of the robot, cameras can be used not only to measure the position
+of the robot but also to locate objects external to the robot in its workspace.
+In Chapter 11 we discuss the use of computer vision to determine position and
+orientation of objects.
+Vision-based Control
+In some cases, we may wish to control the motion of the manipulator relative
+to some target as the end-eﬀector moves through free space. Here, force control
+cannot be used. Instead, we can use computer vision to close the control loop

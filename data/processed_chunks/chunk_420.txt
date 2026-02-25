@@ -1,0 +1,11 @@
+185
+ning problem, and it initiated a surge in path planning research. The earliest
+work in geometric path planning developed methods to construct volumetric
+representations of the free conﬁguration space. These included exact methods
+(e.g., [65]), and approximate methods (e.g., [11, 36, 47]). In the former case,
+the best known algorithms have exponential complexity and require exact de-
+scriptions of both the robot and its environment, while in the latter case, the
+size of the representation of C-space grows exponentially in the dimension of
+the C-space. The best known algorithm for the path planning problem, giving
+an upper bound on the amount of computation time required to solve the prob-
+lem, appeared in [12]. That real robots rarely have an exact description of the

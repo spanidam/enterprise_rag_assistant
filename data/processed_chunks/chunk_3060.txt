@@ -1,0 +1,15 @@
+learning capabilities over time, then it is attractive to have a learning algorithm 
+whose generalization capabilities improve as it acquires more knowledge of its 
+domain. 
+11.3.4 Knowledge Level Learning 
+As pointed out in Equation (1 1.2), the hypothesis h output by PROLOG-EBG follows 
+deductively from the domain theory B and training data D. In fact, by examining 
+the PROLOG-EBG 
+algorithm it is easy to see that h follows directly from B alone, 
+independent of D. One way to see this is to imagine an algorithm that we might 
+call LEMMA-ENUMERATOR. 
+The LEMMA-ENUMERATOR 
+algorithm simply enumerates 
+all proof trees that conclude the target concept based on assertions in the domain 
+theory B. For each such proof tree, LEMMA-ENUMERATOR 
+calculates the weakest

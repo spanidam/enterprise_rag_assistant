@@ -1,0 +1,10 @@
+With the assumption that each joint has a single degree-of-freedom, the ac-
+tion of each joint can be described by a single real number; the angle of rotation
+in the case of a revolute joint or the displacement in the case of a prismatic
+joint. The objective of forward kinematic analysis is to determine the cumula-
+tive eﬀect of the entire set of joint variables, that is, to determine the position
+and orientation of the end eﬀector given the values of these joint variables. The
+objective of inverse kinematic analysis is, in contrast, to determine the values
+for these joint variables given the position and orientation of the end eﬀector
+frame.
+A robot manipulator with n joints will have n + 1 links, since each joint

@@ -1,0 +1,22 @@
+facebookresearch/faiss
+[241]
+milvus. milvus. [Online]. Available: https://github.com/milvus-io/
+milvus
+[242]
+qdrant. qdrant. [Online]. Available: https://github.com/qdrant/qdrant
+[243]
+weaviate. weaviate. [Online]. Available: https://github.com/weaviate/
+weaviate
+[244]
+llama index. llama-index. [Online]. Available: https://github.com/
+run-llama/llama index
+APPENDIX
+1. Open Source Toolkits For LLM Development and
+Deployment
+There are various frameworks and libraries developed for
+LLM training, evaluation, and deployment, and covering every
+single framework is out of this paper’s scope. But we try to
+provide a brief introduction of some of the most popular ones,
+grouped into different categories.
+A. LLM Training/Inference Frameworks
+Some of the popular frameworks which are useful for LLM

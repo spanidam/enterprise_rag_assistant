@@ -1,0 +1,10 @@
+have an equation that gives 
+in terms of the linear unit inputs xid, outputs 
+Od, and target values td associated with the training examples. Substituting Equa- 
+tion (4.6) into Equation (4.5) yields the weight update rule for gradient descent 
+To summarize, the gradient descent algorithm for training linear units is as 
+follows: Pick an initial random weight vector. Apply the linear unit to all training 
+examples, then compute Awi for each weight according to Equation (4.7). Update 
+each weight wi by adding Awi, then repeat this process. This algorithm is given 
+in Table 4.1. Because the error surface contains only a single global minimum, 
+this algorithm will converge to a weight vector with minimum error, regardless

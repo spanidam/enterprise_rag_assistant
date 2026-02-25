@@ -1,0 +1,10 @@
+The classical solution to balancing exploration and exploitation in n-armed
+bandit problems is to compute special functions called Gittins indices. These
+provide an optimal solution to a certain kind of bandit problem more general
+than that considered here but that assumes the prior distribution of possible
+problems is known. Unfortunately, neither the theory nor the computational
+tractability of this method appear to generalize to the full reinforcement learn-
+ing problem that we consider in the rest of the book.
+There is also a well-known algorithm for computing the Bayes optimal way
+to balance exploration and exploitation. This method is computationally in-
+tractable when done exactly, but there may be eﬃcient ways to approximate it.

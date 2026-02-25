@@ -1,0 +1,49 @@
+(the origins of the DH frames, e.g.), then when all control points reach their
+global minimum potential value, the conﬁguration of the arm will be qﬁnal.
+With this potential function, the workspace force for attractive control point
+ai is deﬁned by
+Fatt,i(q)
+=
+−∇Uatti(q)
+(5.11)
+=
+
+
+
+
+
+−ζi(ai(q) −ai(qﬁnal))
+:
+||ai(q) −ai(qﬁnal)|| ≤d
+−dζi(ai(q) −ai(qﬁnal))
+||ai(q)−ai(qfinal)||
+:
+||ai(q) −ai(qﬁnal)|| > d
+(5.12)
+For the workspace repulsive potential ﬁelds, we will select a set of ﬁxed con-
+trol points on the robot Arep = {a1, · · · , am}, and deﬁne the repulsive potential
+for aj as
+Urepj(q) =
+
+
+
+
+
+
+
+
+
+1
+2ηj
+ 
+1
+ρ(aj(q)) −1
+ρ0
+!2
+:
+ρ(aj(q)) ≤ρ0
+0
+:
+ρ(aj(q)) > ρ0
+(5.13)
+in which ρ(aj(q)) is the shortest distance between the control point aj and

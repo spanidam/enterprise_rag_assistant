@@ -1,0 +1,10 @@
+The basic formulation for a RNN block is as follows:
+∀𝑡, ℎ𝑡= tanh(𝑊ℎℎ𝑡−1 + 𝑊𝑥𝑥𝑡+ 𝑏)
+(7.1)
+where 𝑊ℎis a weight matrix associated to the processing of the previous hidden state, 𝑊𝑥is another weight matrix
+associated to the processing of the current input and 𝑏is a bias term.
+Note here that 𝑊ℎ, 𝑊𝑥and 𝑏are not indexed by 𝑡, which means that they are shared across all timestamps.
+An important limitation of this formula is that it easily fails at capturing long-term dependencies. To better understand
+why, one should remind that the parameters of these networks are optimized through stochastic gradient descent algo-
+rithms.
+To simplify notations, let us consider a simplified case in which ℎ𝑡and 𝑥𝑡are both scalar values, and let us have a look at

@@ -1,0 +1,14 @@
+linear combinations of the columns of the Jacobian matrix,
+ξ = J1 ˙q1 + J2 ˙q2 · · · + Jn ˙qn
+For example, for the two-link planar arm, the Jacobian matrix given in Equation
+(4.86) has two columns. It is easy to see that the linear velocity of the end-
+eﬀector must lie in the xy-plane, since neither column has a nonzero entry for
+the third row. Since ξ ∈R6, it is necessary that J have six linearly independent
+columns for the end-eﬀector to be able to achieve any arbitrary velocity (see
+Appendix B).
+The rank of a matrix is the number of linearly independent columns (or
+rows) in the matrix.
+Thus, when rank J = 6, the end-eﬀector can execute
+any arbitrary velocity.
+For a matrix J ∈R6×n, it is always the case that
+rank J ≤min(6, n). For example, for the two-link planar arm, we always have

@@ -1,0 +1,70 @@
+following the rotational transformation R0
+1 = Rz,αRy,β. Therefore, a rotation
+PARAMETERIZATIONS OF ROTATIONS
+51
+about the axis k can be computed using a similarity transformation as
+Rk,θ
+=
+R0
+1Rz,θR0
+1
+−1
+(2.40)
+=
+Rz,αRy,βRz,θRy,−βRz,−α
+(2.41)
+β
+θ
+x0
+y0
+z0
+kx
+ky
+kz
+k
+α
+Fig. 2.13
+Rotation about an arbitrary axis.
+From Figure 2.13, we see that
+sin α
+=
+ky
+q
+k2x + k2y
+(2.42)
+cos α
+=
+kx
+q
+k2x + k2y
+(2.43)
+sin β
+=
+q
+k2x + k2y
+(2.44)
+cos β
+=
+kz
+(2.45)
+Note that the ﬁnal two equations follow from the fact that k is a unit vector.
+Substituting Equations (2.42)-(2.45) into Equation (2.41) we obtain after some
+lengthy calculation (Problem 2-17)
+Rk,θ =
+
+
+k2
+xvθ + cθ
+kxkyvθ −kzsθ
+kxkzvθ + kysθ
+kxkyvθ + kzsθ
+k2
+yvθ + cθ
+kykzvθ −kxsθ
+kxkzvθ −kysθ
+kykzvθ + kxsθ
+k2
+zvθ + cθ
+
+
+(2.46)

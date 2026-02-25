@@ -1,0 +1,10 @@
+crossover operator, as described below. 
+a Genetic operators. GABIL uses the standard mutation operator of Table 9.2, 
+in which a single bit is chosen at random and replaced by its complement. 
+The crossover operator that it uses is a fairly standard extension to the 
+two-point crossover operator described in Table 9.2. In particular, to accom- 
+modate the variable-length bit strings that encode rule sets, and to constrain 
+the system so that crossover occurs only between like sections of the bit 
+strings that encode rules, the following approach is taken. To perform a 
+crossover operation on two parents, two crossover points are first chosen 
+at random in the first parent string. Let dl (dz) denote the distance from

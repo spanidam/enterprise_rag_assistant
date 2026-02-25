@@ -1,0 +1,12 @@
+Nt(a)
+,
+where here R1, . . . , RNt(a) are all the rewards received following all selections of
+action a prior to play t. A problem with this straightforward implementation
+is that its memory and computational requirements grow over time without
+bound. That is, each additional reward following a selection of action a re-
+quires more memory to store it and results in more computation being required
+to determine Qt(a).
+As you might suspect, this is not really necessary. It is easy to devise in-
+cremental update formulas for computing averages with small, constant com-
+putation required to process each new reward. For some action, let Qk denote
+the estimate for its kth reward, that is, the average of its ﬁrst k −1 rewards.

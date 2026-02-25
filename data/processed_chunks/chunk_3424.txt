@@ -1,0 +1,14 @@
+See Section VII for more details.
+then focus our discussion on three families of LLMs: GPT,
+LlaMA, and PaLM. Table I provides an overview of some of
+these models and their characteristics.
+A. Early Pre-trained Neural Language Models
+Language modeling using neural networks was pioneered
+by [38], [39], [40]. Bengio et al. [13] developed one of the first
+neural language models (NLMs) that are comparable to n-gram
+models. Then, [14] successfully applied NLMs to machine
+translation. The release of RNNLM (an open source NLM
+toolkit) by Mikolov [41], [42] helped significantly popularize
+NLMs. Afterwards, NLMs based on recurrent neural networks
+(RNNs) and their variants, such as long short-term memory
+(LSTM) [19] and gated recurrent unit (GRU) [20], were widely

@@ -1,0 +1,30 @@
+algorithm, 
+addition by, 121-123 
+choice in radial basis function networks, 
+239-240 
+in face recognition task, 1 15-1 17 
+Hill-climbing search: 
+in FOIL algorithm, 286,287 
+in genetic algorithms, 268 
+in ID3 algorithm, 60-61 
+Hoeffding bounds, 210-21 1 
+Horn clauses, 284, 285 
+Horn clauses, first-order. See First-order 
+Horn clauses 
+Human learning: 
+explanations in, 309 
+prior knowledge in, 330 
+Hypotheses. See also Discrete-valued 
+hypotheses; General-to-specific 
+ordering of hypotheses; Hypothesis 
+space 
+error differences between two, 143-144 
+estimation of accuracy, 129-130 
+Hypotheses, estimation of accuracy 
+(continued) 
+bias and variance in estimate, 129, 
+151, 152 
+errors in, 129-131, 151 
+evaluation of, 128-129 
+justification of, in inductive vs. analytical 
+learning, 334-336

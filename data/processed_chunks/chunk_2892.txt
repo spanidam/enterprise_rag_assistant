@@ -1,0 +1,12 @@
+and where pi is the proportion of examples from S for which the target 
+function takes on the ith value. This entropy measure, combined with a test 
+for statistical significance, is used in the CN2 algorithm of Clark and Niblett 
+(1989). It is also the basis for the information gain measure used by many 
+decision tree learning algorithms. 
+10.4 LEARNING FIRST-ORDER RULES 
+In the previous sections we discussed algorithms for learning sets of propositional 
+(i.e., variable-free) rules. In this section, we consider learning rules that con- 
+tain variables-in 
+particular, learning first-order Horn theories. Our motivation 
+for considering such rules is that they are much more expressive than proposi- 
+tional rules. Inductive learning of first-order rules or theories is often referred to

@@ -1,0 +1,21 @@
+•
+Use the in operator to identify whether a given string contains a substring.
+•
+Call the count() method to count the number of substrings in a given string.
+•
+Search a string to find a substring using the find() method.
+•
+Use the index() method to find the index of the first occurrence of a substring in a given string.
+•
+Write a for loop on strings using in operator.
+204
+8 • Strings
+Access for free at openstax.org
+in operator
+The in Boolean operator can be used to check if a string contains another string. in returns True if the first
+string exists in the second string, False otherwise.
+CHECKPOINT
+What is in the phrase?
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+8-3-searchingtesting-strings)
+CONCEPTS IN PRACTICE

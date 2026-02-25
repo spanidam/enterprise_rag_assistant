@@ -1,0 +1,33 @@
+feedforward networks as hypothesis 
+space, 105-106 
+gradient descent search, 89, 115-1 16, 
+123 
+inductive bias of, 106 
+KBANN algorithm: 
+comparison with, 344-345 
+use in, 339 
+momentum, addition of, 100, 104 
+overfitting in, 108, 110-1 11 
+in Q learning, 384 
+search of hypothesis space, 97, 106, 
+122-123 
+in decision tree learning, comparison 
+with, 106 
+by genetic algorithms, comparison 
+with, 259 
+by KBANN and TANGENTPROP 
+algorithms, comparison with, 
+350-351 
+stochastic gradient descent version, 
+98-100, 104-105, 107-108 
+TANGENTPROP 
+algorithm, comparison 
+with, 349 
+weight update rule: 
+alternative error functions, 117-1 18 
+derivation of, 101-102 
+for hidden unit weights, 103 
+in KBANN algorithm, 343-344 
+optimization methods, 119 
+, 
+for output unit weights, 102-103, 171

@@ -1,0 +1,29 @@
+module provides functions for calculating area.
+EXAMPLE 7.1
+The area module
+"""Functions to calculate the area of geometric shapes."""
+import math
+# 2D shapes
+def square(side):
+"""Gets the area of a square."""
+return side**2
+def rectangle(length, width):
+"""Gets the area of a rectangle."""
+return length * width
+def triangle(base, height):
+"""Gets the area of a triangle."""
+return 0.5 * base * height
+def trapezoid(base1, base2, height):
+"""Gets the area of a trapezoid."""
+return 0.5 * (base1 + base2) * height
+def circle(radius):
+"""Gets the area of a circle."""
+return math.pi * radius**2
+def ellipse(major, minor):
+174
+7 • Modules
+Access for free at openstax.org
+"""Gets the area of an ellipse."""
+return math.pi * major * minor
+# 3D shapes
+def cube(side):

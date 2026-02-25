@@ -1,0 +1,25 @@
+6-4-parameters)
+TRY IT
+Curving scores
+Write a function, print_scores(), that takes in a list of test scores and a number representing how many
+162
+6 • Functions
+Access for free at openstax.org
+points to add. For each score, print the original score and the sum of the score and bonus. Make sure not to
+change the list.
+Given function call:
+print_scores([67, 68, 72, 71, 69], 10)
+The output is:
+67 would be updated to 77
+68 would be updated to 78
+72 would be updated to 82
+71 would be updated to 81
+69 would be updated to 79
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-4-parameters)
+6.5 Return values
+Learning objectives
+By the end of this section you should be able to
+•
+Identify a function's return value.
+•

@@ -1,0 +1,12 @@
+for a straightforward learning algorithm that calculates the probability for each 
+possible hypothesis, then outputs the most probable. This section considers such 
+a brute-force Bayesian concept learning algorithm, then compares it to concept 
+learning algorithms we considered in Chapter 2. As we shall see, one interesting 
+result of this comparison is that under certain conditions several algorithms dis- 
+cussed in earlier chapters output the same hypotheses as this brute-force Bayesian 
+CHAPTER 6 BAYESIAN LEARNING 159 
+- . 
+Product rule: probability P ( A  A B) of a conjunction of two events A and B 
+Sum rule: probability of a disjunction of two events A and B 
+Bayes theorem: the posterior probability P(hl D) of h given D 
+.

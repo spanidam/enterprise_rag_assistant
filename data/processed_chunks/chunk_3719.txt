@@ -1,0 +1,17 @@
+306
+References
+311
+Index
+338
+viii
+PREFACE
+Preface
+We ﬁrst came to focus on what is now known as reinforcement learning in late
+1979. We were both at the University of Massachusetts, working on one of
+the earliest projects to revive the idea that networks of neuronlike adaptive
+elements might prove to be a promising approach to artiﬁcial adaptive intel-
+ligence. The project explored the “heterostatic theory of adaptive systems”
+developed by A. Harry Klopf. Harry’s work was a rich source of ideas, and
+we were permitted to explore them critically and compare them with the long
+history of prior work in adaptive systems. Our task became one of teasing
+the ideas apart and understanding their relationships and relative importance.

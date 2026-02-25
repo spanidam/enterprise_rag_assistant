@@ -1,0 +1,11 @@
+planning problem, considered in Chapter 5, is to determine a path in task
+space (or conﬁguration space) to move the robot to a goal position while avoid-
+ing collisions with objects in its workspace. These paths encode position and
+orientation information without timing considerations, i.e. without considering
+velocities and accelerations along the planned paths. The trajectory generation
+problem, also considered in Chapter 5, is to generate reference trajectories that
+determine the time history of the manipulator along a given path or between
+initial and ﬁnal conﬁgurations.
+Dynamics
+A robot manipulator is primarily a positioning device. To control the position
+we must know the dynamic properties of the manipulator in order to know how

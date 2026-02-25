@@ -1,0 +1,18 @@
+It is worth mentioning that the main contribution of
+this dataset is for multi-task language understanding,
+question answering, and arithmetic reasoning.
+•
+MBPP [181] stands for “Mostly Basic Python Prob-
+lems” and provides a benchmark for evaluating the
+performance of models designed for code generation.
+The benchmark encompasses 974 short Python pro-
+grams including a wide range of topics, including
+fundamental programming concepts and standard li-
+brary usage, and more. Each challenge comprises a
+task description, a code solution, and three automated
+test cases.
+•
+HumanEval [182] is a dataset for code generation
+task. This dataset consists of 164 hand-crafted pro-
+gramming challenges. Each challenge is accompanied
+by a function signature, docstring, code body, and mul-

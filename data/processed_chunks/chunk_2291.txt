@@ -1,0 +1,10 @@
+ing, MA: Addison Wesley. 
+Homick, K., Stinchcombe, M., & White, H. (1989). Multilayer feedforward networks are universal 
+approximators. Neural Networks, 2, 359-366. 
+Huang, W. Y., & Lippmann, R. P. (1988). Neural net and traditional classifiers. In Anderson (Ed.), 
+Neural Information Processing Systems (pp. 387-396). 
+Jordan, M. (1986). Attractor dynamics and parallelism in a connectionist sequential machine. Pro- 
+ceedings of the Eighth Annual Conference of the Cognitive Science Society (pp. 531-546). 
+Kohonen, T. (1984). Self-organization and associative memory. Berlin: Springer-Verlag. 
+Lang, K. J., Waibel, A. H., & Hinton, G. E. (1990). A time-delay neural network architecture for 
+isolated word recognition. Neural Networks, 3, 3343.

@@ -1,0 +1,11 @@
+incorporation into a subsequent edition.
+In some sense we have been working toward this book for thirty years, and
+we have lots of people to thank. First, we thank those who have personally
+helped us develop the overall view presented in this book: Harry Klopf, for
+helping us recognize that reinforcement learning needed to be revived; Chris
+Watkins, Dimitri Bertsekas, John Tsitsiklis, and Paul Werbos, for helping us
+see the value of the relationships to dynamic programming; John Moore and
+Jim Kehoe, for insights and inspirations from animal learning theory; Oliver
+Selfridge, for emphasizing the breadth and importance of adaptation; and,
+more generally, our colleagues and students who have contributed in countless
+ways: Ron Williams, Charles Anderson, Satinder Singh, Sridhar Mahadevan,

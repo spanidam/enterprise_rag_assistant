@@ -1,0 +1,24 @@
+substitute p = f (xi) = h(xi), yielding 
+We now apply a transformation that is common in maximum likelihood calcula- 
+tions: Rather than maximizing the above complicated expression we shall choose 
+to maximize its (less complicated) logarithm. This is justified because lnp is a 
+monotonic function of p. Therefore maximizing In p also maximizes p. 
+... 
+1 
+1 
+hML = argmax x l n  - 
+- -(di 
+- h ( ~ i ) ) ~  
+h€H 
+i=l 
+d G 7  202 
+The first term in this expression is a constant independent of h, and can therefore 
+be discarded, yielding 
+1 
+hMr = argmax C -s(di 
+- h(xi)12 
+h €H  
+i=l 
+Maximizing this negative quantity is equivalent to minimizing the corresponding 
+positive quantity. 
+Finally, we can again discard constants that are independent of h.

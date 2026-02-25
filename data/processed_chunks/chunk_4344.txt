@@ -1,0 +1,10 @@
+diﬀerence methods. We think of the former as planning methods and of the
+latter as learning methods. Although there are real diﬀerences between these
+two kinds of methods, there are also great similarities. In particular, the heart
+of both kinds of methods is the computation of value functions. Moreover, all
+the methods are based on looking ahead to future events, computing a backed-
+up value, and then using it to update an approximate value function. Earlier
+in this book we presented Monte Carlo and temporal-diﬀerence methods as
+distinct alternatives, then showed how they can be seamlessly integrated by
+using eligibility traces such as in TD(λ). Our goal in this chapter is a similar
+integration of planning and learning methods. Having established these as

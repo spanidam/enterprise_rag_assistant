@@ -1,0 +1,10 @@
+0 If a species is evolving in a changing environment, there will be evolution- 
+ary pressure to favor individuals with the capability to learn during their 
+lifetime. For example, if a new predator appears in the environment, then 
+individuals capable of learning to avoid the predator will be more successful 
+than individuals who cannot learn. In effect, the ability to learn allows an 
+individual to perform a small local search during its lifetime to maximize its 
+fitness. In contrast, nonlearning individuals whose fitness is fully determined 
+by their genetic makeup will operate at a relative disadvantage. 
+0 Those individuals who are able to learn many traits will rely less strongly 
+on their genetic code to "hard-wire" traits. As a result, these individuals

@@ -1,0 +1,14 @@
+the best example of such mechanism is Mixture of Experts
+(MoE). MoEs have been around in machine learning for years,
+even before the Deep Learning Era [213], but they have been
+gaining popularity since then, and particularly in the context
+of Transformer models and LLMs.
+In LLMs, MoEs allow to train an extremely large model
+than is then only partially instantiated during inference
+when some of the experts are turned off wherever the gat-
+ing/weighting function has a low weight assigned to them. As
+an example, the GLaM model has 1.2 trillion parameters, but
+during inference only 2 out of the 64 experts are used [84].
+MoEs are nowadays an important component of the so-
+called frontier LLMs (i.e. the most advanced and capable
+models). GPT-4 itself is rumored to be based on a MoE

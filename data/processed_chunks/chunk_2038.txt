@@ -1,0 +1,19 @@
+ID3 maintains only a single current hypothesis as it searches through the 
+space of decision trees. This contrasts, for example, with the earlier ver- 
+sion space candidate-~lirninat-od, 
+which maintains the set of all 
+hypotheses consistent with the available training examples. By determin- 
+ing only a single hypothesis,  ID^ loses the capabilities that follow from 
+F: 
++ - + 
+FIGURE 3.5 
+Hypothesis space search by ID3. 
+ID3 searches throuah the mace of 
+- 
+possible decision trees from simplest 
+to increasingly complex, guided by the 
+... 
+... 
+information gain heuristic. 
+explicitly representing all consistent hypotheses. For example, it does not 
+have the ability to determine how many alternative decision trees are con-

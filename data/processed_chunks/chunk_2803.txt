@@ -1,0 +1,10 @@
+different schemas that it matches. For example, the bit string 0010 can be thought 
+of as a representative of 24 distinct schemas including 00**, O* 10, ****, etc. Sim- 
+ilarly, a population of bit strings can be viewed in terms of the set of schemas that 
+it represents and the number of individuals associated with each of these schema. 
+The schema theorem characterizes the evolution of the population within a 
+GA in terms of the number of instances representing each schema. Let m(s, t) 
+denote the number of instances of schema s in the population at time t (i.e., 
+during the tth generation). The schema theorem describes the expected value of 
+m(s, t + 1) in terms of m(s, t) and other properties of the schema, population, and 
+GA algorithm parameters.

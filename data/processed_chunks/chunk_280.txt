@@ -1,0 +1,16 @@
+i while oi
+is given by the ﬁrst three elements of the fourth column of T 0
+i . Thus only the
+third and fourth columns of the T matrices are needed in order to evaluate the
+Jacobian according to the above formulas.
+The above procedure works not only for computing the velocity of the end-
+eﬀector but also for computing the velocity of any point on the manipulator.
+This will be important in Chapter 6 when we will need to compute the velocity
+of the center of mass of the various links in order to derive the dynamic equations
+of motion.
+4.7
+EXAMPLES
+We now provide a few examples to illustrate the derivation of the manipulator
+Jacobian.
+Example 4.5 Two-Link Planar Manipulator
+Consider the two-link planar manipulator of Example 3.1. Since both joints

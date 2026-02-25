@@ -1,0 +1,10 @@
+the number of training examples required for inductive learning. Within the mistake 
+bound framework, we examine the number of training errors that will be made by 
+a learner before it determines the correct hypothesis. 
+7.1 INTRODUCTION 
+When studying machine learning it is natural to wonder what general laws may 
+govern machine (and nonmachine) learners. Is it possible to identify classes of 
+learning problems that are inherently difficult or easy, independent of the learning 
+algorithm? Can one characterize the number of training examples necessary or 
+sufficient to assure successful learning? How is this number affected if the learner 
+is allowed to pose queries to the trainer, versus observing a random sample of

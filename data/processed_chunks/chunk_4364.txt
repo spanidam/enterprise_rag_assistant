@@ -1,0 +1,23 @@
+201
+Initialize Q(s, a) and Model(s, a) for all s ∈S and a ∈A(s)
+Do forever:
+(a) S ←current (nonterminal) state
+(b) A ←ϵ-greedy(S, Q)
+(c) Execute action A; observe resultant reward, R, and state, S′
+(d) Q(S, A) ←Q(S, A) + α
+
+R + γ maxa Q(S′, a) −Q(S, A)
+
+(e) Model(S, A) ←R, S′ (assuming deterministic environment)
+(f) Repeat n times:
+S ←random previously observed state
+A ←random action previously taken in S
+R, S′ ←Model(S, A)
+Q(S, A) ←Q(S, A) + α
+
+R + γ maxa Q(S′, a) −Q(S, A)
+
+Figure 8.4: Dyna-Q Algorithm. Model(s, a) denotes the contents of the model
+(predicted next state and reward) for state–action pair s, a. Direct reinforce-
+ment learning, model-learning, and planning are implemented by steps (d),
+(e), and (f), respectively. If (e) and (f) were omitted, the remaining algorithm

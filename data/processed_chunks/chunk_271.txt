@@ -1,0 +1,14 @@
+called the Manipulator Jacobian or Jacobian for short. Note that J is a
+6×n matrix where n is the number of links. We next derive a simple expression
+for the Jacobian of any manipulator.
+4.6.1
+Angular Velocity
+Recall from Equation (4.31) that angular velocities can be added as free vectors,
+provided that they are expressed relative to a common coordinate frame. Thus
+we can determine the angular velocity of the end-eﬀector relative to the base
+by expressing the angular velocity contributed by each joint in the orientation
+of the base frame and then summing these.
+If the i-th joint is revolute, then the i-th joint variable qi equals θi and the
+axis of rotation is zi−1. Following the convention that we introduced above, let
+ωi−1
+i

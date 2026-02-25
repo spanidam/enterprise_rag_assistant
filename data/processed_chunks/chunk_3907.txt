@@ -1,0 +1,16 @@
+Fischer (2002).
+2.7
+Gradient-bandit algorithms are a special case of the gradient-based
+reinforcement learning algorithms introduced by Williams (1992), and
+that later developed into the actor–critic and policy-gradient algorithms
+that we treat later in this book. Further discussion of the choice of
+2.9. SUMMARY
+51
+baseline is provided there and by Greensmith, Bartlett, and Baxter
+(2001, 2004) and Dick (2015).
+The term softmax for the action selection rule (2.9) is due to Bridle
+(1990). This rule appears to have been ﬁrst proposed by Luce (1959).
+2.8
+The term associative search and the corresponding problem were in-
+troduced by Barto, Sutton, and Brouwer (1981). The term associative
+reinforcement learning has also been used for associative search (Barto

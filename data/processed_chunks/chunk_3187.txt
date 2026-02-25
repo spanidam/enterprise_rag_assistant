@@ -1,0 +1,11 @@
+target network, consider the derivative , E ~ ~ ~ i , , e .  
+If the domain theory encodes 
+the knowledge that the feature Expensive is irrelevant to the target function Cup, 
+then the derivative , E ~ ~ e ~ i , , e  
+extracted from the explanation will have the value 
+zero. A derivative of zero corresponds to the assertion that a change in the fea- 
+ture Expensive will have no impact on the predicted value of Cup. On the other 
+hand, a large positive or negative derivative corresponds to the assertion that the 
+feature is highly relevant to determining the target value. Thus, the derivatives 
+extracted from the domain theory explanation provide important information for 
+distinguishing relevant from irrelevant features. When these extracted derivatives

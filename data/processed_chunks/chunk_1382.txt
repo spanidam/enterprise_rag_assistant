@@ -1,0 +1,21 @@
+chapter, string methods will be demonstrated including comparing string values, string slicing, searching,
+testing, formatting, and modifying.
+8.1 String operations
+Learning objectives
+By the end of this section you should be able to
+•
+Compare strings using logical and membership operators.
+•
+Use lower() and upper() string methods to convert string values to lowercase and uppercase
+characters.
+String comparison
+String values can be compared using logical operators (<, <=, >, >=, ==, !=) and membership operators (in and
+not in). When comparing two string values, the matching characters in two string values are compared
+sequentially until a decision is reached. For comparing two characters, ASCII values are used to apply logical
+operators.
+Strings
+8
+Operator
+Description
+Example
+Output

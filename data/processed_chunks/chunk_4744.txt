@@ -1,0 +1,16 @@
+process control. In W. T. Miller, R. S. Sutton, and P. J. Werbos (eds.),
+Neural Networks for Control, pp. 387–402. MIT Press, Cambridge, MA.
+Urbanowicz, R. J., Moore, J. H. (2009). Learning classiﬁer systems: A com-
+plete introduction, review, and roadmap. Journal of Artiﬁcial Evolution
+and Applications.
+Waltz, M. D., Fu, K. S. (1965). A heuristic approach to reinforcement learning
+control systems. IEEE Transactions on Automatic Control, 10:390–398.
+Watkins, C. J. C. H. (1989). Learning from Delayed Rewards. Ph.D. thesis,
+Cambridge University.
+Watkins, C. J. C. H., Dayan, P. (1992).
+Q-learning.
+Machine Learning,
+8:279–292.
+Wiering, M., Van Otterlo, M. (2012). Reinforcement Learning. Springer Berlin
+Heidelberg.
+Werbos, P. J. (1977). Advanced forecasting methods for global crisis warning

@@ -1,0 +1,47 @@
+c.
+no result / infinite computation
+6. def rec_fact(n):
+if n < 0:
+print("error")
+290
+12 • Recursion
+Access for free at openstax.org
+elif n == 0:
+return n
+else:
+return n * rec_fact(n - 1)
+a.
+355687428096000
+b.
+0
+c.
+no result / infinite computation
+7. def rec_fact(n):
+if n < 0:
+print("error")
+elif n == 0:
+return 1
+else:
+return n * rec_fact(n - 1)
+a.
+355687428096000
+b.
+0
+c.
+no result / infinite computation
+8. def rec_fact(n):
+if n < 0:
+return -1
+else:
+return n * rec_fact(n - 1)
+a.
+355687428096000
+b.
+0
+c.
+no result / infinite computation
+TRY IT
+Recursive summation
+Write a program that uses a recursive function to calculate the summation of numbers from 0 to a user
+specified positive integer n.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/

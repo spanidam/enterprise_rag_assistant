@@ -1,0 +1,18 @@
+(1 × 102, 1 × 102, 1 × 102, 2, 2, 2)T
+V2
+=
+(2 × 102, 2 × 102, 2 × 102, −1, −1, −1)T
+and clearly V T
+1 V2 ̸= 0. Thus, usual notion of orthogonality is not meaningful
+in so(3).
+It is easy to show that the equality KL(V1, V2) = 0 (respectively,
+KI(V1, V2) = 0) is independent of the units or the basis chosen to represent
+V1 and V2. For example, the condition KI(V1, V2) = 0 means that the axes of
+rotation deﬁning ω1 and ω2 are orthogonal.
+⋄
+We shall see in speciﬁc cases below that the reciprocity relation (9.1) may
+be used to design reference inputs to execute motion and force control tasks.
+9.2.1
+Natural and Artiﬁcial Constraints
+In this section we discuss so-called Natural Constraints which are deﬁned using
+the reciprocity condition (9.1). We then discuss the notion of Artiﬁcial Con-

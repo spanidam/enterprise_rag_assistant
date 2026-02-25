@@ -1,0 +1,14 @@
+similar to the one used in the Cup example of Section 12.3. In particular, it 
+discusses how the EBNN algorithm constructs explanations of individual train- 
+ing examples in order to extract training derivatives for use by TANGENTPROP. 
+TANGENTPROP 
+and EBNN have been demonstrated to outperform purely inductive 
+methods in a variety of domains, including character and object recognition, and 
+robot perception and control tasks. 
+12.4.1 The TANGENTPROP 
+Algorithm 
+TANGENTPROP 
+(Simard et al. 1992) accommodates domain knowledge expressed 
+as derivatives of the target function with respect to transformations of its inputs. 
+Consider a learning task involving an instance space X and target function f. Up 
+to now we have assumed that each training example consists of a pair (xi, f (xi))

@@ -1,0 +1,11 @@
+models in that they can always be used to produce samples. However, in sur-
+prisingly many applications it is much easier to obtain sample models than
+distribution models.
+Models can be used to mimic or simulate experience. Given a starting state
+and action, a sample model produces a possible transition, and a distribution
+model generates all possible transitions weighted by their probabilities of oc-
+curring. Given a starting state and a policy, a sample model could produce an
+entire episode, and a distribution model could generate all possible episodes
+and their probabilities. In either case, we say the model is used to simulate
+the environment and produce simulated experience.
+The word planning is used in several diﬀerent ways in diﬀerent ﬁelds. We

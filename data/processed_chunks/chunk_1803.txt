@@ -1,0 +1,10 @@
+book could not have been written without their help. I am deeply indebted to 
+the following scientists who took the time to review chapter drafts and, in many 
+cases, to tutor me and help organize chapters in their individual areas of expertise. 
+Avrim Blum, Jaime Carbonell, William Cohen, Greg Cooper, Mark Craven, 
+Ken DeJong, Jerry DeJong, Tom Dietterich, Susan Epstein, Oren Etzioni, 
+Scott Fahlman, Stephanie Forrest, David Haussler, Haym Hirsh, Rob Holte, 
+Leslie Pack Kaelbling, Dennis Kibler, Moshe Koppel, John Koza, Miroslav 
+Kubat, John Lafferty, Ramon Lopez de Mantaras, Sridhar Mahadevan, Stan 
+Matwin, Andrew McCallum, Raymond Mooney, Andrew Moore, Katharina 
+Morik, Steve Muggleton, Michael Pazzani, David Poole, Armand Prieditis,

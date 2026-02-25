@@ -1,0 +1,9 @@
+such approach. It uses prior knowledge to analyze, or explain, each training exam- 
+ple in order to infer which example features are relevant to the target function and 
+which are irrelevant. These explanations enable it to generalize more accurately 
+than inductive systems that rely on the data alone. As we saw in the previous chap- 
+ter, inductive logic programming systems such as CIGOL also use prior background 
+knowledge to guide learning. However, they use their background knowledge to 
+infer features that augment the input descriptions of instances, thereby increasing 
+the complexity of the hypothesis space to be searched. In contrast, explanation- 
+based learning uses prior knowledge to reduce the complexity of the hypothesis

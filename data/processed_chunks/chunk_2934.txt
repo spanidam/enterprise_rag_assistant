@@ -1,0 +1,12 @@
+0 By incorporating background information B, this formulation invites learning 
+methods that use this background information to guide the search for h, 
+rather than merely searching the space of syntactically legal hypotheses. 
+The inverse resolution procedure described in the following section uses 
+background knowledge in this fashion. 
+At the same time, research on inductive logic programing following this 
+formulation has encountered several practical difficulties. 
+a The requirement @'(xi, 
+f (xi)) E D) (B A h A xi) t f (xi) does not naturally 
+accommodate noisy training data. The problem is that this expression does 
+not allow for the possibility that there may be errors in the observed de- 
+scription of the instance xi or its target value f (xi). Such errors can produce

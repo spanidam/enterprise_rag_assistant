@@ -1,0 +1,13 @@
+validation. Hence, one algorithm is to select a random subset of the available 
+data to use as training examples, then determine the values of z l  . . . z, 
+that lead 
+to the minimum error in classifying the remaining examples. By repeating this 
+process multiple times the estimate for these weighting factors can be made more 
+accurate. This process of stretching the axes in order to optimize the performance 
+of k-NEAREST 
+NEIGHBOR 
+provides a mechanism for suppressing the impact of 
+irrelevant attributes. 
+An even more drastic alternative is to completely eliminate the least relevant 
+attributes from the instance space. This is equivalent to setting some of the zi 
+scaling factors to zero. Moore and Lee (1994) discuss efficient cross-validation

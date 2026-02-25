@@ -1,0 +1,26 @@
+then make a decision about players? Nesting allows a decision statement to be inside another decision
+statement, and is indicated by an indentation level.
+An improved program:
+if game == 1:
+if players < 2:
+print("Not enough players")
+elif players > 4:
+print("Too many players")
+else:
+print("Ready to start")
+if game == 2:
+4.6 • Nested decisions
+113
+if players < 3:
+print("Not enough players")
+elif players > 6:
+print("Too many players")
+else:
+print("Ready to start")
+# Test game IDs 3-end
+CHECKPOINT
+Example: Poisonous plant identification
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+4-6-nested-decisions)
+CONCEPTS IN PRACTICE
+Using nested if-else statements

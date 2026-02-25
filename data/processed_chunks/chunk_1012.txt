@@ -1,0 +1,11 @@
+• Query (Q): what you are looking for
+• Key (K): what you have as reference
+• Value (V): what you extract
+This mechanism is similar to what happens when manipulating a Python dictionary: in a dictionary, you look for an exact
+key to get the associated value. Here, the query plays the role of the searched key, but instead of an exact match, you
+compare the query to all available keys (which are numerical vectors) by measuring their similarity (typically via a dot
+product).
+Rather than retrieving the value of a single key, you perform a weighted average of the values associated with the keys
+most similar to the query. The weights of this average are precisely the similarities calculated between the query and each
+key.
+8.4 Mathematical Formulation

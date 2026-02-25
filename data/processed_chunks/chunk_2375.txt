@@ -1,0 +1,10 @@
+Normal distribution (and therefore tN,k-l approaches zN) as k approaches infinity. 
+This is intuitively satisfying because we expect sp to converge toward the true 
+standard deviation ap as the sample size k grows, and because we can use ZN 
+when the standard deviation is known exactly. 
+5.6.2 Practical Considerations 
+Note the above discussion justifies the use of the confidence interval estimate 
+given by Equation (5.17) in the case where we wish to use the sample mean 
+Y to estimate the mean of a sample containing k independent, identically and 
+Normally distributed random variables. This fits the idealized method described 
+above, in which we assume unlimited access to examples of the target function. In

@@ -1,0 +1,23 @@
+object is given by
+µi =
+N−1
+X
+z=0
+z
+Hi[z]
+PN−1
+z=0 Hi[z]
+,
+(11.33)
+which is a straightforward generalization of (11.32). The term
+Hi[z]
+PN−1
+z=0 Hi[z]
+is in fact an estimate of the probability that a pixel will have gray level value
+z given that the pixel is a part of object i in the image. For this reason, µi is
+sometimes called a conditional mean.
+The mean conveys useful, but very limited information about the distribution
+of grey level values in an image. For example, if half or the pixels have gray value
+127 and the remaining half have gray value 128, the mean will be µ = 127.5.
+Likewise, if half or the pixels have gray value 255 and the remaining half have
+gray value 0, the mean will be µ = 127.5. Clearly these two images are very

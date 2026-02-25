@@ -1,0 +1,11 @@
+vector. The dimension of the parameter space, Rℓ, i.e., the number of param-
+eters needed to write the dynamics in this way, is not unique. In general, a
+given rigid body is described by ten parameters, namely, the total mass, the
+six independent entries of the inertia tensor, and the three coordinates of the
+center of mass. An n-link robot then has a maximum of 10n dynamics pa-
+rameters. However, since the link motions are constrained and coupled by the
+joint interconnections, there are actually fewer than 10n independent parame-
+ters. Finding a minimal set of parameters that can parametrize the dynamic
+equations is, however, diﬃcult in general.
+Example: 6.3 Two Link Planar Robot
+Consider the two link, revolute joint, planar robot from section 6.4 above. If

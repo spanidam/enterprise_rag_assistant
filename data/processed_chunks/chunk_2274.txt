@@ -1,0 +1,13 @@
+space of highly nonlinear functions, making feedforward networks a good 
+choice for learning discrete and continuous functions whose general form is 
+unknown in advance. 
+BACKPROPAGATION 
+searches the space of possible hypotheses using gradient 
+descent to iteratively reduce the error in the network fit to the training 
+examples. Gradient descent converges to a local minimum in the training 
+error with respect to the network weights. More generally, gradient descent is 
+a potentially useful method for searching many continuously parameterized 
+hypothesis spaces where the training error is a differentiable function of 
+hypothesis parameters. 
+One of the most intriguing properties of BACKPROPAGATION 
+is its ability to

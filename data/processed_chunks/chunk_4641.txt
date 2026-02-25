@@ -1,0 +1,12 @@
+eﬃciency of learning, it is not clear how crucial all of them were for the success
+of the system.
+Zhang and Dietterich experimented with two diﬀerent network architec-
+tures. In the ﬁrst version of their system, each schedule was represented using
+a set of 20 handcrafted features. To deﬁne these features, they studied small
+scheduling problems to ﬁnd features that had some ability to predict RDF. For
+example, experience with small problems showed that only four of the resource
+pools tended to cause allocation problems. The mean and standard deviation
+14.6. JOB-SHOP SCHEDULING
+299
+of each of these pools’ unused portions over the entire schedule were computed,
+resulting in 10 real-valued features. Two other features were the RDF of the

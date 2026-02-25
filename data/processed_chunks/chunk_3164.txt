@@ -1,0 +1,10 @@
+In the above example, we considered only simple kinds of derivatives of 
+the target function. In fact, TANGENTPROP 
+can accept training derivatives with 
+respect to various transformations of the input x. Consider, for example, the task 
+of learning to recognize handwritten characters. In particular, assume the input 
+x corresponds to an image containing a single handwritten character, and the 
+task is to correctly classify the character. In this task, we might be interested in 
+informing the learner that "the target function is invariant to small rotations of 
+the character within the image." In order to express this prior knowledge to the 
+learner, we first define a transformation s(a, x), which rotates the image x by a!

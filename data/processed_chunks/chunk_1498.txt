@@ -1,0 +1,39 @@
+11.2 • Classes and instances
+267
+CHECKPOINT
+Representing a coffee order with a class
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-2-classes-and-instances)
+CONCEPTS IN PRACTICE
+Classes and instances
+Consider the example below:
+class Cat:
+def __init__(self):
+self.name = 'Kitty'
+self.breed = 'domestic short hair'
+self.age = 1
+def print_info(self):
+print(self.name, 'is a ', self.age, 'yr old', self.breed)
+pet_1 = Cat()
+pet_2 = Cat()
+1. What is the name of the class?
+a.
+Cat
+b.
+class Cat
+c.
+self
+2. Which of the following is an instance of the Cat class?
+a.
+__init__
+b.
+name
+c.
+pet_1
+3. Which of the following is an attribute?
+a.
+breed
+b.
+pet_2
+c.
+print_info

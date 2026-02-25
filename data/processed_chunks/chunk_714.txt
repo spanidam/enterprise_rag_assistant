@@ -1,0 +1,45 @@
+0
+
+
+(10.65)
+which has rank 4 for k > 0, I, J < ∞. Also, since the vector ﬁelds {g, adf(g),
+ad2
+f(g)} are constant, they form an involutive set. To see this it suﬃces to note
+that the Lie Bracket of two constant vector ﬁelds is zero. Hence the Lie Bracket
+of any two members of the set of vector ﬁelds in (10.64) is zero which is trivially
+a linear combination of the vector ﬁelds themselves. It follows that the system
+(10.59) is feedback linearizable. The new coordinates
+yi = Ti
+i = 1, . . . , 4
+(10.66)
+are found from the conditions (10.53), with n = 4, that is
+LgT1
+=
+0
+L[f,g]T1
+=
+0
+Lad2
+f gT1
+=
+0
+Lad3
+f gT1
+=
+0
+(10.67)
+SINGLE-INPUT SYSTEMS
+313
+Carrying out the above calculations leads to the system of equations (Prob-
+lem 10-9)
+∂T1
+∂x2
+= 0 ; ∂T1
+∂x3
+= 0 ; ∂T1
+∂x4
+= 0
+(10.68)
+and
+∂T1
+∂x1

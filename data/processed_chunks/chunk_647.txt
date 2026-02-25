@@ -1,0 +1,11 @@
+equilibrium is unstable for the linearized system.]
+8-4 Using the control law (??) for the system (??)-(??), what is the steady
+state error if the gravity terms are present?
+8-5 Simulate an inverse dynamics control law for a two-link elbow manipulator
+whose equations of motion were derived in Chapter ??. Investigate what
+happens if there are bounds on the maximum available input torque.
+8-6 For the system of Problem 8-5 what happens to the response of the system
+if the coriolis and centrifugal terms are dropped from the inverse dynamics
+control law in order to facilitate computation? What happens if incorrect
+values are used for the link masses? Investigate via computer simulation.
+8-7 Add an outer loop correction term ∆v to the control law of Problem 8-6

@@ -1,0 +1,54 @@
+o0
+c
+=
+o −d6R
+
+
+0
+0
+1
+
+
+(3.40)
+and that the orientation of the frame o6x6y6z6 with respect to the base be given
+by R. If the components of the end-eﬀector position o are denoted ox, oy, oz
+and the components of the wrist center o0
+c are denoted xc, yc, zc then (3.40)
+gives the relationship
+
+
+xc
+yc
+zc
+
+
+=
+
+
+ox −d6r13
+oy −d6r23
+oz −d6r33
+
+
+(3.41)
+Using Equation (3.41) we may ﬁnd the values of the ﬁrst three joint variables.
+This determines the orientation transformation R0
+3 which depends only on these
+ﬁrst three joint variables. We can now determine the orientation of the end-
+eﬀector relative to the frame o3x3y3z3 from the expression
+R
+=
+R0
+3R3
+6
+(3.42)
+INVERSE KINEMATICS
+89
+as
+R3
+6
+=
+(R0
+3)−1R = (R0
+3)T R
+(3.43)

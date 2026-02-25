@@ -1,0 +1,32 @@
+evaluation of, 128-129 
+justification of, in inductive vs. analytical 
+learning, 334-336 
+representations of, 23 
+testing of, 144-145 
+Hypothesis space, 14-15 
+bias in, 40-42, 46, 129 
+finite, sample complexity for, 207-214, 
+225 
+infinite, sample complexity for, 214-220 
+VC dimension of, 214-217 
+Hypothesis space search 
+by BACKPROPAGATION 
+algorithm, 97, 
+106, 122-123 
+comparison with decision tree 
+learning, 106 
+comparison with KBANN and 
+TANGENTPROP 
+algorithms, 350-35 1 
+by CANDIDATE-ELIMINATION 
+algorithm, 
+64 
+in concept learning, 23-25, 46-47 
+constraints on, 302-303 
+by FIND-S algorithm, 27-28 
+by FOIL algorithm, 286-287, 357-361 
+by genetic algorithms, 250, 259 
+by gradient descent, 90-91 
+by ID3 algorithm, 60-62,64, 76 
+by KBANN algorithm, 346 
+by learning algorithms, 24

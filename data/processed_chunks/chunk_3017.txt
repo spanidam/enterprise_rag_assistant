@@ -1,0 +1,12 @@
+domain theory is available. It is difficult to write a perfectly correct and 
+complete theory even for our relatively simple SafeToStack problem. A more 
+realistic assumption is that plausible explanations based on imperfect domain 
+theories must be used, rather than exact proofs based on perfect knowledge. 
+Nevertheless, we can begin to understand the role of explanations in learning 
+by considering the ideal case of perfect domain theories. In Chapter 12 we 
+will consider learning from imperfect domain theories. 
+This section presents an algorithm called PROLOG-EBG 
+(Kedar-Cabelli and 
+McCarty 1987) that is representative of several explanation-based learning algo- 
+rithms. PROLOG-EBG 
+is a sequential covering algorithm (see Chapter 10). In other

@@ -1,0 +1,11 @@
+learner's prior knowledge is correct and complete. The next chapter considers com- 
+bining inductive and analytical learning in situations where prior knowledge is only 
+approximately correct. 
+11.1 INTRODUCTION 
+Previous chapters have considered a variety of inductive learning methods: that is, 
+methods that generalize from observed training examples by identifying features 
+that empirically distinguish positive from negative training examples. Decision 
+tree learning, neural network learning, inductive logic programming, and genetic 
+algorithms are all examples of inductive methods that operate in this fashion. The 
+key practical limit on these inductive learners is that they perform poorly when 
+insufficient data is available. In fact, as discussed in Chapter 7, theoretical analysis

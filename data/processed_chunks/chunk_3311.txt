@@ -1,0 +1,10 @@
+pair is visited (infinitely often!). This is clearly an unrealistic assumption in large 
+or infinite spaces, or when the cost of executing actions is high. As a result, 
+more practical systems often combine function approximation methods discussed 
+in other chapters with the Q learning training rules described here. 
+It is easy to incorporate function approximation algorithms such as BACK- 
+PROPAGATION into the Q learning algorithm, by substituting a neural network for 
+the lookup table and using each ~ ( s ,  
+a) update as a training example. For example, 
+we could encode the state s and action a as network inputs and train the network 
+to output the target values of Q given by the training rules of Equations (13.7)

@@ -1,0 +1,25 @@
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃Layer (type)
+┃Output Shape
+┃
+Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│dense (Dense)
+│(None, 20)
+│
+220 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│dense_1 (Dense)
+│(None, 3)
+│
+63 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+Total params: 283 (1.11 KB)
+Trainable params: 283 (1.11 KB)
+Non-trainable params: 0 (0.00 B)
+Note that model.summary() provides an interesting overview of a defined model and its parameters.
+2.4. Declaring an MLP in keras
+13
+Deep Learning Basics (lecture notes)
+® Exercise #1

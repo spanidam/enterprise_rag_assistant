@@ -1,0 +1,13 @@
+Given this batch of data, what would you say are the optimal predictions, the
+best values for the estimates V (A) and V (B)? Everyone would probably agree
+that the optimal value for V (B) is 3
+4, because six out of the eight times in state
+B the process terminated immediately with a return of 1, and the other two
+times in B the process terminated immediately with a return of 0.
+But what is the optimal value for the estimate V (A) given this data? Here
+there are two reasonable answers. One is to observe that 100% of the times
+the process was in state A it traversed immediately to B (with a reward of 0);
+and since we have already decided that B has value 3
+4, therefore A must have
+value 3
+4 as well. One way of viewing this answer is that it is based on ﬁrst

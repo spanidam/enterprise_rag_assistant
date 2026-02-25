@@ -1,0 +1,12 @@
+(randomly distributed) high priority customers in the queue is h. Of course a
+customer can be served only if there is a free server. Each busy server becomes
+free with probability p on each time step. Although we have just described
+them for deﬁniteness, let us assume the statistics of arrivals and departures are
+unknown. The task is to decide on each step whether to accept or reject the
+next customer, on the basis of his priority and the number of free servers, so
+as to maximize long-term reward without discounting. Figure 11.3 shows the
+solution found by R-learning for this task with n = 10, h = 0.5, and p = 0.06.
+The R-learning parameters were α = 0.01, β = 0.01, and ϵ = 0.1. The initial
+action values and ¯R were zero.
+Exercises
+∗Exercise 11.1

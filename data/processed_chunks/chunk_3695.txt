@@ -1,0 +1,43 @@
+langchain-ai/langchain
+[233]
+bentoml. Openllm. [Online]. Available: https://github.com/bentoml/
+OpenLLM
+[234]
+embedchain. embedchain. [Online]. Available: https://github.com/
+embedchain/embedchain
+[235]
+microsoft. autogen. [Online]. Available: https://github.com/microsoft/
+autogen
+[236]
+babyagi.
+babyagi.
+[Online].
+Available:
+https://github.com/
+yoheinakajima/babyagi
+[237]
+guidance.
+guidance.
+[Online].
+Available:
+https://github.com/
+guidance-ai/guidance
+[238]
+prompttools. prompttools. [Online]. Available: https://github.com/
+hegelai/prompttools
+[239]
+promptfoo.
+promptfoo.
+[Online].
+Available:
+https://github.com/
+promptfoo/promptfoo
+[240]
+facebook.
+faiss.
+[Online].
+Available:
+https://github.com/
+facebookresearch/faiss
+[241]
+milvus. milvus. [Online]. Available: https://github.com/milvus-io/

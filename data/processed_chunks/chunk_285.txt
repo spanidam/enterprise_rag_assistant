@@ -1,0 +1,90 @@
+zj
+=
+R0
+jk
+(4.88)
+where R0
+j is the rotational part of T 0
+j . Thus it is only necessary to compute
+the matrices T 0
+j to calculate the Jacobian. Carrying out these calculations one
+obtains the following expressions for the Stanford manipulator:
+o6
+=
+
+
+c1s2d3 −s1d2 + d6(c1c2c4s5 + c1c5s2 −s1s4s5)
+s1s2d3 −c1d2 + d6(c1s4s5 + c2c4s1s5 + c5s1s2)
+c2d3 + d6(c2c5 −c4s2s5)
+
+
+(4.89)
+o3
+=
+
+
+c1s2d3 −s1d2
+s1s2d3 + c1d2
+c2d3
+
+
+(4.90)
+130
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+The zi are given as
+z0
+=
+
+
+0
+0
+1
+
+
+z1 =
+
+
+−s1
+c1
+0
+
+
+(4.91)
+z2
+=
+
+
+c1s2
+s1s2
+c2
+
+
+z3 =
+
+
+c1s2
+s1s2
+c2
+
+
+(4.92)
+z4
+=
+
+
+−c1c2s4 −s1c4
+−s1c2s4 + c1c4
+s2s4
+
+
+(4.93)
+z5
+=
+
+
+c1c2c4s5 −s1s4s5 + c1s2c5
+s1c2c4s5 + c1s4s5 + s1s2c5
+−s2c4s5 + c2c5
+
+.
+(4.94)

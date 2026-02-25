@@ -1,0 +1,9 @@
+The gradient descent weight-update rule (Equation [T4.5] in Table 4.2) is 
+similar to the delta training rule (Equation [4.10]). Like the delta rule, it updates 
+each weight in proportion to the learning rate r], the input value xji to which 
+the weight is applied, and the error in the output of the unit. The only differ- 
+ence is that the error (t - o) in the delta rule is replaced by a more complex 
+error term, aj. The exact form of aj follows from the derivation of the weight- 
+tuning rule given in Section 4.5.3. To understand it intuitively, first consider 
+how ak is computed for each network output unit k (Equation [T4.3] in the al- 
+gorithm). ak is simply the familiar (tk - ok) from the delta rule, multiplied by

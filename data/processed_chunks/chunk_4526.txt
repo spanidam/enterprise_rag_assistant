@@ -1,0 +1,10 @@
+Exercise 9.2 State aggregation is a simple form of generalizing function ap-
+proximation in which states are grouped together, with one table entry (value
+estimate) used for each group. Whenever a state in a group is encountered, the
+group’s entry is used to determine the state’s value, and when the state is up-
+254CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+dated, the group’s entry is updated. Show that this kind of state aggregation
+is a special case of a gradient method such as (9.4).
+Exercise 9.3 The equations given in this section are for the on-line version
+of gradient-descent TD(λ). What are the equations for the oﬀ-line version?
+Give a complete description specifying the new weight vector at the end of an

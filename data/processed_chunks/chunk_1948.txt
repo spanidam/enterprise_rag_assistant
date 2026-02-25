@@ -1,0 +1,10 @@
+version space (Figure 2.3). If the trainer classifies this instance as a positive ex- 
+ample, the S boundary of the version space can then be generalized. Alternatively, 
+if the trainer indicates that this is a negative example, the G boundary can then be 
+specialized. Either way, the learner will succeed in learning more about the true 
+identity of the target concept, shrinking the version space from six hypotheses to 
+half this number. 
+In general, the optimal query strategy for a concept learner is to generate 
+instances that satisfy exactly half the hypotheses in the current version space. 
+When this is possible, the size of the version space is reduced by half with each 
+new example, and the correct target concept can therefore be found with only

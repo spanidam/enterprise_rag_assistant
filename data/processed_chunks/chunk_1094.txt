@@ -1,0 +1,19 @@
+•
+Keep running and correcting the program until no errors are found.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-6-error-messages)
+TRY IT
+Wrong symbols
+This code is based on an earlier example, but the code contains several mistakes.
+•
+One line is missing required punctuation, and another line uses incorrect symbols.
+•
+Run the program to find the first error, and correct the corresponding line of code.
+•
+Keep running and correcting the program until no errors are found.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-6-error-messages)
+1.7 Comments
+Learning objectives
+By the end of this section you should be able to
+•

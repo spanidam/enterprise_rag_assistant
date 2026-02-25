@@ -1,0 +1,10 @@
+value estimates. We call methods using this near-greedy action selection rule
+ε-greedy methods. An advantage of these methods is that, in the limit as the
+number of plays increases, every action will be sampled an inﬁnite number
+of times, guaranteeing that Nt(a) →∞for all a, and thus ensuring that all
+the Qt(a) converge to q(a). This of course implies that the probability of se-
+lecting the optimal action converges to greater than 1 −ε, that is, to near
+certainty. These are just asymptotic guarantees, however, and say little about
+the practical eﬀectiveness of the methods.
+To roughly assess the relative eﬀectiveness of the greedy and ε-greedy meth-
+ods, we compared them numerically on a suite of test problems. This was a

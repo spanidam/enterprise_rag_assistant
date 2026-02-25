@@ -1,0 +1,40 @@
+13
+print(student_list)
+14
+15
+# Suppose "Ming" had to be removed from the list.
+16
+# A pop() operation can be used since Ming is last in the
+list.
+17
+student_list.pop()
+18
+print(student_list)
+The above code's output is:
+['Jamie', 'Vicky', 'DeShawn', 'Tae']
+['Jamie', 'Vicky', 'DeShawn', 'Tae', 'Ming']
+['Vicky', 'DeShawn', 'Tae', 'Ming']
+['Vicky', 'DeShawn', 'Tae']
+CONCEPTS IN PRACTICE
+Modifying lists
+1. Which operation can be used to add an element to the end of a list?
+a.
+add()
+b.
+append()
+c.
+pop()
+224
+9 • Lists
+Access for free at openstax.org
+2. What is the correct syntax to remove the element 23 from a list called number_list?
+a.
+remove()
+b.
+number_list.remove()
+c.
+number_list.remove(23)
+3. Which operation can be used to remove an element from the end of a list?
+a.
+only pop()
+b.

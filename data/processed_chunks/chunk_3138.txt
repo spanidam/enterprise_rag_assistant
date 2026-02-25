@@ -1,0 +1,12 @@
+0 A domain theory consisting of nonrecursive, propositional Horn clauses 
+Determine: 
+0 An artificial neural network that fits the training examples, biased by the 
+domain theory 
+The two stages of the KBANN algorithm are first to create an artificial neural 
+network that perfectly fits the domain theory and second to use the BACKPROPA- 
+CATION algorithm to refine this initial network to fit the training examples. The 
+details of this algorithm, including the algorithm for creating the initial network, 
+are given in Table 12.2 and illustrated in Section 12.3.2. 
+12.3.2 An Illustrative Example 
+To illustrate the operation of KBANN, consider the simple learning problem sum- 
+marized in Table 12.3, adapted from Towel1 and Shavlik (1989). Here each in-

@@ -1,0 +1,39 @@
+6
+print("Length: ", len(num_list))
+7
+8
+# Print the 4th element in the list
+9
+# The number 3 is used to refer to the 4th element
+10
+print("4th element:", num_list[3])
+11
+12
+# The desired value of the 4th element is actually 7
+13
+# Update the value of the 4th element to 7
+14
+num_list[3] = 7
+15
+16
+# The list of the first 5 prime numbers
+17
+print(num_list)
+The above code's output is:
+[2, 3, 5, 9, 11]
+Length: 5
+4th element: 9
+84
+3 • Objects
+Access for free at openstax.org
+[2, 3, 5, 7, 11]
+CONCEPTS IN PRACTICE
+List indexes and the len() function
+3. Which is the correct way to access the 17th element in a list called cardList?
+a.
+card_list[17]
+b.
+16)card_list(16)
+c.
+card_list[16]
+4. What is the correct way to modify the element "Tom" to "Tim" in the following list?

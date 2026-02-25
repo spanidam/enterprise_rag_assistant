@@ -1,0 +1,11 @@
+non-servo robots. The earliest robots were non-servo robots. These robots
+are essentially open-loop devices whose movement is limited to predetermined
+mechanical stops, and they are useful primarily for materials transfer. In fact,
+according to the deﬁnition given previously, ﬁxed stop robots hardly qualify
+as robots. Servo robots use closed-loop computer control to determine their
+motion and are thus capable of being truly multifunctional, reprogrammable
+devices.
+Servo controlled robots are further classiﬁed according to the method that the
+controller uses to guide the end-eﬀector. The simplest type of robot in this class
+is the point-to-point robot. A point-to-point robot can be taught a discrete
+set of points but there is no control on the path of the end-eﬀector in between

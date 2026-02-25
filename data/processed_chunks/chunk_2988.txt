@@ -1,0 +1,10 @@
+432-436). San Francisco: Morgan Kaufmann. 
+Plotkin, G. D. (1970). A note on inductive generalization. In B. Meltzer & D. Michie (Eds.), Machine 
+Intelligence 5 (pp. 153-163). Edinburgh University Press. 
+Plotkin, G. D. (1971). A further note on inductive generalization. In B. Meltzer & D. Michie (Eds.), 
+Machine Intelligence 6. New York: Elsevier. 
+Quinlan, J. R. (1990). Learning logical definitions from relations. Machine Learning, 5, 239-266. 
+Quinlan, J. R. (1991). Improved estimates for the accuracy of small disjuncts (Technical Note). 
+Machine Learning, 6(1), 93-98. Boston: Kluwer Academic Publishers. 
+Rivest R. L. (1987). Learning decision lists. Machine Learning, 2(3), 229-246. 
+Robinson, J. A. (1965). A machine-oriented logic based on the resolution principle. Journal of the

@@ -1,0 +1,13 @@
+clude those pixels that are diagonally adjacent (i.e., the pixels with coordinates
+(r −1, c −1), (r −1, c + 1), (r + 1, c −1), and (r + 1, c + 1)), then we say that
+adjacent pixels are 8-connected. In this text, we will consider only the case of
+4-connectivity.
+A connected component is a collection of pixels, S, such that for any two
+pixels, say P and P ′, in S, there is a 4-connected path between them and this
+path is contained in S.
+Intuitively, this deﬁnition means that it is possible
+to move from P to P ′ by “taking steps” only to adjacent pixels without ever
+leaving the region S.
+The purpose of a component labeling algorithm is to
+assign a unique label to each such S.
+There are many component labeling algorithms that have been developed

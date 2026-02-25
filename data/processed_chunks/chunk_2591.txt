@@ -1,0 +1,10 @@
+For example, if concepts in C are conjunctions of up to k boolean features, each 
+described by listing the indices of the features in the conjunction, then size(c) is 
+the number of boolean features actually used to describe c. 
+Our definition of PAC learning may at first appear to be concerned only 
+with the computational resources required for learning, whereas in practice we are 
+usually more concerned with the number of training examples required. However, 
+the two are very closely related: If L requires some minimum processing time 
+per training example, then for C to be PAC-learnable by L, L must learn from a 
+polynomial number of training examples. In fact, a typical approach to showing 
+that some class C of target concepts is PAC-learnable, is to first show that each

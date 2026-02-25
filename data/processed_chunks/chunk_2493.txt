@@ -1,0 +1,11 @@
+bilities P(a1 = wk lvj), P(a2 = wk lv,) . . . by the single position-independent prob- 
+ability P(wklvj), which we will use regardless of the word position. The net 
+effect is that we now require only 2.50,000 distinct terms of the form P(wklvj). 
+This is still a large number, but manageable. Notice in cases where training data 
+is limited, the primary advantage of making this assumption is that it increases 
+the number of examples available to estimate each of the required probabilities, 
+thereby increasing the reliability of the estimates. 
+To complete the design of our learning algorithm, we must still choose a 
+method for estimating the probability terms. We adopt the m-estimate-Equa- 
+tion (6.22)-with 
+uniform priors and with rn equal to the size of the word vocab-

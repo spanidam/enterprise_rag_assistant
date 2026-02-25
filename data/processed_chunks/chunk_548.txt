@@ -1,0 +1,46 @@
+This type of control is adequate for applications not involving very fast motion,
+especially in robots with large gear reduction between the actuators and the
+links. The analysis in this section follows typical engineering practice rather
+than complete mathematical rigor.
+For the following discussion, assume for
+simplicity that
+qk = θsk
+=
+θmk/rk and
+(7.24)
+τℓk
+=
+τk.
+Then, for k = 1, . . . , n, the equations of motion of the manipulator can be
+written as
+n
+X
+j=1
+djk(q)¨qj +
+n
+X
+i,j=1
+cijk(q) ˙qiqj + gk(q)
+=
+τk
+(7.25)
+Jmk ¨θmk + (Bmk + KbkKmk/Rk) ˙θmk
+=
+Kmk/RkVk −τk/rk (7.26)
+Combining these equations yields
+(Jmk + 1
+r2
+k
+dkk(q))¨θmk + (Bmk + KbkKmk/Rk) ˙θmk = Kmk/RkVk −dk (7.27)
+where dk is deﬁned by
+dk
+:=
+1
+rk
+X
+j̸=k
+¨qj +
+X
+i,j
+cijk ˙qi ˙qj + gk.
+(7.28)

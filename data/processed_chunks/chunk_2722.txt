@@ -1,0 +1,9 @@
+the underlying distribution of instances. Alternatively, we may identify prototyp- 
+ical clusters of instances, then add a kernel function centered at each cluster. The 
+placement of the kernel functions in this fashion can be accomplished using un- 
+supervised clustering algorithms that fit the training instances (but not their target 
+values) to a mixture of Gaussians. The EM algorithm discussed in Section 6.12.1 
+provides one algorithm for choosing the means of a mixture of k Gaussians to 
+best fit the observed instances. In the case of the EM algorithm, the means are 
+chosen to maximize the probability of observing the instances xi, given the k 
+estimated means. Note the target function value f (xi) of the instance does not

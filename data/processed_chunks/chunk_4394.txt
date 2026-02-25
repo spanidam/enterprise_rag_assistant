@@ -1,0 +1,52 @@
+computation is often the limiting resource in planning. To properly assess the
+relative merits of full and sample backups for planning we must control for
+their diﬀerent computational requirements.
+For concreteness, consider the full and sample backups for approximating
+q∗, and the special case of discrete states and actions, a table-lookup repre-
+sentation of the approximate value function, Q, and a model in the form of
+estimated dynamics, ˆp(s′, r|s, a). The full backup for a state–action pair, s, a,
+is:
+Q(s, a) ←
+X
+s′,r
+ˆp(s′, r|s, a)
+h
+r + γ max
+a′
+Q(s′, a′)
+i
+.
+(8.1)
+8.5. FULL VS. SAMPLE BACKUPS
+211
+Full backups
+(DP)
+Sample backups
+(one-step TD)
+Value
+estimated
+V
+!(s)
+V*(s)
+Q!(a,s)
+Q*(a,s)
+s
+a
+s'
+r
+policy evaluation
+s
+a
+s'
+r
+max
+value iteration
+s
+a
+r
+s'
+TD(0)
+s,a
+a'
+s'
+r

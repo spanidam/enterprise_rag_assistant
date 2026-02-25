@@ -1,0 +1,11 @@
+Fahlman, S., & Lebiere, C. (1990). The CASCADE-CORRELATION 
+learning architecture (Technical 
+Report CMU-CS-90-100). Computer Science Department, Carnegie Mellon University, Pitts- 
+burgh, PA. 
+Freeman, J. A., & Skapura, D. M. (1991). Neural networks. Reading, MA: Addison Wesley. 
+Fu, L. (1994). Neural networks in computer intelligence. New York: McGraw Hill. 
+Gabriel, M. & Moore, J. (1990). Learning and computational neuroscience: Foundations of adaptive 
+networks (edited collection). Cambridge, MA: The MIT Press. 
+Hecht-Nielsen, R. (1990). Neurocomputing. Reading, MA: Addison Wesley. 
+Hertz, J., Krogh, A., & Palmer, R.G. (1991). Introduction to the theory of neural computation. Read- 
+ing, MA: Addison Wesley.

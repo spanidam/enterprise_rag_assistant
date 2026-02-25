@@ -1,0 +1,34 @@
+eat.
+A pass statement is used in Python to indicate that code is to be written later and prevents certain errors
+that would result if no code was written or a comment was used instead.
+13.5 • Multiple inheritance and mixin classes
+321
+class Plant:
+def photosynth(self):
+print("Photosynthesizing")
+def eat(self):
+print("Eating")
+class Rose(Plant):
+pass
+class Pitcher(Plant):
+pass
+class VenusFlyTrap(Plant):
+pass
+4. Which edit is appropriate?
+a.
+Move eat() to a different class.
+b.
+Remove Plant as a superclass.
+5. The programmer edits the code as follows. How can the program be improved?
+class Plant:
+def photosynth(self):
+print("Photosynthesizing")
+class Rose(Plant):
+pass
+class Pitcher(Plant):
+def eat(self):
+print("Eating")
+class VenusFlyTrap(Plant)
+def eat(self):
+print("Eating")
+a.

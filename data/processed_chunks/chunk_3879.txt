@@ -1,0 +1,16 @@
+s
+ln t
+Nt(a)
+#
+,
+(2.8)
+where ln t denotes the natural logarithm of t (the number that e ≈2.71828
+would have to be raised to in order to equal t), and the number c > 0 controls
+the degree of exploration. If Nt(a) = 0, then a is considered to be a maximizing
+action.
+The idea of this upper conﬁdence bound (UCB) action selection is that the
+square-root term is a measure of the uncertainty or variance in the estimate
+of a’s value. The quantity being max’ed over is thus a sort of upper bound
+on the possible true value of action a, with the c parameter determining the
+conﬁdence level. Each time a is selected the uncertainty is presumably reduced;
+Nt(a) is incremented and, as it appears in the denominator of the uncertainty

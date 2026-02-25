@@ -1,0 +1,40 @@
+product has the properties
+x × y
+=
+−y × x
+x × (y + z)
+=
+x × y + x × z
+(B.17)
+α(x × y)
+=
+(αx) × y = x × (αy)
+(B.18)
+B.1
+DIFFERENTIATION OF VECTORS
+Suppose that the vector x(t) = (x1(t), . . . , xn(t))T is a function of time. Then
+the time derivative ˙x of x Is just the vector
+˙x
+=
+( ˙x1(t), . . . , ˙xn(t))T
+(B.19)
+382
+LINEAR ALGEBRA
+Fig. B.2
+The right-handed coordinate frame.
+that is, the vector can be diﬀerentiated coordinate wise. Likewise, the derivative
+dA/dt of a matrix A = (aij) is just the matrix (˙aij). Similar statements hold
+for integration of vectors and matrices. The scalar and vector products satisfy
+the following product rules for diﬀerentiation similar to the product rule for
+diﬀerentiation of ordinary functions.
+d
+dt⟨x, y⟩
+=
+⟨dx
+dt , y⟩+ ⟨x, dy
+dt ⟩
+(B.20)
+d
+dt(x × y)
+=
+dx

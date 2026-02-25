@@ -1,0 +1,11 @@
+does not even arise in supervised and unsupervised learning, at least in their
+purist forms.
+Another key feature of reinforcement learning is that it explicitly considers
+the whole problem of a goal-directed agent interacting with an uncertain envi-
+ronment. This is in contrast with many approaches that consider subproblems
+without addressing how they might ﬁt into a larger picture. For example,
+we have mentioned that much of machine learning research is concerned with
+supervised learning without explicitly specifying how such an ability would
+ﬁnally be useful. Other researchers have developed theories of planning with
+general goals, but without considering planning’s role in real-time decision-
+making, or the question of where the predictive models necessary for planning

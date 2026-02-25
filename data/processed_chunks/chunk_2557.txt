@@ -1,0 +1,10 @@
+general setting. Hint: Consider the analysis of Section 6.5. 
+6.5. Consider the Minimum Description Length principle applied to the hypothesis space 
+H consisting of conjunctions of up to n boolean attributes (e.g., Sunny A Warm). 
+Assume each hypothesis is encoded simply by listing the attributes present in the 
+hypothesis, where the number of bits needed to encode any one of the n boolean at- 
+tributes is log, n. Suppose the encoding of an example given the hypothesis uses zero 
+bits if the example is consistent with the hypothesis and uses log, m bits otherwise 
+(to indicate which of the m examples was misclassified-the 
+correct classification 
+can be inferred to be the opposite of that predicted by the hypothesis).

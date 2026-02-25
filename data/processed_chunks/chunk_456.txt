@@ -1,0 +1,25 @@
+x
+0
+Fig. 6.4
+A General Rigid Body
+energy of the rigid body is then given as
+K
+=
+1
+2mvT v + 1
+2ωT Iω
+(6.41)
+where m is the total mass of the object, v and ω are the linear and angular
+velocity vectors, respectively, and I is a symmetric 3 × 3 matrix called the
+Inertia Tensor.
+6.2.1
+The Inertia Tensor
+It is understood that the linear and angular velocity vectors, v and ω, respec-
+tively, in the above expression for the kinetic energy are expressed in the inertial
+frame. In this case we know that ω is found from the skew symmetric matrix
+S(ω) = ˙RRT
+(6.42)
+where R is the orientation transformation between the body attached frame and
+the inertial frame. It is therefore necessary to express the inertia tensor, I, also
+198
+DYNAMICS

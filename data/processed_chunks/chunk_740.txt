@@ -1,0 +1,16 @@
+324
+GEOMETRIC NONLINEAR CONTROL
+10.7
+CHOW’S THEOREM AND CONTROLLABILITY OF DRIFTLESS
+SYSTEMS
+In this section we discuss the controllability properties of driftless systems of
+the form
+˙x = g1(x)u1 + · · · + gm(x)um
+(10.119)
+with x ∈Rn, u ∈Rm. We assume that the vector ﬁelds g1(x), . . . gm(x) are
+smooth, complete4, and linearly independent at each x ∈Rn.
+We have seen previously that if the k < n Pfaﬃan constraints on the system
+are holonomic then the trajectory of the system lies on a m = n−k-dimensional
+surface (an integral manifold) found by integrating the constraints. In fact, at
+each x ∈R the tangent space to this manifold is spanned by the vectors g1(x),
+. . . , gm(x). If we examine Equation (10.119) we see that any instantaneous

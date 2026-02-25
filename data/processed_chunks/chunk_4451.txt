@@ -1,0 +1,32 @@
+error on that example:
+wt+1
+=
+wt −1
+2α∇
+h
+vπ(St) −ˆv(St,wt)
+i2
+=
+wt + α
+h
+vπ(St) −ˆv(St,wt)
+i
+∇ˆv(St,wt),
+(9.2)
+where α is a positive step-size parameter, and ∇f(wt), for any expression
+f(wt), denotes the vector of partial derivatives with respect to the components
+of the weight vector:
+∂f(wt)
+∂wt,1
+, ∂f(wt)
+∂wt,2
+, . . . , ∂f(wt)
+∂wt,n
+⊤
+.
+This derivative vector is the gradient of f with respect to wt. This kind of
+method is called gradient descent because the overall step in wt is proportional
+to the negative gradient of the example’s squared error. This is the direction
+in which the error falls most rapidly.
+It may not be immediately apparent why only a small step is taken in the
+direction of the gradient. Could we not move all the way in this direction

@@ -1,0 +1,9 @@
+system might learn from direct training examples consisting of individual checkers 
+board states and the correct move for each. Alternatively, it might have available 
+only indirect information consisting of the move sequences and final outcomes 
+of various games played. In this later case, information about the correctness 
+of specific moves early in the game must be inferred indirectly from the fact 
+that the game was eventually won or lost. Here the learner faces an additional 
+problem of credit assignment, or determining the degree to which each move in 
+the sequence deserves credit or blame for the final outcome. Credit assignment can 
+be a particularly difficult problem because the game can be lost even when early

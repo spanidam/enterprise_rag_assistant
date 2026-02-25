@@ -1,0 +1,17 @@
+R. Taori, Y. Noda, D. Terzopoulos, Y. Choi, K. Ikeuchi, H. Vo, L. Fei-
+Fei, and J. Gao, “Agent ai: Surveying the horizons of multimodal
+interaction,” arXiv preprint arXiv:2401.03568, 2024.
+[175]
+B. Xu, Z. Peng, B. Lei, S. Mukherjee, Y. Liu, and D. Xu, “Rewoo:
+Decoupling reasoning from observations for efficient augmented lan-
+guage models,” 2023.
+[176]
+S. Yao, J. Zhao, D. Yu, N. Du, I. Shafran, K. Narasimhan, and Y. Cao,
+“React: Synergizing reasoning and acting in language models,” 2023.
+[177]
+V. Nair, E. Schumacher, G. Tso, and A. Kannan, “Dera: Enhanc-
+ing large language model completions with dialog-enabled resolving
+agents,” 2023.
+[178]
+Y. Chang, X. Wang, J. Wang, Y. Wu, L. Yang, K. Zhu, H. Chen, X. Yi,
+C. Wang, Y. Wang, W. Ye, Y. Zhang, Y. Chang, P. S. Yu, Q. Yang,

@@ -1,0 +1,22 @@
+10.3 Dictionary operations
+Learning objectives
+By the end of this section you should be able to
+•
+Recognize that a dictionary object is mutable.
+•
+Evaluate dictionary items, keys, and values.
+•
+Demonstrate the ability to access, evaluate, and modify dictionary items.
+•
+Modify a dictionary by adding items.
+•
+Modify a dictionary by removing items.
+Accessing dictionary items
+In Python, values associated with keys in a dictionary can be accessed using the keys as indexes. Here are two
+ways to access dictionary items in Python:
+10.3 • Dictionary operations
+245
+•
+Square bracket notation: Square brackets [] with the key inside access the value associated with that key.
+If the key is not found, an exception will be thrown.
+•

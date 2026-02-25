@@ -1,0 +1,19 @@
+the direction of the negative gradient (i.e., in the direction that decreases the
+potential as quickly as possible). This gives a new conﬁguration, and the process
+is repeated until the ﬁnal conﬁguration is reached. More formally, we can deﬁne
+a gradient descent algorithm as follows.
+1.
+q0 ←qinit, i ←0
+2.
+IF qi ̸= qﬁnal
+qi+1 ←qi + αi
+F (qi)
+||F (qi)||
+i ←i + 1
+ELSE return < q0, q1 · · · qi >
+3.
+GO TO 2
+In this algorithm, the notation qi is used to denote the value of q at the ith
+iteration (not the ith componenent of the vector q) and the ﬁnal path consists
+of the sequence of iterates < q0, q1 · · · qi >. The value of the scalar αi deter-
+mines the step size at the ith iteration; it is multiplied by the unit vector in the

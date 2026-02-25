@@ -1,0 +1,12 @@
+ration space uniformly at random. Sample conﬁgurations that lie in QO are
+discarded. A simple collision checking algorithm can determine when this is the
+case. The disadvantage of this approach is that the number of samples it places
+in any particular region of Qfree is proportional to the volume of the region.
+Therefore, uniform sampling is unlikely to place samples in narrow passages of
+Qfree. In the PRM literature, this is refered to as the narrow passage prob-
+lem. It can be dealt with either by using more intelligent sampling schemes, or
+by using an enhancement phase during the construction of the PRM. In this
+section, we discuss the latter option.
+5.5.2
+Connecting Pairs of Conﬁgurations
+Given a set of nodes that correspond to conﬁgurations, the next step in building

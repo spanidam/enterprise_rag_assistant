@@ -1,0 +1,12 @@
+(3.5) enable us to predict the next state and expected next reward given the
+current state and action. One can show that, by iterating this equation, one
+can predict all future states and expected rewards from knowledge only of the
+current state as well as would be possible given the complete history up to the
+current time. It also follows that Markov states provide the best possible basis
+for choosing actions. That is, the best policy for choosing actions as a function
+of a Markov state is just as good as the best policy for choosing actions as a
+function of complete histories.
+Even when the state signal is non-Markov, it is still appropriate to think
+of the state in reinforcement learning as an approximation to a Markov state.
+∗3.5. THE MARKOV PROPERTY
+65

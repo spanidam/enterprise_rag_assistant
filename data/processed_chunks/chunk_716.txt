@@ -1,0 +1,91 @@
+tem becomes
+˙y1
+=
+y2
+˙y2
+=
+y3
+˙y3
+=
+y4
+˙y4
+=
+v
+(10.75)
+or, in matrix form,
+˙y
+=
+Ay + bv
+(10.76)
+314
+GEOMETRIC NONLINEAR CONTROL
+where
+A =
+
+
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+
+
+b =
+
+
+0
+0
+0
+1
+
+
+(10.77)
+Remark 10.2 The above feedback linearization is actually global. In order to
+see this we need only compute the inverse of the change of variables (10.70)-
+(10.71). Inspecting (10.70)-(10.71) we see that
+x1
+=
+y1
+x2
+=
+y2
+x3
+=
+y1 + I
+k
+
+y3 + MgL
+I
+sin(y1)
+
+(10.78)
+x4
+=
+y2 + I
+k
+
+y4 + MgL
+I
+cos(y1)y2
+
+The inverse transformation is well deﬁned and diﬀerentiable everywhere and,
+hence, the feedback linearization for the system (10.59) holds globally.
+The
+transformed variables y1, . . . , y4 are themselves physically meaningful. We see
+that
+y1 = x1
+=
+link position
+y2 = x2
+=

@@ -1,0 +1,12 @@
+we prefer to obtain the reward sooner rather than later. However, other defini- 
+tions of total reward have also been explored. For example, jinite horizon reward, 
+c:=, 
+rt+i, considers the undiscounted sum of rewards over a finite number h of 
+. - 
+steps. Another possibility is average reward, limb,, cF=~ rt+i, which consid- 
+ers the average reward per time step over the entire lifetime of the agent. In 
+this chapter we restrict ourselves to considering discounted reward as defined 
+by Equation (13.1). Mahadevan (1996) provides a discussion of reinforcement 
+learning when the criterion to be optimized is average reward. 
+We are now in a position to state precisely the agent's learning task. We 
+require that the agent learn a policy n that maximizes V"(s) for all states s.

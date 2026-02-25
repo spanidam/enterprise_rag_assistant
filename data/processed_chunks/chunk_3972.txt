@@ -1,0 +1,17 @@
+reward).
+The agent makes its decisions solely as a function of the energy level of
+the battery. It can distinguish two levels, high and low, so that the state set
+is S = {high, low}. Let us call the possible decisions—the agent’s actions—
+wait, search, and recharge. When the energy level is high, recharging would
+always be foolish, so we do not include it in the action set for this state. The
+agent’s action sets are
+A(high)
+=
+{search, wait}
+A(low)
+=
+{search, wait, recharge}.
+If the energy level is high, then a period of active search can always be
+completed without risk of depleting the battery. A period of searching that
+begins with a high energy level leaves the energy level high with probability
+α and reduces it to low with probability 1−α. On the other hand, a period of

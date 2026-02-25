@@ -1,0 +1,16 @@
+use Ti for the test set, and the remaining data for training set Si 
+0 Si c {Do - Ti} 
+hA C LA(Si) 
+h~ + L ~ ( s i )  
+0 Si t 
+errorq (hA) - errorz (hB) 
+3. Return the value 6, where 
+TABLE 5.5 
+A procedure to estimate the difference in error between two learning methods LA and LB. Approxi- 
+mate confidence intervals for this estimate are given in the text. 
+The approximate N% confidence interval for estimating the quantity in Equa- 
+tion (5.16) using 8 is given by 
+where tN,k-l is a constant that plays a role analogous to that of ZN in our ear- 
+lier confidence interval expressions, and where s,- is an estimate of the standard 
+deviation of the distribution governing 8. In particular, sg is defined as 
+Notice the constant t ~ , k - l  in Equation (5.17) has two subscripts. The first

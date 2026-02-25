@@ -1,0 +1,10 @@
+However, we do include some methods that, like evolutionary methods,
+do not appeal to value functions. These methods search in spaces of policies
+deﬁned by a collection of numerical parameters. They estimate the directions
+the parameters should be adjusted in order to most rapidly improve a policy’s
+performance. Unlike evolutionary methods, however, they produce these es-
+timates while the agent is interacting with its environment and so can take
+advantage of the details of individual behavioral interactions. Methods like
+this, called policy gradient methods, have proven useful in many problems, and
+some of the simplest reinforcement learning methods fall into this category. In
+fact, some of these methods take advantage of value function estimates to im-

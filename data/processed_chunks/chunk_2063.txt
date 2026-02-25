@@ -1,0 +1,9 @@
+the tree measured over the training examples increases monotonically. However, when measured over 
+a set of test examples independent of the training examples, accuracy first increases, then decreases. 
+Software and data for experimenting with variations on this plot are available on the World Wide 
+Web at http://www.cs.cmu.edu/-torn/mlbook.html. 
+further elaboration of the tree decreases its accuracy over the test examples despite 
+increasing its accuracy on the training examples. 
+How can it be possible for tree h to fit the training examples better than h', 
+but for it to perform more poorly over subsequent examples? One way this can 
+occur is when the training examples contain random errors or noise. To illustrate,

@@ -1,0 +1,13 @@
+use of eligibility traces.
+186
+CHAPTER 7. ELIGIBILITY TRACES
+is illustrated by the gridworld example in Figure 7.13. The ﬁrst panel shows
+the path taken by an agent in a single episode, ending at a location of high
+reward, marked by the *. In this example the values were all initially 0, and
+all rewards were zero except for a positive reward at the * location.
+The
+arrows in the other two panels show which action values were strengthened as
+a result of this path by one-step Sarsa and Sarsa(λ) methods. The one-step
+method strengthens only the last action of the sequence of actions that led to
+the high reward, whereas the trace method strengthens many actions of the
+sequence. The degree of strengthening (indicated by the size of the arrows)

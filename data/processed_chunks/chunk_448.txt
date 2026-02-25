@@ -1,0 +1,21 @@
+2
+=
+−c(r1 −r2)
+(6.23)
+Now the work done by the constraint forces corresponding to a set of virtual
+displacements is
+(f (a)
+1 )T δr1 + (f (a)
+2 )T δr2
+=
+c(r1 −r2)T (δr1 −δr2)
+(6.24)
+But (6.17) shows that for any set of virtual displacements, the above inner
+product must be zero. Thus the principle of virtual work applies in a system
+constrained by (6.12). The same reasoning can be applied if the system consists
+of several particles, which are pairwise connected by rigid massless wires of
+ﬁxed lengths, in which case the system is subjected to several constraints of
+the form (6.12).
+Now, the requirement that the motion of a body be rigid
+can be equivalently expressed as the requirement that the distance between
+any pair of points on the body remain constant as the body moves, that is,

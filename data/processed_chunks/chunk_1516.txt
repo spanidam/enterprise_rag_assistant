@@ -1,0 +1,34 @@
+p1 = Pair(10, 2)
+p2 = Pair(8, 4)
+p3 = p1 - p2
+print(p3.x, p3.y)
+a.
+def __sub__(self):
+return Pair(self.x - other.x, self.y - other.y)
+b.
+def __sub__(self, other):
+return self.x - other.x, self.y - other.y
+c.
+def __sub__(self, other):
+return Pair(self.x - other.x, self.y - other.y)
+Overloading comparison operators
+Comparison operators can also be overloaded like arithmetic operators.
+Comparison operator (Operation)
+Magic method
+< (Less than)
+__lt__(self, other)
+> (Greater than)
+__gt__(self, other)
+<= (Less than or equal to)
+__le__(self, other)
+>= (Greater than or equal to)
+__ge__(self, other)
+== (Equal)
+__eq__(self, other)
+!= (Not equal)
+__ne__(self, other)
+Table 11.2 Comparison operators and magic methods.
+278
+11 • Classes
+Access for free at openstax.org
+EXAMPLE 11.2

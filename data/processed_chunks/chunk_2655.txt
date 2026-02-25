@@ -1,0 +1,14 @@
+One interesting extension to the HALVING 
+algorithm is to allow the hy- 
+potheses to vote with different weights. Chapter 6 describes the Bayes optimal 
+classifier, which takes such a weighted vote among hypotheses. In the Bayes op- 
+timal classifier, the weight assigned to each hypothesis is the estimated posterior 
+probability that it describes the target concept, given the training data. Later in 
+this section we describe a different algorithm based on weighted voting, called 
+the WEIGHTED-MAJORITY 
+algorithm. 
+7.5.3 Optimal Mistake Bounds 
+The above analyses give worst-case mistake bounds for two specific algorithms: 
+FIND-S and CANDIDATE-ELIMINATION. 
+It is interesting to ask what is the optimal 
+mistake bound for an arbitrary concept class C, assuming H = C. By optimal

@@ -1,0 +1,18 @@
+•
+Create and implement __init__() with multiple parameters including default parameter values.
+•
+Describe what information an instance method has access to and can modify.
+More about __init__()
+In Python, __init__() is the special method that creates instances. __init__() must have the calling
+instance, self, as the first parameter and can have any number of other parameters with or without default
+parameter values.
+272
+11 • Classes
+Access for free at openstax.org
+CHECKPOINT
+Creating patient vital signs instances
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-3-instance-methods)
+CONCEPTS IN PRACTICE
+Defining and using __init__() with parameters
+Consider the example above.

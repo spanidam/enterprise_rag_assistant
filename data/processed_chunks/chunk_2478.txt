@@ -1,0 +1,11 @@
+6.9.1 An Illustrative Example 
+Let us apply the naive Bayes classifier to a concept learning problem we consid- 
+ered during our discussion of decision tree learning: classifying days according 
+to whether someone will play tennis. Table 3.2 from Chapter 3 provides a set 
+of 14 training examples of the target concept PlayTennis, where each day is 
+described by the attributes Outlook, Temperature, Humidity, and Wind. Here we 
+use the naive Bayes classifier and the training data from this table to classify the 
+following novel instance: 
+(Outlook = sunny, Temperature = cool, Humidity = high, Wind = strong) 
+Our task is to predict the target value (yes or no) of the target concept 
+PlayTennis for this new instance. Instantiating Equation (6.20) to fit the current

@@ -1,0 +1,15 @@
+terms of reward. Only the relative preference of one action over another is
+important; if we add 1000 to all the preferences there is no aﬀect on the action
+probabilities, which are determined according to a soft-max distribution (i.e.,
+Gibbs or Boltzmann distribution) as follows:
+Pr{At =a} =
+eHt(a))
+Pn
+b=1 eHt(b) = πt(a),
+(2.9)
+where here we have also introduced a useful new notation πt(a) for the proba-
+bility of taking action a at time t. Initially all preferences are the same (e.g.,
+H1(a) = 0, ∀a) so that all actions have an equal probability of being selected.
+There is a natural learning algorithm for this setting based on the idea
+of stochastic gradient ascent. On each step, after selecting the action At and
+receiving the reward Rt, the preferences are updated by:

@@ -1,0 +1,10 @@
+the assumption that the quantities of interest are governed by probability distri- 
+butions and that optimal decisions can be made by reasoning about these proba- 
+bilities together with observed data. It is important to machine learning because 
+it provides a quantitative approach to weighing the evidence supporting alterna- 
+tive hypotheses. Bayesian reasoning provides the basis for learning algorithms 
+that directly manipulate probabilities, as well as a framework for analyzing the 
+operation of other algorithms that do not explicitly manipulate probabilities. 
+6.1 INTRODUCTION 
+Bayesian learning methods are relevant to our study of machine learning for 
+two different reasons. First, Bayesian learning algorithms that calculate explicit

@@ -1,0 +1,16 @@
+Dense(units=256, activation="relu"),
+Dense(units=3, activation="softmax")
+])
+n_epochs = 100
+model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
+h_standardized = model.fit(X, y, epochs=n_epochs, batch_size=30, verbose=0)
+4.5. Data preprocessing
+25
+Deep Learning Basics (lecture notes)
+26
+Chapter 4. Optimization
+CHAPTER 5
+REGULARIZATION
+As discussed in previous chapters, one of the strengths of the neural networks is that they can approximate any continuous
+functions when a sufficient number of parameters is used. When using universal approximators in machine learning
+settings, an important related risk is that of overfitting the training data. More formally, given a training dataset 𝒟𝑡drawn

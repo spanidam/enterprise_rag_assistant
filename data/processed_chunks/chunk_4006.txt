@@ -1,0 +1,13 @@
+a heuristic evaluation function to approximate v∗at the “leaf” nodes. (Heuris-
+tic search methods such as A∗are almost always based on the episodic case.)
+The methods of dynamic programming can be related even more closely to
+the Bellman optimality equation. Many reinforcement learning methods can
+be clearly understood as approximately solving the Bellman optimality equa-
+tion, using actual experienced transitions in place of knowledge of the expected
+transitions. We consider a variety of such methods in the following chapters.
+3.9
+Optimality and Approximation
+We have deﬁned optimal value functions and optimal policies.
+Clearly, an
+agent that learns an optimal policy has done very well, but in practice this
+rarely happens. For the kinds of tasks in which we are interested, optimal

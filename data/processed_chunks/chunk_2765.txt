@@ -1,0 +1,11 @@
+biological evolution, including the Baldwin effect, which describes an interesting 
+interplay between the learning capabilities of single individuals and the rate of 
+evolution of the entire population. 
+9.2 GENETIC ALGORITHMS 
+- 
+The problem addressed by GAS is to search a space of candidate hypotheses to 
+identify the best hypothesis. In GAS the "best hypothesis" is defined as the one 
+that optimizes a predefined numerical measure for the problem at hand, called the 
+hypothesis Jitness. For example, if the learning task is the problem of approxi- 
+mating an unknown function given training examples of its input and output, then 
+fitness could be defined as the accuracy of the hypothesis over this training data.

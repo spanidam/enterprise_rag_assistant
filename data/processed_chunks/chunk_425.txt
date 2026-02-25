@@ -1,0 +1,12 @@
+into Matlab functions. Document them appropriately.
+6
+DYNAMICS
+This chapter deals with the dynamics of robot manipulators. Whereas the
+kinematic equations describe the motion of the robot without consideration of
+the forces and torques producing the motion, the dynamic equations explicitly
+describe the relationship between force and motion. The equations of motion
+are important to consider in the design of robots, in simulation and animation
+of robot motion, and in the design of control algorithms. We introduce the
+so-called Euler-Lagrange equations, which describe the evolution of a me-
+chanical system subject to holonomic constraints (this term is deﬁned later
+on). To motivate the Euler-Lagrange approach we begin with a simple deriva-

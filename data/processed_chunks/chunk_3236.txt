@@ -1,0 +1,10 @@
+Mitchell, T. M., & Thrun, S. B. (1993b). Explanation-based learning: A comparison of symbolic and 
+neural network approaches. Tenth International Conference on Machine Learning, Amherst, 
+MA. 
+Mooney, R. (1993). Induction over the unexplained: Using overly-general domain theories to aid 
+concept learning. Machine Learning, lO(1). 
+O'Sullivan, J., Mitchell, T., & Thrun, S. (1997). Explanation-based learning for mobile robot per- 
+ception. In K. Ikeuchi & M. Veloso (Eds.), Symbolic Visual Learning (pp. 295-324). 
+Ourston, D., & Mooney, R. J. (1994). Theory refinement combining analytical and empirical methods. 
+Arti2cial Intelligence, 66(2). 
+Pazzani, M. J., & Brunk, C. (1993). Finding accurate frontiers: A knowledge-intensive approach to

@@ -1,0 +1,20 @@
+most relevant to your teaching and research as an opportunity both to enrich your courses and to engage with
+other faculty. To reach the Community Hubs, visit www.oercommons.org/hubs/openstax
+(https://oercommons.org/groups/openstax-introduction-to-python-programming/14678/?__hub_id=27).
+Technology partners
+As allies in making high-quality learning materials accessible, our technology partners offer optional low-cost
+tools that are integrated with OpenStax books. To access the technology options for your text, visit your book
+page on OpenStax.org.
+6
+Preface
+Access for free at openstax.org
+Figure 1.1 credit: Larissa Chu, CC BY 4.0
+Chapter Outline
+1.1 Background
+1.2 Input/output
+1.3 Variables
+1.4 String basics
+1.5 Number basics
+1.6 Error messages
+1.7 Comments
+1.8 Why Python?

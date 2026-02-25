@@ -1,0 +1,11 @@
+frame.
+A robot manipulator with n joints will have n + 1 links, since each joint
+connects two links. We number the joints from 1 to n, and we number the links
+from 0 to n, starting from the base. By this convention, joint i connects link
+i −1 to link i. We will consider the location of joint i to be ﬁxed with respect
+to link i −1. When joint i is actuated, link i moves. Therefore, link 0 (the
+ﬁrst link) is ﬁxed, and does not move when the joints are actuated. Of course
+the robot manipulator could itself be mobile (e.g., it could be mounted on a
+mobile platform or on an autonomous vehicle), but we will not consider this
+case in the present chapter, since it can be handled easily by slightly extending
+the techniques presented here.

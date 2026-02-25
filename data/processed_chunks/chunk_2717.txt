@@ -1,0 +1,13 @@
+C H m R  8 INSTANCE-BASED LEARNING 239 
+to choose each function K, (d (xu, x)) to be a Gaussian function (see Table 5.4) 
+centered at the point xu with some variance a;. 
++d2(xu,x) 
+K,(d(x,, x ) )  = e2". 
+We will restrict our discussion here to this common Gaussian kernel function. 
+As shown by Hartman et al. (1990), the functional form of Equation (8.8) can 
+approximate any function with arbitrarily small error, provided a sufficiently large 
+number k of such Gaussian kernels and provided the width a2 of each kernel can 
+be separately specified. 
+The function given by Equation (8.8) can be viewed as describing a two- 
+layer network where the first layer of units computes the values of the various 
+K,(d(x,, x)) and where the second layer computes a linear combination of these

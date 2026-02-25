@@ -1,0 +1,14 @@
+Winston, P., Binford, T., Katz, B., & Lowry, M. (1983). Learning physical descriptions from func- 
+tional definitions, examples, and precedents. Proceedings of the National Conference on Arti- 
+jcial Intelligence (pp. 433-439). san Mateo, CA: Morgan Kaufmann. 
+Wisniewski, E. J., & Medin, D. L. (1995). Harpoons and long sticks: The interaction of theory 
+and similarity in rule induction. In A. Ram & D. B. Leake (Eds.), Goal-driven learning @p. 
+177-210). Cambridge, MA: MIT Press. 
+CHAPTER 
+COMBINING 
+INDUCTIVE AND 
+ANALYTICAL 
+LEARNING 
+Purely inductive learning methods formulate general hypotheses by finding empir- 
+ical regularities over the training examples. Purely analytical methods use prior 
+knowledge to derive general hypotheses deductively., This chapter considers meth-

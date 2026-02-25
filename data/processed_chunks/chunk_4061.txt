@@ -1,0 +1,12 @@
+tinually switches between two or more policies that are equally good. The bug
+can be ﬁxed by adding additional ﬂags, but it makes the pseudocode so ugly
+that it is not worth it. :-)
+(unless it is already optimal). Because a ﬁnite MDP has only a ﬁnite number
+of policies, this process must converge to an optimal policy and optimal value
+function in a ﬁnite number of iterations.
+This way of ﬁnding an optimal policy is called policy iteration. A complete
+algorithm is given in Figure 4.3. Note that each policy evaluation, itself an
+iterative computation, is started with the value function for the previous policy.
+This typically results in a great increase in the speed of convergence of policy
+evaluation (presumably because the value function changes little from one
+policy to the next).

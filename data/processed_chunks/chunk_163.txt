@@ -1,0 +1,18 @@
+the techniques presented here.
+With the ith joint, we associate a joint variable, denoted by qi. In the case
+of a revolute joint, qi is the angle of rotation, and in the case of a prismatic
+joint, qi is the joint displacement:
+qi =
+ θi
+if joint i is revolute
+di
+if joint i is prismatic
+(3.1)
+To perform the kinematic analysis, we attach a coordinate frame rigidly
+to each link.
+In particular, we attach oixiyizi to link i.
+This means that,
+whatever motion the robot executes, the coordinates of each point on link i
+are constant when expressed in the ith coordinate frame. Furthermore, when
+joint i is actuated, link i and its attached frame, oixiyizi, experience a resulting
+motion. The frame o0x0y0z0, which is attached to the robot base, is referred to

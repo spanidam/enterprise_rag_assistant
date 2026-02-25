@@ -1,0 +1,10 @@
+an optimal experimental query for the learner. This is to be expected, because 
+those instances whose classification is most ambiguous are precisely the instances 
+whose true classification would provide the most new information for refining the 
+version space. 
+Finally, instance D is classified as positive by two of the version space 
+hypotheses and negative by the other four hypotheses. In this case we have less 
+confidence in the classification than in the unambiguous cases of instances A 
+and B. Still, the vote is in favor of a negative classification, and one approach 
+we could take would be to output the majority vote, perhaps with a confidence 
+rating indicating how close the vote was. As we will discuss in Chapter 6, if we

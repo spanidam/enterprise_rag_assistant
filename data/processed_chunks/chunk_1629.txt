@@ -1,0 +1,32 @@
+is constructed but p2 is not constructed.
+CONCEPTS IN PRACTICE
+Predicting output with raise
+For each code snippet, what is the output?
+1. p3 = Pizza("M")
+print(p3)
+a.
+Medium pizza for $7.99
+b.
+ValueError: Unknown size 'M'
+14.5 • Raising exceptions
+345
+c.
+TypeError: missing argument
+2. raise PizzaError("Invalid size")
+a.
+Invalid size
+b.
+PizzaError: Invalid size
+c.
+NameError: name 'PizzaError' is not defined
+3. raise ValueError
+a.
+ValueError
+b.
+NameError: name 'ValueError' is not defined
+c.
+SyntaxError: Missing parenthesis in call to 'ValueError'
+TRY IT
+Language objects
+The file top27.csv is based on Wikipedia's list of languages by number of native speakers
+(https://openstax.org/r/100languages). A linguist would like to work with this data in an object-oriented

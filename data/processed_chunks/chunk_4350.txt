@@ -1,0 +1,18 @@
+8.1. MODELS AND PLANNING
+197
+learning methods presented in this book. It takes the rest of the chapter to
+develop this view, but there are two basic ideas: (1) all state-space planning
+methods involve computing value functions as a key intermediate step toward
+improving the policy, and (2) they compute their value functions by backup
+operations applied to simulated experience. This common structure can be
+diagrammed as follows:
+values
+backups
+model
+simulated
+experience
+policy
+Dynamic programming methods clearly ﬁt this structure: they make sweeps
+through the space of states, generating for each state the distribution of pos-
+sible transitions. Each distribution is then used to compute a backed-up value
+and update the state’s estimated value. In this chapter we argue that vari-

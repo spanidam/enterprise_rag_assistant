@@ -1,0 +1,39 @@
+Gradient, 303
+Group, 59
+Guarded motion, 171
+Gyroscopic term, 217
+Hand, 9
+Hardware/Software trade-oﬀ, 229
+Holonomic constraint, 319
+Home, 17
+Homogeneous coordinate, 19
+Homogeneous representation, 55
+Homogeneous transformation, 19, 55
+Hybrid control, 24
+Hybrid Impedance Control, 293
+Image-based visual servo control, 357
+Image feature velocity, 358
+Image Jacobian, 358
+Impedance, 286
+Impedance, 288
+Impedance control, 24
+Impedance Control, 292
+Hybrid, 293
+Impedance
+Dual, 294
+Impedance Operator, 288
+Implicit function theorem, 305
+Independent Joint Control, 230
+Inductance
+Armature, 233
+Inertia
+Apparent, 293
+Inertial, 288
+Inertial Environment, 288
+Inertia matrix, 200
+Inertia Tensor, 197
+Inner-loop, 269
+Inner loop control, 299
+Inner product, 303
+Integrability
+complete, 305

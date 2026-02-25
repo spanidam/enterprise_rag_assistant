@@ -1,0 +1,18 @@
+a For each (2, i ) in trainingaxamples, Do 
+Propagate the input forward through the network: 
+1, Input the instance x' to the network and compute the output o, of every unit u in 
+the network. 
+Propagate the errors backward through the network: 
+2. For each network output unit k, calculate its error term Sk 
+6k 4- ok(l - ok)(tk - 0 k )  
+3. For each hidden unit h, calculate its error term 6h 
+4. Update each network weight wji 
+where 
+Aw.. - 
+Jl - I 11 
+TABLE 4.2 
+The stochastic gradient descent version of the BACKPROPAGATION 
+algorithm for feedforward networks 
+containing two layers of sigmoid units. 
+One major difference in the case of multilayer networks is that the error sur- 
+face can have multiple local minima, in contrast to the single-minimum parabolic

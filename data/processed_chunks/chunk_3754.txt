@@ -1,0 +1,13 @@
+• A mobile robot decides whether it should enter a new room in search of
+more trash to collect or start trying to ﬁnd its way back to its battery
+recharging station. It makes its decision based on the current charge
+level of its battery and how quickly and easily it has been able to ﬁnd
+the recharger in the past.
+• Phil prepares his breakfast. Closely examined, even this apparently mun-
+dane activity reveals a complex web of conditional behavior and inter-
+locking goal–subgoal relationships: walking to the cupboard, opening it,
+selecting a cereal box, then reaching for, grasping, and retrieving the
+box. Other complex, tuned, interactive sequences of behavior are re-
+quired to obtain a bowl, spoon, and milk jug. Each step involves a series
+6
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM

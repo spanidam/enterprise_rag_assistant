@@ -1,0 +1,34 @@
+Because the TD method bases its update in part on an existing estimate,
+we say that it is a bootstrapping method, like DP. We know from Chapter 3
+that
+vπ(s)
+=
+Eπ[Gt | St =s]
+(6.3)
+=
+Eπ
+" ∞
+X
+k=0
+γkRt+k+1
+ St =s
+#
+=
+Eπ
+"
+Rt+1 + γ
+∞
+X
+k=0
+γkRt+k+2
+ St =s
+#
+=
+Eπ[Rt+1 + γvπ(St+1) | St =s] .
+(6.4)
+Roughly speaking, Monte Carlo methods use an estimate of (6.3) as a target,
+whereas DP methods use an estimate of (6.4) as a target. The Monte Carlo
+target is an estimate because the expected value in (6.3) is not known; a
+sample return is used in place of the real expected return. The DP target
+is an estimate not because of the expected values, which are assumed to be
+completely provided by a model of the environment, but because vπ(St+1) is

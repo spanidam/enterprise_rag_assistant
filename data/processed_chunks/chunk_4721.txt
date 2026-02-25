@@ -1,0 +1,17 @@
+Kaufmann.
+Pavlov, P. I. (1927). Conditioned Reﬂexes. Oxford University Press, London.
+Pearl, J. (1984). Heuristics: Intelligent Search Strategies for Computer Prob-
+lem Solving. Addison-Wesley, Reading, MA.
+Pearl, J. (1995). Causal diagrams for empirical research. Biometrika, 82(4),
+669-688.
+Balke, A., Pearl, J. (1994).
+Counterfactual probabilities:
+Computational
+methods, bounds and applications.
+In Proceedings of the Tenth Inter-
+national Conference on Uncertainty in Artiﬁcial Intelligence (pp. 46-54).
+Morgan Kaufmann.
+Peng, J. (1993). Eﬃcient Dynamic Programming-Based Learning for Control.
+Ph.D. thesis, Northeastern University, Boston.
+Peng, J., Williams, R. J. (1993). Eﬃcient learning and planning within the
+Dyna framework. Adaptive Behavior, 1(4):437–454.

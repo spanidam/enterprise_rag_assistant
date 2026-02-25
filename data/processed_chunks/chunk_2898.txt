@@ -1,0 +1,10 @@
+duce some basic terminology from formal logic. All expressions are composed 
+of constants (e.g., Bob, Louise), variables (e.g., x, y), predicate symbols (e.g., 
+Married, Greater-Than), and function symbols (e.g., age). The difference be- 
+tween predicates and functions is that predicates take on values of True or False, 
+whereas functions may take on any constant as their value. We will use lowercase 
+symbols for variables and capitalized symbols for constants. Also, we will use 
+lowercase for functions and capitalized symbols for predicates. 
+From these symbols, we build up expressions as follows: A term is any con- 
+stant, any variable, or any function applied to any term (e.g., Bob, x, age(Bob)). 
+A literal is any predicate or its negation applied to any term (e.g., Married(Bob,

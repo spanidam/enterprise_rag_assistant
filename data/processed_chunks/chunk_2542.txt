@@ -1,0 +1,13 @@
+trying to estimate. Therefore, the EM algorithm uses its current hypothesis h in 
+place of the actual parameters 8 to estimate the distribution governing Y .  Let us 
+define a function Q(hllh) that gives E[ln P(Y lh')] as a function of h', under the 
+assumption that 8 = h and given the observed portion X of the full data Y .  
+We write this function Q in the form Q(hllh) to indicate that it is defined in part 
+by the assumption that the current hypothesis h is equal to 8. In its general form, 
+the EM algorithm repeats the following two steps until convergence: 
+CHAPTER 6 BAYESIAN LEARNING 
+195 
+Step 1: Estimation (E) step: Calculate Q(hllh) using the current hypothesis h and 
+the observed data X to estimate the probability distribution over Y .  
+Q(hf(h) t 
+E[ln P(Ylhl)lh, XI

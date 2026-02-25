@@ -1,0 +1,13 @@
+that search and backup up to a limited depth, perhaps selectively. There are
+also methods that are intermediate along the horizontal dimension.
+These
+include methods that mix full and sample backups, as well as the possibility
+of methods that mix samples and distributions within a single backup. The
+interior of the square is ﬁlled in to represent the space of all such intermediate
+methods.
+A third important dimension is that of function approximation. Function
+approximation can be viewed as an orthogonal spectrum of possibilities ranging
+from tabular methods at one extreme through state aggregation, a variety
+of linear methods, and then a diverse set of nonlinear methods. This third
+dimension might be visualized as perpendicular to the plane of the page in
+Figure 15.1.

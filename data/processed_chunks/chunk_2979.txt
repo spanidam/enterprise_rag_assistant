@@ -1,0 +1,12 @@
+10.8. Consider the relationship between the definition of the induction problem in this 
+chapter 
+and our earlier definition of inductive bias from Chapter 2, Equation 2.1. There we 
+defined the inductive bias, Bbias, by the expression 
+where L(xi, D) is the classification that the learner assigns to the new instance xi 
+after learning from the training data D, and where X is the entire instance space. 
+Note the first expression is intended to describe the hypothesis we wish the learner 
+to output, whereas the second expression is intended to describe the learner's policy 
+for generalizing beyond the training data. Invent a learner for which the inductive 
+bias Bbias of the learner is identical to the background knowledge B that it is 
+provided. 
+REFERENCES

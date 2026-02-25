@@ -1,0 +1,22 @@
+formed into a vector. This operation is called flattening in keras, and the model corresponding to Fig. 6.2 can be
+implemented as:
+from keras.models import Sequential
+from keras.layers import InputLayer, Conv2D, MaxPool2D, Flatten, Dense
+model = Sequential([
+InputLayer(input_shape=(32, 32, 1)),
+Conv2D(filters=6, kernel_size=5, padding="valid", activation="relu"),
+(continues on next page)
+38
+Chapter 6. Convolutional Neural Networks
+Deep Learning Basics (lecture notes)
+(continued from previous page)
+MaxPool2D(pool_size=2),
+Conv2D(filters=16, kernel_size=5, padding="valid", activation="relu"),
+MaxPool2D(pool_size=2),
+Flatten(),
+Dense(120, activation="relu"),
+Dense(84, activation="relu"),
+Dense(10, activation="softmax")
+])
+model.summary()
+Model: "sequential"

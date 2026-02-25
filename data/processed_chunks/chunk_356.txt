@@ -1,0 +1,11 @@
+will be much easier to implement and evaluate potential functions over W than
+over Q.
+We begin by describing a method to deﬁne an appropriate potential ﬁeld
+on the workspace. This ﬁeld should have the properties that the potential is
+at a minimum when the robot is in its goal conﬁguration, and the potential
+should grow without bound as the robot approaches an obstacle. As above, we
+will deﬁne a global potential ﬁeld that is the sum of attractive and repulsive
+ﬁelds. Once we have constructed the workspace potential, we will develop the
+tools to map its gradient to changes in the joint variable values (i.e., we will
+map workspace forces to changes in conﬁguration). Finally, we will present a
+gradient descent algorithm similar to the one presented above, but which can

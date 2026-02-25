@@ -1,0 +1,31 @@
+
+=
+max
+ α[rs + γv∗(h)] + (1 −α)[rs + γv∗(l)],
+1[rw + γv∗(h)] + 0[rw + γv∗(l)]
+
+=
+max
+ rs + γ[αv∗(h) + (1 −α)v∗(l)],
+rw + γv∗(h)
+
+.
+Following the same procedure for v∗(l) yields the equation
+v∗(l) = max
+
+
+
+βrs −3(1 −β) + γ[(1 −β)v∗(h) + βv∗(l)]
+rw + γv∗(l),
+γv∗(h)
+
+
+.
+For any choice of rs, rw, α, β, and γ, with 0 ≤γ < 1, 0 ≤α, β ≤1, there is
+exactly one pair of numbers, v∗(h) and v∗(l), that simultaneously satisfy these
+two nonlinear equations.
+Example 3.12: Solving the Gridworld
+Suppose we solve the Bellman
+equation for v∗for the simple grid task introduced in Example 3.8 and shown
+again in Figure 3.8a. Recall that state A is followed by a reward of +10 and
+transition to state A′, while state B is followed by a reward of +5 and transition

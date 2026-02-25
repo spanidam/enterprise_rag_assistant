@@ -1,0 +1,12 @@
+2.9. SUMMARY
+49
+Despite their simplicity, in our opinion the methods presented in this chap-
+ter can fairly be considered the state of the art. There are more sophisticated
+methods, but their complexity and assumptions make them impractical for the
+full reinforcement learning problem that is our real focus. Starting in Chap-
+ter 5 we present learning methods for solving the full reinforcement learning
+problem that use in part the simple methods explored in this chapter.
+Although the simple methods explored in this chapter may be the best we
+can do at present, they are far from a fully satisfactory solution to the problem
+of balancing exploration and exploitation.
+The classical solution to balancing exploration and exploitation in n-armed

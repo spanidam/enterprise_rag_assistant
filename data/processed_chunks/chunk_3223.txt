@@ -1,0 +1,11 @@
+a natural way to express prior knowledge. TANGENTPROP 
+incorporates this 
+knowledge by altering the objective function minimized by gradient descent 
+search through the space of possible hypotheses. 
+EBNN uses the domain theory to alter the objective in searching the hy- 
+pothesis space of possible weights for an artificial neural network. It uses 
+a domain theory consisting of previously learned neural networks to per- 
+form a neural network analog to symbolic explanation-based learning. As in 
+symbolic explanation-based learning, the domain theory is used to explain 
+individual examples, yielding information about the relevance of different 
+example features. With this neural network representation, however, infor-

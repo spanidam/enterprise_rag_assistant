@@ -1,0 +1,10 @@
+the target function well over other unobserved examples. 
+2.3 CONCEPT LEARNING AS SEARCH 
+Concept learning can be viewed as the task of searching through a large space of 
+hypotheses implicitly defined by the hypothesis representation. The goal of this 
+search is to find the hypothesis that best fits the training examples. It is important 
+to note that by selecting a hypothesis representation, the designer of the learning 
+algorithm implicitly defines the space of all hypotheses that the program can 
+ever represent and therefore can ever learn. Consider, for example, the instances 
+X and hypotheses H in the EnjoySport learning task. Given that the attribute 
+Sky has three possible values, and that AirTemp, Humidity, Wind, Water, and

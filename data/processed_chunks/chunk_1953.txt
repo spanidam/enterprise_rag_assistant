@@ -1,0 +1,9 @@
+Similarly, instance B is classified as a negative instance by every hypothesis 
+in the version space. This instance can therefore be safely classified as negative, 
+given the partially learned concept. An efficient test for this condition is that the 
+instance satisfies none of the members of G (why?). 
+Instance C presents a different situation. Half of the version space hypotheses 
+classify it as positive and half classify it as negative. Thus, the learner cannot 
+classify this example with confidence until further training examples are available. 
+Notice that instance C is the same instance presented in the previous section as 
+an optimal experimental query for the learner. This is to be expected, because

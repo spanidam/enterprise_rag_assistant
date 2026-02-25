@@ -1,0 +1,76 @@
+˙x
+=
+f(x) + g1(x)1u + . . . gm(x)um
+=:
+f(x) + G(x)u
+(10.6)
+where G(x) = [g1(x), . . . , gm(x)], u = (u1, . . . , um)T , and f(x), g1(x), . . . , gm(x)
+are vector ﬁelds on a manifold M. For simplicity we will assume that M = Rn.
+Deﬁnition 10.4 Let f and g be two vector ﬁelds on Rn. The Lie Bracket of
+f and g, denoted by [f, g], is a vector ﬁeld deﬁned by
+[f, g]
+=
+∂g
+∂xf −∂f
+∂xg
+(10.7)
+where ∂g
+∂x (respectively, ∂f
+∂x) denotes the n × n Jacobian matrix whose ij-th
+entry is ∂gi
+∂xj (respectively, ∂fi
+∂xj ).
+Example 10.2 Suppose that vector ﬁelds f(x) and g(x) on R3 are given as
+f(x) =
+
+
+x2
+sin x1
+x2
+3 + x1
+
+
+g(x) =
+
+
+0
+x2
+2
+0
+
+
+Then the vector ﬁeld [f, g] is computed according to (10.7) as
+[f, g]
+=
+
+
+0
+0
+0
+0
+2x2
+0
+0
+0
+0
+
+
+
+
+x2
+sin x1
+x1 + x2
+3
+
+−
+
+
+0
+1
+0
+cos x1
+0
+0
+1
+0
+2x3

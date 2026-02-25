@@ -1,0 +1,10 @@
+considering the possibility that such a selection may prevent future access to
+even better alternatives. Consequently, it describes policies that select actions
+based only on their short-term consequences. The beauty of v∗is that if one
+uses it to evaluate the short-term consequences of actions—speciﬁcally, the
+one-step consequences—then a greedy policy is actually optimal in the long-
+term sense in which we are interested because v∗already takes into account
+the reward consequences of all possible future behavior. By means of v∗, the
+optimal expected long-term return is turned into a quantity that is locally and
+immediately available for each state. Hence, a one-step-ahead search yields
+the long-term optimal actions.

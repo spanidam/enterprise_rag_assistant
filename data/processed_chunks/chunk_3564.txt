@@ -1,0 +1,14 @@
+Themselves to Use Tools” [169], the authors go beyond simple
+tool usage by training an LLM to decide what tool to use
+when, and even what parameters the API needs. Tools include
+two different search engines, or a calculator. In the following
+examples, the LLM decides to call an external Q&A tool,
+a calculator, and a Wikipedia Search Engine More recently,
+researchers at Berkeley have trained a new LLM called Gorilla
+[67] that beats GPT-4 at the use of APIs, a specific but quite
+general tool.
+a) Tool-aware prompting techniques: Similarly to what
+was described with RAG, several tool-aware prompting ap-
+proaches have been developed to make usage of tools more
+scalable. A popular technique is the so called Automatic Multi-
+step Reasoning and Tool-use (ART).

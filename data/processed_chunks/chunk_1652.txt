@@ -1,0 +1,46 @@
+integration capability allows for data exchange between different data analysis and visualization tools.
+The conventional alias for importing Pandas is pd. In other words, Pandas is imported as import pandas as
+pd. Examples of DataFrame and Series objects are shown below.
+DataFrame example
+Series example
+Name
+Age
+City
+0
+Emma
+15
+Dubai
+1
+Gireeja
+28
+London
+2
+Sophia
+22
+San Jose
+0
+Emma
+1
+Gireeja
+2
+Sophia
+dtype:
+object
+Table 15.1
+Data input and output
+A DataFrame can be created from a dictionary, list, NumPy array, or a CSV file. Column names and column data
+types can be specified at the time of DataFrame instantiation.
+15.3 • Pandas
+355
+Description
+Example
+Output
+Explanation
+DataFrame
+from a
+dictionary
+import pandas as pd
+# Create a dictionary of
+columns
+data = {
+"Name": ["Emma",

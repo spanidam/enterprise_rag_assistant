@@ -1,0 +1,9 @@
+attribute differently when calculating the distance between two instances. This 
+corresponds to stretching the axes in the Euclidean space, shortening the axes that 
+correspond to less relevant attributes, and lengthening the axes that correspond 
+to more relevant attributes. The amount by which each axis should be stretched 
+can be determined automatically using a cross-validation approach. To see how, 
+first note that we wish to stretch (multiply) the jth axis by some factor zj, where 
+the values z l  . . . z, are chosen to minimize the true classification error of the 
+learning algorithm. Second, note that this true error can be estimated using cross- 
+validation. Hence, one algorithm is to select a random subset of the available

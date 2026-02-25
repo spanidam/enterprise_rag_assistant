@@ -1,0 +1,10 @@
+selected in the new greedy policy. Any apportioning scheme is allowed as long
+as all submaximal actions are given zero probability.
+The last row of Figure 4.2 shows an example of policy improvement for
+stochastic policies. Here the original policy, π, is the equiprobable random
+policy, and the new policy, π′, is greedy with respect to vπ. The value function
+vπ is shown in the bottom-left diagram and the set of possible π′ is shown in
+the bottom-right diagram. The states with multiple arrows in the π′ diagram
+are those in which several actions achieve the maximum in (4.9); any appor-
+tionment of probability among these actions is permitted. The value function
+of any such policy, vπ′(s), can be seen by inspection to be either −1, −2, or −3

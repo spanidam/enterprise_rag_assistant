@@ -1,0 +1,19 @@
+10-1-dictionary-basics)
+10.2 Dictionary creation
+Learning objectives
+By the end of this section you should be able to
+•
+Create a dictionary object with given key/value pairs.
+Dictionary creation
+Two methods exist for creating an empty dictionary:
+•
+Using curly braces {}. Ex: dict_1 = {}.
+•
+Using the dict() function. Ex: dict_2 = dict().
+A dictionary object can also be created with initial key-value pairs enclosed in curly braces. Ex: my_dict =
+{"pizza": 2, "pasta": 3, "drink": 4} creates a dictionary object my_dict. A key and associated value
+are separated by a colon, and key-value pairs are separated by commas.
+CHECKPOINT
+Creating a dictionary object
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+10-2-dictionary-creation)

@@ -1,0 +1,10 @@
+an unknown target function, given only training examples of this target func- 
+tion and a space of candidate hypotheses. Within this setting, we will be chiefly 
+concerned with questions such as how many training examples are sufficient to 
+successfully learn the target function, and how many mistakes will the learner 
+make before succeeding. As we shall see, it is possible to set quantitative bounds 
+on these measures, depending on attributes of the learning problem such as: 
+0 the size or complexity of the hypothesis space considered by the learner 
+0 the accuracy to which the target concept must be approximated 
+0 the probability that the learner will output a successful hypothesis 
+0 the manner in which training examples are presented to the learner

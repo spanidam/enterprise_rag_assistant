@@ -1,0 +1,33 @@
+for, 164-167 
+Control theory, influence on machine 
+learning, 4 
+Convergence of Q learning algorithm: 
+in deterministic environments, 377-380, 
+386 
+in nondeterministic environments, 
+382-383, 386 
+Credit assignment, 5 
+Critic, 12, 13 
+Cross entropy, 170 
+minimization of, 1 18 
+Cross-validation, 11 1-1 12 
+for comparison of learning algorithms, 
+145-151 
+k-fold. See k-fold cross-validation 
+in k-NEAREST 
+NEIGHBOR 
+algorithm, 235 
+leave-one-out, 235 
+in neural network learning, 11 1-1 12 
+Crossover mask, 254 
+Crossover operators, 252-254, 261, 
+262 
+single-point, 254, 261 
+two-point, 254, 257-258 
+uniform, 255 
+Crowding, 259, 
+Cumulative reward, 371 
+Curse of dimensionality, 235 
+Data mining, 17 
+Decision tree learning, 52-77 
+algorithms for, 55, 77. See also C4.5

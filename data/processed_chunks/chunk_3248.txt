@@ -1,0 +1,15 @@
+perform any of a set of possible actions 
+A. Each time it performs an action a, in 
+some state st the agent receives a real-valued 
+reward r, that indicates the immediate value 
+of this state-action transition. This produces 
+a sequence of states si, actions ai, and 
+immediate rewards ri as shown in the figure. 
+The agent's task is to learn a control policy, 
+n : S + A, that maximizes the expected 
+sum of these rewards, with future rewards 
+discounted exponentially by their delay. 
+has or does not have prior knowledge about the effects of its actions on the 
+environment. 
+Note we have touched on the problem of learning to control sequential 
+processes earlier in this book. In Section 11.4 we discussed explanation-based

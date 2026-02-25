@@ -1,0 +1,27 @@
+BACKPROPAGATION 
+algorithm in, 8 1, 
+112-1 17 
+Feedforward networks. See Multilayer 
+FIND-S algorithm, 26-28, 46 
+Bayesian interpretation of, 162-163 
+definition of, 26 
+inductive bias of, 45 
+limitations of, 28-29 
+mistake-bound learning in, 220-221 
+PAC learning of boolean conjunctions 
+with, 212 
+search of hypothesis space, 27-28 
+Finite horizon reward, 37 1 
+First-order Horn clauses, 283-284, 
+3 18-3 19. See also First-order rules 
+in analytical learning, 3 1 1 
+in PROLOG-EBG, 313, 314 
+First-order logic, basic definitions, 285 
+First-order representations, applications of, 
+275 
+First-order resolution rule, 296-297 
+First-order rules, 274-275, 283, 301, 302. 
+See also First-order Horn clauses 
+in FOIL algorithm, 285-291 
+propositional rules, comparison with, 
+283

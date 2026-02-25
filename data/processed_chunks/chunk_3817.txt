@@ -1,0 +1,10 @@
+ACE’s decisions. Michie and Chambers (1968) described another tic-tac-toe
+reinforcement learner called GLEE (Game Learning Expectimaxing Engine)
+and a reinforcement learning controller called BOXES. They applied BOXES
+to the task of learning to balance a pole hinged to a movable cart on the basis
+of a failure signal occurring only when the pole fell or the cart reached the end
+of a track. This task was adapted from the earlier work of Widrow and Smith
+(1964), who used supervised learning methods, assuming instruction from a
+teacher already able to balance the pole. Michie and Chambers’s version of
+pole-balancing is one of the best early examples of a reinforcement learning
+task under conditions of incomplete knowledge. It inﬂuenced much later work

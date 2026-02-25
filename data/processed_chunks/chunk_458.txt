@@ -1,0 +1,50 @@
+Let the mass density of the object be represented as a function of position,
+ρ(x, y, z). Then the inertia tensor in the body attached frame is computed as
+I
+=
+
+
+Ixx
+Ixy
+Ixz
+Iyx
+Iyy
+Iyz
+Izx
+Izy
+Izz
+
+
+(6.44)
+where
+Ixx
+=
+Z Z Z
+(y2 + z2)ρ(x, y, z)dx dy dz
+Iyy
+=
+Z Z Z
+(x2 + z2)ρ(x, y, z)dx dy dz
+Izz
+=
+Z Z Z
+(x2 + y2)ρ(x, y, z)dx dy dz
+Ixy = Iyx
+=
+−
+Z Z Z
+xyρ(x, y, z)dx dy dz
+Ixz = Izx
+=
+−
+Z Z Z
+xzρ(x, y, z)dx dy dz
+Iyz = Izy
+=
+−
+Z Z Z
+yzρ(x, y, z)dx dy dz
+The integrals in the above expression are computed over the region of space
+occupied by the rigid body. The diagonal elements of the inertia tensor, Ixx,
+Iyy, Izz, are called the Principal Moments of Inertia about the x,y,z axes,
+respectively. The oﬀdiagonal terms Ixy, Ixz, etc., are called the Cross Prod-

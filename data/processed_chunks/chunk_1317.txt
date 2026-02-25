@@ -1,0 +1,16 @@
+•
+Describe how mutability affects how a function can modify arguments.
+Arguments and parameters
+What if a programmer wants to write a function that prints the contents of a list? Good practice is to pass
+values directly to a function rather than relying on global variables. A function argument is a value passed as
+input during a function call. A function parameter is a variable representing the input in the function
+definition. Note: The terms "argument" and "parameter" are sometimes used interchangeably in conversation
+and documentation.
+158
+6 • Functions
+Access for free at openstax.org
+CHECKPOINT
+Global and local variables in a program with a function
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-4-parameters)
+CONCEPTS IN PRACTICE

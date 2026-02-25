@@ -1,0 +1,12 @@
+quential decision processes, and has roots in the statistical literature
+on sequential sampling beginning with the papers by Thompson (1933,
+1934) and Robbins (1952) that we cited in Chapter 2 in connection
+with bandit problems (which are prototypical MDPs if formulated as
+multiple-situation problems).
+The earliest instance of which we are aware in which reinforcement
+learning was discussed using the MDP formalism is Andreae’s (1969b)
+description of a uniﬁed view of learning machines. Witten and Corbin
+(1973) experimented with a reinforcement learning system later ana-
+lyzed by Witten (1977) using the MDP formalism. Although he did not
+explicitly mention MDPs, Werbos (1977) suggested approximate solu-
+tion methods for stochastic optimal control problems that are related to

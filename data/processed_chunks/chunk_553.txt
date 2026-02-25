@@ -1,0 +1,18 @@
+expected since the system is Type 1.
+We know, of course, from (7.28) that the disturbance term D(s) in (7.34)
+is not constant. However, in the steady state this disturbance term is just the
+gravitational force acting on the robot, which is constant. The above analysis
+therefore, while only approximate, nevertheless gives a good description of the
+actual steady state error using a PD compensator assuming stability of the
+closed loop system.
+7.3.2
+Performance of PD Compensators
+For the PD-compensator given by (7.31) the closed loop system is second order
+and hence the step response is determined by the closed loop natural frequency
+ω and damping ratio ζ. Given a desired value for these quantities, the gains
+KD and Kp can be found from the expression
+s2 + (Beff + KKD)
+Jeff
+s + KKp
+Jeff
+=

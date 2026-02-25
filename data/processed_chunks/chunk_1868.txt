@@ -1,0 +1,13 @@
+data. This includes the calculation of confidence intervals for estimating 
+hypothesis accuracy and methods for comparing the accuracy of learning 
+methods. 
+0 Chapter 6 covers the Bayesian perspective on machine learning, including 
+both the use of Bayesian analysis to characterize non-Bayesian learning al- 
+gorithms and specific Bayesian algorithms that explicitly manipulate proba- 
+bilities. This includes a detailed example applying a naive Bayes classifier to 
+the task of classifying text documents, including data and software available 
+over the World Wide Web. 
+0 Chapter 7 covers computational learning theory, including the Probably Ap- 
+proximately Correct (PAC) learning model and the Mistake-Bound learning 
+model. This includes a discussion of the WEIGHTED 
+MAJORITY

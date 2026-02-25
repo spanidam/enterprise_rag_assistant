@@ -1,0 +1,8 @@
+chapters and sections in your syllabus, in the order that you prefer. You can even provide a direct link in your
+syllabus to the sections in the web view of your book.
+Instructors also have the option of creating a customized version of their OpenStax book. Visit the Instructor
+Resources section of your book page on OpenStax.org for more information.
+Art attribution
+In Introduction to Python Programming, most photos and third-party illustrations contain attribution to their
+creator, rights holder, host platform, and/or license within the caption. Because the art is openly licensed,
+anyone may reuse the art as long as they provide the same attribution to its original source. To maximize

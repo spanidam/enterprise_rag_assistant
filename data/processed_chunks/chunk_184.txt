@@ -1,0 +1,12 @@
+is to choose the normal that passes through oi−1 as the xi axis; oi is then the
+point at which this normal intersects zi. In this case, di would be equal to zero.
+Once xi is ﬁxed, yi is determined, as usual by the right hand rule. Since the
+axes zi−1 and zi are parallel, αi will be zero in this case.
+(iii) zi−1 intersects zi:
+In this case xi is chosen normal to the plane formed
+by zi and zi−1. The positive direction of xi is arbitrary. The most natural
+choice for the origin oi in this case is at the point of intersection of zi and zi−1.
+However, any convenient point along the axis zi suﬃces. Note that in this case
+the parameter ai equals 0.
+This constructive procedure works for frames 0, . . . , n −1 in an n-link robot.
+To complete the construction, it is necessary to specify frame n.

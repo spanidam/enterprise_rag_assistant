@@ -1,0 +1,23 @@
+the potential energy will include terms containing the energy stored in the
+elastic elements.
+Note that the potential energy is a function only of the generalized coor-
+dinates and not their derivatives, i.e.
+the potential energy depends on the
+conﬁguration of the robot but not on its velocity.
+6.3
+EQUATIONS OF MOTION
+In this section, we specialize the Euler-Lagrange equations derived in Section 6.1
+to the special case when two conditions hold: ﬁrst, the kinetic energy is a
+quadratic function of the vector ˙q of the form
+K
+=
+1
+2
+n
+X
+i,j
+dij(q) ˙qi ˙qj := 1
+2 ˙qT D(q) ˙q
+(6.50)
+where the n × n “inertia matrix” D(q) is symmetric and positive deﬁnite for
+each q ∈Rn, and second, the potential energy P = P(q) is independent of ˙q.

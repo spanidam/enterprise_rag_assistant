@@ -1,0 +1,14 @@
+integration of planning and learning methods. Having established these as
+distinct in earlier chapters, we now explore the extent to which they can be
+intermixed.
+8.1
+Models and Planning
+By a model of the environment we mean anything that an agent can use to
+predict how the environment will respond to its actions. Given a state and an
+action, a model produces a prediction of the resultant next state and next re-
+ward. If the model is stochastic, then there are several possible next states and
+next rewards, each with some probability of occurring. Some models produce
+a description of all possibilities and their probabilities; these we call distri-
+bution models. Other models produce just one of the possibilities, sampled
+195
+196CHAPTER 8. PLANNING AND LEARNING WITH TABULAR METHODS

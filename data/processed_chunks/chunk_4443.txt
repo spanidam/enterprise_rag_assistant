@@ -1,0 +1,10 @@
+uniformly over the entire state set, such as in the exhaustive sweeps of some
+DP methods. Henceforth, let us assume that the distribution of states at which
+backups are done and the distribution that weights errors, d, are the same.
+A distribution of particular interest is the one describing the frequency with
+which states are encountered while the agent is interacting with the environ-
+ment and selecting actions according to π, the policy whose value function we
+are approximating. We call this the on-policy distribution, in part because it
+is the distribution of backups in on-policy control methods. Minimizing error
+over the on-policy distribution focuses function approximation resources on
+the states that actually occur while following the policy, ignoring those that

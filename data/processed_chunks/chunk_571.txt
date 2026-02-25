@@ -1,0 +1,18 @@
+the joint ﬂexibility is signiﬁcant. In addition to torsional ﬂexibility in the gears,
+joint ﬂexibility is caused by eﬀects such as shaft windup, bearing deformation,
+and compressibility of the hydraulic ﬂuid in hydraulic robots.
+Consider the idealized situation of Figure 7.22 consisting of an actuator con-
+Fig. 7.22
+Idealized model to represent joint ﬂexibility.
+nected to a load through a torsional spring which represents the joint ﬂexibility.
+For simplicity we take the motor torque u as input. The equations of motion are
+easily derived using the techniques of Chapter 6, with generalized coordinates
+θℓand θm, the link angle, and the motor angle, respectively, as
+Jℓ¨θℓ+ Bℓ˙θℓ+ k(θℓ−θm)
+=
+0
+(7.55)
+Jm¨θm + Bm ˙θm −k(θℓ−θm)
+=
+u
+(7.56)

@@ -1,0 +1,10 @@
+Schaffer, C. (1993). Overfitting avoidance as bias. Machine Learning, 10, 113-152. 
+Shavlik, J. W., Mooney, R. J., & Towell, G. G. (1991). Symbolic and neural learning algorithms: an 
+experimental comparison. Machine kaming, 6(2), 11 1-144. 
+Tan, M. (1993). Cost-sensitive learning of classification knowledge and its applications in robotics. 
+Machine Learning, 13(1), 1-33. 
+Tan, M., & Schlimmer, J. C. (1990). Two case studies in cost-sensitive concept acquisition. Pro- 
+ceedings of the AAAZ-90. 
+Thrun, S. B. et al. (1991). The Monk's problems: A pe~ormance comparison of different learn- 
+ing algorithms, (Technical report CMU-FS-91-197). Computer Science Department, Carnegie 
+Mellon Univ., Pittsburgh, PA.

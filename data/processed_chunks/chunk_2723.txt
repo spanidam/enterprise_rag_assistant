@@ -1,0 +1,10 @@
+estimated means. Note the target function value f (xi) of the instance does not 
+enter into the calculation of kernel centers by unsupervised clustering methods. 
+The only role of the target values f (xi) in this case is to determine the output 
+layer weights w,. 
+To summarize, radial basis function networks provide a global approxima- 
+tion to the target function, represented by a linear combination of many local 
+kernel functions. The value for any given kernel function is non-negligible only 
+when the input x falls into the region defined by its particular center and width. 
+Thus, the network can be viewed as a smooth linear combination of many local 
+approximations to the target function. One key advantage to RBF networks is that

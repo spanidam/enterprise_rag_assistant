@@ -1,0 +1,13 @@
+Algorithm 
+One obvious way to represent the version space is simply to list all of its members. 
+This leads to a simple learning algorithm, which we might call the LIST-THEN- 
+ELIMINATE 
+algorithm, defined in Table 2.4. 
+The LIST-THEN-ELIMINATE 
+algorithm first initializes the version space to con- 
+tain all hypotheses in H, then eliminates any hypothesis found inconsistent with 
+any training example. The version space of candidate hypotheses thus shrinks 
+as more examples are observed, until ideally just one hypothesis remains that is 
+consistent with all the observed examples. This, presumably, is the desired target 
+concept. If insufficient data is available to narrow the version space to a single 
+hypothesis, then the algorithm can output the entire set of hypotheses consistent

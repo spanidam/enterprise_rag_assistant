@@ -1,0 +1,22 @@
+(6.104)
++
+g sin q2(m2ℓc2 + m3ℓ2 −m4ℓc4)
+Hence
+φ1
+=
+g cos q1(m1ℓc1 + m3ℓc3 + m4ℓ1)
+φ2
+=
+g cos q2(m2ℓc2 + m3ℓ2 −m4ℓc4)
+(6.105)
+Notice that φ1 depends only on q1 but not on q2 and similarly that φ2 depends
+only on q2 but not on q1. Hence, if the relationship (6.103) is satisﬁed, then the
+rather complex-looking manipulator in Figure 6.10 is described by the decoupled
+set of equations
+d11¨q1 + φ1(q1) = τ1,
+d22¨q2 + φ2(q2) = τ2
+(6.106)
+This discussion helps to explain the popularity of the parallelogram conﬁgu-
+ration in industrial robots. If the relationship (6.103) is satisﬁed, then one can
+adjust the two angles q1 and q2 independently, without worrying about inter-
+actions between the two angles. Compare this with the situation in the case of

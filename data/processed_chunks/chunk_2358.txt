@@ -1,0 +1,10 @@
+the probability that d > 0, given that we observed 2 = .lo? 
+Note the probability Pr(d > 0) is equal to the probability that 2 has not 
+overestimated d by more than .lo. Put another way, this is the probability that 2 
+falls into the one-sided interval 2 < d + .lo. Since d is the mean of the distribution 
+governing 2, we can equivalently express this one-sided interval as 2 < p2 + .lo. 
+To summarize, the probability Pr(d > 0) equals the probability that 2 falls 
+into the one-sided interval 2 < pa + .lo. Since we already calculated the ap- 
+proximate distribution governing 2 in the previous section, we can determine the 
+probability that 2 falls into this one-sided interval by calculating the probability 
+mass of the 2 distribution within this interval.

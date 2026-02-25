@@ -1,0 +1,31 @@
+in WEIGHTED-MAJORITY 
+algorithm, 
+224-225 
+Mistake bounds, optimal. See Optimal 
+mistake bounds 
+ML hypothesis. See Maximum likelihood 
+hypothesis 
+Momentum, addition to BACKPROPAGATION 
+algorithm, 100, 104 
+More-general-than partial ordering, 24-28, 
+46 
+in CANDIDATE-ELIMINATION 
+algorithm, 
+29 
+in FIND-S algorithm, 26-28 
+O-subsumption, entailment, and, 299-300 
+in version spaces, 31 
+Multilayer feedforward networks 
+BACKPROPAGATION 
+algorithm in, 95-101 
+function representation in, 105-106, 115 
+representation of decision surfaces, 96 
+training of multiple networks, 105 
+VC dimension of, 218-220 
+Naive Bayes classifier, 154-155, 177-179, 
+197 
+Bayesian belief network, comparison 
+with, 186 
+maximum a posteriori (MAP) hypothesis 
+and, 178 
+use in text classification, 180-184

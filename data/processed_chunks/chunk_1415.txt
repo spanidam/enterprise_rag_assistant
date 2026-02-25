@@ -1,0 +1,28 @@
+Explanation
+print("{:.7f}".format(0.9795))
+0.9795000
+The format specification .7 shows the output
+must have seven decimal places. The f
+specification is an identifier of floating-point
+formatting.
+print("{:.3f}".format(12))
+12.000
+The format specification .3 shows the output
+must have three decimal places. The f
+specification is an identifier of floating-point
+formatting.
+Table 8.3 Numerical formatting options.
+8.4 • String formatting
+215
+Example
+Output
+Explanation
+print("{:+.2f}".format(4))
++4.00
+The format specification .2 shows the output
+must have two decimal places. The f specification
+is an identifier of floating-point formatting. The +
+sign before the precision specification adds a sign
+character to the output.
+print("{:0>5d}".format(5))
+00005

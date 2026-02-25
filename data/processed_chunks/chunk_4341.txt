@@ -1,0 +1,13 @@
+Q(λ) when a nongreedy action was selected could be implemented by
+temporarily setting λ to 0.
+Exercises
+Exercise 7.1 Why do you think a larger random walk task (19 states instead
+of 5) was used in the examples of this chapter? Would a smaller walk have
+shifted the advantage to a diﬀerent value of n? How about the change in left-
+side outcome from 0 to −1? Would that have made any diﬀerence in the best
+value of n?
+Exercise 7.2 Why do you think on-line methods worked better than oﬀ-line
+methods on the example task?
+∗Exercise 7.3 In the lower part of Figure 7.2, notice that the plot for n = 3 is
+diﬀerent from the others, dropping to low performance at a much lower value of
+α than similar methods. In fact, the same was observed for n = 5, n = 7, and

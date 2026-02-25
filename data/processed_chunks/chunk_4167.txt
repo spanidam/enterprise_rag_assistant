@@ -1,0 +1,49 @@
+G0 factor can be ignored. To get the expected square we need only consider
+each length of episode, multiplying the probability of the episode’s occurrence
+by the square of its importance-sampling ratio, and add these up:
+= 1
+2 · 0.1
+ 1
+0.5
+2
+(the length 1 episode)
++ 1
+2 · 0.9 · 1
+2 · 0.1
+ 1
+0.5
+1
+0.5
+2
+(the length 2 episode)
++ 1
+2 · 0.9 · 1
+2 · 0.9 · 1
+2 · 0.1
+ 1
+0.5
+1
+0.5
+1
+0.5
+2
+(the length 3 episode)
++ · · ·
+= 0.1
+∞
+X
+k=0
+0.9k · 2k · 2
+= 0.2
+∞
+X
+k=0
+1.8k
+= ∞.
+5.6. INCREMENTAL IMPLEMENTATION
+133
+5.6
+Incremental Implementation
+Monte Carlo prediction methods can be implemented incrementally, on an
+episode-by-episode basis, using extensions of the techniques described in Chap-
+ter 2. Whereas in Chapter 2 we averaged rewards, in Monte Carlo methods

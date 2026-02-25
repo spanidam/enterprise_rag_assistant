@@ -1,0 +1,34 @@
+a.
+2018
+b.
+2019
+c.
+2020
+6. How long has TIOBE been tracking programming language popularity?
+a.
+since 1991
+b.
+since 2001
+c.
+since 2015
+1.9 Chapter summary
+This chapter introduced the basics of programming in Python, including:
+•
+print() and input().
+•
+Variables and assignment.
+•
+Strings, integers, and floats.
+•
+Arithmetic, concatenation.
+•
+Common error messages.
+•
+Comments and docstrings.
+At this point, you should be able to write programs that ask for input, perform simple calculations, and output
+the results. The programming practice below ties together most topics presented in the chapter.
+Function
+Description
+print(values)
+Outputs one or more values, each separated by a space, to the user.
+input(prompt)

@@ -1,0 +1,11 @@
+run. How might this be deﬁned formally? If the sequence of rewards received
+after time step t is denoted Rt+1, Rt+2, Rt+3, . . ., then what precise aspect of
+this sequence do we wish to maximize? In general, we seek to maximize the
+expected return, where the return Gt is deﬁned as some speciﬁc function of the
+reward sequence. In the simplest case the return is the sum of the rewards:
+Gt = Rt+1 + Rt+2 + Rt+3 + · · · + RT,
+(3.1)
+where T is a ﬁnal time step. This approach makes sense in applications in
+which there is a natural notion of ﬁnal time step, that is, when the agent–
+environment interaction breaks naturally into subsequences, which we call
+episodes,5 such as plays of a game, trips through a maze, or any sort of re-

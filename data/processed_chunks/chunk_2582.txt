@@ -1,0 +1,11 @@
+fall into the region where h and c disagree (i.e., their set difference). Note we have 
+chosen to define error over the entire distribution of instances-not 
+simply over 
+the training examples-because 
+this is the true error we expect to encounter when 
+actually using the learned hypothesis h on subsequent instances drawn from D. 
+Note that error depends strongly on the unknown probability distribution 
+2). For example, if D is a uniform probability distribution that assigns the same 
+probability to every instance in X, then the error for the hypothesis in Figure 7.1 
+will be the fraction of the total instance space that falls into the region where h 
+and c disagree. However, the same h and c will have a much higher error if D

@@ -1,0 +1,52 @@
+(Logical)
+Evaluates the Boolean value of x and returns True if the value is false and False if the
+value is true. Ex: not True is False.
+Decision
+statement
+Description
+if statement
+# Statements before
+if condition:
+# Body
+# Statements after
+else statement
+# Statements before
+if condition:
+# Body
+else:
+# Body
+# Statements after
+Table 4.5 Chapter 4 reference.
+4.8 • Chapter summary
+119
+Function
+Description
+elif statement
+# Statements before
+if condition:
+# Body
+elif condition:
+# Body
+else:
+# Body
+# Statements after
+Nested if
+statement
+# Statements before
+if condition:
+if condition:
+# Body
+else:
+# Body
+else:
+if condition:
+# Body
+else:
+# Body
+# Statements after
+Conditional
+expression
+expression_if_true if condition else expression_if_false
+Table 4.5 Chapter 4 reference.
+120
+4 • Decisions

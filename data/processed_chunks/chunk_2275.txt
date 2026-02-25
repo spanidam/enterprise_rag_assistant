@@ -1,0 +1,11 @@
+One of the most intriguing properties of BACKPROPAGATION 
+is its ability to 
+invent new features that are not explicit in the input to the network. In par- 
+ticular, the internal (hidden) layers of multilayer networks learn to represent 
+intermediate features that are useful for learning the target function and that 
+are only implicit in the network inputs. This capability is illustrated, for ex- 
+ample, by the ability of the 8 x 3 x 8 network in Section 4.6.4 to invent the 
+boolean encoding of digits from 1 to 8 and by the image features represented 
+by the hidden layer in the face-recognition application of Section 4.7. 
+Overfitting the training data is an important issue in ANN learning. Overfit- 
+ting results in networks that generalize poorly to new data despite excellent

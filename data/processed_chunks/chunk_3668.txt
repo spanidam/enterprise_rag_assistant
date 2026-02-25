@@ -1,0 +1,19 @@
+Storage and Analysis.
+IEEE, 2020, pp. 1–16.
+[141]
+B. Peng, E. Alcaide, Q. Anthony, A. Albalak, S. Arcadinho, H. Cao,
+X. Cheng, M. Chung, M. Grella, K. K. GV et al., “Rwkv: Reinventing
+rnns for the transformer era,” arXiv preprint arXiv:2305.13048, 2023.
+[142]
+E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang,
+and W. Chen, “Lora: Low-rank adaptation of large language models,”
+arXiv preprint arXiv:2106.09685, 2021.
+[143]
+G. Hinton, O. Vinyals, and J. Dean, “Distilling the knowledge in a
+neural network,” arXiv preprint arXiv:1503.02531, 2015.
+[144]
+J. Gou, B. Yu, S. J. Maybank, and D. Tao, “Knowledge distillation:
+A survey,” International Journal of Computer Vision, vol. 129, pp.
+1789–1819, 2021.
+[145]
+Z. Ji, N. Lee, R. Frieske, T. Yu, D. Su, Y. Xu, E. Ishii, Y. J.

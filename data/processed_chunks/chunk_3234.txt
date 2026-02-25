@@ -1,0 +1,10 @@
+neural networks. Proceedings of the 11th International Conference on Machine Learning (pp. 
+3745). San Mateo, CA: Morgan Kaufmann. 
+Fu, L. M. (1989). Integration of neural heuristics into knowledge-based inference. Connection Science, 
+1(3), 325-339. 
+Fu, L. M. (1993). Knowledge-based connectionism for revising domain theories. IEEE Transactions 
+on Systems, Man, and Cybernetics, 23(1), 173-182. 
+Gallant, S. I. (1988). Connectionist expert systems. CACM, 31(2), 152-169. 
+Koppel, M., Feldman, R., & Segre, A. (1994). Bias-driven revision of logical domain theories. Journal 
+of Artificial Intelligence, 1, 159-208. http:llwww.cs.washington.edulresearch/jairhome.html. 
+Lacher, R., Hmska, S., & Kuncicky, D. (1991). Backpropagation learning in expert networks (Dept.

@@ -1,0 +1,9 @@
+Q learning can often require thousands of training iterations to converge. 
+Note throughout the above discussion we have kept our assumption that the 
+agent does not know the state-transition function 6(s, a) used by the environment 
+to create the successor state s' = S(s, a), or the function r(s, a) used to generate 
+rewards. If it does know these two functions, then many more efficient methods 
+are possible. For example, if performing external actions is expensive the agent 
+may simply ignore the environment and instead simulate it internally, efficiently 
+generating simulated actions and assigning the appropriate simulated rewards. 
+Sutton (1991) describes the DYNA architecture that performs a number of simulated

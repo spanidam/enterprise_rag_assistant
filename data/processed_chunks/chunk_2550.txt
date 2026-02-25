@@ -1,0 +1,11 @@
+0 The framework of Bayesian reasoning can provide a useful basis for ana- 
+lyzing certain learning methods that do not directly apply Bayes theorem. 
+For example, under certain conditions it can be shown that minimizing the 
+squared error when learning a real-valued target function corresponds to 
+computing the maximum likelihood hypothesis. 
+0 The Minimum Description Length principle recommends choosing the hy- 
+pothesis that minimizes the description length of the hypothesis plus the 
+description length of the data given the hypothesis. Bayes theorem and ba- 
+sic results from information theory can be used to provide a rationale for 
+this principle. 
+0 In many practical learning tasks, some of the relevant instance variables

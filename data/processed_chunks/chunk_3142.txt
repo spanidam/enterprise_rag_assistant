@@ -1,0 +1,14 @@
+In general the network is constructed by creating a sigmoid threshold unit for each 
+Horn clause in the domain theory. KBANN follows the convention that a sigmoid 
+output value greater than 0.5 is interpreted as True and a value below 0.5 as False. 
+Each unit is therefore constructed so that its output will be greater than 0.5 just 
+in those cases where the corresponding Horn clause applies. For each antecedent 
+to the Horn clause, an input is created to the corresponding sigmoid unit. The 
+weights of the sigmoid unit are then set so that it computes the logical AND of 
+its inputs. In particular, for each input corresponding to a non-negated antecedent, 
+CHAPTER 12 COMBINING INDUCTIVE AND ANALYTICAL LEARNING 343 
+Expensive 
+RottomlsFlat 
+Madeofceramic 
+Madeofstyrofoam 
+MadeOfPaper

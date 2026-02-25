@@ -1,0 +1,14 @@
+to the optimal policy and optimal value function. In this way Monte Carlo
+methods can be used to ﬁnd optimal policies given only sample episodes and
+no other knowledge of the environment’s dynamics.
+We made two unlikely assumptions above in order to easily obtain this
+guarantee of convergence for the Monte Carlo method.
+One was that the
+122
+CHAPTER 5. MONTE CARLO METHODS
+episodes have exploring starts, and the other was that policy evaluation could
+be done with an inﬁnite number of episodes. To obtain a practical algorithm
+we will have to remove both assumptions. We postpone consideration of the
+ﬁrst assumption until later in this chapter.
+For now we focus on the assumption that policy evaluation operates on an
+inﬁnite number of episodes. This assumption is relatively easy to remove. In

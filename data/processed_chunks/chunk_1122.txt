@@ -1,0 +1,28 @@
+1.
+Read/input some code
+2.
+Evaluate/run the code
+3.
+Print any results
+4.
+Loop back to step 1
+Most shells maintain a history of every line of code the user types. Pressing the up or down arrow key on the
+keyboard displays the history. The up arrow displays the previous line; the down arrow displays the next line.
+That way, the user can repeat a line without having to type the line again.
+CHECKPOINT
+Correcting a typo
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/2-1-the-
+python-shell)
+CONCEPTS IN PRACTICE
+Using the arrow keys
+4. Which arrow keys were needed to edit the typo?
+a.
+only the up arrow key
+b.
+the up and down arrows
+c.
+the up and left arrows
+5. What keys would the user press to go back two lines?
+a.
+press the up arrow twice
+b.

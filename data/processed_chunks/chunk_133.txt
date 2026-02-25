@@ -1,0 +1,47 @@
+=
+R1
+2p2 + d1
+2
+(2.57)
+then their composition deﬁnes a third rigid motion, which we can describe by
+substituting the expression for p1 from Equation (2.57) into Equation (2.56)
+p0
+=
+R0
+1R1
+2p2 + R0
+1d1
+2 + d0
+1
+(2.58)
+Since the relationship between p0 and p2 is also a rigid motion, we can equally
+describe it as
+p0
+=
+R0
+2p2 + d0
+2
+(2.59)
+Comparing Equations (2.58) and (2.59) we have the relationships
+R0
+2
+=
+R0
+1R1
+2
+(2.60)
+d0
+2
+=
+d0
+1 + R0
+1d1
+2
+(2.61)
+Equation (2.60) shows that the orientation transformations can simply be mul-
+tiplied together and Equation (2.61) shows that the vector from the origin o0
+to the origin o2 has coordinates given by the sum of d0
+1 (the vector from o0
+to o1 expressed with respect to o0x0y0z0) and R0
+1d1
+2 (the vector from o1 to o2,

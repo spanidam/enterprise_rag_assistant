@@ -1,0 +1,14 @@
+step in the search. The algorithm chooses among these candidates based solely on 
+their empirical support over the training data. Thus, the domain theory is used in 
+a fashion that biases the learner, but leaves final search choices to be made based 
+on performance over the training data. The bias introduced by the domain theory 
+is a preference in favor of Horn clauses most similar to operational, logically 
+sufficient conditions entailed by the domain theory. This bias is combined with 
+Hypothesis Space 
+1 
+Hypotheses thatfit 
+training data 
+equally well 
+FIGURE 12.9 
+Hypothesis space search in FOCL. FOCL augments the set of search operators used by FOIL. Whereas 
+FOIL considers adding a single new literal at each step, FOIL also considers adding multiple literals

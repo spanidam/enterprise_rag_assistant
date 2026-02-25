@@ -1,0 +1,15 @@
+least six independent DOF. With fewer than six DOF the arm cannot reach
+every point in its work environment with arbitrary orientation. Certain appli-
+cations such as reaching around or behind obstacles may require more than six
+DOF. A manipulator having more than six links is referred to as a kinemat-
+ically redundant manipulator.
+The diﬃculty of controlling a manipulator
+increases rapidly with the number of links.
+ROBOTS AS MECHANICAL DEVICES
+5
+1.1.3
+The State Space
+A conﬁguration provides an instantaneous description of the geometry of a
+manipulator, but says nothing about its dynamic response. In contrast, the
+state of the manipulator is a set of variables that, together with a description
+of the manipulator’s dynamics and input, are suﬃcient to determine any future

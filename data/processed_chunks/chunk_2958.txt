@@ -1,0 +1,11 @@
+The previous section pointed out the correspondence between induction and in- 
+verse entailment. Given our earlier focus on using the general-to-specific ordering 
+to organize the hypothesis search, it is interesting to consider the relationship be- 
+tween the more-general~han relation and inverse entailment. To illuminate this 
+relationship, consider the following definitions. 
+0 more-general-than. In Chapter 2, we defined the more_general_than_or- 
+equal20 relation (z,) as follows: Given two boolean-valued functions hj(x) 
+and hk(x), we say that hj 2, hk if and only if (Vx)hk(x) + hj(x). This >, 
+relation is used by many learning algorithms to guide search through the 
+hypothesis space. 
+0 8-subsumption. Consider two clauses Cj and Ck, both of the form H v L1 v

@@ -1,0 +1,17 @@
+PN−1
+z=0 Hi[z]
+.
+(11.35)
+SEGMENTATION BY THRESHOLDING
+341
+11.3.2
+Automatic Threshold Selection
+We are now prepared to develop an automatic threshold selection algorithm.
+We will assume that the image consists of an object and a background, and
+that the background pixels have gray level values less than or equal to some
+threshold while the object pixels are above the threshold. Thus, for a given
+threshold value, zt, we divide the image pixels into two groups: those pixels
+with gray level value z ≤zt, and those pixels with gray level value z > zt. We
+can compute the means and variance for each of these groups using the equations
+of Section 11.3.1. Clearly, the conditional means and variances depend on the
+choice of zt, since it is the choice of zt that determines which pixels will belong

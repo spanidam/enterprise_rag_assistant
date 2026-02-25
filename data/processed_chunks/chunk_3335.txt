@@ -1,0 +1,11 @@
+(pp. 1022-1029). Menlo Park, CA: AAAI Press. 
+Lin, L. J. (1992). Self-improving reactive agents based on reinforcement learning, planning, and 
+teaching. Machine Learning, 8, 293-321. 
+Lin, L. J. (1993). Hierarchical learning of robot skills by reinforcement. Proceedings of the Interna- 
+tional Conference on Neural Networks. 
+Littman, M. (1996). Algorithms for sequential decision making (Ph.D. dissertation and Technical 
+Report CS-96-09). Brown University, Department of Computer Science, Providence, RI. 
+Maclin, R., & Shavlik, J. W. (1996). Creating advice-taking reinforcement learners. Machine Learn- 
+ing, 22, 251-281. 
+Mahadevan, S. (1996). Average reward reinforcement learning: Foundations, algorithms, and empir- 
+ical results. Machine Learning, 22(1), 159-195.

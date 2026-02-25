@@ -1,0 +1,12 @@
+and control input with smaller weighting on the velocities of the motor and
+load. Figure 7.30 shows the optimal gains that result and the response of this
+Fig. 7.30
+Step response–Linear, Quadratic–Optimal (LQ) state feedback control.
+LQ-optimal control for the system (7.66) with a unit step reference input r.
+7.6.2
+Observers
+The above result is remarkable; however, in order to achieve it, we have had to
+pay a price, namely, the control law must be a function of all of the states. In
+order to build a compensator that requires only the measured output, in this
+case θℓ, we need to introduce the concept of an observer. An observer is a state
+estimator. It is a dynamical system (constructed in software) that attempts to

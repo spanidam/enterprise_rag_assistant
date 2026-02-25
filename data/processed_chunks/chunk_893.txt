@@ -1,0 +1,15 @@
+solution must remain near the origin.
+If a Lyapunov function candidate V
+can be found satisfying (C.9) then V is called a Lyapunov Function for the
+system (C.1). Note that Theorem 6 gives only a suﬃcient condition for stability
+of (C.1). If one is unable to ﬁnd a Lyapunov function satisfying (C.9) it does
+not mean that the system is unstable. However, an easy suﬃcient condition for
+instability of (C.1) is for there to exist a Lyapunov function candidate V such
+that ˙V > 0 along at least one solution of the system.
+Theorem 7 The null solution of (C.1) is asymptotically stable if there exists
+a Lyapunov function candidate V such that ˙V is strictly negative deﬁnite along
+solutions of (C.1), that is,
+˙V (x)
+<
+0.
+(C.10)

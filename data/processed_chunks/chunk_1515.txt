@@ -1,0 +1,37 @@
+__pow__(self, other)
+Table 11.1 Arithmetic operators and magic methods.
+CONCEPTS IN PRACTICE
+Arithmetic operator overloading
+4. A programmer explicitly defining the modulo operator for their user-defined class is ___________ the
+operator.
+a.
+overloading
+b.
+rewriting
+c.
+implementing
+5. Given the code below, which argument maps to the parameter other in the call to
+Account.__add__()?
+acct_a = Account("Ashe", 6492)
+acct_b = Account("Bevins", 5210)
+acct_ab = acct_a + acct_b
+a.
+acct_a
+b.
+acct_b
+c.
+acct_ab
+11.4 • Overloading operators
+277
+6. Which __sub__() definition overloads the - operator for the code below to work?
+class Pair:
+def __init__(self, x=0, y=0):
+self.x = x
+self.y = y
+# Define __sub__()
+p1 = Pair(10, 2)
+p2 = Pair(8, 4)
+p3 = p1 - p2
+print(p3.x, p3.y)
+a.
+def __sub__(self):

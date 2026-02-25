@@ -1,0 +1,11 @@
+the basis of three variables: his current sum (12–21), the dealer’s one showing
+card (ace–10), and whether or not he holds a usable ace. This makes for a
+total of 200 states.
+Consider the policy that sticks if the player’s sum is 20 or 21, and other-
+wise hits. To ﬁnd the state-value function for this policy by a Monte Carlo
+approach, one simulates many blackjack games using the policy and averages
+the returns following each state. Note that in this task the same state never
+recurs within one episode, so there is no diﬀerence between ﬁrst-visit and
+every-visit MC methods. In this way, we obtained the estimates of the state-
+value function shown in Figure 5.2. The estimates for states with a usable ace
+are less certain and less regular because these states are less common. In any

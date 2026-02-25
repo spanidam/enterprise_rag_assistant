@@ -1,0 +1,18 @@
+Biermann, A. W., Fairﬁeld, J. R. C., Beres, T. R. (1982). Signature table sys-
+tems and learning. IEEE Transactions on Systems, Man, and Cybernetics,
+12:635–648.
+Bishop, C. M. (1995). Neural Networks for Pattern Recognition. Clarendon,
+Oxford.
+Booker, L. B. (1982).
+Intelligent Behavior as an Adaptation to the Task
+Environment. Ph.D. thesis, University of Michigan, Ann Arbor.
+15.5. OTHER FRONTIER DIMENSIONS
+315
+Boone, G. (1997).
+Minimum-time control of the acrobot.
+In 1997 Inter-
+national Conference on Robotics and Automation, pp. 3281–3287. IEEE
+Robotics and Automation Society.
+Boutilier, C., Dearden, R., Goldszmidt, M. (1995).
+Exploiting structure in
+policy construction. In Proceedings of the Fourteenth International Joint

@@ -1,0 +1,11 @@
+where the impact of each part on overall hypothesis fitness may be difficult 
+to model. 
+0 Genetic algorithms are easily parallelized and can take advantage of the 
+decreasing costs of powerful computer hardware. 
+This chapter describes the genetic algorithm approach, illustrates its use, and 
+examines the nature of its hypothesis space search. We also describe a variant 
+called genetic programming, in which entire computer programs are evolved to 
+certain fitness criteria. Genetic algorithms and genetic programming are two of 
+the more popular approaches in a field that is sometimes called evolutionary 
+computation. In the final section we touch on selected topics in the study of 
+biological evolution, including the Baldwin effect, which describes an interesting

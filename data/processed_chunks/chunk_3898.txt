@@ -1,0 +1,11 @@
+their performances.
+A complication is that they all have a parameter; to
+get a meaningful comparison we will have to consider their performance as
+a function of their parameter. Our graphs so far have shown the course of
+learning over time for each algorithm and parameter setting, but it would
+be too visually confusing to show such a learning curve for each algorithm
+and parameter value. Instead we summarize a complete learning curve by its
+average value over the 1000 steps; this value is proportional to the area under
+the learning curves we have shown up to now. Figure 2.5 shows this measure
+for the various bandit algorithms from this chapter, each as a function of its
+own parameter shown on a single scale on the x-axis. Note that the parameter

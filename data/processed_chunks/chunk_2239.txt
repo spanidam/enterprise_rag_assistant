@@ -1,0 +1,9 @@
+times as many weights available in the output layer of units). Second, in the 1-of-n 
+encoding the difference between the highest-valued output and the second-highest 
+can be used as a measure of the confidence in the network prediction (ambiguous 
+classifications may result in near or exact ties). A further design choice here is 
+"what should be the target values for these four output units?' One obvious choice 
+would be to use the four target values (1,0,0,O) to encode a face looking to the 
+left, (0,1,0,O) to encode a face looking straight, etc. Instead of 0 and 1 values, 
+we use values of 0.1 and 0.9, so that (0.9,O. 1,0.1,0.1) is the target output vector 
+for a face looking to the left. The reason for avoiding target values of 0 and 1

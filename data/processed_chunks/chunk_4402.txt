@@ -1,0 +1,11 @@
+irrelevant because they are visited only under very poor policies or with very
+low probability. Exhaustive sweeps implicitly devote equal time to all parts
+214CHAPTER 8. PLANNING AND LEARNING WITH TABULAR METHODS
+of the state space rather than focusing where it is needed. As we discussed in
+Chapter 4, exhaustive sweeps and the equal treatment of all states that they
+imply are not necessary properties of dynamic programming.
+In principle,
+backups can be distributed any way one likes (to assure convergence, all states
+or state–action pairs must be visited in the limit an inﬁnite number of times),
+but in practice exhaustive sweeps are often used.
+The second approach is to sample from the state or state–action space ac-

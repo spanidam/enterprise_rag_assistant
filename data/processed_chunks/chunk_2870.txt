@@ -1,0 +1,10 @@
+of width 1. 
+search, there is a danger that a suboptimal choice will be made at any step. To 
+reduce this risk, we can extend the algorithm to perform a beam search; that is, 
+a search in which the algorithm maintains a list of the k best candidates at each 
+step, rather than a single best candidate. On each search step, descendants (spe- 
+cializations) are generated for each of these k best candidates, and the resulting 
+set is again reduced to the k most promising members. Beam search keeps track 
+of the most promising alternatives to the current top-rated hypothesis, so that all 
+of their successors can be considered at each search step. This general to specific 
+beam search algorithm is used by the CN2 program described by Clark and Niblett

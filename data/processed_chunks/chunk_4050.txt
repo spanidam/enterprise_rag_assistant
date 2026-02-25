@@ -1,0 +1,38 @@
+Greedy Policy
+w.r.t. Vk
+k = 0
+k = 1
+k = 2
+k = 10
+k = !
+k = 3
+optimal 
+policy
+random 
+policy
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+vk
+vk
+Figure 4.2: Convergence of iterative policy evaluation on a small gridworld.
+The left column is the sequence of approximations of the state-value function
+for the random policy (all actions equal). The right column is the sequence
+of greedy policies corresponding to the value function estimates (arrows are
+shown for all actions achieving the maximum). The last policy is guaranteed
+only to be an improvement over the random policy, but in this case it, and all
+policies after the third iteration, are optimal.
+94
+CHAPTER 4. DYNAMIC PROGRAMMING
+termination.
+4.2
+Policy Improvement

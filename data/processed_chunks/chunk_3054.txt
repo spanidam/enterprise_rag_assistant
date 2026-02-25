@@ -1,0 +1,12 @@
+theory B to reduce the set of acceptable hypotheses. As stated in Equation (10.2), 
+ILP systems output a hypothesis h that satisfies the following constraint: 
+Note the relationship between this expression and the constraints on h imposed 
+by PROLOG-EBG (given by Equations (1 1.1) and (1 1.2)). This ILP constraint on 
+h is a weakened form of the constraint given by Equation (1 1.1)-the 
+ILP con- 
+straint requires only that (B' A h /\xi) k f (xi), whereas the PROLOG-EBG 
+constraint 
+requires the more strict (h xi) k f (xi). Note also that ILP imposes no constraint 
+corresponding to the PROLOG-EBG constraint of Equation (1 1.2). 
+11.3.3 Inductive Bias in Explanation-Based Learning 
+Recall from Chapter 2 that the inductive bias of a learning algorithm is a set

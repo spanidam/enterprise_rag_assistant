@@ -1,0 +1,11 @@
+of ﬁnding the vectors f1, . . . , fn and τ1, . . . , τn corresponding to a given set of
+vectors q, ˙q, ¨q. In other words, we ﬁnd the forces and torques in the manip-
+ulator that correspond to a given set of generalized coordinates and ﬁrst two
+derivatives. This information can be used to perform either type of analysis,
+as described above.
+That is, we can either use the equations below to ﬁnd
+the f and τ corresponding to a particular trajectory q(·), or else to obtain
+closed-form dynamical equations. The general idea is as follows: Given q, ˙q, ¨q,
+suppose we are somehow able to determine all of the velocities and accelerations
+of various parts of the manipulator, that is, all of the quantities ac,i, ωi and
+αi. Then we can solve (6.142) and (6.143) recursively to ﬁnd all the forces and

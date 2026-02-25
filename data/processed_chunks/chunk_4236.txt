@@ -1,0 +1,39 @@
+upward “wind.”
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+0
+50
+100
+150
+170
+Episodes
+Time steps
+S
+G
+0
+0
+0
+0
+1
+1
+1
+1
+2
+2
+Figure 6.11: Results of Sarsa applied to the windy gridworld.
+6.5. Q-LEARNING: OFF-POLICY TD CONTROL
+157
+upward. For example, if you are one cell to the right of the goal, then the
+action left takes you to the cell just above the goal. Let us treat this as an
+undiscounted episodic task, with constant rewards of −1 until the goal state
+is reached. Figure 6.11 shows the result of applying ε-greedy Sarsa to this
+task, with ε = 0.1, α = 0.5, and the initial values Q(s, a) = 0 for all s, a. The
+increasing slope of the graph shows that the goal is reached more and more
+quickly over time. By 8000 time steps, the greedy policy (shown inset) was

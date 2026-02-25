@@ -1,0 +1,17 @@
+292
+FORCE CONTROL
+we substitute (9.19)-(9.21) into (9.18) to obtain
+¨x = ax + W(q)(Fe −af)
+(9.22)
+where W(q) = J(q)M −1(q)JT (q) is called the Mobility Tensor. There is often
+a conceptual advantage to separating the position and force control terms by
+assuming that ax is a function only of position and velocity and af is a function
+only of force [?]. However, for simplicity, we shall take af = Fe to cancel the
+environment force, Fe and thus recover the task space double integrator system
+¨x = ax
+(9.23)
+and we will assume that any additional force feedback terms are included in the
+outer loop term ax. This entails no loss of generality as long as the Jacobian
+(hence W(q)) is invertible. This will become clear later in this chapter.
+9.4.3
+Impedance Control

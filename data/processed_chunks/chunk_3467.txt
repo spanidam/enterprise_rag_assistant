@@ -1,0 +1,15 @@
+knowledge graph. Fig 17 illustrates the model architecture of
+Ernie 3.0.
+Fig. 17: High-level model architecture of ERNIE 3.0. Courtesy
+of [81].
+RETRO: In [82], Borgeaud et al. enhanced auto-regressive
+language models by conditioning on document chunks re-
+trieved from a large corpus, based on local similarity with pre-
+ceding tokens. Using a 2-trillion-token database, the Retrieval-
+Enhanced Transformer (Retro) obtains comparable perfor-
+mance to GPT-3 and Jurassic-1 [83] on the Pile, despite using
+25% fewer parameters. As shown in Fig 18, Retro combines
+a frozen Bert retriever, a differentiable encoder and a chunked
+cross-attention mechanism to predict tokens based on an order
+of magnitude more data than what is typically consumed
+during training.

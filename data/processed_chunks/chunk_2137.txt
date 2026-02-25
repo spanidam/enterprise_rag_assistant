@@ -1,0 +1,13 @@
+threshold and -1 otherwise. More precisely, given inputs xl through x,, the output 
+o(x1, . . . , x,) computed by the perceptron is 
+o(x1,. . . , x , )  = 
+1 if wo + wlxl+ ~ 2 x 2  + - . + W,X, > 0 
+-1 otherwise 
+where each wi is a real-valued constant, or weight, that determines the contribution 
+of input xi to the perceptron output. Notice the quantity (-wO) is a threshold that 
+the weighted combination of inputs wlxl + . . . + wnxn must surpass in order for 
+the perceptron to output a 1. 
+To simplify notation, we imagine an additional constant input xo = 1, al- 
+lowing us to write the above inequality as C:=o wixi > 0, or in vector form as 
+iir ..i! > 0. For brevity, we will sometimes write the perceptron function as 
+where

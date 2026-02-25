@@ -1,0 +1,11 @@
+during use, then we are interested in minimizing the total number of mistakes it 
+will make before converging to the correct target function. Here the total num- 
+ber of mistakes can be even more important than the total number of training 
+examples. 
+This mistake bound learning problem may be studied in various specific 
+settings. For example, we might count the number of mistakes made before PAC 
+learning the target concept. In the examples below, we consider instead the number 
+of mistakes made before learning the target concept exactly. Learning the target 
+concept exactly means converging to a hypothesis such that (Vx)h(x) = c(x). 
+7.5.1 Mistake Bound for the FIND-S Algorithm 
+To illustrate, consider again the hypothesis space H consisting of conjunctions of

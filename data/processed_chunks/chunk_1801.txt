@@ -1,0 +1,9 @@
+present a balance of theory and practice. Machine learning theory attempts to an- 
+swer questions such as "How does learning performance vary with the number of 
+training examples presented?" and "Which learning algorithms are most appropri- 
+ate for various types of learning tasks?" This book includes discussions of these 
+and other theoretical issues, drawing on theoretical constructs from statistics, com- 
+putational complexity, and Bayesian analysis. The practice of machine learning 
+is covered by presenting the major algorithms in the field, along with illustrative 
+traces of their operation. Online data sets and implementations of several algo- 
+rithms are available via the World Wide Web at http://www.cs.cmu.edu/-tom1

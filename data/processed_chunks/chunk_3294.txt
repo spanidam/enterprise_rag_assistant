@@ -1,0 +1,13 @@
+its Q estimate for every transition along the path it took to the goal. This training 
+process will clearly converge in fewer iterations, although it requires that the agent 
+use more memory to store the entire episode before beginning the training for that 
+episode. 
+A second strategy for improving the rate of convergence is to store past 
+state-action transitions, along with the immediate reward that was received, and 
+retrain on them periodically. Although at first it might seem a waste of effort to 
+retrain on the same transition, recall that the updated ~ ( s ,  
+a )  value is determined 
+by the values ~ ( s ' ,  
+a) of the successor state s' = 6(s, a). Therefore, if subsequent 
+training changes one of the ~ ( s ' ,  
+a) values, then retraining on the transition (s, a )

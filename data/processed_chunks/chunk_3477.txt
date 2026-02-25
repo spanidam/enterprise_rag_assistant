@@ -1,0 +1,14 @@
+with 130 billion parameters. It was an attempt to open-source
+a 100B-scale model at least as good as GPT-3 (davinci) and
+unveil how models of such a scale can be successfully pre-
+trained.
+Pythia: In [95], Biderman et al. introduced Pythia, a suite
+of 16 LLMs all trained on public data seen in the exact same
+order and ranging in size from 70M to 12B parameters. We
+provide public access to 154 checkpoints for each one of the
+16 models, alongside tools to download and reconstruct their
+exact training dataloaders for further study.
+Orca: In [96], Mukherjee et al. develop Orca, a 13-billion
+parameter model that learns to imitate the reasoning process
+of large foundation models. Orca learns from rich signals
+from GPT-4 including explanation traces; step-by-step thought

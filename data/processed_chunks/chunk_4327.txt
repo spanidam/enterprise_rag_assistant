@@ -1,0 +1,12 @@
+with the value λ = 1 denoting no bootstrapping, turning these TD methods
+into MC methods. But the same cannot be said for Q(λ). As soon as there is a
+deviation from the target policy Q(λ) cuts the trace and uses its value estimate
+rather than waiting for the actual rewards—it bootstraps even if λ = 1. Ideally
+we would like to totally de-couple bootstrapping from the oﬀ-policy aspect, to
+use λ to specify the degree of bootstrapping while using importance sampling
+to correct independently for the degree of oﬀ-policy deviation.
+7.8
+Implementation Issues
+It might at ﬁrst appear that methods using eligibility traces are much more
+complex than one-step methods. A naive implementation would require every
+state (or state–action pair) to update both its value estimate and its eligibility

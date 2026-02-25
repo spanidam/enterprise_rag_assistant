@@ -1,0 +1,11 @@
+control is called the method of computed torque. The expression (7.54) thus
+compensates in a feedforward manner the nonlinear coupling inertial, coriolis,
+centripetal, and gravitational forces arising due to the motion of the manipu-
+lator. Although the diﬀerence ∆d := dd −d is zero only in the ideal case of
+perfect tracking (θ = θd) and perfect computation of (7.54), in practice, the
+goal is to reduce ∆d to a value smaller than d (say, in the usual Euclidean norm
+sense). Hence the computed torque has the advantage of reducing the eﬀects
+of d. Note that the expression (7.54) is in general extremely complicated so
+that the computational burden involved in computing (7.54) is of major con-
+cern. Since only the values of the desired trajectory need to be known, many of
+248

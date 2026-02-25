@@ -1,0 +1,16 @@
+the current action-value function estimate. This policy we hope becomes a
+deterministic optimal policy while the behavior policy remains stochastic and
+more exploratory, for example, an ε-greedy policy.
+128
+CHAPTER 5. MONTE CARLO METHODS
+Importance sampling is a general technique for estimating expected values
+under one distribution given samples from another. We apply this technique
+to oﬀ-policy learning by weighting returns according to the relative probability
+of their trajectories occurring under the target and behavior policies, called
+the importance-sampling ratio. Given a starting state St, the probability of
+the subsequent state–action trajectory, At, St+1, At+1, . . . , ST, occurring under
+any policy π is
+T−1
+Y
+k=t
+π(Ak|Sk)p(Sk+1|Sk, Ak),

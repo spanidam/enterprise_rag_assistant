@@ -1,0 +1,64 @@
+i
+−vz
+λ
+huz
+λ ωy −vz
+λ ωx −vz
+i
+=
+−λ
+z vy + v
+z vz + λ2 + v2
+λ
+ωx −uv
+λ ωy −uωz
+(12.14)
+Equations (12.13) and (12.14) can be combined and written in matrix form
+as
+ ˙u
+˙v
+
+=
+
+
+−λ
+z
+0
+u
+z
+uv
+λ
+−λ2 + u2
+λ
+v
+0
+−λ
+z
+v
+z
+λ2 + v2
+λ
+−uv
+λ
+−u
+
+
+
+
+vx
+vy
+vz
+ωx
+ωy
+ωz
+
+
+(12.15)
+The matrix in this equation is the interaction matrix for a point. It relates
+the velocity of the camera to the velocity of the image prjection of the point.
+Note that this interaction matrix is a function of the image coordinates of the
+point, u and v, and of the depth of the point with respect to the camera frame,
+z. Therefore, this equation is typically written as
+˙s = Lp(u, v, z)ξ
+(12.16)
+Example 12.2 Camera motion in the plane (cont.)

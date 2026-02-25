@@ -1,0 +1,10 @@
+general-to-specific search, beginning with the most general possible Horn clause 
+(i.e., a clause containing no preconditions). Several candidate specializations of 
+the current clause are then generated, and the specialization with greatest infor- 
+mation gain relative to the training examples is chosen. This process is iterated, 
+generating further candidate specializations and selecting the best, until a Horn 
+clause with satisfactory performance is obtained. 
+The difference between FOIL and FOCL lies in the way in which candidate 
+specializations are generated during the general-to-specific search for a single Horn 
+clause. As described in Chapter 10, FOIL generates each candidate specialization 
+by adding a single new literal to the clause preconditions. FOCL uses this same

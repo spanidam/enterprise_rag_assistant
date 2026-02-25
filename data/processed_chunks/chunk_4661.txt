@@ -1,0 +1,10 @@
+given state signal and its past values a new signal that is Markov, or more
+nearly Markov. For example, one approach is based on the theory of partially
+observable MDPs (POMDPs). POMDPs are ﬁnite MDPs in which the state
+is not observable, but another “sensation” signal stochastically related to the
+state is observable. The theory of POMDPs has been extensively studied for
+the case of complete knowledge of the dynamics of the POMDP. In this case,
+Bayesian methods can be used to compute at each time step the probability of
+the environment’s being in each state of the underlying MDP. This probability
+distribution can then be used as a new state signal for the original problem.
+The downside for the Bayesian POMDP approach is its computational ex-

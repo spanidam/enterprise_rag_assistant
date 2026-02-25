@@ -1,0 +1,30 @@
+in learning. With broad features, the generalization tended to be broad; with
+narrow features, only the close neighbors of each trained point were changed,
+causing the function learned to be more bumpy. However, the ﬁnal function
+236CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+10
+40
+160
+640
+2560
+10240
+Narrow
+features
+desired
+function
+Medium
+features
+Broad
+features
+#Examples
+approx-
+imation
+feature
+width
+Figure 9.4: Example of feature width’s strong eﬀect on initial generalization
+(ﬁrst row) and weak eﬀect on asymptotic accuracy (last row).
+learned was aﬀected only slightly by the width of the features.
+Receptive
+ﬁeld shape tends to have a strong eﬀect on generalization but little eﬀect on
+asymptotic solution quality.
+Tile Coding

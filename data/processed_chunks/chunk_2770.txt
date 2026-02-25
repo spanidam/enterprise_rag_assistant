@@ -1,0 +1,10 @@
+A prototypical genetic algorithm is described in Table 9.1. The inputs to 
+this algorithm include the fitness function for ranking candidate hypotheses, a 
+threshold defining an acceptable level of fitness for terminating the algorithm, 
+the size of the population to be maintained, and parameters that determine how 
+successor populations are to be generated: the fraction of the population to be 
+replaced at each generation and the mutation rate. 
+Notice in this algorithm each iteration through the main loop produces a new 
+generation of hypotheses based on the current population. First, a certain number 
+of hypotheses from the current population are selected for inclusion in the next 
+generation. These are selected probabilistically, where the probability of selecting

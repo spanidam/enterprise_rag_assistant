@@ -1,0 +1,15 @@
+to be closer to the value of the later state. This can be done by moving the
+earlier state’s value a fraction of the way toward the value of the later state.
+If we let s denote the state before the greedy move, and s′ the state after
+the move, then the update to the estimated value of s, denoted V (s), can be
+written as
+V (s) ←V (s) + α
+h
+V (s′) −V (s)
+i
+,
+where α is a small positive fraction called the step-size parameter, which in-
+ﬂuences the rate of learning. This update rule is an example of a temporal-
+diﬀerence learning method, so called because its changes are based on a dif-
+ference, V (s′) −V (s), between estimates at two diﬀerent times.
+The method described above performs quite well on this task. For example,

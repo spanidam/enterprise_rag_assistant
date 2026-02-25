@@ -1,0 +1,10 @@
+ample d, and td is the 1 or 0 target value for training example d. Chapter 6 
+discusses when and why the most probable network hypothesis is the one 
+that minimizes this cross entropy and derives the corresponding gradient 
+descent weight-tuning rule for sigmoid units. That chapter also describes 
+other conditions under which the most probable hypothesis is the one that 
+minimizes the sum of squared errors. 
+0 Altering the effective error function can also be accomplished by weight 
+sharing, or "tying together" weights associated with different units or inputs. 
+The idea here is that different network weights are forced to take on identical 
+values, usually to enforce some constraint known in advance to the human

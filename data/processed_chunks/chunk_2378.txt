@@ -1,0 +1,10 @@
+examples, by the use of each example only once in a test set, and by our desire 
+to use samples of size at least 30. However, the randomized method has the dis- 
+advantage that the test sets no longer qualify as being independently drawn with 
+respect to the underlying instance distribution D. In contrast, the test sets gener- 
+ated by k-fold cross validation are independent because each instance is included 
+in only one test set. 
+To summarize, no single procedure for comparing learning methods based 
+on limited data satisfies all the constraints we would like. It is wise to keep in 
+mind that statistical models rarely fit perfectly the practical constraints in testing 
+learning algorithms when available data is limited. Nevertheless, they do pro-

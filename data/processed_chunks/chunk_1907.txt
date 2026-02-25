@@ -1,0 +1,9 @@
+ignores every negative example! While this may at first seem strange, notice that 
+in the current case our hypothesis h is already consistent with the new negative ex- 
+ample (i-e., h correctly classifies this example as negative), and hence no revision 
+is needed. In the general case, as long as we assume that the hypothesis space H 
+contains a hypothesis that describes the true target concept c and that the training 
+data contains no errors, then the current hypothesis h can never require a revision 
+in response to a negative example. To see why, recall that the current hypothesis 
+h is the most specific hypothesis in H consistent with the observed positive exam- 
+ples. Because the target concept c is also assumed to be in H and to be consistent

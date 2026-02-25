@@ -1,0 +1,15 @@
+we refer the readers to this survey of retrieval augmented
+generations [165].
+D. Using External Tools
+Retrieving information from an external knowledge source
+as described above is only one of the potential ways to augment
+an LLM. More generally, an LLM can access any number
+of external tools (e.g. an API to a service) to augment its
+functionality. In that regards, RAG can be seen as a specific
+instance of the broader category of the so called ”tools”.
+Tools in this context are external functions or services that
+LLMs can utilize. These tools extend the range of tasks an
+LLM can perform, from basic information retrieval to complex
+interactions with external databases or APIs.
+In the paper ”Toolformer: Language Models Can Teach
+Themselves to Use Tools” [169], the authors go beyond simple

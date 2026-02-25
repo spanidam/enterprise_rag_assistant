@@ -1,0 +1,10 @@
+d, and od is the output of the linear unit for training example d. By this definition, 
+E ( 6 )  is simply half the squared difference between the target output td and the 
+hear unit output od, summed over all training examples. Here we characterize 
+E as a function of 27, because the linear unit output o depends on this weight 
+vector. Of course E also depends on the particular set of training examples, but 
+we assume these are fixed during training, so we do not bother to write E as an 
+explicit function of these. Chapter 6 provides a Bayesian justification for choosing 
+this particular definition of E. In particular, there we show that under certain 
+conditions the hypothesis that minimizes E is also the most probable hypothesis 
+in H given the training data.

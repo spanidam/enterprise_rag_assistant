@@ -1,0 +1,12 @@
+9. b. The empty string is the only string that converts to False .
+10. a. "0" is a non-empty string and is converted to True .
+11. a. The input is read in as a string, so bool("False") is True .
+12. b. True converted to a float is 1.0. False converted to a float is 0.0.
+13. b. True converted to a string is "True" . False converted to a string is "False" .
+14. b. When a Boolean is converted to a numeric type, True is converted to 1 , and False is converted to 0
+.
+15. b. 14 is greater than 13, so 14 is not less than or equal to 13.
+16. a. 0 is less than 0.4, so 0 is not equal to 0.4.
+17. b. 4 is equal to 4.0, so 4 is not less than 4.0.
+18. c. Numeric types cannot be compared to strings using the comparison operators: >, <, >=, <=. Using == or
+!= will produce a Boolean.

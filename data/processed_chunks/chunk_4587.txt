@@ -1,0 +1,11 @@
+four-dimensional tiles.
+Alternatively, one could slice along only one of the
+dimensions, making hyperplanar stripes. In this case one has to pick which
+dimension to slice along. And of course in all cases one has to pick the width of
+the slices, the number of tilings of each kind, and, if there are multiple tilings,
+how to oﬀset them. One could also slice along pairs or triplets of dimensions
+to get other tilings. For example, if one expected the velocities of the two links
+to interact strongly in their eﬀect on value, then one might make many tilings
+that sliced along both of these dimensions. If one thought the region around
+zero velocity was particularly critical, then the slices could be more closely
+spaced there.

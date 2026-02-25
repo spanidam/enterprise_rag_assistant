@@ -1,0 +1,10 @@
+of Figure 6.3, we might have data where only a subset of the network variables 
+Storm, Lightning, Thunder, ForestFire, Campfire, and BusTourGroup have been 
+observed. Many approaches have been proposed to handle the problem of learning 
+in the presence of unobserved variables. As we saw in Chapter 3, if some variable 
+/ 
+is sometimes observed and sometimes not, then we can use the cases for which 
+it has been observed to learn to predict its values when it is not. In this section 
+we describe the EM algorithm (Dempster et al. 1977), a widely used approach 
+to learning in the presence of unobserved variables. The EM algorithm can be 
+used even for variables whose value is never directly observed, provided the

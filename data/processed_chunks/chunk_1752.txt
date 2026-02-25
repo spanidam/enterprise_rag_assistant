@@ -1,0 +1,11 @@
+element of the list and would be the last element when the list is sorted in descending order.
+2. a. For strings, ascending order refers to dictionary order.
+3. c. In alphabetical order, "h" comes before "k". The first four characters are the same, so "flash" comes
+before "flask" .
+4. b. The sort() function must be applied on the list. The default for the sort() function is to arrange
+elements in ascending order.
+5. a. The correct syntax for the reverse() function requires the function to be applied to the list.
+6. a. "go" is the first element of board_games, so "go" would be the last element once board_games is
+reversed.
+9.3 Common list operations
+1. a. The min() function takes a list as a parameter and returns the minimum for the list.

@@ -1,0 +1,31 @@
+presents an alternative approach to pruning that has been found useful in many 
+practical situations where data is limited. Many additional techniques have been 
+proposed as well, involving partitioning the available data several different times in 
+7 
+---..--..._.._.._~~ 
+" .------.------- 
+2--... 
+-, .--.. 
+-..... -... .-... 
+\_____.. 
+--... 
+-.... --... 
+-.___._..___...-_-------- 
+On training data - 
+On test data ---- 
+On test data (during pruning) - - - - - 
+0 
+10 
+20 
+30 
+40 
+50 
+60 
+70 
+80 
+90 
+100 
+Size of tree (number of nodes) 
+FIGURE 3.7 
+Effect of reduced-error pruning in decision tree learning. This plot shows the same curves of training 
+and test set accuracy as in Figure 3.6. In addition, it shows the impact of reduced error pruning of

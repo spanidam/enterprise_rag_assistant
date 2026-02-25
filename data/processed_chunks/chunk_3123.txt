@@ -1,0 +1,12 @@
+e r r o r ~ ( h )  of h with respect to a domain theory B to be the probability that h 
+will disagree with B on the classification of a randomly drawn instance. We can 
+attempt to characterize the desired output hypothesis in terms of these errors. For 
+example, we could require the hypothesis that minimizes some combined measure 
+of these errors, such as 
+argmin kDerrorD (h) + kBerrorB (h) 
+h€H 
+While this appears reasonable at first glance, it is not clear what values to assign 
+to k~ and kg to specify the relative importance of fitting the data versus fitting the 
+theory. If we have a very poor theory and a great deal of reliable data, it will be 
+best to weight e r r o r ~ ( h )  
+more heavily. Given a strong theory and a small sample

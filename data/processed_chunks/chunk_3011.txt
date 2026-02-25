@@ -1,0 +1,10 @@
+vx and vy represent the volumes of x and y, respectively). Note the Horn clause 
+hypothesis can refer to any of the predicates used to describe the instances, as well 
+as several additional predicates and functions. A typical positive training example, 
+SafeToStack(Obj1, Obj2), is also shown in the table. 
+To formulate this task as an analytical learning problem we must also provide 
+a domain theory sufficient to explain why observed positive examples satisfy the 
+target concept. In our earlier chess example, the domain theory corresponded to 
+knowledge of the legal moves in chess, from which we constructed explanations 
+describing why black would lose its queen. In the current example, the domain 
+theory must similarly explain why certain pairs of objects can be safely stacked

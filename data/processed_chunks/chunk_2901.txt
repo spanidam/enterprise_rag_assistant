@@ -1,0 +1,10 @@
+A positive literal is a literal with no negation sign (e.g., Female(Mary)). 
+A clause is any disjunction of literals M1 v . . . Mn whose variables are universally quantified. 
+A Horn clause is an expression of the form 
+where H, L1 . . . Ln are positive literals. H is called the head or consequent of the Horn clause. 
+The conjunction of literals L1 A L2 A .. . A  L, is called the body or antecedents of the Horn clause. 
+For any literals A and B, the expression (A t B) is equivalent to (A v -B), and the expression 
+-(A A B) is equivalent to (-A v -B). Therefore, a Horn clause can equivalently be written as the 
+disjunction 
+Hv-L1 v...v-L, 
+A substitution is any function that replaces variables by terms. For example, the substitution

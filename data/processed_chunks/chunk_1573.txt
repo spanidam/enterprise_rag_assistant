@@ -1,0 +1,50 @@
+4
+5
+class Rectangle(Polygon):
+13.3 • Methods
+311
+6
+def __init__(self, ln=1, wd=1):
+7
+super().__init__(4)
+8
+self.length = ln
+9
+self.width = wd
+10
+11
+class Square(Rectangle):
+12
+def __init__(self, side=1):
+13
+super().__init__(side, side)
+14
+self.side = side
+15
+16
+sq_1 = Square(5)
+17
+print(sq_1.num_sides)
+4. Line 16 executes and Square's __init__() is called on line 12. Line 13 executes and the superclass's
+__init__() is called. Which line does control flow move to next?
+a.
+2
+b.
+6
+c.
+14
+5. The next line executes. Which line does control flow move to next?
+a.
+2
+b.
+6
+c.
+14
+6. The method call returns. Lines 8 and 9 execute to initialize length and width, and Rectangle's
+__init__() returns. Which line does control flow move to next?
+a.
+12
+b.
+14
+c.
+17

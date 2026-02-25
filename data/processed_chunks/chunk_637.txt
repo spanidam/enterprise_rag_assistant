@@ -1,0 +1,31 @@
+loop control as
+u = ˆ
+M(q)a + ˆC(q, ˙q)v + ˆg(q) −Kr.
+(8.71)
+where v, a, and r are given as
+v
+=
+˙qd −Λ˜q
+a
+=
+˙v = ¨qd −Λ ˙˜q
+r
+=
+˙qd −v = ˙˜q + Λ˜q
+with K, Λ diagonal matrices of positive gains. In terms of the linear parametriza-
+tion of the robot dynamics, the control (8.71) becomes
+u = Y (q, ˙q, a, v)ˆθ −Kr
+(8.72)
+276
+MULTIVARIABLE CONTROL
+and the combination of (8.71) with (8.40) yields
+M(q) ˙r + C(q, ˙q)r + Kr = Y (θ −θ0).
+(8.73)
+Note that, unlike the inverse dynamics control, the modiﬁed inner loop control
+(8.40) does not achieve a linear, decoupled system, even in the known parameter
+case ˆθ = θ.
+In the robust passivity based approach of [?], the term ˆθ in (8.72) is chosen
+as
+ˆθ = θ0 + u
+(8.74)
+where θ0 is a ﬁxed nominal parameter vector and u is an additional control

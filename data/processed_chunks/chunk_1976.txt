@@ -1,0 +1,13 @@
+policy for generalizing beyond the observed data. A second advantage is that it 
+allows comparison of different learners according to the strength of the inductive 
+bias they employ. Consider, for example, the following three learning algorithms, 
+which are listed from weakest to strongest bias. 
+1. ROTE-LEARNER: 
+Learning corresponds simply to storing each observed train- 
+ing example in memory. Subsequent instances are classified by looking them 
+CHAPTER 2 CONCEPT. LEARNING AND THE GENERAL-TO-SPECIFIC ORDERING 
+45 
+up in memory. If the instance is found in memory, the stored classification 
+is returned. Otherwise, the system refuses to classify the new instance. 
+2. CANDIDATE-ELIMINATION 
+algorithm: New instances are classified only in the

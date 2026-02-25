@@ -1,0 +1,10 @@
+probability of winning is 1, because we have already won. Similarly, for all
+states with three Os in a row, or that are “ﬁlled up,” the correct probability
+is 0, as we cannot win from them. We set the initial values of all the other
+states to 0.5, representing a guess that we have a 50% chance of winning.
+We play many games against the opponent. To select our moves we examine
+the states that would result from each of our possible moves (one for each blank
+space on the board) and look up their current values in the table. Most of the
+time we move greedily, selecting the move that leads to the state with greatest
+value, that is, with the highest estimated probability of winning. Occasionally,
+however, we select randomly from among the other moves instead. These are

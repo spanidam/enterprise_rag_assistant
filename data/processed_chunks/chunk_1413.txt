@@ -1,0 +1,37 @@
+Table 8.2 String alignment formatting.
+CONCEPTS IN PRACTICE
+Specifying field width and alignment
+7. What is the output of the following code?
+template = "{name:12}"
+formatted_name = template.format(name = "Alice")
+print(len(formatted_name))
+a.
+5
+b.
+12
+c.
+"Alice"
+8. What is the output of the following code?
+214
+8 • Strings
+Access for free at openstax.org
+template = "{greeting:>6}"
+formatted_greeting = template.format(greeting = "Hello")
+print(formatted_greeting[0])
+a.
+H
+b.
+" Hello"
+c.
+Space character
+9. What is the output of the following code?
+template = "{:5}"
+print(template.format("123456789"))
+a.
+56789
+b.
+123456
+c.
+123456789
+Formatting numbers
+The format() method can be used to format numerical values. Numerical values can be padded to have a

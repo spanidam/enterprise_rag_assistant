@@ -1,0 +1,26 @@
+value function q, the corresponding greedy policy is the one that, for each
+s ∈S, deterministically chooses an action with maximal action-value:
+π(s) = arg max
+a
+q(s, a).
+(5.1)
+Policy improvement then can be done by constructing each πk+1 as the greedy
+policy with respect to qπk. The policy improvement theorem (Section 4.2) then
+applies to πk and πk+1 because, for all s ∈S,
+qπk(s, πk+1(s))
+=
+qπk(s, argmax
+a
+qπk(s, a))
+=
+max
+a
+qπk(s, a)
+≥
+qπk(s, πk(s))
+=
+vπk(s).
+As we discussed in the previous chapter, the theorem assures us that each πk+1
+is uniformly better than πk, or just as good as πk, in which case they are both
+optimal policies. This in turn assures us that the overall process converges
+to the optimal policy and optimal value function. In this way Monte Carlo

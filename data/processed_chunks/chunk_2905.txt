@@ -1,0 +1,11 @@
+The FOIL algorithm is summarized in Table 10.4. Notice the outer loop 
+corresponds to a variant of the SEQUENTIAL-COVERING 
+algorithm discussed earlier; 
+that is, it learns new rules one at a time, removing the positive examples covered by 
+the latest rule before attempting to learn the next rule. The inner loop corresponds 
+to a variant of our earlier LEARN-ONE-RULE 
+algorithm, extended to accommodate 
+first-order rules. Note also there are a few minor differences between FOIL and 
+these earlier algorithms. In particular, FOIL seeks only rules that predict when 
+the target literal is True, whereas our earlier algorithm would seek both rules 
+that predict when it is True and rules that predict when it is False. Also, FOIL

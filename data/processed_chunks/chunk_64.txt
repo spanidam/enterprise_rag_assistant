@@ -1,0 +1,11 @@
+dynamics of the actuators that produce the forces and torques to drive the
+robot, and the dynamics of the drive trains that transmit the power from the
+actuators to the links. Thus, in Chapter 7 we also discuss actuator and drive
+train dynamics and their eﬀects on the control problem.
+Position Control
+In Chapters 7 and 8 we discuss the design of control algorithms for the execution
+of programmed tasks. The motion control problem consists of the Tracking
+and Disturbance Rejection Problem, which is the problem of determining
+the control inputs necessary to follow, or track, a desired trajectory that has
+been planned for the manipulator, while simultaneously rejecting disturbances
+due to unmodeled dynamic eﬀects such as friction and noise. We detail the stan-

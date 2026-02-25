@@ -1,0 +1,54 @@
+elbow manipulator, a second solution for θ1 is given by
+θ1 = π + atan2(xc, yc).
+(3.59)
+The angle θ2 is given from Figure 3.21 as
+θ2
+=
+atan2(r, s) + π
+2
+(3.60)
+where r2 = x2
+c + y2
+c, s = zc −d1.
+The linear distance d3 is found as
+d3 =
+p
+r2 + s2
+=
+p
+x2c + y2c + (zc −d1)2
+(3.61)
+The negative square root solution for d3 is disregarded and thus in this case
+we obtain two solutions to the inverse position kinematics as long as the wrist
+center does not intersect z0. If there is an oﬀset then there will be left and right
+arm conﬁgurations as in the case of the elbow manipulator (Problem 3-25).
+INVERSE KINEMATICS
+97
+Table 3.6
+Link parameters for the articulated manipulator of Figure 3.13
+Link
+ai
+αi
+di
+θi
+1
+0
+90
+d1
+θ∗
+1
+2
+a2
+0
+0
+θ∗
+2
+3
+a3
+0
+0
+θ∗
+3
+∗variable
+3.3.4
+Inverse Orientation

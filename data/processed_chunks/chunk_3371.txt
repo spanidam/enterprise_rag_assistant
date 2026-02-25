@@ -1,0 +1,31 @@
+other methods, 240 
+limitations of, 23 1 
+Inverse entailment, 292, 302 
+first-order, 297 
+generate-and-test beam search, 
+comparison with, 299 
+in PROGOL, 300-302 
+Inverse resolution, 294-296, 302 
+first-order, 297-298 
+generate-and-test beam search, 
+comparison with, 298-299 
+limitations of, 300 
+Inverted deduction, 291-293 
+J 
+Jacobian, 354 
+Job-shop scheduling, genetic algorithms in, 
+Joint probability distribution, in Bayesian 
+belief networks, 185-187 
+k-fold cross-validation, 112, 147, 150 
+k-means problem, 19 1-193 
+derivation of EM algorithm for, 195-196 
+k-NEAREST NEIGHBOR 
+algorithm, 23 1-233, 
+246 
+applications of, 234 
+cross-validation in, 235 
+decision tree and rule learning, 
+comparison with, 235 
+distance-weighted, 233-234 
+inductive bias of, 234 
+memory indexing in, 236

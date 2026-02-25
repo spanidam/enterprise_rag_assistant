@@ -1,0 +1,22 @@
+(some of these are unreachable because of the obstacles).
+This problem is
+208CHAPTER 8. PLANNING AND LEARNING WITH TABULAR METHODS
+Initialize Q(s, a), Model(s, a), for all s, a, and PQueue to empty
+Do forever:
+(a) S ←current (nonterminal) state
+(b) A ←policy(S, Q)
+(c) Execute action A; observe resultant reward, R, and state, S′
+(d) Model(S, A) ←R, S′
+(e) P ←|R + γ maxa Q(S′, a) −Q(S, A)|.
+(f) if P > θ, then insert S, A into PQueue with priority P
+(g) Repeat n times, while PQueue is not empty:
+S, A ←first(PQueue)
+R, S′ ←Model(S, A)
+Q(S, A) ←Q(S, A) + α
+
+R + γ maxa Q(S′, a) −Q(S, A)
+
+Repeat, for all ¯S, ¯A predicted to lead to S:
+¯R ←predicted reward for ¯S, ¯A, S
+P ←| ¯R + γ maxa Q(S, a) −Q( ¯S, ¯A)|.
+if P > θ then insert ¯S, ¯A into PQueue with priority P

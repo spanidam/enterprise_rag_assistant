@@ -1,0 +1,10 @@
+we might expect the search based on inverse resolution to be more focused and 
+efficient. However, this will not necessarily be the case. One reason is that the 
+inverse resolution operator can consider only a small fraction of the available 
+data when generating its hypothesis at any given step, whereas FOIL considers 
+all available data to select among its syntactically generated hypotheses. The 
+differences between search strategies that use inverse entailment and those that 
+use generate-and-test search is a subject of ongoing research. Srinivasan et al. 
+(1995) provide one experimental comparison of these two approaches. 
+10.7.4 Generalization, 8-Subsumption, and Entailment 
+The previous section pointed out the correspondence between induction and in-

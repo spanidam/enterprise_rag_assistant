@@ -1,0 +1,57 @@
+means that
+˙x −r cos θ ˙φ
+=
+0
+˙y −r sin θ ˙φ
+=
+0
+(10.107)
+NONHOLONOMIC SYSTEMS
+321
+φ
+θ
+x
+y
+Fig. 10.5
+The Unicycle
+where r is the radius of the wheel. These constraints can be written in the form
+(10.101) with q = (x, y, θ, φ) and
+w1
+=
+ 1
+0
+0
+−r cos θ 
+w2
+=
+ 1
+0
+0
+−r sin θ 
+(10.108)
+Since the dimension of the conﬁguration space is n = 4 and there are two
+constraint equations, we need to ﬁnd two function g1, g2 orthogonal to w1, w2.
+It is easy to see that
+g1 =
+
+
+0
+0
+1
+0
+
+; g2 =
+
+
+r cos θ
+r sin θ
+0
+1
+
+
+(10.109)
+are both orthogonal to w1 and w2. Thus we can write
+˙q = g1(q)u1 + g2(q)u2
+(10.110)
+where u1 is the turning rate and u2 is the rate of rolling.
+We can now check to see if rolling without slipping constraints on the unicycle

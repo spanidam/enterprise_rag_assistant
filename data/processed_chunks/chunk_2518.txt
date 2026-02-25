@@ -1,0 +1,10 @@
+Second, all the network variables might be directly observable in each training 
+example, or some might be unobservable. 
+In the case where the network structure is given in advance and the variables 
+are fully observable in the training examples, learning the conditional probability 
+tables is straightforward. We simply estimate the conditional probability table 
+entries just as we would for a naive Bayes classifier. 
+In the case where the network structure is given but only some of the variable 
+values are observable in the training data, the learning problem is more difficult. 
+This problem is somewhat analogous to learning the weights for the hidden units in 
+an artificial neural network, where the input and output node values are given but

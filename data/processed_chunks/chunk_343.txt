@@ -1,0 +1,16 @@
+(5.1)
+Given this formulation, path planning can be treated as an optimization
+problem, i.e., ﬁnd the global minimum in U, starting from initial conﬁguration
+qinit. One of the easiest algorithms to solve this problem is gradient descent.
+In this case, the negative gradient of U can be considered as a force acting on
+the robot (in conﬁguration space),
+F(q) = −∇U(q) = −∇Uatt(q) −∇Urep(q)
+(5.2)
+In the remainder of this section, we will describe typical choices for the
+attractive and repulsive potential ﬁelds, and a gradient descent algorithm that
+can be used to plan paths in this ﬁeld.
+5.2.1
+The Attractive Field
+There are several criteria that the potential ﬁeld Uatt should satisfy.
+First,
+Uatt should be monotonically increasing with distance from qﬁnal. The simplest

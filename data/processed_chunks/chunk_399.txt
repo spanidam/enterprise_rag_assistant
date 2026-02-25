@@ -1,0 +1,39 @@
+of the trajectory.
+Example 5.6
+Writing Equation (5.43) as
+Ma = b
+(5.44)
+where M is the coeﬃcient matrix, a = [a0, a1, a2, a3]T is the vector of coeﬃ-
+cients of the cubic polynomial, and b = [q0, v0, q1, v1]T is the vector of initial
+data (initial and ﬁnal positions and velocities), the Matlab script shown in Fig-
+ure 5.12 computes the general solution as
+a = M −1b
+(5.45)
+⋄
+Example 5.7
+TRAJECTORY PLANNING
+175
+%%
+%% cubic.m
+%%
+%% M-file to compute a cubic polynomial reference trajectory
+%%
+%% q0
+= initial position
+%% v0
+= initial velocity
+%% q1
+= final position
+%% v1
+= final velocity
+%% t0
+= initial time
+%% tf
+= final time
+%%
+clear
+d
+= input(’ initial data = [q0,v0,q1,v1,t0,tf] = ’)
+q0 = d(1); v0 = d(2); q1 = d(3); v1 = d(4);
+t0 = d(5); tf = d(6);
+t = linspace(t0,tf,100*(tf-t0));

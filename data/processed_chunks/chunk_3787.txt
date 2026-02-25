@@ -1,0 +1,10 @@
+ment learning player would learn to set up multi-move traps for a shortsighted
+opponent. It is a striking feature of the reinforcement learning solution that it
+can achieve the eﬀects of planning and lookahead without using a model of the
+opponent and without conducting an explicit search over possible sequences
+of future states and actions.
+While this example illustrates some of the key features of reinforcement
+learning, it is so simple that it might give the impression that reinforcement
+learning is more limited than it really is. Although tic-tac-toe is a two-person
+game, reinforcement learning also applies in the case in which there is no exter-
+nal adversary, that is, in the case of a “game against nature.” Reinforcement

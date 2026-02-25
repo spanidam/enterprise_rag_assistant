@@ -1,0 +1,14 @@
+adept at remembering just the key clues, and at sizing up new players quickly,
+but no one remembers everything that is relevant.
+As a result, the state
+representations people use to make their poker decisions are undoubtedly non-
+Markov, and the decisions themselves are presumably imperfect. Nevertheless,
+people still make very good decisions in such tasks. We conclude that the
+inability to have access to a perfect Markov state representation is probably
+not a severe problem for a reinforcement learning agent.
+3.6. MARKOV DECISION PROCESSES
+67
+3.6
+Markov Decision Processes
+A reinforcement learning task that satisﬁes the Markov property is called a
+Markov decision process, or MDP. If the state and action spaces are ﬁnite,

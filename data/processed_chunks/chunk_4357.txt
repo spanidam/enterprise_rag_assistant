@@ -1,0 +1,20 @@
+experience, model, values, and policy are summarized in Figure 8.2. Each
+arrow shows a relationship of inﬂuence and presumed improvement. Note how
+experience can improve value and policy functions either directly or indirectly
+via the model. It is the latter, which is sometimes called indirect reinforcement
+learning, that is involved in planning.
+8.2. INTEGRATING PLANNING, ACTING, AND LEARNING
+199
+planning
+value/policy
+experience
+model
+model
+learning
+acting
+direct
+RL
+Figure 8.2: Relationships among learning, planning, and acting.
+Both direct and indirect methods have advantages and disadvantages. In-
+direct methods often make fuller use of a limited amount of experience and
+thus achieve a better policy with fewer environmental interactions. On the

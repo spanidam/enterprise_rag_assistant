@@ -1,0 +1,15 @@
+cal Report 93-77.
+Singh, S. P., Bertsekas, D. (1997). Reinforcement learning for dynamic channel
+allocation in cellular telephone systems. In Advances in Neural Information
+Processing Systems: Proceedings of the 1996 Conference, pp. 974–980. MIT
+Press, Cambridge, MA.
+Singh, S. P., Jaakkola, T., Jordan, M. I. (1994).
+Learning without state-
+estimation in partially observable Markovian decision problems. In W. W. Co-
+hen and H. Hirsch (eds.), Proceedings of the Eleventh International Con-
+ference on Machine Learning, pp. 284–292. Morgan Kaufmann, San Fran-
+cisco.
+Singh, S. P., Jaakkola, T., Jordan, M. I. (1995). Reinforcement learing with
+soft state aggregation.
+In G. Tesauro, D. S. Touretzky, T. Leen (eds.),
+Advances in Neural Information Processing Systems: Proceedings of the

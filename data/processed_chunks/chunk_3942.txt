@@ -1,0 +1,11 @@
+is “myopic” in being concerned only with maximizing immediate rewards: its
+objective in this case is to learn how to choose At so as to maximize only
+Rt+1. If each of the agent’s actions happened to inﬂuence only the immediate
+reward, not future rewards as well, then a myopic agent could maximize (3.2)
+by separately maximizing each immediate reward. But in general, acting to
+maximize immediate reward can reduce access to future rewards so that the
+return may actually be reduced. As γ approaches 1, the objective takes future
+rewards into account more strongly: the agent becomes more farsighted.
+Example 3.4: Pole-Balancing
+Figure 3.2 shows a task that served as an
+early illustration of reinforcement learning. The objective here is to apply

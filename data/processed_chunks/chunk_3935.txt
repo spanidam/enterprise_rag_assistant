@@ -1,0 +1,12 @@
+you want it achieved.
+Newcomers to reinforcement learning are sometimes surprised that the
+rewards—which deﬁne of the goal of learning—are computed in the environ-
+ment rather than in the agent.
+Certainly most ultimate goals for animals
+are recognized by computations occurring inside their bodies, for example, by
+sensors for recognizing food, hunger, pain, and pleasure. Nevertheless, as we
+discussed in the previous section, one can redraw the agent–environment in-
+terface in such a way that these parts of the body are considered to be outside
+of the agent (and thus part of the agent’s environment). For example, if the
+goal concerns a robot’s internal energy reservoirs, then these are considered to
+be part of the environment; if the goal concerns the positions of the robot’s

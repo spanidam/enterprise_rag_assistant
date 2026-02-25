@@ -1,0 +1,33 @@
+print(my_dict["banana"]) # Prints: 3
+print(my_dict.get("apple")) # Prints: 2
+print(my_dict.get("pineapple", -1)) # Prints: -1
+CHECKPOINT
+Accessing dictionary items
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+10-3-dictionary-operations)
+CONCEPTS IN PRACTICE
+Dictionary items
+Given the dictionary members = {"Jaya": "Student", "John": "TA", "Ksenia": "Staff"},
+answer the following questions.
+1. What is the output of members["Jaya"]?
+a.
+0
+b.
+None
+c.
+"Student"
+2. What is the output of members.get("jaya")?
+a.
+0
+b.
+None
+c.
+"Student"
+3. What is the output of members.get("jaya", "does not exist")?
+a.
+"Student"
+b.
+"does not exist"
+c.
+None
+Obtaining dictionary keys and values

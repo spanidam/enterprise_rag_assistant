@@ -1,0 +1,10 @@
+form. Instead, the trainer provides only a sequence of immediate reward val- 
+ues as the agent executes its sequence of actions. The agent, therefore, faces 
+the problem of temporal credit assignment: determining which of the actions 
+in its sequence are to be credited with producing the eventual rewards. 
+0 Exploration. In reinforcement learning, the agent influences the distribution 
+of training examples by the action sequence it chooses. This raises the ques- 
+tion of which experimentation strategy produces most effective learning. The 
+learner faces a tradeoff in choosing whether to favor exploration of unknown 
+states and actions (to gather new information), or exploitation of states and 
+actions that it has already learned will yield high reward (to maximize its

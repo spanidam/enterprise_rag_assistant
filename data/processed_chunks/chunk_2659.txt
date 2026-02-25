@@ -1,0 +1,12 @@
+prediction algorithms can be taken to be the alternative hypotheses in H, or they 
+can be taken to be alternative learning algorithms that themselves vary over time. 
+All that we require of a prediction algorithm is that it predict the value of the target 
+concept, given an instance. One interesting property of the WEIGHTED-MAJORITY 
+algorithm is that it is able to accommodate inconsistent training data. This is 
+because it does not eliminate a hypothesis that is found to be inconsistent with 
+some training example, but rather reduces its weight. A second interesting property 
+is that we can bound the number of mistakes made by WEIGHTED-MAJORITY 
+in 
+terms of the number of mistakes committed by the best of the pool of prediction 
+algorithms. 
+The WEIGHTED-MAJORITY

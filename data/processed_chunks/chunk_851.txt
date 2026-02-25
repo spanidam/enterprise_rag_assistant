@@ -1,0 +1,21 @@
+mand velocity ξ for the end eﬀector.
+Thus, we deﬁne our control input as
+u(t) = ξ. Using the results above, we can deﬁne a proportional control law as
+u(t) = −KL+e(t).
+(12.20)
+in which K is an m × m diagonal, positive deﬁnine gain matrix.
+The derivative of the error function is given by
+˙e(t) = d
+dt(s(t) −sd) = ˙s(t) = Lξ
+and substituting Equation (12.20) for ξ we obtain
+˙e(t)
+=
+−KLL+e(t)
+(12.21)
+If k = m and L has full rank, then L+ = L−1, and we have
+˙e(t) = −Ke(t)
+From linear system theory, we know that this system is stable when the eigen
+values of K are positive, which motivates the selection of K as a positive deﬁnite
+matrix.
+When k > m, as is typically the case for visual servo systems, a suﬃcient
+condition for stability is that the matrix product KLL+ is positive deﬁnite.

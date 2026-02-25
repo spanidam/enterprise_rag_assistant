@@ -1,0 +1,10 @@
+42
+Chapter 7. Recurrent Neural Networks
+Deep Learning Basics (lecture notes)
+One can see how quickly gradients gets close to 0 for inputs larger (in absolute value) than 2, and having multiple such
+terms in a computation chain will likely make the corresponding terms vanish.
+In other words, the gradient of the hidden state at time 𝑡will only be influenced by a few of its predecessors
+{ℎ𝑡−1, ℎ𝑡−2, … } and long-term dependencies will be ignored when updating model parameters through gradient descent.
+This is an occurrence of a more general phenomenon known as the vanishing gradient effect.
+7.2 Long Short-Term Memory
+The Long Short-Term Memory (LSTM, [Hochreiter and Schmidhuber, 1997]) blocks have been designed as an alternative

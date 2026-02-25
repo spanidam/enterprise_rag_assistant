@@ -1,0 +1,15 @@
+The Statements chapter introduced simple expressions like 1 * 2 and "Hi " + "there". This chapter
+explores other kinds of expressions for working with numbers and strings. The first section shows a great way
+to experiment with expressions using a Python shell. Later sections present more details about integers and
+floating-point numbers, explain how to import and use the math module, and show how to make long lines of
+code easier to read.
+Expressions
+2
+2.1 The Python shell
+Learning objectives
+By the end of this section you should be able to
+•
+Use a Python shell to run statements and expressions interactively.
+•
+Explain the function of the up and down arrow keyboard shortcuts.
+The interpreter

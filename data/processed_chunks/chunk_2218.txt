@@ -1,0 +1,13 @@
+threshold. In fact, this is a poor strategy because BACKPROPAGATION 
+is suscepti- 
+ble to overfitting the training examples at the cost of decreasing generalization 
+accuracy over other unseen examples. 
+To see the dangers of minimizing the error over the training data, consider 
+how the error E varies with the number of weight iterations. Figure 4.9 shows 
+t ~ h e  
+source code to reproduce this example is available at http://www.cs.cmu.edu/-tom/mlbook.hhnl. 
+Sum of squared errors for each output unit 
+Hidden unit encoding for input 01000000 
+FIGURE 4.8 
+Learning the 8 x 3 x 8 Network. The top plot shows the evolving sum of squared errors for each of 
+the eight output units, as the number of training iterations (epochs) increases. The middle plot shows

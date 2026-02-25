@@ -1,0 +1,56 @@
+2 and then
+transform p1 to p0 using R0
+1.
+We may also interpret Equation (2.17) as follows. Suppose initially that all
+three of the coordinate frames coincide. We ﬁrst rotate the frame o2x2y2z2
+relative to o0x0y0z0 according to the transformation R0
+1. Then, with the frames
+o1x1y1z1 and o2x2y2z2 coincident, we rotate o2x2y2z2 relative to o1x1y1z1 ac-
+cording to the transformation R1
+2. In each case we call the frame relative to
+which the rotation occurs the current frame.
+Example 2.5
+Suppose a rotation matrix R represents a rotation of angle φ about the current
+y-axis followed by a rotation of angle θ about the current z-axis.
+Refer to
+Figure 2.9. Then the matrix R is given by
+R
+=
+Ry,φRz,θ
+(2.18)
+=
+
+
+cφ
+0
+sφ
+0
+1
+0
+−sφ
+0
+cφ
+
+
+
+
+cθ
+−sθ
+0
+sθ
+cθ
+0
+0
+0
+1
+
+
+=
+
+
+cφcθ
+−cφsθ
+sφ
+sθ
+cθ
+0

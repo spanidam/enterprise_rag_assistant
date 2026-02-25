@@ -1,0 +1,10 @@
+0 EBL as "just" restating what the learner already "knows. " In one sense, the 
+learner in our SafeToStack example begins with full knowledge of the Safe- 
+ToStack concept. That is, if its initial domain theory is sufficient to explain 
+any observed training examples, then it is also sufficient to predict their 
+classification in advance. In what sense, then, does this qualify as learning? 
+One answer is that in many tasks the difference between what one knows 
+in principle and what one can efficiently compute in practice may be great, 
+and in such cases this kind of "knowledge reformulation" can be an impor- 
+tant form of learning. In playing chess, for example, the rules of the game 
+constitute a perfect domain theory, sufficient in principle to play perfect

@@ -1,0 +1,11 @@
+with these training examples. All six hypotheses are shown in Figure 2.3. They 
+constitute the version space relative to this set of data and this hypothesis repre- 
+sentation. The arrows among these six hypotheses in Figure 2.3 indicate instances 
+of the more-general~han relation. The CANDIDATE-ELIMINATION 
+algorithm rep- 
+resents the version space by storing only its most general members (labeled G 
+in Figure 2.3) and its most specific (labeled S in the figure). Given only these 
+two sets S and G, it is possible to enumerate all members of the version space 
+as needed by generating the hypotheses that lie between these two sets in the 
+general-to-specific partial ordering over hypotheses. 
+It is intuitively plausible that we can represent the version space in terms of

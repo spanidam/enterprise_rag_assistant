@@ -1,0 +1,38 @@
+1-4-string-basics)
+CONCEPTS IN PRACTICE
+String concatenation
+8. Which produces the string "10"?
+a.
+1 + 0
+b.
+"1 + 0"
+c.
+"1" + "0"
+9. Which produces the string "Awake"?
+18
+1 • Statements
+Access for free at openstax.org
+a.
+"wake" + "A"
+b.
+"A + wake"
+c.
+"A" + "wake"
+10. A user enters "red" after the following line of code.
+color = input("What is your favorite color?")
+Which produces the output "Your favorite color is red!"?
+a.
+print("Your favorite color is " + color + !)
+b.
+print("Your favorite color is " + "color" + "!")
+c.
+print("Your favorite color is " + color + "!")
+11. Which of the following assigns "one-sided" to the variable holiday?
+a.
+holiday = "one" + "sided"
+b.
+holiday = one-sided
+c.
+holiday = "one-" + "sided"
+TRY IT
+Name length

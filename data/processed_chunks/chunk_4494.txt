@@ -1,0 +1,28 @@
+ﬁed.
+244CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+Let w and e be vectors with one component for each possible feature
+Let Fa, for every possible action a, be a set of feature indices, initially empty
+Initialize w as appropriate for the problem, e.g., w = 0
+Repeat (for each episode):
+e = 0
+S ←initial state of episode
+Repeat (for each step of episode):
+For all a ∈A(S):
+Fa ←set of features present in S, a
+Qa ←P
+i∈Fa wi
+A∗←argmaxa Qa
+A ←A∗with prob. 1 −ε, else a random action ∈A(S)
+If A ̸= A∗, then e = 0
+Take action A, observe reward, R, and next state, S′
+δ ←R −QA
+For all i ∈FA:
+ei ←ei + 1
+(accumulating traces)
+or ei ←1
+(replacing traces)
+If S′ is terminal, then w ←w + αδe; go to next episode
+For all a ∈A(S′):
+Fa ←set of features present in S′, a
+Qa ←P
+i∈Fa wi

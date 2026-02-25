@@ -1,0 +1,21 @@
+4.1 Boolean values
+Learning objectives
+By the end of this section you should be able to
+•
+Explain a Boolean value.
+•
+Use bool variables to store Boolean values.
+•
+Demonstrate converting integers, floats, and strings to Booleans.
+•
+Demonstrate converting Booleans to integers, floats, and strings.
+•
+Use comparison operators to compare integers, floats, and strings.
+Decisions
+4
+bool data type
+People often ask binary questions such as yes/no or true/false questions. Ex: Do you like pineapple on pizza?
+Ex: True or false: I like pineapple on pizza. The response is a Boolean value, meaning the value is either true or
+false. The bool data type, standing for Boolean, represents a binary value of either true or false. true and
+false are keywords, and capitalization is required.
+CHECKPOINT

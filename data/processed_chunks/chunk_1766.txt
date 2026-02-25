@@ -1,0 +1,11 @@
+right operand, and returns the correct comparison of the two amount values.
+9. b. __gt__() overloads the > operator, which makes a comparison and returns True or False .
+11.5 Using modules with classes
+1. b. Level and XP are classes imported from the character module into the program. Any other class in the
+character module is not imported.
+2. b. A single class or multiple classes can be imported from a module using the class name(s).
+3. c. The number of classes in a module is unlimited, but classes should be grouped in modules to maximize
+reusability.
+4. b. The character module is aliased as game_char, so character is not defined in the program. game_char
+is used in place of character.
+5. c. game_char referred to the imported module, but assigning game_char replaces the imported module

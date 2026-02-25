@@ -1,0 +1,29 @@
+m
+T
+(B.42)
+=
+UΣm(Σ−1
+m )T U T J
+(B.43)
+=
+UΣmΣ−1
+m U T J
+(B.44)
+=
+UU T J
+(B.45)
+=
+J.
+(B.46)
+Here, Equation (B.40) follows immediately from our construction of the matri-
+ces U, V and Σm. Equation (B.42) is obtained by substituting Equation (B.39)
+into Equation (B.41). Equation (B.44) follows because Σ−1
+m is a diagonal ma-
+trix, and thus symmetric. Finally, Equation (B.46) is obtained using the fact
+that U T = U −1, since U is orthogonal.
+Appendix C
+Lyapunov Stability
+We give here some basic deﬁnitions of stability and Lyapunov functions and
+present a suﬃcient condition for showing stability of a class of nonlinear sys-
+tems. For simplicity we treat only time-invariant systems. For a more general
+treatment of the subject the reader is referred to [?].

@@ -1,0 +1,15 @@
+volume 250 of Lecture Notes in Control and Information Sciences, pages
+99–108. Springer-Verlag, 2000. ISBN: 1 85233 210 7.
+54. I. S. Sokolnikoﬀnad R. M. Redheﬀer. Mathematical Methods of Physics
+and Modern Engineering. McGraw-Hill, New York, 1958.
+REFERENCES
+401
+55. B. Nelson and P. K. Khosla.
+Integrating Sensor Placement and Visual
+Tracking Strategies. In Proceedings of IEEE Conference on Robotics and
+Automation, pages 1351–1356, 1994.
+56. B. J. Nelson and P. K. Khosla. The Resolvability Ellipsoid for Visual Ser-
+voing. In Proc. IEEE Computer Society Conference on Computer Vision
+and Pattern Recognition, pages 829–832, 1994.
+57. N. Nilsson. A mobile automaton: An application of artiﬁcial intellgience
+techniques. In Proc. Int. Joint Conf. on Art. Intell., 1969.

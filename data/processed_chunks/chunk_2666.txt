@@ -1,0 +1,11 @@
+cessful learning under the PAC model. 
+One constraining assumption of the PAC learning model is that the learner 
+knows in advance some restricted concept class C that contains the target 
+concept to be learned. In contrast, the agnostic learning model considers the 
+more general setting in which the learner makes no assumption about the 
+class from which the target concept is drawn. Instead, the learner outputs 
+the hypothesis from H that has the least error (possibly nonzero) over the 
+training data. Under this less restrictive agnostic learning model, the learner 
+is assured with probability (1 -6) to output a hypothesis within error E of the 
+best possible hypothesis in H, after observing rn randomly drawn training 
+examples, provided

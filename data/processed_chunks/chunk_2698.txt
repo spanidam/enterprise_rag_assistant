@@ -1,0 +1,13 @@
+assign the majority classification among them. 
+We can distance-weight the instances for real-valued target functions in a 
+similar fashion, replacing the final line of the algorithm in this case by 
+where wi is as defined in Equation (8.3). Note the denominator in Equation (8.4) is 
+a constant that normalizes the contributions of the various weights (e.g., it assures 
+that if f (xi) = c for all training examples, then f(x,) t 
+c as well). 
+Note all of the above variants of the k-NEAREST 
+NEIGHBOR 
+algorithm consider 
+only the k nearest neighbors to classify the query point. Once we add distance 
+weighting, there is really no harm in allowing all training examples to have an 
+influence on the classification of the x,, because very distant examples will have

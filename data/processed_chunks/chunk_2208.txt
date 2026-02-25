@@ -1,0 +1,12 @@
+representable functions. However, one can roughly characterize it as smooth in- 
+terpolation between data points. Given two positive training examples with no 
+negative examples between them, BACKPROPAGATION 
+will tend to label points in 
+between as positive examples as well. This can be seen, for example, in the de- 
+cision surface illustrated in Figure 4.5, in which the specific sample of training 
+examples gives rise to smoothly varying decision regions. 
+4.6.4 Hidden Layer Representations 
+One intriguing property of BACKPROPAGATION 
+is its ability to discover useful in- 
+termediate representations at the hidden unit layers inside the network. Because 
+training examples constrain only the network inputs and outputs, the weight-tuning

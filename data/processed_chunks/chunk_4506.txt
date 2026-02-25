@@ -1,0 +1,39 @@
+160
+170
+180
+190
+200
+210
+220
+230
+240
+Cost per
+episode
+0
+0.2
+0.4
+0.6
+0.8
+1
+!
+PUDDLE WORLD
+replacing
+traces
+accumulating
+traces 
+replacing
+traces
+accumulating
+traces
+RMS error
+Figure 9.12: The eﬀect of λ on reinforcement learning performance. In all
+cases, the better the performance, the lower the curve. The two left panels
+are applications to simple continuous-state control tasks using the Sarsa(λ) al-
+gorithm and tile coding, with either replacing or accumulating traces (Sutton,
+1996). The upper-right panel is for policy evaluation on a random walk task
+using TD(λ) (Singh and Sutton, 1996). The lower right panel is unpublished
+data for the pole-balancing task (Example 3.4) from an earlier study (Sutton,
+1984).
+9.6. SUMMARY
+249
+we see it performing much worse.

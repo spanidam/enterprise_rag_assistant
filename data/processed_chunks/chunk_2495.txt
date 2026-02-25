@@ -1,0 +1,13 @@
+gorithm is quite simple. During learning, the procedure LEARN~AIVEBAYES-TEXT
+examines all training documents to extract the vocabulary of all words and to- 
+kens that appear in the text, then counts their frequencies among the different 
+target classes to obtain the necessary probability estimates. Later, given a new 
+document to be classified, the procedure CLASSINSAIVEJ~AYES-TEXT 
+uses these 
+probability estimates to calculate VNB according to Equation (6.20). Note that 
+any words appearing in the new document that were not observed in the train- 
+ing set are simply ignored by CLASSIFYSAIVEBAYES-TEXT. 
+Code for this algo- 
+rithm, as well as training data sets, are available on the World Wide Web at 
+http://www.cs.cmu.edu/-tom/book.htrnl. 
+6.10.1 Experimental Results

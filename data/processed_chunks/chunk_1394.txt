@@ -1,0 +1,19 @@
+string to "Hi" instead of "hello" and print the greeting message again.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+8-2-string-slicing)
+TRY IT
+Editing the string at specified locations
+Given a string variable, string_variable, and a list of indexes, remove characters at the specified indexes
+and print the resulting string.
+Input:
+string_variable = "great"
+indices = [0, 1]
+prints eat
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+8-2-string-slicing)
+8.3 Searching/testing strings
+Learning objectives
+By the end of this section you should be able to
+•
+Use the in operator to identify whether a given string contains a substring.
+•

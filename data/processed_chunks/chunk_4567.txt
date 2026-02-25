@@ -1,0 +1,12 @@
+learned value functions and decide-time search as in heuristic search meth-
+ods. In more recent work, Tesauro and Galperin (1997) have begun exploring
+trajectory sampling methods as an alternative to search.
+Tesauro was able to play his programs in a signiﬁcant number of games
+against world-class human players. A summary of the results is given in Ta-
+ble 14.1. Based on these results and analyses by backgammon grandmasters
+(Robertie, 1992; see Tesauro, 1995), TD-Gammon 3.0 appears to be at, or
+very near, the playing strength of the best human players in the world. It
+may already be the world champion. These programs have already changed
+14.2. SAMUEL’S CHECKERS PLAYER
+279
+the way the best human players play the game. For example, TD-Gammon

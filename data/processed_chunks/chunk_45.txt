@@ -1,0 +1,14 @@
+Fig. 1.11
+The Stanford Arm. Photo courtesy of the Coordinated Science Lab, Univer-
+sity of Illinois at Urbana-Champaign.
+Figure 1.12.
+1.3.3
+SCARA Manipulator (RRP)
+The SCARA arm (for Selective Compliant Articulated Robot for Assembly)
+shown in Figure 1.13 is a popular manipulator, which, as its name suggests, is
+tailored for assembly operations. Although the SCARA has an RRP structure,
+it is quite diﬀerent from the spherical manipulator in both appearance and in its
+range of applications. Unlike the spherical design, which has z0 perpendicular
+to z1, and z1 perpendicular to z2, the SCARA has z0, z1, and z2 mutually
+parallel. Figure 1.14 shows the Epson E2L653S, a manipulator of this type.
+The SCARA manipulator workspace is shown in Figure 1.15.

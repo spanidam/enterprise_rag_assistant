@@ -1,0 +1,49 @@
+=
+n
+X
+i=1
+∂h
+∂xi
+
+
+n
+X
+j=1
+∂gi
+∂xj
+fj −
+n
+X
+j=1
+∂fi
+∂xj
+gj
+
+
+=
+n
+X
+i=1
+n
+X
+j=1
+∂h
+∂xi
+ ∂gi
+∂xj
+fj −∂fi
+∂xj
+gj
+
+304
+GEOMETRIC NONLINEAR CONTROL
+If the right hand side of (10.12) is expanded similarly it can be shown, with a
+little algebraic manipulation, that the two sides are equal. The details are left
+as an exercise (Problem 10-1).
+10.2.1
+The Frobenius Theorem
+In this section we present a basic result in diﬀerential geometry known as the
+Frobenius Theorem. The Frobenius Theorem can be thought of as an exis-
+tence theorem for solutions to certain systems of ﬁrst order partial diﬀerential
+equations. Although a rigorous proof of this theorem is beyond the scope of this
+text, we can gain an intuitive understanding of it by considering the following

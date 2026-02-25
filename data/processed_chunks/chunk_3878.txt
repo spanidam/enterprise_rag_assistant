@@ -1,0 +1,20 @@
+Exploration is needed because the estimates of the action values are uncertain.
+The greedy actions are those that look best at present, but some of the other
+actions may actually be better. ε-greedy action selection forces the non-greedy
+actions to be tried, but indiscriminately, with no preference for those that are
+nearly greedy or particularly uncertain. It would be better to select among
+the non-greedy actions according to their potential for actually being optimal,
+taking into account both how close their estimates are to being maximal and
+the uncertainties in those estimates. One eﬀective way of doing this is to select
+actions as
+At = argmax
+a
+"
+Qt(a) + c
+s
+ln t
+Nt(a)
+#
+,
+(2.8)
+where ln t denotes the natural logarithm of t (the number that e ≈2.71828

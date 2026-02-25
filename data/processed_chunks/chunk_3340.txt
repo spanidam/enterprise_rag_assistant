@@ -1,0 +1,14 @@
+16(3), 185-202. 
+Watkins, C. (1989). Learning from delayed rewards (Ph.D. dissertation). King's College, Cambridge, 
+England. 
+Watkins, C., & Dayan, P. (1992). Q-learning. Machine Learning, 8, 279-292. 
+Zhang, W., & Dietterich, T. G. (1996). High-performance job-shop scheduling with a time-delay 
+TD(A) network. In D. S. Touretzky, M. C. Mozer, & M. E. Hasselmo (Eds.), Advances in 
+neural information processing systems, 8, 1024-1030. 
+APPENDIX 
+NOTATION 
+Below is a summary of notation used in this book. 
+(a, b]: Brackets of the form [, 1, (, and ) are used to represent intervals, 
+where square brackets represent intervals including the boundary 
+and round parentheses represent intervals excluding the boundary. 
+For example, (1, 31 represents the interval 1 < x 5 3.

@@ -1,0 +1,38 @@
+and the result is either true or false. Ex: is_admin = (user == "admin"). user is compared with "admin"
+using the == operator, which tests for equality. The Boolean variable, is_admin, is assigned with the Boolean
+result.
+The 6 comparison operators:
+•
+equal to: ==
+•
+not equal to: !=
+•
+greater than: >
+•
+less than: <
+•
+greater than or equal to: >=
+•
+less than or equal to: <=
+CHECKPOINT
+Example: Rolling a d20 in a tabletop game
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+4-1-boolean-values)
+94
+4 • Decisions
+Access for free at openstax.org
+CONCEPTS IN PRACTICE
+Comparing values
+For each new variable, what is the value of compare_result?
+15. x = 14
+compare_result = (x <= 13)
+a.
+True
+b.
+False
+16. w = 0
+compare_result = (w != 0.4)
+a.
+True
+b.
+False

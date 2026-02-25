@@ -1,0 +1,12 @@
+(13.5) 
+a 
+Why is this rewrite important? Because it shows that if the agent learns the Q 
+function instead of the V* function, it will be able to select optimal actions even 
+when it has no knowledge of thefunctions r and 6. As Equation (13.5) makes clear, 
+it need only consider each available action a in its current state s and choose the 
+action that maximizes Q(s, a). 
+It may at first seem surprising that one can choose globally optimal action 
+sequences by reacting repeatedly to the local values of Q for the current state. 
+This means the agent can choose the optimal action without ever conducting a 
+lookahead search to explicitly consider what state results from the action. Part of 
+the beauty of Q learning is that the evaluation function is defined to have precisely

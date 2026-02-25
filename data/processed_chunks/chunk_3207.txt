@@ -1,0 +1,10 @@
+according to the domain theory (dashed lines in the figure). FOCL selects among all these candidate 
+specializations, based on their performance over the data. Therefore, imperfect domain theories will 
+impact the hypothesis only if the evidence supports the theory. This example is based on the same 
+training data and domain theory as the earlier KBANN example. 
+primitive attributes of the instances, are considered nonoperational. An example 
+of a nonoperational attribute in this case is the attribute Stable. 
+At each point in its general-to-specific search, FOCL expands its current 
+hypothesis h using the following two operators: 
+, 
+1. For each operational literal that is not part of h, create a specialization of h

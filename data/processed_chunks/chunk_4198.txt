@@ -1,0 +1,21 @@
+control problem (ﬁnding an optimal policy), DP, TD, and Monte Carlo meth-
+ods all use some variation of generalized policy iteration (GPI). The diﬀerences
+in the methods are primarily diﬀerences in their approaches to the prediction
+problem.
+6.1
+TD Prediction
+Both TD and Monte Carlo methods use experience to solve the prediction
+problem. Given some experience following a policy π, both methods update
+their estimate v of vπ for the nonterminal states St occurring in that experience.
+Roughly speaking, Monte Carlo methods wait until the return following the
+visit is known, then use that return as a target for V (St). A simple every-visit
+143
+144
+CHAPTER 6. TEMPORAL-DIFFERENCE LEARNING
+Monte Carlo method suitable for nonstationary environments is
+V (St) ←V (St) + α
+h
+Gt −V (St)
+i
+,
+(6.1)

@@ -1,0 +1,13 @@
+find a conjunction that will form the preconditions for the new rule. Within this 
+hypothesis space, it conducts a general-to-specific, hill-climbing search, beginning 
+with the most general preconditions possible (the empty precondition), then adding 
+literals one at a time to specialize the rule until it avoids all negative examples. 
+The two most substantial differences between FOIL and our earlier 
+SEQUENTIAL-COVERING 
+and LEARN-ONE-RULE 
+algorithm follow from the require- 
+ment that it accommodate first-order rules. These differences are: 
+1. In its general-to-specific search to 'learn each new rule, FOIL employs dif- 
+ferent detailed steps to generate candidate specializations of the rule. This 
+difference follows from the need to accommodate variables in the rule pre- 
+conditions.

@@ -1,0 +1,12 @@
+learning algorithms when available data is limited. Nevertheless, they do pro- 
+vide approximate confidence intervals that can be of great help in interpreting 
+experimental comparisons of learning methods. 
+5.7 SUMMARY AND FURTHER READING 
+The main points of this chapter include: 
+0 Statistical theory provides a basis for estimating the true error (errorv(h)) 
+of a hypothesis h, based on its observed error (errors(h)) over a sample S of 
+data. For example, if h is a discrete-valued hypothesis and the data sample 
+S contains n 2 30 examples drawn independently of h and of one another, 
+then the N% confidence interval for errorv(h) is approximately 
+where values for zN are given in Table 5.1. 
+0 In general, the problem of estimating confidence intervals is approached by

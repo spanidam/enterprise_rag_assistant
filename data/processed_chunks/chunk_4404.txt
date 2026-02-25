@@ -1,0 +1,11 @@
+starts anywhere and just keeps simulating. In either case, sample state tran-
+sitions and rewards are given by the model, and sample actions are given by
+the current policy. In other words, one simulates explicit individual trajecto-
+ries and performs backups at the state or state–action pairs encountered along
+the way. We call this way of generating experience and backups trajectory
+sampling.
+It is hard to imagine any eﬃcient way of distributing backups according
+to the on-policy distribution other than by trajectory sampling. If one had
+an explicit representation of the on-policy distribution, then one could sweep
+through all states, weighting the backup of each according to the on-policy dis-
+tribution, but this leaves us again with all the computational costs of exhaus-

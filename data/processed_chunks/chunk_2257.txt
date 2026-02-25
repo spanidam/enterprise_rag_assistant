@@ -1,0 +1,11 @@
+weights. The net effect is to constrain the space of potential hypotheses, 
+thereby reducing the risk of overfitting and improving the chances for accu- 
+rately generalizing to unseen situations. Such weight sharing is typically im- 
+plemented by first updating each of the shared weights separately within each 
+unit that uses the weight, then replacing each instance of the shared weight by 
+the mean of their values. The result of this procedure is that shared weights 
+effectively adapt to a different error function than do the unshared weights. 
+4.8.2 
+Alternative Error Minimization Procedures 
+While gradient descent is one of the most general search methods for finding a 
+hypothesis to minimize the error function, it is not always the most efficient. It

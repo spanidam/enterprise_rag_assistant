@@ -1,0 +1,16 @@
+Chapter 4 and the interaction matrix.
+In each case, a velocity ξ is related
+to the variation in a set of parameters (either joint angles or image feature
+THE INTERACTION MATRIX FOR POINTS
+359
+Figure showing the linear and angular
+velocity vectors for the camera frame.
+to be created
+Fig. 12.1
+Camera velocity
+velocities) by a linear transformation. Strictly speaking, the interaction matrix
+is not a Jacobian matrix, since ξ is not actually the derivative of some set of
+pose parameters. However, using techniques analogous to those used to develop
+the analytic Jacobian in Section 4.8, it is straightforward to construct an actual
+Jacobian matrix that represents a linear transformation from the derivatives of
+a set of pose parameters to the image feature velocities (which are derivatives

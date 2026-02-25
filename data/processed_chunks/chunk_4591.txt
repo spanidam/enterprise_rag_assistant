@@ -1,0 +1,13 @@
+were sometimes extremely long.
+On these episodes, the acrobot was usu-
+ally spinning repeatedly at the second joint while the ﬁrst joint changed only
+slightly from vertical down. Although this often happened for many time steps,
+it always eventually ended as the action values were driven lower. All runs
+ended with an eﬃcient policy for solving the problem, usually lasting about
+75 steps. A typical ﬁnal solution is shown in Figure 14.7. First the acrobot
+pumps back and forth several times symmetrically, with the second link always
+down. Then, once enough energy has been added to the system, the second
+link is swung upright and stabbed to the goal height.
+286
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+Figure 14.7: A typical learned behavior of the acrobot. Each group is a series

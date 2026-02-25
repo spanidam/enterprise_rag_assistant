@@ -1,0 +1,11 @@
+and Figure 3.7a shows the backup diagram for value iteration. These two are
+the natural backup operations for computing vπ and v∗.
+Finally, let us consider how value iteration terminates. Like policy eval-
+uation, value iteration formally requires an inﬁnite number of iterations to
+converge exactly to v∗. In practice, we stop once the value function changes
+by only a small amount in a sweep. Figure 4.5 gives a complete value iteration
+algorithm with this kind of termination condition.
+Value iteration eﬀectively combines, in each of its sweeps, one sweep of
+policy evaluation and one sweep of policy improvement. Faster convergence is
+often achieved by interposing multiple policy evaluation sweeps between each
+policy improvement sweep. In general, the entire class of truncated policy

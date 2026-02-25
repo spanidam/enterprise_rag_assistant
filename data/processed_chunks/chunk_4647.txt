@@ -1,0 +1,10 @@
+the non-TDNN algorithm (G12N). The TDNN algorithm (G12TDN) suﬀered
+due to the time it took to apply the kernel-scanning process, but Zhang and
+Dietterich point out that there are many ways to make it run faster.
+These results do not unequivocally establish the utility of reinforcement
+learning for job-shop scheduling or for other diﬃcult search problems. But
+they do suggest that it is possible to use reinforcement learning methods to
+learn how to improve the eﬃciency of search. Zhang and Dietterich’s job-
+shop scheduling system is the ﬁrst successful instance of which we are aware
+in which reinforcement learning was applied in plan-space, that is, in which
+states are complete plans (job-shop schedules in this case), and actions are plan

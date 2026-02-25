@@ -1,0 +1,13 @@
+though this did involve an interaction between three dimensions, many other
+dimensions were found to be irrelevant, greatly simplifying the analysis and
+increasing its signiﬁcance.
+In addition to the four dimensions just discussed, we have identiﬁed a
+number of others throughout the book:
+Deﬁnition of return Is the task episodic or continuing, discounted or undis-
+counted?
+Action values vs. state values vs. afterstate values What kind of val-
+ues should be estimated? If only state values are estimated, then either
+a model or a separate policy (as in actor–critic methods) is required for
+action selection.
+Action selection/exploration How are actions selected to ensure a suitable
+trade-oﬀbetween exploration and exploitation? We have considered only

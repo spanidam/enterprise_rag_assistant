@@ -1,0 +1,15 @@
+concept, and in particular, whether h(x) = c(x). 
+The CANDIDATE-ELIMINATION 
+algorithm represents the set of all hypotheses 
+consistent with the observed training examples. This subset of all hypotheses is 
+called the version space with respect to the hypothesis space H and the training 
+examples D, because it contains all plausible versions of the target concept. 
+Dejnition: The version space, denoted VSHVD, 
+with respect to hypothesis space H 
+and training examples D, is the subset of hypotheses from H consistent with the 
+training examples in D. 
+V S H , ~  
+= {h E HIConsistent(h, D)] 
+2.5.2 The LIST-THEN-ELIMINATE 
+Algorithm 
+One obvious way to represent the version space is simply to list all of its members.

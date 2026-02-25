@@ -1,0 +1,9 @@
+Notice that the above confidence interval is a two-sided bound; that is, it bounds 
+the estimated quantity from above and from below. In some cases, we will be 
+interested only in a one-sided bound. For example, we might be interested in the 
+question "What is the probability that errorz,(h) is at most U?' This kind of one- 
+sided question is natural when we are only interested in bounding the maximum 
+error of h and do not mind if the true error is much smaller than estimated. 
+There is an easy modification to the above procedure for finding such one- 
+sided error bounds. It follows from the fact that the Normal distribution is syrnrnet- 
+ric about its mean. Because of this fact, any two-sided confidence interval based on

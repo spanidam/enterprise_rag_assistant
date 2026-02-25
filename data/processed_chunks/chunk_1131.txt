@@ -1,0 +1,16 @@
+•
+Identify the data types produced by operations with integers, floats, and strings.
+•
+Use operators and type conversions to combine integers, floats, and strings.
+Combining integers and floats
+Programmers often need to combine numbers of different data types. Ex: A program computes the total for an
+online shopping order:
+quantity = int(input())
+price = float(input())
+total = quantity * price
+print(total)
+quantity is an integer, and price is a float. So what is the data type of total? For input 3 and 5.0, total is
+2.3 • Mixed data types
+45
+a float, and the program prints 15.0.
+Combining an integer and a float produces a float. A float is by default printed with at least one figure after the

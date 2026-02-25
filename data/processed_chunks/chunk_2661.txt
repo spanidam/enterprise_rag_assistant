@@ -1,0 +1,21 @@
+c(x)) 
+c Initialize qo and ql to 0 
+am For each prediction algorithm ai 
+c If ai(x) = O  then qo t 
+q0 +wi 
+If ai(x) = 1 then ql c 
+ql + wi 
+If ql > qo then predict c(x) = 1 
+If qo > q1 then predict c(x) = 0 
+If ql = qo then predict 0 or 1 at random for c(x) 
+For each prediction algorithm ai in A do 
+If ai(x) # c(x) then wi +- Buri 
+TABLE 7.1 
+WEIGHTED-MAJORITY 
+algorithm. 
+algorithm will ever be eliminated completely. If an algorithm misclassifies a train- 
+ing example, it will simply receive a smaller vote in the future. 
+We now show that the number of mistakes committed by the WEIGHTED- 
+MAJORITY algorithm can be bounded in terms of the number of mistakes made by 
+the best prediction algorithm in the voting pool. 
+Theorem 7.5. Relative mistake bound for WEIGHTED-MAJORITY.

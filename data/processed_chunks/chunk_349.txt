@@ -1,0 +1,42 @@
+Frep(q) =
+
+
+
+
+
+
+
+η
+ 1
+ρ(q) −1
+ρ0
+
+1
+ρ2(q)∇ρ(q)
+:
+ρ(q) ≤ρ0
+0
+:
+ρ(q) > ρ0
+(5.8)
+When QO is convex, the gradient of the distance to the nearest obstacle is given
+by
+∇ρ(q) =
+q −b
+||q −b||
+(5.9)
+in which b is the point in the boundary of QO that is nearest to q.
+The
+derivation of (5.8) and (5.9) are left as exercises ??.
+If QO is not convex, then ρ won’t necessarily be diﬀerentiable everywhere,
+which implies discontinuity in the force vector. Figure 5.3 illustrates such a case.
+PATH PLANNING USING CONFIGURATION SPACE POTENTIAL FIELDS
+157
+CB1
+CB2
+F rep
+F rep
+Fig. 5.3
+Situation in which the gradient of the repuslive potential of (5.7) is not con-
+tinuous
+Here QO contains two rectangular obstacles. For all conﬁgurations to the left of

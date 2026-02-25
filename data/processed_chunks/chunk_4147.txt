@@ -1,0 +1,12 @@
+optimal among the ε-soft policies, that is, when they are better than or equal
+to all other ε-soft policies.
+Consider a new environment that is just like the original environment, ex-
+cept with the requirement that policies be ε-soft “moved inside” the environ-
+ment. The new environment has the same action and state set as the original
+126
+CHAPTER 5. MONTE CARLO METHODS
+and behaves as follows. If in state s and taking action a, then with probability
+1 −ε the new environment behaves exactly like the old environment. With
+probability ε it repicks the action at random, with equal probabilities, and
+then behaves like the old environment with the new, random action. The best
+one can do in this new environment with general policies is the same as the

@@ -1,0 +1,15 @@
+Hull, C. L. (1952). A Behavior System. Wiley, New York.
+Jaakkola, T., Jordan, M. I., Singh, S. P. (1994).
+On the convergence of
+stochastic iterative dynamic programming algorithms.
+Neural Computa-
+tion, 6:1185–1201.
+Jaakkola, T., Singh, S. P., Jordan, M. I. (1995). Reinforcement learning algo-
+rithm for partially observable Markov decision problems. In G. Tesauro,
+D. S. Touretzky, T. Leen (eds.), Advances in Neural Information Process-
+ing Systems: Proceedings of the 1994 Conference, pp. 345–352. MIT Press,
+Cambridge, MA.
+Kaelbling, L. P. (1993a).
+Hierarchical learning in stochastic domains: Pre-
+liminary results. In Proceedings of the Tenth International Conference on
+Machine Learning, pp. 167–173. Morgan Kaufmann, San Mateo, CA.

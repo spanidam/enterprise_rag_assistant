@@ -1,0 +1,14 @@
+target value for this example in terms of the domain theory, (2) analyzing this 
+explanation to determine the general conditions under which the explanation 
+holds, and (3) refining its hypothesis to incorporate these general conditions. 
+a PROLOG-EBG 
+is an explanation-based learning algorithm that uses first-order 
+Horn clauses to represent both its domain theory and its learned hypothe- 
+ses. In PROLOG-EBG 
+an explanation is a PROLOG proof, and the hypothesis 
+extracted from the explanation is the weakest preimage of this proof. As a 
+result, the hypotheses output by PROLOG-EBG follow deductively from its 
+domain theory. 
+a Analytical learning methods such as PROLOG-EBG 
+construct useful interme- 
+diate features as a side effect of analyzing individual training examples. This

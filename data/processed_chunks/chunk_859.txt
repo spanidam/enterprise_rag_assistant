@@ -1,0 +1,11 @@
+sensing errors, they sometimes fail when the required camera motion is large.
+Consider, for example, the case when the required camera motion is a large
+rotation about the optic axis. If point features are used, a pure rotation of
+the camera about the optic axis would cause each feature point to trace a
+trajectory in the image that lies on a circle. Image-based methods, in contrast,
+would cause each feature point to move in a straight line from its current image
+position to its desired position. The induced camera motion would be a retreat
+along the optic axis, and for a required rotation of π, the camera would retreat
+to z = −∞, at which point det L = 0, and the controller would fail.
+This
+problem is a consequence of the fact that image-based control does not explicitly

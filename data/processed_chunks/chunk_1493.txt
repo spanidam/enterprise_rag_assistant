@@ -1,0 +1,22 @@
+Classes
+11
+and procedures into objects. Real-world entities are modeled as individual objects that interact with each
+other. Ex: A social media account can follow other accounts, and accounts can send messages to each other. An
+account can be modeled as an object in a program.
+CHECKPOINT
+Using objects to model social media
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-1-object-oriented-programming-basics)
+CONCEPTS IN PRACTICE
+OOP
+1. Consider the example above. Which is a field in Ellis's 12/18/23 post?
+a.
+Ellis's followers list
+b.
+Ellis's username
+2. What does an object typically model in object-oriented programming?
+a.
+program code
+b.
+real-world entity
+Encapsulation

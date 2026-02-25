@@ -1,0 +1,13 @@
+0 Inductive learning algorithms are able to classify unseen examples only be- 
+cause of their implicit inductive bias for selecting one consistent hypothesis 
+over another. The bias associated with the CANDIDATE-ELIMINATION 
+algo- 
+rithm is that the target concept can be found in the provided hypothesis 
+space (c E H). The output hypotheses and classifications of subsequent in- 
+stances follow deductively from this assumption together with the observed 
+training data. 
+If the hypothesis space is enriched to the point where there is a hypoth- 
+esis corresponding to every possible subset of instances (the power set of 
+the instances), this will remove any inductive bias from the CANDIDATE- 
+ELIMINATION 
+algorithm. Unfortunately, this also removes the ability to clas-

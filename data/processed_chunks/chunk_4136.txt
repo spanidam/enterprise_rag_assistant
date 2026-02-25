@@ -1,0 +1,10 @@
+guaranteeing correct convergence up to some level of approximation. However,
+it is also likely to require far too many episodes to be useful in practice on any
+but the smallest problems.
+The second approach to avoiding the inﬁnite number of episodes nominally
+required for policy evaluation is to forgo trying to complete policy evaluation
+before returning to policy improvement. On each evaluation step we move the
+value function toward qπk, but we do not expect to actually get close except
+over many steps. We used this idea when we ﬁrst introduced the idea of GPI in
+Section 4.6. One extreme form of the idea is value iteration, in which only one
+iteration of iterative policy evaluation is performed between each step of policy

@@ -1,0 +1,14 @@
+the accumulation of human feedback for revising the reward
+model is crucial to prevent the reward model from being
+changed too much, which could hurt the stability of LLaMA
+model training.
+Alpaca [62] is fine-tuned from the LLaMA-7B model using
+52K instruction-following demonstrations generated in the
+style of self-instruct using GPT-3.5 (text-davinci-003). Alpaca
+is very cost-effective for training, especially for academic
+research. On the self-instruct evaluation set, Alpaca performs
+similarly to GPT-3.5, despite that Alpaca is much smaller.
+The Vicuna team has developed a 13B chat model, Vicuna-
+13B, by fine-tuning LLaMA on user-shared conversations
+collected from ShareGPT. Preliminary evaluation using GPT-
+4 as a evaluator shows that Vicuna-13B achieves more than

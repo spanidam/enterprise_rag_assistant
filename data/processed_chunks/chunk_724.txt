@@ -1,0 +1,38 @@
+then of the form
+˙x
+=
+f(x) + G(x)u
+(10.90)
+In the single-link case we saw that the appropriate state variables with which
+to deﬁne the system so that it could be linearized by nonlinear feedback were
+the link position, velocity, acceleration, and jerk.
+Following the single-input
+example, then, we can attempt to do the same thing in the multi-link case and
+FEEDBACK LINEARIZATION FOR N-LINK ROBOTS
+317
+derive a feedback linearizing transformation blockwise as follows: Set
+y1
+=
+T1(x1) := x1
+y2
+=
+T2(x) := ˙y1 = ˙x2
+y3
+=
+T3(x) := ˙y2 = ˙x2
+=
+−D(x1)−1{h(x1, x2) + K(x1 −x3)}
+y4
+=
+T4(x) := ˙y3
+=
+−d
+dt[D(x1)−1]{h(x1, x2) + K(x1 −x3)} −D(x1)−1 n
+∂h
+∂x1 x2
++ ∂h
+∂x2 [−D(x1)−1(h(x1, x2) + K(x1 −x3))] + K(x2 −x4)
+o
+:=
+a4(x1, x2, x3) + D(x1)−1Kx4
+(10.91)

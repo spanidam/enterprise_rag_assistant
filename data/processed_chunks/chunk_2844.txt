@@ -1,0 +1,13 @@
+an appropriate set of crossover operators. Hint: Do not allow all possible crossover 
+operations on bit strings. State one advantage and one disadvantage of using GAS 
+in contrast to BACKPROPAGATION 
+to train network weights. 
+REFERENCES 
+Ackley, D., & Littman, M. (1994). A case for Lamarckian evolution. In C. Langton (Ed.), Am$cial 
+life III. Reading, MA: Addison Wesley. 
+Back, T. (1996). Evolutionary algorithms in theory andpractice. Oxford, England: Oxford University 
+Press. 
+Baldwin, J. M. (1896). A new factor in evolution. American Naturalist, 3, 441-451, 536-553. 
+http://www.santafe.edu/sfi/publications/B 
+Belew, R. (1990). Evolution, learning, and culture: Computational metaphors for adaptive algorithms. 
+Complex Systems, 4, 11-49.

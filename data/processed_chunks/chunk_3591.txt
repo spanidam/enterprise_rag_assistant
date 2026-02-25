@@ -1,0 +1,17 @@
+and tool descriptions. This process results in the
+generation of instructions related to the use of tools.
+There are three versions of this dataset. The first
+version comprises 71,000 instruction-following data
+points utilized to fine-tune the GPT4Tools model. The
+next version consists of manually cleaned instruction
+data used for validation, covering instructions related
+to the tools from the first version. The last version is
+cleaned instruction data used for testing and includes
+instructions related to some tools that are not present
+in the first version.
+VI.
+PROMINENT LLMS’ PERFORMANCE ON
+BENCHMARKS
+In this section we first provide an overview of some of
+popular metrics used for evaluating the performance of LLMs
+under different scenarios. We then look at the performance

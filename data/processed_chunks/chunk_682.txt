@@ -1,0 +1,14 @@
+297
+Problems
+9-1 Given the two-link planar manipulator of Figure 9.11, ﬁnd the joint torques
+τ1 and τ2 corresponding to the end-eﬀector force vector (−1, −1)T .
+9-2 Consider the two-link planar manipulator with remotely driven links shown
+in Figure 9.15. Find an expression for the motor torques needed to bal-
+Fig. 9.15
+Two-link manipulator with remotely driven link.
+ance a force F at the end-eﬀector. Assume that the motor gear ratios are
+r1, r2, respectively.
+9-3 What are the natural and artiﬁcial constraints for the task of inserting a
+square peg into a square hole? Sketch the compliance frame for this task.
+9-4 Describe the natural and artiﬁcial constraints associated with the task of
+opening a box with a hinged lid. Sketch the compliance frame.

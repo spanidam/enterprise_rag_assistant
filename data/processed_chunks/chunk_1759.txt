@@ -1,0 +1,11 @@
+separated.
+6. c. The loop multiplies all values by 2 and prints the output. So, 4 , 10 , and 2 are printed.
+394
+Access for free at openstax.org
+10.5 Nested dictionaries and dictionary comprehension
+1. b. A nested dictionary contains another dictionary.
+2. c. Both outer and inner keys must be used to index into both outer and inner dictionaries, respectively, to
+obtain an inner value.
+3. b. A nested dictionary is a value of another dictionary, representing the data in a two-layer structure.
+4. b. Keys in the dictionary are even values in the list numbers, and associated values are the powers of two.
+5. a. Dictionary keys are string values in the names list, and associated values are the length of each string.

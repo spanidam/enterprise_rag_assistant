@@ -1,0 +1,17 @@
+to ﬁrst-visit Monte Carlo methods.
+The second trace variation, called the
+dutch trace, is sort of intermediate between accumulating and replacing traces,
+depending on the step-size parameter α. Dutch traces are deﬁned by
+Et(St) = (1 −α)γλEt−1(St) + 1.
+(7.13)
+Note that as α approaches zero, the dutch trace becomes the accumulating
+7.4. EQUIVALENCES OF FORWARD AND BACKWARD VIEWS
+181
+times of state visits
+accumulating traces
+dutch traces (α = 0.5)
+replacing traces
+Figure 7.9: The three diﬀerent kinds of traces. Accumulating traces add up
+each time a state is visited, whereas replacing traces are reset to one, and
+dutch traces do something inbetween, depending on α (here we show them for
+α = 0.5). In all cases the traces decay at a rate of γλ per step; here we show

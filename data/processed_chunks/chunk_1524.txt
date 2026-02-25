@@ -1,0 +1,17 @@
+make any changes to the rest of the code. In the end, the program should run without errors.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+11-5-using-modules-with-classes)
+11.6 Chapter summary
+Highlights from this chapter include:
+•
+Object-oriented programming involves grouping related fields and procedures into objects using data
+abstraction and encapsulation.
+•
+Classes define a type of object with attributes and methods.
+•
+Instances of a class type represent objects and are created using __init__().
+•
+Attributes may belong to the instance (unique for each instance) or the class (shared by all instances).
+•
+Instance methods have the first parameter self to access the specific instance.
+•

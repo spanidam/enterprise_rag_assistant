@@ -1,0 +1,34 @@
+Lagrange equations leads to a system of n coupled, second order nonlinear
+ordinary diﬀerential equations of the form
+Euler-Lagrange Equations
+d
+dt
+∂L
+∂˙qi
+−∂L
+∂qi
+=
+τi
+i = 1, . . . , n
+(6.11)
+The order, n, of the system is determined by the number of so-called gener-
+alized coordinates that are required to describe the evolution of the system.
+We shall see that the n Denavit-Hartenberg joint variables serve as a set of
+generalized coordinates for an n-link rigid robot.
+6.1.2
+The General Case
+Now, consider a system of k particles, with corresponding position vectors
+r1, . . . , rk. If these particles are free to move about without any restrictions,
+then it is quite an easy matter to describe their motion, by noting that the
+THE EULER-LAGRANGE EQUATIONS
+191
+r
+k
+r
+1
+:
+:
+:
+r
+2
+Fig. 6.3

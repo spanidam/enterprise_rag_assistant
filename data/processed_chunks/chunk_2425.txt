@@ -1,0 +1,11 @@
+characterize the implicit assumptions of the CANDIDATE-ELIMINATION 
+and FIND-S 
+algorithms. A probabilistic reasoning system based on Bayes theorem will exhibit 
+input-output behavior equivalent to these algorithms, provided it is given these 
+assumed probability distributions. 
+The discussion throughout this section corresponds to a special case of 
+Bayesian reasoning, because we considered the case where P(D1h) takes on val- 
+ues of only 0 and 1, reflecting the deterministic predictions of hypotheses and the 
+assumption of noise-free training data. As we shall see in the next section, we 
+can also model learning from noisy training data, by allowing P(D1h) to take on 
+values other than 0 and 1, and by introducing into P(D1h) additional assumptions

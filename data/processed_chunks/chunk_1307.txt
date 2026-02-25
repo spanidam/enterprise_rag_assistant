@@ -1,0 +1,17 @@
+and outputs a response by calling accepted() or rejected(). accepted() prints "Thank you for
+accepting the terms." and rejected() prints "You have rejected the terms. Thank you.".
+Given inputs 2, "Y" and "N", the output is:
+Do you accept the terms and conditions?
+Y
+Thank you for accepting the terms.
+Given a function call to terms() and input "N", the output is:
+Do you accept the terms and conditions?
+N
+You have rejected the terms. Thank you.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-2-control-flow)
+TRY IT
+Laundromat information
+Write a program that uses three functions to print information about a laundromat, Liam's Laundry:
+•
+laundromat_info(): Prints the name, Liam's Laundry, and hours of operation, 7a - 11p, and calls

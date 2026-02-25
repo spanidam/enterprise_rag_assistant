@@ -1,0 +1,16 @@
+EXAMPLE 1.1
+Hello world in Python and Java
+By tradition, Hello World (https://openstax.org/r/100helloworld) is the first program to write when learning
+a new language. This program simply displays the message "Hello, World!" to the user. The hello world
+program is only one line in Python:
+print("Hello, World!")
+In contrast, the hello world program is five lines in Java (a different language).
+public class Hello {
+public static void main(String[] args) {
+System.out.println("Hello, World!");
+}
+}
+However, conciseness is not the only consideration for which language is used. In different situations
+different languages may be more appropriate. Ex: Java is often used in Android development.
+CHECKPOINT
+Counting lines in a file

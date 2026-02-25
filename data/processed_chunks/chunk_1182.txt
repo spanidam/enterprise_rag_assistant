@@ -1,0 +1,35 @@
+position. Indexes are numbered from left to right, starting at 0. Indexes are also numbered from right to left,
+Objects
+3
+starting at -1.
+CHECKPOINT
+String indexes
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+3-1-strings-revisited)
+CONCEPTS IN PRACTICE
+String indexes
+1. What is the index of the second character in a string?
+a.
+1
+b.
+2
+c.
+-2
+2. If s = "Python!", what is the value of s[1] + s[-1]?
+a.
+"P!"
+b.
+"y!"
+c.
+"yn"
+3. If s = "Python!", what type of object is s[0]?
+a.
+character
+b.
+integer
+c.
+string
+Unicode
+Python uses Unicode, the international standard for representing text on computers. Unicode defines a
+unique number, called a code point, for each possible character. Ex: "P" has the code point 80, and "!" has
+the code point 33.

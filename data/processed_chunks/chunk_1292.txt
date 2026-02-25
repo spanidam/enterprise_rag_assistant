@@ -1,0 +1,28 @@
+loop entirely.
+•
+A loop else statement runs after the loop's execution is completed without being interrupted by a break
+statement.
+At this point, you should be able to write programs with loop constructs. The programming practice below ties
+together most topics presented in the chapter.
+Function
+Description
+range(end)
+Generates a sequence beginning at 0 until end with step size of 1.
+range(start, end)
+Generates a sequence beginning at start until end with step size of 1.
+range(start, end, s)
+Generates a sequence beginning at start until end with the step size of s.
+Loop constructs
+Description
+Table 5.4 Chapter 5 reference.
+140
+5 • Loops
+Access for free at openstax.org
+Function
+Description
+while loop
+# initialization
+while expression:
+# loop body
+# statements after the loop
+for loop

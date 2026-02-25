@@ -1,0 +1,13 @@
+Theorem 7.5. Relative mistake bound for WEIGHTED-MAJORITY. 
+Let D be any 
+sequence of training examples, let A be any set of n prediction algorithms, and let 
+k be the minimum number of mistakes made by any algorithm in A for the training 
+sequence D. Then the number of mistakes over D made by the WEIGHTED-MAJORITY 
+algorithm using /3 = 4 is at most 
+2.4(k + log, n) 
+Proof. We prove the theorem by comparing the final weight of the best prediction 
+algorithm to the sum of weights over all algorithms. Let aj denote an algorithm from 
+A that commits the optimal number k of mistakes. The final weight wj associated 
+with aj will be 
+because its initial weight is 1 and it is multiplied by 3 for each 
+mistake. Now consider the sum W = x : = ,  w i  of the weights associated with all n

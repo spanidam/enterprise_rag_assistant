@@ -1,0 +1,18 @@
+for this manipulator.
+NOTES AND REFERENCES
+105
+Fig. 3.28
+Three-link cartesian robot
+Fig. 3.29
+Elbow manipulator with spherical wrist
+9. Attach a spherical wrist to the three-link cartesian manipulator of Prob-
+lem 3-7 as shown in Figure 3.30. Derive the forward kinematic equations
+for this manipulator.
+10. Consider the PUMA 260 manipulator shown in Figure 3.31. Derive the
+complete set of forward kinematic equations, by establishing appropriate
+DH coordinate frames, constructing a table of link parameters, forming
+the A-matrices, etc.
+11. Repeat Problem 3-9 for the ﬁve degree-of-freedom Rhino XR-3 robot
+shown in Figure 3.32. (Note: you should replace the Rhino wrist with
+the sperical wrist.)
+12. Suppose that a Rhino XR-3 is bolted to a table upon which a coordi-

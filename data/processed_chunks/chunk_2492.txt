@@ -1,0 +1,10 @@
+example, so we must estimate 2 .  11 1 -50,000 = 10 million such terms from the 
+training data. 
+Fortunately, we can make an additional reasonable assumption that reduces 
+the number of probabilities that must be estimated. In particular, we shall as- 
+sume the probability of encountering a specific word wk (e.g., "chocolate") is 
+independent of the specific word position being considered (e.g., a23 versus agg). 
+More formally, this amounts to assuming that the attributes are independent and 
+identically distributed, given the target classification; that is, P(ai = wk)vj) = 
+P(a, = wkJvj) for all i, j, k, m. Therefore, we estimate the entire set of proba- 
+bilities P(a1 = wk lvj), P(a2 = wk lv,) . . . by the single position-independent prob-

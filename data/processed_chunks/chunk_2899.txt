@@ -1,0 +1,12 @@
+A literal is any predicate or its negation applied to any term (e.g., Married(Bob, 
+Louise), -Greater-Than(age(Sue), 20)). If a literal contains a negation (1) 
+sym- 
+bol, we call it a negative literal, otherwise a positive literal. 
+A clause is any disjunction of literals, where all variables are assumed to be 
+universally quantified. A Horn clause is a clause containing at most one positive 
+literal, such as 
+where H is the positive literal, and -Ll . . . -Ln are negative literals. Because of 
+the equalities (B v -A) = (B t 
+A) and -(A A B) = (-A v -B), the above Horn 
+clause can alternatively be written in the form 
+Every well-formed expression is composed of constants (e.g., Mary, 23, or Joe), variables (e.g.,

@@ -1,0 +1,21 @@
+them back to the previously visited states, as suggested by Figure 7.8. Where
+the TD error and traces come together, we get the update given by (7.11).
+To better understand the backward view, consider what happens at various
+values of λ. If λ = 0, then by (7.9) all traces are zero at t except for the trace
+corresponding to St. Thus the TD(λ) update (7.11) reduces to the simple TD
+Initialize V (s) arbitrarily (but set to 0 if s is terminal)
+Repeat (for each episode):
+Initialize E(s) = 0, for all s ∈S
+Initialize S
+Repeat (for each step of episode):
+A ←action given by π for S
+Take action A, observe reward, R, and next state, S′
+δ ←R + γV (S′) −V (S)
+E(S) ←E(S) + 1
+(accumulating traces)
+or E(S) ←(1 −α)E(S) + 1
+(dutch traces)
+or E(S) ←1
+(replacing traces)
+For all s ∈S:
+V (s) ←V (s) + αδE(s)

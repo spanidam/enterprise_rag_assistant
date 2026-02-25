@@ -1,0 +1,18 @@
+Ht(s, a)
+otherwise,
+where δt is the TD(λ) error (7.10), and Ht(s, a) is the preference for taking
+action a at time t if in state s. The preferences determine the policy via, for
+example, a softmax method (Section 2.3). We generalize the above equation
+to use eligibility traces as follows:
+Ht+1(s, a) = Ht(s, a) + αδtEt(s, a),
+(11.1)
+where Et(s, a) denotes the trace at time t for state–action pair s, a. For the
+simplest case mentioned above, the trace can be updated as in Sarsa(λ).
+In Section 11.1 we also discussed a more sophisticated actor–critic method
+that uses the update
+Ht+1(s, a) =
+ Ht(s, a) + αδt[1 −πt(a|s)]
+if a=At and s=St
+Ht(s, a)
+otherwise.
+To generalize this equation to eligibility traces we can use the same update

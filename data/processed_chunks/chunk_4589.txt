@@ -1,0 +1,29 @@
+three dimensions), and another 12 sliced along two dimensions (2 tilings for
+each of the 6 sets of two dimensions. Finally, a set of 12 tilings depended each
+on only one dimension (3 tilings for each of the 4 dimensions). This resulted
+14.3. THE ACROBOT
+285
+100
+1000
+1
+100
+200
+300
+400
+Steps per episode
+(log scale)
+500
+Episodes
+typical
+single run
+median of
+10 runs
+smoothed
+average of
+10 runs
+Figure 14.6: Learning curves for Sarsa(λ) on the acrobot task.
+in a total of approximately 25, 000 tiles for each action. This number is small
+enough that hashing was not necessary. All tilings were oﬀset by a random
+fraction of an interval in all relevant dimensions.
+The remaining parameters of the learning algorithm were α = 0.2/48,
+λ = 0.9, ϵ = 0, and w0 = 0. The use of a greedy policy (ε = 0) seemed

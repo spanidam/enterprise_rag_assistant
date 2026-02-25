@@ -1,0 +1,11 @@
+instances (xl . . . x,) was held fixed. Therefore, in deriving an expression for P(D(h) 
+we needed only consider the probability of observing the sequence of target values 
+( d l . .  .dm) for this fixed instance sequence. Consider the more general setting in 
+which the instances are not held fixed, but are drawn independently from some 
+probability distribution defined over the instance space X. The data D must now 
+be described as the set of ordered pairs {(xi, di)}, 
+and P(D1h) must now reflect the 
+CHAPTER 6 BAYESIAN LEARNING 199 
+probability of encountering the specific instance X I ,  as well as the probability of 
+the observed target value di. Show that Equation (6.5) holds even under this more 
+general setting. Hint: Consider the analysis of Section 6.5.

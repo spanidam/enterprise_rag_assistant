@@ -1,0 +1,20 @@
+# Convert from Fahrenheit to Celsius.
+convert_temps(wknd_temps, metric)
+for temp in wknd_temps:
+print(f"{temp:.2f}{deg_sign}{metric}", end=" ")
+The output is 9.44°F 10.56°F 6.67°F. type was changed to "C" in the function but didn't keep the
+change outside of the function. Why is the list argument change kept and not the string argument change?
+(Hint: A list is mutable. A string is immutable.)
+CHECKPOINT
+Exploring a faulty function
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-4-parameters)
+6.4 • Parameters
+161
+CONCEPTS IN PRACTICE
+Mutability and function arguments
+8. In convert_temps(), wknd_temps and temps refer to ________ in memory.
+a.
+the same object
+b.
+different objects

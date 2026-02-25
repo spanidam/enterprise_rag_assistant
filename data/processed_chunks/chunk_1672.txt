@@ -1,0 +1,28 @@
+8. Which of the following is used to check the DataFrame for Null values?
+a.
+isnan()
+b.
+isnull()
+c.
+isnone()
+9. Assuming that a DataFrame df is given, which of the following replaces Null values with zeros?
+a.
+df.fillna(0)
+b.
+df.replacena(0)
+c.
+df.fill(0)
+10. Assuming that a DataFrame df is given, what does the expression df.isnull().sum() do?
+a.
+Calculates sum of the non-Null values in each column
+b.
+Calculates the number of Null values in the DataFrame
+c.
+Calculates the number of Null values in each column
+Programming practice with Google
+Use the Google Colaboratory document below to practice EDA on a given dataset.
+Google Colaboratory document (https://openstax.org/r/100edapractice)
+15.5 Data visualization
+Learning objectives
+By the end of this section you should be able to
+•

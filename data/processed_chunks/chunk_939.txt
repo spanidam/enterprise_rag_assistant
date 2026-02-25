@@ -1,0 +1,45 @@
+parameter values for the model at stake given some observed data.
+The problem of finding such parameter values is coined optimization and the deep learning field makes extensive use of
+a specific family of optimization strategies called gradient descent.
+1.2.1 Gradient Descent
+To make one’s mind about gradient descent, let us assume we are given the following dataset about house prices:
+import pandas as pd
+boston = pd.read_csv("../data/boston.csv")[["RM", "PRICE"]]
+boston
+RM
+PRICE
+0
+6.575
+24.0
+1
+6.421
+21.6
+2
+7.185
+34.7
+3
+6.998
+33.4
+4
+7.147
+36.2
+..
+...
+...
+501
+6.593
+22.4
+502
+6.120
+20.6
+503
+6.976
+23.9
+504
+6.794
+22.0
+505
+6.030
+11.9
+[506 rows x 2 columns]
+In our case, we will try (for a start) to predict the target value of this dataset, which is the median value of owner-occupied

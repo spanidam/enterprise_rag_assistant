@@ -1,0 +1,25 @@
+•
+F-strings are a convenient way to print multiple outputs and format integers and floats.
+•
+Variables refer to objects. Memory diagrams are useful for drawing variables and objects.
+•
+A list object can be used to refer to multiple objects, by index, using the same variable.
+•
+A tuple is similar to a list, but uses parentheses and cannot be changed once created.
+Code
+Description
+ord(c)
+Gets an integer representing the Unicode code point of a character.
+chr(i)
+Converts a Unicode code point (integer) into a One-character string.
+'\n'
+Escape sequence for the newline character.
+'\t'
+Escape sequence for the tab character.
+f"{number:.02d}"
+Creates a string by formatting an integer to be at least two digits.
+Table 3.5 Chapter 3 reference.
+88
+3 • Objects
+Access for free at openstax.org
+Code

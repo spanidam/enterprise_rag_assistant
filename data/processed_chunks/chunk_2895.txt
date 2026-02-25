@@ -1,0 +1,16 @@
+being described. Now if we were to collect a number of such training examples for 
+the target concept Daughterlv2 and provide them to a propositional rule learner 
+such as CN2 or C4.5, the result would be a collection of very specific rules 
+such as 
+IF 
+(Father1 = Bob) A (Name2 = Bob) A (Femalel = True) 
+THEN 
+ daughter^,^ = True 
+Although it is correct, this rule is so specific that it will rarely, if ever, be useful in 
+classifying future pairs of people. The problem is that propositional representations 
+offer no general way to describe the essential relations among the values of the 
+attributes. In contrast, a program using first-order representations could learn the 
+following general rule: 
+IF 
+Father(y, x) r\ Female(y), THEN 
+Daughter(x, y)

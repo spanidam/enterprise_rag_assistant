@@ -1,0 +1,24 @@
+[108]
+Yandex.
+Yalm.
+[Online].
+Available:
+https://github.com/yandex/
+YaLM-100B
+[109]
+M. Team et al., “Introducing mpt-7b: a new standard for open-source,
+commercially usable llms,” 2023.
+[110]
+A. Mitra, L. D. Corro, S. Mahajan, A. Codas, C. Simoes, S. Agarwal,
+X. Chen, A. Razdaibiedina, E. Jones, K. Aggarwal, H. Palangi,
+G. Zheng, C. Rosset, H. Khanpour, and A. Awadallah, “Orca 2:
+Teaching small language models how to reason,” 2023.
+[111]
+L. Gao, A. Madaan, S. Zhou, U. Alon, P. Liu, Y. Yang, J. Callan, and
+G. Neubig, “Pal: Program-aided language models,” in International
+Conference on Machine Learning.
+PMLR, 2023, pp. 10 764–10 799.
+[112]
+Anthropic. claude. [Online]. Available: https://www.anthropic.com/
+news/introducing-claude
+[113]

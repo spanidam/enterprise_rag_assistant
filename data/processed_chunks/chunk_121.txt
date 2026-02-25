@@ -1,0 +1,69 @@
+p
+1 −r2
+33 so
+θ
+=
+atan2
+
+r33,
+q
+1 −r2
+33
+
+(2.29)
+or
+θ
+=
+atan2
+
+r33, −
+q
+1 −r2
+33
+
+(2.30)
+where the function atan2 is the two-argument arctangent function deﬁned
+in Appendix A.
+If we choose the value for θ given by Equation (2.29), then sθ > 0, and
+φ
+=
+atan2(r13, r23)
+(2.31)
+ψ
+=
+atan2(−r31, r32)
+(2.32)
+If we choose the value for θ given by Equation (2.30), then sθ < 0, and
+φ
+=
+atan2(−r13, −r23)
+(2.33)
+ψ
+=
+atan2(r31, −r32)
+(2.34)
+PARAMETERIZATIONS OF ROTATIONS
+49
+Thus there are two solutions depending on the sign chosen for θ.
+If r13 = r23 = 0, then the fact that R is orthogonal implies that r33 = ±1,
+and that r31 = r32 = 0. Thus R has the form
+R
+=
+
+
+r11
+r12
+0
+r21
+r22
+0
+0
+0
+±1
+
+
+(2.35)
+If r33 = 1, then cθ = 1 and sθ = 0, so that θ = 0. In this case Equation (2.27)
+becomes
+
+

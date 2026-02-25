@@ -1,0 +1,15 @@
+state of the art of LLMs, focusing on three LLM families (GPT,
+LLaMA and PaLM) and other representative models. Section
+III discusses how LLMs are built. Section IV discusses how
+LLMs are used, and augmented for real-world applications
+Sections V and VI review popular datasets and benchmarks for
+evaluating LLMs, and summarize the reported LLM evaluation
+results. Finally, Section VII concludes the paper by summa-
+rizing the challenges and future research directions.
+II.
+LARGE LANGUAGE MODELS
+In this section we start with a review of early pre-trained
+neural language models as they are the base of LLMs, and
+1Recently, several very promising non-transformer LLMs have been pro-
+posed, such as the LLMs based on structured state space models [29], [30].
+See Section VII for more details.

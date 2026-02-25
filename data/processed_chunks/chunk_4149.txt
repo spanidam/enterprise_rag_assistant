@@ -1,0 +1,29 @@
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
++
+ϵ
+|A(s)|
+X
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+.
+However, this equation is the same as the previous one, except for the substi-
+tution of vπ for ev∗. Since ev∗is the unique solution, it must be that vπ = ev∗.
+In essence, we have shown in the last few pages that policy iteration works
+for ε-soft policies. Using the natural notion of greedy policy for ε-soft policies,
+one is assured of improvement on every step, except when the best policy has
+been found among the ε-soft policies. This analysis is independent of how
+the action-value functions are determined at each stage, but it does assume
+that they are computed exactly.
+This brings us to roughly the same point
+as in the previous section. Now we only achieve the best policy among the

@@ -1,0 +1,44 @@
+Fine tuned models that are originally
+based on original models.
+Example: Alpaca (based on LLaMA)
+Original models that are not fine
+tuned or based on any other
+pretrained model.
+Example: LLaMA
+Model weights are publicly released
+and is available.
+Example: LLaMA
+Model weights are NOT publicly
+released and is NOT available.
+Example: GPT-4
+Pretrained model with no instruction
+or chat fine-tuning.
+Example: MPT-7B
+Pretrained model that is
+also fine-tuned on
+instruction following.
+Example: MPT-7B-instruct
+Pretrained model that is
+also fine-tuned on chat.
+Example: MPT-7B-chat
+Fig. 43: LLM categorizations.
+TABLE VIII: Coding capability comparison.
+Model
+HumanEval
+Gemini Ultra
+74.4
+Gemini Pro
+67.7
+GPT-4
+67
+WizardCoder 15B
+57.3
+phi-1 1.3B
+50.6
+Code Llama
+48.8
+GPT-3.5
+48.1
+OctoCoder
+46.2
+phi-1-small

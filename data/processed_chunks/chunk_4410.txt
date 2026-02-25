@@ -1,0 +1,13 @@
+with 10,000 states. In this case the advantage of on-policy focusing is large
+and long-lasting.
+All of these results make sense. In the short term, sampling according to the
+on-policy distribution helps by focusing on states that are near descendants
+of the start state.
+If there are many states and a small branching factor,
+this eﬀect will be large and long-lasting.
+In the long run, focusing on the
+on-policy distribution may hurt because the commonly occurring states all
+already have their correct values. Sampling them is useless, whereas sampling
+other states may actually perform some useful work. This presumably is why
+the exhaustive, unfocused approach does better in the long run, at least for
+small problems. These results are not conclusive because they are only for

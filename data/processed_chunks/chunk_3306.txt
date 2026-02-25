@@ -1,0 +1,11 @@
+13.5 TEMPORAL DIFFERENCE LEARNING 
+The Q learning algorithm learns by iteratively reducing the discrepancy between 
+Q value estimates for adjacent state:,. In this sense, Q learning is a special case 
+of a general class of temporal diflerence algorithms that learn by reducing dis- 
+crepancies between estimates made by the agent at different times. Whereas the 
+training rule of Equation (13.10) reduces the difference between the estimated Q 
+values of a state and its immediate successor, we could just as well design an algo- 
+rithm that reduces discrepancies between this state and more distant descendants 
+or ancestors. 
+To explore this issue further, recall that our Q learning training rule calcu- 
+lates a training value for &(st, a,) in terms of the values for &(s,+l, at+l) where

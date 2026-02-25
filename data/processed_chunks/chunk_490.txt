@@ -1,0 +1,34 @@
+mechanical system can be built from masses, springs, and dampers.
+To prove the passivity property, let H be the total energy of the system, i.e.,
+the sum of the kinetic and potential energies,
+H = 1
+2 ˙qT D(q) ˙q + P(q)
+(6.111)
+Then, the derivative ˙H satisﬁes
+˙H
+=
+˙qT D(q)¨q + 1
+2 ˙qT ˙D(q) ˙q + ˙qT ∂P
+∂q
+(6.112)
+=
+˙qT {τ −C(q, ˙q) −g(q)} + 1
+2 ˙qT ˙D(q) ˙q + ˙qT ∂P
+∂q
+where we have substituted for D(q)¨q using the equations of motion. Collecting
+terms and using the fact that g(q) = ∂P
+∂q yields
+˙H
+=
+˙qT τ + 1
+2 ˙qT { ˙D(q) −2C(q, ˙q)} ˙q
+(6.113)
+=
+˙qT τ
+the latter equality following from the skew-symmetry property.
+Integrating
+both sides of (6.113) with respect to time gives,
+Z T
+0
+˙qT (ζ)τ(ζ)dζ = H(T) −H(0) ≥−H(0)
+(6.114)

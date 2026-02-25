@@ -1,0 +1,16 @@
+for large language models,” 2023.
+[171]
+Y. Shen, K. Song, X. Tan, D. Li, W. Lu, and Y. Zhuang, “Hugginggpt:
+Solving ai tasks with chatgpt and its friends in huggingface,” arXiv
+preprint arXiv:2303.17580, 2023.
+[172]
+Z. Xi, W. Chen, X. Guo, W. He, Y. Ding, B. Hong, M. Zhang, J. Wang,
+S. Jin, E. Zhou et al., “The rise and potential of large language model
+based agents: A survey,” arXiv preprint arXiv:2309.07864, 2023.
+[173]
+L. Wang, C. Ma, X. Feng, Z. Zhang, H. Yang, J. Zhang, Z. Chen,
+J. Tang, X. Chen, Y. Lin et al., “A survey on large language model
+based autonomous agents,” arXiv preprint arXiv:2308.11432, 2023.
+[174]
+Z. Durante, Q. Huang, N. Wake, R. Gong, J. S. Park, B. Sarkar,
+R. Taori, Y. Noda, D. Terzopoulos, Y. Choi, K. Ikeuchi, H. Vo, L. Fei-

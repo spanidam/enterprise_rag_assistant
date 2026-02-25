@@ -1,0 +1,16 @@
+While [max Fitness(h)] < Fitnessdhreshold do 
+h 
+Create a new generation, Ps: 
+1. Select: F'robabilistically select (1 - r)p members of P to add to Ps. The probability Pr(hi) of 
+selecting hypothesis hi from P is given by 
+2. Crossover: Probabilistically select 
+pairs of hypotheses from P ,  according to &(hi) given 
+above. For each pair, (hl, h2), produce two offspring by applying the Crossover operator. 
+Add all offspring to P,. 
+3. Mutate: Choose m percent of the members of P, with uniform probability. For each, invert 
+one randomly selected bit in its representation. 
+4. Update: P t 
+P,. 
+5. Evaluate: for each h in P ,  compute Fitness(h) 
+Return the hypothesis from P that has the highest fitness. 
+TABLE 9.1

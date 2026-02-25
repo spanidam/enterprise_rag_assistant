@@ -1,0 +1,13 @@
+apply to networks trained using BACKPROPAGATION, 
+for two reasons. First, this 
+result applies to networks of perceptrons rather than networks of sigmoid units 
+to which the BACKPROPAGATION 
+algorithm applies. Nevertheless, notice that the 
+VC dimension of sigmoid units will be at least as great as that of perceptrons, 
+because a sigmoid unit can approximate a perceptron to arbitrary accuracy by 
+using sufficiently large weights. Therefore, the above bound on m will be at least 
+as large for acyclic layered networks of sigmoid units. The second shortcoming 
+of the above result is that it fails to account for the fact that BACKPROPAGATION 
+220 
+MACHINE LEARNING 
+trains a network by beginning with near-zero weights, then iteratively modifying

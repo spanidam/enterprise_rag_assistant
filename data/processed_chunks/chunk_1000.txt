@@ -1,0 +1,24 @@
+39
+Deep Learning Basics (lecture notes)
+40
+Chapter 6. Convolutional Neural Networks
+CHAPTER 7
+RECURRENT NEURAL NETWORKS
+Recurrent neural networks (RNNs) proceed by processing elements of a time series one at a time. Typically, at time 𝑡, a
+recurrent block will take both the current input 𝑥𝑡and a hidden state ℎ𝑡−1 that aims at summarizing the key information
+from past inputs {𝑥0, … , 𝑥𝑡−1}, and will output an updated hidden state ℎ𝑡:
+…
+…
+ℎ𝑡
+𝑥𝑡
+ℎ𝑡−1
+𝑥𝑡−1
+ℎ𝑡+1
+𝑥𝑡+1
+There exist various recurrent modules that mostly differ in the way ℎ𝑡is computed.
+41
+Deep Learning Basics (lecture notes)
+7.1 “Vanilla” RNNs
+The basic formulation for a RNN block is as follows:
+∀𝑡, ℎ𝑡= tanh(𝑊ℎℎ𝑡−1 + 𝑊𝑥𝑥𝑡+ 𝑏)
+(7.1)

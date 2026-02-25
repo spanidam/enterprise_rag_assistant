@@ -1,0 +1,12 @@
+training example is encountered. The CANDIDATE-ELIMINATION 
+algorithm and the 
+LIST-THEN-ELIMINATE 
+algorithm from Chapter 2 are examples of such algorithms. 
+In this section we derive a worst-case bound on the number of mistakes that will 
+be made by such a learner, for any finite hypothesis space H, assuming again that 
+the target concept must be learned exactly. 
+To analyze the number of mistakes made while learning we must first specify 
+precisely how the learner will make predictions given a new instance x. Let us 
+assume this prediction is made by taking a majority vote among the hypotheses in 
+the current version space. If the majority of version space hypotheses classify the 
+new instance as positive, then this prediction is output by the learner. Otherwise

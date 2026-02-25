@@ -1,0 +1,12 @@
+48
+Chapter 8. Attention Mechanism
+CHAPTER 9
+GENERATIVE NEURAL NETWORKS
+Generative models aim to learn the distribution of training data. This distribution can be estimated explicitly, by learning
+a parametric form of 𝑝(𝑥) or the conditional probability 𝑝(𝑥|𝑦), or approached implicitly, without a closed form but
+allowing sampling of new data.
+Among the main generative models, we find Gaussian Mixture Models (GMM), Variational Auto-Encoders (VAE), Gen-
+erative Adversarial Networks (GAN), and diffusion models. Each of these models proposes a different approach to
+modeling and generating data, ranging from direct estimation of the distribution to more indirect methods based on
+sampling or competition between networks.
+9.1 Auto-encoders

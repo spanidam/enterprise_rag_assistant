@@ -1,0 +1,10 @@
+parent. In particular, the mutation operator produces small random changes to the 
+bit string by choosing a single bit at random, then changing its value. Mutation is 
+often performed after crossover has been applied as in our prototypical algorithm 
+from Table 9.1. 
+Some GA systems employ additional operators, especially operators that are 
+specialized to the particular hypothesis representation used by the system. For 
+example, Grefenstette et al. (1991) describe a system that learns sets of rules 
+for robot control. It uses mutation and crossover, together with an operator for 
+specializing rules. Janikow (1993) describes a system that learns sets of rules 
+using operators that generalize and specialize rules in a variety of directed ways

@@ -1,0 +1,30 @@
+Initialize w as appropriate for the problem, e.g., w = 0
+Repeat (for each episode):
+e = 0
+S, A ←initial state and action of episode
+(e.g., ε-greedy)
+FA ←set of features present in S, A
+Repeat (for each step of episode):
+For all i ∈FA:
+ei ←ei + 1
+(accumulating traces)
+or ei ←1
+(replacing traces)
+Take action A, observe reward, R, and next state, S′
+δ ←R −P
+i∈FA wi
+If S′ is terminal, then w ←w + αδe; go to next episode
+For all a ∈A(S′):
+Fa ←set of features present in S′, a
+Qa ←P
+i∈Fa wi
+A′ ←new action in S′ (e.g., ε-greedy)
+δ ←δ + γQA′
+w ←w + αδe
+e ←γλe
+S ←S′
+A ←A′
+Figure 9.8: Linear, gradient-descent Sarsa(λ) with binary features and ε-
+greedy policy. Updates for both accumulating and replacing traces are speci-
+ﬁed.
+244CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES

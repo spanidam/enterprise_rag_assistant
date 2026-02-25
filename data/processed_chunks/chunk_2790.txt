@@ -1,0 +1,11 @@
+ble 9.1. In experiments reported by DeJong et al. (1993), the parameter r, which 
+determines the fraction of the parent population replaced by crossover, was set 
+to 0.6. The parameter m, which determines the mutation rate, was set to 0.001. 
+These are typical settings for these parameters. The population size p was varied 
+from 100 to 1000, depending on the specific learning task. 
+The specific instantiation of the GA algorithm in GABIL can be summarized 
+as follows: 
+0 Representation. Each hypothesis in GABIL corresponds to a disjunctive set 
+of propositional rules, encoded as described in Section 9.2.1. In particular, 
+the hypothesis space of rule preconditions consists of a conjunction of con- 
+straints on a fixed set of attributes, as described in that earlier section. To

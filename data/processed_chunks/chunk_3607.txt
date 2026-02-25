@@ -1,0 +1,79 @@
+Tuned model
+Fine-tuned version of an original model
+Availability
+Publicly available
+Model and weights are available due to request to without request
+Publicly unavailable
+Model and weights are not publicly available
+TABLE IV: Different LLM categorization.
+Model
+Size
+#Params (B)
+Type
+Availability
+Origin
+Davinci-002
+Very Large
+175
+Instruction
+Unavailable
+Tuned
+Davinci-003
+Very Large
+175
+Instruction
+Unavailable
+Tuned
+GPT 3.5-turbo
+Large
+20
+Chat
+Unavailable
+Tuned
+Falcon 7B
+Medium
+7
+Foundation
+Public
+Original
+Alpaca
+Large
+13
+Chat
+Public
+Tuned
+Pythia 7B
+Medium
+7
+Foundation
+Public
+Original
+Pythia 12B
+Large
+12
+Foundation
+Public
+Original
+LLAMA 7B
+Medium
+7
+Chat
+Public
+Original
+LLAMA 2 7B
+Medium
+7
+Chat
+Public
+Tuned
+LLAMA 2 7B
+Medium
+7
+Foundation
+Public
+Original
+Vicuna 13B
+Large
+13
+Foundation
+Public

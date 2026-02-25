@@ -1,0 +1,26 @@
+original policy, is called policy improvement.
+Suppose the new greedy policy, π′, is as good as, but not better than, the
+old policy π. Then vπ = vπ′, and from (4.9) it follows that for all s ∈S:
+vπ′(s)
+=
+max
+a
+E[Rt+1 + γvπ′(St+1) | St =s, At =a]
+=
+max
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ′(s′)
+i
+.
+96
+CHAPTER 4. DYNAMIC PROGRAMMING
+But this is the same as the Bellman optimality equation (4.1), and therefore,
+vπ′ must be v∗, and both π and π′ must be optimal policies. Policy improve-
+ment thus must give us a strictly better policy except when the original policy
+is already optimal.
+So far in this section we have considered the special case of deterministic
+policies. In the general case, a stochastic policy π speciﬁes probabilities, π(a|s),

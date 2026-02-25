@@ -1,0 +1,16 @@
+time it is visited in an episode the ﬁrst visit to s. The ﬁrst-visit MC method
+estimates vπ(s) as the average of the returns following ﬁrst visits to s, whereas
+the every-visit MC method averages the returns following all visits to s. These
+two Monte Carlo (MC) methods are very similar but have slightly diﬀerent
+theoretical properties. First-visit MC has been most widely studied, dating
+back to the 1940s, and is the one we focus on in this chapter. Every-visit
+MC extends more naturally to function approximation and eligibility traces,
+as discussed in Chapters 9 and 7. First-visit MC is shown in procedural form
+in Figure 5.1.
+5.1. MONTE CARLO PREDICTION
+115
+Initialize:
+π ←policy to be evaluated
+V ←an arbitrary state-value function
+Returns(s) ←an empty list, for all s ∈S
+Repeat forever:

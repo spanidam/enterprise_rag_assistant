@@ -1,0 +1,14 @@
+of magnitude more data than what is typically consumed
+during training.
+GLaM: In [84], Du et al. proposed a family of LLMs
+named GLaM (Generalist Language Model), which use a
+sparsely activated mixture-of-experts architecture to scale the
+Fig. 18: Retro architecture. Left: simplified version where a
+sequence of length n = 12 is split into l = 3 chunks of size
+m = 4. For each chunk, we retrieve k = 2 neighbours of r =
+5 tokens each. The retrieval pathway is shown on top. Right:
+Details of the interactions in the CCA operator. Causality is
+maintained as neighbours of the first chunk only affect the last
+token of the first chunk and tokens from the second chunk.
+Courtesy of [82].
+model capacity while also incurring substantially less training

@@ -1,0 +1,11 @@
+before. The agent has to exploit what it already knows in order to obtain
+reward, but it also has to explore in order to make better action selections in
+the future. The dilemma is that neither exploration nor exploitation can be
+pursued exclusively without failing at the task. The agent must try a variety of
+actions and progressively favor those that appear to be best. On a stochastic
+task, each action must be tried many times to gain a reliable estimate its
+expected reward. The exploration–exploitation dilemma has been intensively
+studied by mathematicians for many decades (see Chapter 2). For now, we
+simply note that the entire issue of balancing exploration and exploitation
+does not even arise in supervised and unsupervised learning, at least in their
+purist forms.

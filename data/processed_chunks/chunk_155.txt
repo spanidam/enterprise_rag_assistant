@@ -1,0 +1,32 @@
+1m
+x0
+z0
+y1
+x1
+z1
+x2
+y2
+z2
+z3
+x3
+y3
+y0
+Fig. 2.16
+Diagram for Problem 2-37.
+mations H0
+1, H0
+2, H1
+2 representing the transformations among the three
+frames shown. Show that H0
+2 = H0
+1, H1
+2.
+37. Consider the diagram of Figure 2.16. A robot is set up 1 meter from a
+table. The table top is 1 meter high and 1 meter square. A frame o1x1y1z1
+is ﬁxed to the edge of the table as shown. A cube measuring 20 cm on a
+64
+RIGID MOTIONS AND HOMOGENEOUS TRANSFORMATIONS
+side is placed in the center of the table with frame o2x2y2z2 established at
+the center of the cube as shown. A camera is situated directly above the
+center of the block 2m above the table top with frame o3x3y3z3 attached
+as shown. Find the homogeneous transformations relating each of these

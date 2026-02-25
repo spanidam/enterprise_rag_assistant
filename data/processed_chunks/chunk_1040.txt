@@ -1,0 +1,10 @@
+transparent about all updates, so you will also find a list of past and pending errata changes on your book
+page on OpenStax.org.
+Format
+You can access this textbook for free in web view or PDF through OpenStax.org. The web view is the
+recommended format because it is the most accessible—including being WCAG 2.1 AA compliant—and most
+current.
+About Introduction to Python Programming
+Introduction to Python Programming provides a comprehensive foundation in programming concepts and
+skills, and is aligned to the scope of most introductory courses. A wide array of scenarios, contexts, and
+problems reflect programming applications in many disciplines and careers. The offering is suitable for a

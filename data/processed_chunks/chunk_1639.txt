@@ -1,0 +1,31 @@
+different stages of the data science life cycle.
+CHECKPOINT
+Data science life cycle
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+15-1-introduction-to-data-science)
+CONCEPTS IN PRACTICE
+What is data science?
+1. What is the first stage of any data science life cycle?
+a.
+data visualization
+b.
+data cleanup
+c.
+data acquisition
+2. How many stages does the data science life cycle have?
+a.
+3
+b.
+4
+c.
+5
+3. What does a data scientist do in the data exploration stage?
+a.
+document insights and visualization
+b.
+analyze data
+c.
+data cleaning and visualization
+Data science tools
+Several tools and software are commonly used in data science. Here are some examples.
+•

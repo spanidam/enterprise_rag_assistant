@@ -1,0 +1,9 @@
+contrast, decision tree algorithms such as ID3 learn the entire set of disjuncts 
+simultaneously as part of the single search for an acceptable decision tree. We 
+might, therefore, call algorithms such as ID3 simultaneous covering algorithms, in 
+contrast to sequential covering algorithms such as CN2. Which should we prefer? 
+The key difference occurs in the choice made at the most primitive step in the 
+search. At each search step ID3 chooses among alternative attributes by com- 
+paring the partitions of the data they generate. In contrast, CN2 chooses among 
+alternative attribute-value pairs, by comparing the subsets of data they cover. 
+One way to see the significance of this difference is to compare the number of

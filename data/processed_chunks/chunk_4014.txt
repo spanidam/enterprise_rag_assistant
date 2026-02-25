@@ -1,0 +1,10 @@
+state and action sets. Most of the current theory of reinforcement learning is
+restricted to ﬁnite MDPs, but the methods and ideas apply more generally.
+A policy’s value functions assign to each state, or state–action pair, the
+expected return from that state, or state–action pair, given that the agent uses
+the policy. The optimal value functions assign to each state, or state–action
+pair, the largest expected return achievable by any policy. A policy whose value
+functions are optimal is an optimal policy. Whereas the optimal value functions
+for states and state–action pairs are unique for a given MDP, there can be many
+optimal policies. Any policy that is greedy with respect to the optimal value
+functions must be an optimal policy. The Bellman optimality equations are

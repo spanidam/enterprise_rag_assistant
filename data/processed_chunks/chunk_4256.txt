@@ -1,0 +1,15 @@
+Other extensions and generalizations are covered in the next two chap-
+ters.
+6.3
+The optimality of the TD algorithm under batch training was estab-
+lished by Sutton (1988). The term certainty equivalence is from the
+adaptive control literature (e.g., Goodwin and Sin, 1984). Illuminating
+this result is Barnard’s (1993) derivation of the TD algorithm as a com-
+bination of one step of an incremental method for learning a model of
+the Markov chain and one step of a method for computing predictions
+from the model.
+6.4
+The Sarsa algorithm was ﬁrst explored by Rummery and Niranjan
+(1994), who called it modiﬁed Q-learning. The name “Sarsa” was in-
+troduced by Sutton (1996). The convergence of one-step tabular Sarsa
+(the form treated in this chapter) has been proved by Satinder Singh

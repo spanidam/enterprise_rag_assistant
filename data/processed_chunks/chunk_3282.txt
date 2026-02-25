@@ -1,0 +1,11 @@
+and its true Q value. 
+13.3.4 Convergence 
+Will the algorithm of Table 13.1 converge toward a Q equal to the true Q function? 
+The answer is yes, under certain conditions. First, we must assume the system is 
+a deterministic MDP. Second, we must assume the immediate reward values are 
+bounded; that is, there exists some positive constant c such that for all states s 
+and actions a, Ir(s, a)l < c. Third, we assume the agent selects actions in such 
+a fashion that it visits every possible state-action pair infinitely often. By this 
+third condition we mean that if action a is a legal action from state s, then over 
+time the agent must execute action a from state s repeatedly and with nonzero 
+frequency as the length of its action sequence approaches infinity. Note these

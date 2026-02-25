@@ -1,0 +1,28 @@
+temp = "hot"
+food = "potato"
+print("{temp} {food}")
+a.
+{temp} {food}
+b.
+hot potato
+c.
+Error
+3. How can the following code be rewritten using an f-string?
+print(x, "+", y, "=", x + y)
+a.
+print(f"x + y = {x+y}")
+b.
+print(f"{x + y} = {x + y}")
+c.
+print(f"{x} + {y} = {x+y}")
+Formatting numbers
+Programs often need to display numbers in a specific format. Ex: When displaying the time, minutes are
+formatted as two-digit integers. If the hour is 9 and the minute is 5, then the time is "9:05" (not "9:5").
+In an f-string, a replacement field may include a format specifier introduced by a colon. A format specifier
+defines how a value should be formatted for display. Ex: In the string f"{hour}:{minute:02d}", the format
+specifier for minute is 02d.
+Format
+Description
+Example
+Result
+d

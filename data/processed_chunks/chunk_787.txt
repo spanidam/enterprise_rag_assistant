@@ -1,0 +1,15 @@
+q1(zt). (11.39)
+We now turn to the selection of zt. If nothing is known about the true values
+of µi or σ2
+i , how can we determine the optimal value of zt? To answer this
+342
+COMPUTER VISION
+question, recall that the variance is a measure of the average deviation of pixel
+intensities from the mean. Thus, if we make a good choice for zt, we would
+expect that the variances σ2
+i (zt) would be small. This reﬂects the assumption
+that pixels belonging to the object will be clustered closely about µ1, pixels
+belonging to the background will be clustered closely about µ0.
+We could,
+therefore, select the value of zt that minimizes the sum of these two variances.
+However, it is unlikely that the object and background will occupy the same

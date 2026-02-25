@@ -1,0 +1,11 @@
+The method described above performs quite well on this task. For example,
+if the step-size parameter is reduced properly over time, this method converges,
+for any ﬁxed opponent, to the true probabilities of winning from each state
+given optimal play by our player. Furthermore, the moves then taken (except
+on exploratory moves) are in fact the optimal moves against the opponent. In
+other words, the method converges to an optimal policy for playing the game.
+If the step-size parameter is not reduced all the way to zero over time, then
+this player also plays well against opponents that slowly change their way of
+playing.
+This example illustrates the diﬀerences between evolutionary methods and
+the methods that learn value functions. To evaluate a policy an evolutionary

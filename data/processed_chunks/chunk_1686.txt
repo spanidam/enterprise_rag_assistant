@@ -1,0 +1,31 @@
+explore and visualize datasets.
+Function
+Description
+np.array()
+Creates an ndarray from a list or tuple.
+np.zeros()
+Creates an array of zeros.
+np.ones()
+Creates an array of ones.
+np.random.rand(n, m)
+Creates an array of random numbers with n rows and m columns
+np.genfromtxt('data.csv',
+delimiter=',')
+Creates an array from a CSV file.
+pd.DataFrame()
+Creates a DataFrame from a list, dictionary, or an array.
+pd.read_csv()
+Creates a DataFrame from a CSV file.
+Table 15.13 Chapter 15 reference.
+376
+15 • Data Science
+Access for free at openstax.org
+Function
+Description
+df.head()
+Returns the first few rows of a DataFrame.
+df.tail()
+Returns the last few rows of a DataFrame.
+df.info()
+Provides a summary of the DataFrame, including the column
+names, data types, and the number of non-Null values.

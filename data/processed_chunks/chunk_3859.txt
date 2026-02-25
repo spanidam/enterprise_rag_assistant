@@ -1,0 +1,49 @@
+Figure 2.1 compares a greedy method with two ε-greedy methods (ε = 0.01
+and ε = 0.1), as described above, on the 10-armed testbed. Both methods
+2.2. ACTION-VALUE METHODS
+35
+ = 0 (greedy)
+ 𝜀 = 0 (greedy)
+0
+0.5
+1
+1.5
+Average
+reward
+0
+250
+500
+750
+1000
+Steps
+0%
+20%
+40%
+60%
+80%
+100%
+%
+Optimal
+action
+0
+250
+500
+750
+1000
+Steps
+ = 0.01
+ = 0.1
+𝜀
+𝜀
+𝜀
+ = 0.1
+𝜀
+= 0.01
+𝜀
+Figure 2.1: Average performance of ε-greedy action-value methods on the
+10-armed testbed.
+These data are averages over 2000 tasks.
+All methods
+used sample averages as their action-value estimates. The detailed structure
+at the beginning of these curves depends on how actions are selected when
+multiple actions have the same maximal action value. Here such ties were

@@ -1,0 +1,16 @@
+C. Burns, S. Puranik, H. He, D. Song, and J. Steinhardt, “Measuring
+coding challenge competence with apps,” NeurIPS, 2021.
+[184]
+V. Zhong, C. Xiong, and R. Socher, “Seq2sql: Generating structured
+queries from natural language using reinforcement learning,” arXiv
+preprint arXiv:1709.00103, 2017.
+[185]
+M. Joshi, E. Choi, D. Weld, and L. Zettlemoyer, “TriviaQA:
+A large scale distantly supervised challenge dataset for reading
+comprehension,” in Proceedings of the 55th Annual Meeting of the
+Association for Computational Linguistics (Volume 1: Long Papers),
+R. Barzilay and M.-Y. Kan, Eds.
+Vancouver, Canada: Association
+for Computational Linguistics, Jul. 2017, pp. 1601–1611. [Online].
+Available: https://aclanthology.org/P17-1147
+[186]

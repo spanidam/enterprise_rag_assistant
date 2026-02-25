@@ -1,0 +1,19 @@
+C(St, At) ←C(St, At) + W
+Q(St, At) ←Q(St, At) +
+W
+C(St,At) [G −Q(St, At)]
+W ←W π(At|St)
+µ(At|St)
+If W = 0 then ExitForLoop
+Figure 5.9: An incremental every-visit MC policy-evaluation algorithm, using
+weighted importance sampling. The approximation Q converges to qπ (for all
+encountered state–action pairs) even though all actions are selected according
+to a potentially diﬀerent policy, µ. In the on-policy case (π = µ), W is always
+1.
+5.7. OFF-POLICY MONTE CARLO CONTROL
+135
+5.7
+Oﬀ-Policy Monte Carlo Control
+We are now ready to present an example of the second class of learning control
+methods we consider in this book: oﬀ-policy methods. Recall that the distin-
+guishing feature of on-policy methods is that they estimate the value of a

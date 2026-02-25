@@ -1,0 +1,25 @@
+78
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+anything about the environment’s dynamics.
+Example 3.11:
+Bellman Optimality Equations for the Recycling
+Robot
+Using (3.17), we can explicitly give the Bellman optimality equation
+for the recycling robot example. To make things more compact, we abbre-
+viate the states high and low, and the actions search, wait, and recharge
+respectively by h, l, s, w, and re. Since there are only two states, the Bellman
+optimality equation consists of two equations. The equation for v∗(h) can be
+written as follows:
+v∗(h)
+=
+max
+ p(h|h, s)[r(h, s, h) + γv∗(h)] + p(l|h, s)[r(h, s, l) + γv∗(l)],
+p(h|h, w)[r(h, w, h) + γv∗(h)] + p(l|h, w)[r(h, w, l) + γv∗(l)]
+
+=
+max
+ α[rs + γv∗(h)] + (1 −α)[rs + γv∗(l)],
+1[rw + γv∗(h)] + 0[rw + γv∗(l)]
+
+=
+max

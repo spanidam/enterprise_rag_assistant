@@ -1,0 +1,11 @@
+(a) Consider the version space with respect to the set of positive (+) and negative 
+(-) training examples shown below. What is the S boundary of the version space 
+in this case? Write out the hypotheses and draw them in on the diagram. 
+(b) What is the G boundary of this version space? Write out the hypotheses and 
+draw them in. 
+(c) Suppose the learner may now suggest a new x ,  y instance and ask the trainer for 
+its classification. Suggest a query guaranteed to reduce the size of the version 
+space, regardless of how the trainer classifies it. Suggest one that will not. 
+(d) Now assume you are a teacher, attempting to teach a particular target concept 
+(e.g., 3 5 x 5 5 , 2  ( y 5 9). What is the smallest number of training examples 
+you can provide so that the CANDIDATE-ELIMINATION

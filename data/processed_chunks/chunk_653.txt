@@ -1,0 +1,13 @@
+there is no source of reaction force from the environment. A wrist force sensor
+in such a case would record only the inertial forces due to any acceleration of
+the end-eﬀector. As soon as the manipulator comes in contact with the en-
+vironment, say a rigid surface as shown in Figure 9.2, one or more degrees of
+freedom in motion may be lost since the manipulator cannot move through the
+environment surface. At the same time the manipulator can exert forces against
+the environment.
+In order to describe the robot/environment interaction, let V = (v, ω) rep-
+resent the instantaneous linear and angular velocity of the end-eﬀector and let
+F = (f, n) represent the instantaneous force and moment. The vectors V and F
+COORDINATE FRAMES AND CONSTRAINTS
+283
+Fig. 9.2

@@ -1,0 +1,48 @@
+CONCEPTS IN PRACTICE
+Multiple return statements
+4. What does yarn_weight(3) return?
+def yarn_weight(num):
+if num == 0:
+return "lace"
+elif num == 1:
+return "sock"
+elif num == 2:
+return "sport"
+elif num == 3:
+return "dk"
+elif num == 4:
+return "worsted"
+elif num == 5:
+return "bulky"
+else:
+return "super bulky"
+a.
+"lace"
+b.
+"dk"
+c.
+"super bulky"
+5. What is the output?
+def inc_volume(level, max):
+6.5 • Return values
+165
+if level < max:
+return level
+level += 1
+else:
+return level
+vol1 = inc_volume(9, 10)
+print(vol1)
+vol2 = inc_volume(10, 10)
+print(vol2)
+a.
+9
+10
+b.
+10
+10
+c.
+10
+11
+Using functions as values
+Functions are objects that evaluate to values, so function calls can be used in expressions. A function call can

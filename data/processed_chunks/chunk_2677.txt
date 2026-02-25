@@ -1,0 +1,10 @@
+begin with all hypotheses in Hrd2 assigned an initial weight equal to 1. Every 
+time you see a new example, you predict based on a weighted majority vote over 
+all hypotheses in Hrd2. Then, instead of eliminating the inconsistent trees, you cut 
+down their weight by a factor of 2. How many mistakes will this procedure make 
+at most, as a function of n and the number of mistakes of the best tree in Hrd2? 
+7.8. This question considers the relationship between the PAC analysis considered in this 
+chapter and the evaluation of hypotheses discussed in Chapter 5. Consider a learning 
+task in which instances are described by n boolean variables (e.g., xl A&  AX^ . . . f,) 
+and are drawn according to a fixed but unknown probability distribution V. 
+The

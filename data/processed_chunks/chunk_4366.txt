@@ -1,0 +1,10 @@
+The main part of Figure 8.5 shows average learning curves from an ex-
+periment in which Dyna-Q agents were applied to the maze task. The initial
+action values were zero, the step-size parameter was α = 0.1, and the explo-
+ration parameter was ϵ = 0.1. When selecting greedily among actions, ties
+were broken randomly. The agents varied in the number of planning steps,
+n, they performed per real step. For each n, the curves show the number of
+steps taken by the agent in each episode, averaged over 30 repetitions of the
+experiment. In each repetition, the initial seed for the random number gen-
+erator was held constant across algorithms. Because of this, the ﬁrst episode
+was exactly the same (about 1700 steps) for all values of n, and its data are

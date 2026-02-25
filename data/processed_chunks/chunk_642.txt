@@ -1,0 +1,21 @@
+by the couple system (8.85)-(8.86). For this reason we included the positive
+deﬁnite term 1
+2 ˜θT Γ˜θ in the Lyapunov function (8.87).
+If we now compute ˙V along trajectories of the system (8.85), we obtain
+˙V
+=
+−˜qT ΛT KΛ˜q −˙˜qT K ˙˜q + ˜θT {Γ ˙ˆθ + Y T r}
+(8.88)
+4Note that ˙˜θ = ˙ˆθ since the parameter vector θ is constant
+278
+MULTIVARIABLE CONTROL
+Substituting the expression for ˙ˆθ from gradient update law (8.86) into (8.88)
+yields
+˙V
+=
+−˜qT ΛT KΛ˜q −˙˜qT K ˙˜q = −eT Qe ≤0
+(8.89)
+where e and Q are deﬁned as before, showing that the closed loop system is
+stable in the sense of Lyapunov.
+Remark 8.1 Note that we have claimed only that the Lyapunov function is
+negative semi-deﬁnite, not negative deﬁnite since ˙V does not contain any terms

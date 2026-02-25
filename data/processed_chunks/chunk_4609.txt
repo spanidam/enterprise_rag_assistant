@@ -1,0 +1,12 @@
+of heuristic methods, sophisticated research algorithms that repeatedly run
+complex optimization algorithms on-line (Bao et al., 1994), and dispatchers
+learned by using the two reinforcement learning architectures. By all of the
+performance measures, the reinforcement learning dispatchers compare favor-
+ably with the others. Although the optimal policy for this problem is unknown,
+and the state of the art is diﬃcult to pin down because details of commercial
+dispatching strategies are proprietary, these learned dispatchers appeared to
+perform very well.
+14.5
+Dynamic Channel Allocation
+An important problem in the operation of a cellular telephone system is how
+to eﬃciently use the available bandwidth to provide good service to as many

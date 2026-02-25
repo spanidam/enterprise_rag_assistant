@@ -1,0 +1,12 @@
+A conditional expression is evaluated by first checking the condition. If condition is true,
+expression_if_true is evaluated, and the result is the resulting value of the conditional expression. Else,
+expression_if_false is evaluated, and the result is the resulting value of the conditional expression.
+A variable can be assigned with a conditional expression. Ex: Finding the max of two numbers can be
+calculated with max_num = y if x < y else x
+Note: Conditional expressions have the lowest precedence of all Python operations.
+CHECKPOINT
+Example: Version check
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+4-7-conditional-expressions)
+CONCEPTS IN PRACTICE
+Using conditional expressions

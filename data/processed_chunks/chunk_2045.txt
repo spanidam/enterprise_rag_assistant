@@ -1,0 +1,13 @@
+it exhibits a more complex bias than BFS-ID3. In particular, it does not always 
+find the shortest consistent tree, and it is biased to favor trees that place attributes 
+with high information gain closest to the root. 
+A closer approximation to the inductive bias of ID3: Shorter trees are preferred 
+over longer trees. Trees that place high information gain attributes close to the root 
+are preferred over those that do not. 
+3.6.1 Restriction Biases and Preference Biases 
+There is an interesting difference between the types of inductive bias exhibited 
+by ID3 and by the CANDIDATE-ELIMINATION 
+algorithm discussed in Chapter 2. 
+Consider the difference between the hypothesis space search in these two ap- 
+proaches: 
+ID3 searches a complete hypothesis space (i.e., one capable of expressing

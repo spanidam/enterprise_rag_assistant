@@ -1,0 +1,12 @@
+lier technologies: teleoperators and numerically controlled milling ma-
+chines. Teleoperators, or master-slave devices, were developed during the sec-
+ond world war to handle radioactive materials. Computer numerical control
+(CNC) was developed because of the high precision required in the machining
+of certain items, such as components of high performance aircraft. The ﬁrst
+MATHEMATICAL MODELING OF ROBOTS
+3
+robots essentially combined the mechanical linkages of the teleoperator with
+the autonomy and programmability of CNC machines.
+The ﬁrst successful applications of robot manipulators generally involved
+some sort of material transfer, such as injection molding or stamping, where
+the robot merely attends a press to unload and either transfer or stack the

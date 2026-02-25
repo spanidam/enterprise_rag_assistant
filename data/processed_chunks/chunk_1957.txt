@@ -1,0 +1,17 @@
+any hypothesis consistent with the training data. 
+2.7.1 A Biased Hypothesis Space 
+Suppose we wish to assure that the hypothesis space contains the unknown tar- 
+get concept. The obvious solution is to enrich the hypothesis space to include 
+every possible hypothesis. To illustrate, consider again the EnjoySpor t example in 
+which we restricted the hypothesis space to include only conjunctions of attribute 
+values. Because of this restriction, the hypothesis space is unable to represent 
+even simple disjunctive target concepts such as "Sky = Sunny or Sky = Cloudy." 
+In fact, given the following three training examples of this disjunctive hypothesis, 
+our algorithm would find that there are zero hypotheses in the version space. 
+Example 
+Sky 
+AirTemp 
+Humidity 
+Wind 
+Water 
+Forecast

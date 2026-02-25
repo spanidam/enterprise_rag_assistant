@@ -1,0 +1,19 @@
+•
+cups_drank is a float representing the number of cups of water drank.
+•
+cups_left is an integer representing the number of cups of water left to drink (rounded down) out of
+the daily goal of 8 cups.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+2-2-type-conversion)
+TRY IT
+Product as float
+The following program reads two integers in as strings. Calculate the product of the two integers, and print
+the result as a float.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+2-2-type-conversion)
+2.3 Mixed data types
+Learning objectives
+By the end of this section you should be able to
+•
+Identify the data types produced by operations with integers, floats, and strings.
+•

@@ -1,0 +1,9 @@
+This target network is initialized with small random weights, just as in BACK- 
+PROPAGATION. Next, for each training example (xi, f (xi)) EBNN determines the 
+corresponding training derivatives in a two-step process. First, it uses the domain 
+theory to predict the value of the target function for instance xi. Let A(xi) de- 
+note this domain theory prediction for instance xi. In other words, A(xi) is the 
+function defined by the composition of the domain theory networks forming the 
+explanation for xi. Second, the weights and activations of the domain theory net- 
+works are analyzed to extract the derivatives of A(xi) 'with respect to each of the 
+components of xi (i.e., the Jacobian of A(x) evaluated at x = xi). Extracting these

@@ -1,0 +1,10 @@
+In order to develop a better intuition for the operation of BACKPROPAGATION 
+in this example, let us examine the operation of the gradient descent procedure in 
+greater detailt. The network in Figure 4.7 was trained using the algorithm shown 
+in Table 4.2, with initial weights set to random values in the interval (-0.1,0.1), 
+learning rate q = 0.3, and no weight momentum (i.e., a! = 0). Similar results 
+were obtained by using other learning rates and by including nonzero momentum. 
+The hidden unit encoding shown in Figure 4.7 was obtained after 5000 training 
+iterations through the outer loop of the algorithm (i.e., 5000 iterations through each 
+of the eight training examples). Most of the interesting weight changes occurred, 
+however, during the first 2500 iterations.

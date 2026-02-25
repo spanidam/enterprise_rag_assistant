@@ -1,0 +1,14 @@
+Other important contributions made in the recent history of reinforcement
+learning are too numerous to mention in this brief account; we cite many these
+at the end of the individual chapters in which they arise.
+1.8
+Bibliographical Remarks
+For additional general coverage of reinforcement learning, we refer the reader to
+the books by Szepesv´ari (2010), Bertsekas and Tsitsiklis (1996), and Kaelbling
+(1993a). Books that take a control or operation research perspective are those
+of Si et al. (2004), Powell (2011), and Lewis and Liu (2012).
+Two special
+issues of the journal Machine Learning focus on reinforcement learning: Sutton
+26
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM
+(1992) and Kaelbling (1996). Useful surveys are provided by Barto (1995b);

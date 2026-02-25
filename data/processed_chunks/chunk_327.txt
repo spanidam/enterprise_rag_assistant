@@ -1,0 +1,10 @@
+not specify any dynamic aspects of the motion. For example, what should be the
+joint velocities and accelerations while traversing the path? These questions are
+addressed by a trajectory planner. The trajectory planner computes a function
+qd(t) that completely speciﬁes the motion of the robot as it traverses the path.
+We begin in Section 5.1 by introducing the notion of conﬁguration space, and
+describing how obstacles in the workspace can be mapped into the conﬁguration
+space. We then introduce path planning methods that use artiﬁcial potential
+ﬁelds in Sections 5.2 and 5.3. The corresponding algorithms use gradient descent
+search to ﬁnd a collision-free path to the goal, and, as with all gradient descent
+methods, these algorithms can become trapped in local minima in the potential

@@ -1,0 +1,34 @@
+manipulator the links are arranged in a closed rather than open kinematic
+chain. Although we include a brief discussion of parallel robots in this chapter,
+their kinematics and dynamics are more diﬃcult to derive than those of serial
+link robots and hence are usually treated only in more advanced texts.
+1.2.2
+Robotic Systems
+A robot manipulator should be viewed as more than just a series of mechanical
+linkages. The mechanical arm is just one component in an overall Robotic
+System, illustrated in Figure 1.3, which consists of the arm, external power
+Sensors
+
+Power supply
+
+Input device
+or
+teach pendant
+o
+/ Computer
+controller
+o
+/
+O
+
+Mechanical
+arm
+O
+
+Program
+storage
+or network
+End-of-arm
+tooling
+Fig. 1.3
+Components of a robotic system.

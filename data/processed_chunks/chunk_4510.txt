@@ -1,0 +1,15 @@
+case. On-policy bootstrapping methods converge reliably with linear gradient-
+descent function approximation to a solution with mean-squared error bounded
+by
+1−γλ
+1−γ
+times the minimum possible error.
+Bootstrapping methods are of
+persistent interest in reinforcement learning, despite their limited theoretical
+guarantees, because in practice they usually work signiﬁcantly better than
+nonbootstrapping methods. The oﬀ-policy case involves considerably greater
+subtlety and is postponed to a later (future) chapter.
+250CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+Bibliographical and Historical Remarks
+Despite our treatment of generalization and function approximation late in
+the book, they have always been an integral part of reinforcement learning. It

@@ -1,0 +1,32 @@
+of the model to use prior knowledge in combination with
+reasoning skills. In the case of HellaSwag for example, finding
+the continuation of text is challenging because the given text
+contains a partial part of the story while the given choices
+as continuation are tricky to select, and without having prior
+knowledge about the world it is not possible. This specific kind
+of reasoning deserves high attention because it is related to
+utilizing previous knowledge with open text-described scenes
+or facts. As can be seen from table V not just Unavailable
+models but also Public ones can achieve good results on
+various tests.
+TABLE V: Commonsense reasoning comparison.
+Model
+OBQA
+HellaSwag
+Davinci-003
+51
+83.4
+Falcon 7B
+44.4
+76.3
+Alpaca
+43.4
+73.9
+Pythia 7B
+37.2
+64
+Pythia 12B
+43.2
+68.1
+LLAMA 7B
+42.4

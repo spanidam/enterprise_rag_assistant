@@ -1,0 +1,11 @@
+small number of disjoint possible values (e.g., Hot, Mild, Cold). However, 
+extensions to the basic algorithm (discussed in Section 3.7.2) allow handling 
+real-valued attributes as well (e.g., representing Temperature numerically). 
+The targetfunction has discrete output values. The decision tree in Figure 3.1 
+assigns a boolean classification (e.g., yes or no) to each example. Decision 
+tree methods easily extend to learning functions with more than two possible 
+output values. A more substantial extension allows learning target functions 
+with real-valued outputs, though the application of decision trees in this 
+setting is less common. 
+0 Disjunctive descriptions may be required. As noted above, decision trees 
+naturally represent disjunctive expressions.

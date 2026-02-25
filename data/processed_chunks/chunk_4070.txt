@@ -1,0 +1,12 @@
+policy improvement sweep. In general, the entire class of truncated policy
+iteration algorithms can be thought of as sequences of sweeps, some of which
+use policy evaluation backups and some of which use value iteration backups.
+Since the max operation in (4.10) is the only diﬀerence between these backups,
+this just means that the max operation is added to some sweeps of policy
+evaluation. All of these algorithms converge to an optimal policy for discounted
+ﬁnite MDPs.
+Example 4.3: Gambler’s Problem
+A gambler has the opportunity to
+make bets on the outcomes of a sequence of coin ﬂips. If the coin comes up
+heads, he wins as many dollars as he has staked on that ﬂip; if it is tails, he
+loses his stake. The game ends when the gambler wins by reaching his goal

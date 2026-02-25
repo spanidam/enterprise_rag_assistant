@@ -1,0 +1,11 @@
+EXERCISES 
+6.1. Consider again the example application of Bayes rule in Section 6.2.1. Suppose the 
+doctor decides to order a second laboratory test for the same patient, and suppose 
+the second test returns a positive result as well. What are the posterior probabilities 
+of cancer and -cancer following these two tests? Assume that the two tests are 
+independent. 
+6.2. In the example of Section 6.2.1 we computed the posterior probability of cancer by 
+normalizing the quantities P (+(cancer) . P (cancer) and P (+I-cancer) . P (-cancer) 
+so that they summed to one, Use Bayes theorem and the theorem of total probability 
+(see Table 6.1) to prove that this method is valid (i.e., that normalizing in this way 
+yields the correct value for P(cancerl+)).

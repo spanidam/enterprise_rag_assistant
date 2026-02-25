@@ -1,0 +1,11 @@
+many diverse fields, the reader need not be an expert in any of them. Key ideas 
+are presented from these fields using a nonspecialist's vocabulary, with unfamiliar 
+terms and concepts introduced as the need arises. 
+1.1 WELL-POSED LEARNING PROBLEMS 
+Let us begin our study of machine learning by considering a few learning tasks. For 
+the purposes of this book we will define learning broadly, to include any .computer 
+program that improves its performance at some task through experience. Put more 
+precisely, 
+Definition: A computer program is said to learn from experience E with respect 
+to some class of tasks T and performance measure P, if its performance at tasks in 
+T, as measured by P, improves with experience E.

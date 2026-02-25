@@ -1,0 +1,13 @@
+deal with data sparsity by mapping words to low-dimensional
+continuous vectors (embedding vectors) and predict the next
+word based on the aggregation of the embedding vectors of
+its proceeding words using neural networks. The embedding
+vectors learned by NLMs define a hidden space where the
+semantic similarity between vectors can be readily computed
+as their distance. This opens the door to computing semantic
+similarity of any two inputs regardless their forms (e.g., queries
+vs. documents in Web search [17], [18], sentences in different
+languages in machine translation [19], [20]) or modalities (e.g.,
+image and text in image captioning [21], [22]). Early NLMs are
+task-specific models, in that they are trained on task-specific
+data and their learned hidden space is task-specific.

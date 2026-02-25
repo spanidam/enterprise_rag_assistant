@@ -1,0 +1,47 @@
+This gives us the sharp contour line labeled −2 in the ﬁgure; all locations
+between that line and the green require exactly two strokes to complete the
+hole.
+Similarly, any location within putting range of the −2 contour line
+must have a value of −3, and so on to get all the contour lines shown in the
+ﬁgure. Putting doesn’t get us out of sand traps, so they have a value of −∞.
+Overall, it takes us six strokes to get from the tee to the hole by putting.
+74
+CHAPTER 3. FINITE MARKOV DECISION PROCESSES
+Q*(s,driver)
+V
+putt
+sand
+green
+!1
+s a
+n
+d
+!2
+!2
+!3
+!4
+!1
+!5
+!6
+!4
+!3
+!3
+!2
+!4
+sand
+green
+!1
+s a
+n
+d
+!2
+!3
+!2
+0
+0
+!"
+!"
+vputt
+q*(s,driver)
+Figure 3.6: A golf example: the state-value function for putting (above) and
+the optimal action-value function for using the driver (below).

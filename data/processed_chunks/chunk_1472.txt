@@ -1,0 +1,22 @@
+Learning objectives
+By the end of this section you should be able to
+•
+Write a conditional statement to check for a key/value.
+•
+Write a for loop to iterate over elements of a dictionary.
+Conditionals for dictionary
+Conditional statements can be used with dictionaries to check if certain keys, values, or dictionary items exist
+in the dictionary or if a value satisfies a particular condition.
+250
+10 • Dictionaries
+Access for free at openstax.org
+EXAMPLE 10.2
+Templates and examples of a conditional statement on a dictionary
+dict.items()
+# (key, value) in dictionary.items()
+movies = {"The godfather": 1974, "Interstellar": 2014}
+print(("Interstellar", 2014) in movies.items())
+True
+Table 10.1
+Conditionals on values or keys
+# dictionary[key] operand test_value

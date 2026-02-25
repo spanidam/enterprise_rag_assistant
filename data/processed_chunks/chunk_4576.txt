@@ -1,0 +1,15 @@
+Samuel did not include explicit rewards. Instead, he ﬁxed the weight of the
+most important feature, the piece advantage feature, which measured the num-
+14.2. SAMUEL’S CHECKERS PLAYER
+281
+hypothetical events
+actual events
+backup
+Figure 14.3: The backup diagram for Samuel’s checkers player.
+ber of pieces the program had relative to how many its opponent had, giving
+higher weight to kings, and including reﬁnements so that it was better to trade
+pieces when winning than when losing. Thus, the goal of Samuel’s program
+was to improve its piece advantage, which in checkers is highly correlated with
+winning.
+However, Samuel’s learning method may have been missing an essential
+part of a sound temporal-diﬀerence algorithm. Temporal-diﬀerence learning

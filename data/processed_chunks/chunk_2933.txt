@@ -1,0 +1,11 @@
+corresponds to the special case where no background knowledge B is avail- 
+able). 
+0 By incorporating the notion of background information B, this formulation 
+allows a more rich definition of when a hypothesis may be said to "fit" 
+the data. Up until now, we have always determined whether a hypothesis 
+(e.g., neural network) fits the data based solely on the description of the 
+hypothesis and data, independent of the task domain under study. In contrast, 
+this formulation allows the domain-specific background information B to 
+become part of the definition of "fit." In particular, h fits the training example 
+(xi, f (xi)) as long as f (xi) follows deductively from B A h A xi. 
+0 By incorporating background information B, this formulation invites learning

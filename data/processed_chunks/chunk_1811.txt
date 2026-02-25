@@ -1,0 +1,10 @@
+relationship among the number of training examples observed, the number of hy- 
+potheses under consideration, and the expected error in learned hypotheses. We 
+are beginning to obtain initial models of human and animal learning and to un- 
+derstand their relationship to learning algorithms developed for computers (e.g., 
+Laird et al. 1986; Anderson 1991; Qin et al. 1992; Chi and Bassock 1989; Ahn 
+and Brewer 1993). In applications, algorithms, theory, and studies of biological 
+systems, the rate of progress has increased significantly over the past decade. Sev- 
+eral recent applications of machine learning are summarized in Table 1.1. Langley 
+and Simon (1995) and Rumelhart et al. (1994) survey additional applications of 
+machine learning.

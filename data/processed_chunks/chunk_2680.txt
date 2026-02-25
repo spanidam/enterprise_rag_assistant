@@ -1,0 +1,12 @@
+it perfectly classified the training examples. Is this event more likely for large 
+n or small n? Justify your answer in a sentence. 
+REFERENCES 
+Angluin, D. (1992). Computational learning theory: Survey and selected bibliography. Proceedings 
+of the Twenty-Fourth Annual ACM Symposium on Theory of Computing (pp. 351-369). ACM 
+Press. 
+Angluin, D., Frazier, M., & Pitt, L. (1992). Learning conjunctions of horn clauses. Machine Learning, 
+9, 147-164. 
+Anthony, M., & Biggs, N. (1992). Computational learning theory: An introduction. Cambridge, 
+England: Cambridge University Press. 
+Blumer, A., Ehrenfeucht, A., Haussler, D., & Warmuth, M. (1989). Learnability and the Vapnik- 
+Chemonenkis dimension. Journal of the ACM, 36(4) (October), 929-965.

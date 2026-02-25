@@ -1,0 +1,28 @@
+each step in growing the tree. The use of information gain to evaluate the relevance 
+of attributes is summarized in Figure 3.3. In this figure the information gain of two 
+different attributes, Humidity and Wind, is computed in order to determine which 
+is the better attribute for classifying the training examples shown in Table 3.2. 
+CHAPTER 3 DECISION TREE LEARNING 
+59 
+Which attribute is the best classifier? 
+S: [9+,5-I 
+E =0.940 
+Humidity 
+High 
+[3+,4-I 
+[6t,l-l 
+E S.985 
+E S.592 
+Gain (S, Hurnidiry ) 
+S: [9+,5-I 
+E S.940 wx 
+Strong 
+[6+,2-I 
+[3+,3-I 
+ES.811 
+E =1.00 
+Gain (S, Wind) 
+= ,940 - (8/14).811 - (6114)l.O 
+= ,048 
+FIGURE 3.3 
+Humidity provides greater information gain than Wind, relative to the target classification. Here, E

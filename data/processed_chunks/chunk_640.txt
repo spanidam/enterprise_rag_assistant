@@ -1,0 +1,15 @@
+that ﬁnding a constant bound ρ for the constant vector ˜θ is much simpler
+than ﬁnding a time–varying bound for η in (8.43). The bound ρ in this case
+depends only on the inertia parameters of the manipulator, while ρ(x, t) in
+(8.50) depends on the manipulator state vector, the reference trajectory and,
+in addition, requires some assumptions on the estimated inertia matrix ˆ
+M(q).
+8.4.3
+Passivity Based Adaptive Control
+In the adaptive approach the vector ˆθ in (8.72) is taken to be a time-varying
+estimate of the true parameter vector θ. Combining the control law (8.71) with
+(8.40) yields
+M(q) ˙r + C(q, ˙q)r + Kr = Y ˜θ
+(8.85)
+The parameter estimate ˆθ may be computed using standard methods such as
+gradient or least squares. For example, using the gradient update law

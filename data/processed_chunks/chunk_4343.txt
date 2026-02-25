@@ -1,0 +1,19 @@
+fallen to half of its initial value?
+Exercise 7.5 (programming)
+Draw a backup diagram for Sarsa(λ) with
+replacing traces.
+Exercise 7.6
+Write pseudocode for an implementation of TD(λ) that up-
+dates only value estimates for states whose traces are greater than some small
+positive constant.
+Exercise 7.7 Write equations or pseudocode for Sarsa(λ) and/or Q(λ) with
+dutch traces. Do the same for a true-on-line version.
+194
+CHAPTER 7. ELIGIBILITY TRACES
+Chapter 8
+Planning and Learning with
+Tabular Methods
+In this chapter we develop a uniﬁed view of methods that require a model
+of the environment, such as dynamic programming and heuristic search, and
+methods that can be used without a model, such as Monte Carlo and temporal-
+diﬀerence methods. We think of the former as planning methods and of the

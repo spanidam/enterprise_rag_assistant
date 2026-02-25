@@ -1,0 +1,27 @@
+any policy π is
+T−1
+Y
+k=t
+π(Ak|Sk)p(Sk+1|Sk, Ak),
+where p is the state-transition probability function deﬁned by (3.8). Thus, the
+relative probability of the trajectory under the target and behavior policies
+(the importance-sampling ratio) is
+ρT
+t =
+QT−1
+k=t π(Ak|Sk)p(Sk+1|Sk, Ak)
+QT−1
+k=t µ(Ak|Sk)p(Sk+1|Sk, Ak)
+=
+T−1
+Y
+k=t
+π(Ak|Sk)
+µ(Ak|Sk).
+(5.3)
+Note that although the trajectory probabilities depend on the MDP’s transi-
+tion probabilities, which are generally unknown, all the transition probabilities
+cancel and drop out. The importance sampling ratio ends up depending only
+on the two policies and not at all on the MDP.
+Now we are ready to give a Monte Carto algorithm that uses a batch of
+observed episodes following policy µ to estimate vπ(s). It is convenient here to

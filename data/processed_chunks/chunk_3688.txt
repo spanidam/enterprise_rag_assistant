@@ -1,0 +1,19 @@
+Computational Linguistics (ACL), 2016.
+[201]
+R. Nallapati, B. Zhou, C. Gulcehre, B. Xiang et al., “Abstractive text
+summarization using sequence-to-sequence rnns and beyond,” arXiv
+preprint arXiv:1602.06023, 2016.
+[202]
+Y. Bai and D. Z. Wang, “More than reading comprehension: A survey
+on datasets and metrics of textual question answering,” arXiv preprint
+arXiv:2109.12264, 2021.
+[203]
+H.-Y. Huang, E. Choi, and W.-t. Yih, “Flowqa: Grasping flow in
+history for conversational machine comprehension,” arXiv preprint
+arXiv:1810.06683, 2018.
+[204]
+S. Lee, J. Lee, H. Moon, C. Park, J. Seo, S. Eo, S. Koo, and H. Lim, “A
+survey on evaluation metrics for machine translation,” Mathematics,
+vol. 11, no. 4, p. 1006, 2023.
+[205]
+J. Li, X. Cheng, W. X. Zhao, J.-Y. Nie, and J.-R. Wen, “Halueval:

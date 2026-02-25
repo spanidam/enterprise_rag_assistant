@@ -1,0 +1,21 @@
+can be solved for z as z = φ(x, y) where φ satisﬁes (10.13)-(10.14). Also
+show that ∂h
+∂z = 0 can occur only in the case of the trivial solution h = 0
+of (10.20).
+10-4 Verify the expressions (10.53) and (10.54).
+10-5 Show that the system below is locally feedback linearizable.
+˙x1
+=
+x3
+1 + x2
+˙x2
+=
+x3
+2 + u
+10-6 Derive the equations of motion (10.59) for the single-link manipulator
+with joint elasticity of Figure 10.4 using Lagrange’s equations.
+10-7 Repeat Problem 6 where there is assumed to be viscous friction both on
+the link side and on the motor side of the spring in Figure 10.4.
+10-8 Perform the calculations necessary to verify (10.65).
+10-9 Derive the system of partial diﬀerential Equations (10.68) from the con-
+ditions (10.67. Also verify (10.69).

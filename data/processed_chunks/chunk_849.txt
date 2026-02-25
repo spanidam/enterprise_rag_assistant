@@ -1,0 +1,15 @@
+ξ = L+ ˙s + (I −L+L)b
+where L+ is the pseudoinverse for L given by
+L+ = LT (LLT )−1
+and b ∈Rk is an arbitrary vector. Note the similarity between this equation
+and Equation (4.128) which gives the solution for the inverse velocity problem
+(i.e., solving for joint velocities to achieve a desired end-eﬀector velocity) for
+redundant manipulators.
+In general, for k < m, (I −LL+) ̸= 0, and all vectors of the form (I −LL+)b
+lie in the null space of L, which implies that those components of the camera
+velocity that are unobservable lie in the null space of L. If we let b = 0, we
+obtain the value for ξ that minimizes the norm
+366
+VISION-BASED CONTROL
+∥˙s −Lξ∥
+When k > m and L is full rank, we will typically have an inconsistent system

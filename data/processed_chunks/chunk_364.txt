@@ -1,0 +1,12 @@
+ﬁelds induce artiﬁcial forces on the individual control points on the robot. In
+this section, we describe how these forces can be used to drive a gradient descent
+algorithm on the conﬁguration space.
+Suppose a force, F were applied to a point on the robot arm. Such a force
+would induce forces and torques on the robot’s joints. If the joints did not
+resist these forces, a motion would occur. This is the key idea behind mapping
+artiﬁcial forces in the workspace to motions of the robot arm. Therefore, we
+now derive the relationship between forces applied to the robot arm, and the
+resulting forces and torques that are induced on the robot joints.
+162
+PATH AND TRAJECTORY PLANNING
+Let F denote the vector of joint torques (for revolute joints) and forces (for

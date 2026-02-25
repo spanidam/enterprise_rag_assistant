@@ -1,0 +1,10 @@
+the Q estimates for arbitrary other transitions. Because these weight changes may 
+increase the error in Q estimates for these other transitions, the argument prov- 
+ing the original theorem no longer holds. Theoretical analyses of reinforcement 
+learning with generalizing function approximators are given by Gordon (1995) 
+and Tsitsiklis (1994). Baird (1995) proposes gradient-based methods that circum- 
+vent this difficulty by directly minimizing the sum of squared discrepancies in 
+estimates between adjacent states (also called Bellman residual errors). 
+13.7 RELATIONSHIP TO DYNAMIC PROGRAMMING 
+Reinforcement learning methods such as Q learning are closely related to a long 
+line of research on dynamic programming approaches to solving Markov decision

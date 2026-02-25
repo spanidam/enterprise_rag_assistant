@@ -1,0 +1,9 @@
+entailed by the domain theory alone. The phrase knowledge-level learning is some- 
+times used to refer to this type of learning, in which the learned hypothesis entails 
+predictions that go beyond those entailed by the domain theory. The set of all 
+predictions entailed by a set of assertions Y is often called the deductive closure 
+of Y .  The key distinction here is that in knowledge-level learning the deductive 
+closure of B is a proper subset of the deductive closure of B + h. 
+A second example of knowledge-level analytical learning is provided by con- 
+sidering a type of assertions known as determinations, which have been explored 
+in detail by Russell (1989) and others. Determinations assert that some attribute of

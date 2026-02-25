@@ -1,0 +1,33 @@
+print(CoffeeOrder.loc,'Order', self.order_id, ':', self.cup_size, 'oz')
+if self.with_milk:
+print('\twith milk')
+if self.with_sugar:
+print('\twith sugar')
+order_1 = CoffeeOrder(8)
+order_2 = CoffeeOrder(8, True, False)
+274
+11 • Classes
+Access for free at openstax.org
+order_1.change(False, True)
+4. What does order_1 represent at the end of the program?
+a.
+8 oz coffee
+b.
+8 oz coffee with milk
+c.
+8 oz coffee with sugar
+5. Why is change() an instance method?
+a.
+can change attributes
+b.
+has multiple parameters
+c.
+can change an instance
+6. Can print_order() be unindented?
+a.
+yes
+b.
+no
+TRY IT
+Creating a class for vending machines
+Write a class, VendingMachine, as described below. Default values follow the attributes. Ex: count's

@@ -1,0 +1,10 @@
+Weber, Geoffrey I Webb, Lhassane Idoumghar, Pierre-Alain Muller, and François Petitjean. Inception-
+time: finding alexnet for time series classification. Data Mining and Knowledge Discovery, 34(6):1936–
+1962, 2020.
+[LGMT16] Arthur Le Guennec, Simon Malinowski, and Romain Tavenard. Data Augmentation for Time Series Clas-
+sification using Convolutional Neural Networks. In ECML/PKDD Workshop on Advanced Analytics and
+Learning on Temporal Data. Riva Del Garda, Italy, September 2016.
+[LBBH98]
+Yann LeCun, Léon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to docu-
+ment recognition. Proceedings of the IEEE, 86(11):2278–2324, 1998.
+[CVMerrienboerBB14] Kyunghyun Cho, Bart Van Merriënboer, Dzmitry Bahdanau, and Yoshua Bengio. On the prop-

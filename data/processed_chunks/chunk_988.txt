@@ -1,0 +1,9 @@
+embed (hence filters are not fixed a priori as in the example above but rather learned). These convolution blocks are
+translation equivariant, which means that a (temporal) shift in their input results in the same temporal shift in the output:
+/tmp/ipykernel_7034/368849627.py:32: UserWarning: This figure includes Axes that␣
+↪are not compatible with tight_layout, so results might be incorrect.
+plt.tight_layout()
+<IPython.core.display.HTML object>
+Convolutional models are known to perform very well in computer vision applications, using moderate amounts of pa-
+rameters compared to fully connected ones (of course, counter-examples exist, and the term “moderate” is especially
+vague).

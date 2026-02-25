@@ -1,0 +1,15 @@
+output unit k. 
+I 
+The algorithm in Table 4.2 updates weights incrementally, following the 
+I 
+Presentation of each training example. This corresponds to a stochastic approxi- 
+mation to gradient descent. To obtain the true gradient of E one would sum the 
+6, x,, values over all training examples before altering weight values. 
+The weight-update loop in BACKPROPAGATION 
+may be iterated thousands of 
+times in a typical application. A variety of termination conditions can be used 
+to halt the procedure. One may choose to halt after a fixed number of iterations 
+through the loop, or once the error on the training examples falls below some 
+threshold, or once the error on a separate validation set of examples meets some 
+100 
+MACHINE LEARNING

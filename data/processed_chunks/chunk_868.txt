@@ -1,0 +1,60 @@
+redundant image features). We may use Equation (12.18) to obtain
+∥ξ∥
+=
+ξT · ξ
+=
+(L+ ˙s)
+T (L+ ˙s)
+=
+˙sT (L+T L+) ˙s ≤1
+(12.32)
+Now, consider the singular value decomposition of L, given by
+L = UΣV T .
+(12.33)
+MOTION PERCEPTIBILITY
+373
+in which
+U = [u1u2 . . . uk] , V = [v1v2 . . . vm]
+(12.34)
+are orthogonal matrices, and Σ ∈ℜk×m with
+Σ =
+
+
+σ1
+σ2
+.
+.
+σm
+0
+
+
+(12.35)
+and the σi are the singular values of L, and σ1 ≥σ2 . . . ≥σm.
+For this case, the pseudoinverse of the image Jacobian, L+, is given by
+Equation (12.19). Using this with Equations (12.32) and (12.33) we obtain
+˙sT U
+
+
+σ−2
+1
+σ−2
+2
+.
+.
+σ−2
+m
+0
+
+
+U T ˙s ≤1
+(12.36)
+Consider the orthogonal transformation of ˙s given by
+˜˙s = U T ˙s
+(12.37)
+Substituting this into Equation (12.36) we obtain
+m
+X
+i=1
+1
+σ2
+i

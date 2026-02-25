@@ -1,0 +1,15 @@
+A. M. Dai, and Q. V. Le, “Finetuned language models are zero-shot
+learners,” arXiv preprint arXiv:2109.01652, 2021.
+[79]
+J. W. Rae, S. Borgeaud, T. Cai, K. Millican, J. Hoffmann, F. Song,
+J. Aslanides, S. Henderson, R. Ring, S. Young et al., “Scaling language
+models: Methods, analysis & insights from training gopher,” arXiv
+preprint arXiv:2112.11446, 2021.
+[80]
+V. Sanh, A. Webson, C. Raffel, S. H. Bach, L. Sutawika, Z. Alyafeai,
+A. Chaffin, A. Stiegler, T. L. Scao, A. Raja et al., “Multi-
+task prompted training enables zero-shot task generalization,” arXiv
+preprint arXiv:2110.08207, 2021.
+[81]
+Y. Sun, S. Wang, S. Feng, S. Ding, C. Pang, J. Shang, J. Liu, X. Chen,
+Y. Zhao, Y. Lu et al., “Ernie 3.0: Large-scale knowledge enhanced pre-

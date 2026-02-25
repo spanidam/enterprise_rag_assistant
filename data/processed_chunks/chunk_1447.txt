@@ -1,0 +1,37 @@
+The expression i*i is applied for each value of the loop_variable i.
+EXAMPLE 9.6
+A Dr. Seuss poem
+A list comprehension can be used to create a list based on another list. In line 6, the for loop is written on
+the list poem_lines.
+1
+# Create a list of words
+2
+words_list = ["one", "two", "red", "blue"]
+3
+4
+# Use a list comprehension to create a new list called
+poem_lines
+5
+# Inserting the word "fish" attached to each word in words_list
+6
+poem_lines = [w + " fish" for w in words_list]
+9.5 • List comprehensions
+235
+7
+for line in poem_lines:
+8
+print(line)
+The above code's output is:
+one fish
+two fish
+red fish
+blue fish
+CONCEPTS IN PRACTICE
+List comprehensions
+1. The component of a list comprehension defining an element of the new list is the _____.
+a.
+expression
+b.
+loop_variable
+c.
+container

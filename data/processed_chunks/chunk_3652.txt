@@ -1,0 +1,16 @@
+Y. Zhao, Y. Lu et al., “Ernie 3.0: Large-scale knowledge enhanced pre-
+training for language understanding and generation,” arXiv preprint
+arXiv:2107.02137, 2021.
+[82]
+S. Borgeaud, A. Mensch, J. Hoffmann, T. Cai, E. Rutherford, K. Mil-
+lican, G. B. Van Den Driessche, J.-B. Lespiau, B. Damoc, A. Clark
+et al., “Improving language models by retrieving from trillions of
+tokens,” in International conference on machine learning.
+PMLR,
+2022, pp. 2206–2240.
+[83]
+O. Lieber, O. Sharir, B. Lenz, and Y. Shoham, “Jurassic-1: Technical
+details and evaluation,” White Paper. AI21 Labs, vol. 1, p. 9, 2021.
+[84]
+N. Du, Y. Huang, A. M. Dai, S. Tong, D. Lepikhin, Y. Xu, M. Krikun,
+Y. Zhou, A. W. Yu, O. Firat et al., “Glam: Efficient scaling of

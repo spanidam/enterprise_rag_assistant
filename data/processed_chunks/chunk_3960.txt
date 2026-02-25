@@ -1,0 +1,10 @@
+The Markov property is important in reinforcement learning because de-
+cisions and values are assumed to be a function only of the current state. In
+order for these to be eﬀective and informative, the state representation must
+be informative. All of the theory presented in this book assumes Markov state
+signals. This means that not all the theory strictly applies to cases in which
+the Markov property does not strictly apply. However, the theory developed
+for the Markov case still helps us to understand the behavior of the algorithms,
+and the algorithms can be successfully applied to many tasks with states that
+are not strictly Markov. A full understanding of the theory of the Markov
+case is an essential foundation for extending it to the more complex and real-

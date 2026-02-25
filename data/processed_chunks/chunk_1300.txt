@@ -1,0 +1,21 @@
+a.
+calc_tax
+b.
+calculate user tax
+c.
+c_t
+6.1 • Defining functions
+147
+Benefits of functions
+A function promotes modularity by putting code statements related to a single task in a separate group. The
+body of a function can be executed repeatedly with multiple function calls, so a function promotes reusability.
+Modular, reusable code is easier to modify and is shareable among programmers to avoid reinventing the
+wheel.
+CHECKPOINT
+Improving a program with a function
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-1-defining-functions)
+CONCEPTS IN PRACTICE
+Improving programs with functions
+Consider the code above.
+8. If the points were changed from floats to integers, how many statements would need to be changed in

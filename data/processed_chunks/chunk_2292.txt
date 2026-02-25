@@ -1,0 +1,11 @@
+isolated word recognition. Neural Networks, 3, 3343. 
+LeCun, Y., Boser, B., Denker, J. S., Henderson, D., Howard, R. E., Hubbard, W., & Jackel, L.D. 
+(1989). BACKPROPAGATION 
+applied to handwritten zip code recognition. Neural Computa- 
+tion, l(4). 
+LeCun, Y., Denker, J. S., & Solla, S. A. (1990). Optimal brain damage. In D. Touretzky (Ed.), 
+Advances in Neural Information Processing Systems (Vol. 2, pp. 598405). San Mateo, CA: 
+Morgan Kaufmann. 
+Manke, S., Finke, M. & Waibel, A. (1995). NPEN++: a writer independent, large vocabulary on- 
+line cursive handwriting recognition system. Proceedings of the International Conference on 
+Document Analysis and Recognition. Montreal, Canada: IEEE Computer Society.

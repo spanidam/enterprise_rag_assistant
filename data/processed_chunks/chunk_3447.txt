@@ -1,0 +1,14 @@
+scendant of GPT-3, fine-tuned for programming applications
+on code corpora collected from GitHub. CODEX powers
+Microsoft’s GitHub Copilot.
+WebGPT [58] is another descendant of GPT-3, fine-tuned to
+answer open-ended questions using a text-based web browser,
+facilitating users to search and navigate the web. Specifically,
+Fig. 5: Cross-lingual language model pretraining. The MLM
+objective is similar to BERT, but with continuous streams
+of text as opposed to sentence pairs. The TLM objective
+extends MLM to pairs of parallel sentences. To predict a
+masked English word, the model can attend to both the English
+sentence and its French translation, and is encouraged to align
+English and French representations. Courtesy of [47].
+Fig. 6: Overview of unified LM pre-training. The model

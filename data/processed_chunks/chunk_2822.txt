@@ -1,0 +1,9 @@
+programs are functions that edit the seed circuit by inserting or deleting circuit 
+components and wiring connections. The fitness of each program is calculated 
+by simulating the circuit it outputs (using the SPICE circuit simulator) to de- 
+termine how closely this circuit meets the design specifications for the desired 
+filter. More precisely, the fitness score is the sum of the magnitudes of errors 
+between the desired and actual circuit output at 101 different input frequen- 
+cies. In this case, a population of size 640,000 was maintained, with selection 
+producing 10% of the successor population, crossover producing 89%, and mu- 
+tation producing 1%. The system was executed on a 64-node parallel proces-

@@ -1,0 +1,34 @@
+2.6 • The math module
+55
+b.
+The variable pie was spelled incorrectly.
+c.
+The math module was not imported.
+2. Which of these functions is builtin and does not need to be imported?
+a.
+log()
+b.
+round()
+c.
+sqrt()
+3. Which expression results in an error?
+a.
+math.abs(1)
+b.
+math.log(1)
+c.
+math.sqrt(1)
+Mathematical functions
+Commonly used math functions and constants are shown below. The complete math module listing
+(https://openstax.org/r/100mathmodule) is available in Python's official documentation.
+Constant
+Value
+Description
+math.e
+Euler's number: the base of the natural logarithm.
+math.pi
+The ratio of the circumference to the diameter of a circle.
+math.tau
+The ratio of the circumference to the radius of a circle. Tau is equal to 2π.
+Table 2.3 Example constants in the math module.
+Function

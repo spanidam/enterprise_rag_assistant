@@ -1,0 +1,10 @@
+expected time. ACM Transactions on Mathematical Software, 3(3), 209-226. 
+Golding, A., & Rosenbloom, P. (1991). Improving rule-based systems through case-based reasoning. 
+Proceedings of the Ninth National Conference on Artificial Intelligence (pp. 22-27). Cam- 
+bridge: AAAI Pressme MIT Press. 
+Hartman, E. J., Keller, J. D., & Kowalski, J. M. (1990). Layered neural networks with Gaussian 
+hidden units as universal approximations. Neural Computation, 2(2), 210-215. 
+Haton, J.-P., Keane, M., & Manago, M. (Eds.). (1995). Advances in case-based reasoning: Second 
+European workshop. Berlin: Springer-Verlag. 
+Kolodner, J. L. (1993). Case-Based Reasoning. San Francisco: Morgan Kaufmann. 
+Moody, J. E., & Darken, C. J. (1989). Fast learning in networks of locally-tuned processing units.

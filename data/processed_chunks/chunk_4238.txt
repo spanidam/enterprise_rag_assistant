@@ -1,0 +1,17 @@
+One of the most important breakthroughs in reinforcement learning was the de-
+velopment of an oﬀ-policy TD control algorithm known as Q-learning (Watkins,
+1989). Its simplest form, one-step Q-learning, is deﬁned by
+Q(St, At) ←Q(St, At) + α
+h
+Rt+1 + γ max
+a
+Q(St+1, a) −Q(St, At)
+i
+.
+(6.6)
+In this case, the learned action-value function, Q, directly approximates q∗,
+the optimal action-value function, independent of the policy being followed.
+This dramatically simpliﬁes the analysis of the algorithm and enabled early
+convergence proofs. The policy still has an eﬀect in that it determines which
+state–action pairs are visited and updated. However, all that is required for
+correct convergence is that all pairs continue to be updated. As we observed

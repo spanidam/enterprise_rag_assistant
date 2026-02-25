@@ -1,0 +1,15 @@
+i is the current in the conductor. The motor itself consists of a ﬁxed stator
+and a movable rotor that rotates inside the stator, as shown in Figure 7.2. If
+the stator produces a radial magnetic ﬂux φ and the current in the rotor (also
+called the armature) is i then there will be a torque on the rotor causing it to
+rotate. The magnitude of this torque is
+τm
+=
+K1φia
+(7.2)
+where τm is the motor torque (N −m), φ is the magnetic ﬂux (webers), ia is
+the armature current (amperes), and K1 is a physical constant. In addition,
+whenever a conductor moves in a magnetic ﬁeld, a voltage Vb is generated across
+its terminals that is proportional to the velocity of the conductor in the ﬁeld.
+This voltage, called the back emf, will tend to oppose the current ﬂow in the
+conductor.

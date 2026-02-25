@@ -1,0 +1,21 @@
+the DH-convention.
+5. Consider the three-link planar manipulator of Figure 3.26 Derive the for-
+ward kinematic equations using the DH-convention.
+6. Consider the three-link articulated robot of Figure 3.27. Derive the for-
+104
+FORWARD AND INVERSE KINEMATICS
+Fig. 3.25
+Two-link planar arm of Problem 3-4
+Fig. 3.26
+Three-link planar arm with prismatic joint of Problem 3-5
+Fig. 3.27
+Three-link articulated robot
+ward kinematic equations using the DH-convention.
+7. Consider the three-link cartesian manipulator of Figure 3.28. Derive the
+forward kinematic equations using the DH-convention.
+8. Attach a spherical wrist to the three-link articulated manipulator of Prob-
+lem 3-6. as shown in Figure 3.29. Derive the forward kinematic equations
+for this manipulator.
+NOTES AND REFERENCES
+105
+Fig. 3.28

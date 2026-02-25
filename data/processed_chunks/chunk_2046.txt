@@ -1,0 +1,12 @@
+proaches: 
+ID3 searches a complete hypothesis space (i.e., one capable of expressing 
+any finite discrete-valued function). It searches incompletely through this 
+space, from simple to complex hypotheses, until its termination condition is 
+met (e.g., until it finds a hypothesis consistent with the data). Its inductive 
+bias is solely a consequence of the ordering of hypotheses by its search 
+strategy. Its hypothesis space introduces no additional bias. 
+0 The version space CANDIDATE-ELIMINATION 
+algorithm searches an incom- 
+plete hypothesis space (i.e., one that can express only a subset of the poten- 
+tially teachable concepts). It searches this space completely, finding every 
+hypothesis consistent with the training data. Its inductive bias is solely a

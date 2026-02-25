@@ -1,0 +1,9 @@
+domain theory is not perfectly consistent with the training examples. For example, 
+the domain theory fails to classify the second and third training examples as pos- 
+itive examples. Nevertheless, the domain theory forms a useful approximation to 
+the target concept. KBANN uses the domain theory and training examples together 
+to learn the target concept more accurately than it could from either alone. 
+In the first stage of the KBANN algorithm (steps 1-3 in the algorithm), an 
+initial network is constructed that is consistent with the domain theory. For exam- 
+ple, the network constructed from the Cup domain theory is shown in Figure 12.2. 
+In general the network is constructed by creating a sigmoid threshold unit for each

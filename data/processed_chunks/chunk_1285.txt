@@ -1,0 +1,43 @@
+entirely. A continue statement can be used in a for or a while loop. After the continue statement's
+execution, the loop expression will be evaluated again and the loop will continue from the loop's expression. A
+continue statement facilitates the loop's control and readability.
+5.4 • Break and continue
+135
+CHECKPOINT
+Continue statement in a while loop
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+5-4-break-and-continue)
+CONCEPTS IN PRACTICE
+Using a continue statement
+4. Given the following code, how many times does the print statement get executed?
+i = 10
+while i >= 0:
+i -= 1
+if i%3 != 0:
+continue
+print(i)
+a.
+3
+b.
+4
+c.
+11
+5. What is the following code's output?
+for c in "hi Ali":
+if c == " ":
+continue
+print(c)
+a.
+h
+i
+A
+l
+i
+b.
+h
+i
+A
+l
+i
+c.
+hi

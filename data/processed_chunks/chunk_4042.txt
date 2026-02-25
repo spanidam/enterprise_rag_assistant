@@ -1,0 +1,25 @@
+purposes, iterative solution methods are most suitable. Consider a sequence of
+approximate value functions v0, v1, v2, . . ., each mapping S+ to R. The initial
+approximation, v0, is chosen arbitrarily (except that the terminal state, if any,
+4.1. POLICY EVALUATION
+91
+must be given value 0), and each successive approximation is obtained by using
+the Bellman equation for vπ (3.12) as an update rule:
+vk+1(s)
+=
+Eπ[Rt+1 + γvk(St+1) | St =s]
+=
+X
+a
+π(a|s)
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvk(s′)
+i
+,
+(4.5)
+for all s ∈S. Clearly, vk = vπ is a ﬁxed point for this update rule because
+the Bellman equation for vπ assures us of equality in this case. Indeed, the
+sequence {vk} can be shown in general to converge to vπ as k →∞under the

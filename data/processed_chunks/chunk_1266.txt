@@ -1,0 +1,18 @@
+increased by one, and a condition can check whether the counter's value is an even number or not. The
+change in the counter's value in each iteration is called the step size. The step size can be any positive or
+negative value. If the step size is a positive number, the counter counts in ascending order, and if the step size
+is a negative number, the counter counts in descending order.
+EXAMPLE 5.1
+A program printing all odd numbers between 1 and 10
+# Initialization
+counter = 1
+# While loop condition
+while counter <= 10:
+if counter % 2 == 1:
+print(counter)
+# Counting up and increasing counter's value by 1 in each iteration
+counter += 1
+CHECKPOINT
+Counting with while loop
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+5-1-while-loop)

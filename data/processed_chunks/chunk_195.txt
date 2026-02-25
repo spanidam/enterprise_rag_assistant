@@ -1,0 +1,90 @@
+(3.14) and (3.15) to derive the forward kinematics as
+T 0
+6
+=
+T 0
+3 T 3
+6
+(3.16)
+with T 0
+3 given by (3.14) and T 3
+6 given by (3.15). Therefore the forward kine-
+matics of this manipulator is described by
+T 0
+6
+=
+
+
+r11
+r12
+r13
+dx
+r21
+r22
+r23
+dy
+r31
+r32
+r33
+dz
+0
+0
+0
+1
+
+
+(3.17)
+FORWARD KINEMATICS: THE DENAVIT-HARTENBERG CONVENTION
+81
+z1
+θ2
+θ1
+z0
+a
+θ4
+d3
+z2
+θ5
+θ6
+n
+s
+x0, x1
+Note: the shoulder (prismatic joint) is mounted wrong.
+Fig. 3.10
+DH coordinate frame assignment for the Stanford manipulator
+in which
+r11
+=
+c1c4c5c6 −c1s4s6 + s1s5c6
+r21
+=
+s1c4c5c6 −s1s4s6 −c1s5c6
+r31
+=
+−s4c5c6 −c4s6
+r12
+=
+−c1c4c5s6 −c1s4c6 −s1s5c6
+r22
+=
+−s1c4c5s6 −s1s4s6 + c1s5c6
+r32
+=
+s4c5c6 −c4c6
+r13
+=
+c1c4s5 −s1c5
+r23
+=
+s1c4s5 + c1c5
+r33
+=
+−s4s5
+dx
+=
+c1c4s5d6 −s1c5d6 −s1d3
+dy
+=
+s1c4s5d6 + c1c5d6 + c1d3
+dz
+=

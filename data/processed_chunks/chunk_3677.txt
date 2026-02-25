@@ -1,0 +1,22 @@
+Date
+of
+access,
+e.g.,
+December 5, 2023. [Online]. Available: https://shorturl.at/dSV47
+[167]
+S. Pan, L. Luo, Y. Wang, C. Chen, J. Wang, and X. Wu, “Unifying large
+language models and knowledge graphs: A roadmap,” arXiv preprint
+arXiv:2306.08302, 2023.
+[168]
+Z. Jiang, F. F. Xu, L. Gao, Z. Sun, Q. Liu, J. Dwivedi-Yu, Y. Yang,
+J. Callan, and G. Neubig, “Active retrieval augmented generation,”
+2023.
+[169]
+T. Schick, J. Dwivedi-Yu, R. Dess`ı, R. Raileanu, M. Lomeli, L. Zettle-
+moyer, N. Cancedda, and T. Scialom, “Toolformer: Language models
+can teach themselves to use tools,” 2023.
+[170]
+B. Paranjape, S. Lundberg, S. Singh, H. Hajishirzi, L. Zettlemoyer,
+and M. T. Ribeiro, “Art: Automatic multi-step reasoning and tool-use
+for large language models,” 2023.
+[171]

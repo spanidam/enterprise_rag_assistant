@@ -1,0 +1,20 @@
+detection of convex objects. Journal of Graphics Tools, 4(2):7–25, 1999.
+74. Gino van den Bergen. User’s Guide to the SOLID Interference Detection
+Library. Eindhoven University of Technology, Eindhoven, The Netherlands,
+1999.
+75. E. T. Whirraker.
+Dynamics of Particles and Rigid Bodies.
+Cambridge
+University Press, London, 1904.
+76. D. E. Whitney. The mathematics of coordinated control of prosthetic arms
+and manipulators. J. Dyn. Sys., Meas. Cont., December 1972.
+77. W. Wolovich. Robotics: Basic Analysis and Design. Holt, Rinehart, and
+Winston, New York, 1985.
+78. T. Yoshikawa. Manipulability of robotic mechanisms. International Journal
+of Robotics Research, 4(2):3–9, 1985.
+Index
+Accuracy, 7
+Across Variable, 287
+Actuator Dynamics, 231
+Angle, 69
+Angular momentum, 320, 323

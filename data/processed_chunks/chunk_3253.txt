@@ -1,0 +1,11 @@
+actions that it has already learned will yield high reward (to maximize its 
+cumulative reward). 
+0 Partially observable states. Although it is convenient to assume that the 
+agent's sensors can perceive the entire state of the environment at each time 
+step, in many practical situations sensors provide only partial information. 
+For example, a robot with a forward-pointing camera cannot see what is 
+behind it. In such cases, it may be necessary for the agent to consider its 
+previous observations together with its current sensor data when choosing 
+actions, and the best policy may be one that chooses actions specifically to 
+improve the observability of the environment. 
+Life-long learning. Unlike isolated function approximation tasks, robot learn-

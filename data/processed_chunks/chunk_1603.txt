@@ -1,0 +1,28 @@
+fileobj =
+open("log.txt", 'a')
+Table 14.1 Modes for the open() function.
+CONCEPTS IN PRACTICE
+File modes
+Assume that a file named logfile.txt exists.
+1. To read logfile.txt, which of the following lines of code works best?
+a.
+logfile = open("logfile.txt")
+b.
+logfile = open("logfile.txt", 'w')
+c.
+logfile = open("logfile.txt", 'a')
+2. Additions are to be made to logfile.txt. Which of the following lines of code works best?
+a.
+infile = open("logfile.txt")
+b.
+infile = open("logfile.txt", 'w')
+c.
+infile = open("logfile.txt", 'a')
+3. A new file called newlog.txt must be created. Which of the following lines of code works best?
+a.
+logfile = open("newlog.txt")
+b.
+logfile = open("newlog.txt", 'w')
+c.
+logfile = open("newlog.txt", 'a')
+Using write() and close()

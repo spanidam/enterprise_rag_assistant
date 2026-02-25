@@ -1,0 +1,19 @@
+Implement the get_type() function using this approach. The provided main block calls get_type() for
+each word in a file. get_type() should return either "int", "float", or "str", based on the word. The
+output for the provided data.txt is:
+str: Hello
+int: 100
+str: times!
+float: 3.14159
+str: is
+str: pi.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+14-4-handling-exceptions)
+TRY IT
+United countries
+Write a program that prompts the user to input a word and a filename. The program should print each line
+of the file that contains the word. Here is an example run of the program (user input in bold):
+United
+Enter a filename: countries.csv
+United Arab Emirates,9890402,83600,118
+United Kingdom,67886011,241930,281

@@ -1,0 +1,21 @@
+Anthropic. claude. [Online]. Available: https://www.anthropic.com/
+news/introducing-claude
+[113]
+E. Nijkamp, H. Hayashi, C. Xiong, S. Savarese, and Y. Zhou,
+“Codegen2: Lessons for training llms on programming and natural
+languages,” arXiv preprint arXiv:2305.02309, 2023.
+[114]
+L. Tunstall, E. Beeching, N. Lambert, N. Rajani, K. Rasul, Y. Belkada,
+S. Huang, L. von Werra, C. Fourrier, N. Habib et al., “Zephyr: Direct
+distillation of lm alignment,” arXiv preprint arXiv:2310.16944, 2023.
+[115]
+X. team. Grok. [Online]. Available: https://grok.x.ai/
+[116]
+J. Bai, S. Bai, S. Yang, S. Wang, S. Tan, P. Wang, J. Lin, C. Zhou,
+and J. Zhou, “Qwen-vl: A frontier large vision-language model with
+versatile abilities,” arXiv preprint arXiv:2308.12966, 2023.
+[117]
+mixtral.
+mixtral.
+[Online].
+Available:

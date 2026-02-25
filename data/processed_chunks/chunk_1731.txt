@@ -1,0 +1,11 @@
+1. c. Both num and num_sq are created outside of functions and are global variables.
+2. a. num is created outside of a function and is global. num_sq is created in print_square() and is not
+global.
+3. c. num is global and can be accessed anywhere in the program, including both print_double() and
+print_square().
+4. b. out_str is the only variable declared in print_time() and is a local variable.
+5. c. out_str is accessed in print_greeting() but created in statements outside of print_greeting().
+6. b. print_time() creates out_str as a local variable. out_str is only in scope in print_time() and
+cannot be accessed elsewhere.
+7. a. The global variable hour is not edited in update_hour(). tmp is the local variable edited. tmp is
+discarded after update_hour() finishes.

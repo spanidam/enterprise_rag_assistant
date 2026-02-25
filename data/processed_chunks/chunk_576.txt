@@ -1,0 +1,52 @@
+is shown in Figure 7.27. In this case the system is unstable for large KD. The
+critical value of KD, that is, the value of KD for which the system becomes
+STATE SPACE DESIGN
+251
+60
+k
+\theta_m
+s  +.1s+60
+2
+1
+Transfer Fcn1
+s  +.1s+60
+2
+60
+Transfer Fcn
+Step
+PID
+PID Controller
+Disturbance 
+Fig. 7.26
+PD-control with load angle feedback.
+−6
+−5
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+−5
+−4
+−3
+−2
+−1
+0
+1
+2
+3
+4
+Root Locus
+Real Axis
+Imaginary Axis
+Fig. 7.27
+Root locus for the system of Figure 7.22.
+unstable, can be found from the Routh criterion. The best that one can do in
+this case is to limit the gain KD so that the closed loop poles remain within
+the left half plane with a reasonable stability margin.
+Example 7.4 Suppose that the system (7.55)-(7.56) has the following param-
+eters (see [1])
+k = 0.8Nm/rad

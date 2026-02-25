@@ -1,0 +1,14 @@
+Minerva: In [91], Lewkowycz et al. introduced Minerva,
+a large language model pretrained on general natural language
+data and further trained on technical content, to tackle previous
+LLM struggle with quantitative reasoning (such as solving
+mathematics, science, and engineering problems).
+MoD: In [92], Tay et al. presented a generalized and
+unified perspective for self-supervision in NLP and show how
+different pre-training objectives can be cast as one another
+and how interpolating between different objectives can be
+effective. They proposed Mixture-of-Denoisers (MoD), a pre-
+training objective that combines diverse pre-training paradigms
+together. This framework is known as Unifying Language
+Learning (UL2). An overview of UL2 pretraining paradigm
+is shown in Fig 21.

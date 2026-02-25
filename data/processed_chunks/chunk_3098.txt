@@ -1,0 +1,11 @@
+Chien, S. (1993). NONMON: Learning with recoverable simplifications. In G. DeJong (Ed.), Znvesti- 
+gating explanation-based learning (pp. 41M34). Boston, MA: Kluwer Academic Publishers. 
+Davies, T. R., and Russell, S. J. (1987). A logical approach to reasoning by analogy. Proceedings of 
+the 10th International Joint Conference on ArtiJcial Intelligence (pp. 264-270). San Mateo, 
+CA: Morgan Kaufmann. 
+DeJong, G. (1981). Generalizations based on explanations. Proceedings of the Seventh International 
+Joint Conference on ArtiJicial Intelligence (pp. 67-70). 
+DeJong, G., & Mooney, R. (1986). Explanation-based learning: An alternative view. Machine Learn- 
+ing, 1(2), 145-176. 
+DeJong, G. (Ed.). (1993). Investigating explanation-based learning. Boston, MA: Kluwer Academic 
+Publishers.

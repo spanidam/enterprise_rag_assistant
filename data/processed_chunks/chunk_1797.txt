@@ -1,0 +1,11 @@
+training examples presented? and Which learning algorithms are most appropriate for various 
+types of learning tasks? DLC: Computer algorithms.  
+Book Description: This book covers the field of machine learning, which is the study of 
+algorithms that allow computer programs to automatically improve through experience. The 
+book is intended to support upper level undergraduate and introductory level graduate courses in 
+machine learning 
+PREFACE 
+The field of machine learning is concerned with the question of how to construct 
+computer programs that automatically improve with experience. In recent years 
+many successful machine learning applications have been developed, ranging from 
+data-mining programs that learn to detect fraudulent credit card transactions, to

@@ -1,0 +1,13 @@
+At time t, the orientation of the camera frame is given by a rotation matrix
+R0
+c = R(t), which speciﬁes the orientation of the camera frame at time t rel-
+ative to the ﬁxed frame. We denote by O(t) the position of the origin of the
+camera frame relative to the ﬁxed frame. We denote by p the ﬁxed point in the
+workspace, and s = (u, v)T is the feature vector corresponding to the projection
+of this point in the image.
+Our goal in this section is to derive the interaction matrix L that relates the
+velocity of the camera ξ to the derivatives of the coordinates of the projection
+of the point in the image ˙s. We begin by ﬁnding an expression for the relative
+360
+VISION-BASED CONTROL
+velocity of the point p to the moving camera. We then use the perspective

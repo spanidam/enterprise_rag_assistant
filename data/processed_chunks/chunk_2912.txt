@@ -1,0 +1,11 @@
+0 The negation of either of the above forms of literals. 
+To illustrate, consider learning rules to predict the target literal Grand- 
+Daughter(x, y), where the other predicates used to describe examples are Father 
+and Female. The general-to-specific search in FOIL begins with the most general 
+rule 
+GrandDaughter(x, y) t 
+which asserts that GrandDaughter(x, y) is true of any x and y. To specialize 
+this initial rule, the above procedure generates the following literals as candi- 
+date additions to the rule preconditions: Equal (x, y) , Female(x), Female(y), 
+Father(x, y), Father(y, x), Father(x, z), Father(z, x), Father(y, z), Father- 
+(z, y), and the negations of each of these literals (e.g., -Equal(x, y)). Note that

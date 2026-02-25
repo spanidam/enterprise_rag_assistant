@@ -1,0 +1,39 @@
+time_string = "13:46"
+minutes = time_string[3:5]
+print(minutes)
+8.2 • String slicing
+201
+The above code's output is:
+46
+EXAMPLE 8.3
+Getting the hour
+Consider a time value is given as "hh:mm" with "hh" representing the hour and "mm" representing the
+minutes. To retrieve only the string's hour portion, the following code can be used:
+time_string = "14:50"
+hour = time_string[:2]
+print(hour)
+The above code's output is:
+14
+CONCEPTS IN PRACTICE
+Getting a substring using string slicing
+4. What is the output of the following code?
+a_string = "Hello world"
+print(a_string[2:4])
+a.
+"el"
+b.
+"ll"
+c.
+"llo"
+5. What is the output of the following code?
+location = "classroom"
+print(location[-3:-1])
+a.
+"ro"
+b.
+"oo"
+c.
+"oom"
+6. What is the output of the following code?
+202
+8 • Strings

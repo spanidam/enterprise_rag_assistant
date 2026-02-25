@@ -1,0 +1,33 @@
+else-statements)
+USING BOOLEAN VARIABLES
+A Boolean variable already has a value of True or False and can be used directly in a condition rather than
+using the equality operator. Ex: if is_raining == True: can be simplified to if is_raining:.
+CONCEPTS IN PRACTICE
+Using if statements
+1. Given the following, which part is the condition?
+if age < 12:
+print("Discount for children available")
+a.
+age
+b.
+age < 12
+c.
+print("Discount for children available")
+2. Given the following, which lines execute if the condition is true?
+1
+print("Have a great day.")
+2
+if is_raining:
+3
+print("Don't forget an umbrella!")
+4
+print("See you soon.")
+a.
+1, 2, 3
+b.
+1, 2, 4
+c.
+1, 2, 3, 4
+3. Given the following (same as above), which lines execute if the condition is False?
+1
+print("Have a great day.")

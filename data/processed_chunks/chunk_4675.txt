@@ -1,0 +1,20 @@
+J. L. Davis, and D. G. Beiser (eds.), Models of Information Processing in
+the Basal Ganglia, pp. 215–232. MIT Press, Cambridge, MA.
+Barto, A. G. (1995b). Reinforcement learning. In M. A. Arbib (ed.), Hand-
+book of Brain Theory and Neural Networks, pp. 804–809. MIT Press, Cam-
+bridge, MA.
+Barto, A. G., Anandan, P. (1985).
+Pattern recognizing stochastic learning
+15.5. OTHER FRONTIER DIMENSIONS
+313
+automata. IEEE Transactions on Systems, Man, and Cybernetics, 15:360–
+375.
+Barto, A. G., Anderson, C. W. (1985).
+Structural learning in connectionist
+systems.
+In Program of the Seventh Annual Conference of the Cognitive
+Science Society, pp. 43–54.
+Barto, A. G., Anderson, C. W., Sutton, R. S. (1982).
+Synthesis of nonlin-
+ear control surfaces by a layered associative search network.
+Biological

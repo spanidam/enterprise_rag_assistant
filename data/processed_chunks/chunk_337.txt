@@ -1,0 +1,15 @@
+sider a two-link planar arm in a workspace containing a single obstacle as shown
+in Figure 5.2(a). The conﬁguration space obstacle region is illustrated in 5.2(b).
+The horizontal axis in 5.2(b) corresponds to θ1, and the vertical axis to θ2. For
+values of θ1 very near π/2, the ﬁrst link of the arm collides with the obstacle.
+Further, when the ﬁrst link is near the obstacle (θ1 near π/2), for some values
+of θ2 the second link of the arm collides with the obstacle. The region QO shown
+in 5.2(b) was computed using a discrete grid on the conﬁguration space. For
+each cell in the grid, a collision test was performed, and the cell was shaded
+when a collision occured. Thus, this is only an approximate representation of
+QO.
+THE CONFIGURATION SPACE
+153
+(a)
+(b)
+Fig. 5.2

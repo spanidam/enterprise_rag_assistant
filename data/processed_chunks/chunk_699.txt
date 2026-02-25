@@ -1,0 +1,25 @@
+space at each point is spanned by the vector ﬁelds X1 and X2. Such a surface, if
+it can be found, is called an integral manifold for the system (10.13)-(10.14).
+If such an integral manifold exists then the set of vector ﬁelds, equivalently, the
+system of partial diﬀerential equations, is called completely integrable.
+Let us reformulate this problem in yet another way. Suppose that z = φ(x, y)
+is a solution of (10.13)-(10.14). Then it is a simple computation (Problem 10-2)
+to check that the function
+h(x, y, z)
+=
+z −φ(x, y)
+(10.19)
+satisﬁes the system of partial diﬀerential equations
+LX1h
+=
+0
+LX2h
+=
+0
+(10.20)
+Conversely, suppose a scalar function h can be found satisfying (10.20), and
+suppose that we can solve the equation
+h(x, y, z)
+=
+0
+(10.21)

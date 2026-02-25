@@ -1,0 +1,34 @@
+results in
+f2
+=
+m2ac,2 −m2g2
+(6.170)
+τ2
+=
+I2α2 + ω2 × (I2ω2) −f2 × ℓc2i
+(6.171)
+Now we can substitute for ω2, α2 from (6.160), and for ac,2 from (6.168). We
+also note that the gyroscopic term equals zero, since both ω2 and I2ω2 are
+aligned with k. Now the cross product f2 × ℓc2i is clearly aligned with k and
+its magnitude is just the second component of f2. The ﬁnal result is
+τ2
+=
+I2(¨q1 + ¨q2)k + [m2ℓ1ℓc2 sin q2 ˙q2
+1 + m2ℓ1ℓc2 cos q2¨q1
++m2ℓ2
+c2(¨q1 + ¨q2) + m)2ℓc2g cos(q1 + q2)]k
+(6.172)
+Since τ2 = τ2k, we see that the above equation is the same as the second
+equation in (6.87).
+Backward Recursion: Link 1
+To complete the derivation, we apply (6.144) and (6.145) with i = 1. First, the
+force equation is
+f1
+=
+m1ac,1 + R2
+1f2 −m1g1
+(6.173)
+and the torque equation is
+τ1
+=
+R2

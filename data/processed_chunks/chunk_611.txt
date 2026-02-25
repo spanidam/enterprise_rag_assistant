@@ -1,0 +1,18 @@
+to balance the gravitational torque g(q). Thus we see that the steady state
+error can be reduced by increasing the position gain KP .
+In order to remove this steady state error we can modify the PD control law
+as
+u
+=
+KP ˜q −KD ˙q + g(q).
+(8.14)
+The modiﬁed control law (8.14), in eﬀect, cancels the eﬀect of the gravitational
+terms and we achieve the same Equation (8.11) as before.
+The control law
+(8.14) requires microprocessor implementation to compute at each instant the
+gravitational terms g(q) from the Lagrangian equations. In the case that these
+terms are unknown the control law (8.14) cannot be implemented. We will say
+more about this and related issues later.
+8.3
+INVERSE DYNAMICS
+We now consider the application of more complex nonlinear control techniques

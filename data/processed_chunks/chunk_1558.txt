@@ -1,0 +1,26 @@
+13-1-inheritance-basics)
+CONCEPTS IN PRACTICE
+Relationships between classes
+1. What is the relationship between a Doughnut class and a Pastry class?
+a.
+is-a
+b.
+has-a
+2. What is the relationship between a Kitchen class and a Freezer class?
+a.
+is-a
+b.
+has-a
+3. A goalkeeper is a player. Goalkeeper is a ______class. Player is a ______class.
+a.
+super; sub
+b.
+sub; super
+Inheritance in Python
+Inheritance uses an is-a relationship to inherit a class from a superclass. The subclass inherits all the
+superclass's attributes and methods, and extends the superclass's functionality.
+In Python, a subclass is created by including the superclass name in parentheses at the top of the subclass's
+definition:
+class SuperClass:
+# SuperClass attributes and methods
+class SubClass(SuperClass):

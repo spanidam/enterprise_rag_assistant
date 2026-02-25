@@ -1,0 +1,11 @@
+derive Equation (7.3). Derive an alternative expression for the number of training 
+examples sufficient to ensure that every hypothesis will have true error no worse 
+than ( 1  + y)errorD(h). You can use the general Chernoff bounds to derive such a 
+result. 
+Chernoff bounds: Suppose XI,. . . , Xm are the outcomes of rn independent 
+coin flips (Bernoulli trials), where the probability of heads on any single trial is 
+Pr[Xi = 11 = p and the probability of tails is Pr[Xi = 01 = 1 - p. Define S = 
+XI + X2 + -. - + Xm to be the sum of the outcomes of these m trials. The expected 
+value of S/m is E[S/m] = p. The Chernoff bounds govern the probability that S/m 
+will differ from p by some factor 0 5 y 5 1. 
+7.4. Consider a learning problem in which X = % is the set of real numbers, and C = H

@@ -1,0 +1,10 @@
+be included. 
+A second approach is to choose a set of kernel functions that is smaller 
+than the number of training examples. This approach can be much more effi- 
+cient than the first approach, especially when the number of training examples 
+is large. The set of kernel functions may be distributed with centers spaced uni- 
+formly throughout the instance space X. Alternatively, we may wish to distribute 
+the centers nonuniformly, especially if the instances themselves are found to be 
+distributed nonuniformly over X. In this later case, we can pick kernel function 
+centers by randomly selecting a subset of the training instances, thereby sampling 
+the underlying distribution of instances. Alternatively, we may identify prototyp-

@@ -1,0 +1,13 @@
+mation. Specialize the result to the case of a cubic characteristic, i.e.,
+φ = k(q1 −q2)3. The cubic spring characteristic is a more accurate de-
+scription for many manipulators than is the linear spring, especially for
+elasticity arising from gear ﬂexibility.
+10-17 Consider again the single link ﬂexible joint robot given by (10.59) and
+suppose that only the link angle, q1, is measurable. Design an observer
+to estimate the full state vector, x = q1, ˙q1, q2, ˙q2)T .
+Hint: Set y = q1 = Cx and show that the system can be written in state
+state as
+˙x = Ax + bu + φ(y)
+where φ(y) is a nonlinear function depending only on the output y. Then
+a linear observer with output injection can be designed as
+˙ˆx = Aˆx + bu + φ(y) + L(y −Cˆx)

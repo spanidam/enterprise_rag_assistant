@@ -1,0 +1,13 @@
+modifying this function on-line. (It is possible that these ideas of Shannon’s
+also inﬂuenced Bellman, but we know of no evidence for this.) Minsky (1961)
+extensively discussed Samuel’s work in his “Steps” paper, suggesting the con-
+nection to secondary reinforcement theories, both natural and artiﬁcial.
+As we have discussed, in the decade following the work of Minsky and
+24
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM
+Samuel, little computational work was done on trial-and-error learning, and
+apparently no computational work at all was done on temporal-diﬀerence
+learning.
+In 1972, Klopf brought trial-and-error learning together with an
+important component of temporal-diﬀerence learning. Klopf was interested
+in principles that would scale to learning in large systems, and thus was in-

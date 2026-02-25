@@ -1,0 +1,40 @@
+a.
+range(5, 1, 1)
+b.
+range(5, 1, -1)
+c.
+range(5, 0, -1)
+5.2 • For loop
+127
+6. What is the sequence generated from range(-1, -2, -1)?
+a.
+1
+b.
+-1, -2
+c.
+-2
+7. What is the output of the range(1, 2, -1)?
+a.
+1
+b.
+1, 2
+c.
+empty sequence
+8. What is the output of range(5, 2)?
+a.
+0, 2, 4
+b.
+2, 3, 4
+c.
+empty sequence
+TRY IT
+Counting spaces
+Write a program using a for loop that takes in a string as input and counts the number of spaces in the
+provided string. The program must print the number of spaces counted. Ex: If the input is "Hi everyone",
+the program outputs 1.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/5-2-for-
+loop)
+TRY IT
+Sequences
+Write a program that reads two integer values, n1 and n2, with n1 < n2, and performs the following tasks:
+1.

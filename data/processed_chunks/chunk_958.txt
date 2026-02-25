@@ -1,0 +1,12 @@
+2.4. Declaring an MLP in keras
+13
+Deep Learning Basics (lecture notes)
+® Exercise #1
+Relying on what we have seen in this chapter, can you explain the number of parameters returned by model.
+summary() above?
+® Solution
+Our input layer is made of 10 neurons, and our first layer is fully connected, hence each of these neurons is
+connected to a neuron in the hidden layer through a parameter, which already makes 10 × 20 = 200 parameters.
+Moreover, each of the hidden layer neurons has its own bias parameter, which is 20 more parameters. We then
+have 220 parameters, as output by model.summary() for the layer "dense (Dense)".
+Similarly, for the connection of the hidden layer neurons to those in the output layer, the total number of param-

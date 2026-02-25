@@ -1,0 +1,16 @@
+There are many more examples of algorithms that attempt to combine induc- 
+tive and analytical learning. For example, methods for learning Bayesian belief 
+networks discussed in Chapter 6 provide one alternative to the approaches dis- 
+cussed here. The references at the end of this chapter provide additional examples 
+and sources for further reading. 
+EXERCISES 
+12.1. Consider learning the target concept GoodCreditRisk defined over instances de- 
+scribed by the four attributes HasStudentLoan, HasSavingsAccount, Isstudent, 
+OwnsCar. Give the initial network created by KBANN for the following domain 
+theory, including all network connections and weights. 
+GoodCreditRisk t 
+Employed, LowDebt 
+Employed t 
+-1sStudent 
+LowDebt t 
+-HasStudentLoan, HasSavingsAccount

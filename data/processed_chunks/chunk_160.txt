@@ -1,0 +1,12 @@
+single degree-of-freedom of motion: the angle of rotation in the case of a revolute
+joint, and the amount of linear displacement in the case of a prismatic joint. In
+contrast, a ball and socket joint has two degrees-of-freedom. In this book it is
+assumed throughout that all joints have only a single degree-of-freedom. This
+assumption does not involve any real loss of generality, since joints such as a ball
+65
+66
+FORWARD AND INVERSE KINEMATICS
+and socket joint (two degrees-of-freedom) or a spherical wrist (three degrees-of-
+freedom) can always be thought of as a succession of single degree-of-freedom
+joints with links of length zero in between.
+With the assumption that each joint has a single degree-of-freedom, the ac-

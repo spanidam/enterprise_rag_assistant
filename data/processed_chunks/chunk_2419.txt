@@ -1,0 +1,10 @@
+We will say that a learning algorithm is a consistent learner provided it outputs a 
+hypothesis that commits zero errors over the training examples. Given the above 
+analysis, we can conclude that every consistent learner outputs a MAP hypothesis, 
+if we assume a uniform prior probability distribution over H (i.e., P(hi) = P(hj) 
+for all i, j), and ifwe assume deterministic, noise free training data (i.e., P(D Ih) = 
+1 if D and h are consistent, and 0 otherwise). 
+Consider, for example, the concept learning algorithm FIND-S discussed in 
+Chapter 2. FIND-S searches the hypothesis space H from specific to general hy- 
+potheses, outputting a maximally specific consistent hypothesis (i.e., a maximally 
+specific member of the version space). Because FIND-S outputs a consistent hy-

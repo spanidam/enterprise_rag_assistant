@@ -1,0 +1,12 @@
+What is VC(H) in this case-two 
+or three? It is at least three. The definition of 
+VC dimension indicates that if we find any set of instances of size d that can 
+be shattered, then VC(H) 2 d. To show that VC(H) < d, we must show that 
+no set of size d can be shattered. In this example, no sets of size four can be 
+shattered, so VC(H) = 3. More generally, it can be shown that the VC dimension 
+of linear decision surfaces in an r dimensional space (i.e., the VC dimension of a 
+perceptron with r inputs) is r + 1. 
+As one final example, suppose each instance in X is described by the con- 
+junction of exactly three boolean literals, and suppose that each hypothesis in H is 
+described by the conjunction of up to three boolean literals. What is VC(H)? We 
+FIGURE 7.4

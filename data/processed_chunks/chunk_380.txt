@@ -1,0 +1,11 @@
+is to construct a representation of Qfree that can be used to quickly generate
+paths when new path planning problems arise.
+This is useful, for example,
+when a robot operates for a prolonged period in a single workspace.
+In this section, we will describe probabilistic roadmaps (PRMs), which are
+one-dimensional roadmaps in Qfree that can be used to quickly generate paths.
+Once a PRM has been constructed, the path planning problem is reduced to
+ﬁnding paths to connect qinit and qﬁnal to the roadmap (a problem that is
+typically much easier than ﬁnding a path from qinit to qﬁnal).
+A PRM is a network of simple curve segments, or arcs, that meet at nodes.
+Each node corresponds to a conﬁguration. Each arc between two nodes cor-

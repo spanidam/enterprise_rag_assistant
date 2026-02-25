@@ -1,0 +1,9 @@
+assured to contain the unknown target function. In contrast, a restriction bias that 
+strictly limits the set of potential hypotheses is generally less desirable, because 
+it introduces the possibility of excluding the unknown target function altogether. 
+Whereas ID3 exhibits a purely preference bias and CANDIDATE-ELIMINATION
+a purely restriction bias, some learning systems combine both. Consider, for ex- 
+ample, the program described in Chapter 1 for learning a numerical evaluation 
+function for game playing. In this case, the learned evaluation function is repre- 
+sented by a linear combination of a fixed set of board features, and the learning 
+algorithm adjusts the parameters of this linear combination to best fit the available

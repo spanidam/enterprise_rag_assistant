@@ -1,0 +1,12 @@
+target function, and for this reason the process of learning the target function 
+is often called function approximation. In the current discussion we will use the 
+symbol ? to refer to the function that is actually learned by our program, to 
+distinguish it from the ideal target function V. 
+1.23 Choosing a Representation for the Target Function 
+Now that we have specified the ideal target function V, we must choose a repre- 
+sentation that the learning program will use to describe the function c that it will 
+learn. As with earlier design choices, we again have many options. We could, 
+for example, allow the program to represent 
+using a large table with a distinct 
+entry specifying the value for each distinct board state. Or we could allow it to 
+represent

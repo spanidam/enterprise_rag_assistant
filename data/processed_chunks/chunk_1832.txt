@@ -1,0 +1,10 @@
+which the legal moves that define some large search space are known a priori, but 
+for which the best search strategy is not known. Many optimization problems fall 
+into this class, such as the problems of scheduling and controlling manufacturing 
+processes where the available manufacturing steps are well understood, but the 
+best strategy for sequencing them is not. 
+Given this setting where we must learn to choose among the legal moves, 
+the most obvious choice for the type of information to be learned is a program, 
+or function, that chooses the best move for any given board state. Let us call this 
+function ChooseMove and use the notation ChooseMove : B -+ M to indicate 
+that this function accepts as input any board from the set of legal board states B

@@ -1,0 +1,16 @@
+York, 1977.
+2. H. Asada and J.A. Cro-Granito. Kinematic and static characterization of
+wrist joints and their optimal design. In Proc. IEEE Conf. on Robotics and
+Automation,, St. Louis, 1985.
+3. H. Asada and J-J. Slotine. Robot Analysis and Control. Wiley, New York,
+1986.
+4. S. Barnett. Matrix Methods for Engineers and Scientists. McGraw-Hill,
+London, 1979.
+5. Jerome Barraquand and Jean-Claude Latombe. Robot motion planning:
+A distributed representation approach. International Journal of Robotics
+Research, 10(6):628–649, December 1991.
+6. G. Beni and S. Hackwood, editors. Recent Advances in Robotics. Wiley,
+New York, 1985.
+7. D. Bertsekas. Nonlinear Programming. Athena Scientiﬁc, Belmont, MA,
+second edition, 1999.
+8. William M. Boothby. An Introduction to Diﬀerentiable Manifolds and Rie-

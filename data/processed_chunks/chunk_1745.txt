@@ -1,0 +1,10 @@
+separator character.
+5. c. The given code iterates over characters in string "abca" , and each time character "a" is observed, a
+counter variable is increased by 1. Since "a" appears twice in "abca" , the output will be 2 .
+6. c. The code iterates over the characters in "cab" and prints each character's uppercase equivalent.
+Therefore, the output is "CAB" .
+7. c. "aaa".count("a") returns 3 , which is the number of occurrences of "a" in string "aaa" .
+8. a. Zero occurrence of "b" exists in "weather" ; hence, the output of "weather".count("b") is 0 .
+9. b. Two substrings "aa" exist in "aaa" , one starting from index 0 and one starting from index 1.
+10. a. The find() method returns the index for the first occurrence of the substring in the given string. The
+391

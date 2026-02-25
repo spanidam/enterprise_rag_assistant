@@ -1,0 +1,25 @@
+mann, San Mateo, CA.
+316
+CHAPTER 15. PROSPECTS
+Broomhead, D. S., Lowe, D. (1988).
+Multivariable functional interpolation
+and adaptive networks. Complex Systems, 2:321–355.
+Bryson, A. E., Jr. (1996).
+Optimal control—1950 to 1985.
+IEEE Control
+Systems, 13(3):26–33.
+Bush, R. R., Mosteller, F. (1955).
+Stochastic Models for Learning.
+Wiley,
+New York.
+Byrne, J. H., Gingrich, K. J., Baxter, D. A. (1990).
+Computational capa-
+bilities of single neurons: Relationship to simple forms of associative and
+nonassociative learning in aplysia.
+In R. D. Hawkins and G. H. Bower
+(eds.), Computational Models of Learning, pp. 31–63.
+Academic Press,
+New York.
+Camerer, C. (2003). Behavioral game theory: Experiments in strategic inter-
+action. Princeton University Press.
+Campbell, D. T. (1960).

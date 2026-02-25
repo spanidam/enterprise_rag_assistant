@@ -1,0 +1,25 @@
+[205]
+J. Li, X. Cheng, W. X. Zhao, J.-Y. Nie, and J.-R. Wen, “Halueval:
+A large-scale hallucination evaluation benchmark for large language
+models,” in Proceedings of the 2023 Conference on Empirical Methods
+in Natural Language Processing, 2023, pp. 6449–6464.
+[206]
+Simon
+Mark
+Hughes,
+“Hughes
+hallucination
+evaluation
+model
+(hhem)
+leaderboard,”
+2024,
+https://huggingface.co/spaces/vectara/
+Hallucination-evaluation-leaderboard, Last accessed on 2024-01-21.
+[207]
+J. Kaddour, J. Harris, M. Mozes, H. Bradley, R. Raileanu, and
+R. McHardy, “Challenges and applications of large language models,”
+arXiv preprint arXiv:2307.10169, 2023.
+[208]
+S. Gunasekar, Y. Zhang, J. Aneja, C. C. T. Mendes, A. Del Giorno,
+S. Gopi, M. Javaheripi, P. Kauffmann, G. de Rosa, O. Saarikivi et al.,

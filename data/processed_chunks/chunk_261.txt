@@ -1,0 +1,14 @@
+of a frame o1x1y1z1 with respect to a frame o0x0y0z0 is given by R0
+1, then the
+angular velocity of frame o1x1y1z1 is directly related to the derivative of R0
+1
+by Equation (4.19). When there is a possibility of ambiguity, we will use the
+notation ωi,j to denote the angular velocity that corresponds to the derivative of
+the rotation matrix Ri
+j. Since ω is a free vector, we can express it with respect
+to any coordinate system of our choosing. As usual we use a superscript to
+denote the reference frame. For example, ω0
+1,2 would give the angular velocity
+that corresponds to the derivative of R1
+2, expressed in coordinates relative to
+frame o0x0y0z0. In cases where the angular velocities specify rotation relative to

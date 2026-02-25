@@ -1,0 +1,10 @@
+__init__().
+6. b. room_1 is the instance that called the method area(), so self represents the specific instance.
+7. a. Line 3 is in __init__(), which initializes length and the other instance attributes for each new instance.
+8. c. __init__() has one required parameter, conventionally called self, which allows the constructor to
+access the instance.
+9. b. order_id is an instance attribute defined in __init__(). The other instance attribute is cup_size.
+10. b. Changing order_1.cup_size does not affect order_3.cup_size. order_1.cup_size changes to 8
+and order_3.cup_size is still 16 .
+11. a. order_1, order_2, and order_3 all share the class attribute CoffeeOrder.loc. Changing loc affects
+all instances, so Caffeine Cafe is printed as the location.

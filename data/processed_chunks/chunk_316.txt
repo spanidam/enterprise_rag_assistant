@@ -1,0 +1,37 @@
+the velocity of its origin. The angular velocity for a moving frame is related
+to the time derivative of the rotation matrix that describes the instantaneous
+orientation of the frame. In particular, if R(t) ∈SO(3), then
+˙R(t) = S(ω(t))R(t)
+(4.144)
+and the vector ω(t) is the instantaneous angular velocity of the frame. The
+operator S gives a skew symmetrix matrix
+S(ω) =
+
+
+0
+−ωz
+ωy
+ωz
+0
+−ωx
+−ωy
+ωx
+0
+
+
+(4.145)
+The manipulator Jacobian relates the vector of joint velocities to the body
+velocity ξ = (v, ω)T of the end eﬀector,
+ξ = J ˙q
+(4.146)
+This relationship can be written as two equations, one for linear velocity and
+one for angular velocity,
+v
+=
+Jv ˙q
+(4.147)
+ω
+=
+Jω ˙q
+(4.148)
+The i-th column of the Jacobian matrix corresponds to the i-th joint of the

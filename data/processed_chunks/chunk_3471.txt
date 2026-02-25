@@ -1,0 +1,14 @@
+model size and number of tokens for training a transformer
+language model under a given compute budget. By training
+over 400 language models ranging from 70 million to over
+16 billion parameters on 5 to 500 billion tokens, they found
+that for compute-optimal training, the model size and the
+number of training tokens should be scaled equally: for every
+doubling of model size the number of training tokens should
+also be doubled. They tested this hypothesis by training a
+predicted compute-optimal model, Chinchilla, that uses the
+same compute budget as Gopher but with 70B parameters and
+4% more more data.
+Galactica: In [87], Taylor et al. introduced Galactica, a
+large language model that can store, combine and reason about
+scientific knowledge. They trained on a large scientific corpus

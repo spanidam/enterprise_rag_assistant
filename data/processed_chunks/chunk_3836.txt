@@ -1,0 +1,11 @@
+In the time since publication of the ﬁrst edition of this book, a ﬂourishing
+subﬁeld of neuroscience developed that focuses on the relationship between
+reinforcement learning algorithms and reinforcement learning in the nervous
+system. Most responsible for this is an uncanny similarity between the behav-
+ior of temporal-diﬀerence algorithms and the activity of dopamine producing
+neurons in the brain, as pointed out by a number of researchers (Friston et
+al., 1994; Barto, 1995a; Houk, Adams, and Barto, 1995; Montague, Dayan,
+and Sejnowski, 1996; and Schultz, Dayan, and Montague,1997).
+Chapter Y
+provides is an introduction to this exciting aspect of reinforcement leaning.
+Other important contributions made in the recent history of reinforcement

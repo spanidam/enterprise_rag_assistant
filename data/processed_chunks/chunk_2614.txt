@@ -1,0 +1,9 @@
+In the case of learning conjunctions of boolean literals, one algorithm that 
+meets this requirement has already been presented in Chapter 2. It is the FIND-S 
+algorithm, which incrementally computes the most specific hypothesis consistent 
+with the training examples. For each new positive training example, this algorithm 
+computes the intersection of the literals shared by the current hypothesis and the 
+new training example, using time linear in n. Therefore, the FIND-S algorithm 
+PAC-learns the concept class of conjunctions of n boolean literals with negations. 
+Theorem 7.2. PAC-learnability of boolean conjunctions. The class C of con- 
+junctions of boolean literals is PAC-learnable by the FIND-S algorithm using H = C .

@@ -1,0 +1,25 @@
+s , a
+t
+1−λ
+(1−λ) λ
+(1−λ) λ2
+Σ = 1
+t
+sT
+Sarsa(λ)
+St
+ST
+, At
+Figure 7.11: Sarsa(λ)’s backup diagram.
+state–action variables for state variables—Qt(s, a) for Vt(s) and Et(s, a) for
+Et(s):
+Qt+1(s, a) = Qt(s, a) + αδtEt(s, a),
+for all s, a
+where
+δt = Rt+1 + γQt(St+1, At+1) −Qt(St, At).
+Figure 7.11 shows the backup diagram for Sarsa(λ). Notice the similarity to
+the diagram of the TD(λ) algorithm (Figure 7.3). The ﬁrst backup looks ahead
+one full step, to the next state–action pair, the second looks ahead two steps,
+and so on. A ﬁnal backup is based on the complete return. The weighting of
+each backup is just as in TD(λ) and the λ-return algorithm.
+One-step Sarsa and Sarsa(λ) are on-policy algorithms, meaning that they

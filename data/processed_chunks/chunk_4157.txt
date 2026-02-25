@@ -1,0 +1,12 @@
+the weighted-average estimate, the ratio ρT(t)
+t
+for the single return cancels in
+the numerator and denominator, so that the estimate is equal to the observed
+return independent of the ratio (assuming the ratio is nonzero). Given that
+this return was the only one observed, this is a reasonable estimate, but of
+course its expectation is vµ(s) rather than vπ(s), and in this statistical sense it
+is biased. In contrast, the simple average (5.4) is always vπ(s) in expectation
+(it is unbiased), but it can be extreme. Suppose the ratio were ten, indicating
+that the trajectory observed is ten times as likely under the target policy as
+under the behavior policy. In this case the ordinary importance-sampling es-
+timate would be ten times the observed return. That is, it would be quite far

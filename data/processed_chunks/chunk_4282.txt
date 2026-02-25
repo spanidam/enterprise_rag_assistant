@@ -1,0 +1,12 @@
+values of n, on a 19-state random walk task (Example 7.1).
+the ﬁrst 10 episodes and 100 repetitions of the whole experiment (the same
+sets of walks were used for all methods). First note that the on-line methods
+generally worked best on this task, both reaching lower levels of absolute error
+and doing so over a larger range of the step-size parameter α (in fact, all
+the oﬀ-line methods were unstable for α much above 0.3). Second, note that
+methods with an intermediate value of n worked best. This illustrates how
+the generalization of TD and Monte Carlo methods to n-step methods can
+potentially perform better than either of the two extreme methods.
+7.2
+The Forward View of TD(λ)
+Backups can be done not just toward any n-step return, but toward any aver-

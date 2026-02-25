@@ -1,0 +1,10 @@
+deed diﬀerent (Barto, Sutton, and Brouwer, 1981; Barto and Sutton, 1981b;
+Barto and Anandan, 1985). Other studies showed how reinforcement learning
+could address important problems in neural network learning, in particular,
+how it could produce learning algorithms for multilayer networks (Barto, An-
+derson, and Sutton, 1982; Barto and Anderson, 1985; Barto and Anandan,
+1985; Barto, 1985, 1986; Barto and Jordan, 1987). We say more about the
+reinforcement learning and neural networks in Chapter Y.
+We turn now to the third thread to the history of reinforcement learn-
+ing, that concerning temporal-diﬀerence learning. Temporal-diﬀerence learn-
+ing methods are distinctive in being driven by the diﬀerence between tempo-

@@ -1,0 +1,36 @@
+
+
+(4.93)
+z5
+=
+
+
+c1c2c4s5 −s1s4s5 + c1s2c5
+s1c2c4s5 + c1s4s5 + s1s2c5
+−s2c4s5 + c2c5
+
+.
+(4.94)
+The Jacobian of the Stanford Manipulator is now given by combining these
+expressions according to the given formulae (Problem 4-19).
+⋄
+Example 4.8 SCARA Manipulator
+We will now derive the Jacobian of the SCARA manipulator of Example 3.6.
+This Jacobian is a 6 × 4 matrix since the SCARA has only four degrees-of-
+freedom. As before we need only compute the matrices T 0
+j = A1 . . . Aj, where
+the A-matrices are given by Equations (3.26)-(3.29).
+Since joints 1,2, and 4 are revolute and joint 3 is prismatic, and since o4−o3
+is parallel to z3 (and thus, z3 × (o4 −o3) = 0), the Jacobian is of the form
+J
+=
+ z0 × (o4 −o0)
+z1 × (o4 −o1)
+z2
+0
+z0
+z1
+0
+z3
+
+(4.95)

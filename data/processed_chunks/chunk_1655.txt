@@ -1,0 +1,65 @@
+# Create a DataFrame from
+the NumPy array
+df = pd.DataFrame(data,
+columns=columns)
+# Display the DataFrame
+df
+A
+B
+C
+0
+1
+0
+0
+1
+0
+1
+0
+2
+2
+3
+4
+A NumPy array,
+along with column
+labels, are passed
+to the
+pd.DataFrame()
+function to create a
+DataFrame object.
+Table 15.2 DataFrame creation.
+15.3 • Pandas
+357
+Description
+Example
+Output
+Explanation
+DataFrame
+from a CSV
+file
+import pandas as pd
+# Read the CSV file into a
+DataFrame
+df =
+pd.read_csv("data.csv")
+# Display the DataFrame
+df
+The content of the CSV file will
+be printed in a tabular format.
+The
+pd.read_csv()
+function reads a
+CSV file into a
+DataFrame and
+organizes the
+content in a tabular
+format.
+DataFrame
+from a
+Excel file
+import pandas as pd
+# Read the Excel file into
+a DataFrame
+df =
+pd.read_excel("data.xlsx")
+# Display the DataFrame
+df

@@ -1,0 +1,48 @@
+compare_result = (x <= 13)
+a.
+True
+b.
+False
+16. w = 0
+compare_result = (w != 0.4)
+a.
+True
+b.
+False
+17. v = 4
+compare_result = (v < 4.0)
+a.
+True
+b.
+False
+18. y = 2
+compare_result = (y > "ab")
+a.
+True
+b.
+False
+c.
+Error
+19. z = "cilantro"
+compare_result = (z == "coriander")
+a.
+True
+b.
+False
+20. a = "dog"
+compare_result = (a < "cat")
+a.
+True
+b.
+False
+4.1 • Boolean values
+95
+= VS ==
+A common mistake is using = for comparison instead of ==. Ex: is_zero = num=0 will always assign
+is_zero and num with 0, regardless of num's original value. The = operator performs assignment and will
+modify the variable. The == operator performs comparison, does not modify the variable, and produces
+True or False.
+EXPLORING FURTHER
+•
+Unicode Basic Latin Chart (https://openstax.org/r/100unicodelatin)
+TRY IT

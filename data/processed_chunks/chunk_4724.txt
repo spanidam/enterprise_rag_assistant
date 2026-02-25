@@ -1,0 +1,17 @@
+Precup, D., Sutton, R. S., Singh, S. (2000). Eligibility traces for oﬀ-policy
+policy evaluation. In Proceedings of the 17th International Conference on
+Machine Learning, pp. 759–766. Morgan Kaufmann.
+Puterman, M. L. (1994). Markov Decision Problems. Wiley, New York.
+Puterman, M. L., Shin, M. C. (1978).
+Modiﬁed policy iteration algorithms
+for discounted Markov decision problems. Management Science, 24:1127–
+1137.
+Reetz, D. (1977). Approximate solutions of a discounted Markovian decision
+process. Bonner Mathematische Schriften, 98:77–92.
+Ring, M. B. (1994).
+Continual Learning in Reinforcement Environments.
+Ph.D. thesis, University of Texas, Austin.
+Rivest, R. L., Schapire, R. E. (1987).
+Diversity-based inference of ﬁnite
+automata.
+In Proceedings of the Twenty-Eighth Annual Symposium on

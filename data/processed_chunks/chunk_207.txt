@@ -1,0 +1,15 @@
+when they exist.
+In solving the inverse kinematics problem we are most interested in ﬁnding a
+closed form solution of the equations rather than a numerical solution. Finding
+a closed form solution means ﬁnding an explicit relationship:
+qk
+=
+fk(h11, . . . , h34),
+k = 1, . . . , n
+(3.36)
+Closed form solutions are preferable for two reasons. First, in certain applica-
+tions, such as tracking a welding seam whose location is provided by a vision
+system, the inverse kinematic equations must be solved at a rapid rate, say ev-
+ery 20 milliseconds, and having closed form expressions rather than an iterative
+search is a practical necessity. Second, the kinematic equations in general have
+multiple solutions. Having closed form solutions allows one to develop rules for

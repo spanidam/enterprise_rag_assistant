@@ -1,0 +1,13 @@
+the centers and widths of the features as well. Such nonlinear methods may
+be able to ﬁt the target function much more precisely. The downside to RBF
+networks, and to nonlinear RBF networks especially, is greater computational
+complexity and, often, more manual tuning before learning is robust and eﬃ-
+cient.
+240CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+Kanerva Coding
+On tasks with very high dimensionality, say hundreds of dimensions, tile coding
+and RBF networks become impractical.
+If we take either method at face
+value, its computational complexity increases exponentially with the number
+of dimensions. There are a number of tricks that can reduce this growth (such
+as hashing), but even these become impractical after a few tens of dimensions.

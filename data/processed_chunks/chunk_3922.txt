@@ -1,0 +1,10 @@
+The general rule we follow is that anything that cannot be changed ar-
+bitrarily by the agent is considered to be outside of it and thus part of its
+environment. We do not assume that everything in the environment is un-
+known to the agent. For example, the agent often knows quite a bit about
+how its rewards are computed as a function of its actions and the states in
+which they are taken. But we always consider the reward computation to be
+external to the agent because it deﬁnes the task facing the agent and thus
+must be beyond its ability to change arbitrarily. In fact, in some cases the
+agent may know everything about how its environment works and still face
+a diﬃcult reinforcement learning task, just as we may know exactly how a

@@ -1,0 +1,20 @@
+Bellman, R. E. (1956).
+A problem in the sequential design of experiments.
+Sankhya, 16:221–229.
+Bellman, R. E. (1957a). Dynamic Programming. Princeton University Press,
+Princeton.
+Bellman, R. E. (1957b). A Markov decision process. Journal of Mathematical
+Mechanics, 6:679–684.
+Bellman, R. E., Dreyfus, S. E. (1959).
+Functional approximations and dy-
+namic programming.
+Mathematical Tables and Other Aids to Computa-
+tion, 13:247–251.
+Bellman, R. E., Kalaba, R., Kotkin, B. (1973). Polynomial approximation—A
+new computational technique in dynamic programming: Allocation pro-
+cesses. Mathematical Computation, 17:155–161.
+Berry, D. A., Fristedt, B. (1985).
+Bandit Problems.
+Chapman and Hall,
+London.
+Bertsekas, D. P. (1982). Distributed dynamic programming. IEEE Transac-

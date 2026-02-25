@@ -1,0 +1,12 @@
+MDP always allows a policy n* such that (Vn, s) vn*(s) 2 Vn(s). 
+REFERENCES 
+Baird, L. (1995). Residual algorithms: Reinforcement learning with function approximation. Proceed- 
+ings of the Twelfrh International Conference on Machine Learning @p. 30-37). San Francisco: 
+Morgan Kaufmann. 
+CHaPrER 13 REINFORCEMENT LEARNING 389 
+Barto, A. (1992). Reinforcement learning and adaptive critic methods. In D. White & S. Sofge (Eds.), 
+Handbook of intelligent control: Neural, fuzzy, and adaptive approaches (pp. 469-491). New 
+York: Van Nostrand Reinhold. 
+Barto, A., Bradtke, S., & Singh, S. (1995). Learning to act using real-time dynamic programming. 
+ArtiJicial Intelligence, Special volume: Computational research on interaction and agency, 
+72(1), 81-138.

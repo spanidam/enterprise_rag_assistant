@@ -1,0 +1,14 @@
+Definition: Let C be an arbitrary nonempty concept class. The optimal mistake 
+bound for C, denoted Opt (C), is the minimum over all possible learning algorithms 
+A of MA(C). 
+Opt (C) = 
+min 
+Adearning algorithms MA (a 
+Speaking informally, this definition states that Opt(C) is the number of 
+mistakes made for the hardest target concept in C, using the hardest training 
+sequence, by the best algorithm. Littlestone (1987) shows that for any concept 
+class C, there is an interesting relationship among the optimal mistake bound for 
+C, the bound of the HALVING 
+algorithm, and the VC dimension of C, namely 
+Furthermore, there exist concept classes for which the four quantities above 
+are exactly equal. One such concept class is the powerset Cp of any finite set

@@ -1,0 +1,13 @@
+Salton, G. (1991). Developments in automatic text retrieval. Science, 253, 974-979. 
+Shannon, C. E., & Weaver, W. (1949). The mathematical theory of communication. Urbana: Univer- 
+sity of Illinois Press. 
+Speigel, M. R. (1991). Theory and problems of probability and statistics. Schaum's Outline Series. 
+New York: McGraw Hill. 
+Spirtes, P., Glymour, C., & Scheines, R. (1993). Causation, prediction, and search. New York: 
+Springer Verlag. http://hss.cmu.edu/htmUdepartments/philosophy~~D.BOO~ook.h~ 
+CHAPTER 
+COMPUTATIONAL 
+LEARNING 
+THEORY 
+This chapter presents a theoretical characterization of the difficulty of several types 
+of machine learning problems and the capabilities of several types of machine learn-

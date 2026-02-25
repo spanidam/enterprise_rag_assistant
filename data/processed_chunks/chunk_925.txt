@@ -1,0 +1,40 @@
+Laplace Domain, 288
+Laplace Transform, 288
+Law of Cosines, 20
+Left arm, 91
+Length, 69
+Lie bracket, 302, 306
+Lie derivative, 303
+Linear Quadratic (LQ) Optimal Control, 256
+Linear Segments with Parabolic Blends, 177
+Linear state feedback control law, 254
+Links, 3
+LSPB, 177
+Magnetic Flux, 231
+Manifold, 300, 302
+Manipulation, 320
+Manipulator Jacobian, 123
+Manipulator
+spherical, 11
+Matrix Algebraic Riccatti equation, 256
+Matrix
+inertia, 200
+transformation, 67
+Mechanical Impedance, 286
+Method of computed torque, 247
+Method of control, 6
+Minimum phase, 245
+Mobile robot, 320
+Mobile robots, 299
+Mobility Tensor, 292
+Motion
+guarded, 171
+Motion pereptibility, 372
+Motor
+AC, 231
+Brushless DC, 231
+DC, 230–231
+Rotor, 231
+Stator, 231
+Natural Constraint, 284–285
+Network Model, 287

@@ -1,0 +1,89 @@
+equations, we write give here one solution to the inverse kinematics of the six
+degree-of-freedom elbow manipulator shown in Figure 3.13 which has no joint
+oﬀsets and a spherical wrist.
+Given
+o
+=
+
+
+ox
+oy
+oz
+
+;
+R =
+
+
+r11
+r12
+r13
+r21
+r22
+r23
+r31
+r32
+r33
+
+
+(3.71)
+then with
+xc
+=
+ox −d6r13
+(3.72)
+yc
+=
+oy −d6r23
+(3.73)
+zc
+=
+oz −d6r33
+(3.74)
+INVERSE KINEMATICS
+99
+a set of DH joint variables is given by
+θ1
+=
+atan2(xc, yc)
+(3.75)
+θ2
+=
+atan2
+p
+x2c + y2c −d2, zc −d1
+
+−atan2(a2 + a3c3, a3s3) (3.76)
+θ3
+=
+atan2
+
+D, ±
+p
+1 −D2
+
+,
+where D = x2
+c + y2
+c −d2 + (zc −d1)2 −a2
+2 −a2
+3
+2a2a3
+(3.77)
+θ4
+=
+atan2(c1c23r13 + s1c23r23 + s23r33,
+−c1s23r13 −s1s23r23 + c23r33)
+(3.78)
+θ5
+=
+atan2
+
+s1r13 −c1r23, ±
+p
+1 −(s1r13 −c1r23)2
+
+(3.79)
+θ6
+=
+atan2(−s1r11 + c1r21, s1r12 −c1r22)
+(3.80)

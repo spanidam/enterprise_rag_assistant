@@ -1,0 +1,11 @@
+(b) H, = circles in the x, y plane. Points inside the circle are classified as positive 
+examples 
+(c) H, =triangles in the x ,  y plane. Points inside the triangle are classified as positive 
+examples 
+7.6. Write a consistent learner for Hr from Exercise 7.5. Generate a variety of target 
+concept rectangles at random, corresponding to different rectangles in the plane. 
+Generate random examples of each of these target concepts, based on a uniform 
+distribution of instances within the rectangle from (0,O) to (100, 100). Plot the 
+generalization error as a function of the number of training examples, m. On the 
+same graph, plot the theoretical relationship between 6 and m, for 6 = .95. Does 
+theory fit experiment?

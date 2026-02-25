@@ -1,0 +1,12 @@
+0 approaches that allow the tree to overfit the data, and then post-prune the 
+tree. 
+Although the first of these approaches might seem.more direct, the second 
+approach of post-pruning overfit trees has been found to be more successful in 
+practice. This is due to the difficulty in the first approach of estimating precisely 
+when to stop growing the tree. 
+Regardless of whether the correct tree size is found by stopping early or 
+by post-pruning, a key question is what criterion is to be used to determine the 
+correct final tree size. Approaches include: 
+0 Use a separate set of examples, distinct from the training examples, to eval- 
+uate the utility of post-pruning nodes from the tree. 
+0 Use all the available data for training, but apply a statistical test to estimate

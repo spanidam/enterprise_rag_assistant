@@ -1,0 +1,12 @@
+13.4 Hierarchical inheritance
+1. a. Class A is the superclass for Class B and Class C.
+2. b. Employee would be an appropriate superclass for Developer and SalesRep. Developer and
+SalesRep are not directly related.
+3. a. B(2) resolves to B(2, 0), as b_attr has a default value of 0 . a_attr is assigned with 2 .
+4. b. c_inst has access to C's instance attribute, c_attr, as well the inherited attribute from A, a_attr.
+5. b. D, which inherits from B, so d_inst inherits b_attr. B also inherits from A, so d_inst inherits d_attr.
+13.5 Multiple inheritance and mixin classes
+1. a. 1 is the argument passed to C's __init__() for a_attr.
+2. b. An argument is not passed to C's __init__() for c_attr, so c_attr is assigned with the default
+value, 20 .
+3. a. 2 maps to b_attr in B' s __init__().

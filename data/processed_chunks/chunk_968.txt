@@ -1,0 +1,27 @@
+mation about past estimates, stored in m(𝑡).
+Another important difference between SGD and the Adam variant consists in using an adaptive learning rate. In other
+words, instead of using the same learning rate 𝜌for all model parameters, the learning rate for a given parameter 𝜃𝑖is
+defined as:
+̂𝜌(𝑡+1)(𝜃𝑖) =
+𝜌
+√𝑠(𝑡+1)(𝜃𝑖) + 𝜖
+where 𝜖is a small constant and
+𝑠(𝑡+1)(𝜃𝑖) =
+1
+1 −𝛽𝑡
+2
+[𝛽2𝑠(𝑡)(𝜃𝑖) + (1 −𝛽2) (∇𝜃𝑖ℒ)
+2]
+Here also, the 𝑠term uses momentum. As a result, the learning rate will be lowered for parameters which have suffered
+large updates in the past iterations.
+Overall, the Adam update rule is:
+𝜃(𝑡+1) ←𝜃(𝑡) −
+̂𝜌(𝑡+1)(𝜃)m(𝑡+1)
+4.3 The curse of depth
+Let us consider the following neural network:
+w(0)
+w(1)
+w(2)
+22
+Chapter 4. Optimization
+Deep Learning Basics (lecture notes)

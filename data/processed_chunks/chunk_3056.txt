@@ -1,0 +1,12 @@
+from this hypothesis h, it appears that the inductive bias of PROLOG-EBG 
+is simply 
+the domain theory B input to the learner. In fact, this is the case except for one 
+additional detail that must be considered: There are many alternative sets of Horn 
+clauses entailed by the domain theory. The remaining component of the inductive 
+bias is therefore the basis by which PROLOG-EBG 
+chooses among these alternative 
+sets of Horn clauses. As we saw above, PROLOG-EBG 
+employs a sequential cover- 
+ing algorithm that continues to formulate additional Horn clauses until all positive 
+training examples have been covered. Furthermore, each individual Horn clause 
+is the most general clause (weakest preimage) licensed by the explanation of the

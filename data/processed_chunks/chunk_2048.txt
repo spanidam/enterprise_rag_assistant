@@ -1,0 +1,11 @@
+bias (or, alternatively, a search bias). In contrast, the bias of the CANDIDATE- 
+ELIMINATION 
+algorithm is in the form of a categorical restriction on the set of 
+hypotheses considered. This form of bias is typically called a restriction bias (or, 
+alternatively, a language bias). 
+Given that some form of inductive bias is required in order to generalize 
+beyond the training data (see Chapter 2), which type of inductive bias shall we 
+prefer; a preference bias or restriction bias? 
+Typically, a preference bias is more desirable than a restriction bias, be- 
+cause it allows the learner to work within a complete hypothesis space that is 
+assured to contain the unknown target function. In contrast, a restriction bias that

@@ -1,0 +1,10 @@
+two layers of units (Cybenko 1989; Hornik et al. 1989). The theorem in 
+this case applies to networks that use sigmoid units at the hidden layer and 
+(unthresholded) linear units at the output layer. The number of hidden units 
+required depends on the function to be approximated. 
+Arbitraryfunctions. Any function can be approximated to arbitrary accuracy 
+by a network with three layers of units (Cybenko 1988). Again, the output 
+layer uses linear units, the two hidden layers use sigmoid units, and the 
+number of units required at each layer is not known in general. The proof 
+of this involves showing that any function can be approximated by a lin- 
+ear combination of many localized functions that have value 0 everywhere

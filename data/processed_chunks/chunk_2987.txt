@@ -1,0 +1,10 @@
+olution. Proceedings of the Fzfth International Machine Learning Conference (pp. 339-352). 
+Ann Arbor, Michigan: Morgan Kaufmann. 
+Muggleton, S., & Feng, C. (1990). Efficient induction of logic programs. Proceedings of the First 
+Conference on Algorithmic Learning Theory. Ohrnsha, Tokyo. 
+Muggleton, S., & Feng, C. (1992). Efficient induction of logic programs. In Muggleton (Ed.), Induc- 
+tive logic programming. London: Academic Press. 
+Muggleton, S. (Ed.). (1992). Inductive logic programming. London: Academic Press. 
+Pazzani, M., Brunk, C., & Silverstein, G. (1991). A knowledge-intensive approach to learning rela- 
+tional concepts. Proceedings of the Eighth International Workshop on Machine Learning (pp. 
+432-436). San Francisco: Morgan Kaufmann.

@@ -1,0 +1,13 @@
+where each of the “actions” may itself be the application of a possibly elabo-
+rate problem-solving method. In hierarchical learning systems, reinforcement
+learning can work simultaneously on several levels.
+1.6
+Summary
+Reinforcement learning is a computational approach to understanding and au-
+tomating goal-directed learning and decision-making. It is distinguished from
+other computational approaches by its emphasis on learning by an agent from
+direct interaction with its environment, without relying on exemplary super-
+vision or complete models of the environment. In our opinion, reinforcement
+learning is the ﬁrst ﬁeld to seriously address the computational issues that
+arise when learning from interaction with an environment in order to achieve
+16

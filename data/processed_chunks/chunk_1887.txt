@@ -1,0 +1,46 @@
+the hypothesis will either 
+0 indicate by a "?' that any value is acceptable for this attribute, 
+0 specify a single required value (e.g., Warm) for the attribute, or 
+0 indicate by a "0" that no value is acceptable. 
+If some instance x satisfies all the constraints of hypothesis h, then h clas- 
+sifies x as a positive example (h(x) = 1). To illustrate, the hypothesis that Aldo 
+enjoys his favorite sport only on cold days with high humidity (independent of 
+the values of the other attributes) is represented by the expression 
+(?, Cold, High, ?, ?, ?) 
+Example 
+Sky 
+AirTemp 
+Humidity 
+Wind 
+Water 
+Forecast 
+EnjoySport 
+1 
+Sunny 
+Warm 
+Normal 
+Strong 
+Warm 
+Same 
+Yes 
+2 
+Sunny 
+Warm 
+High 
+Strong 
+Warm 
+Same 
+Yes 
+3 
+Rainy 
+Cold 
+High 
+Strong 
+Warm 
+Change 
+No 
+4 
+Sunny 
+Warm 
+High 
+Strong

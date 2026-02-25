@@ -1,0 +1,51 @@
+4-1-boolean-values)
+CONCEPTS IN PRACTICE
+Converting numeric types and strings to Booleans
+7. bool(0.000)
+a.
+True
+b.
+False
+8. bool(-1)
+a.
+True
+b.
+False
+9. bool("")
+a.
+True
+b.
+False
+10. bool("0")
+a.
+True
+b.
+False
+11. Given input False, what is bool(input())?
+4.1 • Boolean values
+93
+a.
+True
+b.
+False
+CONCEPTS IN PRACTICE
+Converting Booleans to numeric types and strings
+Given is_on = True, what is the value of each expression?
+12. float(is_on)
+a.
+0.0
+b.
+1.0
+13. str(is_on)
+a.
+"is_on"
+b.
+"True"
+14. int(is_on)
+a.
+0
+b.
+1
+Comparison operators
+Programmers often have to answer questions like "Is the current user the admin?" A programmer may want to
+compare a string variable, user, to the string, "admin". Comparison operators are used to compare values,

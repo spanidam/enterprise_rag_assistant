@@ -1,0 +1,30 @@
+182-183 
+CLAUDIEN, 302 
+Clauses, 284, 285 
+CLS. See Concept Learning System 
+Clustering, 191 
+CN2 algorithm, 278, 301 
+choice of attribute-pairs in, 280-281 
+Complexity, sample. See Sample 
+complexity 
+Computational complexity, 202 
+Computational complexity theory, 
+influence on machine learning, 4 
+Computational learning theory, 
+201-227 
+Concept learning, 20-47 
+algorithms for, 47 
+Bayes theorem and, 158-163 
+definition of, 21 
+genetic algorithms in, 256 
+ID3 algorithm specialized for, 56 
+notation for, 22-23 
+search of hypothesis space, 23-25, 
+4-7 
+task design in, 21-22 
+Concept Learning System, 77 
+Concepts, partially learned, 38-39 
+Conditional independence, 185 
+in Bayesian belief networks, 186-187 
+Confidence intervals, 133, 138-141, 150, 
+151

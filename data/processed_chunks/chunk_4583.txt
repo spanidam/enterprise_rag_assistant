@@ -1,0 +1,51 @@
+Sutton (1996) addressed the acrobot swing-up task in an on-line, modelfree
+context. Although the acrobot was simulated, the simulator was not available
+14.3. THE ACROBOT
+283
+!1
+!2
+Goal: Raise tip above line
+Torque
+applied
+here
+tip
+Figure 14.4: The acrobot.
+¨θ1
+=
+−d−1
+1 (d2¨θ2 + φ1)
+¨θ2
+=
+
+m2l2
+c2 + I2 −d2
+2
+d1
+−1 
+τ + d2
+d1
+φ1 −m2l1lc2 ˙θ2
+1 sin θ2 −φ2
+
+d1
+=
+m1l2
+c1 + m2(l2
+1 + l2
+c2 + 2l1lc2 cos θ2) + I1 + I2
+d2
+=
+m2(l2
+c2 + l1lc2 cos θ2) + I2
+φ1
+=
+−m2l1lc2 ˙θ2
+2 sin θ2 −2m2l1lc2 ˙θ2 ˙θ1 sin θ2
++ (m1lc1 + m2l1)g cos(θ1 −π/2) + φ2
+φ2
+=
+m2lc2g cos(θ1 + θ2 −π/2)
+Figure 14.5: The equations of motions of the simulated acrobot.
+A time
+step of 0.05 seconds was used in the simulation, with actions chosen after
+every four time steps. The torque applied at the second joint is denoted by

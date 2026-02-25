@@ -1,0 +1,10 @@
+defined in this way need not correspond to the instance labeling of any single 
+hypothesis h from H. One way to view this situation is to think of the Bayes 
+optimal classifier as effectively considering a hypothesis space H' different from 
+the space of hypotheses H to which Bayes theorem is being applied. In particu- 
+lar, H' effectively includes hypotheses that perform comparisons between linear 
+combinations of predictions from multiple hypotheses in H. 
+6.8 GIBBS ALGORITHM 
+Although the Bayes optimal classifier obtains the best performance that can be 
+achieved from the given training data, it can be quite costly to apply. The expense 
+is due to the fact that it computes the posterior probability for every hypothesis

@@ -1,0 +1,26 @@
+df.isnull()
+Returns a Boolean array with Boolean values representing whether
+each entry has been Null.
+fillna()
+Replaces Null values.
+dropna()
+Removes all rows containing a Null value.
+plt.bar(x, height)
+Takes in two inputs, x and height, and plots bars for each x value
+with the height given in the height variable.
+plt.plot(x, y)
+Takes in two inputs, x and y, and plots lines connecting pairs of (x,
+y) values.
+Table 15.13 Chapter 15 reference.
+15.6 • Summary
+377
+Function
+Description
+plt.scatter(x, y)
+Takes in two inputs, x and y, and plots points representing (x, y)
+pairs.
+plt.hist(x)
+Takes in one input, x, and plots a histogram of values in x to show
+distribution or trend.
+plt.boxplot(x)
+Takes in one input, x, and represents minimum, maximum, first,

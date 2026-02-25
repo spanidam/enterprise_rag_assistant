@@ -1,0 +1,12 @@
+trajectory, including the time derivatives (since one need only diﬀerentiate τ to
+obtain these).
+As seen above, a path planning algorithm will not typically give the map
+τ; it will give only a sequence of points (called via points) along the path.
+Further, there are other ways that the path could be speciﬁed. In some cases,
+paths are speciﬁed by giving a sequence of end-eﬀector poses, T 0
+6 (k∆t). In this
+case, the inverse kinematic solution must be used to convert this to a sequence
+of joint conﬁgurations. A common way to specify paths for industrial robots is
+to physically lead the robot through the desired motion with a teach pendant,
+the so-called teach and playback mode. In some cases, this may be more
+eﬃcient than deploying a path planning system, e.g. in environments such as

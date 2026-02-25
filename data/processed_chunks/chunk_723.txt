@@ -1,0 +1,39 @@
+(10.86)
+Comparing (10.84) with (8.17) we see indeed that the feedback linearizing control
+for a rigid manipulator is precisely the inverse dynamics control of Chapter 8.
+⋄
+Example 10.6 If the joint ﬂexibility is included in the dynamic description of
+an n-link robot the equations of motion can be written as[?]
+D(q1)¨q1 + C(q1, ˙q1) ˙q1 + g(q1) + K(q1 −q2)
+=
+0
+J ¨q2 −K(q1 −q2)
+=
+u
+(10.87)
+In state space, which is now R4n, we deﬁne state variables in block form
+˙x1 = q1
+x2 = ˙q1
+˙x3 = q2
+x4 = ˙q2
+(10.88)
+Then from (10.87) we have:
+˙x1
+=
+x2
+˙x2
+=
+−D(x1)−1{h(x1, x2) + K(x1 −x3)}
+˙x3
+=
+x4
+˙x4
+=
+J−1K(x1 −x3) + J−1u
+(10.89)
+ere we deﬁne h(x1, x2) = C(x1, x2)x2 + g(x1) for simplicity. This system is
+then of the form
+˙x
+=
+f(x) + G(x)u
+(10.90)

@@ -1,0 +1,41 @@
+a2(θ1, θ2) 
+=
+ l1 cos θ1
+l1 cos θ1 + l2 cos(θ1 + θ2)
+l1 sin θ1
+l1 sin θ1 + l2 sin(θ1 + θ2)
+
+in which li are the link lengths (we use li rather than ai to avoid confusion of
+link lengths and control points). For the problem of motion planning, we require
+only the Jacobian that maps joint velocities to linear velocities,
+ ˙x
+˙y
+
+= J
+
+˙θ1
+˙θ1
+
+(5.25)
+For the two-link arm, The Jacobian matrix for a2 is merely the Jacobian that
+we derived in Chapter 4:
+Ja2(θ1, θ2)
+=
+ −a1s1 −a2s12
+−a2s12
+a1c1 + a2c12
+a2c12
+
+(5.26)
+The Jacobian matrix for a1 is similar, but takes into account that motion of
+joint two does not aﬀect the velocity of a1,
+Ja1(θ1, θ2)
+=
+ −a1s1
+0
+a1c1
+0
+
+(5.27)
+⋄
+The total conﬁguration space force acting on the robot is the sum of the

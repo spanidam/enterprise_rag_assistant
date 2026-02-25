@@ -1,0 +1,29 @@
+terms to obtain
+(JJT )(JJT )−1 = I
+J
+
+JT (JJT )−1
+= I
+JJ+ = I
+Here, J+ = JT (JJT )−1 is called a right pseudoinverse of J, since JJ+ = I.
+Note that, J+J ∈Rn×n, and that in general, J+J ̸= I (recall that matrix
+multiplication is not commutative).
+It is now easy to demonstrate that a solution to Equation (4.125) is given by
+˙q = J+ξ + (I −J+J)b
+(4.128)
+in which b ∈Rn is an arbitrary vector. To see this, siimly multiply both sides
+of Equation (4.128) by J:
+J ˙q
+=
+J [J+ξ + (I −J+J)b]
+=
+JJ+ξ + J(I −J+J)b
+=
+JJ+ξ + (J −JJ+J)b
+=
+ξ + (J −J)b
+=
+ξ
+In general, for m < n, (I−J+J) ̸= 0, and all vectors of the form (I−J+J)b lie
+in the null space of J, i.e., if ˙q′ is a joint velocity vector such that ˙q′ = (I−J+J)b,
+then when the joints move with velocity ˙q′, the end eﬀector will remain ﬁxed

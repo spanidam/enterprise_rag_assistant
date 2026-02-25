@@ -1,0 +1,11 @@
+function appears in Dyna-Q in a simple, almost trivial, form. In subsequent
+sections we elaborate some of the alternate ways of achieving each function
+and the trade-oﬀs between them. For now, we seek merely to illustrate the
+ideas and stimulate your intuition.
+Within a planning agent, there are at least two roles for real experience: it
+can be used to improve the model (to make it more accurately match the real
+environment) and it can be used to directly improve the value function and
+policy using the kinds of reinforcement learning methods we have discussed in
+previous chapters. The former we call model-learning, and the latter we call
+direct reinforcement learning (direct RL). The possible relationships between
+experience, model, values, and policy are summarized in Figure 8.2. Each

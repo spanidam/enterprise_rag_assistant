@@ -1,0 +1,10 @@
+the explanation mentions only a small fraction of the known attributes of Objl 
+and 0 b j 2  (i.e., those attributes corresponding to the shaded region in the figure). 
+While only a single explanation is possible for the training example and 
+domain theory shown here, in general there may be multiple possible explanations. 
+In such cases, any or all of the explanations may be used. While each may give 
+rise to a somewhat different generalization of the training example, all will be 
+justified by the given domain theory. In the case of PROLOG-EBG, the explanation 
+is generated using a backward chaining search as performed by PROLOG. PROLOG- 
+EBG, like PROLOG, halts once it finds the first valid proof. 
+11.2.1.2 ANALYZE THE EXPLANATION

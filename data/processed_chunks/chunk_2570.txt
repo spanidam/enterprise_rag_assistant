@@ -1,0 +1,11 @@
+is allowed to pose queries to the trainer, versus observing a random sample of 
+training examples? Can one characterize the number of mistakes that a learner 
+202 
+MACHINE LEARNING 
+will make before learning the target function? Can one characterize the inherent 
+computational complexity of classes of learning problems? 
+Although general answers to all these questions are not yet known, frag- 
+ments of a computational theory of learning have begun to emerge. This chapter 
+presents key results from this theory, providing answers to these questions within 
+particular problem settings. We focus here on the problem of inductively learning 
+an unknown target function, given only training examples of this target func-

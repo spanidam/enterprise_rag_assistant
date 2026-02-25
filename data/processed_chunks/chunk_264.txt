@@ -1,0 +1,53 @@
+o2x2y2z2. This angular velocity results from the combined rotations expressed
+by R0
+1 and R1
+2.
+The ﬁrst term on the right-hand side of Equation (4.22) is simply
+˙R0
+1R1
+2
+=
+S(ω0
+0,1)R0
+1R1
+2 = S(ω0
+0,1)R0
+2
+(4.24)
+Note that in this equation, ω0
+0,1 denotes the angular velocity of frame o1x1y1z1
+that results from the changing R0
+1, and this angular velocity vector is expressed
+relative to the coordinate system o0x0y0z0.
+Let us examine the second term on the right hand side of Equation (4.22).
+Using Equation (4.9) we have
+R0
+1 ˙R1
+2
+=
+R0
+1S(ω1
+1,2)R1
+2
+(4.25)
+=
+R0
+1S(ω1
+1,2)R0
+1
+T R0
+1R1
+2 = S(R0
+1ω1
+1,2)R0
+1R1
+2
+=
+S(R0
+1ω1
+1,2)R0
+2.
+(4.26)
+Note that in this equation, ω1
+1,2 denotes the angular velocity of frame o2x2y2z2
+that corresponds to the changing R1

@@ -1,0 +1,14 @@
+intervals for discrete-valued hypotheses 
+J 
+errors(h)(l - errors(h)) 
+errors(h) zt ZN 
+n 
+Recall that two approximations were involved in deriving this expression, namely: 
+1. in estimating the standard deviation a of errors(h), we have approximated 
+errorv(h) by errors(h) [i.e., in going from Equation (5.8) to (5.9)], and 
+2. the Binomial distribution has been approximated by the Normal distribution. 
+The common rule of thumb in statistics is that these two approximations are very 
+good as long as n 2 30, or when np(1- p) 2 5. For smaller values of n it is wise 
+to use a table giving exact values for the Binomial distribution. 
+5.3.6 Two-sided and One-sided Bounds 
+Notice that the above confidence interval is a two-sided bound; that is, it bounds

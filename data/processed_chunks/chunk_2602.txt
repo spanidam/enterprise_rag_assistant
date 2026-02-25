@@ -1,0 +1,15 @@
+error greater than E ) ,  for any consistent learner using hypothesis space H. 
+Let us use this result to determine the number of training examples required 
+to reduce this probability of failure below some desired level 6. 
+Rearranging terms to solve for m, we find 
+1 
+m 2 - (ln 1 HI + ln(l/6)) 
+E 
+(7.2) 
+To summarize, the inequality shown in Equation (7.2) provides a general 
+bound on the number of training examples sufficient for any consistent learner 
+to successfully learn any target concept in H, for any desired values of 6 and 
+E. This number rn of training examples is sufficient to assure that any consistent 
+hypothesis will be probably (with probability (1 - 6)) approximately (within error 
+E) correct. Notice m grows linearly in 1 / ~  
+and logarithmically in 116. It also grows

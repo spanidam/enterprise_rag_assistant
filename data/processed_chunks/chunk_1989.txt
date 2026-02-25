@@ -1,0 +1,14 @@
+by combining the votes of these different version spaces. She reports experiments 
+in several problem domains demonstrating that her approach is competitive with 
+other widely used induction methods such as decision tree learning and k-NEAREST 
+NEIGHBOR. 
+EXERCISES 
+2.1. Explain why the size of the hypothesis space in the EnjoySport learning task is 
+973. How would the number of possible instances and possible hypotheses increase 
+with the addition of the attribute Watercurrent, which can take on the values 
+Light, Moderate, or Strong? More generally, how does the number of possible 
+instances and hypotheses grow with the addition of a new attribute A that takes on 
+k possible values? 
+, 
+I 
+2.2. Give the sequence of S and G boundary sets computed by the CANDIDATE-ELIMINA-

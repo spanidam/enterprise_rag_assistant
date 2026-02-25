@@ -1,0 +1,10 @@
+The second approach is to sample from the state or state–action space ac-
+cording to some distribution. One could sample uniformly, as in the Dyna-Q
+agent, but this would suﬀer from some of the same problems as exhaustive
+sweeps. More appealing is to distribute backups according to the on-policy
+distribution, that is, according to the distribution observed when following the
+current policy. One advantage of this distribution is that it is easily gener-
+ated; one simply interacts with the model, following the current policy. In an
+episodic task, one starts in the start state (or according to the starting-state
+distribution) and simulates until the terminal state. In a continuing task, one
+starts anywhere and just keeps simulating. In either case, sample state tran-

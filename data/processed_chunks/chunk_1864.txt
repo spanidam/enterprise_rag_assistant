@@ -1,0 +1,12 @@
+best for which types of problems and representations? 
+How much training data is sufficient? What general bounds can be found 
+to relate the confidence in learned hypotheses to the amount of training 
+experience and the character of the learner's hypothesis space? 
+When and how can prior knowledge held by the learner guide the process 
+of generalizing from examples? Can prior knowledge be helpful even when 
+it is only approximately correct? 
+What is the best strategy for choosing a useful next training experience, and 
+how does the choice of this strategy alter the complexity of the learning 
+problem? 
+What is the best way to reduce the learning task to one or more function 
+approximation problems? Put another way, what specific functions should

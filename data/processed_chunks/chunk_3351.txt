@@ -1,0 +1,32 @@
+Case-based reasoning, 23 1, 240-244, 246, 
+247 
+advantages of, 243-244 
+applications of, 240 
+other instance-based learning methods, 
+comparison with, 240 
+Causal knowledge, representation by 
+Bayesian belief networks, 187 
+Central Limit Theorem, 133, 142-143, 167 
+Checkers learning program, 2-3,5-14, 387 
+algorithms for, 14 
+design, 13 
+as sequential control process, 369 
+Chemical mass spectroscopy, 
+CANDIDATE-ELIMINATION 
+algorithm 
+in, 29 
+Chess learning program, 308-310 
+explanation-based learning in, 325 
+Chunking, 327, 330 
+CIGOL, 302 
+Circuit design, genetic programming in, 
+265-266 
+' Circuit layout, genetic algorithms in, 
+256 
+Classification problems, 54 
+CLA~~IFYJAIVEBAYES-TEXT, 
+182-183 
+CLAUDIEN, 302 
+Clauses, 284, 285 
+CLS. See Concept Learning System 
+Clustering, 191

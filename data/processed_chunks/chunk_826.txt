@@ -1,0 +1,11 @@
+kinematics problem is diﬃcult to solve and often ill posed (because the solution
+is not unique), the inverse velocity problem is typically fairly easy to solve:
+358
+VISION-BASED CONTROL
+one merely inverts the manipulator Jacobian matrix (assuming the Jacobian is
+nonsingular). This can be understood mathematically by noting that while the
+inverse kinematic equations represent a nonlinear mapping between possibly
+complicated geometric spaces (e.g., even for the simple two-link planar arm the
+mapping is from ℜ2 to the torus), the mapping of velocities is a linear map
+between linear subspaces (in the two-link example, a mapping from ℜ2 to a
+plane that is tangent to the torus). Likewise, the relationship between vectors

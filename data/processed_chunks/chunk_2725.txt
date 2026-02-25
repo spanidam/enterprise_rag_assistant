@@ -1,0 +1,11 @@
+lyzing similar instances while ignoring instances that are very different from the 
+query. Third, they represent instances as real-valued points in an n-dimensional 
+Euclidean space. Case-based reasoning (CBR) is a learning paradigm based on 
+the first two of these principles, but not the third. In CBR, instances are typi- 
+ca:'y represented using more rich symbolic descriptions, and the methods used 
+to retrieve similar instances are correspondingly more elaborate. CBR has been 
+applied to problems such as conceptual design of mechanical devices based on 
+a stored library of previous designs (Sycara et al. 1992), reasoning about new 
+legal cases based on previous rulings (Ashley 1990), and solving planning and 
+CHAPTER 8 INSTANCEBASED LEARNING 
+241

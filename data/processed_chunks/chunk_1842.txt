@@ -1,0 +1,12 @@
+Task T: playing checkers 
+Performance measure P: percent of games won in the world tournament 
+Training experience E: games played against itself 
+Targetfunction: V:Board + 8 
+Targetfunction representation 
+The first three items above correspond to the specification of the learning task, 
+whereas the final two items constitute design choices for the implementation of the 
+learning program. Notice the net effect of this set of design choices is to reduce 
+the problem of learning a checkers strategy to the problem of learning values for 
+the coefficients wo through w 6  in the target function representation. 
+1.2.4 Choosing a Function Approximation Algorithm 
+In order to learn the target function f we require a set of training examples, each

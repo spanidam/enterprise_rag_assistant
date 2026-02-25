@@ -1,0 +1,10 @@
+Proceedings of the Conference on Uncertainty in Artijicial Intelligence (pp. 44-53). 
+Quinlan, J. R., & Rivest, R. (1989). Inferring decision trees using the minimum description length 
+principle. Information and Computation, 80, 227-248. 
+Rabiner, L. R. (1989). A tutorial on hidden Markov models and selected applications in speech 
+recognition. Proceedings of the IEEE, 77(2), 257-286. 
+Rissanen, J. (1983). A universal prior for integers and estimation by minimum description length. 
+The Annals of Statistics, 11(2), 41-31. 
+Rissanen, J., (1989). Stochastic complexity in statistical inquiry. New Jersey: World Scientific Pub. 
+Rissanen, J. (1991). Information theory and neural nets. IBM Research Report RJ 8438 (76446), 
+IBM Thomas J. Watson Research Center, Yorktown Heights, NY.

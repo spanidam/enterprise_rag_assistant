@@ -1,0 +1,10 @@
+as a table with one entry for each state or for each state–action pair. This is
+a particularly clear and instructive case, but of course it is limited to tasks
+with small numbers of states and actions. The problem is not just the memory
+needed for large tables, but the time and data needed to ﬁll them accurately.
+In other words, the key issue is that of generalization. How can experience
+with a limited subset of the state space be usefully generalized to produce a
+good approximation over a much larger subset?
+This is a severe problem. In many tasks to which we would like to apply
+reinforcement learning, most states encountered will never have been expe-
+rienced exactly before. This will almost always be the case when the state

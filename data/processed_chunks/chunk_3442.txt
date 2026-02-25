@@ -1,0 +1,118 @@
+MedicationQA
+FLAN
+137B
+2021
+LaMDA-PT
+✓
+-
+Web documents, code, dialog data, Wikipedia
+Gopher
+280B
+2021
+-
+×
+300B
+MassiveText
+ERNIE 4.0
+10B
+2023
+-
+×
+4TB
+Chinese text
+Retro
+7.5B
+2021
+-
+×
+600B
+MassiveText
+LaMDA
+137B
+2022
+-
+×
+168B
+public dialog data and web documents
+ChinChilla
+70B
+2022
+-
+×
+1.4T
+MassiveText
+Galactia-120B
+120B
+2022
+-
+450B
+Other Popular LLMs
+CodeGen
+16.1B
+2022
+-
+✓
+-
+THE PILE, BIGQUERY, BIGPYTHON
+BLOOM
+176B
+2022
+-
+✓
+366B
+ROOTS
+Zephyr
+7.24B
+2023
+Mistral-7B
+✓
+800B
+Synthetic data
+Grok-0
+33B
+2023
+-
+×
+-
+Online source
+ORCA-2
+13B
+2023
+LLaMA2
+-
+2001B
+-
+StartCoder
+15.5B
+2023
+-
+✓
+35B
+GitHub
+MPT
+7B
+2023
+-
+✓
+1T
+RedPajama, m Common Crawl, S2ORC, Common
+Crawl
+Mixtral-8x7B
+46.7B
+2023
+-
+✓
+-
+Instruction dataset
+Falcon 180B
+180B
+2023
+-
+✓
+3.5T
+RefinedWeb
+Gemini
+1.8B, 3.25B
+2023
+✓
+-

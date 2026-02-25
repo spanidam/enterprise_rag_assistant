@@ -1,0 +1,12 @@
+Figure 14.7: A typical learned behavior of the acrobot. Each group is a series
+of consecutive positions, the thicker line being the ﬁrst. The arrow indicates
+the torque applied at the second joint.
+14.4
+Elevator Dispatching
+Waiting for an elevator is a situation with which we are all familiar. We press a
+button and then wait for an elevator to arrive traveling in the right direction.
+We may have to wait a long time if there are too many passengers or not
+enough elevators. Just how long we wait depends on the dispatching strategy
+the elevators use to decide where to go. For example, if passengers on several
+ﬂoors have requested pickups, which should be served ﬁrst? If there are no
+pickup requests, how should the elevators distribute themselves to await the

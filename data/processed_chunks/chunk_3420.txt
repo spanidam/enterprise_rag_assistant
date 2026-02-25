@@ -1,0 +1,13 @@
+neural language models 1 that contain tens to hundreds of
+billions of parameters, which are pre-trained on massive text
+data, such as PaLM [31], LLaMA [32], and GPT-4 [33], as
+summarized in Table III. Compared to PLMs, LLMs are not
+only much larger in model size, but also exhibit stronger
+language understanding and generation abilities, and more
+importantly, emergent abilities that are not present in smaller-
+scale language models. As illustrated in Fig. 1, these emergent
+abilities include (1) in-context learning, where LLMs learn
+a new task from a small set of examples presented in the
+prompt at inference time, (2) instruction following, where
+LLMs, after instruction tuning, can follow the instructions
+for new types of tasks without using explicit examples, and

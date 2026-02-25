@@ -1,0 +1,15 @@
+Exercise 5.6
+The results with Example 5.5 and shown in Figure 5.8 used
+a ﬁrst-visit MC method.
+Suppose that instead an every-visit MC method
+was used on the same problem. Would the variance of the estimator still be
+inﬁnite? Why or why not?
+Exercise 5.7 Modify the algorithm for ﬁrst-visit MC policy evaluation (Fig-
+ure 5.1) to use the incremental implementation for sample averages described
+in Section 2.4.
+Exercise 5.8 Derive the weighted-average update rule (5.7) from (5.6). Fol-
+low the pattern of the derivation of the unweighted rule (2.3).
+Exercise 5.9: Racetrack (programming)
+Consider driving a race car
+around a turn like those shown in Figure 5.11. You want to go as fast as
+possible, but not so fast as to run oﬀthe track. In our simpliﬁed racetrack,

@@ -1,0 +1,115 @@
+k
+X
+i=1
+mi¨rT
+i
+∂ri
+∂qj
+=
+k
+X
+i=1
+ d
+dt
+
+mi ˙rT
+i
+∂ri
+∂qj
+
+−mi ˙rT
+i
+d
+dt
+ ∂ri
+∂qj
+
+(6.29)
+Now diﬀerentiate (6.15) using the chain rule; this gives
+vi
+=
+˙ri =
+n
+X
+j=1
+∂ri
+∂qj
+˙qj
+(6.30)
+Observe from the above equation that
+∂vi
+∂˙qi
+=
+∂ri
+∂qj
+(6.31)
+Next,
+d
+dt
+ ∂ri
+∂qj
+
+=
+n
+X
+ℓ=1
+∂2ri
+∂qj∂qℓ
+˙qℓ= ∂vi
+∂qj
+(6.32)
+where the last equality follows from (6.30). Substituting from (6.31) and (6.32)
+into (6.29) and noting that ˙ri = vi gives
+k
+X
+i=1
+mi¨rT
+i
+∂ri
+∂qj
+=
+k
+X
+i=1
+ d
+dt
+
+mivT
+i
+∂vi
+∂˙qj
+
+−mivT
+i
+∂vi
+∂qj
+
+(6.33)
+196
+DYNAMICS
+If we deﬁne the kinetic energy K to be the quantity
+K
+=
+k
+X
+i=1
+1
+2mivT
+i vi
+(6.34)
+then the sum above can be compactly expressed as
+k
+X
+i=1
+mi¨rT
+i
+∂ri
+∂qj
+=
+d
+dt
+∂K
+∂˙qj
+−∂K
+∂qj
+(6.35)

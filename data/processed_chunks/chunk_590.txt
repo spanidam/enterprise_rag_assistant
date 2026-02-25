@@ -1,0 +1,14 @@
+and can measure y directly, we can solve the above system for ˆx(t) starting from
+any initial condition, and use this ˆx in place of the true state x in the feedback
+law (7.79). The additional term ℓin (7.82) is to be designed so that ˆx →x as
+t →∞, that is, so that the estimated state converges to the true (unknown)
+state independent of the initial condition x(t0). Let us see how this is done.
+Deﬁne e(t) = x −ˆx as the estimation error. Combining (7.68) and (7.82),
+since y = cT x, we see that the estimation error satisﬁes the system
+˙e
+=
+(A −ℓcT )e.
+(7.83)
+From (7.83) we see that the dynamics of the estimation error are determined
+by the eigenvalues of A −ℓcT . Since ℓis a design quantity we can attempt to
+choose it so that e(t) →0 as t →∞, in which case the estimate ˆx converges

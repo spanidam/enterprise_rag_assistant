@@ -1,0 +1,39 @@
+Program
+Hidden
+Training
+Opponents
+Results
+Units
+Games
+TD-Gam 0.0
+40
+300,000
+other programs
+tied for best
+TD-Gam 1.0
+80
+300,000
+Robertie, Magriel, ...
+−13 pts / 51 games
+TD-Gam 2.0
+40
+800,000
+various Grandmasters
+−7 pts / 38 games
+TD-Gam 2.1
+80
+1,500,000
+Robertie
+−1 pt / 40 games
+TD-Gam 3.0
+80
+1,500,000
+Kazaros
++6 pts / 20 games
+Table 14.1: Summary of TD-Gammon Results
+backgammon. Neurogammon was a highly tuned, highly eﬀective backgam-
+mon program that decisively won the World Backgammon Olympiad in 1989.
+TD-Gammon 0.0, on the other hand, was constructed with essentially zero
+backgammon knowledge. That it was able to do as well as Neurogammon and
+all other approaches is striking testimony to the potential of self-play learning
+methods.

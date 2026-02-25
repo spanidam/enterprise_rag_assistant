@@ -1,0 +1,12 @@
+2. b. The self parameter is missing from the overridden method's definition.
+3. c. The class definition doesn't indicate inheritance. The definition should be class ContractTax(Tax):.
+398
+Access for free at openstax.org
+4. b. Square's superclass is Rectangle. Rectangle's __init__() is called on line 6.
+5. a. super().__init__(4) calls the __init__() of Rectangle's superclass, Polygon. Control moves to
+line 3, and num_sides is initialized with 4.
+6. b. The instance attribute side is initialized with 5.
+7. b. Rectangle's __init__() always calls Polygon's __init__() with num_sides=4.
+8. c. Polymorphism allows print_type() to be overridden in subclasses of Polygon.
+9. a. The * operator can be used with integer operands as well as strings and other types.
+13.4 Hierarchical inheritance

@@ -1,0 +1,10 @@
+Determine: 
+A hypothesis that best fits the training examples and domain theory 
+What precisely shall we mean by "the hypothesis that best fits the training 
+examples and domain theory?'In particular, shall we prefer hypotheses that fit 
+the data a little better at the expense of fitting the theory less well, or vice versa? 
+We can be more precise by defining measures of hypothesis error with respect 
+to the data and with respect to the domain theory, then phrasing the question in 
+terms of these errors. Recall from Chapter 5 that errorD(h) is defined to be the 
+proportion of examples from D that are misclassified by h. Let us define the error 
+e r r o r ~ ( h )  of h with respect to a domain theory B to be the probability that h

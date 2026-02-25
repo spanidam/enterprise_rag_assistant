@@ -1,0 +1,10 @@
+general enough to learn any target concept from C regardless of the distribution 
+of training examples, we will often be interested in worst-case analyses over all 
+possible target concepts from C and all possible instance distributions D. 
+7.2.2 Error of a Hypothesis 
+Because we are interested in how closely the learner's output hypothesis h ap- 
+proximates the actual target concept c, let us begin by defining the true error 
+of a hypothesis h with respect to target concept c and instance distribution D. 
+Informally, the true error of h is just the error rate we expect when applying h 
+to future instances drawn according to the probability distribution 27. In fact, we 
+already defined the true error of h in Chapter 5. For convenience, we restate the

@@ -1,0 +1,19 @@
+Q(s, a) ←arbitrary
+π(s) ←arbitrary
+Returns(s, a) ←empty list
+Repeat forever:
+Choose S0 ∈S and A0 ∈A(S0) s.t. all pairs have probability > 0
+Generate an episode starting from S0, A0, following π
+For each pair s, a appearing in the episode:
+G ←return following the ﬁrst occurrence of s, a
+Append G to Returns(s, a)
+Q(s, a) ←average(Returns(s, a))
+For each s in the episode:
+π(s) ←argmaxa Q(s, a)
+Figure 5.4: Monte Carlo ES: A Monte Carlo control algorithm assuming ex-
+ploring starts and that episodes always terminate for all policies.
+been formally proved. In our opinion, this is one of the most fundamental
+open theoretical questions in reinforcement learning (for a partial solution, see
+Tsitsiklis, 2002).
+Example 5.3: Solving Blackjack
+It is straightforward to apply Monte

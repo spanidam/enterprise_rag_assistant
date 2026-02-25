@@ -1,0 +1,78 @@
+points, and also of the n depth values,
+˙s = Lc(s, z)ξ
+This interaction matrix is thus obtained by stacking the n interaction matrices
+for the individual feature points,
+Lc(s, z)
+=
+
+
+L1(u1, v1, z1)
+...
+Ln(un, vn, zn)
+
+
+=
+
+
+−λ
+z1
+0
+u1
+z1
+u1v1
+λ
+−λ2 + u2
+1
+λ
+v1
+0
+−λ
+z1
+v1
+z1
+λ2 + v2
+1
+λ
+−u1v1
+λ
+−u1
+...
+...
+...
+...
+...
+...
+−λ
+zn
+0
+un
+zn
+unvn
+λ
+−λ2 + u2
+n
+λ
+vn
+0
+−λ
+zn
+vn
+zn
+λ2 + v2
+n
+λ
+−unvn
+λ
+−un
+
+
+Thus, we have Lc ∈R2n×6 and therefore three points are suﬃcient to solve
+for ξ given the image measurements ˙s.
+12.4
+IMAGE-BASED CONTROL LAWS
+With image-based control, the goal conﬁguration is deﬁned by a desired con-
+ﬁguration of image features, denoted by sd. The image error function is then
+given by
+e(t) = s(t) −sd.
+IMAGE-BASED CONTROL LAWS
+365

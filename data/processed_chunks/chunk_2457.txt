@@ -1,0 +1,13 @@
+- log, P(h), where CH is the optimal code for hypothesis space H. 
+0 -log2 P(D1h) is the description length of the training data D given 
+hypothesis h, under its optimal encoding. In our notation, Lc,,,(Dlh) = 
+- log, P(Dlh), where C D , ~  
+is the optimal code for describing data D assum- 
+ing that both the sender and receiver know the hypothesis h. 
+t~otice the expected length for transmitting one message is therefore xi 
+-pi logz pi, the formula 
+for the entropy (see Chapter 3) of the set of possible messages. 
+CHAPTER 6 BAYESIAN LEARNING 173 
+0 Therefore we can rewrite Equation (6.16) to show that hMAP is the hypothesis 
+h that minimizes the sum given by the description length of the hypothesis 
+plus the description length of the data given the hypothesis.

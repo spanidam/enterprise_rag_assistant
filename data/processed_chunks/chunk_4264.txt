@@ -1,0 +1,27 @@
+Exercise 6.10 Consider the learning algorithm that is just like Q-learning
+except that instead of the maximum over next state–action pairs it uses the
+expected value, taking into account how likely each action is under the current
+policy. That is, consider the algorithm otherwise like Q-learning except with
+the update rule
+Q(St, At)
+←
+Q(St, At) + α
+h
+Rt+1 + γE[Q(St+1, At+1) | St+1] −Q(St, At)
+i
+←
+Q(St, At) + α
+h
+Rt+1 + γ
+X
+a
+π(a|St+1)Q(St+1, a) −Q(St, At)
+i
+.
+Is this new method an on-policy or oﬀ-policy method? What is the backup
+diagram for this algorithm?
+Given the same amount of experience, would
+you expect this method to work better or worse than Sarsa?
+What other
+considerations might impact the comparison of this method with Sarsa?
+Exercise 6.11

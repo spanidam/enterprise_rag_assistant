@@ -1,0 +1,32 @@
+explanation-based learning in, 3 10 
+genetic programming in, 263-265 
+PRODIGY in, 327 
+Standard deviation, 133, I 36-1 37 
+State-transition function, 380 
+Statistics: 
+basic definitions, 133 
+influence on machine learning, 4 
+Stochastic gradient descent, 93-94, 
+98-100, 104-105 
+Student t tests, 147-150, 152 
+Substitution, 285, 296 
+Sum rule, 159 
+t tests, 147-150, 152 
+TANGENTPROP 
+algorithm, 347-350, 362 
+BACKPROPAGATION 
+algorithm, 
+comparison with, 349 
+in EBNN algorithm, 352 
+search of hypothesis space 
+by KBANN and BACKPROPAGATION 
+algorithms, comparison with, 
+350-35 1 
+tanh function, 97 
+Target concept, 22-23,4041 
+PAC learning of, 21 1-213 
+Target function, 7-8, 17 
+continuous-valued. See Continuous- 
+valued target function 
+representation of, 8-9, 14, 17 
+TD-GAMMON,

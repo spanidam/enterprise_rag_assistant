@@ -1,0 +1,15 @@
+Morgan Kaufmann, San Mateo, CA.
+Dayan, P., Sejnowski, T. (1994). TD(λ) converges with probability 1. Machine
+Learning, 14:295–301.
+Dean, T., Lin, S.-H. (1995). Decomposition techniques for planning in stochas-
+tic domains. In Proceedings of the Fourteenth International Joint Confer-
+ence on Artiﬁcial Intelligence, pp. 1121–1127. Morgan Kaufmann. See
+also Technical Report CS-95-10, Brown University, Department of Com-
+puter Science, 1995.
+DeJong, G., Spong, M. W. (1994).
+Swinging up the acrobot: An example
+of intelligent control. In Proceedings of the American Control Conference,
+pp. 2158–2162. American Automatic Control Council, Evanston, IL.
+Denardo, E. V. (1967).
+Contraction mappings in the theory underlying dy-
+namic programming. SIAM Review, 9:165–177.

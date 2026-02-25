@@ -1,0 +1,15 @@
+mistake. Now consider the sum W = x : = ,  w i  of the weights associated with all n 
+algorithms in A. W is initially n. For each mistake made by WEIGHTED-MAJORITY, 
+W is reduced to at most :w. This is the case because the algorithms voting in the 
+weighted majority must hold at least half of the total weight W ,  and this portion 
+of W will be reduced by a factor of 4. Let M denote the total number of mistakes 
+committed by WEIGHTED-MAJORITY 
+for the training sequence D. Then the final total 
+weight W is at most n(:lM. Because the final weight wj cannot be greater than the 
+final total weight, we have 
+Rearranging terms yields 
+M 5 (k + log' n, 
+2.4(k + log, n) 
+-1% (a) - 
+which proves the theorem. 
+To summarize, the above theorem states that the number of mistakes made

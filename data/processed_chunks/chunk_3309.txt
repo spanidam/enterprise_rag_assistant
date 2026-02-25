@@ -1,0 +1,12 @@
+the agent follows an optimal policy for choosing actions, then eh with h = 1 will 
+provide a perfect estimate for the true Q value, regardless of any inaccuracies in 
+Q. On the other hand, if action sequences are chosen suboptimally, then the r,+i 
+observed far into the future can be misleading. 
+Peng and Williams (1994) provide a further discussion and experimental 
+results showing the superior performance of Q q n  one problem domain. Dayan 
+(1992) shows that under certain assumptions a similar TD(h) approach applied 
+to learning the V* function converges correctly for any h such that 0 5 A 5 1. 
+Tesauro (1995) uses a TD(h) approach in his TD-GAMMON 
+program for playing 
+backgammon. 
+13.6 GENERALIZING FROM EXAMPLES

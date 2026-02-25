@@ -1,0 +1,21 @@
+resentation p1
+b. To obtain its coordinates with respect to frame o0x0y0z0, we
+merely apply the coordinate transformation Equation (2.9), giving
+p0
+b = Rz,πp1
+b
+The key thing to notice is that the local coordinates, p1
+b, of the corner of the
+block do not change as the block rotates, since they are deﬁned in terms of
+the block’s own coordinate frame. Therefore, when the block’s frame is aligned
+with the reference frame o0x0y0z0 (i.e., before the rotation is performed), the
+coordinates p1
+b = p0
+a, since before the rotation is performed, the point pa is
+coincident with the corner of the block. Therefore, we can substitute p0
+a into
+the previous equation to obtain
+p0
+b = Rz,πp0
+a
+This equation shows us how to use a rotation matrix to represent a rotational

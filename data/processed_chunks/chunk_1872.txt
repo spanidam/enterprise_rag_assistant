@@ -1,0 +1,11 @@
+treatments from patient databases or to learn general rules for credit worthi- 
+ness from financial databases); (b) poorly understood domains where humans 
+might not have the knowledge needed to develop effective algorithms (e.g., 
+human face recognition from images); and (c) domains where the program 
+must dynamically adapt to changing conditions (e.g., controlling manufac- 
+turing processes under changing supply stocks or adapting to the changing 
+reading interests of individuals). 
+Machine learning draws on ideas from a diverse set of disciplines, including 
+artificial intelligence, probability and statistics, computational complexity, 
+information theory, psychology and neurobiology, control theory, and phi- 
+losophy.

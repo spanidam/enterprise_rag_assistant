@@ -1,0 +1,19 @@
+in the response, this is an inherent property of their
+training that can create issues.
+•
+They have stale information and, on their own, don’t
+have access to external data. An LLM on its own does
+not even know about the current time or day and does
+not have access to any information that was not present
+in its training set.
+•
+They are generally very large. This means that many
+costly GPU machines are needed for training and
+serving. In some cases, largest models have poor
+SLAs, particularly in terms of latency.
+•
+They hallucinate. LLMs do not have a notion of
+”truth” and they have usually been trained on a mix
+of good and bad content. They can produce very
+plausible but untruthful answers.
+While the previous limitations can all become important

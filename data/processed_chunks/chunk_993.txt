@@ -1,0 +1,25 @@
+an activation function can be used in convolution layers, as in other neural network layers. All in all, the output of a
+convolution filter is computed as:
+(x ∗f) (𝑖, 𝑗, 𝑐) = 𝜑(
+𝐾
+∑
+𝑘=−𝐾
+𝐿
+∑
+𝑙=−𝐿
+∑
+𝑐′
+𝑓𝑐
+𝑘,𝑙,𝑐′𝑥𝑖+𝑘,𝑗+𝑙,𝑐′ + 𝑏𝑐)
+(6.3)
+where 𝑐denotes the output channel (note that each output channel is associated with a filter 𝑓𝑐), 𝑏𝑐is its associated bias
+term and 𝜑is the activation function to be used.
+b Tip
+In keras, such a layer is implemented using the Conv2D class:
+import keras
+from keras.layers import Conv2D
+layer = Conv2D(filters=6, kernel_size=5, padding="valid", activation="relu")
+® Padding
+36
+Chapter 6. Convolutional Neural Networks
+Deep Learning Basics (lecture notes)

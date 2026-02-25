@@ -1,0 +1,51 @@
+coordinates of p with respect to the base frame are given by
+Q(0, x, y, z)Q∗+ T
+(2.73)
+in which (0, x, y, z) is a quaternion with zero as its real component.
+35. Compute the homogeneous transformation representing a translation of
+3 units along the x-axis followed by a rotation of π
+2 about the current
+z-axis followed by a translation of 1 unit along the ﬁxed y-axis. Sketch
+the frame. What are the coordinates of the origin O1 with respect to the
+original frame in each case?
+36. Consider the diagram of Figure 2.15. Find the homogeneous transfor-
+CHAPTER SUMMARY
+63
+1m
+√
+2m
+1m
+z0
+y0
+x2
+y2
+x1
+y1
+z2
+z1
+x0
+45◦
+Fig. 2.15
+Diagram for Problem 2-36.
+1m
+1m
+1m
+2m
+1m
+x0
+z0
+y1
+x1
+z1
+x2
+y2
+z2
+z3
+x3
+y3
+y0
+Fig. 2.16
+Diagram for Problem 2-37.
+mations H0
+1, H0
+2, H1

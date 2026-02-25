@@ -1,0 +1,11 @@
+is at least ϵ/|A(s)|. Describe qualitatively the changes that would be required
+in each of the steps 3, 2, and 1, in that order, of the policy iteration algorithm
+for v∗(Figure 4.3).
+Exercise 4.8 Why does the optimal policy for the gambler’s problem have
+such a curious form? In particular, for capital of 50 it bets it all on one ﬂip,
+but for capital of 51 it does not. Why is this a good policy?
+Exercise 4.9 (programming) Implement value iteration for the gambler’s
+problem and solve it for ph = 0.25 and ph = 0.55. In programming, you may
+ﬁnd it convenient to introduce two dummy states corresponding to termination
+with capital of 0 and 100, giving them values of 0 and 1 respectively. Show
+your results graphically, as in Figure 4.6. Are your results stable as θ →0?

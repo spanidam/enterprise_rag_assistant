@@ -1,0 +1,75 @@
+67
+WizardCoder 15B
+57.3
+phi-1 1.3B
+50.6
+Code Llama
+48.8
+GPT-3.5
+48.1
+OctoCoder
+46.2
+phi-1-small
+45
+PaLM 2-S
+37.6
+InstructCodeT5+ 16B
+35
+Mistral 7B
+30.5
+LLaMA 2
+29.9
+phi-1-base
+29
+Codex-12B
+28.81
+PaLM 540B
+26.2
+CodeT5+ 2B
+24.2
+LLaMA 65B
+23.7
+LLaMA 33B
+21.7
+PaLM 62B
+15.9
+LLaMA 13B
+15.8
+LaMDA 137B
+14
+MIM-350M
+13.7
+LLaMA 7B
+10.5
+PaLM 8B
+3.6
+Arithmetic reasoning is another challenging reasoning ca-
+pability to achieve. GSM8K for example contains grade school
+mathematical questions with respect to their answers. Table IX
+provides an insight for different model comparisons.
+TABLE IX: Arithmetic reasoning comparison.
+Model
+GSM8k
+MATH
+Gemini Ultra
+94.4
+53.2
+GPT-4
+87.1
+42.5
+Gemini Pro
+86.5
+32.6
+ToRA 70B
+84.3
+49.7
+MathCoder-L-70B
+83.9
+-
+MetaMath 70B
+82.3
+26
+MuggleMATH 70B
+82.3
+-
+MathCoder-CL-34B

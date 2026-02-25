@@ -1,0 +1,91 @@
+models). GPT-4 itself is rumored to be based on a MoE
+architecture, and some of the best performing LLMs such as
+Mixtral [117], are basically an MoE version of pre-existing
+LLMs.
+Finally, it is important to note that MoEs can be used as a
+component of any architecture regardless of whether it is based
+TABLE X: Hallucination evaluation
+Model
+HHEM
+HaluEval QA
+HaluEval Dialogue
+HaluEval Sum.
+HaluEval General
+GPT 4
+97
+-
+-
+-
+-
+GPT 4 Turbo
+97
+-
+-
+-
+-
+GPT 3.5 Turbo
+96.5
+62.59
+72.4
+58.53
+79.44
+Davinci002
+-
+60.05
+60.81
+47.77
+80.42
+Davinci003
+-
+49.65
+68.37
+48.07
+80.4
+GPT-3
+-
+49.21
+50.02
+51.23
+72.72
+Google Gemini Pro
+95.2
+-
+-
+-
+-
+Llama 2 70B
+94.9
+-
+-
+-
+-
+Llama 2 7B
+94.4
+49.6
+43.99
+49.55
+20.46
+Llama 2 13B
+94.1
+-
+-
+-
+-
+Cohere-Chat
+92.5
+-
+-
+-
+-
+Cohere
+91.5
+-
+-
+-
+-
+Claude 2
+91.5
+69.78
+64.73
+57.75
+75

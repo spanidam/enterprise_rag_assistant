@@ -1,0 +1,31 @@
+Python program?
+a.
+open("firstfile")
+b.
+open("firstfile.txt")
+c.
+fileobj = open("firstfile.txt")
+2. Suppose that there is no file named input.txt. What is the result of trying to execute
+open("input.txt")?
+a.
+Error
+b.
+nothing
+c.
+"input.txt" file is created.
+3. What is the result of the following code?
+fileobj = open("newfile.txt")
+print(fileobj)
+a.
+Error
+b.
+Information about the object fileobj is printed.
+c.
+The contents of newfile.txt are printed.
+Using read() and reading lines
+Python provides functions that can be called on a file object for reading the contents of a file:
+•
+The read() function reads the contents of a file and returns a string.
+•
+The readline() function reads the next line in a file and returns a string.
+•

@@ -1,0 +1,9 @@
+The answer appears to be that people rely heavily on explaining, or analyz- 
+ing, the training example in terms of their prior knowledge about the legal moves 
+of chess. If asked to explain why the training example of Figure 11.1 is a positive 
+example of "positions in which the queen will be lost in two moves," most people 
+would give an explanation similar to the following: "Because white's knight is 
+attacking both the king and queen, black must move out of check, thereby al- 
+lowing the knight to capture the queen." The importance of such explanations is 
+that they provide the information needed to rationally generalize from the details 
+of the training example to a correct general hypothesis. Features of the training

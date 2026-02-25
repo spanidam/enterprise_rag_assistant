@@ -1,0 +1,22 @@
+depends on how many items the user orders:
+•
+If the user inputs nothing, the program outputs:
+You ordered nothing.
+•
+If the user inputs one item (Ex: eggs), the program outputs:
+You ordered eggs.
+•
+If the user inputs two items (Ex: eggs, ham), the program outputs:
+You ordered eggs and ham.
+•
+If the user inputs three or more items (Ex: eggs, ham, toast), the program outputs:
+You ordered eggs, ham, and toast.
+In the general case with three or more items, each item should be separated by a comma and a space. The
+word "and" should be added before the last item.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+8.5 • Splitting/joining strings
+219
+8-5-splittingjoining-strings)
+8.6 Chapter summary
+Highlights from this chapter include:
+•

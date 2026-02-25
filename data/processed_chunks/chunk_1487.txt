@@ -1,0 +1,18 @@
+respectively.
+•
+Existing items can be modified or new items can be added to a dictionary using square brackets notation
+or the update() method.
+•
+Items can be removed from a dictionary using the del keyword or the pop() method.
+•
+Conditional statements can be used with a dictionary to check if the dictionary contains specific keys,
+values, or key-value pairs.
+•
+Looping on a dictionary can be done by iterating over keys, values, or items.
+•
+Nested dictionaries are dictionaries that are stored as values within another dictionary.
+•
+With dictionary comprehension, elements of an iterable object are transformed into key-value pairs.
+At this point, you should be able to use dictionaries in your programs. The programming practice below ties
+together most topics presented in the chapter.
+260

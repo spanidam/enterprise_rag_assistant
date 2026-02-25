@@ -1,0 +1,16 @@
+¨X = aX
+(8.32)
+Given a task space trajectory Xd(t), satisfying the same smoothness and bound-
+edness assumptions as the joint space trajectory qd(t), we may choose aX as
+aX = ¨Xd + KP (Xd −X) + KD( ˙Xd −˙X)
+(8.33)
+so that the Cartesian space tracking error, ˜X = X −Xd, satisﬁes
+¨˜X + KD ˙˜X + KP ˜X = 0.
+(8.34)
+Therefore, a modiﬁcation of the outer loop control achieves a linear and decou-
+pled system directly in the task space coordinates, without the need to compute
+a joint space trajectory and without the need to modify the nonlinear inner loop
+control.
+Note that we have used a minimal representation for the orientation of the
+end–eﬀector in order to specify a trajectory X ∈R6. In general, if the end–
+eﬀector coordinates are given in SE(3), then the Jacobian J in the above for-

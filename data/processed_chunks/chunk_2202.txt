@@ -1,0 +1,11 @@
+separate validation data set can be selected. Alternatively, all networks can 
+be retained and treated as a "committee" of networks whose output is the 
+(possibly weighted) average of the individual network outputs. 
+4.6.2 Representational Power of Feedforward Networks 
+What set of functions can be represented by feedfonvard networks? Of course 
+the answer depends on the width and depth of the networks. Although much is 
+still unknown about which function classes can be described by which types of 
+networks, three quite general results are known: 
+Boolean functions. Every boolean function can be represented exactly by 
+some network with two layers of units, although the number of hidden units 
+required grows exponentially in the worst case with the number of network

@@ -1,0 +1,11 @@
+to learn and compare hypotheses from limited data. For example, Dietterich (1996) 
+discusses the risks of applying the paired-difference t test repeatedly to different 
+train-test splits of the data. 
+EXERCISES 
+5.1. Suppose you test a hypothesis h and find that it commits r = 300 errors on a sample 
+S of n = 1000 randomly drawn test examples. What is the standard deviation in 
+errors(h)? How does this compare to the standard deviation in the example at the 
+end of Section 5.3.4? 
+5.2. Consider a learned hypothesis, h, for some boolean concept. When h is tested on a 
+set of 100 examples, it classifies 83 correctly. What is the standard deviation and 
+the 95% confidence interval for the true error rate for Errorv(h)?

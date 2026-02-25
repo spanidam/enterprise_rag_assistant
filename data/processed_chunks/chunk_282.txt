@@ -1,0 +1,32 @@
+Jacobian of Chapter 1 and give the linear velocity of the origin o2 relative to
+the base. The third row in Equation (4.86) is the linear velocity in the direction
+of z0, which is of course always zero in this case. The last three rows represent
+the angular velocity of the ﬁnal frame, which is simply a rotation about the
+vertical axis at the rate ˙θ1 + ˙θ2.
+⋄
+Example 4.6 Jacobian for an Arbitrary Point
+Consider the three-link planar manipulator of Figure 4.2. Suppose we wish
+v
+ω
+z0
+x0
+z1
+x1
+y0
+y1
+Oc
+Fig. 4.2
+Finding the velocity of link 2 of a 3-link planar robot.
+to compute the linear velocity v and the angular velocity ω of the center of link 2
+as shown. In this case we have that
+J(q)
+=
+
+z0 × (oc −o0)
+z1 × (oc −o1)
+0
+z0
+z1
+0
+
+(4.87)

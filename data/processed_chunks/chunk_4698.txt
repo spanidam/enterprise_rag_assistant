@@ -1,0 +1,14 @@
+Prentice-Hall, Englewood Cliﬀs, NJ.
+Gordon, G. J. (1995).
+Stable function approximation in dynamic program-
+ming. In A. Prieditis and S. Russell (eds.), Proceedings of the Twelfth In-
+ternational Conference on Machine Learning, pp. 261–268. Morgan Kauf-
+mann, San Francisco. An expanded version was published as Technical Re-
+port CMU-CS-95-103. Carnegie Mellon University, Pittsburgh, PA, 1995.
+Gordon, G. J. (1996). Chattering in SARSA(λ). CMU learning lab internal
+report.
+Gordon, G. J. (1996). Stable ﬁtted reinforcement learning. In D. S. Touret-
+zky, M. C. Mozer, M. E. Hasselmo (eds.), Advances in Neural Information
+Processing Systems: Proceedings of the 1995 Conference, pp. 1052–1058.
+MIT Press, Cambridge, MA.
+Gordon, G. J. (2001). Reinforcement learning with function approximation

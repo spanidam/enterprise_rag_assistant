@@ -1,0 +1,15 @@
+that A F B, but where A does not 8-subsume B. One example is the following 
+pair of clauses 
+A : 
+Elephant(father_of (x)) 
+t 
+Elephant (x) 
+B : Elephant ( f  a t h e r s f  ( f  ather-f (y))) t 
+Elephant ( y )  
+where f ather-of (x) is a function that refers to the individual who is the father 
+of x. Note that although B can be proven from A, there is no substitution 8 that 
+allows B to be &subsumed by A. 
+As shown by these examples, our earlier notion of more-general~han is a 
+special case of 8-subsumption, which is itself a special case of entailment. There- 
+fore, searching the hypothesis space by generalizing or specializing hypotheses 
+is more limited than searching by using general inverse entailment operators.

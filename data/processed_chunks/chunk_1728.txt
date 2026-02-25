@@ -1,0 +1,10 @@
+2. b. Lines 1, 4, and 5 each call print() once. Lines 2 and 3 call a different function, input().
+3. b. Line 1 is a comment that is not executed. Lines 2 and 3 each call float() and input(). Line 3 calls
+print() for a total of five function calls.
+4. b. The corrected line is def water_plant(): .
+5. c. The main program outputs "User info:" and then calls print_phone_num(), which outputs the
+phone number.
+6. b. A function call includes the function name and parentheses.
+7. a. calc_tax is concise, in snake case, and indicates the function's task.
+8. c. Each calculation uses four statements to read in the x,y values of a pair of points. The original program
+performs three calculations by repeating code for a total of 12 input statements. The revised program

@@ -1,0 +1,10 @@
+(Ed.), Investigating explanation-based learning. Boston: Kluwer Academic Publishers. 
+Anderson, J. R. (1991). The place of cognitive architecture in rational analysis. In K. VanLehn (Ed.), 
+Architectures for intelligence @p. 1-24). Hillsdale, NJ: Erlbaum. 
+Chi, M. T. H., & Bassock, M. (1989). Learning from examples via self-explanations. In L. Resnick 
+(Ed.), Knowing, learning, and instruction: Essays in honor of Robert Glaser. Hillsdale, NJ: 
+L. Erlbaum Associates. 
+Cooper, G., et al. (1997). An evaluation of machine-learning methods for predicting pneumonia 
+mortality. Artificial Intelligence in Medicine, (to appear). 
+Fayyad, U. M., Uthurusamy, R. (Eds.) (1995). Proceedings of the First International Conference on 
+Knowledge Discovery and Data Mining. Menlo Park, CA: AAAI Press.

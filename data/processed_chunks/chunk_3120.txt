@@ -1,0 +1,10 @@
+Notice this list of desirable properties is quite ambitious. For example, ac- 
+commodating errors in the training data is problematic even for statistically based 
+induction without at least some prior knowledge or assumption regarding the dis- 
+tribution of errors. Combining inductive and analytical learning is an area of active 
+current research. While the above list is a fair summary of what we would like 
+our algorithms to accomplish, we do not yet have algorithms that satisfy all these 
+constraints in a fully general fashion. 
+The next section provides a more detailed discussion of the combined 
+inductive-analytical learning problem. Subsequent sections describe three differ- 
+ent approaches to combining approximate prior knowledge with available training

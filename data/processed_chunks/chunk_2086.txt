@@ -1,0 +1,10 @@
+that splits the continuous attribute into multiple intervals rather than just two in- 
+tervals based on a single threshold. Utgoff and Brodley (1991) and Murthy et al. 
+( 1994) discuss approaches that define features by thresholding linear combinations 
+of several continuous-valued attributes. 
+3.7.3 Alternative Measures for Selecting Attributes 
+There is a natural bias in the information gain measure that favors attributes with 
+many values over those with few values. As an extreme example, consider the 
+attribute Date, which has a very large number of possible values (e.g., March 4, 
+1979). If we were to add this attribute to the data in Table 3.2, it would have 
+the highest information gain of any of the attributes. This is because Date alone

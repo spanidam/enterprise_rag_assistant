@@ -1,0 +1,14 @@
+treatment of the subject the reader is referred to [?].
+Deﬁnition C.1 Consider a nonlinear system on Rn
+˙x
+=
+f(x)
+(C.1)
+where f(x) is a vector ﬁeld on Rn and suppose that f(0) = 0. Then the origin
+in Rn is said to be an equilibrium point for (C.1).
+If initially the system (C.1) satisﬁes x(t0) = 0 then the function x(t0) ≡0 for
+t > t0 can be seen to be a solution of (C.1) called the null or equilibrium
+solution. In other words, if the system represented by (C.1) starts initially at
+the equilibrium, then it remains at the equilibrium thereafter. The question of
+stability deals with the solutions of (C.1) for initial conditions away from the
+equilibrium point. Intuitively, the null solution should be called stable if, for

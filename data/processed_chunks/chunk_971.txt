@@ -1,0 +1,19 @@
+𝜕𝑎(ℓ)
+𝜕𝑜(ℓ) = 𝜑′(𝑜(ℓ))
+𝜕𝑜(ℓ)
+𝜕𝑎(ℓ−1) = 𝑤(ℓ−1)
+Let us inspect what the derivatives of standard activation functions look like:
+One can see that the derivative of ReLU has a wider range of input values for which it is non-zero (typically the whole
+range of positive input values) than its competitors, which makes it a very attractive candidate activation function for deep
+neural networks, as we have seen that the 𝜕𝑎(ℓ)
+𝜕𝑜(ℓ) term appears repeatedly in chain rule derivations.
+4.3. The curse of depth
+23
+Deep Learning Basics (lecture notes)
+4.4 Wrapping things up in keras
+In keras, loss and optimizer information are passed at compile time:
+import keras
+from keras.layers import Dense, InputLayer
+from keras.models import Sequential
+model = Sequential([
+InputLayer(input_shape=(10, )),

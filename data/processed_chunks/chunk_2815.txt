@@ -1,0 +1,10 @@
+rithm for stacking the blocks into a single stack that spells the word "universal," 
+FIGURE 9.3 
+A block-stacking problem. The task for GP is to discover a program that can transform an arbitrary 
+initial configuration of blocks into a stack that spells the word "universal." A set of 166 such initial 
+configurations was provided to evaluate fitness of candidate programs (after Koza 1992). 
+independent of the initial configuration of blocks in the world. The actions avail- 
+able for manipulating blocks allow moving only a single block at a time. In 
+particular, the top block on the stack can be moved to the table surface, or a 
+block on the table surface can be moved to the top of the stack. 
+As in most GP applications, the choice of problem representation has a

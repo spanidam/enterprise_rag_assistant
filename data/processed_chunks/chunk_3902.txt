@@ -1,0 +1,10 @@
+tractable when done exactly, but there may be eﬃcient ways to approximate it.
+In this method we assume that we know the distribution of problem instances,
+that is, the probability of each possible set of true action values. Given any
+action selection, we can then compute the probability of each possible imme-
+diate reward and the resultant posterior probability distribution over action
+values. This evolving distribution becomes the information state of the prob-
+lem. Given a horizon, say 1000 plays, one can consider all possible actions, all
+possible resulting rewards, all possible next actions, all next rewards, and so
+on for all 1000 plays. Given the assumptions, the rewards and probabilities
+of each possible chain of events can be determined, and one need only pick

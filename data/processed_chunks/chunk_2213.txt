@@ -1,0 +1,9 @@
+sentations at the hidden layers is a key feature of ANN learning. In contrast to 
+learning methods that are constrained to use only predefined features provided by 
+the human designer, this provides an important degree of flexibility that allows 
+the learner to invent features not explicitly introduced by the human designer. Of 
+course these invented features must still be computable as sigmoid unit functions 
+of the provided network inputs. Note when more layers of units are used in the 
+network, more complex features can be invented. Another example of hidden layer 
+features is provided in the face recognition application discussed in Section 4.7. 
+In order to develop a better intuition for the operation of BACKPROPAGATION

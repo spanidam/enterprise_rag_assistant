@@ -1,0 +1,11 @@
+solid circle. 
+populated by many different algorithms that utilize this same more-general-than 
+partial ordering to organize the search in one fashion or another. A number of 
+such algorithms are discussed in this chapter, and several others are presented in 
+Chapter 10. 
+The key property of the FIND-S algorithm is that for hypothesis spaces de- 
+scribed by conjunctions of attribute constraints (such as H for the EnjoySport 
+task), FIND-S is guaranteed to output the most specific hypothesis within H 
+that is consistent with the positive training examples. Its final hypothesis will 
+also be consistent with the negative examples provided the correct target con- 
+cept is contained in H, and provided the training examples are correct. How-

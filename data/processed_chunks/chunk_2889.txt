@@ -1,0 +1,12 @@
+post-pruning is provided in Section 3.7.1.2. 
+A final dimension is the particular definition of rule PERFORMANCE used to 
+guide the search in LEARN-ONE-RULE. 
+Various evaluation functions have been used. 
+Some common evaluation functions include: 
+0 Relative frequency. Let n denote the number of examples the rule matches 
+and let nc denote the number of these that it classifies correctly. The relative 
+frequency estimate of rule performance is 
+Relative frequency is used to evaluate rules in the AQ program. 
+0 m-estimate of accuracy. This accuracy estimate is biased toward the default 
+accuracy expected of the rule. It is often preferred when data is scarce and 
+the rule must be evaluated based on few examples. As above, let n and nc

@@ -1,0 +1,10 @@
+zero, and we do not discount (γ = 1); therefore these terminal rewards are
+also the returns. The player’s actions are to hit or to stick. The states depend
+on the player’s cards and the dealer’s showing card. We assume that cards
+are dealt from an inﬁnite deck (i.e., with replacement) so that there is no
+advantage to keeping track of the cards already dealt. If the player holds an
+ace that he could count as 11 without going bust, then the ace is said to be
+usable. In this case it is always counted as 11 because counting it as 1 would
+make the sum 11 or less, in which case there is no decision to be made because,
+obviously, the player should always hit. Thus, the player makes decisions on
+the basis of three variables: his current sum (12–21), the dealer’s one showing

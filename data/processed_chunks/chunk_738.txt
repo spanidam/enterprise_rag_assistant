@@ -1,0 +1,34 @@
+d tan φ
+0
+
+
+(10.114)
+orthogonal to w1 and w2 and write the corresponding control system in the
+form (10.106). It is left as an exercise (Problem 19) to show that the above
+constraints are nonholonomic.
+Example: 10.9 A Hopping Robot. Consider the hopping robot in Figure 10.7
+The conﬁguration of this robot is deﬁned by q = (ψ, ℓ, θ), where
+ψ
+=
+the leg angle
+θ
+=
+the body angle
+ℓ
+=
+the leg extension
+NONHOLONOMIC SYSTEMS
+323
+d
+ℓ
+ψ
+θ
+Fig. 10.7
+Hopping Robot
+During its ﬂight phase the hopping robot’s angular momentum is conserved.
+Letting I and m denote the body moment of inertia and leg mass, respectively,
+conservation of angular momentum leads to the expression
+I ˙θ + m(ℓ+ d)2( ˙θ + ˙ψ) = 0
+(10.115)
+assuming the initial angular momentum is zero. This constraint may be written
+as

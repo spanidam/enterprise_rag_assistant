@@ -1,0 +1,10 @@
+methods more ﬁnely by using variable λ, but at present it is not clear how this
+can be done reliably and usefully.
+Methods using eligibility traces require more computation than one-step
+methods, but in return they oﬀer signiﬁcantly faster learning, particularly
+when rewards are delayed by many steps. Thus it often makes sense to use
+eligibility traces when data are scarce and cannot be repeatedly processed, as
+is often the case in on-line applications. On the other hand, in oﬀ-line appli-
+cations in which data can be generated cheaply, perhaps from an inexpensive
+simulation, then it often does not pay to use eligibility traces. In these cases
+the objective is not to get more out of a limited amount of data, but simply

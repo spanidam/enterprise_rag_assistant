@@ -1,0 +1,11 @@
+ternational Conference on Evolutionary Computation. An annual conference is 
+now held on genetic programming, as well (Koza et al. 1996b). The Evolution- 
+ary Computation Journal is one source of recent research results in the field. 
+Several special issues of the journal Machine Learning have also been devoted 
+to GAS. 
+EXERCISES 
+9.1. Design a genetic algorithm to learn conjunctive classification rules for the Play- 
+Tennis problem described in Chapter 3. Describe precisely the bit-string encoding 
+of hypotheses and a set of crossover operators. 
+9.2. Implement a simple GA for Exercise 9.1. Experiment with varying population size p, 
+the fraction r of the population replaced at each generation, and the mutation rate m.

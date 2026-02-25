@@ -1,0 +1,17 @@
+Father(Sharon, Bob). Furthermore, suppose we have the general background 
+knowledge Parent (u, v) t Father (u, v). We can describe this situation in the 
+terms of Equation (10.2) as follows: 
+xi : Male(Bob), Female(Sharon), Father(Sharon, Bob) 
+f (xi) : 
+Child(Bob, Sharon) 
+In this case, two of the many hypotheses that satisfy the constraint (B Ah A xi) t- 
+f (xi) are 
+hl : Child(u, v) t 
+Father(v, u) 
+h2 : Child(u, v) t 
+Parent (v, u) 
+Note that the target literal Child(Bob, Sharon) is entailed by hl  AX^ with no need 
+for the background information B. In the case of hypothesis h2, however, the 
+situation is different. The target Child(Bob, Sharon) follows from B ~ h 2  
+ AX^, but 
+not from h2 AX^ alone. This example illustrates the role of background knowledge

@@ -1,0 +1,14 @@
+by calling smaller versions of a given problem that are used to generate the solution to the overall problem.
+In advanced programming, some programs are difficult to write without the use of recursion. So recursion is
+also a style of programming that enables us to simplify programs.
+Recursion enables a piece of code, a function, to call the same piece of code, the same function, with different
+parameters.
+12.1 Recursion basics
+Learning objectives
+By the end of this section you should be able to
+•
+Describe the concept of recursion.
+•
+Demonstrate how recursion uses simple solutions to build a better solution.
+Recursion
+Recursion is a problem solving technique that uses the solution to a simpler version of the problem to solve

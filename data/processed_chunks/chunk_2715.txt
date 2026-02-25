@@ -1,0 +1,10 @@
+borhood of the query instance x,. The literature on locally weighted regression 
+contains a broad range of alternative methods for distance weighting the training 
+examples, and a range of methods for locally approximating the target function. In 
+most cases, the target function is approximated by a constant, linear, or quadratic 
+function. More complex functional forms are not often found because (1) the cost 
+of fitting more complex functions for each query instance is prohibitively high, 
+and (2) these simple approximations model the target function quite well over a 
+sufficiently small subregion of the instance space. 
+8.4 RADIAL BASIS FUNCTIONS 
+One approach to function approximation that is closely related to distance-weighted

@@ -1,0 +1,16 @@
+is a simple version of the n-armed bandit problem. We use this problem to
+introduce a number of basic learning methods which we extend in later chapters
+to apply to the full reinforcement learning problem. At the end of this chapter,
+we take a step closer to the full reinforcement learning problem by discussing
+31
+32
+CHAPTER 2. MULTI-ARM BANDITS
+what happens when the bandit problem becomes associative, that is, when
+actions are taken in more than one situation.
+2.1
+An n-Armed Bandit Problem
+Consider the following learning problem.
+You are faced repeatedly with a
+choice among n diﬀerent options, or actions. After each choice you receive a
+numerical reward chosen from a stationary probability distribution that de-
+pends on the action you selected. Your objective is to maximize the expected

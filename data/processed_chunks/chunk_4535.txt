@@ -1,0 +1,14 @@
+is explicitly stored, then this extensive computation may not be needed
+for each action selection.
+• They can learn an explicitly stochastic policy; that is, they can learn
+the optimal probabilities of selecting various actions. This ability turns
+out to be useful in competitive and non-Markov cases (e.g., see Singh,
+Jaakkola, and Jordan, 1994).
+In addition, the separate actor in actor–critic methods makes them more ap-
+pealing in some respects as psychological and biological models. In some cases
+it may also make it easier to impose domain-speciﬁc constraints on the set of
+allowed policies.
+11.2
+Eligibility Traces for Actor–Critic Meth-
+ods
+In this section we describe how to extend the actor–critic methods introduced

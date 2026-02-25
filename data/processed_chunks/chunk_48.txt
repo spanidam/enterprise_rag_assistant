@@ -1,0 +1,22 @@
+sian manipulator is shown in Figure 1.21.
+COMMON KINEMATIC ARRANGEMENTS OF MANIPULATORS
+15
+θ1
+d3
+z2
+z0
+z1
+d2
+Fig. 1.16
+The cylindrical manipulator.
+Fig. 1.17
+The Seiko RT3300 Robot. Photo courtesy of Seiko.
+1.3.6
+Parallel Manipulator
+A parallel manipulator is one in which some subset of the links form a closed
+chain. More speciﬁcally, a parallel manipulator has two or more independent
+kinematic chains connecting the base to the end-eﬀector. Figure 1.22 shows the
+ABB IRB 940 Tricept robot, which is a parallel manipulator. The closed chain
+kinematics of parallel robots can result in greater structural rigidity, and hence
+greater accuracy, than open chain robots. The kinematic description of parallel
+robots is fundamentally diﬀerent from that of serial link robots and therefore

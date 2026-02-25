@@ -1,0 +1,12 @@
+edge in more operational form and need not derive every problem solution 
+from first principles come the final exam. PROLOG-EBG 
+performs this type 
+of reformulation of knowledge-its 
+learned rules map directly from observ- 
+able instance features to the classification relative to the target concept, in a 
+way that is consistent with the underlying domain theory. Whereas it may 
+require many inference steps and considerable search to classify an arbi- 
+trary instance using the original domain theory, the learned rules classify 
+the observed instances in a single inference step. 
+Thus, in its pure form EBL involves reformulating the domain theory to 
+produce general rules that classify examples in a single inference step. This kind

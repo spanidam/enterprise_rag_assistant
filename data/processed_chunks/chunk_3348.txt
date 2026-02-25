@@ -1,0 +1,28 @@
+conditional independence in, 185 
+constraint-based approaches in, 191 
+gradient ascent search in, 188-190 
+inference methods, 187-188 
+joint probability distribution 
+representation, 185-1 87 
+learning from training data, 188-191 
+naive Bayes classifier, comparison with, 
+186 
+representation of causal knowledge, 187 
+Bayesian classifiers, 198. See also Bayes 
+optimal classifier; Naive Bayes 
+classifier 
+Bayesian learning, 154-198 
+decision tree learning, comparison with, 
+198 
+Bayesian methods, influence on machine 
+learning, 4 
+Beam search: 
+general-to-specific. See General-to- 
+specific beam search 
+generate-and-test. See Generate-and-test 
+beam search 
+Bellman-Ford shortest path algorithm, 386, 
+1117 
+Bellman residual errors, 385 
+Bellman's equation, 385-386 
+BFS-ID3 algorithm, 63

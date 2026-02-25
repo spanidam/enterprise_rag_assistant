@@ -1,0 +1,23 @@
+therefore be written as
+˙q
+=
+Ja(q)−1 ˙X
+(4.133)
+and
+¨q
+=
+Ja(q)−1b
+(4.134)
+provided det Ja(q) ̸= 0.
+4.11
+MANIPULABILITY
+For a speciﬁc value of q, the Jacobian relationship deﬁnes the linear system
+given by ξ = J ˙q. We can think of J a scaling the input, ˙q, to produce the
+output, ξ. It is often useful to characterize quantitatively the eﬀects of this
+142
+VELOCITY KINEMATICS – THE MANIPULATOR JACOBIAN
+scaling. Often, in systems with a single input and a single output, this kind of
+characterization is given in terms of the so called impulse response of a system,
+which essentially characterizes how the system responds to a unit input. In
+this multidimensional case, the analogous concept is to characterize the output
+in terms of an input that has unit norm. Consider the set of all robot joint

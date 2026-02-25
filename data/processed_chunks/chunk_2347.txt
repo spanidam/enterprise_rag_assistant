@@ -1,0 +1,13 @@
+variance, unbiased estimator. 
+3. Determine the probability distribution Vy that governs the estimator Y, in- 
+cluding its mean and variance. 
+4. Determine the N% confidence interval by finding thresholds L and U such 
+that N% of the mass in the probability distribution V y  
+falls between L and U. 
+In later sections of this chapter we apply this general approach to sev- 
+eral other estimation problems common in machine learning. First, however, let 
+us discuss a fundamental result from estimation theory called the Central Limit 
+Theorem. 
+5.4.1 Central Limit Theorem 
+One essential fact that simplifies attempts to derive confidence intervals is the 
+Central Limit Theorem. Consider again our general setting, in which we observe

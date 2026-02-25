@@ -1,0 +1,11 @@
+a more detailed discussion. 
+7.4 SAMPLE COMPLEXITY FOR INFINITE HYPOTHESIS SPACES 
+In the above section we showed that sample complexity for PAC learning grows 
+as the logarithm of the size of the hypothesis space. While Equation (7.2) is quite 
+useful, there are two drawbacks to characterizing sample complexity in terms of 
+IHI. First, it can lead to quite weak bounds (recall that the bound on 6 can be 
+significantly greater than 1 for large I H I). Second, in the case of infinite hypothesis 
+spaces we cannot apply Equation (7.2) at all! 
+Here we consider a second measure of the complexity of H, called the 
+Vapnik-Chervonenkis dimension of H (VC dimension, or VC(H), for short). As 
+we shall see, we can state bounds on sample complexity that use VC(H) rather

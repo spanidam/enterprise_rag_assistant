@@ -1,0 +1,83 @@
+(3.27)
+A3
+=
+
+
+1
+0
+0
+0
+0
+1
+0
+0
+0
+0
+1
+d3
+0
+0
+0
+1
+
+
+(3.28)
+A4
+=
+
+
+c4
+−s4
+0
+0
+s4
+c4
+0
+0
+0
+0
+1
+d4
+0
+0
+0
+1
+
+
+(3.29)
+INVERSE KINEMATICS
+85
+The forward kinematic equations are therefore given by
+T 0
+4
+=
+A1 · · · A4
+=
+
+
+c12c4 + s12s4
+−c12s4 + s12c4
+0
+a1c1 + a2c12
+s12c4 −c12s4
+−s12s4 −c12c4
+0
+a1s1 + a2s12
+0
+0
+−1
+−d3 −d4
+0
+0
+0
+1
+
+(3.30)
+⋄
+3.3
+INVERSE KINEMATICS
+In the previous section we showed how to determine the end-eﬀector position
+and orientation in terms of the joint variables. This section is concerned with
+the inverse problem of ﬁnding the joint variables in terms of the end-eﬀector
+position and orientation. This is the problem of inverse kinematics, and it
+is, in general, more diﬃcult than the forward kinematics problem.

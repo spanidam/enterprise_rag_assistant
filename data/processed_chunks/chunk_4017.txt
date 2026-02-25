@@ -1,0 +1,11 @@
+A well-deﬁned notion of optimality organizes the approach to learning we
+describe in this book and provides a way to understand the theoretical prop-
+erties of various learning algorithms, but it is an ideal that reinforcement
+learning agents can only approximate to varying degrees. In reinforcement
+learning we are very much concerned with cases in which optimal solutions
+cannot be found but must be approximated in some way.
+Bibliographical and Historical Remarks
+The reinforcement learning problem is deeply indebted to the idea of Markov
+decision processes (MDPs) from the ﬁeld of optimal control. These histor-
+ical inﬂuences and other major inﬂuences from psychology are described in
+the brief history given in Chapter 1. Reinforcement learning adds to MDPs a

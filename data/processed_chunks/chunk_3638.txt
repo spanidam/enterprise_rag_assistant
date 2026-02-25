@@ -1,0 +1,48 @@
+arXiv:2204.02311, 2022.
+[32]
+H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux,
+T. Lacroix, B. Rozi`ere, N. Goyal, E. Hambro, F. Azhar et al., “Llama:
+Open and efficient foundation language models,” arXiv preprint
+arXiv:2302.13971, 2023.
+[33]
+OpenAI,
+“GPT-4
+Technical
+Report,”
+https://arxiv.org/pdf/2303.
+08774v3.pdf, 2023.
+[34]
+J.
+Wei,
+X.
+Wang,
+D.
+Schuurmans,
+M.
+Bosma,
+b.
+ichter,
+F.
+Xia,
+E.
+Chi,
+Q.
+V.
+Le,
+and
+D.
+Zhou,
+“Chain-of-thought
+prompting
+elicits
+reasoning
+in
+large
+language
+models,”
+in
+Advances in Neural Information Processing Systems, S. Koyejo,
+S. Mohamed, A. Agarwal, D. Belgrave, K. Cho, and A. Oh,
+Eds., vol. 35.
+Curran Associates, Inc., 2022, pp. 24 824–24 837.
+[Online]. Available: https://proceedings.neurips.cc/paper files/paper/

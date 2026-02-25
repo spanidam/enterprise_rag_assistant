@@ -1,0 +1,9 @@
+for example, it would construct a network containing only the four output units 
+completely connected to the 30 x 32 input nodes. After this network is trained for 
+some time, we may well find that there remains a significant residual error due 
+to the fact that the target function cannot be perfectly represented by a network 
+with this single-layer structure. In this case, the algorithm adds a hidden unit, 
+choosing its weight values to maximize the correlation between the hidden unit 
+value and the residual error of the overall network. The new unit is now installed 
+into the network, with its weight values held fixed, and a new connection from 
+this new unit is added to each output unit. The process is now repeated. The

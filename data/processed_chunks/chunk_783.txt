@@ -1,0 +1,31 @@
+gray value 0, the mean will be µ = 127.5. Clearly these two images are very
+diﬀerent, but this diﬀerence is not reﬂected by the mean. One way to capture
+this diﬀerence is to compute the the average deviation of gray values from the
+mean. This average would be small for the ﬁrst example, and large for the
+second. We could, for example, use the average value of |z −µ|; however, it
+will be more convenient mathematically to use the square of this value instead.
+The resulting quantity is known as the variance, which is deﬁned by
+σ2 =
+N−1
+X
+z=0
+(z −µ)2P(z).
+(11.34)
+As with the mean, we can also compute the conditional variance, σ2
+i for each
+object in the image
+σ2
+i =
+N−1
+X
+z=0
+(z −µi)2
+Hi[z]
+PN−1
+z=0 Hi[z]
+.
+(11.35)
+SEGMENTATION BY THRESHOLDING
+341
+11.3.2
+Automatic Threshold Selection

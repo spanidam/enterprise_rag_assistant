@@ -1,0 +1,10 @@
+the end of the game! Because this definition is not efficiently computable by our 
+checkers playing program, we say that it is a nonoperational definition. The goal 
+of learning in this case is to discover an operational description of V ;  that is, a 
+description that can be used by the checkers-playing program to evaluate states 
+and select moves within realistic time bounds. 
+Thus, we have reduced the learning task in this case to the problem of 
+discovering an operational description of the ideal targetfunction V. It may be 
+very difficult in general to learn such an operational form of V perfectly. In fact, 
+we often expect learning algorithms to acquire only some approximation to the 
+target function, and for this reason the process of learning the target function

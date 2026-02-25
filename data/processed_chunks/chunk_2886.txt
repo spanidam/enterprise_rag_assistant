@@ -1,0 +1,11 @@
+test search through the syntactically legal hypotheses, as it is in our suggested 
+implementation, or whether it is example-driven so that individual training exam- 
+ples constrain the generation of hypotheses. Prototypical example-driven search 
+algorithms include the FIND-S and CANDIDATE-ELIMINATION 
+algorithms of Chap- 
+ter 2, the AQ algorithm, and the CIGOL algorithm discussed later in this chapter. 
+In each of these algorithms, the generation or revision of hypotheses is driven 
+by the analysis of an individual training example, and the result is a revised 
+hypothesis designed to correct performance for this single example. This con- 
+trasts to the generate and test search of LEARN-ONE-RULE 
+in Table 10.2, in which

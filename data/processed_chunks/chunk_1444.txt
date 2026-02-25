@@ -1,0 +1,18 @@
+print(my_list[row_index][column_index])
+print()
+c.
+for row_index in range(0, len(my_list)):
+for column_index in range (0, len(my_list[0])):
+print(my_list[row_index][column_index])
+TRY IT
+Matrix multiplication
+Write a program that calculates the matrix multiplication product of the matrices matW and matZ below
+and prints the result. The expected result is shown.
+In the result matrix, each element is calculated according to the position of the element. The result at
+position [i][j] is calculated using row i from the first matrix, W, and column j from the second matrix, Z.
+Ex:
+result[1][2] = (row 1 in W) times (column 2 in Z)
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+9-4-nested-lists)
+9.5 List comprehensions
+Learning objectives

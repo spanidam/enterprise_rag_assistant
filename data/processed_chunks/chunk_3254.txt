@@ -1,0 +1,11 @@
+Life-long learning. Unlike isolated function approximation tasks, robot learn- 
+ing often requires that the robot learn several related tasks within the same 
+environment, using the same sensors. For example, a mobile robot may need 
+to learn how to dock on its battery charger, how to navigate through nar- 
+row corridors, and how to pick up output from laser printers. This setting 
+raises the possibility of using previously obtained experience or knowledge 
+to reduce sample complexity when learning new tasks. 
+13.2 THE LEARNING TASK 
+In this section we formulate the problem of learning sequential control strategies 
+more precisely. Note there are many ways to do so. For example, we might assume 
+the agent's actions are deterministic or that they are nondeterministic. We might

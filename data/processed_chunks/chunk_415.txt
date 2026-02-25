@@ -1,0 +1,11 @@
+(5.80)
+One advantage to this approach is that, since q(t) is continuously diﬀeren-
+tiable, we need not worry about discontinuities in either velocity or acceleration
+at the via point, q1. However, to determine the coeﬃcients for this polynomial,
+we must solve a linear system of dimension seven. The clear disadvantage to
+this approach is that as the number of via points increases, the dimension of
+the corresponding linear system also increases, making the method intractable
+when many via points are used.
+An alternative to using a single high order polynomial for the entire trajec-
+tory is to use low order polynomials for trajectory segments between adjacent
+via points. These polynomials sometimes refered to as interpolating polyno-

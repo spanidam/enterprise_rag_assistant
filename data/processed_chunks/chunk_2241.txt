@@ -1,0 +1,9 @@
+feedforward connections from every unit in one layer to every unit in the next. 
+In the current design we chose this standard structure, using two layers of sig- 
+moid units (one hidden layer and one output layer). It is common to use one or 
+two layers of sigmoid units and, occasionally, three layers. It is not common to 
+use more layers than this because training times become very long and because 
+networks with three layers of sigmoid units can already express a rich variety of 
+target functions (see Section 4.6.2). Given our choice of a layered feedforward 
+network with one hidden layer, how many hidden units should we include? In the 
+results reported in Figure 4.10, only three hidden units were used, yielding a test

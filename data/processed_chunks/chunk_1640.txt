@@ -1,0 +1,11 @@
+Several tools and software are commonly used in data science. Here are some examples.
+•
+Python programming language: Python is widely used in data science. It has a large system of libraries
+designed for data analysis, machine learning, and visualization. Some popular Python libraries for data
+science include NumPy, Pandas, Matplotlib, Seaborn, and scikit-learn. In this chapter, you will explore
+some of these libraries.
+•
+R programming language: R is commonly used in statistical computing and data analysis, and it offers a
+wide range of packages and libraries tailored for data manipulation, statistical modeling, and visualization.
+•
+Jupyter Notebook/JupyterLab: Jupyter Notebook and JupyterLab are web-based interactive computing

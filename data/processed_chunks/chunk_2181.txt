@@ -1,0 +1,13 @@
+layer. This is the incremental, or stochastic, gradient descent version of BACK- 
+PROPAGATION. The notation used here is the same as that used in earlier sections, 
+with the following extensions: 
+CHAPTER 4 ARTIFICIAL NEURAL NETWORKS 99 
+An index (e.g., an integer) is assigned to each node in the network,where 
+a "node" is either an input to the network or the output of some unit in the 
+network. 
+0 xji denotes the input from node i to unit j ,  and wji denotes the corresponding 
+weight. 
+0 6, denotes the error term associated with unit n. It plays a role analogous 
+to the quantity (t - o) in our earlier discussion of the delta training rule. As 
+we shall see later, 6, = - s. 
+Notice the algorithm in Table 4.2 begins by constructing a network with the

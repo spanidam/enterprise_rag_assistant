@@ -1,0 +1,18 @@
+•
+If false, the loop's execution will terminate and the next statement after the loop body will execute.
+CHECKPOINT
+While loop
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+5-1-while-loop)
+CONCEPTS IN PRACTICE
+While loop example
+Fibonacci is a series of numbers in which each number is the sum of the two preceding numbers. The
+Fibonacci sequence starts with two ones: 1, 1, 2, 3, . . . . Consider the following code that prints all Fibonacci
+numbers less than 20, and answer the following questions.
+# Initializing the first two Fibonacci numbers
+f = 1
+g = 1
+print (f, end = ' ')
+# Running the loop while the last Fibonacci number is less than 20
+while g < 20:
+print(g, end = ' ')

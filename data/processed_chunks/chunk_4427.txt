@@ -1,0 +1,11 @@
+1990, 1991a, 1991b; Barto, Bradtke, and Singh, 1991, 1995; Sutton and
+Pinette, 1985; Sutton and Barto, 1981b); it has been strongly inﬂu-
+enced by Agre and Chapman (1990; Agre 1988), Bertsekas and Tsit-
+siklis (1989), Singh (1993), and others. The authors were also strongly
+inﬂuenced by psychological studies of latent learning (Tolman, 1932)
+and by psychological views of the nature of thought (e.g., Galanter and
+Gerstenhaber, 1956; Craik, 1943; Campbell, 1960; Dennett, 1978).
+8.2–3 The terms direct and indirect, which we use to describe diﬀerent kinds
+of reinforcement learning, are from the adaptive control literature (e.g.,
+Goodwin and Sin, 1984), where they are used to make the same kind of
+distinction. The term system identiﬁcation is used in adaptive control

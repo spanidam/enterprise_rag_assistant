@@ -1,0 +1,10 @@
+The overall problem is called oﬀ-policy learning because it is learning about a
+policy given only experience “oﬀ” (not following) that policy.
+In order to use episodes from µ to estimate values for π, we must require
+that every action taken under π is also taken, at least occasionally, under µ.
+That is, we require that π(a|s) > 0 implies µ(a|s) > 0. This is called the
+assumption of coverage. It follows from coverage that µ must be stochastic
+in states where it is not identical to π. The target policy π, on the other
+hand, may be deterministic, and, in fact, this is a case of particular interest.
+Typically the target policy is the deterministic greedy policy with respect to
+the current action-value function estimate. This policy we hope becomes a

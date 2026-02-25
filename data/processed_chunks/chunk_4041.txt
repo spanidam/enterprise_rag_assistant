@@ -1,0 +1,25 @@
+
+=
+Eπ[Rt+1 + γvπ(St+1) | St =s]
+(4.3)
+=
+X
+a
+π(a|s)
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+,
+(4.4)
+where π(a|s) is the probability of taking action a in state s under policy π, and
+the expectations are subscripted by π to indicate that they are conditional on
+π being followed. The existence and uniqueness of vπ are guaranteed as long
+as either γ < 1 or eventual termination is guaranteed from all states under the
+policy π.
+If the environment’s dynamics are completely known, then (4.4) is a system
+of |S| simultaneous linear equations in |S| unknowns (the vπ(s), s ∈S). In
+principle, its solution is a straightforward, if tedious, computation. For our
+purposes, iterative solution methods are most suitable. Consider a sequence of

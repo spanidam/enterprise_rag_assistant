@@ -1,0 +1,13 @@
+updating each weight in proportion to -e. 
+Therefore, you must show that the LMS 
+training rule alters weights in this proportion for each training example it encounters. 
+1.4. Consider alternative strategies for the Experiment Generator module of Figure 1.2. 
+In particular, consider strategies in which the Experiment Generator suggests new 
+board positions by 
+Generating random legal board positions 
+0 Generating a position by picking a board state from the previous game, then 
+applying one of the moves that was not executed 
+A strategy of your own design 
+Discuss tradeoffs among these strategies. Which do you feel would work best if the 
+number of training examples was held constant, given the performance measure of 
+winning the most games at the world championships?

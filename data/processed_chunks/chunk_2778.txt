@@ -1,0 +1,11 @@
+esis. To illustrate, note in the rule encoding in the above paragraph the bit string 
+11 1 10 11 represents a rule whose postcondition does not constrain the target 
+attribute PlayTennis. If we wish to avoid considering this hypothesis, we may 
+employ a different encoding (e.g., allocate just one bit to the PlayTennis post- 
+condition to indicate whether the value is Yes or No), alter the genetic operators 
+so that they explicitly avoid constructing such bit strings, or simply assign a very 
+low fitness to such bit strings. 
+In some GAS, hypotheses are represented by symbolic descriptions rather 
+than bit strings. For example, in Section 9.5 we discuss a genetic algorithm that 
+encodes hypotheses as computer programs. 
+9.2.2 Genetic Operators

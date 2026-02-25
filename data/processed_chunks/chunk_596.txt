@@ -1,0 +1,13 @@
+the pole assignment problem for linear systems. Design a state feedback
+control law for (7.68) using the parameter values given in Example 7.4.1
+so that the poles are at s = −10. Simulate the step response. How does
+it compare to the response of Example 7.4.1? How do the torque proﬁles
+compare?
+7-8 Design an observer for the system (7.68) using the parameter values of
+Example 7.4.1. Choose reasonable locations for the observer poles. Sim-
+ulate the combined observer/state feedback control law using the results
+of Problem 7-7.
+7-9 Derive (7.77) and (7.85).
+7-10 Given a three-link elbow type robot, a three-link SCARA robot and a
+three-link cartesian robot, discuss the diﬀerences in the dynamics of each
+type of robot as they impact the control problem. Discuss the nature of

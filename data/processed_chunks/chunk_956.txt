@@ -1,0 +1,22 @@
+∀𝑖, softmax(𝑜𝑖) =
+𝑒𝑜𝑖
+∑𝑗𝑒𝑜𝑗
+where, for all 𝑖, 𝑜𝑖’s are the values of the output neurons before applying the activation function.
+2.4 Declaring an MLP in keras
+In order to define a MLP model in keras, one just has to stack layers. As an example, if one wants to code a model
+made of:
+• an input layer with 10 neurons,
+• a hidden layer made of 20 neurons with ReLU activation,
+• an output layer made of 3 neurons with softmax activation,
+the code will look like:
+import keras
+from keras.layers import Dense, InputLayer
+from keras.models import Sequential
+model = Sequential([
+InputLayer(input_shape=(10, )),
+Dense(units=20, activation="relu"),
+Dense(units=3, activation="softmax")
+])
+model.summary()
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓

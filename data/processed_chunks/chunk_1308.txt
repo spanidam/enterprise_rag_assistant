@@ -1,0 +1,24 @@
+•
+laundromat_info(): Prints the name, Liam's Laundry, and hours of operation, 7a - 11p, and calls
+washers_open() and dryers_open()
+•
+washers_open(): Reads an integer, assigns washer_count with the value, and prints washer_count
+•
+dryers_open(): Reads an integer, assigns dryer_count with the value, and prints dryer_count
+The main program should just call laundromat_info().
+152
+6 • Functions
+Access for free at openstax.org
+Given inputs 50 and 40, the output is:
+Liam's Laundry
+7a - 11p
+Open washers: 50
+Open dryers: 40
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-2-control-flow)
+6.3 Variable scope
+Learning objectives
+By the end of this section you should be able to
+•
+Identify the scope of a program's variables.
+•

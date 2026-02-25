@@ -1,0 +1,11 @@
+vast space of possible inductive inference steps. However, CIGOL uses first-order 
+rather than propositional representations. Below we describe the extension of the 
+resolution rule required to accommodate first-order representations. 
+10.7.1 First-Order Resolution 
+The resolution rule extends easily to first-order expressions. As in the propositional 
+case, it takes two clauses as input and produces a third clause as output. The key 
+difference from the propositional case is that the process is now based on the 
+notion of unifying substitutions. 
+We define a substitution to be any mapping of variables to terms. For ex- 
+ample, the substitution 6 = {x/Bob, y/z} indicates that the variable x is to be 
+replaced by the term Bob, and that the variable y is to be replaced by the term

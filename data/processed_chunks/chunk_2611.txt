@@ -1,0 +1,11 @@
+-Old). Thus, conjunctions of boolean literals include target concepts such as 
+"Old A -Tallv. Is C PAC-learnable? We can show that the answer is yes by 
+first showing that any consistent learner will require only a polynomial number 
+of training examples to learn any c in C, and then suggesting a specific algorithm 
+that uses polynomial time per training example. 
+Consider any consistent learner L using a hypothesis space H identical to C. 
+We can use Equation (7.2) to compute the number m of random training examples 
+sufficient to ensure that L will, with probability (1 - S), output a hypothesis with 
+maximum error E. To accomplish this, we need only determine the size IHI of 
+the hypothesis space. 
+Now consider the hypothesis space H defined by conjunctions of literals

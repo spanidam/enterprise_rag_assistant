@@ -1,0 +1,14 @@
+tion process that can be used to determine the values for the various camera
+parameters that appear in these relationships. We then consider image segmen-
+tation, the problem of dividing the image into distinct regions that correspond
+to the background and to objects in the scene. When there are multiple objects
+in the scene, it is often useful to deal with them individually; therefore, we
+next present an approach to component labelling. Finally, we describe how to
+compute the positions and orientations of objects in the image.
+331
+332
+COMPUTER VISION
+11.1
+THE GEOMETRY OF IMAGE FORMATION
+A digital image is a two-dimensional array of pixels that is formed by focusing
+light onto a two-dimensional array of sensing elements. A lens with focal length

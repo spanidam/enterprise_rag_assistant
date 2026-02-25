@@ -1,0 +1,10 @@
+by different researchers. These include methods for post-pruning trees, han- 
+dling real-valued attributes, accommodating training examples with miss- 
+ing attribute values, incrementally refining decision trees as new training 
+examples become available, using attribute selection measures other than 
+information gain, and considering costs associated with instance attributes. 
+Among the earliest work on decision tree learning is Hunt's Concept Learn- 
+ing System (CLS) (Hunt et al. 1966) and Friedman and Breiman's work resulting 
+in the CART system (Friedman 1977; Breiman et al. 1984). Quinlan's ID3 sys- 
+tem (Quinlan 1979, 1983) forms the basis for the discussion in this chapter. Other 
+early work on decision tree learning includes ASSISTANT (Kononenko et al. 1984;

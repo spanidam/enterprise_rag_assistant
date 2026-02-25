@@ -1,0 +1,10 @@
+Matw, CA: Morgan Kaufmann. 
+Cestnik, B., & Bratko, I. (1991). On estimating probabilities in tree pruning. Proceedings of the 
+European Working Session on Machine Learning @p. 138-150). Porto, Portugal. 
+Clark, P., & Niblett, R. (1989). The CN2 induction algorithm. Machine Learning, 3, 261-284. 
+Cohen, W .  (1994). Grammatically biased learning: Learning logic programs using an explicit an- 
+tecedent description language. ArtGcial Intelligence, 68(2), 303-366. 
+De Raedt, L. (1992). Interactive theory revision: An inductive logic programming approach. London: 
+Academic Press. 
+De Raedt, L., & Bruynooghe, M. (1993). A theory of clausal discovery. Proceedings of the Thirteenth 
+International Joint Conference on ArtGcial Intelligence. San Mateo, CA: Morgan Kaufmann.

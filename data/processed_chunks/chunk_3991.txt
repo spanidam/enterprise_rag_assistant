@@ -1,0 +1,13 @@
+the optimal action-value function for using the driver (below).
+3.8. OPTIMAL VALUE FUNCTIONS
+75
+3.8
+Optimal Value Functions
+Solving a reinforcement learning task means, roughly, ﬁnding a policy that
+achieves a lot of reward over the long run. For ﬁnite MDPs, we can precisely
+deﬁne an optimal policy in the following way. Value functions deﬁne a partial
+ordering over policies. A policy π is deﬁned to be better than or equal to a
+policy π′ if its expected return is greater than or equal to that of π′ for all
+states. In other words, π ≥π′ if and only if vπ(s) ≥vπ′(s) for all s ∈S. There
+is always at least one policy that is better than or equal to all other policies.
+This is an optimal policy. Although there may be more than one, we denote

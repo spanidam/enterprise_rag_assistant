@@ -1,0 +1,10 @@
+wheel selection. A related strategy is "fitness sharing," in which the measured 
+fitness of an individual is reduced by the presence of other, similar individuals 
+in the population. A third approach is to restrict the kinds of individuals allowed 
+to recombine to form offspring. For example, by allowing only the most similar 
+individuals to recombine, we can encourage the formation of clusters of similar 
+individuals, or multiple "subspecies" within the population. A related approach is 
+to spatially distribute individuals and allow only nearby individuals to recombine. 
+Many of these techniques are inspired by the analogy to biological evolution. 
+9.4.1 Population Evolution and the Schema Theorem 
+It is interesting to ask whether one can mathematically characterize the evolution

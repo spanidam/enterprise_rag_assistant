@@ -1,0 +1,11 @@
+of CADET and the general setting for instance-based methods such as k-NEAREST 
+NEIGHBOR. 
+In CADET each stored training example describes a function graph 
+along with the structure that implements it. New queries correspond to new func- 
+tion graphs. Thus, we can map the CADET problem into our standard notation by 
+defining the space of instances X to be the space of all function graphs. The tar- 
+get function f maps function graphs to the structures that implement them. Each 
+stored training example (x, f (x)) is a pair that describes some function graph x 
+and the structure f ( x )  that implements x. The system must learn from the training 
+example cases to output the structure f (x,) that successfully implements the input 
+function graph query x,.

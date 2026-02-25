@@ -1,0 +1,13 @@
+frame i is completed by choosing the axis yi to form a right-handed frame. Since
+assumptions (DH1) and (DH2) are satisﬁed the homogeneous transformation
+matrix Ai is of the form (3.10).
+(ii) zi−1 is parallel to zi:
+If the axes zi−1 and zi are parallel, then there are
+inﬁnitely many common normals between them and condition (DH1) does not
+specify xi completely. In this case we are free to choose the origin oi anywhere
+along zi. One often chooses oi to simplify the resulting equations. The axis
+xi is then chosen either to be directed from oi toward zi−1, along the common
+74
+FORWARD AND INVERSE KINEMATICS
+normal, or as the opposite of this vector. A common method for choosing oi
+is to choose the normal that passes through oi−1 as the xi axis; oi is then the

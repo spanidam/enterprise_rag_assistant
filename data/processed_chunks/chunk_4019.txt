@@ -1,0 +1,14 @@
+Watkins (1989).
+3.1
+The bioreactor example is based on the work of Ungar (1990) and Miller
+and Williams (1992). The recycling robot example was inspired by the
+can-collecting robot built by Jonathan Connell (1989).
+3.3–4 The terminology of episodic and continuing tasks is diﬀerent from that
+usually used in the MDP literature. In that literature it is common
+to distinguish three types of tasks: (1) ﬁnite-horizon tasks, in which
+interaction terminates after a particular ﬁxed number of time steps; (2)
+indeﬁnite-horizon tasks, in which interaction can last arbitrarily long
+but must eventually terminate; and (3) inﬁnite-horizon tasks, in which
+interaction does not terminate. Our episodic and continuing tasks are
+3.10. SUMMARY
+83

@@ -1,0 +1,49 @@
+SET-POINT TRACKING
+241
+0
+0.5
+1
+1.5
+2
+0
+2
+4
+6
+8
+10
+12
+Time (sec)
+Step Response
+ω = 4 
+ω = 8 
+ω = 12 
+Fig. 7.12
+Critically damped second order step responses.
+state error while keeping the gains small. Thus, let us add an integral term
+KI
+s
+to the above PD compensator.
+This leads to the so-called PID control
+law, as shown in Figure 7.14. The system is now Type 2 and the PID control
+achieves exact steady tracking of step (and ramp) inputs while rejecting step
+disturbances, provided of course that the closed loop system is stable.
+With the PID compensator
+C(s)
+=
+Kp + KDs + KI
+s
+(7.42)
+the closed loop system is now the third order system
+Θm(s)
+=
+(KDs2 + Kps + KI)
+Ω2(s)
+Θd(s) −
+rs
+Ω2(s)D(s)
+(7.43)
+where
+Ω2
+=
+Jeffs3 + (Beff + KKD)s2 + KKps + KKI
+(7.44)

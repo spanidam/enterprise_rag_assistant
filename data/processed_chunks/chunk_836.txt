@@ -1,0 +1,16 @@
+361
+the angular velocity vector for the moving frame relative to the moving frame.
+Similarly, note that RT ˙O = ˙Oc. Using these conventions, we can immediately
+write the equation for the velocity of p relative to the moving camera frame
+˙p = −ωc × p −˙Oc
+(12.6)
+It is interesting to note that this velocity of a ﬁxed point relative to a moving
+frame is merely −1 times the velocity of a moving point (i.e., a point attached
+to a moving frame) relative to a ﬁxed frame.
+Example 12.1 Camera motion in the plane
+TO BE WRITTEN: camera motion is in the plane parallel to the image
+plane (i.e., rotation about optic axis, translation parallel to camera x-y axes).
+Compute the velocity of a ﬁxed point relative to the camera frame
+⋄
+12.3.2
+Constructing the Interaction Matrix

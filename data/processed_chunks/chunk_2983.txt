@@ -1,0 +1,8 @@
+International Joint Conference on ArtGcial Intelligence. San Mateo, CA: Morgan Kaufmann. 
+De Raedt, L. (Ed.). (1996). Advancm in inductive logic programming: Proceedings of the Fifh In- 
+ternational Workshop on Inductive Logic Programming. Amsterdam: IOS Press. 
+Dolsak, B., & Muggleton, S. (1992). The application of inductive logic programming to finite element 
+mesh design. In S. Muggleton (Ed.), Inductive Logic Programming. London: Academic Press. 
+DZeroski, S. (1991). Handling noise in inductive logic programming (Master's thesis). Electrical 
+Engineering and Computer Science, University of Ljubljana, Ljubljana, Slovenia. 
+Flener, P. (1994). Logic program synthesis from incomplete information. The Kluwer international

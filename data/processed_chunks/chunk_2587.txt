@@ -1,0 +1,11 @@
+assumption), there may be multiple hypotheses consistent with the provided train- 
+ing examples, and the learner cannot be certain to pick the one corresponding 
+to the target concept. Second, given that the training examples are drawn ran- 
+domly, there will always be some nonzero probability that the training examples 
+encountered by the learner will be misleading. (For example, although we might 
+frequently see skiers of different heights, on any given day there is some small 
+chance that all observed training examples will happen to be 2 meters tall.) 
+To accommodate these two difficulties, we weaken our demands on the 
+learner in two ways. First, we will not require that the learner output a zero error 
+hypothesis-we 
+will require only that its error be bounded by some constant, c,

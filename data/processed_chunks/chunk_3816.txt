@@ -1,0 +1,13 @@
+More inﬂuential was the work of Donald Michie.
+In 1961 and 1963 he
+described a simple trial-and-error learning system for learning how to play
+1.7. HISTORY OF REINFORCEMENT LEARNING
+21
+tic-tac-toe (or naughts and crosses) called MENACE (for Matchbox Educable
+Naughts and Crosses Engine). It consisted of a matchbox for each possible
+game position, each matchbox containing a number of colored beads, a dif-
+ferent color for each possible move from that position. By drawing a bead at
+random from the matchbox corresponding to the current game position, one
+could determine MENACE’s move. When a game was over, beads were added
+to or removed from the boxes used during play to reinforce or punish MEN-
+ACE’s decisions. Michie and Chambers (1968) described another tic-tac-toe

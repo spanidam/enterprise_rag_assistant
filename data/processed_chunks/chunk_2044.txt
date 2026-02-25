@@ -1,0 +1,10 @@
+all trees of depth 1, then all trees of depth 2, etc. Once it finds a decision tree 
+consistent with the training data, it returns the smallest consistent tree at that 
+search depth (e.g., the tree with the fewest nodes). Let us call this breadth-first 
+search algorithm BFS-ID3. BFS-ID3 finds a shortest decision tree and thus exhibits 
+precisely the bias "shorter trees are preferred over longer trees." ID3 can be 
+viewed as an efficient approximation to BFS-ID3, using a greedy heuristic search 
+to attempt to find the shortest tree without conducting the entire breadth-first 
+search through the hypothesis space. 
+Because ID3 uses the information gain heuristic and a hill climbing strategy, 
+it exhibits a more complex bias than BFS-ID3. In particular, it does not always

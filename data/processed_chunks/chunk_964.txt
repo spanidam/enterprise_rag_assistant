@@ -1,0 +1,19 @@
+the direction of steepest decrease of the loss ℒ.
+As one can see in the previous algorithm, when performing gradient descent, model parameters are updated once per
+epoch, which means a full pass over the whole dataset is required before the update can occur. When dealing with large
+datasets, this is a strong limitation, which motivates the use of stochastic variants.
+19
+Deep Learning Basics (lecture notes)
+4.1 Stochastic Gradient Descent (SGD)
+The idea behind the Stochastic Gradient Descent algorithm is to get cheap estimates for the quantity
+∇𝜃ℒ(𝒟; 𝑚𝜃) = 1
+𝑛
+∑
+(𝑥𝑖,𝑦𝑖)∈𝒟
+∇𝜃ℒ(𝑥𝑖, 𝑦𝑖; 𝑚𝜃)
+where 𝒟is the whole training set. To do so, one draws subsets of data, called minibatches, and
+∇𝜃ℒ(ℬ; 𝑚𝜃) = 1
+𝑏
+∑
+(𝑥𝑖,𝑦𝑖)∈ℬ
+∇𝜃ℒ(𝑥𝑖, 𝑦𝑖; 𝑚𝜃)

@@ -1,0 +1,38 @@
+for pb given only the coordinates for pa and the rotation matrix that corresponds
+to the rotation about z0. To see how this can be accomplished, imagine that
+a coordinate frame is rigidly attached to the block in Figure 2.6(a), such that
+ROTATIONAL TRANSFORMATIONS
+39
+z0
+x0
+x0
+z0
+pb
+y0
+y0
+(a)
+(b)
+pa
+Fig. 2.6
+The block in (b) is obtained by rotating the block in (a) by π about z0.
+it is coincident with the frame o0x0y0z0. After the rotation by π, the block’s
+coordinate frame, which is rigidly attached to the block, is also rotated by π.
+If we denote this rotated frame by o1x1y1z1, we obtain
+R0
+1 = Rz,π =
+
+
+−1
+0
+0
+0
+−1
+0
+0
+0
+1
+
+
+In the local coordinate frame o1x1y1z1, the point pb has the coordinate rep-
+resentation p1
+b. To obtain its coordinates with respect to frame o0x0y0z0, we

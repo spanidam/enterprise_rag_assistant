@@ -1,0 +1,12 @@
+for distinct obstacles.
+5.4
+USING RANDOM MOTIONS TO ESCAPE LOCAL MINIMA
+As noted above, one problem that plagues artiﬁcial potential ﬁeld methods
+for path planning is the existence of local minima in the potential ﬁeld. In
+the case of articulated manipulators, the resultant ﬁeld U is the sum of many
+attractive and repulsive ﬁelds deﬁned over ℜ3. This problem has long been
+known in the optimization community, where probabilistic methods such as
+simulated annealing have been developed to cope with it. Similarly, the robot
+path planning community has developed what are known as randomized methods
+to deal with this and other problems. The ﬁrst of these methods was developed
+speciﬁcally to cope with the problem of local minima in potential ﬁelds.

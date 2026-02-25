@@ -1,0 +1,11 @@
+along the way to compute a backed-up value, and then changing the value
+of the original state (or state–action pair) accordingly. Sample backups diﬀer
+from the full backups of DP methods in that they are based on a single sample
+successor rather than on a complete distribution of all possible successors.
+Example 6.1: Driving Home
+Each day as you drive home from work, you
+try to predict how long it will take to get home. When you leave your oﬃce,
+you note the time, the day of week, and anything else that might be relevant.
+Say on this Friday you are leaving at exactly 6 o’clock, and you estimate that
+it will take 30 minutes to get home. As you reach your car it is 6:05, and
+you notice it is starting to rain. Traﬃc is often slower in the rain, so you

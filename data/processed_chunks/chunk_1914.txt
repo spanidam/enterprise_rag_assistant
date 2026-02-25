@@ -1,0 +1,10 @@
+consistent and, preferably, accommodate such errors. 
+0 What if there are several maximally specific consistent hypotheses? In the 
+hypothesis language H for the EnjoySport task, there is always a unique, 
+most specific hypothesis consistent with any set of positive examples. How- 
+ever, for other hypothesis spaces (discussed later) there can be several maxi- 
+mally specific hypotheses consistent with the data. In this case, FIND-S must 
+be extended to allow it to backtrack on its choices of how to generalize the 
+hypothesis, to accommodate the possibility that the target concept lies along 
+a different branch of the partial ordering than the branch it has selected. Fur- 
+thermore, we can define hypothesis spaces for which there is no maximally

@@ -1,0 +1,13 @@
+Figure 2.4 traces the CANDIDATE-ELIMINATION 
+algorithm applied to the first two 
+training examples from Table 2.1. As described above, the boundary sets are first 
+initialized to Go and So, the most general and most specific hypotheses in H, 
+respectively. 
+When the first training example is presented (a positive example in this 
+case), the CANDIDATE-ELIMINATION 
+algorithm checks the S boundary and finds 
+that it is overly specific-it 
+fails to cover the positive example. The boundary is 
+therefore revised by moving it to the least more general hypothesis that covers 
+this new example. This revised boundary is shown as S1 in Figure 2.4. No up- 
+date of the G boundary is needed in response to this training example because

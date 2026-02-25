@@ -1,0 +1,12 @@
+domain theory. 
+a One important class of problems for which a correct and complete domain 
+theory can be found is the class of large state-space search problems. Systems 
+such as PRODIGY 
+and SOAR have demonstrated the utility of explanation- 
+based learning methods for automatically acquiring effective search control 
+knowledge that speeds up problem solving in subsequent cases. 
+a Despite the apparent usefulness of explanation-based learning methods in 
+humans, purely deductive implementations such as PROLOG-EBG suffer the 
+disadvantage that the output hypothesis is only as correct as the domain 
+theory. In the next chapter we examine approaches that combine inductive 
+and analytical learning methods in order to learn effectively from imperfect

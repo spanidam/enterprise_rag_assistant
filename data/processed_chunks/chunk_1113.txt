@@ -1,0 +1,17 @@
+or usage.
+Table 1.6 Chapter 1 reference.
+TRY IT
+Fun facts
+Write a program that assigns a variable named number to any integer of your choice. Ex: number = 74.
+Then, use this variable to calculate and output the following results:
+74 squared is 5476
+74 cubed is 405224
+One tenth of 74 is 7.4
+1.9 • Chapter summary
+35
+74 plus 123 is 197
+74 minus 456 is -382
+Run the program multiple times, using a different integer each time. Your output should be mathematically
+correct for any integer that you choose.
+The point of this exercise is to perform basic arithmetic within a print statement. Do not use any other
+variables besides number. Your program should have only one assignment statement (at the beginning).

@@ -1,0 +1,16 @@
+lates a training value for &(st, a,) in terms of the values for &(s,+l, at+l) where 
+s,+l is the result of applying action a, to the state st. Let Q(')(s,, a,) denote the 
+training value calculated by this one-step lookahead 
+One alternative way to compute a training value for Q(s,, a,) is to base it on the 
+observed rewards for two steps 
+2 
+ st, a,) = rt + yr,+l + y max Q ( s ~ + ~ ,  
+a) 
+or, in general, for n steps 
+Q ( ~ ) ( s , , ~ , )  
+= rt + yr,+l + ,-. + y(n-l)rt+n-l + ynmax&(s,+,,a) 
+Sutton (1988) introduces a general method for blending these alternative 
+training estimates, called TD(h). The idea is to use a constant 0 5 h 5 1 to 
+combine the estimates obtained from various lookahead distances in the following 
+fashion 
+An equivalent recursive definition for Qh is

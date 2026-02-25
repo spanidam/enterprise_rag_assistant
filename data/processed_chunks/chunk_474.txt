@@ -1,0 +1,52 @@
+magnitude of the angular velocity. This quantity (I33)i is indeed what we have
+labeled as Ii above. Hence the rotational kinetic energy of the overall system is
+1
+2 ˙qT
+
+I1
+ 1
+0
+0
+0
+
++ I2
+ 1
+1
+1
+1
+
+˙q
+(6.79)
+Now we are ready to form the inertia matrix D(q). For this purpose, we
+merely have to add the two matrices in (6.77) and (6.79), respectively. Thus
+D(q)
+=
+m1JT
+vc1Jvc1 + m2JT
+vc2Jvc2 +
+ I1 + I2
+I2
+I2
+I2
+
+(6.80)
+206
+DYNAMICS
+Carrying out the above multiplications and using the standard trigonometric
+identities cos2 θ + sin2 θ = 1, cos α cos β + sin α sin β = cos(α −β) leads to
+d11
+=
+m1ℓ2
+c1 + m2(ℓ2
+1 + ℓ2
+c2 + 2ℓ1ℓ2
+c2 + 2ℓ1ℓc2 cos q2) + I1 + I2
+d12
+=
+d21 = m2(ℓ2
+c2 + ℓ1ℓc2 cos q2) + I2
+d22
+=
+m2ℓ2
+c2 + I2
+(6.81)

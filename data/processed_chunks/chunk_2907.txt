@@ -1,0 +1,21 @@
+NewRuleNeg t 
+Neg 
+while NewRuleNeg, do 
+Add a new literal to specialize New Rule 
+Candidateliterals t generate candidate new literals for NewRule, based on 
+Predicates 
+B e s t l i t e r a l t  
+argmax 
+Foil-Gain(L,NewRule) 
+LECandidateliterals 
+add Bestliteral to preconditions of NewRule 
+NewRuleNeg c subset of NewRuleNeg that satisfies NewRule preconditions 
+Learned~ul es c Learned-rules + NewRule 
+Pos t 
+Pos - {members of Pos covered by NewRule) 
+Return Learned-rules 
+TABLE 10.4 
+The basic FOIL algorithm. The specific method for generating Candidateliterals and the defini- 
+~ 
+tion of Foil-Gain are given in the text. This basic algorithm can be modified slightly to better 
+accommodate noisy data, as described in the text.

@@ -1,0 +1,29 @@
+269-270, 274 
+Rule post-pruning, in decision tree 
+learning, 7 1-72 
+Rules: 
+disjunctive sets of, learning by sequential 
+covering algorithms, 275-276 
+first-order. See First-order rules 
+propositional. See Propositional rules 
+SafeToStack, 310-312 
+Sample complexity, 202. See also Training 
+examples 
+bound for consistent learners, 207-210, 
+225 
+equation for, 209 
+for finite hypothesis spaces, 207-214 
+for infinite hypothesis spaces, 214-220 
+of k-term CNF and DNF expressions, 
+213-214 
+of unbiased concepts, 212-213 
+Sample error, 130-131, 133-134, 143 
+training error and, 205 
+Sampling theory, 132-141 
+Scheduling problems: 
+case-based reasoning in, 241 
+explanation-based learning in, 325 
+PRODIGY 
+in, 327 
+reinforcement learning in, 368 
+Schema theorem, 260-262

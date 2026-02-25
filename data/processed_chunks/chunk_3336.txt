@@ -1,0 +1,9 @@
+ical results. Machine Learning, 22(1), 159-195. 
+Mahadevan, S., & Connell, J. (1991). Automatic programming of behavior-based robots using rein- 
+forcement learning. In Proceedings of the Ninth National Conference on ArtGcial Intelligence. 
+San Francisco: Morgan Kaufmann. 
+McCallum, A. (1995). Reinforcement learning with selective perception and hidden state (Ph.D. dis- 
+sertation). Department of Computer Science, University of Rochester, Rochester, NY. 
+Mitchell, T. M., & Thrun, S. B. (1993). Explanation-based neural network learning for robot control. 
+In C. Giles, S. Hanson, & J. Cowan (Eds.), Advances in Neural Information Processing System 
+5 (pp. 287-294). San Francisco: Morgan-Kaufmann.

@@ -1,0 +1,15 @@
+pretrained models one can reduce compute costs, carbon
+footprint, and save the time and resources required to train
+a model from scratch.
+Megatron-LM [223] is a large, powerful transformer
+developed by the Applied Deep Learning Research team
+at NVIDIA. It contains efficient, model-parallel (tensor, se-
+quence, and pipeline), and multi-node pre-training of trans-
+former based models such as GPT, BERT, and T5 using mixed
+precision.
+BMTrain [224] is an efficient large model training toolkit
+that can be used to train large models with tens of billions of
+parameters. It can train models in a distributed manner while
+keeping the code as simple as stand-alone training.
+GPT-NeoX [225] leverages many of the same features and
+technologies as the popular Megatron-DeepSpeed library but

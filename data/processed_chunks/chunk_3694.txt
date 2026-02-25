@@ -1,0 +1,37 @@
+[225]
+EleutherAI.
+gpt-neox.
+[Online].
+Available:
+https://github.com/
+EleutherAI/gpt-neox
+[226]
+microsoft. Lora. [Online]. Available: https://github.com/microsoft/
+LoRA
+[227]
+ColossalAI.
+Colossalai.
+[Online].
+Available:
+https://github.com/
+hpcaitech/ColossalAI
+[228]
+FastChat. Fastchat. [Online]. Available: https://github.com/lm-sys/
+FastChat
+[229]
+skypilot. skypilot. [Online]. Available: https://github.com/skypilot-org/
+skypilot
+[230]
+vllm. vllm. [Online]. Available: https://github.com/vllm-project/vllm
+[231]
+huggingface. text-generation-inference. [Online]. Available: https:
+//github.com/huggingface/text-generation-inference
+[232]
+langchain.
+langchain.
+[Online].
+Available:
+https://github.com/
+langchain-ai/langchain
+[233]
+bentoml. Openllm. [Online]. Available: https://github.com/bentoml/

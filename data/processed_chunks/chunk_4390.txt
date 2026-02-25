@@ -1,0 +1,12 @@
+value, and then on their predecessors, seems intuitively to be valid in general.
+Additional research may produce more general versions of prioritized sweeping.
+Extensions of prioritized sweeping to stochastic environments are relatively
+straightforward. The model is maintained by keeping counts of the number of
+times each state–action pair has been experienced and of what the next states
+were. It is natural then to backup each pair not with a sample backup, as we
+have been using so far, but with a full backup, taking into account all possible
+next states and their probabilities of occurring.
+210CHAPTER 8. PLANNING AND LEARNING WITH TABULAR METHODS
+8.5
+Full vs. Sample Backups
+The examples in the previous sections give some idea of the range of possi-

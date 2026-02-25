@@ -1,0 +1,8 @@
+consist of one or more expressions. An expression represents a single value to be computed. Ex: The
+expression 3*x - 5 evaluates to 7 when x is 4. Learning to recognize expressions opens the door for
+programming all kinds of interesting calculations.
+Expressions are often a combination of literals, variables, and operators. In the previous example, 3 and 5 are
+literals, x is a variable, and * and - are operators. Expressions can be arbitrarily long, consisting of many
+calculations. Expressions can also be as short as one value. Ex: In the assignment statement x = 5, the literal
+5 is an expression.
+The Statements chapter introduced simple expressions like 1 * 2 and "Hi " + "there". This chapter

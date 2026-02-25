@@ -1,0 +1,9 @@
+One optimization method, known as line search, involves a different ap- 
+proach to choosing the distance for the weight update. In particular, once a line is 
+chosen that specifies the direction of the update, the update distance is chosen by 
+finding the minimum of the error function along this line. Notice this can result 
+in a very large or very small weight update, depending on the position of the 
+point along the line that minimizes error. A second method, that builds on the 
+idea of line search, is called the conjugate gradient method. Here, a sequence of 
+line searshes is performed to search for a minimum in the error surface. On the 
+first step in this sequence, the direction chosen is the negative of the gradient.

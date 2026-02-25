@@ -1,0 +1,31 @@
+"""Gets the area of an ellipse."""
+return math.pi * major * minor
+# 3D shapes
+def cube(side):
+"""Gets the surface area of a cube."""
+return 6 * side**2
+def cylinder(radius, height):
+"""Gets the surface area of a cylinder."""
+return 2 * math.pi * radius * (radius + height)
+def cone(radius, height):
+"""Gets the surface area of a cone."""
+return math.pi * radius * (radius + math.hypot(height, radius))
+def sphere(radius):
+"""Gets the surface area of a sphere."""
+return 4 * math.pi * radius**2
+CONCEPTS IN PRACTICE
+Defining a module
+1. How many functions are defined in the area module?
+a.
+6
+b.
+10
+c.
+49
+2. What would be the result of running area.py as a program?
+a.
+Functions would be defined and ready to be called.
+b.
+Nothing; the module has no statements to be run.
+c.
+SyntaxError

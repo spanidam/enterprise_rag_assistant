@@ -1,0 +1,12 @@
+12
+Chapter 2. Multi Layer Perceptrons
+Deep Learning Basics (lecture notes)
+As stated earlier, in the case of binary classification, the model will have a single output neuron and this neuron will
+output the probability associated to the positive class. This quantity is expected to lie in the [0, 1] interval, and the
+sigmoid activation function is then the default choice in this setting.
+Finally, when multi-class classification is at stake, we have one neuron per output class and each neuron is expected to
+output the probability for a given class. In this context, the output values should be between 0 and 1, and they should sum
+to 1. For this purpose, we use the softmax activation function defined as:
+∀𝑖, softmax(𝑜𝑖) =
+𝑒𝑜𝑖
+∑𝑗𝑒𝑜𝑗

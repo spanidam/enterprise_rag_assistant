@@ -1,0 +1,12 @@
+two rewards and the estimated value of the state two steps later. Similarly,
+we could have three-step backups, four-step backups, and so on. Figure 7.1
+diagrams the spectrum of n-step backups for vπ, with the one-step, simple TD
+backup on the left and the up-until-termination Monte Carlo backup on the
+right.
+The methods that use n-step backups are still TD methods because they
+still change an earlier estimate based on how it diﬀers from a later estimate.
+Now the later estimate is not one step later, but n steps later.
+Methods
+in which the temporal diﬀerence extends over n steps are called n-step TD
+methods. The TD methods introduced in the previous chapter all use one-step
+backups, and henceforth we call them one-step TD methods.

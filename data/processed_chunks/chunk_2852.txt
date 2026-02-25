@@ -1,0 +1,11 @@
+(Eds.), Parallel problem solving from nature-PPSN I11 (Vol. 866) (Lecture notes in computer 
+science). Springer-Verlag. 
+Rechenberg, I. (1965). Cybernetic solution path of an experimental problem. Ministry of aviation, 
+Royal Aircraft Establishment, U.K. 
+Rechenberg, I. (1973). Evolutionsstrategie: Optimierung technischer systeme nach prinzipien der 
+biolgischen evolution. Stuttgart: Frommann-Holzboog. 
+Schwefel, H. P. (1975). Evolutionsstrategie und numerische optimiemng (Ph.D. thesis). Technical 
+University of Berlin. 
+Schwefel, H. P. (1977). Numerische optimierung von computer-modellen mittels der evolutionsstrate- 
+gie. Basel: Birkhauser. 
+Schwefel, H. P. (1995). Evolution and optimum seeking. New York: John Wiley & Sons.

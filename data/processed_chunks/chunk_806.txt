@@ -1,0 +1,21 @@
+Ii(r, c) =
+ 1
+:
+pixel r, c is contained in component i
+0
+:
+otherwise
+.
+(11.51)
+We will make use of the indicator function below, when we discuss computing
+statistics associated with the various objects in the image.
+11.5
+POSITION AND ORIENTATION
+The ultimate goal of a robotic system is to manipulate objects in the world.
+In order to achieve this, it is necessary to know the positions and orientations
+of the objects that are to be manipulated.
+In this section, we address the
+problem of determining the position and orientation of objects in the image. If
+the camera has been calibrated, it is then possible to use these image position
+and orientations to infer the 3D positions and orientations of the objects. In
+general, this problem of inferring the 3D position and orientation from image

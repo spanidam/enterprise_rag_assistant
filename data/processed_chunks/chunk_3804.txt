@@ -1,0 +1,11 @@
+ing method as any eﬀective way of solving reinforcement learning problems,
+and it is now clear that these problems are closely related to optimal con-
+trol problems, particularly stochastic optimal control problems such as those
+formulated as MDPs. Accordingly, we must consider the solution methods
+of optimal control, such as dynamic programming, also to be reinforcement
+learning methods.
+Because almost all of the conventional methods require
+complete knowledge of the system to be controlled, it feels a little unnatural
+to say that they are part of reinforcement learning. On the other hand, many
+dynamic programming algorithms are incremental and iterative. Like learning
+methods, they gradually reach the correct answer through successive approx-

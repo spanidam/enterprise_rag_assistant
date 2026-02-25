@@ -1,0 +1,13 @@
+Dense(units=3, activation="softmax")
+])
+n_epochs = 100
+model.compile(loss="categorical_crossentropy", optimizer="adam", metrics=["accuracy"])
+h = model.fit(X, y, validation_split=0.3, epochs=n_epochs, batch_size=30, verbose=0)
+5.3 DropOut
+Fig. 5.1: Illustration of the DropOut mechanism. In order to train a given model (left), at each mini-batch, a given
+proportion of neurons is picked at random to be “switched off” and the subsequent sub-network is used for the current
+optimization step (cf. right-hand side figure, in which 40% of the neurons – coloured in gray – are switched off).
+In this section, we present the DropOut strategy, which was introduced in [Srivastava et al., 2014]. The idea behind
+30
+Chapter 5. Regularization
+Deep Learning Basics (lecture notes)

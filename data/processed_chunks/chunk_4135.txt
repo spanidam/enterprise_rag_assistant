@@ -1,0 +1,10 @@
+inﬁnite number of episodes. This assumption is relatively easy to remove. In
+fact, the same issue arises even in classical DP methods such as iterative policy
+evaluation, which also converge only asymptotically to the true value function.
+In both DP and Monte Carlo cases there are two ways to solve the problem.
+One is to hold ﬁrm to the idea of approximating qπk in each policy evaluation.
+Measurements and assumptions are made to obtain bounds on the magnitude
+and probability of error in the estimates, and then suﬃcient steps are taken
+during each policy evaluation to assure that these bounds are suﬃciently small.
+This approach can probably be made completely satisfactory in the sense of
+guaranteeing correct convergence up to some level of approximation. However,

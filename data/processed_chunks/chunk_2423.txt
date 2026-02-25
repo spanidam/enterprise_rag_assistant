@@ -1,0 +1,11 @@
+( 
+Using the Bayesian perspective to characterize learning algorithms in this 
+way is similar in spirit to characterizing the inductive bias of the learner. Recall 
+that in Chapter 2 we defined the inductive bias of a learning algorithm to be 
+the set of assumptions B sufficient to deductively justify the inductive inference 
+performed by the learner. For example, we described the inductive bias of the 
+CANDIDATE-ELIMINATION 
+algorithm as the assumption that the target concept c is 
+included in the hypothesis space H. Furthermore, we showed there that the output 
+of this learning algorithm follows deductively from its inputs plus this implicit 
+inductive bias assumption. The above Bayesian interpretation provides an alter-

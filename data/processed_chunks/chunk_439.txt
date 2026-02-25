@@ -1,0 +1,19 @@
+contents of this section are aimed at achieving this latter objective.
+First it is necessary to introduce some terminology. A constraint on the k
+coordinates r1, . . . , rk is called holonomic if it is an equality constraint of the
+form
+gi(r1, . . . , rk) = 0,
+i = 1, . . . , ℓ
+(6.13)
+and nonholonomic otherwise. The constraint (6.12) imposed by connecting
+two particles by a massless rigid wire is a holonomic constraint. As as example of
+a nonholonomic constraint, consider a particle moving inside a sphere of radius
+p centered at the origin of the coordinate system. In this case the coordinate
+vector r of the particle must satisfy the constraint
+∥r∥
+≤
+ρ
+(6.14)
+192
+DYNAMICS
+Note that the motion of the particle is unconstrained so long as the particle

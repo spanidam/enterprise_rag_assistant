@@ -1,0 +1,34 @@
+comes before "cat" because "b" comes before "c".
+CHECKPOINT
+Sorting
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+226
+9 • Lists
+Access for free at openstax.org
+9-2-sorting-and-reversing-lists)
+CONCEPTS IN PRACTICE
+Sorting
+1. What would be the last element of the following list if it is sorted in descending order?
+[12, 3, 19, 25, 16, -3, 5]
+a.
+25
+b.
+-3
+c.
+5
+2. Arrange the following list in ascending order.
+["cat", "bat", "dog", "coyote", "wolf"]
+a.
+["bat", "cat", "coyote", "dog", "wolf"]
+b.
+["wolf", "coyote", "dog", "cat", "bat"]
+3. How are the words "flask" and "flash" related in Python?
+a.
+"flask" < "flash"
+b.
+"flask" == "flash"
+c.
+"flask" > "flash"
+Using sort() and reverse()
+Python provides methods for arranging elements in a list.
+•

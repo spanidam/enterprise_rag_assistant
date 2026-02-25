@@ -1,0 +1,13 @@
+we assume experience is divided into episodes, and that all episodes eventually
+terminate no matter what actions are selected. Only on the completion of an
+episode are value estimates and policies changed. Monte Carlo methods can
+thus be incremental in an episode-by-episode sense, but not in a step-by-step
+(online) sense. The term “Monte Carlo” is often used more broadly for any
+estimation method whose operation involves a signiﬁcant random component.
+Here we use it speciﬁcally for methods based on averaging complete returns
+(as opposed to methods that learn from partial returns, considered in the next
+chapter).
+Monte Carlo methods sample and average returns for each state–action pair
+much like the bandit methods we explored in Chapter 2 sample and average
+113
+114

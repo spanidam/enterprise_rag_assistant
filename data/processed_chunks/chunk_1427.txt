@@ -1,0 +1,32 @@
+The code below demonstrates simple operations for modifying a list.
+Line 8 shows the append() operation, line 12 shows the remove() operation, and line 17 shows the pop()
+operation. Since the pop() operation removes the last element, no parameter is needed.
+1
+"""Operations for adding and removing elements from a list."""
+2
+3
+# Create a list of students working on a project
+4
+student_list = ["Jamie", "Vicky", "DeShawn", "Tae"]
+5
+print(student_list)
+6
+7
+# Another student joins the project. The student must be added
+to the list.
+8
+student_list.append("Ming")
+9
+print(student_list)
+10
+11
+# "Jamie" withdraws from the project. Jamie must be removed
+from the list.
+12
+student_list.remove("Jamie")
+13
+print(student_list)
+14
+15
+# Suppose "Ming" had to be removed from the list.
+16

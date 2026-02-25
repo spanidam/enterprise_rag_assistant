@@ -1,0 +1,12 @@
+observed episodes following policy µ to estimate vπ(s). It is convenient here to
+number time steps in a way that increases across episode boundaries. That is,
+if the ﬁrst episode of the batch ends in a terminal state at time 100, then the
+next episode begins at time t = 101. This enables us to use time-step numbers
+to refer to particular steps in particular episodes. In particular, we can deﬁne
+the set of all time steps in which state s is visited, denoted T(s). This is for
+an every-visit method; for a ﬁrst-visit method, T(s) would only include time
+steps that were ﬁrst visits to s within their episode. Also, let T(t) denote the
+ﬁrst time of termination following time t, and Gt denote the return after t
+up through T(t). Then {Gt}t∈T(s) are the returns that pertain to state s, and
+{ρT(t)
+t

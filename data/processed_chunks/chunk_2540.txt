@@ -1,0 +1,9 @@
+The EM algorithm searches for the maximum likelihood hypothesis h' by 
+seeking the h' that maximizes E[ln P(Y (h')]. This expected value is taken over 
+the probability distribution governing Y ,  which is determined by the unknown 
+parameters 8. Let us consider exactly what this expression signifies. First, P(Ylhl) 
+is the likelihood of the full data Y given hypothesis h'. It is reasonable that we wish 
+to find a h' that maximizes some function of this quantity. Second, maximizing 
+the logarithm of this quantity In P(Ylhl) also maximizes P(Ylhl), as we have 
+discussed on several occasions already. Third, we introduce the expected value 
+E[ln P(Ylhl)] because the full data Y is itself a random variable. Given that

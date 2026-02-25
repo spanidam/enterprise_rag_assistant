@@ -1,0 +1,11 @@
+to zero) the traces of all nonselected actions in the states encountered (see
+Section 7.8). This idea can also be extended to the case of linear function
+approximation with binary features. For each state encountered, we ﬁrst clear
+the traces of all features for the state and the actions not selected, then we set
+to 1 the traces of the features for the state and the action that was selected.
+As we noted for the tabular case, this may or may not be the best way to
+proceed when using replacing traces. A procedural speciﬁcation of both kinds
+of traces, including the optional clearing for nonselected actions, is given for
+the Sarsa algorithm in Figure 9.8.
+Example 9.2: Mountain–Car Task
+Consider the task of driving an un-

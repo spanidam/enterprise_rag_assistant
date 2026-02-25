@@ -1,0 +1,14 @@
+solving MDPs.
+3.10
+Summary
+Let us summarize the elements of the reinforcement learning problem that
+we have presented in this chapter. Reinforcement learning is about learning
+from interaction how to behave in order to achieve a goal. The reinforcement
+learning agent and its environment interact over a sequence of discrete time
+steps. The speciﬁcation of their interface deﬁnes a particular task: the actions
+are the choices made by the agent; the states are the basis for making the
+choices; and the rewards are the basis for evaluating the choices. Everything
+3.10. SUMMARY
+81
+inside the agent is completely known and controllable by the agent; everything
+outside is incompletely controllable but may or may not be completely known.

@@ -1,0 +1,18 @@
+a, and thereafter following policy π:
+qπ(s, a) = Eπ[Gt | St =s, At = a] = Eπ
+" ∞
+X
+k=0
+γkRt+k+1
+ St =s, At =a
+#
+. (3.11)
+We call qπ the action-value function for policy π.
+The value functions vπ and qπ can be estimated from experience. For ex-
+ample, if an agent follows policy π and maintains an average, for each state
+encountered, of the actual returns that have followed that state, then the aver-
+age will converge to the state’s value, vπ(s), as the number of times that state
+is encountered approaches inﬁnity. If separate averages are kept for each ac-
+tion taken in a state, then these averages will similarly converge to the action
+values, qπ(s, a). We call estimation methods of this kind Monte Carlo methods
+because they involve averaging over many random samples of actual returns.

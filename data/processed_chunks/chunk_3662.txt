@@ -1,0 +1,24 @@
+[117]
+mixtral.
+mixtral.
+[Online].
+Available:
+https://mistral.ai/news/
+mixtral-of-experts/
+[118]
+D. Wang, N. Raman, M. Sibue, Z. Ma, P. Babkin, S. Kaur, Y. Pei,
+A. Nourbakhsh, and X. Liu, “Docllm: A layout-aware generative
+language model for multimodal document understanding,” 2023.
+[119]
+D. Guo, Q. Zhu, D. Yang, Z. Xie, K. Dong, W. Zhang, G. Chen, X. Bi,
+Y. Wu, Y. K. Li, F. Luo, Y. Xiong, and W. Liang, “Deepseek-coder:
+When the large language model meets programming – the rise of code
+intelligence,” 2024.
+[120]
+F. Wan, X. Huang, D. Cai, X. Quan, W. Bi, and S. Shi, “Knowledge
+fusion of large language models,” 2024.
+[121]
+P. Zhang, G. Zeng, T. Wang, and W. Lu, “Tinyllama: An open-source
+small language model,” 2024.
+[122]
+C. Wu, Y. Gan, Y. Ge, Z. Lu, J. Wang, Y. Feng, P. Luo, and Y. Shan,

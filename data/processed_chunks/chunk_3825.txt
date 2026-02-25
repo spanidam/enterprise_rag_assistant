@@ -1,0 +1,11 @@
+1.7. HISTORY OF REINFORCEMENT LEARNING
+23
+aspects of behavior, the drive to achieve some result from the environment, to
+control the environment toward desired ends and away from undesired ends.
+This is the essential idea of trial-and-error learning. Klopf’s ideas were espe-
+cially inﬂuential on the authors because our assessment of them (Barto and
+Sutton, 1981a) led to our appreciation of the distinction between supervised
+and reinforcement learning, and to our eventual focus on reinforcement learn-
+ing. Much of the early work that we and colleagues accomplished was directed
+toward showing that reinforcement learning and supervised learning were in-
+deed diﬀerent (Barto, Sutton, and Brouwer, 1981; Barto and Sutton, 1981b;

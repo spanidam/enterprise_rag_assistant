@@ -1,0 +1,13 @@
+tinuous
+Here QO contains two rectangular obstacles. For all conﬁgurations to the left of
+the dashed line, the force vector points to the right, while for all conﬁgurations
+to the right of the dashed line the force vector points to the left. Thus, when
+the conﬁguration of the robot crosses the dashed line, a discontinuity in force
+occurs. There are various ways to deal with this problem. The simplest of
+these is merely to ensure that the regions of inﬂuence of distinct obstacles do
+not overlap.
+5.2.3
+Gradient Descent Planning
+Gradient descent is a well known approach for solving optimization problems.
+The idea is simple. Starting at the initial conﬁguration, take a small step in
+the direction of the negative gradient (i.e., in the direction that decreases the

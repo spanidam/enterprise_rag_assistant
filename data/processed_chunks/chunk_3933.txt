@@ -1,0 +1,10 @@
+recycling, one might give it a reward of zero most of the time, and then a
+reward of +1 for each can collected. One might also want to give the robot
+negative rewards when it bumps into things or when somebody yells at it. For
+an agent to learn to play checkers or chess, the natural rewards are +1 for
+winning, −1 for losing, and 0 for drawing and for all nonterminal positions.
+You can see what is happening in all of these examples. The agent always
+learns to maximize its reward. If we want it to do something for us, we must
+provide rewards to it in such a way that in maximizing them the agent will
+also achieve our goals. It is thus critical that the rewards we set up truly
+indicate what we want accomplished. In particular, the reward signal is not

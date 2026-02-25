@@ -1,0 +1,10 @@
+URL http://www.cs.cmu.edu/-tomlbook.html for details, including face-image data, 
+BACKPROPAGATION 
+code, and specific tasks. 
+4.12. Consider deriving a gradient descent algorithm to learn target concepts corresponding 
+to rectangles in the x, y plane. Describe each hypothesis by the x and y coordinates 
+of the lower-left and upper-right comers of the rectangle - Ilx, Ily, urn, and ury 
+respectively. An instance (x, y) is labeled positive by hypothesis (llx, lly, urx, ury) 
+if and only if the point (x, y) lies inside the corresponding rectangle. Define error 
+E as in the chapter. Can you devise a gradient descent algorithm to learn such 
+rectangle hypotheses? Notice that E is not a continuous function of llx, Ily, urx,

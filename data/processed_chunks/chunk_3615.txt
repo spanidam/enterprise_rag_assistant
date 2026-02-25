@@ -1,0 +1,14 @@
+more trustworthy. HaluEval is one of the datasets that aims to
+measure hallucination in this field [205]. Evaluation can also be
+performed by another model judging the response with regard
+to the actual answer [206]. Table X shows the evaluation of
+different models based on these datasets.
+VII.
+CHALLENGES AND FUTURE DIRECTIONS
+As we have seen in the previous sections, large language
+models have achieved impressive results in the past 1-2 years.
+At the same time this is still a new and extremely active
+research area where the pace of innovation is increasing rather
+than slowing down. As in any other evolving area though, there
+are still numerous challenges ahead. Here we briefly mention
+some of the challenges and main active areas which are known

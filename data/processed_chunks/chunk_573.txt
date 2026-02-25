@@ -1,0 +1,29 @@
+Fig. 7.23
+Block diagram for the system (7.57)-(7.58).
+The output to be controlled is, of course, the load angle θℓ. The open loop
+transfer function between U and Θℓis given by
+Θℓ(s)
+U(s)
+=
+k
+pℓ(s)pm(s) −k2
+(7.61)
+The open loop characteristic polynomial is
+JℓJms4 + (JℓBm + JmBℓ)s3 + (k(Jℓ+ Jm) + BℓBm)s2 + k(Bℓ+ Bm)s (7.62)
+If the damping constants Bℓand Bm are neglected, the open loop characteristic
+polynomial is
+JℓJms4 + k(Jℓ+ Jm)s2
+(7.63)
+which has a double pole at the origin and a pair of complex conjugate poles
+at s = ±jω where ω2 = k
+
+1
+Jℓ+
+1
+Jm
+
+. Assuming that the open loop damping
+250
+INDEPENDENT JOINT CONTROL
+constants Bℓand Bm are small, then the open loop poles of the system (7.57)-
+(7.58) will be in the left half plane near the poles of the undamped system.

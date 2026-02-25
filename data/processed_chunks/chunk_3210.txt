@@ -1,0 +1,10 @@
+now replaced, again using the domain theory and substituting clause precondi- 
+tions for clause postconditions. For example, the domain theory clause Stable t 
+BottomIsFlat is used to substitute the operational BottomIsFlat for the unopera- 
+tional Stable. This process of "unfolding" the domain theory continues until the 
+sufficient conditions have been restated in terms of operational literals. If there 
+are several alternative domain theory clauses that produce different results, then 
+the one with the greatest information gain is greedily selected at each step of 
+the unfolding process. The reader can verify that the final operational sufficient 
+condition given the data and domain theory in the current example is 
+BottomIsFlat , HasHandle, Light, HasConcavity , ConcavityPointsUp

@@ -1,0 +1,13 @@
+CONTROL
+7.1
+INTRODUCTION
+The control problem for robot manipulators is the problem of determining
+the time history of joint inputs required to cause the end-eﬀector to execute
+a commanded motion. The joint inputs may be joint forces and torques, or
+they may be inputs to the actuators, for example, voltage inputs to the motors,
+depending on the model used for controller design. The commanded motion is
+typically speciﬁed either as a sequence of end-eﬀector positions and orientations,
+or as a continuous path.
+There are many control techniques and methodologies that can be applied
+to the control of manipulators. The particular control method chosen as well
+as the manner in which it is implemented can have a signiﬁcant impact on the

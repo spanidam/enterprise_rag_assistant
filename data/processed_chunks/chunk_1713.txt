@@ -1,0 +1,11 @@
+!= will produce a Boolean.
+19. b. Strings are compared by comparing each character's Unicode values. Letters have ascending Unicode
+values in alphabetical order (and are case sensitive). "c" and "c" are equal, so "i" is compared to "o"
+. "i" is not equal to "o" so False is produced, though cilantro and coriander come from the same
+plant.
+20. b. Letters have ascending Unicode values in alphabetical order (and are case sensitive). "d" is greater
+than, not less than, "c" , so False is produced.
+4.2 If-else statements
+1. b. age < 12 is between "if" and ":" and is an expression that evaluates to True or False .
+2. c. The program executes the body when the condition is true.
+3. b. The body, line 3, isn't executed because the condition is false.

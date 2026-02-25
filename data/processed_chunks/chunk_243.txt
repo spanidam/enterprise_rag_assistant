@@ -1,0 +1,29 @@
+Fig. 3.36
+Three-link planar robot with prismatic joint
+c) Compute the rotation matrix R0
+3. Solve the inverse orientation prob-
+lem for this manipulator by ﬁnding a set of Euler angles correspond-
+ing to R3
+6 given by (3.63).
+22. Repeat Problem 3-21 for the PUMA 260 manipulator of Problem 3-9,
+which also has a spherical wrist. How many total solutions did you ﬁnd?
+23. Solve the inverse position kinematics for the Rhino robot.
+24. ). Find all other solutions to the inverse kinematics of the elbow manip-
+ulator of Example 3.9.
+25. . Modify the solutions θ1 and θ2 for the spherical manipulator given by
+Equations (3.58) and (3.60) in the case of a shoulder oﬀset.
+112
+FORWARD AND INVERSE KINEMATICS
+θ1
+1m
+d2
+d3
+1m
+Fig. 3.37
+Cylindrical conﬁguration
+d1
+d3
+d2
+Fig. 3.38
+Cartesian conﬁguration
+4

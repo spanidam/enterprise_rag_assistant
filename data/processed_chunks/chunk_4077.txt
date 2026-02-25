@@ -1,0 +1,11 @@
+a wide variety of sweepless DP algorithms.
+Of course, avoiding sweeps does not necessarily mean that we can get away
+with less computation. It just means that an algorithm does not need to get
+locked into any hopelessly long sweep before it can make progress improving a
+policy. We can try to take advantage of this ﬂexibility by selecting the states
+to which we apply backups so as to improve the algorithm’s rate of progress.
+We can try to order the backups to let value information propagate from state
+to state in an eﬃcient way. Some states may not need their values backed up
+as often as others. We might even try to skip backing up some states entirely
+if they are not relevant to optimal behavior. Some ideas for doing this are
+discussed in Chapter 8.

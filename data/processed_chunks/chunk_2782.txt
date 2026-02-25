@@ -1,0 +1,10 @@
+mask to determine which parent contributes which bits. Mutation creates a single descendant from a 
+single parent by changing the value of a randomly chosen bit. 
+the crossover point n is chosen at random, and the crossover mask is then created 
+and applied. 
+In two-point crossover, offspring are created by substituting intermediate 
+segments of one parent into the middle of the second parent string. Put another 
+way, the crossover mask is a string beginning with no zeros, followed by a con- 
+tiguous string of nl ones, followed by the necessary number of zeros to complete 
+the string. Each time the two-point crossover operator is applied, a mask is gen- 
+erated by randomly choosing the integers no and nl. For instance, in the example

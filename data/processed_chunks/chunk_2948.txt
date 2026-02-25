@@ -1,0 +1,11 @@
+by identifying a literal L that appears in C1 such that -L appears in C2. In first- 
+order resolution, this generalizes to finding one literal L1 from clause C1 and one 
+literal L2 from C2, such that some unifying substitution 6 can be found for L1 
+and -L2 (i.e., such that LIO = -L20). The resolution rule then constructs the 
+resolvent C according to the equation 
+The general statement of the resolution rule is shown in Table 10.7. To 
+illustrate, suppose C1 = White(x) t 
+Swan(x) and suppose C2 = Swan(Fred). 
+To apply the resolution rule, we first re-express C1 in clause form as the equivalent 
+expression C1 = White(x) v -Swan(x). The resolution rule can now be applied. 
+In the first step, it finds the literal L1 = -Swan(x) from C1 and the literal L2 =

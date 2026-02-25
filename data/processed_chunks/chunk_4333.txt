@@ -1,0 +1,13 @@
+As we mentioned in Chapter 5, Monte Carlo methods may have advan-
+tages in non-Markov tasks because they do not bootstrap. Because eligibility
+7.10. CONCLUSIONS
+191
+traces make TD methods more like Monte Carlo methods, they also can have
+advantages in these cases. If one wants to use TD methods because of their
+other advantages, but the task is at least partially non-Markov, then the use
+of an eligibility trace method is indicated. Eligibility traces are the ﬁrst line
+of defense against both long-delayed rewards and non-Markov tasks.
+By adjusting λ, we can place eligibility trace methods anywhere along
+a continuum from Monte Carlo to one-step TD methods.
+Where shall we
+place them? We do not yet have a good theoretical answer to this question,

@@ -1,0 +1,31 @@
+Table 3.5 Chapter 3 reference.
+88
+3 • Objects
+Access for free at openstax.org
+Code
+Description
+f"{number:.2f}"
+Creates a string by formatting a float to have two decimal places.
+id(object)
+Gets the identity (memory location) of an object.
+type(object)
+Gets the type (class name) of an object.
+my_list = ["a", "b", "c"]
+Creates a list of three strings.
+my_tuple = ("a", "b", "c")
+Creates a tuple of three strings.
+my_list[0]
+Gets the first element ("a") of my_tuple.
+my_tuple[-1]
+Gets the last element ("c") of my_tuple.
+Table 3.5 Chapter 3 reference.
+3.6 • Chapter summary
+89
+90
+3 • Objects
+Access for free at openstax.org
+Figure 4.1 credit: modification of work "Fork In The Road", by Ian Sane/Flickr, CC BY 2.0
+Chapter Outline
+4.1 Boolean values
+4.2 If-else statements
+4.3 Boolean operations

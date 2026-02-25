@@ -1,0 +1,15 @@
+choice of diverse examples, and constructing prompts with
+such examples of step by step reasoning by hand is hard and
+error prone. That is where automatic CoT [157] comes into
+play.
+2) Tree of Thought (ToT): The Tree of Thought (ToT)
+[158] prompting technique is inspired by the concept of
+considering various alternative solutions or thought processes
+before converging on the most plausible one. ToT is based
+on the idea of branching out into multiple ”thought trees”
+where each branch represents a different line of reasoning.
+This method allows the LLM to explore various possibilities
+and hypotheses, much like human cognitive processes where
+multiple scenarios are considered before determining the most
+likely one.
+A critical aspect of ToT is the evaluation of these reasoning

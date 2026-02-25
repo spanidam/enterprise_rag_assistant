@@ -1,0 +1,12 @@
+in a large network by a factor of 4, with a slight improvement in generalization 
+accuracy and a significant improvement in subsequent training efficiency. 
+In general, techniques for dynamically modifying network structure have 
+met with mixed success. It remains to be seen whether they can reliably improve 
+on the generalization accuracy of BACKPROPAGATION. 
+However, they have been 
+shown in some cases to provide significant improvements in training times. 
+4.9 SUMMARY AND FURTHER READING 
+Main points of this chapter include: 
+0 Artificial neural network learning provides a practical method for learning 
+real-valued and vector-valued functions over continuous and discrete-valued 
+attributes, in a way that is robust to noise in the training data. The BACKPROP-

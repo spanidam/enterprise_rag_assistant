@@ -1,0 +1,10 @@
+no universally effective inductive bias and because bias-free learning is futile. 
+Therefore, any attempt to develop a general-purpose learning method must at 
+minimum allow the inductive bias to vary with the learning problem at hand. 
+On a more practical level, in many tasks it is quite natural to input domain- 
+specific knowledge (e.g., the knowledge about Weight in the SafeToStack ex- 
+ample) to influence how the learner will generalize beyond the training data. 
+In contrast, it is less natural to "implement" an appropriate bias by restricting 
+the syntactic form of the hypotheses (e.g., prefer short decision trees). Finally, 
+if we consider the larger issue of how an autonomous agent may improve its 
+learning capabilities over time, then it is attractive to have a learning algorithm

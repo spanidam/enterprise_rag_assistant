@@ -1,0 +1,10 @@
+large, nonmodiﬁable weight. But although this may decrease the likelihood of
+ﬁnding useless evaluation functions, it does not prohibit them. For example,
+a constant function could still be attained by setting the modiﬁable weights
+so as to cancel the eﬀect of the nonmodiﬁable one.
+Since Samuel’s learning procedure was not constrained to ﬁnd useful eval-
+uation functions, it should have been possible for it to become worse with
+experience. In fact, Samuel reported observing this during extensive self-play
+training sessions. To get the program improving again, Samuel had to in-
+tervene and set the weight with the largest absolute value back to zero. His
+interpretation was that this drastic intervention jarred the program out of local

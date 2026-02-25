@@ -1,0 +1,15 @@
+ApplePie inherits is ambiguous. Thus, diamond shaped inheritance should be avoided.
+Mixin classes promote modularity and can remove the diamond problem. A mixin class:
+•
+Has no superclass
+•
+Has attributes and methods to be added to a subclass
+•
+Isn't instantiated (Ex: Given MyMixin class, my_inst = MyMixin() should never be used.)
+Mixin classes are used in multiple inheritance to add functionality to a subclass without adding inheritance
+concerns.
+CONCEPTS IN PRACTICE
+Creating a mixin class
+The following code isn't correct, as not all plants are carnivorous. Follow the programmer through the
+programmer's edits to improve the program. Note: Rose, Pitcher, and VenusFlyTrap represent plants
+that all photosynthesize. Pitcher and VenusFlyTrap represent plants that are also carnivorous and can

@@ -1,0 +1,9 @@
+that only a single layer of units is trained at each step. One practical difficulty 
+is that because the algorithm can add units indefinitely, it is quite easy for it to 
+overfit the training data, and precautions to avoid overfitting must be taken. 
+A second idea for dynamically altering network structure is to take the 
+opposite approach. Instead of beginning with the simplest possible network and 
+adding complexity, we begin with a complex network and prune it as we find that 
+certain connections are inessential. One way to decide whether a particular weight 
+is inessential is to see whether its value is close to zero. A second way, which 
+appears to be more successful in practice, is to consider the effect that a small

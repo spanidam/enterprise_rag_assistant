@@ -1,0 +1,15 @@
+values of actions and for using the estimates to make action selection decisions.
+In this chapter, we denote the true (actual) value of action a as q(a), and the
+estimated value on the tth time step as Qt(a). Recall that the true value of an
+action is the mean reward received when that action is selected. One natural
+way to estimate this is by averaging the rewards actually received when the
+action was selected. In other words, if by the tth time step action a has been
+chosen Nt(a) times prior to t, yielding rewards R1, R2, . . . , RNt(a), then its value
+is estimated to be
+Qt(a) = R1 + R2 + · · · + RNt(a)
+Nt(a)
+.
+(2.1)
+34
+CHAPTER 2. MULTI-ARM BANDITS
+If Nt(a) = 0, then we deﬁne Qt(a) instead as some default value, such as

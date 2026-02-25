@@ -1,0 +1,42 @@
+into 7 one time, remainder 3. The modulo operator (%) computes the remainder. Ex: 7 % 4 is 3.
+Note: The % operator is traditionally pronounced "mod" (short for "modulo"). Ex: When reading 7 % 4 out loud,
+a programmer would say "seven mod four."
+CHECKPOINT
+Quotient and remainder
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+2-5-dividing-integers)
+2.5 • Dividing integers
+51
+CONCEPTS IN PRACTICE
+Division and modulo
+What is the value of each expression?
+1. 13 / 5
+a.
+2
+b.
+2.6
+c.
+3
+2. 13 % 5
+a.
+2
+b.
+2.6
+c.
+3
+3. 1 // 4
+a.
+0
+b.
+0.25
+c.
+1
+4. 2 % 0
+a.
+0
+b.
+2
+c.
+Error
+Unit conversions
+Division is useful for converting one unit of measure to another. To convert centimeters to meters, a variable is

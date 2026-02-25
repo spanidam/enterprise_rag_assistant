@@ -1,0 +1,46 @@
+which ri, ci are the image pixel coordinates of the projection of a point in the
+world with coordinates xi, yi, zi relative to the world coordinate frame. This
+acquisition is often done manually, e.g., by having a robot move a small bright
+light to known x, y, z coordinates in the world, and then hand selecting the
+corresponding image point.
+CAMERA CALIBRATION
+337
+Once we have acquired the data set, we proceed to set up the linear system
+of equations. The extrinsic parameters of the camera are given by
+R =
+
+
+r11
+r12
+r13
+r21
+r22
+r23
+r31
+r32
+r33
+
+,
+T =
+
+
+Tx
+Ty
+Tz
+
+.
+(11.16)
+With respect to the camera frame, the coordinates of a point in the world are
+thus given by
+xc
+=
+r11x + r12y + r13z + Tx
+(11.17)
+yc
+=
+r21x + r22y + r23z + Ty
+(11.18)
+zc
+=
+r31x + r32y + r33z + Tz.
+(11.19)

@@ -1,0 +1,11 @@
+rithms. PROLOG-EBG 
+is a sequential covering algorithm (see Chapter 10). In other 
+words, it operates by learning a single Horn clause rule, removing the positive 
+training examples covered by this rule, then iterating this process on the remain- 
+ing positive examples until no further positive examples remain uncovered. When 
+given a complete and correct domain theory, PROLOG-EBG is guaranteed to output 
+a hypothesis (set of rules) that is itself correct and that covers the observed pos- 
+itive training examples. For any set of training examples, the hypothesis output 
+by PROLOG-EBG constitutes a set of logically sufficient conditions for the target 
+concept, according to the domain theory. PROLOG-EBG 
+is a refinement of the EBG

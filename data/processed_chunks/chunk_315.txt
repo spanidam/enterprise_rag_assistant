@@ -1,0 +1,16 @@
+length, a1 + a2, is ﬁxed.
+What values should be chosen for a1 and a2?
+If
+we design the robot to maximize the maximum manipulability, the we need to
+maximize µ = a1a2|s2|. We have already seen that the maximum is obtained
+when θ2 = ±π/2, so we need only ﬁnd a1 and a2 to maximize the product a1a2.
+This is achieved when a1 = a2. Thus, to maximize manipulability, the link
+lengths should be chosen to be equal.
+⋄
+4.12
+CHAPTER SUMMARY
+A moving coordinate frame has both a linear and an angular velocity. Linear
+velocity is associated to a moving point, while angular velocity is associated
+to a rotating frame.
+Thus, the linear velocity of a moving frame is merely
+the velocity of its origin. The angular velocity for a moving frame is related

@@ -1,0 +1,29 @@
+alternative error functions, 1 17-1 18 
+Training examples, 5-6, 17, 23. See also 
+Sample complexity 
+explanation in PROLOG-EBG, 3 14-3 18 
+in PAC learning, 205-207 
+bounds on, 226 
+Voronoi diagram of, 233 
+Training experience, 5-6, 17 
+Training values, rule for estimation of, 10 
+True error, 130-131, 133, 137, 150, 
+204-205 
+of two hypotheses, differences in, 
+143-144 
+in version spaces, 208-209 
+Two-point crossover operator, 255, 
+257-258 
+Two-sided bounds, 141 
+Unbiased estimator, 133, 137 
+Unbiased learners, 4 0 4 2  
+sample complexity of, 2 12-2 1 3 
+Uniform crossover operator, 255 
+Unifying substitution, 285, 296 
+Unsupe~ised learning, 191 
+Utility analysis, in explanation-based 
+learning, 327-328 
+Validation set. See also Training and 
+I 
+validation set approach 
+i

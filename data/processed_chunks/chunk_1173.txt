@@ -1,0 +1,33 @@
+(https://openstax.org/r/100scipyproject).
+Web
+development
+Python can run interactive websites. Ex: Instagram is built with Django
+(https://openstax.org/r/100django), a Python framework.
+Table 2.9 Applications built with Python.
+CONCEPTS IN PRACTICE
+Fields and applications
+1. Which of the following fields use Python to support their work?
+a.
+geography
+b.
+health care
+c.
+political science
+d.
+all of the above
+2. Which of the following Python libraries creates charts and plots?
+a.
+Matplotlib
+b.
+SciPy
+c.
+TensorFlow
+3. Which of the following applications were built with Python?
+a.
+Facebook
+b.
+Instagram
+c.
+WhatsApp
+EXPLORING FURTHER
+For more examples of applications that can be built with Python, see "Top 12 Fascinating Python

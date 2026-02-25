@@ -1,0 +1,11 @@
+have changed. In this way one can work backward from arbitrary states that
+have changed in value, either performing useful backups or terminating the
+propagation.
+As the frontier of useful backups propagates backward, it often grows
+rapidly, producing many state–action pairs that could usefully be backed up.
+But not all of these will be equally useful. The values of some states may
+have changed a lot, whereas others have changed little. The predecessor pairs
+of those that have changed a lot are more likely to also change a lot. In a
+stochastic environment, variations in estimated transition probabilities also
+contribute to variations in the sizes of changes and in the urgency with which
+pairs need to be backed up. It is natural to prioritize the backups according to

@@ -1,0 +1,17 @@
+308
+GEOMETRIC NONLINEAR CONTROL
+and (10.27) that the transformation and the control make sense only in the
+region −∞< x1 < ∞, −π
+2 < x2 < π
+2 . Second, in order to control the linear
+system (10.30), the coordinates (y1, y2) must be available for feedback. This can
+be accomplished by measuring them directly if they are physically meaningful
+variables, or by computing them from the measured (x1, x2) coordinates using
+the transformation (10.26)-(10.27). In the latter case the parameter a must be
+known precisely.
+In Section 10.4 give necessary and suﬃcient conditions under which a general
+single-input nonlinear system can be transformed into a linear system in the
+above fashion, using a nonlinear change of variables and nonlinear feedback as
+in the above example.
+10.4
+SINGLE-INPUT SYSTEMS

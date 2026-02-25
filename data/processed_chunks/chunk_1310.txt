@@ -1,0 +1,40 @@
+num_sq = num * num
+print(num, "squared is", num_sq)
+a.
+num only
+b.
+num_sq only
+c.
+num and num_sq
+2. Which variables have global scope?
+def print_square():
+6.3 • Variable scope
+153
+num_sq = num * num
+print(num, "squared is", num_sq)
+num = float(input())
+print_square()
+a.
+num only
+b.
+num_sq only
+c.
+num and num_sq
+3. Which functions can access num?
+def print_double():
+num_d = num * 2
+print(num, "doubled is", num_d)
+def print_square():
+num_sq = num * num
+print(num, "squared is", num_sq)
+num = float(input())
+print_double()
+print_square()
+a.
+print_double()
+b.
+print_square()
+c.
+print_double() and print_square()
+Local scope
+A variable created within a function has local scope and only exists within the function. A local variable cannot

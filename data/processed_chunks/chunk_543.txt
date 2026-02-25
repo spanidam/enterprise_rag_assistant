@@ -1,0 +1,40 @@
+in series with a gear train with gear ratio r : 1 and connected to a link of the
+manipulator. The gear ratio r typically has values in the range 20 to 200 or
+more. Referring to Figure 7.5, we set Jm = Ja + Jg, the sum of the actuator
+and gear inertias. The equation of motion of this system is then
+Jm
+d2θm
+dt2
++ Bm
+dθm
+dt
+=
+τm −τℓ/r
+(7.9)
+=
+Kmia −τℓ/r
+the latter equality coming from (7.5). In the Laplace domain the three equations
+(7.4), (7.6) and (7.9) may be combined and written as
+(Ls + R)Ia(s)
+=
+V (s) −KbsΘm(s)
+(7.10)
+(Jms2 + Bms)Θm(s)
+=
+KiIa(s) −τℓ(s)/r
+(7.11)
+The block diagram of the above system is shown in Figure 7.6. The transfer
+function from V (s) to Θm(s) is then given by (with τℓ= 0)
+Θm(s)
+V (s)
+=
+Km
+s [(Ls + R)(Jms + Bm) + KbKm]
+(7.12)
+ACTUATOR DYNAMICS
+235
+τl/r
+−
+
+V (s)
++/L

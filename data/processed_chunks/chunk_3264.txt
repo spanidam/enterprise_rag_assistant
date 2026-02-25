@@ -1,0 +1,13 @@
+up" action that receives immediate reward 100. Thereafter, the agent will remain 
+in the absorbing state and receive no further rewards. Similarly, the value of V* 
+for the bottom center state is 90. This is because the optimal policy will move 
+the agent from this state to the right (generating an immediate reward of zero), 
+then upward (generating an immediate reward of 100). Thus, the discounted future 
+reward from the bottom center state is 
+o+y100+y20+Y30+...=90 
+CHAPTER 13 REINFORCEMENT LEARNING 373 
+Recall that V* is defined to be the sum of discounted future rewards over the 
+infinite future. In this particular environment, once the agent reaches the absorbing 
+state G its infinite future will consist of remaining in this state and receiving 
+rewards of zero. 
+13.3 Q LEARNING

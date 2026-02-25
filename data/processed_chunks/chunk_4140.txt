@@ -1,0 +1,12 @@
+Tsitsiklis, 2002).
+Example 5.3: Solving Blackjack
+It is straightforward to apply Monte
+Carlo ES to blackjack. Since the episodes are all simulated games, it is easy
+to arrange for exploring starts that include all possibilities. In this case one
+simply picks the dealer’s cards, the player’s sum, and whether or not the
+player has a usable ace, all at random with equal probability. As the initial
+policy we use the policy evaluated in the previous blackjack example, that
+which sticks only on 20 or 21. The initial action-value function can be zero
+for all state–action pairs. Figure 5.5 shows the optimal policy for blackjack
+found by Monte Carlo ES. This policy is the same as the “basic” strategy
+of Thorp (1966) with the sole exception of the leftmost notch in the policy

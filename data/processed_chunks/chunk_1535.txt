@@ -1,0 +1,24 @@
+1, the solution is known because 1! is 1; therefore, n == 1 is a base case.
+Note: 0! is defined to be 1; therefore, n == 0 is a second base case for factorial(). When n < 1, an error
+is returned.
+CHECKPOINT
+Factorial using recursion
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+12-2-simple-math-recursion)
+CONCEPTS IN PRACTICE
+Programming recursion
+For the questions below, the function rec_fact() is another recursive function that calculates a factorial.
+What is the result of each definition of rec_fact() if n = 17 is the initial input parameter?
+5. def rec_fact(n):
+return n * rec_fact(n - 1)
+a.
+355687428096000
+b.
+0
+c.
+no result / infinite computation
+6. def rec_fact(n):
+if n < 0:
+print("error")
+290
+12 • Recursion

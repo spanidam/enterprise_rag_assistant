@@ -1,0 +1,69 @@
+on the corresponding greedy policy.
+In fact, the policy evaluation step of policy iteration can be truncated in
+several ways without losing the convergence guarantees of policy iteration.
+One important special case is when policy evaluation is stopped after just one
+sweep (one backup of each state). This algorithm is called value iteration. It
+can be written as a particularly simple backup operation that combines the
+4.4. VALUE ITERATION
+99
+4V
+612
+#Cars at second location
+0
+420
+20
+0
+20
+#Cars at first location
+1
+1
+5
+!1
+!2
+-4
+4 3 2
+4 3 2
+!3
+0
+0
+5
+!1
+!2!3 !4
+1
+2
+3
+4
+0
+"1
+"0
+"2
+!3
+!4
+!2
+0
+1
+2
+3
+4
+!1
+"3
+2
+!4
+!3
+!2
+0
+1
+3
+4
+5
+!1
+"4
+#Cars at second location
+#Cars at first location
+5
+20
+0
+0
+20
+v4
+Figure 4.4: The sequence of policies found by policy iteration on Jack’s car

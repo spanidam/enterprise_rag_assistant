@@ -1,0 +1,10 @@
+assign the same string to holiday.
+1.5 Number basics
+1. c. x = 1 is an integer, and when printing the type of an integer variable, the output is <class 'int'>.
+2. b. y = 2.0 is floating-point number.
+3. a. Any value defined within quotation marks is a string value regardless of the content.
+4. c. Line 2 of the code evaluates as follows: c = x - z = 7 - 2 = 5. Line 3 increments variable c by 1,
+making the total equal to 6.
+5. b. The output of 3.5-1.5 equals 2.0 , which is a floating-point number.
+6. c. The result of the division operation is a floating-point number that isn't rounded down. 7/2 = 3.5.
+7. c. The output of the 20/2 equals 10.0 because the division operation results in a float.

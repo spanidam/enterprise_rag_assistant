@@ -1,0 +1,9 @@
+(Technical Report LCSR-TR-27), Rutgers Computer Science Department. (Also reprinted in 
+A. Elithorn & R. Banerji (Eds), ArtiJicial and Human Intelligence. North-Holland, 1984.) 
+Mitchell, T. M. (1983). Learning and problem-solving. Proceedings of the Eighth International Joint 
+Conference on ArtiiJicial Intelligence. San Francisco: Morgan Kaufmann. 
+Mitchell, T. M., Keller, R., & Kedar-Cabelli, S. (1986). Explanation-based generalization: A unifying 
+view. Machine Learning, 1(1), 47-80. 
+Mitchell, T. M. (1990). Becoming increasingly reactive. Proceedings of the Eighth National Confer- 
+ence on ArtQicial Intelligence. Medo Park, CA: AAAI Press. 
+Mitchell, T. M., & Thrun, S. B. (1993). Explanation-based neural network learning for robot control.

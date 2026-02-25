@@ -1,0 +1,17 @@
+14
+INTRODUCTION
+Fig. 1.14
+The Epson E2L653S SCARA Robot. Photo Courtesy of Epson.
+Fig. 1.15
+Workspace of the SCARA manipulator.
+1.3.5
+Cartesian manipulator (PPP)
+A manipulator whose ﬁrst three joints are prismatic is known as a Cartesian
+manipulator, shown in Figure 1.19.
+For the Cartesian manipulator the joint variables are the Cartesian coordi-
+nates of the end-eﬀector with respect to the base. As might be expected the
+kinematic description of this manipulator is the simplest of all manipulators.
+Cartesian manipulators are useful for table-top assembly applications and, as
+gantry robots, for transfer of material or cargo. An example of a Cartesian
+robot, from Epson-Seiko, is shown in Figure 1.20. The workspace of a Carte-
+sian manipulator is shown in Figure 1.21.

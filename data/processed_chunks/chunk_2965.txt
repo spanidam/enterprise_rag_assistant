@@ -1,0 +1,12 @@
+2. PROGOL uses a sequential covering algorithm to learn a set of expressions 
+from H that cover the data. For each example (xi, f (xi)) that is not yet 
+covered by these learned expressions, it first searches for the most specific 
+hypothesis hi within H such that (B A hi A xi) l- 
+f (xi). More precisely, it 
+approximates this by calculating the most specific hypothesis among those 
+that entail f (xi) within k applications of the resolution rule (where k is a 
+user-specified parameter). 
+3. PROGOL then performs a general-to-specific search of the hypothesis space 
+bounded by the most general possible hypothesis and by the specific bound 
+hi calculated in step 2. Within this set of hypotheses, it seeks the hypothesis 
+having minimum description length (measured by the number of literals).

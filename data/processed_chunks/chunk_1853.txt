@@ -1,0 +1,11 @@
+example. In our example, the Critic corresponds to the training rule given 
+by Equation (1.1). 
+The Generalizer takes as input the training examples and produces an output 
+hypothesis that is its estimate of the target function. It generalizes from the 
+specific training examples, hypothesizing a general function that covers these 
+examples and other cases beyond the training examples. In our example, the 
+Generalizer corresponds to the LMS algorithm, and the output hypothesis is 
+the function f described by the learned weights wo, . . . , W6. 
+The Experiment Generator takes as input the current hypothesis (currently 
+learned function) and outputs a new problem (i.e., initial board state) for the 
+Performance System to explore. Its role is to pick new practice problems that

@@ -1,0 +1,35 @@
+Literally
+hundreds of diﬀerent optimization methods could be applied.
+Here is how the tic-tac-toe problem would be approached with a method
+making use of a value function. First we set up a table of numbers, one for
+each possible state of the game. Each number will be the latest estimate of
+the probability of our winning from that state. We treat this estimate as the
+state’s value, and the whole table is the learned value function. State A has
+higher value than state B, or is considered “better” than state B, if the current
+estimate of the probability of our winning from A is higher than it is from B.
+12
+CHAPTER 1. THE REINFORCEMENT LEARNING PROBLEM
+..
+•
+our move{
+opponent's move{
+our move{
+starting position
+•
+•
+•
+a
+b
+c*
+d
+e
+e*
+opponent's move{
+c
+•f
+•g*
+g
+opponent's move{
+our move{
+.
+•

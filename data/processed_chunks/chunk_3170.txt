@@ -1,0 +1,26 @@
+tions). The results, shown in Table 12.4, demonstrate the ability of TANGENTPROP 
+using this prior knowledge to generalize more accurately than purely inductive 
+BACKPROPAGATION. 
+Training 
+set size 
+10 
+20 
+40 
+80 
+160 
+320 
+Percent error on test set 
+TANGENTPROP 
+I BACKPROPAGATION 
+TABLE 12.4 
+Generalization accuracy for TANGENTPROP 
+and BACKPROPAGATION, 
+for handwritten digit recognition. 
+TANGENTPROP 
+generalizes more accurately due to its prior knowledge that the identity of the digit 
+is invariant of translation. These results are from Sirnard et al. (1992). 
+12.4.3 
+Remarks 
+To summarize, TANGENTPROP 
+uses prior knowledge in the form of desired deriva- 
+tives of the target function with respect to transformations of its inputs. It combines

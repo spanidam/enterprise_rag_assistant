@@ -1,0 +1,77 @@
+k
+X
+i=1
+mi¨rT
+i
+∂ri
+∂qj
+=
+d
+dt
+∂K
+∂˙qj
+−∂K
+∂qj
+(6.35)
+Now, substituting from (6.35) into (6.28) shows that the second summation in
+(6.25) is
+k
+X
+i=1
+˙pT
+i δri
+=
+n
+X
+j=1
+ d
+dt
+∂K
+∂˙qj
+−∂K
+∂qj
+
+δqj
+(6.36)
+Finally, combining (6.36) and (6.26) gives
+n
+X
+j=1
+ d
+dt
+∂K
+∂˙qj
+−∂K
+∂qj
+−ψj
+
+δqj
+=
+0
+(6.37)
+Now, since the virtual displacements δqj are independent, we can conclude that
+each coeﬃcient in (6.37) is zero, that is, that
+d
+dt
+∂K
+∂˙qj
+−∂K
+∂qj
+=
+ψj,
+j = 1, . . . , n
+(6.38)
+If the generalized force ψj is the sum of an externally applied generalized force
+and another one due to a potential ﬁeld, then a further modiﬁcation is possible.
+Suppose there exist functions τj and a potential energy function P(q) such that
+ψj
+=
+−∂P
+∂qj
++ τj
+(6.39)
+Then (6.38) can be written in the form
+d
+dt
+∂L
+∂˙qj

@@ -1,0 +1,76 @@
+(2.35)
+If r33 = 1, then cθ = 1 and sθ = 0, so that θ = 0. In this case Equation (2.27)
+becomes
+
+
+cφcψ −sφsψ
+−cφsψ −sφcψ
+0
+sφcψ + cφsψ
+−sφsψ + cφcψ
+0
+0
+0
+1
+
+
+=
+
+
+cφ+ψ
+−sφ+ψ
+0
+sφ+ψ
+cφ+ψ
+0
+0
+0
+1
+
+
+Thus the sum φ + ψ can be determined as
+φ + ψ
+=
+atan2(r11, r21)
+(2.36)
+=
+atan2(r11, −r12)
+Since only the sum φ + ψ can be determined in this case there are inﬁnitely
+many solutions. In this case, we may take φ = 0 by convention. If r33 = −1,
+then cθ = −1 and sθ = 0, so that θ = π. In this case Equation (2.27) becomes
+
+
+−cφ−ψ
+−sφ−ψ
+0
+sφ−ψ
+cφ−ψ
+0
+0
+0
+−1
+
+
+=
+
+
+r11
+r12
+0
+r21
+r22
+0
+0
+0
+−1
+
+
+(2.37)
+The solution is thus
+φ −ψ
+=
+atan2(−r11, −r12)
+(2.38)
+As before there are inﬁnitely many solutions.
+2.5.2
+Roll, Pitch, Yaw Angles

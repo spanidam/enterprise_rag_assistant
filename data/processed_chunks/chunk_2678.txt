@@ -1,0 +1,12 @@
+and are drawn according to a fixed but unknown probability distribution V. 
+The 
+target concept is known to be describable by a conjunction of boolean attributes and 
+their negations (e.g., xz A&), and the learning algorithm uses this concept class as its 
+hypothesis space H .  A consistent learner is provided a set of 100 training examples 
+drawn according to V. 
+It outputs a hypothesis h from H that is consistent with all 
+100 examples (i.e., the error of h over these training examples is zero). 
+(a) We are interested in the true error of h, that is, the probability that it will 
+misclassify future instances drawn randomly according to V. 
+Based on the above 
+information, can you give an interval into which this true error will fall with

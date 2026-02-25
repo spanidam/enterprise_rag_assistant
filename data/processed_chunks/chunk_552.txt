@@ -1,0 +1,41 @@
+(7.33)
+The closed loop system will be stable for all positive values of Kp and KD and
+bounded disturbances, and the tracking error is given by
+E(s)
+=
+Ωd(s) −Θm(s)
+(7.34)
+=
+Jeffs2 + (Beff + KKD)s
+Ω(s)
+Θd(s) +
+1
+Ω(s)D(s)
+For a step reference input
+Θd(s)
+=
+Ωd
+s
+(7.35)
+and a constant disturbance
+D(s)
+=
+D
+s
+(7.36)
+it now follows directly from the ﬁnal value theorem [4] that the steady state
+error ess satisﬁes
+ess
+=
+lim
+s→0 sE(s)
+(7.37)
+=
+−D
+KKp
+(7.38)
+Since the magnitude D of the disturbance is proportional to the gear reduction
+1
+r we see that the steady state error is smaller for larger gear reduction and can
+be made arbitrarily small by making the position gain Kp large, which is to be
+expected since the system is Type 1.

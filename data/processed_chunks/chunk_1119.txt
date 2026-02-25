@@ -1,0 +1,10 @@
+•
+Explain the function of the up and down arrow keyboard shortcuts.
+The interpreter
+Python is a high-level language, meaning that the source code is intended for humans to understand.
+Computers, on the other hand, understand only low-level machine code made up of 1's and 0's. Programs
+written in high-level languages must be translated into machine code to run. This translation process can
+happen all at once, or a little at a time, depending on the language.
+Python is an interpreted language: the source code is translated one line at a time while the program is
+running. The Python interpreter translates source code into machine code and runs the resulting program. If
+and when an error occurs, the interpreter stops translating the source code and displays an error message.

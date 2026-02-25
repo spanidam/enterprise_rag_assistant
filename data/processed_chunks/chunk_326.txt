@@ -1,0 +1,13 @@
+this reason, for robot systems with more than a few degrees of freedom, com-
+plete algorithms are not used in practice.
+In this chapter we treat the path planning problem as a search problem. The
+algorithms we describe are not guaranteed to ﬁnd a solution to all problems,
+but they are quite eﬀective in a wide range of practical applications. Further-
+more, these algorithms are fairly easy to implement, and require only moderate
+computation time for most problems.
+1An algorithm is said to be complete if it ﬁnds a solution whenever one exists.
+149
+150
+PATH AND TRAJECTORY PLANNING
+Path planning provides a geometric description of robot motion, but it does
+not specify any dynamic aspects of the motion. For example, what should be the

@@ -1,0 +1,13 @@
+assumptions of their theory do not apply.
+In this book we do not worry about balancing exploration and exploitation
+in a sophisticated way; we worry only about balancing them at all. In this
+chapter we present several simple balancing methods for the n-armed bandit
+problem and show that they work much better than methods that always
+exploit.
+The need to balance exploration and exploitation is a distinctive
+challenge that arises in reinforcement learning; the simplicity of the n-armed
+bandit problem enables us to show this in a particularly clear form.
+2.2
+Action-Value Methods
+We begin by looking more closely at some simple methods for estimating the
+values of actions and for using the estimates to make action selection decisions.

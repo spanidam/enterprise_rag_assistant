@@ -1,0 +1,30 @@
+Thus, we have
+det JJT
+=
+det J det JT
+=
+det J det J
+=
+(λ1λ2 · · · λm)(λ1λ2 · · · λm)
+=
+λ2
+1λ2
+2 · · · λ2
+m
+(4.140)
+in which λ1 ≥λ2 · · · ≤λm are the eigenvalues of J. This leads to
+µ =
+p
+det JJT = |λ1λ2 · · · λm| = |det J|
+(4.141)
+The manipulability, µ, has the following properties.
+• In general, µ = 0 holds if and only if rank(J) < m, (i.e., when J is not
+full rank).
+• Suppose that there is some error in the measured velocity, ∆ξ. We can
+bound the corresponding error in the computed joint velocity, ∆˙q, by
+(σ1)−1 ≤||∆˙q||
+||∆ξ|| ≤(σm)−1
+(4.142)
+Example 4.12 Two-link Planar Arm.
+We can use manipulability to determine the optimal conﬁgurations in which
+to perform certain tasks. In some cases it is desirable to perform a task in the

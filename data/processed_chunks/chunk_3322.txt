@@ -1,0 +1,12 @@
+even modest-sized problems. 
+0 Q learning is a member of a more general class of algorithms, called tem- 
+poral difference algorithms. In general, temporal difference algorithms learn 
+CHAFER 13 REINFORCEMENT LEARNING 387 
+by iteratively reducing the discrepancies between the estimates produced by 
+the agent at different times. 
+Reinforcement learning is closely related to dynamic programming ap- 
+proaches to Markov decision processes. The key difference is that histori- 
+cally these dynamic programming approaches have assumed that the agent 
+possesses knowledge of the state transition function 6(s, a) and reward func- 
+tion r (s , a). In contrast, reinforcement learning algorithms such as Q learning 
+typically assume the learner lacks such knowledge.

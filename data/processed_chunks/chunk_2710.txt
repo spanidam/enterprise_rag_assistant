@@ -1,0 +1,11 @@
+Given a new query instance x,, the general approach in locally weighted 
+regression is to construct an approximation f^ that fits the training examples in the 
+neighborhood surrounding x,. This approximation is then used to calculate the 
+value f"(x,), which is output as the estimated target value for the query instance. 
+The description of f^ may then be deleted, because a different local approximation 
+will be calculated for each distinct query instance. 
+CHAPTER 8 INSTANCE-BASED LEARNING 237 
+8.3.1 Locally Weighted Linear Regression 
+Let us consider the case of locally weighted regression in which the target function 
+f is approximated near x, using a linear function of the form 
+As before, ai(x) denotes the value of the ith attribute of the instance x .

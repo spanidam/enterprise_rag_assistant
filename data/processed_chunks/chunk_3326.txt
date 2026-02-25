@@ -1,0 +1,11 @@
+an extension to the KBANN algorithm (Chapter 12). Lin (1992) examines the role 
+of teaching by providing suggested action sequences. Methods for scaling Up by 
+employing a hierarchy of actions are suggested by Singh (1993) and Lin (1993). 
+Dietterich and Flann (1995) explore the integration of explanation-based methods 
+with reinforcement learning, and Mitchell and Thrun (1993) describe the appli- 
+cation of the EBNN algorithm (Chapter 12) to Q learning. Ring (1994) explores 
+continual learning by the agent over multiple tasks. 
+Recent surveys of reinforcement learning are given by Kaelbling et al. 
+(1996); Barto (1992); Barto et al. (1995); Dean et al. (1993). 
+EXERCISES 
+13.1. Give a second optimal policy for the problem illustrated in Figure 13.2.

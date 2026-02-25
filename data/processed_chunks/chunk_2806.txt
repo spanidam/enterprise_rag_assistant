@@ -1,0 +1,9 @@
+of s resulting from the n independent selection steps that create the entire new 
+generation is just n times this probability. 
+Equation (9.3) states that the expected number of instances of schema s at gener- 
+ation t + 1 is proportional to the average fitness i ( s ,  t )  of instances of this schema 
+at time t ,  and inversely proportional to the average fitness f ( t )  of all members 
+of the population at time t. Thus, we can expect schemas with above average fit- 
+ness to be represented with increasing frequency on successive generations. If we 
+view the G A  as performing a virtual parallel search through the space of possible 
+schemas at the same time it performs its explicit parallel search through the space

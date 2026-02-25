@@ -1,0 +1,52 @@
+Consider the two link, revolute joint, planar robot from section 6.4 above. If
+we group the inertia terms appearing in Equation 6.81 as
+Θ1
+=
+m1ℓ2
+c1 + m2(ℓ2
+1 + ℓ2
+c2) + I1 + I2
+(6.118)
+Θ2
+=
+m2ℓ1ℓc2
+(6.119)
+Θ3
+=
+m2ℓ1ℓc2
+(6.120)
+then we can write the inertia matrix elements as
+d11
+=
+Θ1 + 2Θ2 cos(q2)
+(6.121)
+d12
+=
+d21 = Θ3 + Θ2 cos(q2)
+(6.122)
+d22
+=
+Θ3
+(6.123)
+NEWTON-EULER FORMULATION
+215
+No additional parameters are required in the Christoﬀel symbols as these are
+functions of the elements of the inertia matrix. The gravitational torques require
+additional parameters, in general. Setting
+Θ4
+=
+m1ℓc1 + m2ℓ1
+(6.124)
+Θ5
+=
+m2ℓ2
+(6.125)
+we can write the gravitational terms, φ1 and φ2 as
+φ1
+=
+Θ4g cos(q1) + Θ5g cos(q1 + q2)
+(6.126)
+φ2
+=
+Θ5 cos(q1 + q2)
+(6.127)

@@ -1,0 +1,22 @@
+where to put spaces and blank lines, what to name variables, how to break up long lines, and other important
+topics.
+PYTHON STYLE GUIDE
+PEP 8 (https://openstax.org/r/100PEP8) is the official style guide for Python. PEP stands for Python
+Enhancement Proposal. Members of the Python community write PEPs to document best practices and
+propose new features. The table below is based on guidelines from PEP 8 under the heading Whitespace in
+Expressions and Statements (https://openstax.org/r/100whitespace).
+60
+2 • Expressions
+Access for free at openstax.org
+Guideline
+Example
+Common Mistakes
+Parentheses: no space before or after.
+print("Go team!")
+print ("Go team!")
+print( "Go team!" )
+Commas: no space before, one space
+after.
+print("Hello", name)
+print("Hello" , name)
+print("Hello",name)

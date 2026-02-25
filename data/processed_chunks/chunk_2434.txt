@@ -1,0 +1,11 @@
+~ ( d i  
+lh) 
+Given that the noise ei obeys a Normal distribution with zero mean and unknown 
+variance a 2 ,  each di must also obey a Normal distribution with variance a2 cen- 
+tered around the true target value f (xi) rather than zero. Therefore p(di lh) can 
+be written as a Normal distribution with variance a2 and mean p = f (xi). Let us 
+write the formula for this Normal distribution to describe p(di Ih), beginning with 
+the general formula for a Normal distribution from Table 5.4 and substituting the 
+appropriate p and a 2 .  Because we are writing the expression for the probability 
+of di given that h is the correct description of the target function f ,  we will also 
+substitute p = f (xi) = h(xi), yielding

@@ -1,0 +1,10 @@
+evolved in parallel, and each was perceived as having certain advantages. For
+instance, it was believed at one time that the Newton-Euler formulation is better
+suited to recursive computation than the Lagrangian formulation. However, the
+current situation is that both of the formulations are equivalent in almost all
+respects. Thus at present the main reason for having another method of analysis
+at our disposal is that it might provide diﬀerent insights.
+In any mechanical system one can identify a set of generalized coordinates
+(which we introduced in Section 6.1 and labeled q) and corresponding gen-
+eralized forces (also introduced in Section 6.1 and labeled τ). Analyzing the
+dynamics of a system means ﬁnding the relationship between q and τ. At this

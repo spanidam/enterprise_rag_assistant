@@ -1,0 +1,27 @@
+on-line TD(λ) with λ = 1 to be exactly equivalent by the end of the episode
+to the constant-α MC method, while making updates on-line and in real-time.
+The same cannot be said for any of the other methods.
+7.5. SARSA(λ)
+183
+Initialize V (s) arbitrarily (but set to 0 if s is terminal)
+Vold ←0
+Repeat (for each episode):
+Initialize E(s) = 0, for all s ∈S
+Initialize S
+Repeat (for each step of episode):
+A ←action given by π for S
+Take action A, observe reward, R, and next state, S′
+∆←V (S) −Vold
+Vold ←V (S′)
+δ ←R + γV (S′) −V (S)
+E(S) ←(1 −α)E(S) + 1
+For all s ∈S:
+V (s) ←V (s) + α(δ + ∆)E(s)
+E(s) ←γλE(s)
+V (S) ←V (S) −α∆
+S ←S′
+until S is terminal
+Figure 7.10: Tabular true on-line TD(λ).
+7.5
+Sarsa(λ)
+How can eligibility traces be used not just for prediction, as in TD(λ), but for

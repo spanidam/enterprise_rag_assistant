@@ -1,0 +1,11 @@
+for learning networks of many units. 
+One way to learn an acceptable weight vector is to begin with random 
+weights, then iteratively apply the perceptron to each training example, modify- 
+ing the perceptron weights whenever it misclassifies an example. This process is 
+repeated, iterating through the training examples as many times as needed until 
+the perceptron classifies all training examples correctly. Weights are modified at 
+each step according to the perceptron training rule, which revises the weight wi 
+associated with input xi according to the rule 
+where 
+Here t is the target output for the current training example, o is the output generated 
+by the perceptron, and q is a positive constant called the learning rate. The role

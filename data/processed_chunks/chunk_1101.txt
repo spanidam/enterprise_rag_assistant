@@ -1,0 +1,17 @@
+# and two nouns, which are then used to print
+# a funny story about a vacation.
+9. Which docstring is most useful for this program?
+a.
+"""Vacations Madlib."""
+b.
+"""Vacations Madlib. This program asks the user for two adjectives and two
+nouns, which are then used to print a funny story about a vacation. """
+c.
+"""Vacations Madlib. This program asks the user for two adjectives and two
+nouns, which are then used to print a funny story about a vacation. The code
+uses four variables to store the user input: two for the adjectives, and two
+for the nouns. The output is displayed on seven lines, beginning with a blank
+line after the input. """
+TRY IT
+Whose birthday
+Add two comments to the following program: one for the input, and one for the output. Separate the input

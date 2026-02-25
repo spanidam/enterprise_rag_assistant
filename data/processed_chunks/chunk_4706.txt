@@ -1,0 +1,18 @@
+In
+M. H. Hassoun (ed.), Associative Neural Memories: Theory and Imple-
+mentation, pp. 50–76. Oxford University Press, New York.
+Kashyap, R. L., Blaydon, C. C., Fu, K. S. (1970). Stochastic approximation.
+In J. M. Mendel and K. S. Fu (eds.), Adaptive, Learning, and Pattern
+Recognition Systems: Theory and Applications, pp. 329–355. Academic
+Press, New York.
+Keerthi, S. S., Ravindran, B. (1997). Reinforcement learning. In E. Fiesler and
+R. Beale (eds.), Handbook of Neural Computation, C3. Oxford University
+Press, New York.
+15.5. OTHER FRONTIER DIMENSIONS
+323
+Kimble, G. A. (1961).
+Hilgard and Marquis’ Conditioning and Learning.
+Appleton-Century-Crofts, New York.
+Kimble, G. A. (1967). Foundations of Conditioning and Learning. Appleton-
+Century-Crofts, New York.
+Klopf, A. H. (1972).

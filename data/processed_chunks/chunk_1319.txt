@@ -1,0 +1,24 @@
+undesired behavior and errors (unless using optional or keyword arguments as discussed later).
+EXAMPLE 6.1
+Using multiple arguments in a function call
+6.4 • Parameters
+159
+def print_div(op_1, op_2):
+""" Prints division operation """
+print(f"{op_1}/{op_2} = {op_1/op_2}")
+num_1 = 6
+num_2 = 3
+print_div(num_1, num_2) # Prints "6/3 = 2.0"
+print_div(num_2, num_1) # Prints "3/6 = 0.5"
+print_div(num_1) # Error: Missing argument: op_2
+CONCEPTS IN PRACTICE
+Multiple arguments and parameters
+Consider the following:
+def calc_distance(x1, y1, x2, y2):
+dist = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+print(dist)
+p1_x =int(input("Enter point 1's x: "))
+p1_y =int(input("Enter point 1's y: "))
+p2_x =int(input("Enter point 2's x: "))
+p2_y =int(input("Enter point 2's y: "))
+calc_distance(p1_x, p1_y, p2_x, p2_y)

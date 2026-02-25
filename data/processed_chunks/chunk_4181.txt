@@ -1,0 +1,11 @@
+optimal policies from experience in the form of sample episodes. This gives
+them at least three kinds of advantages over DP methods. First, they can be
+used to learn optimal behavior directly from interaction with the environment,
+with no model of the environment’s dynamics. Second, they can be used with
+simulation or sample models. For surprisingly many applications it is easy to
+simulate sample episodes even though it is diﬃcult to construct the kind of
+explicit model of transition probabilities required by DP methods. Third, it
+is easy and eﬃcient to focus Monte Carlo methods on a small subset of the
+states. A region of special interest can be accurately evaluated without going
+to the expense of accurately evaluating the rest of the state set (we explore
+this further in Chapter 8).

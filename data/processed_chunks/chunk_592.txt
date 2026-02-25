@@ -1,0 +1,28 @@
+y(t) and the input u(t) in a ﬁnite time interval t0 ≤t ≤tf.
+To check whether a system is observable we have the following
+258
+INDEPENDENT JOINT CONTROL
+(ii) Theorem 7.4.7
+The pair (A, c) is observable if and only if
+det
+h
+c, AT c, . . . , Atn−1c
+i
+̸=
+0.
+(7.84)
+The n × n matrix [cT , cT AT , . . . , cT AT ] is called the observability matrix for
+the pair (A, cT ). In the system (7.68)-(7.70) above we have that
+det
+h
+c, AT c, AT 2c, AT 3c
+i
+=
+k2
+J2
+ℓ
+(7.85)
+and hence the system is observable. A result known as the Separation Prin-
+ciple says that if we use the estimated state in place of the true state in (7.79),
+then the set of closed loop poles of the system will consist of the union of the
+eigenvalues of A −ℓcT and the eigenvalues of A −bkT . As the name suggests

@@ -1,0 +1,10 @@
+performs a greedy search that trades off network complexity for accuracy over the 
+training data. In one experiment K2 was given a set of 3,000 training examples 
+generated at random from a manually constructed Bayesian network containing 
+37 nodes and 46 arcs. This particular network described potential anesthesia prob- 
+lems in a hospital operating room. In addition to the data, the program was also 
+given an initial ordering over the 37 variables that was consistent with the partial 
+CHAPTER 6 BAYESIAN LEARNING 191 
+ordering of variable dependencies in the actual network. The program succeeded 
+in reconstructing the correct Bayesian network structure almost exactly, with the 
+exception of one incorrectly deleted arc and one incorrectly added arc.

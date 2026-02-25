@@ -1,0 +1,10 @@
+So far we have considered the question "what is the most probable hypothesis 
+given the training data?' In fact, the question that is often of most significance is 
+the closely related question "what is the most probable classiJication of the new 
+instance given the training data?'Although it may seem that this second question 
+can be answered by simply applying the MAP hypothesis to the new instance, in 
+fact it is possible to do better. 
+To develop some intuitions consider a hypothesis space containing three 
+hypotheses, hl, h2, and h3. Suppose that the posterior probabilities of these hy- 
+potheses given the training data are .4, .3, and .3 respectively. Thus, hl is the 
+MAP hypothesis. Suppose a new instance x is encountered, which is classified

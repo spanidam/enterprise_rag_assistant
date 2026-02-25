@@ -1,0 +1,10 @@
+volume of the arm, and this can be quite complex (both mathematically and
+computationally). An alternative approach is to select a subset of points on
+the robot, called control points, and to deﬁne a workspace potential for each
+of these points. The global potential is obtained by summing the eﬀects of the
+individual potential functions. Evaluating the eﬀect a particular potential ﬁeld
+on a single point is no diﬀerent than the evaluations required in Section 5.2,
+but the required distance and gradient calculations are much simpler.
+Let Aatt = {a1, a2 · · · an} be a set of control points used to deﬁne the at-
+tractive potential ﬁelds. For an n-link arm, we could use the centers of mass
+for the n links, or the origins for the DH frames (excluding the ﬁxed frame 0).

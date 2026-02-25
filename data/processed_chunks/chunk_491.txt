@@ -1,0 +1,20 @@
+both sides of (6.113) with respect to time gives,
+Z T
+0
+˙qT (ζ)τ(ζ)dζ = H(T) −H(0) ≥−H(0)
+(6.114)
+since the total energy H(T) is non–negative, and the passivity property there-
+fore follows with β = H(0).
+6.5.2
+Bounds on the Inertia Matrix
+We have remarked previously that the inertia matrix for an n-link rigid robot is
+symmetric and positive deﬁnite. For a ﬁxed value of the generalized coordinate
+q, let 0 < λ1(q) ≤. . . , ≤λn(q) denote the n eigenvalues of D(q).
+These
+eigenvalues are positive as a consequence of the positive deﬁniteness of D(q).
+As a result, it can easily be shown that
+Bounds on the Inertia Matrix
+λ1(q)In×n ≤D(q) ≤λn(q)In×n
+(6.115)
+where In×n denotes the n × n identity matrix.
+The above inequalities are

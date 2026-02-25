@@ -1,0 +1,11 @@
+parallel. Note that in both cases (ii) and (iii) the axes zi−1 and zi are coplanar.
+This situation is in fact quite common, as we will see in Section 3.2.3. We now
+consider each of these three cases.
+(i) zi−1 and zi are not coplanar:
+If zi−l and zi are not coplanar, then there exists
+a unique line segment perpendicular to both zi−1 and zi such that it connects
+both lines and it has minimum length. The line containing this common normal
+to zi−1 and zi deﬁnes xi, and the point where this line intersects zi is the origin
+oi. By construction, both conditions (DH1) and (DH2) are satisﬁed and the
+vector from oi−1 to oi is a linear combination of zi−1 and xi. The speciﬁcation of
+frame i is completed by choosing the axis yi to form a right-handed frame. Since

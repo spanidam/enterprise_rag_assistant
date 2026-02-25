@@ -1,0 +1,12 @@
+CHAPTER 8 INSTANCEBASED LEARNING 
+241 
+scheduling problems by reusing and combining portions of previous solutions to 
+similar problems (Veloso 1992). 
+Let us consider a prototypical example of a case-based reasoning system to 
+ground our discussion. The CADET system (Sycara et al. 1992) employs case- 
+based reasoning to assist in the conceptual design of simple mechanical devices 
+such as water faucets. It uses a library containing approximately 75 previous 
+designs and design fragments to suggest conceptual designs to meet the specifi- 
+cations of new design problems. Each instance stored in memory (e.g., a water 
+pipe) is represented by describing both its structure and its qualitative function. 
+New design problems are then presented by specifying the desired function and

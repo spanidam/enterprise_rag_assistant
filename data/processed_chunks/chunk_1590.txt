@@ -1,0 +1,24 @@
+a mixin class, OnlineMixin. OnlineMixin:
+•
+Replaces OnlineShop.
+•
+Is a superclass of FoodFast.
+•
+Has one method, process_online(), which prints "Connecting to server" and is called by
+FoodFast's process_order().
+The output should match:
+Processing meal order
+Connecting to server
+Enjoy your FoodFast order
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+13-5-multiple-inheritance-and-mixin-classes)
+13.6 Chapter summary
+Highlights from this chapter include:
+•
+Inheritance describes an is-a relationship between classes. One class, the subclass, inherits from another
+class, the superclass.
+•
+Subclasses can access inherited attributes and methods directly.
+•
+Subclasses can override superclass methods to change or add functionality.
+•

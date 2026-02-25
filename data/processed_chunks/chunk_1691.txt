@@ -1,0 +1,13 @@
+1.3 Variables
+1. c. This would produce the output string, "The city where you live is Chicago" .
+2. b. These two lines of code would produce the output string, "Total = 6" .
+3. c. The single = character is the assignment operator.
+4. a. An assignment statement has the variable name on the left side and the value on the right side of the
+assignment statement.
+5. a. median is a descriptive name for a variable that stores a median value.
+6. b. A variable name can contain, but not start with, a digit.
+7. c. The name clearly indicates the value being stored is a zip code.
+8. a. Snake case separates each word with an underscore and uses only lowercase letters.
+1.4 String basics
+1. c. A string that is enclosed by matching double quotes is a valid string. Note that '7 days' is also a
+string.

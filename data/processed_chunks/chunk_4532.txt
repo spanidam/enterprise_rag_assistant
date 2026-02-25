@@ -1,0 +1,13 @@
+of the actor, indicating the tendency to select (preference for) each action a
+when in each state s at time t. Then the strengthening or weakening described
+above can be implemented by increasing or decreasing Ht(St, At), for instance,
+by
+Ht+1(St, At) = Ht(St, At) + βδt,
+where β is another positive step-size parameter.
+This is just one example of an actor–critic method. Other variations select
+the actions in diﬀerent ways, or use eligibility traces like those described in the
+11.2. ELIGIBILITY TRACES FOR ACTOR–CRITIC METHODS
+259
+next chapter. Another common dimension of variation, as in reinforcement
+comparison methods, is to include additional factors varying the amount of
+credit assigned to the action taken, At. For example, one of the most common

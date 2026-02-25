@@ -1,0 +1,44 @@
+the rotation matrix obtained for the spherical wrist has the same form as the
+rotation matrix for the Euler transformation, given in (2.27). Therefore, we can
+use the method developed in Section 2.5.1 to solve for the three joint angles of
+the spherical wrist. In particular, we solve for the three Euler angles, φ, θ, ψ,
+using Equations (2.29) – (2.34), and then use the mapping
+θ4
+=
+φ
+θ5
+=
+θ
+θ6
+=
+ψ
+Example 3.8 Articulated Manipulator with Spherical Wrist
+The DH parameters for the frame assignment shown in Figure 3.13 are sum-
+marized in Table 3.6. Multiplying the corresponding Ai matrices gives the ma-
+trix R0
+3 for the articulated or elbow manipulator as
+R0
+3
+=
+
+
+c1c23
+−c1s23
+s1
+s1c23
+−s1s23
+−c1
+s23
+c23
+0
+
+
+(3.62)
+The matrix R3
+6 = A4A5A6 is given as
+R3
+6
+=
+
+
+c4c5c6 −s4s6

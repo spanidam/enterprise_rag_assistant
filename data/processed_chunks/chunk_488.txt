@@ -1,0 +1,53 @@
+njk = −nkj.
+Proof: Given the inertia matrix D(q), the kj-th component of ˙D(q) is given
+by the chain rule as
+˙dkj
+=
+n
+X
+i=1
+∂dkj
+∂qi
+˙qi
+(6.107)
+Therefore, the kj-th component of N = ˙D −2C is given by
+nkj
+=
+˙dkj −2ckj
+(6.108)
+=
+n
+X
+i=1
+∂dkj
+∂qi
+−
+∂dkj
+∂qi
++ ∂dki
+∂j
+−∂dij
+∂qk
+
+˙qi
+=
+n
+X
+i=1
+∂dij
+∂qk
+−∂dki
+∂qj
+
+˙qi
+Since the inertia matrix D(q) is symmetric, that is, dij = dji, it follows from
+(6.108) by interchanging the indices k and j that
+njk
+=
+−nkj
+(6.109)
+which completes the proof.
+It is important to note that, in order for N = ˙D −2C to be skew-symmetric,
+one must deﬁne C according to Equation (6.62). This will be important in later
+chapters when we discuss robust and adaptive control algorithms.
+Related to the skew symmetry property is the so-called Passivity Property

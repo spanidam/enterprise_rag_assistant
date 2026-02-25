@@ -1,0 +1,17 @@
+cal conditioning.
+In Proceedings of the Ninth Annual Conference of the
+Cognitive Science Society, pp. 355-378. Erlbaum, Hillsdale, NJ.
+Sutton, R. S., Barto, A. G. (1990).
+Time-derivative models of Pavlovian
+reinforcement.
+In M. Gabriel and J. Moore (eds.), Learning and Com-
+putational Neuroscience: Foundations of Adaptive Networks, pp. 497–537.
+MIT Press, Cambridge, MA.
+Sutton, R. S., Mahmood, A. R., Precup, D., van Hasselt, H. (2014). A new
+Q(λ) with interim forward view and Monte Carlo equivalence. In Proceed-
+ings of the 31st International Conference on Machine Learning, Beijing,
+China.
+Sutton, R. S., Pinette, B. (1985).
+The learning of world models by connec-
+tionist networks. In Proceedings of the Seventh Annual Conference of the
+Cognitive Science Society, pp. 54–64.

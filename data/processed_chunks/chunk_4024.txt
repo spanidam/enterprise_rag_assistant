@@ -1,0 +1,13 @@
+is slightly unusual. It is more common in the MDP literature to describe
+the dynamics in terms of the state transition probabilities p(s′|s, a) and
+expected next rewards r(s, a). In reinforcement learning, however, we
+more often have to refer to individual actual or sample rewards (rather
+than just their expected values). Our notation also makes it plainer that
+St and Rt are in general jointly determined, and thus must have the
+same time index. In teaching reinforcement learning, we have found
+our notation to be more straightforward conceptually and easier to
+understand.
+3.7–8 Assigning value on the basis of what is good or bad in the long run has
+ancient roots.
+In control theory, mapping states to numerical values
+representing the long-term consequences of control decisions is a key

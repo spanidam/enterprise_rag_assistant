@@ -1,0 +1,45 @@
+move in the y-direction, and subject to a force f and the gravitational force
+mg, as shown in Figure 6.1. By Newton’s Second law, the equation of motion
+Fig. 6.1
+One Degree of Freedom System
+of the particle is
+m¨y
+=
+f −mg
+(6.1)
+Notice that the left hand side of Equation (6.1) can be written as
+m¨y = d
+dt(m ˙y) = d
+dt
+∂
+∂˙y
+1
+2m ˙y2
+
+= d
+dt
+∂K
+∂˙y
+(6.2)
+where K = 1
+2m ˙y2 is the kinetic energy. We use the partial derivative notation
+in the above expression to be consistent with systems considered later when the
+THE EULER-LAGRANGE EQUATIONS
+189
+kinetic energy will be a function of several variables. Likewise we can express
+the gravitational force in Equation (6.1) as
+mg
+=
+∂
+∂y (mgy)
+=
+∂P
+∂y
+(6.3)
+where P = mgy is the potential energy due to gravity. If we deﬁne
+L
+=
+K −P
+=
+1
+2m ˙y2 −mgy

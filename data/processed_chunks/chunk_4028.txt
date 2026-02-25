@@ -1,0 +1,11 @@
+ways. Stretch its limits in some way in at least one of your examples.
+Exercise 3.2 Is the reinforcement learning framework adequate to usefully
+represent all goal-directed learning tasks? Can you think of any clear excep-
+tions?
+Exercise 3.3 Consider the problem of driving. You could deﬁne the actions
+in terms of the accelerator, steering wheel, and brake, that is, where your
+body meets the machine. Or you could deﬁne them farther out—say, where
+the rubber meets the road, considering your actions to be tire torques. Or
+you could deﬁne them farther in—say, where your brain meets your body, the
+actions being muscle twitches to control your limbs. Or you could go to a
+really high level and say that your actions are your choices of where to drive.

@@ -1,0 +1,67 @@
+methods by varying n. Ultimately, the most compelling motivation for the λ
+way of mixing n-step backups is that there in a simple algorithm—TD(λ)—for
+achieving it. This is a mechanism issue rather than a theoretical one. In the
+176
+CHAPTER 7. ELIGIBILITY TRACES
+On-line TD(λ), accumulating traces
+On-line TD(λ), dutch traces
+On-line λ-return
+Off-line λ-return 
+= off-line TD(λ), accumulating traces
+RMS error over ﬁrst 10 episodes on 19-state random walk
+λ=0
+λ=.4
+λ=.8
+λ=.9
+λ=.95
+.975
+.99
+1
+λ=0
+λ=.4
+λ=.8
+λ=.9
+λ=.95
+λ=.975
+λ=.99
+λ=1
+λ=.95
+On-line TD(λ), replacing traces
+True on-line TD(λ)
+= real-time λ-return
+↵
+↵
+λ=0
+λ=.4
+λ=.8
+λ=.9
+λ=.95
+λ=0
+λ=.4
+λ=.8
+λ=.9
+λ=.95
+λ=.975
+λ=.99
+λ=1
+λ=.95
+λ=0
+λ=.4
+λ=.8
+λ=.9
+λ=.95
+λ=.975
+λ=.99
+λ=1
+λ=.95
+λ=.975
+λ=1
+λ=.99
+λ=0
+λ=.4
+λ=.8
+λ=.9
+λ=.95
+λ=.975
+λ=.99
+λ=1

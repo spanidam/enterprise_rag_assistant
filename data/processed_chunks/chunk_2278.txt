@@ -1,0 +1,10 @@
+computer science. McCulloch and Pitts (1943) proposed a model of a neuron 
+that corresponds to the perceptron, and a good deal of work through the 1960s 
+explored variations of this model. During the early 1960s Widrow and Hoff (1960) 
+explored perceptron networks (which they called "adelines") and the delta rule, 
+and Rosenblatt (1962) proved the convergence of the perceptron training rule. 
+However, by the late 1960s it became clear that single-layer perceptron networks 
+had limited representational capabilities, and no effective algorithms were known 
+for training multilayer networks. Minsky and Papert (1969) showed that even 
+simple functions such as XOR could not be represented or learned with single- 
+layer perceptron networks, and work on ANNs receded during the 1970s.

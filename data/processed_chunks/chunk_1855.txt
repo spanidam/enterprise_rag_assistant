@@ -1,0 +1,27 @@
+The sequence of design choices made for the checkers program is summa- 
+rized in Figure 1.2. These design choices have constrained the learning task in a 
+number of ways. We have restricted the type of knowledge that can be acquired 
+to a single linear evaluation function. Furthermore, we have constrained this eval- 
+uation function to depend on only the six specific board features provided. If the 
+true target function V can indeed be represented by a linear combination of these 
+Determine Type 
+of Training Experience 1 
+Determine 
+Target Function 
+I 
+I 
+Determine Representation 
+of Learned Function 
+... 
+Linear function 
+Artificial neural 
+of six features 
+network 
+/ 
+\ 
+I 
+Determine 
+Learning Algorithm 
+I 
+FIGURE 1.2 
+Sununary of choices in designing the checkers learning program.

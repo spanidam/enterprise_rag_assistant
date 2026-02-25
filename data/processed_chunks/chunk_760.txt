@@ -1,0 +1,22 @@
+axis zc is perpendicular to the image plane and aligned with the optic axis of
+the lens (i.e., it passes through the focal center of the lens). The origin of the
+camera frame is located at a distance λ behind the image plane. This point
+is also referred to as the center of projection. The point at which the optical
+axis intersects the image plane is known as the principal point. This coordinate
+frame is illustrated in Figure 11.1.
+With this assignment of the camera frame, any point that is contained in the
+image plane will have coordinates (u, v, λ). Thus, we can use (u, v) to parame-
+terize the image plane, and we will refer to (u, v) as image plane coordinates.
+THE GEOMETRY OF IMAGE FORMATION
+333
+Z
+Y
+object
+X
+Image plane
+image
+center of projection
+(u,v)
+P = (x,y,z
+λ
+Fig. 11.1

@@ -1,0 +1,34 @@
+that speciﬁes the orientation of the end-eﬀector frame relative to the base frame.
+For the Euler angle parameterization, the analytical Jacobian is given by
+Ja(q) =
+
+I
+0
+0
+B(α)−1
+
+J(q)
+(4.150)
+in which
+B(α) =
+
+
+cψsθ
+−sψ
+0
+sψsθ
+cψ
+0
+cθ
+0
+1
+
+
+A conﬁguration at which the Jacobian loses rank (i.e., a conﬁguration q such
+that rank J ≤maxq rank J(q)) is called a singularity. For a manipulator with
+a spherical wrist, the set of singular conﬁgurations includes singularites of the
+wrist (which are merely the singularities in the Euler angle parameterization)
+and singularites in the arm. The latter can be found by solving
+det J11 = 0
+with J11 the upper left 3 × 3 block of the manipulator Jacobian.
+For nonsingular conﬁgurations, the Jacobian relationship can be used to ﬁnd

@@ -1,0 +1,12 @@
+interpretation was that this drastic intervention jarred the program out of local
+optima, but another possibility is that it jarred the program out of evaluation
+282
+CHAPTER 14. APPLICATIONS AND CASE STUDIES
+functions that were consistent but had little to do with winning or losing the
+game.
+Despite these potential problems, Samuel’s checkers player using the gener-
+alization learning method approached “better-than-average” play. Fairly good
+amateur opponents characterized it as “tricky but beatable” (Samuel, 1959).
+In contrast to the rote-learning version, this version was able to develop a
+good middle game but remained weak in opening and endgame play. This
+program also included an ability to search through sets of features to ﬁnd

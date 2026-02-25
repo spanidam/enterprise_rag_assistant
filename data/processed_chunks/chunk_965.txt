@@ -1,0 +1,21 @@
+∇𝜃ℒ(ℬ; 𝑚𝜃) = 1
+𝑏
+∑
+(𝑥𝑖,𝑦𝑖)∈ℬ
+∇𝜃ℒ(𝑥𝑖, 𝑦𝑖; 𝑚𝜃)
+is used as an estimator for ∇𝜃ℒ(𝒟; 𝑚𝜃). This results in the following algorithm in which, interestingly, parameter updates
+occur after each minibatch, which is multiple times per epoch.
+® Algorithm 2 (Stochastic Gradient Descent)
+Input: A dataset 𝒟= (𝑋, 𝑦)
+1. Initialize model parameters 𝜃
+2. for 𝑒= 1..𝐸
+1. for 𝑡= 1..𝑛minibatches
+1. Draw minibatch ℬas a random sample of size 𝑏from 𝒟
+2. for (𝑥𝑖, 𝑦𝑖) ∈ℬ
+1. Compute prediction
+̂𝑦𝑖= 𝑚𝜃(𝑥𝑖)
+2. Compute gradient ∇𝜃ℒ𝑖
+3. Compute minibatch-level gradient ∇𝜃ℒℬ= 1
+𝑏∑𝑖∇𝜃ℒ𝑖
+4. Update parameters 𝜃based on ∇𝜃ℒℬ
+As a consequence, when using SGD, parameter updates are more frequent, but they are “noisy” since they are based on

@@ -1,0 +1,10 @@
+Give the conditional probability table associated with the node Wind. 
+REFERENCES 
+Buntine W. L. (1994). Operations for learning with graphical models. Journal of Art$cial Intelligence 
+Research, 2, 159-225. http://www.cs.washington.edu/research/jair/hom.html. 
+Casella, G., & Berger, R. L. (1990). Statistical inference. Pacific Grove, CA: Wadsworth & 
+Brooks/Cole. 
+Cestnik, B. (1990). Estimating probabilities: A crucial task in machine learning. Proceedings of the 
+Ninth European Conference on Am&5al Intelligence (pp. 147-149). London: Pitman. 
+Chauvin, Y., & Rumelhart, D. (1995). Backpropagation: Theory, architectures, and applications, 
+(edited collection). Hillsdale, NJ: Lawrence Erlbaum Assoc.

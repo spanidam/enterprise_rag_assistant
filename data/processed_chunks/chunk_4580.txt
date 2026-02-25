@@ -1,0 +1,12 @@
+program also included an ability to search through sets of features to ﬁnd
+those that were most useful in forming the value function. A later version
+(Samuel, 1967) included reﬁnements in its search procedure, such as alpha-
+beta pruning, extensive use of a supervised learning mode called “book learn-
+ing,” and hierarchical lookup tables called signature tables (Griﬃth, 1966) to
+represent the value function instead of linear function approximation. This
+version learned to play much better than the 1959 program, though still not
+at a master level. Samuel’s checkers-playing program was widely recognized
+as a signiﬁcant achievement in artiﬁcial intelligence and machine learning.
+14.3
+The Acrobot
+Reinforcement learning has been applied to a wide variety of physical control

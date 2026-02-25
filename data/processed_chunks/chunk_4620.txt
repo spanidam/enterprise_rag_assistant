@@ -1,0 +1,10 @@
+randomly by an exponential distribution with a mean of three minutes. The
+methods compared were a ﬁxed assignment method (FA), a dynamic alloca-
+tion method called “borrowing with directional channel locking” (BDCL), and
+the reinforcement learning method (RL). BDCL (Zhang and Yum, 1989) was
+the best dynamic channel allocation method they found in the literature. It is
+a heuristic method that assigns channels to cells as in FA, but channels can be
+borrowed from neighboring cells when needed. It orders the channels in each
+cell and uses this ordering to determine which channels to borrow and how
+calls are dynamically reassigned channels within a cell.
+Figure 14.10 shows the blocking probabilities of these methods for mean

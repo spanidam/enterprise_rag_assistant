@@ -1,0 +1,17 @@
+general hypothesis will cover at least one negative training example. Therefore, 
+the hypothesis must be dropped from the G boundary, thereby removing an entire 
+branch of the partial ordering from the version space of hypotheses remaining 
+under consideration. 
+After processing these four examples, the boundary sets S4 and G4 delimit 
+the version space of all hypotheses consistent with the set of incrementally ob- 
+served training examples. The entire version space, including those hypotheses 
+A 
+'32: I<?, ?, ?, ?, ?,?>I 
+S 3: {<Sunny, Warm, ?, Strong, Warm, Same>) 
+I 
+S 4: I 
+( <Sunny, Warm ?, Strong, ?, ?> ) I 
+Training Example: 
+4. <Sunny, Warm, High, Strong, Cool, Change>, EnjoySport = Yes 
+FIGURE 2.6 
+CANDIDATE-ELIMINATION

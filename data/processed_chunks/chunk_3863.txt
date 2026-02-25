@@ -1,0 +1,10 @@
+optimal action and then never explore. But even in the deterministic case,
+there is a large advantage to exploring if we weaken some of the other as-
+sumptions. For example, suppose the bandit task were nonstationary, that is,
+that the true values of the actions changed over time. In this case exploration
+is needed even in the deterministic case to make sure one of the nongreedy
+actions has not changed to become better than the greedy one. As we will see
+in the next few chapters, eﬀective nonstationarity is the case most commonly
+encountered in reinforcement learning. Even if the underlying task is station-
+ary and deterministic, the learner faces a set of banditlike decision tasks each
+of which changes over time due to the learning process itself. Reinforcement

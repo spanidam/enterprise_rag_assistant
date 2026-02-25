@@ -1,0 +1,14 @@
+operator results in dropping the part after the decimal.
+4. c. The list comprehension filters for negative numbers in my_list.
+5. b. The list comprehension selects vowels from the given string.
+393
+6. a. The for loop ranges from 0 through 20, stepping by two, but each iterated element is even, so nothing
+is added to new_list.
+Chapter 10
+10.1 Dictionary basics
+1. a. The first item in each key-value pair is the key. Hence "Sunday", "Monday", "Tuesday" are key
+items.
+2. b. The second item in each key-value pair is the value. Hence 1, 2, 3 are value items.
+3. b. Based on the days dictionary object, the value assigned to "Sunday" is 1 .
+4. b. The type of a dictionary object is dict .
+5. b. A dictionary cannot have duplicate keys, and "a" and "A" are two different keys because "a" and "A"

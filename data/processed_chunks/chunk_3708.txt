@@ -1,0 +1,40 @@
+i
+Reinforcement Learning:
+An Introduction
+Second edition, in progress
+Richard S. Sutton and Andrew G. Barto
+c⃝2014, 2015
+A Bradford Book
+The MIT Press
+Cambridge, Massachusetts
+London, England
+ii
+In memory of A. Harry Klopf
+Contents
+Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+viii
+Series Forward
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+xii
+Summary of Notation . . . . . . . . . . . . . . . . . . . . . . . . . .
+xiii
+1
+The Reinforcement Learning Problem
+1
+1.1
+Reinforcement Learning
+. . . . . . . . . . . . . . . . . . . . .
+2
+1.2
+Examples
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+1.3
+Elements of Reinforcement Learning
+. . . . . . . . . . . . . .
+7
+1.4
+Limitations and Scope
+. . . . . . . . . . . . . . . . . . . . . .
+9
+1.5

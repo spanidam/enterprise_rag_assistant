@@ -1,0 +1,26 @@
+To this point, in our derivations of the equations for perspective projection,
+we have dealt only with coordinates expressed relative to the camera frame.
+In typical robotics applications, tasks will be expressed in terms of the world
+coordinate frame, and it will therefore be necessary to perform coordinate trans-
+formations. If we know the position and orientation of the camera frame relative
+to the world coordinate frame we have
+xw = Rw
+c xc + Ow
+c
+(11.8)
+or, if we know xw and wish to solve for xc,
+xc = Rc
+w(xw −Ow
+c )
+(11.9)
+In the remainder of this section, to simplify notation we will deﬁne
+R = Rc
+w,
+T = −Rc
+wOw
+c .
+(11.10)
+Thus,
+xc = Rxw + T
+(11.11)
+Cameras are typically mounted on tripods, or on mechanical positioning

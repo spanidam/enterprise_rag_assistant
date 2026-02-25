@@ -1,0 +1,12 @@
+as link masses, moments of inertia, etc., that must be determined for each
+particular robot in order, for example, to simulate the equations or to tune
+controllers. The complexity of the dynamic equations makes the determination
+of these parameters a diﬃcult task. Fortunately, the equations of motion are
+linear in these inertia parameters in the following sense. There exists an n × ℓ
+function, Y (q, ˙q, ¨q), which we assume is completely known, and an ℓ-dimensional
+vector Θ such that the Euler-Lagrange equations can be written
+The Linearity in the Parameters Property
+D(q) + C(q, ˙q) ˙q + g(q) =: Y (q, ˙q, ¨q)Θ = τ
+(6.117)
+The function, Y (q, ˙q, ¨q), is called the Regressor and Θ is the Parameter
+vector. The dimension of the parameter space, Rℓ, i.e., the number of param-

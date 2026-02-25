@@ -1,0 +1,12 @@
+analysis to problems in which the hypothesis space is infinite. Section 7.5 intro- 
+duces the mistake-bound model and provides a bound on the number of mistakes 
+made by several learning algorithms discussed in earlier chapters. Finally, we in- 
+troduce the WEIGHTED-MAJORITY 
+algorithm, a practical algorithm for combining 
+the predictions of multiple competing learning algorithms, along with a theoretical 
+mistake bound for this algorithm. 
+7.2 PROBABLY LEARNING AN APPROXIMATELY CORRECT 
+HYPOTHESIS 
+In this section we consider a particular setting for the learning problem, called the 
+probably approximately correct (PAC) learning model. We begin by specifying 
+the problem setting that defines the PAC learning model, then consider the ques-

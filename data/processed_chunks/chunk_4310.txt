@@ -1,0 +1,19 @@
+algorithm and the “true online TD(λ)” algorithm (van Seijen and Sutton,
+2014). This is a striking and revealing result, but a little technical. The best
+way to present it is using the notation of linear function approximation, which
+we develop in Chapter 9. We postpone development of the real-time λ-return
+algorithm until then and present here only the backward-view algorithm.
+True online TD(λ) is deﬁned by the dutch trace (Eqs. 7.13 and 7.8) and
+the following value function update:
+Vt+1(s) = Vt(s) + α
+
+δt + Vt(St) −Vt−1(St)
+
+Et(s) −αIsSt
+
+Vt(St) −Vt−1(St)
+
+,
+for all s ∈S, where Ixy is an identity-indicator function, equal to 1 if x = y
+and 0 otherwise. An eﬃcient implementation is given as a boxed algorithm in
+Figure 7.10.

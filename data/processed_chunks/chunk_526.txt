@@ -1,0 +1,35 @@
+Ixx ˙ωx + (Izz −Iyy)ωyωz
+=
+0
+Iyy ˙ωy + (Ixx −Izz)ωzωx
+=
+0
+Izz ˙ωz + (Iyy −Ixx)ωxωy
+=
+0.
+6-2 Verify the expression (??).
+6-3 Find the moments of inertia and cross products of inertia of a uniform
+rectangular solid of sides a, b, c with respect to a coordinate system with
+origin at the one corner and axes along the edges of the solid.
+6-4 Given the cylindrical shell shown, show that
+Ixx
+=
+1
+2mr2 + 1
+12mℓ2
+Ix1x1
+=
+1
+2mr2 + 1
+3mℓ2
+Iz
+=
+mr2.
+6-5 Given the inertia matrix D(q) deﬁned by (6.81) show that det D(q) ̸= 0
+for all q.
+6-6 Consider a 3-link cartesian manipulator,
+a) Compute the inertia tensor Ji for each link i = 1, 2, 3 assuming that
+the links are uniform rectangular solids of length 1, width 1
+4, and
+height 1
+4, and mass 1.

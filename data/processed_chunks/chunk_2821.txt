@@ -1,0 +1,9 @@
+to other methods for searching through the space of computer programs, such as 
+hillclimbing and simulated annealing, is given by O'Reilly and Oppacher (1994). 
+While the above example of GP search is fairly simple, Koza et al. (1996) 
+summarize the use of a GP in several more complex tasks such as designing 
+electronic filter circuits and classifying segments of protein molecules. The fil- 
+ter circuit design problem provides an example of a considerably more complex 
+problem. Here, programs are evolved that transform a simple fixed seed circuit 
+into a final circuit design. The primitive functions used by the GP to construct its 
+programs are functions that edit the seed circuit by inserting or deleting circuit

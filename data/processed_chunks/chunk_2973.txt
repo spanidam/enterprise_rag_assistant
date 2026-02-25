@@ -1,0 +1,10 @@
+this line has focused on alternative search strategies and methods for constraining 
+the hypothesis space to make learning more tractable. For example, Kietz and 
+Wrobel (1992) use rule schemata in their RDT program to restrict the form of 
+expressions that may be considered, during learning, and Muggleton and Feng 
+(1992) discuss the restriction of first-order expressions to ij-determinate literals. 
+Cohen (1994) discusses the GRENDEL program, which accepts as input an ex- 
+plicit description of the language for describing the clause body, thereby allowing 
+the user to explicitly constrain the hypothesis space. 
+LavraC and DZeroski (1994) provide a very readable textbook on inductive 
+logic programming. Other useful recent monographs and edited collections include

@@ -1,0 +1,17 @@
+- 
+If you use this textbook as a bibliographic reference, please include 
+https://openstax.org/details/books/introduction-python-programming in your citation. 
+ 
+For questions regarding this licensing, please contact support@openstax.org. This book utilizes the OpenStax 
+Python Code Runner. The code runner is developed by Wiley and is All Rights Reserved. 
+ 
+Trademarks 
+The OpenStax name, OpenStax logo, OpenStax book covers, OpenStax CNX name, OpenStax CNX logo, 
+OpenStax Tutor name, Openstax Tutor logo, Connexions name, Connexions logo, Rice University name, and 
+Rice University logo are not subject to the license and may not be reproduced without the prior and express 
+written consent of Rice University. 
+ 
+DIGITAL VERSION ISBN-13 
+978-1-961584-45-7 
+ORIGINAL PUBLICATION YEAR 
+2024

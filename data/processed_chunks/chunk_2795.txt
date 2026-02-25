@@ -1,0 +1,10 @@
+DeJong et al. (1993) report roughly comparable performance among these systems, 
+tested on a variety of learning problems. For example, over a set of 12 synthetic 
+problems, GABIL achieved an average generalization accuracy of 92.1 %, whereas 
+the performance of the other systems ranged from 91.2 % to 96.6 %. 
+9.3.1 Extensions 
+DeJong et al. (1993) also explore two interesting extensions to the basic design 
+of GABIL. In one set of experiments they explored the addition of two new ge- 
+netic operators that were motivated by the generalization operators common in 
+many symbolic learning methods. The first of these operators, AddAlternative, 
+generalizes the constraint on a specific attribute by changing a 0 to a 1 in the

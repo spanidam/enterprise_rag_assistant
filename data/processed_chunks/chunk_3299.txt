@@ -1,0 +1,11 @@
+a, and then drawing an outcome at random according to this distribution. When 
+these probability distributions depend solely on s and a (e.g., they do not depend 
+on previous states or actions), then we call the system a nondeterministic Markov 
+decision process. 
+In this section we extend the Q learning algorithm for the deterministic 
+case to handle nondeterministic MDPs. To accomplish this, we retrace the line 
+of argument that led to the algorithm for the deterministic case, revising it where 
+needed. 
+In the nondeterministic case we must first restate the objective of the learner 
+to take into account the fact that outcomes of actions are no longer deterministic. 
+The obvious generalization is to redefine the value V" of a policy n to be the ex-

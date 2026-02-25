@@ -1,0 +1,29 @@
+c.
+my_dict = {key1=value1, key2=value2}
+5. What is the output of the following code?
+my_dict = dict({"a": 1})
+print(my_dict)
+a.
+{"a": 1}
+b.
+<class, 'dict'>
+c.
+"a"
+1
+6. Which option creates a dictionary with two key-value pairs, "a": "A" and "b": "B"?
+a.
+dict(a: A, b: B)
+b.
+dict([("a", "A"), ("b", "B")])
+c.
+dict({"a" = "A", "b" = "B"})
+TRY IT
+Personal information dictionary
+Create a dictionary, my_info, with three key-value pairs. The keys should be "first name", "last
+name", and "age" with the values being corresponding information about yourself. Then, print my_info.
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+10-2-dictionary-creation)
+10.3 Dictionary operations
+Learning objectives
+By the end of this section you should be able to
+•

@@ -1,0 +1,13 @@
+nl randomly drawn examples, and ha has been tested on an indi:pendent sample 
+S2 containing n2 examples drawn from the same distribution. Suppose we wish 
+to estimate the difference d between the true errors of these two hypotheses. 
+We will use the generic four-step procedure described at the beginning of 
+Section 5.4 to derive a confidence interval estimate for d. Having identified d as 
+the parameter to be estimated, we next define an estimator. The obvious choice 
+for an estimator in this case is the difference between the sample errors, which 
+we denote by 2 
+,. 
+d = errors, (hl) - errors, (h2) 
+Although we will not prove it here, it can be shown that 2 gives an unbiased 
+estimate of d; that is E[C? ] = d. 
+What is the probability distribution governing the random variable 2? From

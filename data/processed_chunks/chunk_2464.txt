@@ -1,0 +1,10 @@
+have such a representation we must know all the prior probabilities P(h), as well 
+as the P(D1h). There is no reason to believe that the MDL hypothesis relative to 
+arbitrary encodings C1 and C2 should be preferred. As a practical matter it might 
+sometimes be easier for a human designer to specify a representation that captures 
+knowledge about the relative probabilities of hypotheses than it is to fully specify 
+the probability of each hypothesis. Descriptions in the literature on the application 
+of MDL to practical learning problems often include arguments providing some 
+form of justification for the encodings chosen for C1 and C2. 
+6.7 BAYES OPTIMAL CLASSIFIER 
+So far we have considered the question "what is the most probable hypothesis

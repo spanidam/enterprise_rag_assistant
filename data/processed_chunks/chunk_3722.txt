@@ -1,0 +1,12 @@
+was recognized that such a fundamental idea had not yet been thoroughly
+explored.
+The ﬁeld has come a long way since then, evolving and maturing in sev-
+eral directions. Reinforcement learning has gradually become one of the most
+active research areas in machine learning, artiﬁcial intelligence, and neural net-
+work research. The ﬁeld has developed strong mathematical foundations and
+impressive applications. The computational study of reinforcement learning is
+now a large ﬁeld, with hundreds of active researchers around the world in di-
+verse disciplines such as psychology, control theory, artiﬁcial intelligence, and
+neuroscience. Particularly important have been the contributions establishing
+and developing the relationships to the theory of optimal control and dynamic
+programming.

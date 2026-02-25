@@ -1,0 +1,20 @@
+rithms and have been successfully applied to a broad range of tasks from learning 
+to diagnose medical cases to learning to assess credit risk of loan applicants. 
+3.2 DECISION TREE REPRESENTATION 
+Decision trees classify instances by sorting them down the tree from the root to 
+some leaf node, which provides the classification of the instance. Each node in the 
+tree specifies a test of some attribute of the instance, and each branch descending 
+CHAPTER 3 DECISION TREE LEARNING 53 
+Noma1 
+Strong 
+Weak 
+No 
+\ 
+Yes 
+/ 
+No 
+\ 
+Yes 
+FIGURE 3.1 
+A decision tree for the concept PlayTennis. An example is classified by sorting it through the tree 
+to the appropriate leaf node, then returning the classification associated with this leaf (in this case,

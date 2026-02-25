@@ -1,0 +1,17 @@
+b.
+logfile = open("newlog.txt", 'w')
+c.
+logfile = open("newlog.txt", 'a')
+Using write() and close()
+The write() function is used to write to an already opened file. The write() function will only accept a string
+parameter. Other variable types must be cast to string before writing using write().
+The write() function does not automatically add a newline character as the print() function does. A
+newline must be added explicitly by adding a newline ('\n') character.
+332
+14 • Files
+Access for free at openstax.org
+The write() function writes automatically to a temporary store called the file buffer. To ensure that the
+information is written to a file, the close() function must be used. The close() function finalizes changes
+and closes the file.
+EXAMPLE 14.2
+Writing and appending to a file

@@ -1,0 +1,77 @@
+30
+35
+40
+45
+50
+−2
+0
+2
+4
+6
+8
+10
+12
+14
+Fig. 7.29
+Step response – PD control with load angle feedback.
+where
+A =
+
+
+0
+1
+0
+0
+−k
+Jℓ
+−Bℓ
+Jℓ
+k
+Jℓ
+0
+0
+0
+0
+1
+k
+Jm
+0
+−k
+Jm
+Bm
+Jm
+
+;
+b =
+
+
+0
+0
+0
+1
+Jm
+
+.
+(7.69)
+If we choose an output y(t), say the measured load angle θℓ(t), then we have
+an output equation
+y
+=
+x1 = cT x
+(7.70)
+where
+cT
+=
+[1, 0, 0, 0].
+(7.71)
+The relationship between the state space form (7.68)-(7.70) and the transfer
+function deﬁned by (7.61) is found by taking Laplace transforms of (7.68)-(7.70)
+with initial conditions set to zero. This yields
+G(s)
+=
+Θℓ(s)
+U(s) = Y (s)
+U(s) = cT (sI −A)−1b
+(7.72)
+where I is the n × n identity matrix. The poles of G(s) are eigenvalues of the
+matrix A. In the system (7.68)–(7.70) the converse holds as well, that is, all of

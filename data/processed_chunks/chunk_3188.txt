@@ -1,0 +1,12 @@
+distinguishing relevant from irrelevant features. When these extracted derivatives 
+are provided as training derivatives to TANGENTPROP 
+for learning the target net- 
+work Cup,,,,,,, 
+they provide a useful bias for guiding generalization. The usual 
+syntactic inductive bias of neural network learning is replaced in this case by the 
+bias exerted by the derivatives obtained from the domain theory. 
+Above we described how the domain theory prediction can be used to gen- 
+erate a set of training derivatives. To be more precise, the full EBNN algorithm 
+is as follows. Given the training examples and domain theory, EBNN first cre- 
+ates a new, fully connected feedforward network to represent the target function. 
+This target network is initialized with small random weights, just as in BACK-

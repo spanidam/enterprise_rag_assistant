@@ -1,0 +1,12 @@
+search resulted in signiﬁcantly better action selections.
+So far we have emphasized heuristic search as an action-selection technique,
+but this may not be its most important aspect. Heuristic search also suggests
+ways of selectively distributing backups that may lead to better and faster
+approximation of the optimal value function.
+A great deal of research on
+heuristic search has been devoted to making the search as eﬃcient as possible.
+The search tree is grown selectively, deeper along some lines and shallower
+along others.
+For example, the search tree is often deeper for the actions
+that seem most likely to be best, and shallower for those that the agent will
+probably not want to take anyway. Can we use a similar idea to improve the

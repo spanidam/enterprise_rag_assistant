@@ -1,0 +1,13 @@
+both the encoder and decoder stacks. There are various options
+for positional encodings, either learned or fixed. In the vanilla
+Transformer, sine and cosine functions are employed for this
+purpose. The main drawback of using APE in Transformers
+is the restriction to a certain number of tokens. Additionally,
+APE fails to account for the relative distances between tokens.
+2) Relative Positional Embeddings: (RPE) [126] involves
+extending self-attention to take into account the pairwise links
+between input elements. RPE is added to the model at two
+levels: first as an additional component to the keys, and
+subsequently as a sub-component of the values matrix. This
+approach looks at the input as a fully-connected graph with
+labels and directed edges. In the case of linear sequences, edges

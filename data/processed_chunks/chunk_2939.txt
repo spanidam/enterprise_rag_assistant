@@ -1,0 +1,10 @@
+a negative literal in the other. It then draws the conclusion given by the above 
+formula. For example, consider the application of the resolution operator illustrated 
+on the left side of Figure 10.2. Given clauses C1 and C2, the first step of the 
+procedure identifies the literal L = -KnowMaterial, which is present in C1, and 
+whose negation -(-KnowMaterial) = KnowMaterial is present in C2. Thus the 
+conclusion is the clause formed by the union of the literals C1- ( L }  = Pass Exam 
+and C2 - (-L} = -Study. As another example, the result of applying the resolution 
+rule to the clauses C1 = A  v B v C v -D and C2 = -B v E v F  is the clause 
+A v C V - D v E v F .  
+It is easy to invert the resolution operator to form an inverse entailment

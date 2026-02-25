@@ -1,0 +1,65 @@
+y
+=
+T(x)
+(10.37)
+satisfy the linear system of equations
+˙y
+=
+Ay + bv
+(10.38)
+where
+A =
+
+
+0
+1
+0
+0
+0
+0
+1
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+1
+0
+0
+·
+·
+0
+0
+
+
+b =
+
+
+0
+0
+·
+·
+·
+1
+
+
+(10.39)
+Remark 10.1 The nonlinear transformation (10.37) and the nonlinear control
+law (10.36), when applied to the nonlinear system (10.35), result in a linear
+SINGLE-INPUT SYSTEMS
+309
+controllable system (10.38). The diﬀeomorphism T(x) can be thought of as a
+nonlinear change of coordinates in the state space. The idea of feedback lin-
+earization is then that if one ﬁrst changes to the coordinate system y = T(x),
+then there exists a nonlinear control law to cancel the nonlinearities in the sys-
+tem. The feedback linearization is said to be global if the region U is all of
+Rn.

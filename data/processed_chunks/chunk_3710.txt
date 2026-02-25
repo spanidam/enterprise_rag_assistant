@@ -1,0 +1,40 @@
+38
+2.5
+Optimistic Initial Values . . . . . . . . . . . . . . . . . . . . .
+39
+2.6
+Upper-Conﬁdence-Bound Action Selection . . . . . . . . . . .
+41
+iii
+iv
+CONTENTS
+2.7
+Gradient Bandits . . . . . . . . . . . . . . . . . . . . . . . . .
+42
+2.8
+Associative Search (Contextual Bandits) . . . . . . . . . . . .
+46
+2.9
+Summary
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+47
+3
+Finite Markov Decision Processes
+53
+3.1
+The Agent–Environment Interface . . . . . . . . . . . . . . . .
+53
+3.2
+Goals and Rewards . . . . . . . . . . . . . . . . . . . . . . . .
+57
+3.3
+Returns
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+59
+3.4
+Uniﬁed Notation for Episodic and Continuing Tasks . . . . . .
+61
+∗3.5
+The Markov Property . . . . . . . . . . . . . . . . . . . . . . .
+62
+3.6

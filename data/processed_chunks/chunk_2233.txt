@@ -1,0 +1,10 @@
+ahead, or up. After training on 260 such images, the network achieves an accuracy of 90% over a 
+separate test set. The learned network weights are shown after one weight-tuning iteration through 
+the training examples and after 100 iterations. Each output unit (left, straight, right, up) has four 
+weights, shown by dark (negative) and light (positive) blocks. The leftmost block corresponds to 
+the weight wg, which determines the unit threshold, and the three blocks to the right correspond to 
+weights on inputs from the three hidden units. The weights from the image pixels into each hidden 
+unit are also shown, with each weight plotted in the position of the corresponding image pixel. 
+4.7.2 Design Choices 
+In applying BACKPROPAGATION 
+to any given task, a number of design choices

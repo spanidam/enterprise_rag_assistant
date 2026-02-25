@@ -1,0 +1,14 @@
+information, entail the training data. One strategy is to use a sequential cover- 
+ing algorithm to iteratively learn a set of Horn clauses in this way. On each 
+iteration, the algorithm selects a training example (xi, f (xi)) that is not yet cov- 
+ered by previously learned clauses. The inverse resolution rule is then applied to 
+- 
+-- 
+- 
+- 
+1. Given initial clauses C1 and C, find a literal L that occurs in clause C1, but not in clause C. 
+2. Form the second clause Cz by including the following literals 
+TABLE 10.6 
+Inverse resolution operator (propositional form). Given two clauses C and Cl. this computes a clause 
+C2 such that C1 A Cz I- C. 
+generate candidate hypotheses hi that satisfy (B A hi A xi) I- f (xi), where B is the

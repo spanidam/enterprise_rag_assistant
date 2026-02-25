@@ -1,0 +1,33 @@
+ure 7.15. We see that the steady state error due to the disturbance is removed.
+⋄
+7.3.4
+Saturation
+In theory, one could achieve arbitrarily fast response and arbitrarily small steady
+state error to a constant disturbance by simply increasing the gains in the PD or
+PID compensator. In practice, however, there is a maximum speed of response
+achievable from the system. Two major factors, heretofore neglected, limit the
+achievable performance of the system. The ﬁrst factor, saturation, is due to
+SET-POINT TRACKING
+243
+0
+0.5
+1
+1.5
+2
+2.5
+3
+0
+2
+4
+6
+8
+10
+12
+Time (sec)
+Step Response
+Response With Integral Control
+ω = 4 
+ω = 8 
+Fig. 7.15
+Response with integral control action.
+limits on the maximum torque (or current) input. Many manipulators, in fact,

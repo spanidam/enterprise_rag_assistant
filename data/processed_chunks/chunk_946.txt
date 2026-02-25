@@ -1,0 +1,18 @@
+for our regression task), which will be discussed in a dedicated chapter;
+• the concept of gradient descent to optimize the chosen loss over a model’s single parameter, and this will be extended
+in our chapter on optimization.
+8
+Chapter 1. Introduction
+CHAPTER 2
+MULTI LAYER PERCEPTRONS
+In the previous chapter, we have seen a very simple model called the Perceptron. In this model, the predicted output
+̂𝑦is
+computed as a linear combination of the input features plus a bias:
+̂𝑦=
+𝑑
+∑
+𝑗=1
+𝑥𝑗𝑤𝑗+ 𝑏
+In other words, we were optimizing among the family of linear models, which is a quite restricted family.
+2.1 Stacking layers for better expressivity
+In order to cover a wider range of models, one can stack neurons organized in layers to form a more complex model, such

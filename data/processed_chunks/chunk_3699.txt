@@ -1,0 +1,13 @@
+technologies as the popular Megatron-DeepSpeed library but
+with substantially increased usability and novel optimizations.
+LoRA [226] library provides the support for Low-Rank
+Adaptation of Large Language Models. It reduces the number
+of trainable parameters by learning pairs of rank-decompostion
+matrices while freezing the original weights. This vastly
+reduces the storage requirement for large language models
+adapted to specific tasks and enables efficient task-switching
+during deployment all without introducing inference latency.
+LoRA also outperforms several other adaptation methods in-
+cluding adapter, prefix-tuning, and fine-tuning.
+ColossalAI library [227] provides a collection of parallel
+components. It aims to support developers to write their

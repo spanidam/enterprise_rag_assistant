@@ -1,0 +1,11 @@
+and solve (C.15), which is now called the matrix Lyapunov equation, for P.
+If a symmetric positive deﬁnite solution P can be found to this equation, then
+(C.4) is stable and xT Px is a Lyapunov function for the linear system (C.4).
+The converse to this statement also holds. In fact, we can summarize these
+statements as
+Theorem 8 Given an n × n matrix A then all eigenvalues of A have negative
+real part if and only if for every symmetric positive deﬁnite n×n matrix Q, the
+Lyapunov equation (C.11) has a unique positive deﬁnite solution P.
+Thus, we can reduce the determination of stability of a linear system to the
+solution of a system of linear equations, namely, (C.11), which is certainly
+easier than ﬁnding all the roots of the characteristic polynomial and, for large

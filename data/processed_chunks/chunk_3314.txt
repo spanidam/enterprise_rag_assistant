@@ -1,0 +1,9 @@
+Despite the success of these systems, for other tasks reinforcement learning 
+fails to converge once a generalizing function approximator is introduced. Ex- 
+amples of such problematic tasks are given by Boyan and Moore (1995), Baird 
+(1995), and Gordon (1995). Note the convergence theorems discussed earlier in 
+this chapter apply only when Q is represented by an explicit table. To see the 
+difficulty, consider using a neural network rather than an explicit table to repre- 
+sent Q. Note if the learner updates the network to better fit the training Q value 
+for a particular transition (si, ai), the altered network weights may also change 
+the Q estimates for arbitrary other transitions. Because these weight changes may

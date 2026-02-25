@@ -1,0 +1,10 @@
+Central Limit Theorem. Consider again our general setting, in which we observe 
+the values of n independently drawn random variables Yl . . . Yn that obey the same 
+unknown underlying probability distribution (e.g., n tosses of the same coin). Let 
+p denote the mean of the unknown distribution governing each of the Yi and let 
+a denote the standard deviation. We say that these variables Yi are independent, 
+identically distributed random variables, because they describe independent exper- 
+iments, each obeying the same underlying probability distribution. In an attempt 
+to estimate the mean p of the distribution governing the Yi, we calculate the sam- 
+ple mean 
+= '& Yi (e.g., the fraction of heads among the n coin tosses).

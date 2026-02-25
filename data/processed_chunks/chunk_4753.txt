@@ -1,0 +1,12 @@
+with a time–delay TD(λ) network.
+In D. S. Touretzky, M. C. Mozer,
+M. E. Hasselmo (eds.), Advances in Neural Information Processing Sys-
+tems: Proceedings of the 1995 Conference, pp. 1024–1030.
+MIT Press,
+Cambridge, MA.
+Zweben, M., Daun, B., Deale, M. (1994). Scheduling and rescheduling with
+iterative repair. In M. Zweben and M. S. Fox (eds.), Intelligent Scheduling,
+pp. 241–255. Morgan Kaufmann, San Francisco.
+338
+CHAPTER 15. PROSPECTS
+Index

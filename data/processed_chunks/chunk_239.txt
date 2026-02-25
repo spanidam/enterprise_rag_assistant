@@ -1,0 +1,16 @@
+the sperical wrist.)
+12. Suppose that a Rhino XR-3 is bolted to a table upon which a coordi-
+nate frame osxsyszs is established as shown in Figure 3.33. (The frame
+osxsyxzs is often referred to as the station frame.) Given the base frame
+106
+FORWARD AND INVERSE KINEMATICS
+Fig. 3.30
+Cartesian manipulator with spherical wrist
+that you established in Problem 3-11, ﬁnd the homogeneous transforma-
+tion T s
+0 relating the base frame to the station frame. Find the homo-
+geneous transformation T s
+5 relating the end-eﬀector frame to the station
+frame. What is the position and orientation of the end-eﬀector in the
+station frame when θ1 = θ2 = · · · = θ5 = 0?
+13. Consider the GMF S-400 robot shown in Figure 3.34 Draw the symbolic

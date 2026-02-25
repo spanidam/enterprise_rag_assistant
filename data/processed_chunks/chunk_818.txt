@@ -1,0 +1,17 @@
+355
+356
+VISION-BASED CONTROL
+other options. Following this, we develop the speciﬁc mathematical tools needed
+for this approach, both design and analysis.
+12.1
+APPROACHES TO VISION BASED-CONTROL
+There are several distinct approaches to vision-based control. These vary based
+primarily on system conﬁguration and how image data is used. In this section,
+we give a brief description of these considerations.
+12.1.1
+Where to put the camera
+Perhaps the ﬁrst decision to be made when constructing a vision-based control
+system is where to place the camera. There are essentially two options: the
+camera can be mounted in a ﬁxed location in the workspace, or it can be
+attached to the manipulator. These are often referred to as ﬁxed camera vs.
+eye-in-hand conﬁgurations, respectively.

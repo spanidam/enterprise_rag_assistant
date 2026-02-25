@@ -1,0 +1,11 @@
+stochastic tasks, as illustrated in the following example.
+Example 6.2: Random Walk
+In this example we empirically compare the
+prediction abilities of TD(0) and constant-α MC applied to the small Markov
+process shown in Figure 6.5. All episodes start in the center state, C, and
+proceed either left or right by one state on each step, with equal probabil-
+ity. This behavior is presumably due to the combined eﬀect of a ﬁxed policy
+and an environment’s state-transition probabilities, but we do not care which;
+we are concerned only with predicting returns however they are generated.
+Episodes terminate either on the extreme left or the extreme right. When an
+episode terminates on the right a reward of +1 occurs; all other rewards are

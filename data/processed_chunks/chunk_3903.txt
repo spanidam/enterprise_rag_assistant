@@ -1,0 +1,13 @@
+of each possible chain of events can be determined, and one need only pick
+the best. But the tree of possibilities grows extremely rapidly; even if there
+are only two actions and two rewards, the tree will have 22000 leaves. This
+approach eﬀectively turns the bandit problem into an instance of the full rein-
+forcement learning problem. In the end, we may be able to use reinforcement
+learning methods to approximate this optimal solution. But that is a topic for
+current research and beyond the scope of this book.
+Bibliographical and Historical Remarks
+2.1
+Bandit problems have been studied in statistics, engineering, and psy-
+chology. In statistics, bandit problems fall under the heading “sequen-
+tial design of experiments,” introduced by Thompson (1933, 1934) and
+50

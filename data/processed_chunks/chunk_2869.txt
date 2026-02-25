@@ -1,0 +1,28 @@
+IF 
+THEN PlayTennis=yes 
+IF Wind=strong 
+t 
+IF Humidity=high 
+THEN PlayTennis=no 
+IF Hum'ditv=norntal 
+THEN PlayTennis=no 
+THEN PlayTennis=yes 
+IF Humidify=normal 
+Wind=weak 
+THEN PlayTennis=yes IF Humidity=normal A/\----- 
+IF Humidity=nowl 
+... 
+Wind=strong 
+IF Humidity=normal 
+Outlook=rain 
+THEN PlayTennis=yes 
+Outlook=sunny 
+THEN PlnyTennis=yes 
+THEN PlayTennis=yes 
+FIGURE 10.1 
+The search for rule preconditions as LEARN-ONE-RULE 
+proceeds from general to specific. At each 
+step, the preconditions of the best rule are specialized in all possible ways. Rule postconditions are 
+determined by the examples found to satisfy the preconditions. This figure illustrates a beam search 
+of width 1. 
+search, there is a danger that a suboptimal choice will be made at any step. To

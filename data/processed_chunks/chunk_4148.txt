@@ -1,0 +1,69 @@
+one can do in this new environment with general policies is the same as the
+best one could do in the original environment with ε-soft policies. Let ev∗and
+eq∗denote the optimal value functions for the new environment. Then a policy
+π is optimal among ε-soft policies if and only if vπ = ev∗. From the deﬁnition
+of ev∗we know that it is the unique solution to
+ev∗(s)
+=
+(1 −ε) max
+a
+eq∗(s, a) +
+ϵ
+|A(s)|
+X
+a
+eq∗(s, a)
+=
+(1 −ε) max
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γev∗(s′)
+i
++
+ϵ
+|A(s)|
+X
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γev∗(s′)
+i
+.
+When equality holds and the ε-soft policy π is no longer improved, then we
+also know, from (5.2), that
+vπ(s)
+=
+(1 −ε) max
+a
+qπ(s, a) +
+ϵ
+|A(s)|
+X
+a
+qπ(s, a)
+=
+(1 −ε) max
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
++
+ϵ
+|A(s)|
+X
+a
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+.

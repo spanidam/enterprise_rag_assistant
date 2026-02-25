@@ -1,0 +1,53 @@
+4. What is the output of the following code?
+8.3 • Searching/testing strings
+205
+for c in "string":
+print(c, end = "")
+a.
+string
+b.
+s
+t
+r
+i
+n
+g
+c.
+s t r i n g
+5. What is the output of the following code?
+count = 0
+for c in "abca":
+if c == "a":
+count += 1
+print(count)
+a.
+0
+b.
+1
+c.
+2
+6. What is the output of the following code?
+word = "cab"
+for i in word:
+if i == "a":
+print("A", end = "")
+if i == "b":
+print("B", end = "")
+if i == "c":
+print("C", end = "")
+a.
+cab
+b.
+abc
+c.
+CAB
+d.
+ABC
+count()
+The count() method counts the number of occurrences of a substring in a given string. If the given substring
+does not exist in the given string, the value 0 is returned.
+206
+8 • Strings
+Access for free at openstax.org
+CHECKPOINT
+Counting the number of occurrences of a substring

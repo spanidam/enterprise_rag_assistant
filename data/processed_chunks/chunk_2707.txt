@@ -1,0 +1,10 @@
+that the nearest neighbors can be identified more efficiently at some additional cost 
+in memory. One such indexing method is the kd-tree (Bentley 1975; Friedman 
+et al. 1977), in which instances are stored at the leaves of a tree, with nearby 
+instances stored at the same or nearby nodes. The internal nodes of the tree sort 
+the new query x, to the relevant leaf by testing selected attributes of x,. 
+8.2.3 A Note on Terminology 
+Much of the literature on nearest-neighbor methods and weighted local regression 
+uses a terminology that has arisen from the field of statistical pattern recognition. 
+In reading that literature, it is useful to know the following terms: 
+0 Regression means approximating a real-valued target function.

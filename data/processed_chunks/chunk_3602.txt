@@ -1,0 +1,12 @@
+model (pretrained language model with only instruction fine-
+tuning), and Chat model (pretrained language model with
+instruction and chat fine-tuning). Apart from all the catego-
+rization described, another category is required to distinguish
+between original models and tuned ones. Original models are
+those that have been released as a foundation model or a fine-
+tuned one. Tuned models are those that grasped the original
+model and tuned it with different datasets or even different
+training approaches. It is also good to note that original models
+are usually foundation models that have been fine-tuned on
+specific datasets or even different approaches. Availability of
+the model weights regardless of the license is another category

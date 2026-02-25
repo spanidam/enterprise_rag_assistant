@@ -1,0 +1,17 @@
+statement, variable = input("prompt"), has three parts:
+1.
+A variable refers to a value stored in memory. In the statement above, variable can be replaced with any
+name the programmer chooses.
+2.
+The input() function reads one line of input from the user. A function is a named, reusable block of code
+that performs a task when called. The input is stored in the computer's memory and can be accessed later
+using the variable.
+3.
+A prompt is a short message that indicates the program is waiting for input. In the statement above,
+"prompt" can be omitted or replaced with any message.
+CHECKPOINT
+Obtaining input from the user
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+1-2-inputoutput)
+CONCEPTS IN PRACTICE
+The input() function

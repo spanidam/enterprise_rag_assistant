@@ -1,0 +1,9 @@
+Given this functional specification for the new design problem, CADET 
+searches its library for stored cases whose functional descriptions match the design 
+problem. If an exact match is found, indicating that some stored case implements 
+exactly the desired function, then this case can be returned as a suggested solution 
+to the design problem. If no exact match occurs, CADET may find cases that 
+match various subgraphs of the desired functional specification. In Figure 8.3, for 
+example, the T-junction function matches a subgraph of the water faucet function 
+graph. More generally, CADET searches for subgraph isomorphisms between the 
+two function graphs, so that parts of a case can be found to match parts of the

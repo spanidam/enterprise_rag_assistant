@@ -1,0 +1,11 @@
+TrainingJxamples: Set of (input output) pairs of the targetfunction. 
+Analytical step: Create an initial network equivalent to the domain theory. 
+1. For each instance attribute create a network input. 
+2. For each Horn clause in the Domain-Theory, create a network unit as follows: 
+0 Connect the inputs of this unit to the attributes tested by the clause antecedents. 
+For each non-negated antecedent of the clause, assign a weight of W to the correspond- 
+ing sigmoid unit input. 
+For each negated antecedent of the clause, assign a weight of - W to the corresponding 
+sigmoid unit input. 
+0 Set the threshold weight wo for this unit to -(n - .5)W, where n is the number of 
+non-negated antecedents of the clause.

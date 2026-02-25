@@ -1,0 +1,50 @@
+(10.115)
+assuming the initial angular momentum is zero. This constraint may be written
+as
+< w, ˙q >= 0
+(10.116)
+where w =
+ m(ℓ+ d)2
+0
+I + m(ℓ+ d)2 
+. Since the dimension of the con-
+ﬁguration space is three and there is one constraint, we need to ﬁnd two in-
+dependent vectors, g1 and g2 spanning the annihilating distribution ∆= Ω⊥,
+where Ω= span {w}. It is easy to see that
+g1 =
+
+
+0
+1
+0
+
+
+and
+g2 =
+
+
+1
+0
+−
+m(ℓ+d)2
+I+m(ℓ+d)2
+
+
+(10.117)
+are linearly independent at each point and orthogonal to w. Checking involutiv-
+ity of ∆we ﬁnd that
+[g1, g2] =
+
+
+0
+0
+−2Im(ℓ+d)
+[I+m(ℓ+d)2]2
+
+=: g3
+(10.118)
+Since g3 is not a linear combination of g1 and g2 it follows that ∆is not an
+involutive distribution and hence the constraint is nonholonomic.
+324
+GEOMETRIC NONLINEAR CONTROL
+10.7

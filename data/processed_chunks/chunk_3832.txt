@@ -1,0 +1,10 @@
+(Hawkins and Kandel, 1984; Byrne, Gingrich, and Baxter, 1990; Gelperin,
+Hopﬁeld, and Tank, 1985; Tesauro, 1986; Friston et al., 1994), although in
+most cases there was no historical connection.
+Our early work on temporal-diﬀerence learning was strongly inﬂuenced
+by animal learning theories and by Klopf’s work. Relationships to Minsky’s
+“Steps” paper and to Samuel’s checkers players appear to have been recognized
+only afterward. By 1981, however, we were fully aware of all the prior work
+mentioned above as part of the temporal-diﬀerence and trial-and-error threads.
+At this time we developed a method for using temporal-diﬀerence learning in
+trial-and-error learning, known as the actor–critic architecture, and applied

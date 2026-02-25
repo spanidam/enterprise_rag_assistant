@@ -1,0 +1,10 @@
+fileobj.
+2. a. The file must exist in the same folder as the Python file in order for the file to be opened.
+399
+3. b. Python interprets this command as the programmer trying to print the object details. The object details
+are printed. Ex: <_io.TextIOWrapper name='newfile.txt' mode='r' encoding='cp1252'>.
+4. c. The read() function is called on fileobj. The file's contents will be read into file_str.
+5. b. The readlines() function is called on fileobj. file_lines is the string list ['Hello world!\n',
+'How are you?\n'].
+6. a. The readline() function reads the next line of a file. Since readline() is called right after opening
+the file the first line is read. The resulting string "Hello world!" is printed. Note that readline()

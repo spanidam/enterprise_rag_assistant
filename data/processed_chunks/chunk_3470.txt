@@ -1,0 +1,15 @@
+ized for dialog, which have up to 137B parameters and are
+pre-trained on 1.56T words of public dialog data and web text.
+They showed that fine-tuning with annotated data and enabling
+the model to consult external knowledge sources can lead to
+significant improvements towards the two key challenges of
+safety and factual grounding.
+OPT: In [86], Zhang et al. presented Open Pre-trained
+Transformers (OPT), a suite of decoder-only pre-trained trans-
+formers ranging from 125M to 175B parameters, which they
+share with researchers. The OPT models’ parameters are
+shown in 20
+Fig. 20: Different OPT Models’ architecture details. Courtesy
+of [86].
+Chinchilla: In [2], Hoffmann et al. investigated the optimal
+model size and number of tokens for training a transformer

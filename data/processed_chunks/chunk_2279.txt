@@ -1,0 +1,12 @@
+layer perceptron networks, and work on ANNs receded during the 1970s. 
+During the mid-1980s work on ANNs experienced a resurgence, caused in 
+large part by the invention of BACKPROPAGATION 
+and related algorithms for train- 
+ing multilayer networks (Rumelhart and McClelland 1986; Parker 1985). These 
+ideas can be traced to related earlier work (e.g., Werbos 1975). Since the 1980s, 
+BACKPROPAGATION 
+has become a widely used learning method, and many other 
+ANN approaches have been actively explored. The advent of inexpensive com- 
+puters during this same period has allowed experimenting with computationally 
+intensive algorithms that could not be thoroughly explored during the 1960s. 
+A number of textbooks are devoted to the topic of neural network learning.

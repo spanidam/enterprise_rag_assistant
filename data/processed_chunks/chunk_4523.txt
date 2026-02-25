@@ -1,0 +1,12 @@
+during a period when neural networks were generally regarded as being too
+weak in computational power to be useful, whereas our work was at the be-
+ginning of the period that saw widespread questioning of that conventional
+wisdom.
+There remain many opportunities for combining aspects of these
+diﬀerent approaches.
+A number of reinforcement learning studies using function approximation
+methods that we have not covered previously should be mentioned. Barto,
+Sutton, and Brouwer (1981) and Barto and Sutton (1981b) extended the idea
+of an associative memory network (e.g., Kohonen, 1977; Anderson, Silverstein,
+Ritz, and Jones, 1977) to reinforcement learning. Hampson (1983, 1989) was
+an early proponent of multilayer neural networks for learning value functions.

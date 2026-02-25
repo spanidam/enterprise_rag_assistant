@@ -1,0 +1,9 @@
+down, beginning with the question "which attribute should be tested at the root 
+of the tree?'To answer this question, each instance attribute is evaluated using 
+a statistical test to determine how well it alone classifies the training examples. 
+The best attribute is selected and used as the test at the root node of the tree. 
+A descendant of the root node is then created for each possible value of this 
+attribute, and the training examples are sorted to the appropriate descendant node 
+(i.e., down the branch corresponding to the example's value for this attribute). 
+The entire process is then repeated using the training examples associated with 
+each descendant node to select the best attribute to test at that point in the tree.

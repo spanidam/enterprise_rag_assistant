@@ -1,0 +1,21 @@
+Outlook 
+Wind 
+01 1 
+10 
+Rule postconditions (such as PlayTennis = yes) can be represented in a 
+similar fashion. Thus, an entire rule can be described by concatenating the bit 
+strings describing the rule preconditions, together with the bit string describing 
+the rule postcondition. For example, the rule 
+IF Wind = Strong 
+THEN PlayTennis = yes 
+would be represented by the string 
+Outlook 
+Wind 
+PlayTennis 
+111 
+10 
+10 
+where the first three bits describe the "don't care" constraint on Outlook, the next 
+two bits describe the constraint on Wind, and the final two bits describe the rule 
+postcondition (here we assume PlayTennis can take on the values Yes or No). 
+Note the bit string representing the rule contains a substring for each attribute

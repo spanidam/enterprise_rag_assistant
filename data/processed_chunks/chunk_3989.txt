@@ -1,0 +1,10 @@
+we select. Let us take the former as given and consider just the choice of club,
+which we assume is either a putter or a driver. The upper part of Figure 3.6
+shows a possible state-value function, vputt(s), for the policy that always uses
+the putter. The terminal state in-the-hole has a value of 0. From anywhere
+on the green we assume we can make a putt; these states have value −1. Oﬀ
+the green we cannot reach the hole by putting, and the value is greater. If
+we can reach the green from a state by putting, then that state must have
+value one less than the green’s value, that is, −2. For simplicity, let us assume
+we can putt very precisely and deterministically, but with a limited range.
+This gives us the sharp contour line labeled −2 in the ﬁgure; all locations

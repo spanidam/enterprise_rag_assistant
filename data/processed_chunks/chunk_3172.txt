@@ -1,0 +1,9 @@
+ing data to guide learning of neural networks, it is not robust to errors in the prior 
+knowledge. Consider what will happen when prior knowledge is incorrect, that 
+is, when the training derivatives input to the learner do not correctly reflect the 
+derivatives of the true target function. In this case the algorithm will attempt to fit 
+incorrect derivatives. It may therefore generalize less accurately than if it ignored 
+this prior knowledge altogether and used the purely inductive BACKPROPAGATION
+algorithm. If we knew in advance the degree of error in the training derivatives, 
+we might use this information to select the constant p that determines the relative 
+importance of fitting training values and fitting training derivatives. However, this

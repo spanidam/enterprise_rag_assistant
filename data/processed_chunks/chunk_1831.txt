@@ -1,0 +1,13 @@
+0 Training experience E: games played against itself 
+In order to complete the design of the learning system, we must now choose 
+1. the exact type of knowledge to be,learned 
+2. a representation for this target knowledge 
+3. a learning mechanism 
+CHAFTER I INTRODUCTION 7 
+1.2.2 Choosing the Target Function 
+The next design choice is to determine exactly what type of knowledge will be 
+learned and how this will be used by the performance program. Let us begin with 
+a checkers-playing program that can generate the legal moves from any board 
+state. The program needs only to learn how to choose the best move from among 
+these legal moves. This learning task is representative of a large class of tasks for 
+which the legal moves that define some large search space are known a priori, but

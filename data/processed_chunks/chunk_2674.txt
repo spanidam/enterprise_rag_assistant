@@ -1,0 +1,12 @@
+7.4. Consider a learning problem in which X = % is the set of real numbers, and C = H 
+is the set of intervals over the reals, H = {(a < x < b) I a, b E E}. What is the 
+probability that a hypothesis consistent with m examples of this target concept will 
+have error at least E? Solve this using the VC dimension. Can you find a second 
+way to solve this, based on first principles and ignoring the VC dimension? 
+7.5. Consider the space of instances X corresponding to all points in the x ,  y plane. Give 
+the VC dimension of the following hypothesis spaces: 
+(a) H, = the set of all rectangles in the x, y plane. That is, H = {((a < x < b ) ~ ( c  
+< 
+Y -= d))la, b, c, d E W. 
+(b) H, = circles in the x, y plane. Points inside the circle are classified as positive 
+examples

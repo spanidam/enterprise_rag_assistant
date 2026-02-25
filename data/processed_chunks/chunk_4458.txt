@@ -1,0 +1,20 @@
+which we discuss extensively in the next section.
+232CHAPTER 9. ON-POLICY APPROXIMATION OF ACTION VALUES
+Initialize w as appropriate for the problem, e.g., w = 0
+Repeat (for each episode):
+e = 0
+S ←initial state of episode
+Repeat (for each step of episode):
+A ←action given by π for S
+Take action A, observe reward, R, and next state, S′
+δ ←R + γˆv(S′,w) −ˆv(S,w)
+e ←γλe + ∇ˆv(S,w)
+w ←w + αδe
+S ←S′
+until S′ is terminal
+Figure 9.1: On-line gradient-descent TD(λ) for estimating vπ.
+9.3
+Linear Methods
+One of the most important special cases of gradient-descent function approxi-
+mation is that in which the approximate function, ˆv, is a linear function of the
+parameter vector, w. Corresponding to every state s, there is a vector of fea-

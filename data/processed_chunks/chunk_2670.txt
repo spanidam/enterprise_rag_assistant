@@ -1,0 +1,11 @@
+on Haussler's (1988) exposition. A useful collection of results under the PAC 
+model can be found in Blumer et al. (1989). Kearns and Vazirani (1994) pro- 
+vide an excellent exposition of many results from computational learning theory. 
+Earlier texts in this area include Anthony and Biggs (1992) and Natarajan (1991). 
+Current research on computational learning theory covers a broad range of 
+learning models and learning algorithms. Much of this research can be found 
+in the proceedings of the annual conference on Computational Learning Theory 
+(COLT). Several special issues of the journal Machine Learning have also been 
+devoted to this topic. 
+EXERCISES 
+7.1. Consider training a two-input perceptron. Give an upper bound on the number of

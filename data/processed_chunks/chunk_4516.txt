@@ -1,0 +1,12 @@
+many reinforcement learning systems (e.g., Shewchuk and Dean, 1990;
+Lin and Kim, 1991; Miller, Scalera, and Kim, 1994; Sofge and White,
+1992; Tham, 1994; Sutton, 1996; Watkins, 1989) as well as in other
+types of learning control systems (e.g., Kraft and Campagna, 1990;
+Kraft, Miller, and Dietz, 1992).
+Function approximation using radial basis functions (RBFs) has re-
+ceived wide attention ever since being related to neural networks by
+Broomhead and Lowe (1988). Powell (1987) reviewed earlier uses of
+RBFs, and Poggio and Girosi (1989, 1990) extensively developed and
+applied this approach.
+What we call “Kanerva coding” was introduced by Kanerva (1988) as
+part of his more general idea of sparse distributed memory. A good re-

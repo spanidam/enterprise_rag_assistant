@@ -1,0 +1,14 @@
+prompt. Each colon must be followed by exactly one space. After reading the input, the program should
+output the following three lines:
+tranquil place with your scandalous family.
+Usually you go to some place that is near a/an pancake or up on a/an field.
+A vacation is when you take a trip to some tranquil place with your scandalous
+family.
+Usually you go to some place that is near a/an pancake or up on a/an field.
+Notice that the first line should be completely blank. Replace the bold words (from the above example) with
+the actual words input by the user.
+Your final program should have four input statements, three print statements, and at least two comments.
+36
+1 • Statements
+Access for free at openstax.org
+For completeness, write an appropriate docstring at the top of the program.

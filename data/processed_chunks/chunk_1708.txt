@@ -1,0 +1,10 @@
+4. a. The format specifier 02d appends a 0 to the front of the integer when the integer is only one digit.
+5. c. The format specifier ".2f" (with a period) means fixed-point, rounded to two decimal places.
+6. b. This format specifier is useful for displaying large amounts of money.
+3.3 Variables revisited
+1. b. Each line of the program in the animation is an assignment statement.
+2. c. The program assigns the int object 10 and the float object 9.7 , as shown in the memory diagram.
+3. a. An arrow shows which object a variable currently refers to.
+4. a. An object's identity is an integer representing the memory location.
+5. c. The type function returns an object's class name like int, float, or str.
+6. b. A variable refers to an object, so the variable's value is the object's value.

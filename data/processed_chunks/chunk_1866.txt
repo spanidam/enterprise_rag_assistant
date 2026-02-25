@@ -1,0 +1,10 @@
+been written to be readable in any sequence. However, some interdependence 
+is unavoidable. If this is being used as a class text, I recommend first covering 
+Chapter 1 and Chapter 2. Following these two chapters, the remaining chapters 
+can be read in nearly any sequence. A one-semester course in machine learning 
+might cover the first seven chapters, followed by whichever additional chapters 
+are of greatest interest to the class. Below is a brief survey of the chapters. 
+Chapter 2 covers concept learning based on symbolic or logical representa- 
+tions. It also discusses the general-to-specific ordering over hypotheses, and 
+the need for inductive bias in learning. 
+0 Chapter 3 covers decision tree learning and the problem of overfitting the

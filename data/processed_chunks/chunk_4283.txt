@@ -1,0 +1,17 @@
+Backups can be done not just toward any n-step return, but toward any aver-
+age of n-step returns. For example, a backup can be done toward a target that
+is half of a two-step return and half of a four-step return:
+1
+2Gt+2
+t
+(Vt(St+2)) +
+1
+2Gt+4
+t
+(Vt(St+4)). Any set of returns can be averaged in this way, even an in-
+ﬁnite set, as long as the weights on the component returns are positive and
+sum to 1. The composite return possesses an error reduction property similar
+to that of individual n-step returns (7.5) and thus can be used to construct
+backups with guaranteed convergence properties. Averaging produces a sub-
+stantial new range of algorithms. For example, one could average one-step
+and inﬁnite-step returns to obtain another way of interrelating TD and Monte

@@ -1,0 +1,24 @@
+Hypotheses that 
+Hypotheses that 
+maximize fit to 
+maximizefit to data 
+data and prior 
+knowledge 
+TANGENTPROP 
+Search 
+BACKPROPAGATION 
+Search 
+FIGURE 12.6 
+Hypothesis space search in TANGENTPROP. 
+TANGENTPROP 
+initializes the network to small random 
+weights, just as in BACKPROPAGATION. 
+However, it uses a different error function to drive the gradient 
+descent search. The error used by TANGENTPROP 
+includes both the error in predicting training values 
+and in predicting the training derivatives provided as prior knowledge. 
+lated image belonged to the same class as the original example. We might expect 
+that fitting these synthesized examples using BACKPROPAGATION 
+would produce 
+results similar to fitting the original training examples and derivatives using TAN- 
+GENTPROP.

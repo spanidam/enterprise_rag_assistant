@@ -1,0 +1,17 @@
+which may change between or even within episodes.
+∗5.8
+Importance Sampling on Truncated Re-
+turns
+So far our oﬀ-policy methods have formed importance-sampling ratios for
+returns considered as unitary wholes.
+This is clearly the right thing for a
+Monte Carlo method to do in the absence of discounting (i.e., if γ = 1),
+but if γ < 1 then there may be something better. Consider the case where
+episodes are long and γ is signiﬁcantly less than 1. For concreteness, say that
+episodes last 100 steps and that γ = 0. The return from time 0 will then be
+G0 = R1, and its importance sampling ratio will be a product of 100 factors,
+π(A0|S0)
+µ(A0|S0)
+π(A1|S1)
+µ(A1|S1) · · · π(A99|S99)
+µ(A99|S99). In ordinary importance sampling, the return will

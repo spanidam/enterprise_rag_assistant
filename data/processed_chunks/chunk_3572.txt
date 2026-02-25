@@ -1,0 +1,13 @@
+enhancing the model’s dynamic problem-solving capabilities.
+ReAct is grounded in the principle of integrating reasoning
+with action. In this approach, the LLM is prompted to alternate
+between generating reasoning traces (explanations) and taking
+actions (steps or commands) in an interleaved manner. This
+approach allows the model to dynamically reason about a prob-
+lem, and propose and take concrete actions simultaneously.
+Dialog-Enabled Resolving Agents (DERA) [177] are spe-
+cialized AI agents that can engage in dialogue, resolve queries,
+and make decisions based on interactive exchanges. DERA
+is developed based on the idea of utilizing multiple agents
+within a dialog context, each with specific roles and functions.
+These agents can include Researchers, who gather and analyze

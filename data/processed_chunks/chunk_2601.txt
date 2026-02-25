@@ -1,0 +1,13 @@
+examples is at most (1 - E ) ~ .  
+Given that we have k hypotheses with error greater 
+than E, the probability that at least one of these will be consistent with all rn training 
+examples is at most 
+And since k 5 I H 1, this is at most 1 H I(1- 6)". Finally, we use a general inequality 
+stating that if 0 5 E 5 1 then (1 - E) 5 e-'. Thus, 
+which proves the theorem. 
+. O  
+We have just proved an upper bound on the probability that the version space 
+is not €-exhausted, based on the number of training examples m, the allowed error 
+E, and the size of H. Put another way, this bounds the probability that m training 
+examples will fail to eliminate all "bad" hypotheses (i.e., hypotheses with true 
+error greater than E ) ,  for any consistent learner using hypothesis space H.

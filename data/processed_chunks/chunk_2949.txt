@@ -1,0 +1,16 @@
+In the first step, it finds the literal L1 = -Swan(x) from C1 and the literal L2 = 
+Swan(Fred) from C2. If we choose the unifying substitution O = {x/Fred} then 
+these two literals satisfy LIB = -L20 = -Swan(Fred). Therefore, the conclusion 
+C is the union of (C1 - {L1})O = White(Fred) and (C2 - {L2})0 = 0, or C = 
+White(Fred). 
+CHAPTER 10 LEARNING SETS OF RULES 
+2!)7 
+1. Find a literal L1 from clause C1, literal Lz from clause Cz, and substitution 0 such that LIB = 
+-L28. 
+2. Form the resolvent C by including all literals from CIB and C28, except for L1 B and -L2B. More 
+precisely, the set of literals occurring in the conclusion C is 
+c = (Cl - (L11)O lJ 
+(C2 - ILzI)@ 
+TABLE 10.7 
+Resolution operator (first-order form). 
+10.7.2 Inverting Resolution: First-Order Case

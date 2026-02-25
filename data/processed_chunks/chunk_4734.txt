@@ -1,0 +1,15 @@
+Sutton, R. S. (1978c). A uniﬁed theory of expectation in classical and instru-
+mental conditioning. Bachelors thesis, Stanford University.
+Sutton, R. S. (1984). Temporal Credit Assignment in Reinforcement Learning.
+Ph.D. thesis, University of Massachusetts, Amherst.
+Sutton, R. S. (1988). Learning to predict by the method of temporal diﬀer-
+ences. Machine Learning, 3:9–44.
+Sutton, R. S. (1990).
+Integrated architectures for learning, planning, and
+reacting based on approximating dynamic programming.
+In Proceedings
+of the Seventh International Conference on Machine Learning, pp. 216–
+224. Morgan Kaufmann, San Mateo, CA.
+Sutton, R. S. (1991a). Dyna, an integrated architecture for learning, planning,
+and reacting. SIGART Bulletin, 2:160–163. ACM Press.
+Sutton, R. S. (1991b).

@@ -1,0 +1,11 @@
+variables. 
+6.2 BAYES THEOREM 
+In machine learning we are often interested in determining the best hypothesis 
+from some space H, given the observed training data D. One way to specify 
+what we mean by the best hypothesis is to say that we demand the most probable 
+hypothesis, given the data D plus any initial knowledge about the prior probabil- 
+ities of the various hypotheses in H. Bayes theorem provides a direct method for 
+calculating such probabilities. More precisely, Bayes theorem provides a way to 
+calculate the probability of a hypothesis based on its prior probability, the proba- 
+bilities of observing various data given the hypothesis, and the observed data itself. 
+To define Bayes theorem precisely, let us first introduce a little notation. We

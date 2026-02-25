@@ -1,0 +1,11 @@
+scription of the instance xi or its target value f (xi). Such errors can produce 
+an inconsistent set of constraints on h. Unfortunately, most formal logic 
+frameworks completely lose their ability to distinguish between truth and 
+falsehood once they are given inconsistent sets of assertions. 
+0 The language of first-order logic is so expressive, and the number of hy- 
+potheses that satisfy (V(xi , f (xi)) E D) (B A h A xi) t f (xi) is SO large, 
+that the search through the space of hypotheses is intractable in the general 
+case. Much recent work has sought restricted forms of first-order expres- 
+sions, or additional second-order knowledge, to improve the tractability of 
+the hypothesis space search. 
+0 Despite our intuition that background knowledge B should help constrain

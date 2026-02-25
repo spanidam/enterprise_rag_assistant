@@ -1,0 +1,11 @@
+defining a new hypothesis space H' that can represent every subset of instances; 
+that is, let H' correspond to the power set of X. One way to define such an H' is to 
+allow arbitrary disjunctions, conjunctions, and negations of our earlier hypotheses. 
+For instance, the target concept "Sky = Sunny or Sky = Cloudy" could then be 
+described as 
+(Sunny, ?, ?, ?, ?, ?) v (Cloudy, ?, ?, ?, ?, ?) 
+Given this hypothesis space, we can safely use the CANDIDATE-ELIMINATION
+algorithm without worrying that the target concept might not be expressible. How- 
+ever, while this hypothesis space eliminates any problems of expressibility, it un- 
+fortunately raises a new, equally difficult problem: our concept learning algorithm 
+is now completely unable to generalize beyond the observed examples! To see

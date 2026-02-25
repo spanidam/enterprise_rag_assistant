@@ -1,0 +1,19 @@
+scribed in Section 9.2, with the gradients computed by the error backpropa-
+14.1. TD-GAMMON
+277
+gation algorithm (Rumelhart, Hinton, and Williams, 1986). Recall that the
+general update rule for this case is
+wt+1 = wt + α
+h
+Rt+1 + γˆv(St+1,wt) −ˆv(St,wt)
+i
+et,
+(14.1)
+where wt is the vector of all modiﬁable parameters (in this case, the weights
+of the network) and et is a vector of eligibility traces, one for each component
+of wt, updated by
+et = γλet−1 + ∇ˆv(St,wt),
+with e0 = 0. The gradient in this equation can be computed eﬃciently by the
+backpropagation procedure. For the backgammon application, in which γ = 1
+and the reward is always zero except upon winning, the TD error portion of the
+learning rule is usually just ˆv(St+1,w) −ˆv(St,w), as suggested in Figure 14.2.

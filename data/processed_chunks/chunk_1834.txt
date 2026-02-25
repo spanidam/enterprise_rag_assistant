@@ -1,0 +1,11 @@
+and one that will turn out to be easier to learn in this setting-is 
+an evaluation 
+function that assigns a numerical score to any given board state. Let us call this 
+target function V and again use the notation V : B + 8 to denote that V maps 
+any legal board state from the set B to some real value (we use 8 to denote the set 
+of real numbers). We intend for this target function V to assign higher scores to 
+better board states. If the system can successfully learn such a target function V ,  
+then it can easily use it to select the best move from any current board position. 
+This can be accomplished by generating the successor board state produced by 
+every legal move, then using V to choose the best successor state and therefore 
+the best legal move.

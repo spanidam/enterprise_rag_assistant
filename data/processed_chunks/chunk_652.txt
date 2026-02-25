@@ -1,0 +1,12 @@
+torque about these axes. A joint torque sensor consists of strain gauges located
+on the actuator shaft. Tactile sensors are usually located on the ﬁngers of the
+gripper and are useful for sensing gripping force and for shape detection. For
+the purposes of controlling the end-eﬀector/environment interactions, the six-
+axis wrist sensor usually gives the best results and we shall henceforth assume
+that the manipulator is equipped with such a device.
+9.2
+COORDINATE FRAMES AND CONSTRAINTS
+Force control tasks can be thought of in terms of constraints imposed by
+the robot/environment interaction. A manipulator moving through free space
+within its workspace is unconstrained in motion and can exert no forces since
+there is no source of reaction force from the environment. A wrist force sensor

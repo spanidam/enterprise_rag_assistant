@@ -1,0 +1,21 @@
+Thorp, E. O. (1966). Beat the Dealer: A Winning Strategy for the Game of
+Twenty-One. Random House, New York.
+Tolman, E. C. (1932).
+Purposive Behavior in Animals and Men.
+Century,
+New York.
+334
+CHAPTER 15. PROSPECTS
+Tsetlin, M. L. (1973). Automaton Theory and Modeling of Biological Systems.
+Academic Press, New York.
+Tsitsiklis, J. N. (1994).
+Asynchronous stochastic approximation and Q-
+learning. Machine Learning, 16:185–202.
+Tsitsiklis, J. N. (2002).
+On the convergence of optimistic policy iteration.
+Journal of Machine Learning Research, 3:59–72.
+Tsitsiklis, J. N. and Van Roy, B. (1996).
+Feature-based methods for large
+scale dynamic programming. Machine Learning, 22:59–94.
+Tsitsiklis, J. N., Van Roy, B. (1997).
+An analysis of temporal-diﬀerence

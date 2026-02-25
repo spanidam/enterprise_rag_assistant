@@ -1,0 +1,36 @@
+(11.17)
+yc
+=
+r21x + r22y + r23z + Ty
+(11.18)
+zc
+=
+r31x + r32y + r33z + Tz.
+(11.19)
+Combining this with (11.14) we obtain
+r −or
+=
+−fx
+xc
+zc = −fx
+r11x + r12y + r13z + Tx
+r31x + r32y + r33z + Tz
+(11.20)
+c −oc
+=
+−fy
+yc
+zc = −fy
+r21x + r22y + r23z + Ty
+r31x + r32y + r33z + Tz
+.
+(11.21)
+Since we know the coordinates of the principal point, we an simplify these
+equations by using the simple coordinate transformation
+r ←r −or,
+c ←c −oc.
+(11.22)
+We now write the two transformed projection equations as functions of the
+unknown variables: rij, Tx, Ty, Tz, fx, fy. This is done by solving each of these
+equations for zc, and setting the resulting equations to be equal to one another.
+In particular, for the data points ri, ci, xi, yi, zi we have

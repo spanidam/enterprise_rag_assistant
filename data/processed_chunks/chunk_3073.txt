@@ -1,0 +1,14 @@
+such as "Which subgoal should be solved next?'and "Which operator should 
+be considered for solving this subgoal?' Minton (1988) describes the integration 
+of explanation-based learning into PRODIGY by defining a set of target concepts 
+appropriate for these kinds of control decisions that it repeatedly confronts. For 
+example, one target concept is "the set of states in which subgoal A should be 
+solved before subgoal B." An example of a rule learned by PRODIGY 
+for this target 
+concept in a simple block-stacking problem domain is 
+IF 
+One subgoal to be solved is On@, y), and 
+One subgoal to be solved is On(y, z) 
+THEN 
+Solve the subgoal On(y, z) before On(x, y) 
+To understand this rule, consider again the simple block stacking problem illus-

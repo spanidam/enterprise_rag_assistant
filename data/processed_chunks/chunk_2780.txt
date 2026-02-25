@@ -1,0 +1,9 @@
+is copied from the bit at position i in one of the two parents. The choice of which 
+parent contributes the bit for position i is determined by an additional string called 
+the crossover mask. To illustrate, consider the single-point crossover operator at 
+the top of Table 9.2. Consider the topmost of the two offspring in this case. This 
+offspring takes its first five bits from the first parent and its remaining six bits 
+from the second parent, because the crossover mask 11 11 1000000 specifies these 
+choices for each of the bit positions. The second offspring uses the same crossover 
+mask, but switches the roles of the two parents. Therefore, it contains the bits that 
+were not used by the first offspring. In single-point crossover, the crossover mask

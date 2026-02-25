@@ -1,0 +1,13 @@
+One of the two processes making up GPI drives the value function to accu-
+rately predict returns for the current policy; this is the prediction problem. The
+other process drives the policy to improve locally (e.g., to be ε-greedy) with
+respect to the current value function. When the ﬁrst process is based on expe-
+rience, a complication arises concerning maintaining suﬃcient exploration. We
+have grouped the TD control methods according to whether they deal with
+this complication by using an on-policy or oﬀ-policy approach.
+Sarsa and
+actor–critic methods are on-policy methods, and Q-learning and R-learning
+162
+CHAPTER 6. TEMPORAL-DIFFERENCE LEARNING
+are oﬀ-policy methods.
+The methods presented in this chapter are today the most widely used re-

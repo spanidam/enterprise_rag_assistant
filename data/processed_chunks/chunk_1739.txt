@@ -1,0 +1,10 @@
+case, __name__ is "__main__" .
+5. a. Since test.py was imported, the value of __name__ is "test" .
+6. c. This line is found in many Python modules to check if the module was run as the main program.
+7.4 The help function
+1. b. The digits have 0 red and 0 green, so the color must be a shade of blue. Navy is a darker version of
+standard blue, #0000FF .
+2. c. FF in hexadecimal is 255, the maximum amount of red, green, or blue in a color.
+3. a. The red, green, and blue values for orange are higher than the red, green, and blue values for green.
+4. b. The hexadecimal for YELLOW is #FFFF00 , meaning 255 red + 255 green + 0 blue.
+5. c. Both the darken function and the BLUE variable must be accessed via the colors variable.

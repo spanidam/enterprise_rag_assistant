@@ -1,0 +1,10 @@
+schemas at the same time it performs its explicit parallel search through the space 
+of individuals, then Equation (9.3) indicates that more fit schemas will grow in 
+influence over time. 
+While the above analysis considered only the selection step of the GA, the 
+crossover and mutation steps must be considered as well. The schema theorem con- 
+siders only the possible negative influence of these genetic operators (e.g., random 
+mutation may decrease the number of representatives of s, independent of O(s, t)), 
+and considers only the case of single-point crossover. The full schema theorem 
+thus provides a lower bound on the expected frequency of schema s, as follows: 
+Here, p, is the probability that the single-point crossover operator will be applied

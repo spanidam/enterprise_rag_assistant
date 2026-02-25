@@ -1,0 +1,16 @@
+are moving. A number of public domain collision detection software packages
+are currently available on the internet.
+186
+PATH AND TRAJECTORY PLANNING
+Problems
+MOTION PLANNING PROBLEMS TO BE WRITTEN
+5-1 Show by direct calculation that the determinant of the coeﬃcient matrix
+in Equation (5.43) is (tf −t0)4.
+5-2 Use Gaussian elimination to reduce the system (5.43) to upper triangular
+form and verify that the solution is indeed given by Equation (5.82).
+5-3 Suppose we wish a manipulator to start from an initial conﬁguration at time
+t0 and track a conveyor. Discuss the steps needed in planning a suitable
+trajectory for this problem.
+5-4 Suppose we desire a joint space trajectory ˙qd
+i (t) for the i-th joint (assumed
+to be revolute) that begins at rest at position q0 at time t0 and reaches

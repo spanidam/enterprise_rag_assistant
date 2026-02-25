@@ -1,0 +1,32 @@
+be accessed outside of the function in which the variable was created. After a function finishes executing, the
+function's local variables no longer exist.
+CHECKPOINT
+Global and local variables in a program with a function
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/
+6-3-variable-scope)
+CONCEPTS IN PRACTICE
+Local variables
+4. Which variables are local?
+154
+6 • Functions
+Access for free at openstax.org
+def print_time():
+out_str = "Time is " + str(hour) + ":" + str(min)
+print(out_str)
+hour = int(input())
+min = int(input())
+print_time()
+a.
+hour and min
+b.
+out_str
+c.
+hour, min, and out_str
+5. Which variables are local?
+def print_greeting():
+print(out_str)
+hour = int(input())
+min = int(input())
+if hour < 12:
+out_str = "Good morning"
+else:

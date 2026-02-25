@@ -1,0 +1,12 @@
+In particular, if the modeled reward for a transition is R, and the transition
+has not been tried in τ time steps, then planning backups are done as if that
+transition produced a reward of R + κ√τ, for some small κ. This encour-
+ages the agent to keep testing all accessible state transitions and even to plan
+206CHAPTER 8. PLANNING AND LEARNING WITH TABULAR METHODS
+long sequences of actions in order to carry out such tests.1 Of course all this
+testing has its cost, but in many cases, as in the shortcut maze, this kind of
+computational curiosity is well worth the extra exploration.
+8.4
+Prioritized Sweeping
+In the Dyna agents presented in the preceding sections, simulated transitions
+are started in state–action pairs selected uniformly at random from all pre-

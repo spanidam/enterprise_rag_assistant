@@ -1,0 +1,40 @@
+longing to R3 is a vector c deﬁned by
+c = x × y
+=
+det
+
+
+i
+j
+k
+x1
+x2
+x3
+y1
+y2
+y3
+
+
+(B.14)
+=
+(x2y3 −x3y2)i + (x3y1 −x1y3)j + (x1y2 −x2y1)k.(B.15)
+The cross product is a vector whose magnitude is
+∥c∥
+=
+∥x∥∥y∥sin(θ)
+(B.16)
+where θ is the angle between x and y and whose direction is given by the right
+hand rule shown in Figure B.1.
+A right-handed coordinate frame x −y −z is a coordinate frame with axes
+mutually perpendicular and that also satisﬁes the right hand rule as shown
+in Figure B.2. We can remember the right hand rule as being the direction of
+advancement of a right-handed screw rotated from the positive x axis is rotated
+into the positive y axis through the smallest angle between the axes. The cross
+product has the properties
+x × y
+=
+−y × x
+x × (y + z)
+=
+x × y + x × z
+(B.17)

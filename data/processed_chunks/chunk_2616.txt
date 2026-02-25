@@ -1,0 +1,14 @@
+it to the class of conjunctions of boolean literals. It can also be used to show 
+that many other concept classes have polynomial sample complexity (e.g., see 
+Exercise 7.2). 
+7.3.3.1 UNBIASED LEARNERS 
+Not all concept classes have polynomially bounded sample complexity according 
+to the bound of Equation (7.2). For example, consider the unbiased concept class 
+C that contains every teachable concept relative to X. The set C of all definable 
+target concepts corresponds to the power set of X-the 
+set of all subsets of X- 
+which contains ICI = 2IXI concepts. Suppose that instances in X are defined by 
+n boolean features. In this case, there will be 1x1 = 2" distinct instances, and 
+therefore ICI = 21'1 
+= 2' 
+distinct concepts. Of course to learn such an unbiased

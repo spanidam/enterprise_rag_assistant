@@ -1,0 +1,14 @@
+State Functions and Linear Control
+Systems. McGraw-Hill, New York.
+Schultz, W., Dayan, P., Montague, P. R. (1997). A neural substrate of pre-
+diction and reward. Science, 275:1593–1598.
+Schwartz, A. (1993). A reinforcement learning method for maximizing undis-
+counted rewards. In Proceedings of the Tenth International Conference on
+Machine Learning, pp. 298–305. Morgan Kaufmann, San Mateo, CA.
+Schweitzer, P. J., Seidmann, A. (1985). Generalized polynomial approxima-
+tions in Markovian decision processes. Journal of Mathematical Analysis
+and Applications, 110:568–582.
+Selfridge, O. J., Sutton, R. S., Barto, A. G. (1985). Training and tracking in
+robotics.
+In A. Joshi (ed.), Proceedings of the Ninth International Joint
+Conference on Artiﬁcial Intelligence, pp. 670–672. Morgan Kaufmann, San

@@ -1,0 +1,17 @@
+specific member of the version space). Because FIND-S outputs a consistent hy- 
+pothesis, we know that it will output a MAP hypothesis under the probability 
+distributions P(h) and P(D1h) defined above. Of course FIND-S does not explic- 
+itly manipulate probabilities at all-it 
+simply outputs a maximally specific member 
+hypotheses 
+hypotheses 
+(a) 
+(4 
+hypotheses 
+( c )  
+FIGURE 6.1 
+Evolution of posterior probabilities P(hlD) with increasing training data. (a) Uniform priors assign 
+equal probability to each hypothesis. As training data increases first to Dl (b), then to Dl A 0 2  
+(c), the posterior probability of inconsistent hypotheses becomes zero, while posterior probabilities 
+increase for hypotheses remaining in the version space. 
+CHAPTER 6 BAYESIAN LEARNING 163

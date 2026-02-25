@@ -1,0 +1,10 @@
+runs on a rechargeable battery. The robot’s control system has components for
+interpreting sensory information, for navigating, and for controlling the arm
+and gripper. High-level decisions about how to search for cans are made by a
+reinforcement learning agent based on the current charge level of the battery.
+This agent has to decide whether the robot should (1) actively search for a
+can for a certain period of time, (2) remain stationary and wait for someone
+to bring it a can, or (3) head back to its home base to recharge its battery.
+This decision has to be made either periodically or whenever certain events
+occur, such as ﬁnding an empty can. The agent therefore has three actions,
+and its state is determined by the state of the battery. The rewards might be

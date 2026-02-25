@@ -1,0 +1,25 @@
+•
+Use recursion to efficiently search a list.
+•
+Demonstrate a solution to the Three Towers problem.
+12.6 • Chapter summary
+301
+At this point, you should be able to solve problems using recursion.
+Function
+Description
+count(element)
+Returns the number of times the element exists on the list on which the count()
+function is called.
+Table 12.1 Chapter 12 reference.
+302
+12 • Recursion
+Access for free at openstax.org
+Figure 13.1 credit: modification of work "Don't stare...only sheep dogs stare...", by Bernard Spragg. NZ/Flickr, Public Domain
+Chapter Outline
+13.1 Inheritance basics
+13.2 Attribute access
+13.3 Methods
+13.4 Hierarchical inheritance
+13.5 Multiple inheritance and mixin classes
+13.6 Chapter summary
+Introduction

@@ -1,0 +1,12 @@
+The target policy in oﬀ-policy learning is sometimes referred to in the
+literature as the “estimation” policy, as it was in the ﬁrst edition of this book.
+Our treatment of the idea of importance sampling based on truncated re-
+turns is based on the analysis and “forward view” of Sutton, Mahmood, Pre-
+cup, and van Hasselt (2014). A related idea is that of per-decision importance
+sampling (Precup, Sutton and Singh, 2000).
+Exercises
+Exercise 5.1 Consider the diagrams on the right in Figure 5.2. Why does
+the estimated value function jump up for the last two rows in the rear? Why
+does it drop oﬀfor the whole last row on the left? Why are the frontmost
+values higher in the upper diagrams than in the lower?
+Exercise 5.2 What is the backup diagram for Monte Carlo estimation of qπ?

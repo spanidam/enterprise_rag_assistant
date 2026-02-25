@@ -1,0 +1,11 @@
+obtain their best results. They also experimented with another technique that
+used only information that would be known in an on-line learning situation
+with a real set of elevators. In this case one can use how long since each button
+has been pushed together with an estimate of the arrival rate to compute an
+expected summed squared waiting time for each ﬂoor. Using this in the reward
+measure proved nearly as eﬀective as using the actual summed squared waiting
+time.
+For function approximation, a nonlinear neural network trained by back-
+propagation was used to represent the action-value function. Crites and Barto
+experimented with a wide variety of ways of representing states to the network.
+After much exploration, their best results were obtained using networks with

@@ -1,0 +1,9 @@
+receives a sequence of training examples. However, here we demand that upon 
+receiving each example x, the learner must predict the target value c(x), before 
+it is shown the correct target value by the trainer. The question considered is 
+"How many mistakes will the learner make in its predictions before it learns the 
+target concept?' This question is significant in practical settings where learning 
+must be done while the system is in actual use, rather than during some off-line 
+training stage. For example, if the system is to learn to predict which credit card 
+purchases should be approved and which are fraudulent, based on data collected 
+during use, then we are interested in minimizing the total number of mistakes it

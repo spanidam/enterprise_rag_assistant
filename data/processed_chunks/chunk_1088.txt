@@ -1,0 +1,16 @@
+specific instructions telling the computer what to do. If the instructions are not clear, then the computer does
+not know what to do and gives back an error.
+When an error occurs, Python displays a message with the following information:
+1.
+The line number of the error.
+2.
+The type of error (Ex: SyntaxError).
+3.
+Additional details about the error.
+Ex: Typing print "Hello!" without parentheses is a syntax error. In Python, parentheses are required to use
+print. When attempting to run print "Hello!", Python displays the following error:
+Traceback (most recent call last):
+File "/home/student/Desktop/example.py", line 1
+print "Hello"
+^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello")?

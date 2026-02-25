@@ -1,0 +1,13 @@
+must label a new query instance. As a result, they need not form an explicit 
+hypothesis of the entire target function over the entire instance space, in- 
+dependent of the query instance. Instead, they may form a different local 
+approximation to the target function for each query instance. 
+246 
+MACHINE LEARNING 
+1 
+0 Advantages of instance-based methods include the ability to model complex 
+target functions by a collection of less complex local approximations and the 
+fact that information present in the training examples is never lost (because 
+the examples themselves are stored explicitly). The main practical difficul- 
+ties include efficiency of labeling new instances (all processing is done at 
+query time rather than in advance), difficulties in determining an appropriate

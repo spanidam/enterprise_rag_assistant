@@ -1,0 +1,46 @@
+unknown positive k we have
+k
+
+
+x
+y
+z
+
+=
+
+
+u
+v
+λ
+
+
+(11.1)
+which can be rewritten as the system of equations:
+kx
+=
+u,
+(11.2)
+ky
+=
+v,
+(11.3)
+kz
+=
+λ.
+(11.4)
+1Note that in our mathematical model, illustrated in Figure 11.1, we have placed the pinhole
+behind the image plane in order to simplify the model.
+334
+COMPUTER VISION
+This gives k = λ/z, which can be substituted into (11.2) and (11.3) to obtain
+u = λx
+z ,
+v = λy
+z .
+(11.5)
+These are the well-known equations for perspective projection.
+11.1.3
+The Image Plane and the Sensor Array
+As described above, the image is a discrete array of gray level values. We will
+denote the row and column indices for a pixel by the coordinates (r, c). In order
+to relate digital images to the 3D world, we must determine the relationship

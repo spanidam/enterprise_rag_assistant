@@ -1,0 +1,12 @@
+the I986 National Conference on ArtQcial Intelligence (pp. 518-522). Morgan Kaufmann. 
+Vere, S. A. (1975). Induction of concepts in the predicate calculus. Fourth International Joint Con- 
+ference on AI (pp. 281-287). Tbilisi, USSR. 
+Winston, P. H. (1970). Learning structural descriptions from examples, (Ph.D. dissertation). [MIT 
+Technical Report AI-TR-2311. 
+CHAPTER 
+DECISION TREE 
+LEARNING 
+Decision tree learning is one of the most widely used and practical methods for 
+inductive inference. It is a method for approximating discrete-valued functions that 
+is robust to noisy data and capable of learning disjunctive expressions. This chapter 
+describes a family of decision tree learning algorithms that includes widely used

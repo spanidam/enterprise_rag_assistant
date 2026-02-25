@@ -1,0 +1,28 @@
+Python interpreter uses implicit type conversion to automatically convert one data type to another. Once
+distance is assigned with 252.5, the interpreter will convert distance from an integer to a float without the
+programmer needing to specify the conversion.
+CHECKPOINT
+Example: Book ratings
+Access multimedia content (https://openstax.org/books/introduction-python-programming/pages/2-2-type-
+conversion)
+CONCEPTS IN PRACTICE
+Implicit type conversion in practice
+Consider the example above.
+1. What is book_rating's data type on line 7?
+a.
+float
+b.
+integer
+2. What would book_rating's data type be if update = 1.0 instead of 0.5?
+a.
+float
+b.
+integer
+3. What is the data type of x after the following code executes?
+x = 42.0
+x = x * 1
+a.
+float
+b.
+integer
+Explicit type conversion

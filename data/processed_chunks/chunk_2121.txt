@@ -1,0 +1,9 @@
+observation that biological learning systems are built of very complex webs of 
+interconnected neurons. In rough analogy, artificial neural networks are built out 
+of a densely interconnected set of simple units, where each unit takes a number 
+of real-valued inputs (possibly the outputs of other units) and produces a single 
+real-valued output (which may become the input to many other units). 
+To develop a feel for this analogy, let us consider a few facts from neuro- 
+biology. The human brain, for example, is estimated to contain a densely inter- 
+connected network of approximately 1011 neurons, each connected, on average, to 
+lo4 others. Neuron activity is typically excited or inhibited through connections to

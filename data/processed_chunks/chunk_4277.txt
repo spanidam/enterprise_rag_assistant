@@ -1,0 +1,33 @@
+step 0 and terminating at step T, for all s ∈S:
+Vt+1(s) = Vt(s),
+∀t < T,
+VT(s) = VT−1(s) +
+T−1
+X
+t=0
+∆t(s),
+(7.4)
+with of course V0 of the next episode being the VT of this one.
+You may
+recall how in Section 6.3 we carried this idea one step further, deferring the
+7.1. N-STEP TD PREDICTION
+171
+increments until they could be summed over a whole set of episodes, in batch
+updating.
+For any value function v : S →R, the expected value of the n-step return
+using v is guaranteed to be a better estimate of vπ than v is, in a worst-state
+sense. That is, the worst error under the new estimate is guaranteed to be less
+than or equal to γn times the worst error under v:
+max
+s
+Eπ
+
+Gt+n
+t
+(v(St+n))
+ St =s
+
+−vπ(s)
+ ≤γn max
+s
+|v(s) −vπ(s)| , (7.5)

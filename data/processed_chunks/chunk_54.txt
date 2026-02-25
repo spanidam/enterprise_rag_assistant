@@ -1,0 +1,24 @@
+
+x2 · x0
+y2 · x0
+x2 · y0
+y2 · y0
+
+=
+
+cos(θ1 + θ2)
+−sin(θ1 + θ2)
+sin(θ1 + θ2)
+cos(θ1 + θ2)
+
+(1.3)
+Equations (1.1), (1.2) and (1.3) are called the forward kinematic equa-
+tions for this arm. For a six degree-of-freedom robot these equations are quite
+complex and cannot be written down as easily as for the two-link manipula-
+tor. The general procedure that we discuss in Chapter 3 establishes coordinate
+frames at each joint and allows one to transform systematically among these
+frames using matrix transformations. The procedure that we use is referred to
+as the Denavit-Hartenberg convention. We then use homogeneous coor-
+dinates and homogeneous transformations to simplify the transformation
+among coordinate frames.
+Inverse Kinematics

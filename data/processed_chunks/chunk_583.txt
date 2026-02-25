@@ -1,0 +1,24 @@
+det[b, Ab, A2b, . . . , An−1b]
+̸=
+0.
+(7.75)
+The n×n matrix [b, Ab, . . . , An−1b] is called the controllability matrix for
+the linear system deﬁned by the pair (A, b). The fundamental importance of
+controllability of a linear system is shown by the following
+STATE SPACE DESIGN
+255
+(iii) Theorem 7.4.4
+Let α(x) = sn + αnsn−1 + · · · + α2s + α1 be an arbitrary polynomial of degree
+n. Then there exists a state feedback control law (7.73) such that
+det(sI −A + bkT )
+=
+α(s)
+(7.76)
+if and only if the system (7.68) is controllable.
+This fundamental result says that, for a controllable linear system, we may
+achieve arbitrary2 closed loop poles using state feedback. Returning to the
+speciﬁc fourth-order system (7.69) we see that the system is indeed controllable
+since
+det[b, Ab, A2b, A3b]
+=
+k2

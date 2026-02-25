@@ -1,0 +1,24 @@
+ℒ𝑟(𝒟; 𝑚𝜃) = ℒ(𝒟; 𝑚𝜃) + 𝜆∑
+ℓ
+‖𝜃(ℓ)‖2
+2
+where 𝜃(ℓ) is the weight matrix of layer ℓ.
+This regularization tends to shrink large parameter values during the learning process, which is known to help improve
+generalization.
+In keras, this is implemented as:
+from keras.regularizers import L2
+λ = 0.01
+set_random_seed(0)
+(continues on next page)
+5.2. Loss penalization
+29
+Deep Learning Basics (lecture notes)
+(continued from previous page)
+model = Sequential([
+InputLayer(input_shape=(4, )),
+Dense(units=256, activation="relu", kernel_regularizer=L2(λ)),
+Dense(units=256, activation="relu", kernel_regularizer=L2(λ)),
+Dense(units=256, activation="relu", kernel_regularizer=L2(λ)),
+Dense(units=3, activation="softmax")
+])
+n_epochs = 100

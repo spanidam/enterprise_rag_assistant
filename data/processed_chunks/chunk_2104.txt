@@ -1,0 +1,10 @@
+early work on decision tree learning includes ASSISTANT (Kononenko et al. 1984; 
+Cestnik et al. 1987). Implementations of decision tree induction algorithms are 
+now commercially available on many computer platforms. 
+For further details on decision tree induction, an excellent book by Quinlan 
+(1993) discusses many practical issues and provides executable code for C4.5. 
+Mingers (1989a) and Buntine and Niblett (1992) provide two experimental studies 
+comparing different attribute-selection measures. Mingers (1989b) and Malerba et 
+al. (1995) provide studies of different pruning strategies. Experiments comparing 
+decision tree learning and other learning methods can be found in numerous 
+papers, including (Dietterich et al. 1995; Fisher and McKusick 1989; Quinlan

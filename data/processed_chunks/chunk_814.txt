@@ -1,0 +1,58 @@
+X
+r,c
+(c′)2I(r, c)
+(11.71)
+=
+C20 cos2 θ + 2C11 cos θ sin θ + C02 sin2 θ
+(11.72)
+in which the Cij are the central moments given in (11.54). Note that the central
+moments depend on neither ρ nor θ.
+The ﬁnal set of simpliﬁcations that we will make all rely on the double angle
+identities:
+cos2θ
+=
+1
+2 + 1
+2 cos 2θ
+(11.73)
+sin2θ
+=
+1
+2 −1
+2 cos 2θ
+(11.74)
+cosθ sin θ
+=
+1
+2 sin 2θ.
+(11.75)
+352
+COMPUTER VISION
+Substituting these into our expression for L we obtain
+L
+=
+C20(1
+2 + 1
+2 cos 2θ) + 2C11(1
+2 sin 2θ) + C02(1
+2 −1
+2 cos 2θ) (11.76)
+=
+1
+2(C20 + C02) + 1
+2(C20 −C02) cos 2θ + 1
+2C11 sin 2θ
+(11.77)
+It is now easy to compute the partial derivative with respect to θ:
+d
+dθL
+=
+d
+dθ
+1
+2(C20 + C02) + 1
+2(C20 −C02) cos 2θ + 1
+2C11 sin 2θ (11.78)
+=
+−(C20 −C02) sin 2θ + C11 cos 2θ,
+(11.79)

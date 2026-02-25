@@ -1,0 +1,12 @@
+voltages applied to the motors of a robot arm, or high-level decisions, such
+as whether or not to have lunch or to go to graduate school. Similarly, the
+states can take a wide variety of forms. They can be completely determined
+by low-level sensations, such as direct sensor readings, or they can be more
+wider audience.
+2We restrict attention to discrete time to keep things as simple as possible, even though
+many of the ideas can be extended to the continuous-time case (e.g., see Bertsekas and
+Tsitsiklis, 1996; Werbos, 1992; Doya, 1996).
+3We use Rt+1 instead of Rt to denote the reward due to At because it emphasizes that
+the next reward and next state, Rt+1 and St+1, are jointly determined.
+3.1. THE AGENT–ENVIRONMENT INTERFACE
+55

@@ -1,0 +1,11 @@
+Sutton (1991) describes the DYNA architecture that performs a number of simulated 
+actions after each step executed in the external world. Moore and Atkeson (1993) 
+describe an approach called prioritized sweeping that selects promising states to 
+update next, focusing on predecessor states when the current state is found to 
+have a large update. Peng and Williams (1994) describe a similar approach. A 
+large number of efficient algorithms from the field of dynamic programming can 
+be applied when the functions 6 and r are known. Kaelbling et al. (1996) survey 
+a number of these. 
+CHAPTER 13 REINFORCEMENT LEARNING 381 
+13.4 NONDETERMINISTIC REWARDS AND ACTIONS 
+Above we considered Q learning in deterministic environments. Here we consider

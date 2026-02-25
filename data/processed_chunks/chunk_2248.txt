@@ -1,0 +1,9 @@
+that each weight is in the position of the corresponding image pixel (with the wo 
+threshold weight superimposed in the top left of the array). Interestingly, one can 
+see that the weights have taken on values that are especially sensitive to features 
+in the region of the image in which the face and body typically appear. 
+The values of the network weights after 100 gradient descent iterations 
+through each training example are shown at the bottom of the figure. Notice the 
+leftmost hidden unit has very different weights than it had after the first iteration, 
+and the other two hidden units have changed as well. It is possible to understand 
+to some degree the encoding in this final set of weights. For example, consider the

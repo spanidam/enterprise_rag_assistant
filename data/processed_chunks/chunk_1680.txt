@@ -1,0 +1,42 @@
+minimum, maximum, first, second, and third quartiles, as well as outliers in x.
+Example
+Output
+import
+matplotlib.pyplot
+as plt
+import numpy as np
+# Data: random 100
+samples
+data =
+[np.random.normal(0,
+5, 100)]
+# Create the box
+plot
+plt.boxplot(data)
+# Customize the
+chart
+plt.title("Box Plot
+of random values")
+plt.xlabel("Data
+Distribution")
+plt.ylabel("Values")
+# Display the chart
+plt.show()
+Table 15.12 Matplotlib functionalities. Box plot.
+CONCEPTS IN PRACTICE
+Matplotlib methods
+4. Given the following code, which of the function calls is appropriate in showing association between x
+and y?
+import matplotlib.pyplot as plt
+# Data
+374
+15 • Data Science
+Access for free at openstax.org
+x = [1, 2, 3, 4, 5]
+y = [10, 15, 12, 18, 20]
+a.
+plt.boxplot(x)
+b.
+plt.hist(y)
+c.
+plt.scatter(x, y)

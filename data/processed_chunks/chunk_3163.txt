@@ -1,0 +1,12 @@
+rately h. 
+providing training derivatives, or slopes, as additional information for each train- 
+ing example (e.g., (XI, f (XI), 
+I,, )). By fitting both the training values f (xi) 
+and these training derivatives P I , ,  the learner has a better chance to correctly 
+generalize from the sparse training data. To summarize, the impact of including 
+the training derivatives is to override the usual syntactic inductive bias of BACK- 
+PROPAGATION that favors a smooth interpolation between points, replacing it by 
+explicit input information about required derivatives. The resulting hypothesis h 
+shown in the rightmost plot of the figure provides a much more accurate estimate 
+of the true target function f. 
+In the above example, we considered only simple kinds of derivatives of

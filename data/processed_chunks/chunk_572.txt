@@ -1,0 +1,36 @@
+Jℓ¨θℓ+ Bℓ˙θℓ+ k(θℓ−θm)
+=
+0
+(7.55)
+Jm¨θm + Bm ˙θm −k(θℓ−θm)
+=
+u
+(7.56)
+1Harmonic drives are a type of gear mechanism that are very popular for use in robots due to
+their low backlash, high torque transmission and compact size. However, they also introduce
+unwanted friction and ﬂexibility at the joints.
+DRIVE TRAIN DYNAMICS
+249
+where Jℓ, Jm are the load and motor inertias, Bℓand Bm are the load and
+motor damping constants, and u is the input torque applied to the motor shaft.
+In the Laplace domain we can write this as
+pℓ(s)Θℓ(s)
+=
+kΘm(s)
+(7.57)
+pm(s)Θm(s)
+=
+kΘℓ(s) + U(s)
+(7.58)
+where
+pℓ(s)
+=
+Jℓs2 + Bℓs + k
+(7.59)
+pm(s)
+=
+Jms2 + Bms + k
+(7.60)
+This system is represented by the block diagram of Figure 7.23.
+Fig. 7.23
+Block diagram for the system (7.57)-(7.58).

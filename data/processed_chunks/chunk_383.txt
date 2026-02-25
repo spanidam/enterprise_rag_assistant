@@ -1,0 +1,36 @@
+to the roadmap, and the resulting network is searched for a path from qinit to
+qﬁnal. These four steps are illustrated in Figure 5.8. We now discuss these steps
+in more detail.
+3 A connected component is a maximal subnetwork of the network such that a path exists in
+the subnetwork between any two nodes.
+PROBABILISTIC ROADMAP METHODS
+169
+2-norm in C-space:
+∥q′ −q∥=
+"
+Pn
+i=1(q′
+i −qi)2
+# 1
+2
+∞-norm in C-space:
+maxn |q′
+i −qi|
+2-norm in workspace:
+"
+P
+p∈A
+p(q′) −p(q)
+2
+# 1
+2
+∞-norm in workspace:
+maxp∈A
+p(q′) −p(q)
+
+Table 5.1
+Four commonly used distance functions
+5.5.1
+Sampling the conﬁguration space
+The simplest way to generate sample conﬁgurations is to sample the conﬁgu-
+ration space uniformly at random. Sample conﬁgurations that lie in QO are

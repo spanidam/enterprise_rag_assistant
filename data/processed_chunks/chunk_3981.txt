@@ -1,0 +1,58 @@
+relationships.
+For any policy π and any state s, the following consistency
+condition holds between the value of s and the value of its possible successor
+states:
+vπ(s)
+=
+Eπ[Gt | St =s]
+=
+Eπ
+" ∞
+X
+k=0
+γkRt+k+1
+ St =s
+#
+=
+Eπ
+"
+Rt+1 + γ
+∞
+X
+k=0
+γkRt+k+2
+ St =s
+#
+=
+X
+a
+π(a|s)
+X
+s′
+X
+r
+p(s′, r|s, a)
+"
+r + γEπ
+" ∞
+X
+k=0
+γkRt+k+2
+ St+1 =s′
+##
+=
+X
+a
+π(a|s)
+X
+s′,r
+p(s′, r|s, a)
+h
+r + γvπ(s′)
+i
+,
+(3.12)
+where it is implicit that the actions, a, are taken from the set A(s), the next
+states, s′, are taken from the set S (or from S+ in the case of an episodic
+problem), and the rewards, r, are taken from the set R. Note also how in the
+last equation we have merged the two sums, one over all the values of s′ and

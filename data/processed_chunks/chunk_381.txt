@@ -1,0 +1,12 @@
+Each node corresponds to a conﬁguration. Each arc between two nodes cor-
+responds to a collision free path between two conﬁgurations. Constructing a
+PRM is a conceptually straightforward process. First, a set of random conﬁgu-
+rations is generated to serve as the nodes in the network. Then, a simple, local
+path planner is used to generate paths that connect pairs of conﬁgurations.
+2A Gaussian density function is the classical bell shaped curve.
+The mean indicates the
+center of the curve (the peak of the bell) and the variance indicates the width of the bell.
+The probability density function (pdf) tells how likely it is that the variable qi will lie in a
+certain interval. The higher the pdf values, the more likely that qi will lie in the corresponding
+interval.
+168

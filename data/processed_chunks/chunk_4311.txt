@@ -1,0 +1,11 @@
+and 0 otherwise. An eﬃcient implementation is given as a boxed algorithm in
+Figure 7.10.
+Results on the 19-state random-walk example for true online TD(λ) are
+given in the lower-left panel of Figure 7.6. We see that in this example true
+on-line TD(λ) appears to perform slightly better than the on-line λ-return
+algorithm, but not necessarly better than TD(λ) with dutch traces; most of
+the performance improvement seems to come from the dutch traces rather
+than the slightly diﬀerent or extra terms in the equations above. Of course,
+this is just one example; beneﬁts of the exact equivalence may appear on other
+problems. One thing we can say in that these slight diﬀerences enable true
+on-line TD(λ) with λ = 1 to be exactly equivalent by the end of the episode
