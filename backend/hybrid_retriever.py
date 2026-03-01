@@ -1,15 +1,21 @@
-from langchain_chroma import Chroma
-from langchain_classic.retrievers.ensemble import EnsembleRetriever  # ✅ correct
-from langchain_classic.retrievers.bm25 import BM25Retriever
-from embeddings import STEmbeddingFunction
-from load_chunks import load_chunk_documents
+from pathlib import Path
 
-PERSIST_DIR = "../vector_store/chroma_db"
+from langchain_chroma import Chroma
+from langchain_classic.retrievers import EnsembleRetriever
+from langchain_community.retrievers import BM25Retriever
+from backend.embeddings import STEmbeddingFunction
+
+from backend.embeddings import STEmbeddingFunction
+from backend.load_chunks import load_chunk_documents
+
+# ✅ Stable absolute paths (works when run via uvicorn)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PERSIST_DIR = str(PROJECT_ROOT / "vector_store" / "chroma_db")
 COLLECTION_NAME = "enterprise_rag_chunks"
 
 
 def build_hybrid_retriever(k_dense=8, k_bm25=8, weights=(0.6, 0.4)):
-    # Dense
+    # Dense retriever (Chroma)
     vs = Chroma(
         collection_name=COLLECTION_NAME,
         embedding_function=STEmbeddingFunction(),
@@ -17,14 +23,15 @@ def build_hybrid_retriever(k_dense=8, k_bm25=8, weights=(0.6, 0.4)):
     )
     dense = vs.as_retriever(search_kwargs={"k": k_dense})
 
-    # BM25
+    # BM25 retriever (lexical)
     docs = load_chunk_documents()
     bm25 = BM25Retriever.from_documents(docs)
     bm25.k = k_bm25
 
-    # Ensemble fusion
+    # Ensemble fusion (RRF-style rank fusion with weights)
     hybrid = EnsembleRetriever(retrievers=[dense, bm25], weights=list(weights))
     return hybrid
+
 
 if __name__ == "__main__":
     q = "Explain retrieval augmented generation (RAG)"
@@ -32,7 +39,7 @@ if __name__ == "__main__":
     hits = retriever.invoke(q)
 
     print("QUERY:", q)
-    print("="*80)
+    print("=" * 80)
     for i, d in enumerate(hits[:5], 1):
         print(f"\n[{i}] {d.metadata.get('chunk_file')}")
         print(d.page_content[:300])

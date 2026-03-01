@@ -1,12 +1,12 @@
-
+from pathlib import Path
 import os
-import fitz 
- # PyMuPDF
+import fitz
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
-RAW_DOCS_PATH = "../data/raw_documents/"
-PROCESSED_PATH = "../data/processed_chunks/"
+RAW_DOCS_PATH = PROJECT_ROOT / "data" / "raw_documents"
+PROCESSED_PATH = PROJECT_ROOT / "data" / "processed_chunks"
 
 os.makedirs(PROCESSED_PATH, exist_ok=True)
 

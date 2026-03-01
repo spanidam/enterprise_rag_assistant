@@ -1,0 +1,6 @@
+question,ground_truth_answer,source_chunk_file
+What is retrieval augmented generation?,...,chunk_3561.txt
+What problem does RAG solve?,...,chunk_3560.txt
+How does hybrid retrieval work?,...,chunk_3562.txt
+What is the role of reranking?,...,chunk_2145.txt
+What causes hallucinations in LLMs?,...,chunk_3538.txt

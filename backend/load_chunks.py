@@ -1,27 +1,30 @@
-import os
+from pathlib import Path
 from langchain_core.documents import Document
 
-CHUNKS_DIR = "../data/processed_chunks"
+# Always resolve paths relative to THIS file, not the working directory
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+CHUNKS_DIR = PROJECT_ROOT / "data" / "processed_chunks"
 
 def load_chunk_documents():
+    if not CHUNKS_DIR.exists():
+        raise FileNotFoundError(
+            f"❌ processed_chunks directory not found at: {CHUNKS_DIR}"
+        )
+
     docs = []
-    for fname in sorted(os.listdir(CHUNKS_DIR)):
-        if not fname.endswith(".txt"):
-            continue
-
-        path = os.path.join(CHUNKS_DIR, fname)
-        with open(path, "r", encoding="utf-8") as f:
-            text = f.read().strip()
-
+    for path in sorted(CHUNKS_DIR.glob("*.txt")):
+        text = path.read_text(encoding="utf-8").strip()
         if not text:
             continue
 
-        # minimal metadata (we can improve later to include PDF name + page)
-        docs.append(Document(page_content=text, metadata={"chunk_file": fname}))
+        docs.append(
+            Document(
+                page_content=text,
+                metadata={"chunk_file": path.name}
+            )
+        )
+
+    if not docs:
+        raise ValueError("❌ No .txt chunk files found in processed_chunks")
 
     return docs
-
-if __name__ == "__main__":
-    docs = load_chunk_documents()
-    print(f"✅ Loaded {len(docs)} chunks as Documents")
-    print("Sample:", docs[0].metadata, docs[0].page_content[:150])

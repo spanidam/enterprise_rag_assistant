@@ -1,5 +1,5 @@
-from hybrid_retriever import build_hybrid_retriever
-from reranker import CrossEncoderReranker
+from backend.hybrid_retriever import build_hybrid_retriever
+from backend.reranker import CrossEncoderReranker
 
 def retrieve_context(query, k_candidates=12, top_n=5):
     # 1) hybrid retrieval (dense + bm25)
