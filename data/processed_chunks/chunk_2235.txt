@@ -1,9 +1,0 @@
-image, one key design choice is how to encode this image. For example, we could 
-preprocess the image to extract edges, regions of uniform intensity, or other local 
-image features, then input these features to the network. One difficulty with this 
-design option is that it would lead to a variable number of features (e.g., edges) 
-per image, whereas the ANN has a fixed number of input units. The design option 
-chosen in this case was instead to encode the image as a fixed set of 30 x 32 pixel 
-intensity values, with one network input per pixel. The pixel intensity values 
-ranging from 0 to 255 were linearly scaled to range from 0 to 1 so that network 
-inputs would have values in the same interval as the hidden unit and output unit

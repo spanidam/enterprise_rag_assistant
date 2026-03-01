@@ -1,9 +1,0 @@
-by Vasilisa Sheromova, and "History and Philosophy of Python (https://openstax.org/r/100sheromova)" by
-Bernd Klein.
-Popularity of Python
-Over the years, Python has become a nonprofit organization with a thriving community. Millions of
-programmers around the world use Python for all kinds of interesting projects. Hundreds of thousands of
-Python libraries have been released as open source software. The Python community is very active and
-supportive online, answering questions and sharing code.
-One way to see Python's popularity is the TIOBE index (https://openstax.org/r/100TIOBE). TIOBE is a Dutch
-company that provides products and services for measuring software code quality. Since 2001, TIOBE has

@@ -1,9 +1,0 @@
-legal search operators, together with the definition of the search objective, provide 
-a complete and correct domain theory for learning search control knowledge. 
-Exactly how should we formulate the problem of learning search control so 
-that we can apply explanation-based learning? Consider a general search problem 
-where S is the set of possible search states, 0 is a set of legal search operators that 
-transform one search state into another, and G is a predicate defined over S that 
-indicates which states are goal states. The problem in general is to find a sequence 
-of operators that will transform an arbitrary initial state si to some final state sf 
-that satisfies the goal predicate G. One way to formulate the learning problem is to

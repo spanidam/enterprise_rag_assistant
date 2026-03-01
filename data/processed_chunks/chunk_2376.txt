@@ -1,9 +1,0 @@
-above, in which we assume unlimited access to examples of the target function. In 
-practice, given a limited set of data Do and the more practical method described 
-by Table 5.5, this justification does not strictly apply. In practice, the problem is 
-that the only way to generate new Si is to resample Do, dividing it into training 
-and test sets in different ways. The 6i are not independent of one another in this 
-case, because they are based on overlapping sets of training examples drawn from 
-the limited subset Do of data, rather than from the full distribution 'D. 
-When only a limited sample of data Do is available, several methods can be 
-used to resample Do. Table 5.5 describes a k-fold method in which Do is parti-

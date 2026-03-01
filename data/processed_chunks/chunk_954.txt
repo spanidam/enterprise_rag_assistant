@@ -1,9 +1,0 @@
-specific to the problem at hand.
-Indeed, you might have seen that the activation functions discussed in the previous section do not share the same range
-of output values. It is hence of prime importance to pick an adequate activation function for the output layer such that
-our model outputs values that are consistent to the quantities it is supposed to predict.
-If, for example, our model was supposed to be used in the Boston Housing dataset we discussed in the previous chapter.
-In this case, the goal is to predict housing prices, which are expected to be nonnegative quantities. It would then be a
-good idea to use ReLU (which can output any positive value) as the activation function for the output layer in this case.
-12
-Chapter 2. Multi Layer Perceptrons

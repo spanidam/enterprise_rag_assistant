@@ -1,9 +1,0 @@
-result in a connection to the charger and a reward of zero to every other state-action 
-transition. This reward function may be built into the robot, or known only to an 
-external teacher who provides the reward value for each action performed by the 
-robot. The task of the robot is to perform sequences of actions, observe their conse- 
-quences, and learn a control policy. The control policy we desire is one that, from 
-any initial state, chooses actions that maximize the reward accumulated over time 
-by the agent. This general setting for robot learning is summarized in Figure 13.1. 
-As is apparent from Figure 13.1, the problem of learning a control policy to 
-maximize cumulative reward is very general and covers many problems beyond

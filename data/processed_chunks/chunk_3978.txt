@@ -1,20 +1,0 @@
-A(s), to the probability π(a|s) of taking action a when in state s. Informally,
-the value of a state s under a policy π, denoted vπ(s), is the expected return
-when starting in s and following π thereafter. For MDPs, we can deﬁne vπ(s)
-formally as
-vπ(s) = Eπ[Gt | St =s] = Eπ
-" ∞
-X
-k=0
-γkRt+k+1
- St =s
-#
-,
-(3.10)
-where Eπ[·] denotes the expected value of a random variable given that the
-agent follows policy π, and t is any time step. Note that the value of the
-terminal state, if any, is always zero. We call the function vπ the state-value
-function for policy π.
-Similarly, we deﬁne the value of taking action a in state s under a policy
-π, denoted qπ(s, a), as the expected return starting from s, taking the action
-a, and thereafter following policy π:

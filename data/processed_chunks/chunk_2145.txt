@@ -1,9 +1,0 @@
-by the perceptron, and q is a positive constant called the learning rate. The role 
-of the learning rate is to moderate the degree to which weights are changed at 
-each step. It is usually set to some small value (e.g., 0.1) and is sometimes made 
-to decay as the number of weight-tuning iterations increases. 
-Why should this update rule converge toward successful weight values? To 
-get an intuitive feel, consider some specific cases. Suppose the training example is 
-correctly classified already by the perceptron. In this case, (t - o) is zero, making 
-Awi zero, so that no weights are updated. Suppose the perceptron outputs a -1, 
-when the target output is + 1. To make the perceptron output a + 1 instead of - 1 in

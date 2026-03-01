@@ -1,9 +1,0 @@
-tested. For example, the learner might never encounter certain crucial board states 
-that are very likely to be played by the human checkers champion. In practice, 
-it is often necessary to learn from a distribution of examples that is somewhat 
-different from those on which the final system will be evaluated (e.g., the world 
-checkers champion might not be interested in teaching the program!). Such situ- 
-ations are problematic because mastery of one distribution of examples will not 
-necessary lead to strong performance over some other distribution. We shall see 
-that most current theory of machine learning rests on the crucial assumption that 
-the distribution of training examples is identical to the distribution of test ex-

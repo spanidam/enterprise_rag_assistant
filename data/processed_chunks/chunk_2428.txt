@@ -1,9 +1,0 @@
-8 represents the set of real numbers). The problem faced by L is to learn an 
-unknown target function f : X -+ 8 drawn from H. A set of m training examples 
-is provided, where the target value of each example is corrupted by random 
-noise drawn according to a Normal probability distribution. More precisely, each 
-training example is a pair of the form (xi, di) where di = f (xi) + ei. Here f (xi) is 
-the noise-free value of the target function and ei is a random variable represent- 
-ing the noise. It is assumed that the values of the ei are drawn independently and 
-that they are distributed according to a Normal distribution with zero mean. The 
-task of the learner is to output a maximum likelihood hypothesis, or, equivalently,

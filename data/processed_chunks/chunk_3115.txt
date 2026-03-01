@@ -1,9 +1,0 @@
-lems lie somewhere between these two extremes of the spectrum. For example, in 
-analyzing a database of medical records to learn "symptoms for which treatment 
-x is more effective than treatment y," one often begins with approximate prior 
-knowledge (e.g., a qualitative model of the cause-effect mechanisms underlying 
-the disease) that suggests the patient's temperature is more likely to be relevant 
-than the patient's middle initial. Similarly, in analyzing a stock market database 
-to learn the target concept "companies whose stock value will double over the 
-next 10 months," one might have approximate knowledge of economic causes 
-and effects, suggesting that the gross revenue of the company is more likely to

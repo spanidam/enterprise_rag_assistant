@@ -1,9 +1,0 @@
-Every well-formed expression is composed of constants (e.g., Mary, 23, or Joe), variables (e.g., 
-x), predicates (e.g., Female, as in Female(Mary)), and functions (e.g., age, as in age(Mary)). 
-A term is any constant, any variable, or any function applied to any term. Examples include Mary, 
-x, age(Mary), age(x). 
-A literal is any predicate (or its negation) applied to any set of terms. Examples include 
-Femal e(Mary), - Female(x), Greaterf han (age(Mary), 20). 
-A ground literal is a literal that does not contain any variables (e.g., -Female(Joe)). 
-A negative literal is a literal containing a negated predicate (e.g., -Female(Joe)). 
-A positive literal is a literal with no negation sign (e.g., Female(Mary)).

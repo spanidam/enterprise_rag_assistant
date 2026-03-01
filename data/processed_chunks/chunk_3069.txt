@@ -1,9 +1,0 @@
-important class of learning problems where this requirement is easily satisfied is 
-learning to speed up complex search programs. In fact, the largest scale attempts to 
-apply explanation-based learning have addressed the problem of learning to con- 
-trol search, or what is sometimes called "speedup" learning. For example, playing 
-games such as chess involves searching through a vast space of possible moves 
-and board positions to find the best move. Many practical scheduling and optimiza- 
-tion problems are easily formulated as large search problems, in which the task is 
-to find some move toward the goal state. In such problems the definitions of the 
-legal search operators, together with the definition of the search objective, provide

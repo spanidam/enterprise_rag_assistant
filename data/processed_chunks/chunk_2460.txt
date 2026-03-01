@@ -1,9 +1,0 @@
-with the number of edges. How shall we choose the encoding C2 of the data 
-given a particular decision tree hypothesis? To keep things simple, suppose that 
-the sequence of instances (xl . . .x,) is already known to both the transmitter 
-and receiver, so that we need only transmit the classifications (f (XI) . . . f (x,)). 
-(Note the cost of transmitting the instances themselves is independent of the cor- 
-rect hypothesis, so it does not affect the selection of ~ M D L  in any case.) Now if 
-the training classifications (f (xl) . . . f (xm)) are identical to the predictions of the 
-hypothesis, then there is no need to transmit any information about these exam- 
-ples (the receiver can compute these values once it has received the hypothesis).

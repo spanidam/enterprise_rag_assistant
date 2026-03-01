@@ -1,9 +1,0 @@
-module is previously written code that can be imported in a program. The import statement defines a
-variable for accessing code in a module. Import statements often appear at the beginning of a program.
-The standard library also defines built-in functions such as print(), input(), and float(). A built-in
-function is always available and does not need to be imported. The complete list of built-in functions
-(https://openstax.org/r/100builtin) is available in Python's official documentation.
-A commonly used module in the standard library is the math module (https://openstax.org/r/
-100mathmodule). This module defines functions such as sqrt() (square root). To call sqrt(), a program
-must import math and use the resulting math variable followed by a dot. Ex: math.sqrt(25) evaluates to
-5.0.

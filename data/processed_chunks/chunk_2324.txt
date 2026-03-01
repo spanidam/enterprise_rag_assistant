@@ -1,9 +1,0 @@
-to estimating errorv(h) from testing h on a random sample of instances. A single 
-toss of the coin corresponds to drawing a single random instance from 23 and 
-determining whether it is misclassified by h. The probability p that a single random 
-coin toss will turn up heads corresponds to the probability that a single instance 
-drawn at random will be misclassified (i.e., p corresponds to errorv(h)). The 
-number r of heads observed over a sample of n coin tosses corresponds to the 
-number of misclassifications observed over n randomly drawn instances. Thus rln 
-corresponds to errors(h). The problem of estimating p for coins is identical to 
-the problem of estimating errorv(h) for hypotheses. The Binomial distribution

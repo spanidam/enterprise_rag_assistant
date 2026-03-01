@@ -1,8 +1,0 @@
-itself with a smaller portion of the input parameter. Ex: In the recursive function factorial(), the initial
-parameter is an integer n. In the function's recursive case, the argument passed to factorial() is n - 1,
-which is smaller than n.
-A value of n for which the solution is known is called the base case. The base case stops the recursion. A
-recursive algorithm must include a base case; otherwise, the algorithm may result in an infinite computation.
-To calculate a factorial, a recursive function, factorial() is defined with an integer input parameter, n. When
-n > 1, the recursive case applies. The factorial() calls itself with a smaller argument, n - 1. When n ==
-1, the solution is known because 1! is 1; therefore, n == 1 is a base case.

@@ -1,9 +1,0 @@
-It is interesting to ask whether one can mathematically characterize the evolution 
-over time of the population within a GA. The schema theorem of Holland (1975) 
-provides one such characterization. It is based on the concept of schemas, or pat- 
-terns that describe sets of bit strings. To be precise, a schema is any string com- 
-posed of Os, Is, and *'s. Each schema represents the set of bit strings containing the 
-indicated 0s and Is, with each "*" interpreted as a "don't care." For example, the 
-schema 0*10 represents the set of bit strings that includes exactly 0010 and 01 10. 
-An individual bit string can be viewed as a representative of each of the 
-different schemas that it matches. For example, the bit string 0010 can be thought

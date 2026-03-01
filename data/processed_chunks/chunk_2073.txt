@@ -1,9 +1,0 @@
-tree accuracy over the validation set. Pruning of nodes continues until further 
-pruning is harmful (i.e., decreases accuracy of the tree over the validation set). 
-The impact of reduced-error pruning on the accuracy of the decision tree 
-is illustrated in Figure 3.7. As in Figure 3.6, the accuracy of the tree is shown 
-measured over both training examples and test examples. The additional line in 
-Figure 3.7 shows accuracy over the test examples as the tree is pruned. When 
-pruning begins, the tree is at its maximum size and lowest accuracy over the test 
-set. As pruning proceeds, the number of nodes is reduced and accuracy over the 
-test set increases. Here, the available data has been split into three subsets: the

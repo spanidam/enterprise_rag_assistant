@@ -1,9 +1,0 @@
-successors to this hypothesis. You need only include those hypotheses generated 
-by FOCL's second search operator, which uses its domain theory. Don't forget to 
-post-prune the sufficient conditions. Use the training data from Table 12.3. 
-12.7. This chapter discussed three approaches to using prior knowledge to impact the 
-search through the space of possible hypotheses. Discuss your ideas for how these 
-three approaches could be integrated. Can you propose a specific algorithm that 
-integrates at least two of these three for some specific hypothesis representation? 
-What advantages and disadvantages would you anticipate from this integration? 
-12.8. Consider again the question from Section 12.2.1, regarding what criterion to use

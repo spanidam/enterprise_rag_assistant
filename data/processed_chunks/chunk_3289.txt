@@ -1,9 +1,0 @@
-are found during early training to have high Q values, while failing to explore 
-other actions that have even higher values. In fact, the convergence theorem above 
-requires that each state-action transition occur infinitely often. This will clearly 
-not occur if the agent always selects actions that maximize its current &(s, a). For 
-this reason, it is common in Q learning to use a probabilistic approach to selecting 
-actions. Actions with higher Q values are assigned higher probabilities, but every 
-action is assigned a nonzero probability. One way to assign such probabilities is 
-where P(ai 1s) is the probability of selecting action ai, given that the agent is in 
-state s, and where k > 0 is a constant that determines how strongly the selection

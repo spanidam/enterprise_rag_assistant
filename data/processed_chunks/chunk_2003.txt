@@ -1,9 +1,0 @@
-Conference on Pattern Recognition (pp. 3-17). 
-Mitchell, T. M. (1977). Version spaces: A candidate elimination approach to rule learning. Fijlh 
-International Joint Conference on AI @p. 305-310). Cambridge, MA: MIT Press. 
-Mitchell, T. M. (1979). Version spaces: An approach to concept learning, (F'h.D. dissertation). Elec- 
-trical Engineering Dept., Stanford University, Stanford, CA. 
-Mitchell, T. M. (1982). Generalization as search. ArtQcial Intelligence, 18(2), 203-226. 
-Mitchell, T. M., Utgoff, P. E., & Baneji, R. (1983). Learning by experimentation: Acquiring and 
-modifying problem-solving heuristics. In Michalski, Carbonell, & Mitchell (Eds.), Machine 
-Learning (Vol. 1, pp. 163-190). Tioga Press.

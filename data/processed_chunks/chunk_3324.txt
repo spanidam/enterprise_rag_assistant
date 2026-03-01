@@ -1,9 +1,0 @@
-led to the solution of Markov decision processes using similar methods (Bellman 
-1961; Blackwell 1965). Holland's (1986) bucket brigade method for learning clas- 
-sifier systems used a similar method for propagating credit in the face of delayed 
-rewards. Barto et al. (1983) discussed an approach to temporal credit assignment 
-that led to Sutton's paper (1988) defining the TD(k) method and proving its con- 
-vergence for k = 0. Dayan (1992) extended this result to arbitrary values of k. 
-Watkins (1989) introduced Q learning to acquire optimal policies when the re- 
-ward and action transition functions are unknown. Convergence proofs are known 
-for several variations on these methods. In addition to the convergence proofs

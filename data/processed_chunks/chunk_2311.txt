@@ -1,9 +1,0 @@
-errors(h) = 12/40 = .30. Given no other information, the best estimate of the true 
-error errorD(h) is the observed sample error .30. However, we do not expect this 
-to be a perfect estimate of the true error. If we were to collect a second sample 
-S' containing 40 new randomly drawn examples, we might expect the sample 
-error errors,(h) to vary slightly from the sample error errors(h). We expect a 
-difference due to the random differences in the makeup of S and S'. In fact, if 
-we repeated this experiment over and over, each time drawing a new sample 
-S, containing 40 new examples, we would find that for approximately 95% of 
-these experiments, the calculated interval would contain the true error. For this

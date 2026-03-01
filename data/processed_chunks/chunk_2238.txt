@@ -1,9 +1,0 @@
-rection in which the person is looking (left, right, up, or straight). Note we could 
-encode this four-way classification using a single output unit, assigning outputs 
-of, say, 0.2,0.4,0.6, and 0.8 to encode these four possible values. Instead, we 
-use four distinct output units, each representing one of the four possible face di- 
-rections, with the highest-valued output taken as the network prediction. This is 
-often called a 1 -0f-n output encoding. There are two motivations for choosing the 
-1-of-n output encoding over the single unit option. First, it provides more degrees 
-of freedom to the network for representing the target function (i.e., there are n 
-times as many weights available in the output layer of units). Second, in the 1-of-n

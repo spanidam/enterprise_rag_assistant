@@ -1,9 +1,0 @@
-goals. This very generic problem covers tasks such as learning to control a mobile 
-robot, learning to optimize operations in factories, and learning to play board games. 
-Each time the agent performs an action in its environment, a trainer may provide a 
-reward or penalty to indicate the desirability of the resulting state. For example, when 
-training an agent to play a game the trainer might provide a positive reward when the 
-game is won, negative reward when it is lost, and zero reward in all other states. The 
-task of the agent is to learn from this indirect, delayed reward, to choose sequences 
-of actions that produce the greatest cumulative reward. This chapter focuses on 
-an algorithm called Q learning that can acquire optimal control strategies from

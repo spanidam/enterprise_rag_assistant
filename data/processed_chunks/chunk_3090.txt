@@ -1,9 +1,0 @@
-provided general descriptions of the explanation-based learning paradigm, which 
-helped spur a burst of research on this topic during the late 1980s. A collection of 
-research on explanation-based learning performed at the University of Illinois is 
-described by DeJong (1993), including algorithms that modify the structure of the 
-explanation in order to correctly generalize iterative and temporal explanations. 
-More recent research has focused on extending explanation-based methods to 
-accommodate imperfect domain theories and to incorporate inductive together 
-with analytical learning (see Chapter 12). An edited collection exploring the role 
-of goals and prior knowledge in human and machine learning is provided by Ram

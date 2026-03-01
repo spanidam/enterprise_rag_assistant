@@ -1,9 +1,0 @@
-to these same bounds. This chapter considers an analytical learning method called 
-explanation-based learning (EBL). In explanation-based learning, prior knowledge 
-is used to analyze, or explain, how each observed training example satisfies the 
-target concept. This explanation is then used to distinguish the relevant features 
-of the training example from the irrelevant, so that examples can be generalized 
-based on logical rather than statistical reasoning. Explanation-based learning has 
-been successfully applied to learning search control rules for a variety of planning 
-and scheduling tasks. This chapter considers explanation-based learning when the 
-learner's prior knowledge is correct and complete. The next chapter considers com-

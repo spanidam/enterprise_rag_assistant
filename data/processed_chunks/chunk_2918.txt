@@ -1,9 +1,0 @@
-bindings and fewer negative bindings. As new literals are added to the rule, the 
-sets of bindings will change. Note if a literal is added that introduces a new 
-variable, then the bindings for the rule will grow in length (e.g., if Father(y, z) 
-is added to the above rule, then the original binding {xlvictor, y/Sharon) will 
-become the more lengthy {xlvictor, ylSharon, z/Bob}. Note also that if the new 
-variable can bind to several different constants, then the number of bindings fitting 
-the extended rule can be greater than the number associated with the original rule. 
-The evaluation function used by FOIL to estimate the utility of adding a 
-new literal is based on the numbers of positive and negative bindings covered

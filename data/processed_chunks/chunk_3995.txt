@@ -1,53 +1,0 @@
-Because it is the optimal value function, however, v∗’s consistency condition
-can be written in a special form without reference to any speciﬁc policy. This
-is the Bellman equation for v∗, or the Bellman optimality equation. Intuitively,
-the Bellman optimality equation expresses the fact that the value of a state
-under an optimal policy must equal the expected return for the best action
-from that state:
-v∗(s)
-=
-max
-a∈A(s) qπ∗(s, a)
-=
-max
-a
-Eπ∗[Gt | St =s, At =a]
-=
-max
-a
-Eπ∗
-" ∞
-X
-k=0
-γkRt+k+1
- St =s, At =a
-#
-=
-max
-a
-Eπ∗
-"
-Rt+1 + γ
-∞
-X
-k=0
-γkRt+k+2
- St =s, At =a
-#
-=
-max
-a
-E[Rt+1 + γv∗(St+1) | St =s, At =a]
-(3.16)
-=
-max
-a∈A(s)
-X
-s′,r
-p(s′, r|s, a)
-
-r + γv∗(s′)
-
-.
-(3.17)
-The last two equations are two forms of the Bellman optimality equation for

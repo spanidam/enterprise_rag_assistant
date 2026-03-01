@@ -1,9 +1,0 @@
-ational literals added in a single step based on the domain theory, and of is a 
-final conjunction of operational literals added one at a time by the first syntactic 
-operator. Any of these three sets of literals may be empty. 
-The above discussion illustrates the use of a propositional domain theory 
-to create candidate specializations of the hypothesis during the general-to-specific 
-search for a single Horn clause. The algorithm is easily extended to first-order 
-representations (i.e., representations including variables). Chapter 10 discusses in 
-detail the algorithm used by FOIL to generate first-order Horn clauses, including 
-the extension of the first of the two search operators described above to first-order

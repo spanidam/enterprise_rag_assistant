@@ -1,9 +1,0 @@
-evaluation functions similar to the one described in Chapter 1, rather than rules 
-acquired by explanation-based learning. What is the reason for this? In fact, there 
-are significant practical problems with applying EBL to learning search control. 
-First, in many cases the number of control rules that must be learned is very large 
-(e.g., many thousands of rules). As the system learns more and more control rules 
-to improve its search, it must pay a larger and larger cost at each step to match this 
-set of rules against the current search state. Note this problem is not specific to 
-explanation-based learning; it will occur for any system that represents its learned 
-knowledge by a growing set of rules. Efficient algorithms for matching rules can

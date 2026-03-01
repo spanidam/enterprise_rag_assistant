@@ -1,9 +1,0 @@
-The fourth training example, as shown in Figure 2.6, further generalizes the 
-S boundary of the version space. It also results in removing one member of the G 
-boundary, because this member fails to cover the new positive example. This last 
-action results from the first step under the condition "If d is a positive example" 
-in the algorithm shown in Table 2.5. To understand the rationale for this step, it is 
-useful to consider why the offending hypothesis must be removed from G. Notice 
-it cannot be specialized, because specializing it would not make it cover the new 
-example. It also cannot be generalized, because by the definition of G, any more 
-general hypothesis will cover at least one negative training example. Therefore,

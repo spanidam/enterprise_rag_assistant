@@ -1,9 +1,0 @@
-generate candidate hypotheses hi that satisfy (B A hi A xi) I- f (xi), where B is the 
-background knowledge plus any clauses learned on previous iterations. Note this 
-is an example-driven search, because each candidate hypothesis is constructed to 
-cover a particular example. Of course if multiple candidate hypotheses exist, then 
-one strategy for selecting among them is to choose the one with highest accuracy 
-over the other examples as well. The CIGOL program uses inverse resolution with 
-this kind of sequential covering algorithm, interacting with the user along the 
-way to obtain training examples and to obtain guidance in its search through the 
-vast space of possible inductive inference steps. However, CIGOL uses first-order

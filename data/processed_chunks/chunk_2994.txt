@@ -1,9 +1,0 @@
-insufficient data is available. In fact, as discussed in Chapter 7, theoretical analysis 
-shows that there are fundamental bounds on the accuracy that can be achieved 
-when learning inductively from a given number of training examples. 
-Can we develop learning methods that are not subject to these fundamental 
-bounds on learning accuracy imposed by the amount of training data available? 
-Yes, if we are willing to reconsider the formulation of the learning problem itself. 
-One way is to develop learning algorithms that accept explicit prior knowledge as 
-an input, in addition to the input training data. Explanation-based learning is one 
-such approach. It uses prior knowledge to analyze, or explain, each training exam-

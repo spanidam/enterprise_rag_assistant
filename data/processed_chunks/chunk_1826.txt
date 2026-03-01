@@ -1,9 +1,0 @@
-be a particularly difficult problem because the game can be lost even when early 
-moves are optimal, if these are followed later by poor moves. Hence, learning from 
-direct training feedback is typically easier than learning from indirect feedback. 
-A second important attribute of the training experience is the degree to which 
-the learner controls the sequence of training examples. For example, the learner 
-might rely on the teacher to select informative board states and to provide the 
-correct move for each. Alternatively, the learner might itself propose board states 
-that it finds particularly confusing and ask the teacher for the correct move. Or the 
-learner may have complete control over both the board states and (indirect) training

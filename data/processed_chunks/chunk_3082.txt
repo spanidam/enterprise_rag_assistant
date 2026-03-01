@@ -1,9 +1,0 @@
-A second practical problem with applying explanation-based learning to 
-learning search control is that in many cases it is intractable even to construct 
-the explanations for the desired target concept. For example, in chess we might 
-wish to learn a target concept such as "states for which operator A leads toward 
-the optimal solution." Unfortunately, to prove or explain why A leads toward the 
-optimal solution requires explaining that every alternative operator leads to a less 
-optimal outcome. This typically requires effort exponential in the search depth. 
-Chien (1993) and Tadepalli (1990) explore methods for "lazy" or "incremental" 
-explanation, in which heuristics are used to produce partial and approximate, but

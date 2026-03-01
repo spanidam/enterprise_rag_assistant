@@ -1,9 +1,0 @@
-two different reasons. First, Bayesian learning algorithms that calculate explicit 
-probabilities for hypotheses, such as the naive Bayes classifier, are among the most 
-practical approaches to certain types of learning problems. For example, Michie 
-et al. (1994) provide a detailed study comparing the naive Bayes classifier to 
-other learning algorithms, including decision tree and neural network algorithms. 
-These researchers show that the naive Bayes classifier is competitive with these 
-other learning algorithms in many cases and that in some cases it outperforms 
-these other methods. In this chapter we describe the naive Bayes classifier and 
-provide a detailed example of its use. In particular, we discuss its application to

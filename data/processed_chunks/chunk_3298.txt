@@ -1,9 +1,0 @@
-Above we considered Q learning in deterministic environments. Here we consider 
-the nondeterministic case, in which the reward function r(s, a )  and action transi- 
-tion function 6(s, a )  may have probabilistic outcomes. For example, in Tesaur~'~ 
-(1995) backgammon playing program, action outcomes are inherently probabilis- 
-tic because each move involves a roll of the dice. Similarly, in robot problems 
-with noisy sensors and effectors it is often appropriate to model actions and re- 
-wards as nondeterministic. In such cases, the functions 6(s, a )  and r(s, a )  can be 
-viewed as first producing a probability distribution over outcomes based on s and 
-a, and then drawing an outcome at random according to this distribution. When

@@ -1,9 +1,0 @@
-frequency as the length of its action sequence approaches infinity. Note these 
-conditions are in some ways quite general and in others fairly restrictive. They 
-describe a more general setting than illustrated by the example in the previous 
-section, because they allow for environments with arbitrary positive or negative 
-rewards, and for environments where any number of state-action transitions may 
-produce nonzero rewards. The conditions are also restrictive in that they require 
-the agent to visit every distinct state-action transition infinitely often. This is a 
-very strong assumption in large (or continuous!) domains. We will discuss stronger 
-convergence results later. However, the result described in this section provides

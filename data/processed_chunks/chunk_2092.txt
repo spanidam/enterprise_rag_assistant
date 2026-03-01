@@ -1,9 +1,0 @@
-training data). The attribute whose partition is closest to the perfect partition is 
-chosen. Lopez de Mantaras (1991) defines this distance measure, proves that it 
-is not biased toward attributes with large numbers of values, and reports experi- 
-mental studies indicating that the predictive accuracy of the induced trees is not 
-significantly different from that obtained with the Gain and Gain Ratio measures. 
-However, this distance measure avoids the practical difficulties associated with the 
-GainRatio measure, and in his experiments it produces significantly smaller trees 
-in the case of data sets whose attributes have very different numbers of values. 
-A variety of other selection measures have been proposed as well (e.g.,

@@ -1,8 +1,0 @@
-10 network outputs correspond to the 10 possible vowel sounds. The network prediction is the 
-output whose value is highest. The plot on the right illustrates the highly nonlinear decision surface 
-represented by the learned network. Points shown on the plot are test examples distinct from the 
-examples used to train the network. (Reprinted by permission from Haung and Lippmann (1988).) 
-section, for which we have already derived a gradient descent learning rule. How- 
-ever, multiple layers of cascaded linear units still produce only linear functions, 
-and we prefer networks capable of representing highly nonlinear functions. The 
-perceptron unit is another possible choice, but its discontinuous threshold makes

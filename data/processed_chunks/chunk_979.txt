@@ -1,8 +1,0 @@
-h = model.fit(X, y, validation_split=0.3, epochs=n_epochs, batch_size=30, verbose=0)
-Here, the best model (in terms of generalization capabilities) seems to be the model at epoch np.int64(17). In other
-words, if we had stopped the learning process after epoch np.int64(17), we would have gotten a better model than if we
-use the model trained during 70 epochs.
-This is the whole idea behind the “early stopping” strategy, which consists in stopping the learning process as soon as the
-validation loss stops improving. As can be seen in the visualization above, however, the validation loss tends to oscillate,
-and one often waits for several epochs before assuming that the loss is unlikely to improve in the future. The number of
-epochs to wait is called the patience parameter.

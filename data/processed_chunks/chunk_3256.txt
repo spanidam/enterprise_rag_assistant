@@ -1,9 +1,0 @@
-discrete time step t, the agent senses the current state st, chooses a current action 
-a,, and performs it. The environment responds by giving the agent a reward r, = 
-r (st, a,) and by producing the succeeding state s,+l = 6(s,, a,). Here the functions 
-6 and r are part of the environment and are not necessarily known to the agent. 
-In an MDP, the functions 6(st, a,) and r(s,, a,) depend only on the current state 
-and action, and not on earlier states or actions. In this chapter we consider only 
-the case in which S and A are finite. In general, 6 and r may be nondeterministic 
-functions, but we begin by considering only the deterministic case. 
-The task of the agent is to learn a policy, n : S + A, for selecting its next

@@ -1,9 +1,0 @@
-represent six possible states, or locations, for the agent. Each arrow in the diagram 
-represents a possible action the agent can take to move from one state to another. 
-The number associated with each arrow represents the immediate reward r(s, a) 
-the agent receives if it executes the corresponding state-action transition. Note 
-the immediate reward in this particular environment is defined to be zero for 
-all state-action transitions except for those leading into the state labeled G. It is 
-convenient to think of the state G as the goal state, because the only way the agent 
-can receive reward, in this case, is by entering this state. Note in this particular 
-environment, the only action available to the agent once it enters the state G is

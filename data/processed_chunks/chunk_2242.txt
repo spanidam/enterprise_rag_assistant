@@ -1,9 +1,0 @@
-results reported in Figure 4.10, only three hidden units were used, yielding a test 
-set accuracy of 90%. In other experiments 30 hidden units were used, yielding a 
-test set accuracy one to two percent higher. Although the generalization accuracy 
-varied only a small amount between these two experiments, the second experiment 
-required significantly more training time. Using 260 training images, the training 
-time was approximately 1 hour on a Sun Sparc5 workstation for the 30 hidden unit 
-network, compared to approximately 5 minutes for the 3 hidden unit network. In 
-many applications it has been found that some minimum number of hidden units 
-is required in order to learn the target function accurately and that extra hidden

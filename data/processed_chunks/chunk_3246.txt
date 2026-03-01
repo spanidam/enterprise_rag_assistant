@@ -1,9 +1,0 @@
-maximize cumulative reward is very general and covers many problems beyond 
-robot learning tasks. In general the problem is one of learning to control sequential 
-processes. This includes, for example, manufacturing optimization problems in 
-which a sequence of manufacturing actions must be chosen, and the reward to 
-be maximized is the value of the goods produced minus the costs involved. It 
-includes sequential scheduling problems such as choosing which taxis to send 
-for passengers in a large city, where the reward to be maximized is a function 
-of the wait time of the passengers and the total fuel costs of the taxi fleet. In 
-general, we are interested in any type of agent that must learn to choose actions

@@ -1,9 +1,0 @@
-readability and content flow, some art does not include attribution in the text. This art is part of the public
-domain or under a CC0 or similar license, and can be reused without attribution. For illustrations (e.g. graphs,
-charts, etc.) that are not credited, use the following attribution: Copyright Rice University, OpenStax, under CC
-BY 4.0 license.
-Errata
-All OpenStax textbooks undergo a rigorous review process. However, like any professional-grade textbook,
-errors sometimes occur. Since our books are web-based, we can make updates periodically when deemed
-pedagogically necessary. If you have a correction to suggest, submit it through the link on your book page on
-OpenStax.org. Subject matter experts review all errata suggestions. OpenStax is committed to remaining

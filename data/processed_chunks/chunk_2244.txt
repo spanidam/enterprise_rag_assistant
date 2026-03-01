@@ -1,9 +1,0 @@
-ing times. If these values are set too high, training fails to converge to a network 
-with acceptable error over the training set. Full gradient descent was used in all 
-these experiments (in contrast to the stochastic approximation to gradient descent 
-in the algorithm of Table 4.2). Network weights in the output units were initial- 
-ized to small random values. However, input unit weights were initialized to zero, 
-because this yields much more intelligible visualizations of the learned weights 
-(see Figure 4.10), without any noticeable impact on generalization accuracy. The 
-number of training iterations was selected by partitioning the available data into 
-a training set and a separate validation set. Gradient descent was used to min-

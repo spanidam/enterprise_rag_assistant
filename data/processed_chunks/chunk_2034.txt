@@ -1,9 +1,0 @@
-The process of selecting a new attribute and partitioning the training exam- 
-ples is now repeated for each nontenninal descendant node, this time using only 
-the training examples associated with that node. Attributes that have been incor- 
-porated higher in the tree are excluded, so that any given attribute can appear at 
-most once along any path through the tree. This process continues for each new 
-leaf node until either of two conditions is met: (1) every attribute has already been 
-included along this path through the tree, or (2) the training examples associated 
-with this leaf node all have the same target attribute value (i.e., their entropy 
-is zero). Figure 3.4 illustrates the computations of information gain for the next

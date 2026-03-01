@@ -1,9 +1,0 @@
-dants, given its immediate parents. Associated with each node is a conditional probability table, 
-which specifies the conditional distribution for the variable given its immediate parents in the graph. 
-The conditional probability table for the Campjire node is shown at the right, where Campjire is 
-abbreviated to C, Storm abbreviated to S, and BusTourGroup abbreviated to B. 
-6.11.2 Representation 
-A Bayesian belief network (Bayesian network for short) represents the joint prob- 
-ability distribution for a set of variables. For example, the Bayesian network in 
-Figure 6.3 represents the joint probability distribution over the boolean variables 
-Storm, Lightning, Thunder, ForestFire, Campjre, and BusTourGroup. In general,

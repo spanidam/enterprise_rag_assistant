@@ -1,9 +1,0 @@
-5. c. Both the darken function and the BLUE variable must be accessed via the colors variable.
-6. a. Function names that begin with an underscore are intended to be used only within the current module.
-7. b. Only docstrings are included in the documentation. All comments are ignored by the help function.
-8. a. The functions are sorted alphabetically by name to make looking up a function easier.
-9. a. Functions that begin with an underscore are intended to be used only within a module, not in other
-modules.
-7.5 Finding modules
-1. a. This reference describes the standard library, including built-in functions, types, and modules.
-2. b. As explained in the documentation of the calendar module, MONDAY is 0 and SUNDAY is 6 .

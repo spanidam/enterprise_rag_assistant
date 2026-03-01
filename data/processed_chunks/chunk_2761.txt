@@ -1,9 +1,0 @@
-on the application, though hypotheses may also be described by symbolic expressions 
-or even computer programs. The search for an appropriate hypothesis begins with a 
-population, or collection, of initial hypotheses. Members of the current population 
-give rise to the next generation population by means of operations such as random 
-mutation and crossover, which are patterned after processes in biological evolution. 
-At each step, the hypotheses in the current population are evaluated relative to 
-a given measure of fitness, with the most fit hypotheses selected probabilistically 
-as seeds for producing the next generation. Genetic algorithms have been applied 
-successfully to a variety of learning tasks and to other optimization problems. For

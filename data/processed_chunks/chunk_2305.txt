@@ -1,9 +1,0 @@
-about whether x is a positive or negative example; it only detennines the proba- 
-bility that x will be encountered. The learning task is to learn the target concept 
-or target function f by considering a space H of possible hypotheses. Training 
-examples of the target function f are provided to the learner by a trainer who 
-draws each instance independently, according to the distribution D, and who then 
-forwards the instance x along with its correct target value f ( x )  to the learner. 
-To illustrate, consider learning the target function "people who plan to pur- 
-chase new skis this year," given a sample of training data collected by surveying 
-people as they arrive at a ski resort. In this case the instance space X is the space

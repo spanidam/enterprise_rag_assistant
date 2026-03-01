@@ -1,9 +1,0 @@
-class of learners, called consistent learners. A learner is consistent if it outputs 
-hypotheses that perfectly fit the training data, whenever possible. It is quite rea- 
-sonable to ask that a learning algorithm be consistent, given that we typically 
-prefer a hypothesis that fits the training data over one that does not. Note that 
-many of the learning algorithms discussed in earlier chapters, including all the 
-learning algorithms described in Chapter 2, are consistent learners. 
-Can we derive a bound on the number of training examples required by 
-any consistent learner, independent of the specific algorithm it uses to derive a 
-consistent hypothesis? The answer is yes. To accomplish this, it is useful to recall

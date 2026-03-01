@@ -1,9 +1,0 @@
-second stage, the linear weight values w, can be trained very efficiently. 
-Several alternative methods have been proposed for choosing an appropriate 
-number of hidden units or, equivalently, kernel functions. One approach is to 
-allocate a Gaussian kernel function for each training example (xi, f (xi)), centering 
-this Gaussian at the point xi. Each of these kernels may be assigned the same width 
-a2. Given this approach, the RBF network learns a global approximation to the 
-target function in which each training example (xi, f (xi)) can influence the value 
-of f only in the neighborhood of xi. One advantage of this choice of kernel 
-functions is that it allows the RBF network to fit the training data exactly. That

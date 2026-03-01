@@ -1,9 +1,0 @@
-in detail by Russell (1989) and others. Determinations assert that some attribute of 
-the instance is fully determined by certain other attributes, without specifying the 
-exact nature of the dependence. For example, consider learning the target concept 
-"people who speak Portuguese," and imagine we are given as a domain theory the 
-single determination assertion "the language spoken by a person is determined by 
-their nationality." Taken alone, this domain theory does not enable us to classify 
-any instances as positive or negative. However, if we observe that "Joe, a 23- 
-year-old left-handed Brazilian, speaks Portuguese," then we can conclude from 
-this positive example and the domain theory that "all Brazilians speak Portuguese."

@@ -1,9 +1,0 @@
-by Frontier is regressed through Rule. Literal is the member of Frontier inferred by Rule in 
-the explanation. The substitution Bki gives the binding of variables from the head of Rule to the 
-corresponding literal in the explanation. The algorithm first computes a substitution Bhl that unifies 
-the Rule head to Literal, in a way that is consistent with the substitution Bki. It then applies this 
-substitution Oh[ to construct the preimage of Frontier with respect to Rule. The symbols "+" and 
-"-" in the algorithm denote set union and set difference. The notation {zly] denotes the substitution 
-of y in place of z. An example trace is given. 
-explanation applies to only a special case of the target concept. As noted earlier, 
-for the current example the final rule is

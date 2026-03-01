@@ -1,33 +1,0 @@
-then when the joints move with velocity ˙q′, the end eﬀector will remain ﬁxed
-since J ˙q′ = 0. Thus, if ˙q is a solution to Equation (4.125), then so is ˙q + ˙q′ with
-˙q′ = (I −J+J)b, for any value of b. If the goal is to minimize the resulting joint
-velocities, we choose b = 0. To see this, apply the triangle inequality to obtain
-|| ˙q ||
-=
-|| J+ξ + (I −J+J)b ||
-≤
-|| J+ξ || + || (I −J+J)b ||
-It is a simple matter construct the right pseudoinverse of J using its singular
-value decomposition (see Appendix B),
-J+ = V Σ+U T
-MANIPULABILITY
-141
-in which
-Σ+ =
-
-
-σ−1
-1
-σ−1
-2
-.
-.
-σ−1
-m
-
-0
-
-
-T
-We can apply a similar approach when the analytical Jacobian is used in
-place of the manipulator Jacobian. Recall from Equation (4.100) that the joint

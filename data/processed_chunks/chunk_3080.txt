@@ -1,9 +1,0 @@
-knowledge by a growing set of rules. Efficient algorithms for matching rules can 
-alleviate this problem, but not eliminate it completely. Minton (1988) discusses 
-strategies for empirically estimating the computational cost and benefit of each 
-rule, learning rules only when the estimated benefits outweigh the estimated costs 
-and deleting rules later found to have negative utility. He describes how using 
-this kind of utility analysis to determine what should be learned and what should 
-be forgotten significantly enhances the effectiveness of explanation-based learning 
-in PRODIGY. For example, in a series of robot block-stacking problems, PRODIGY 
-encountered 328 opportunities for learning a new rule, but chose to exploit only 69

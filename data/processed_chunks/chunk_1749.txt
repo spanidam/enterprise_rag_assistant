@@ -1,9 +1,0 @@
-10. c. The .3 format specification shows that the output precision must be three decimal places.
-11. a. The {:1>3d} specification outputs a 3-digit number in the output, and if the given argument does not
-have three digits, the number will be padded with 1's from the left side.
-12. b. {:+d} formats the decimal number by adding the positive sign.
-8.5 Splitting/joining strings
-1. b. When "1*2*3*" is broken into substrings using the '*' delimiter, the output is ["1", "2", "3"].
-2. c. When "a year includes 12 months" is broken into substrings using blank space characters, the list
-["a", "year", "includes", "12", "months"] is created.
-3. b. When splitting the multi-line string, the output is ['This', 'is', 'a', 'test'].

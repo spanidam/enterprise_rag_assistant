@@ -1,9 +1,0 @@
-Up to this point we have considered only network topologies that correspond 
-to acyclic directed graphs. Recurrent networks are artificial neural networks that 
-apply to time series data and that use outputs of network units at time t as the 
-input to other units at time t + 1 .  In this way, they support a form of directed 
-cycles in the network. To illustrate, consider the time series prediction task of 
-predicting the next day's stock market average y(t + 1 )  based on the current day's 
-economic indicators x(t). Given a time series of such data, one obvious approach 
-is to train a feedforward network to predict y(t + 1 )  as its output, based on the 
-input values x(t). Such a network is shown in Figure 4.11(a).

@@ -1,9 +1,0 @@
-used to resample Do. Table 5.5 describes a k-fold method in which Do is parti- 
-tioned into k disjoint, equal-sized subsets. In this k-fold approach, each example 
-from Do is used exactly once in a test set, and k - 1 times in a training set. A 
-second popular approach is to randomly choose a test set of at least 30 examples 
-from Do, use the remaining examples for training, then repeat this process as 
-many times as desired. This randomized method has the advantage that it can be 
-repeated an indefinite number of times, to shrink the confidence interval to the 
-desired width. In contrast, the k-fold method is limited by the total number of 
-examples, by the use of each example only once in a test set, and by our desire

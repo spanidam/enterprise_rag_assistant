@@ -1,9 +1,0 @@
-nodes in the.tree to be candidates for pruning. Pruning a decision node consists of 
-removing the subtree rooted at that node, making it a leaf node, and assigning it 
-the most common classification of the training examples affiliated with that node. 
-Nodes are removed only if the resulting pruned tree performs no worse than-the 
-original over the validation set. This has the effect that any leaf node added due 
-to coincidental regularities in the training set is likely to be pruned because these 
-same coincidences are unlikely to occur in the validation set. Nodes are pruned 
-iteratively, always choosing the node whose removal most increases the decision 
-tree accuracy over the validation set. Pruning of nodes continues until further

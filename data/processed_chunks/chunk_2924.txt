@@ -1,9 +1,0 @@
-to the rule preconditions. The new literal may refer to variables already mentioned 
-in the rule preconditions or postconditions, and may introduce new variables as 
-well. At each step, it uses the Foil-Gain function of Equation (10.1) to select 
-among the candidate new literals. If new literals are allowed to refer to the target 
-predicate, then FOIL can, in principle, learn sets of recursive rules. While this in- 
-troduces the complexity of avoiding rule sets that result in infinite recursion, FOIL 
-has been demonstrated to successfully learn recursive rule sets in several cases. 
-In the case of noise-free training data, FOIL may continue adding new literals 
-to the rule until it covers no negative examples. To handle noisy data, the search

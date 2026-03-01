@@ -1,9 +1,0 @@
-basic concepts from probability theory: probability densities and Normal distribu- 
-tions. First, in order to discuss probabilities over continuous variables such as e, 
-we must introduce probability densities. The reason, roughly, is that we wish for 
-the total probability over all possible values of the random variable to sum to one. 
-In the case of continuous variables we cannot achieve this by assigning a finite 
-probability to each of the infinite set of possible values for the random variable. 
-Instead, we speak of a probability density for continuous variables such as e and 
-require that the integral of this probability density over all possible values be one. 
-In general we will use lower case p to refer to the probability density function,

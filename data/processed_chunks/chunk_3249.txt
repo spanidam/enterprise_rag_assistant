@@ -1,9 +1,0 @@
-processes earlier in this book. In Section 11.4 we discussed explanation-based 
-learning of rules to control search during problem solving. There the problem is 
-for the agent to choose among alternative actions at each step in its search for some 
-goal state. The techniques discussed here differ from those of Section 11.4, in that 
-here we consider problems where the actions may have nondeterministic outcomes 
-and where the learner lacks a domain theory that describes the outcomes of its 
-actions. In Chapter 1 we discussed the problem of learning to choose actions while 
-playing the game of checkers. There we sketched the design of a learning method 
-very similar to those discussed in this chapter. In fact, one highly successful

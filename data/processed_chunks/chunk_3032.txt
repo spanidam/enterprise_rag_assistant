@@ -1,9 +1,0 @@
-{Lighter(x, y)], through the next Horn clause in the explanation, resulting in the 
-regressed expressions (Weight(x, wx), LessThan(wx, wy), Weight(y, wy)}. This 
-indicates that the explanation will hold for any x and y such that the weight wx 
-of x is less than the weight wy of y. The regression of this frontier back to 
-the leaf nodes of the explanation continues in this step-by-step fashion, finally 
-FIGURE 11.3 
-Computing the weakest preimage of SafeToStack(0 bj 1, Obj2) with respect to the explanation. The 
-target concept is regressed from the root (conclusion) of the explanation, down to the leaves. At each 
-step (indicated by the dashed lines) the current frontier set of literals (underlined in italics) is regressed

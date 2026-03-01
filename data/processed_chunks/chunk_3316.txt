@@ -1,9 +1,0 @@
-line of research on dynamic programming approaches to solving Markov decision 
-processes. This earlier work has typically assumed that the agent possesses perfect 
-knowledge of the functions S(s, a) and r(s, a) that define the agent's environment. 
-Therefore, it has primarily addressed the question of how to compute the optimal 
-policy using the least computational effort, assuming the environment could be 
-perfectly simulated and no direct interaction was required. The novel aspect of 
-Q learning is that it assumes the agent does not have knowledge of S(s, a) and 
-r(s, a), and that instead of moving about in an internal mental model of the state 
-space, it must move about the real world and observe the consequences. In this

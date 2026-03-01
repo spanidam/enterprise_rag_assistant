@@ -1,9 +1,0 @@
-reward. This will result in refining the Q value for the single transition leading 
-into the goal state. On the next episode, if the agent passes through this state 
-adjacent to the goal state, its nonzero Q value will allow refining the value for 
-some transition two steps from the goal, and so on. Given a sufficient number of 
-training episodes, the information will propagate from the transitions with nonzero 
-reward back through the entire state-action space available to the agent, resulting 
-eventually in a Q table containing the Q values shown in Figure 13.2. 
-In the next section we prove that under certain assumptions the Q learning 
-algorithm of Table 13.1 will converge to the correct Q function. First consider

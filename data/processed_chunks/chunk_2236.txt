@@ -1,9 +1,0 @@
-inputs would have values in the same interval as the hidden unit and output unit 
-activations. The 30 x 32 pixel image is, in fact, a coarse resolution summary of 
-the original 120 x 128 captured image, with each coarse pixel intensity calculated 
-as the mean of the corresponding high-resolution pixel intensities. Using this 
-coarse-resolution image reduces the number of inputs and network weights to 
-a much more manageable size, thereby reducing computational demands, while 
-maintaining sufficient resolution to correctly classify the images. Recall from 
-Figure 4.1 that the ALVINN system uses a similar coarse-resolution image as 
-input to the network. One interesting difference is that in ALVINN, each coarse

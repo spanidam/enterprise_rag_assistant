@@ -1,9 +1,0 @@
-theory must similarly explain why certain pairs of objects can be safely stacked 
-on one another. The domain theory shown in the table includes assertions such 
-as "it is safe to stack x on y if y is not Fragile," and "an object x is Fragile if 
-the Material from which x is made is Glass." Like the learned hypothesis, the 
-domain theory is described by a collection of Horn clauses, enabling the system in 
-principle to incorporate any learned hypotheses into subsequent domain theories. 
-Notice that the domain theory refers to additional predicates such as Lighter and 
-Fragile, which are not present in the descriptions of the training examples, but 
-which can be inferred from more primitive instance attributes such as Material,

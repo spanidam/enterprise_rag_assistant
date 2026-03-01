@@ -1,9 +1,0 @@
-another, and to assume among the powers of the earth, the separate and equal station to which the Laws of
-Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they
-should declare the causes which impel them to the separation.")
-PEP 8 recommends that each line of code be less than 80 characters long. That way, programmers won't need
-to scroll horizontally to read the code. The above program can be rewritten by breaking up the original string:
-print("The unanimous Declaration of the thirteen united States of "
-"America, When in the Course of human events, it becomes "
-"necessary for one people to dissolve the political bands "
-"which have connected them with another, and to assume among "

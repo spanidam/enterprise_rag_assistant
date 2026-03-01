@@ -1,9 +1,0 @@
-reasonable strategy, in fact it can lead to difficulties when there is noise in the data, 
-or when the number of training examples is too small to produce a representative 
-sample of the true target function. In either of these cases, this simple algorithm 
-can produce trees that overjt the training examples. 
-We will say that a hypothesis overfits the training examples if some other 
-hypothesis that fits the training examples less well actually performs better over the 
-entire distribution of instances (i.e., including instances beyond the training set). 
-Definition: Given a hypothesis space H, a hypothesis h E H is said to overlit the 
-training data if there exists some alternative hypothesis h' E H, such that h has

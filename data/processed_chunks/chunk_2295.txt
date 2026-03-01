@@ -1,9 +1,0 @@
-Rosenblatt, F. (1962). Principles of neurodynamics. New York: Spartan Books. 
-Rumelhart, D. E., & McClelland, J. L. (1986). Parallel distributed processing: exploration in the 
-microstructure of cognition (Vols. 1 & 2). Cambridge, MA: MIT Press. 
-Rumelhart, D., Widrow, B., & Lehr, M. (1994). The basic ideas in neural networks. Communications 
-of the ACM, 37(3), 87-92. 
-Shavlik, J. W., Mooney, R. J., & Towell, G. G. (1991). Symbolic and neural learning algorithms: 
-An experimental comparison. Machine Learning, 6(2), 11 1-144. 
-Simard, P. S., Victorri, B., LeCun, Y., & Denker, J. (1992). Tangent prop--A formalism for specifying 
-selected invariances in an adaptive network. In Moody, et al. (Eds.), Advances in Neural

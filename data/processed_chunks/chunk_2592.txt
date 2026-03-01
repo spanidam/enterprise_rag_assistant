@@ -1,9 +1,0 @@
-that some class C of target concepts is PAC-learnable, is to first show that each 
-target concept in C can be learned from a polynomial number of training examples 
-and then show that the processing time per example is also polynomially bounded. 
-Before moving on, we should point out a restrictive assumption implicit 
-in our definition of PAC-learnable. This definition implicitly assumes that the 
-learner's hypothesis space H contains a hypothesis with arbitrarily small error for 
-every target concept in C. This follows from the requirement in the above defini- 
-tion that the learner succeed when the error bound 6 is arbitrarily close to zero. Of 
-course this is difficult to assure if one does not know C in advance (what is C for

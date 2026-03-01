@@ -1,9 +1,0 @@
-example instead of a positive example. Unfortunately, in this case the algorithm 
-is certain to remove the correct target concept from the version space! Because, 
-it will remove every hypothesis that is inconsistent with each training example, it 
-will eliminate the true target concept from the version space as soon as this false 
-negative example is encountered. Of course, given sufficient additional training 
-data the learner will eventually detect an inconsistency by noticing that the S and 
-G boundary sets eventually converge to an empty version space. Such an empty 
-version space indicates that there is no hypothesis in H consistent with all observed 
-training examples. A similar symptom will appear when the training examples are

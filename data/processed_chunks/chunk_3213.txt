@@ -1,9 +1,0 @@
-preconditions, thereby allowing the inductive component of learning to refine the 
-preconditions derived from the domain theory. In this example, the domain theory 
-affects the search only at the first search level. However, this will not always be 
-the case. Should the empirical support be stronger for some other candidate at the 
-first level, theory-suggested literals may still be added at subsequent steps in the 
-search. To summarize, FOCL learns Horn clauses of the form 
-where c is the target concept, oi is an initial conjunction of operational literals 
-added one at a time by the first syntactic operator, ob is a conjunction of oper- 
-ational literals added in a single step based on the domain theory, and of is a

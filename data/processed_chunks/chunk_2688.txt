@@ -1,9 +1,0 @@
-One disadvantage of instance-based approaches is that the cost of classifying 
-new instances can be high. This is due to the fact that nearly all computation 
-takes place at classification time rather than when the training examples are first 
-encountered. Therefore, techniques for efficiently indexing training examples are 
-a significant practical issue in reducing the computation required at query time. 
-A second disadvantage to many instance-based approaches, especially nearest- 
-neighbor approaches, is that they typically consider all attributes of the instances 
-when attempting to retrieve similar training examples from memory. If the target 
-concept depends on only a few of the many available attributes, then the instances

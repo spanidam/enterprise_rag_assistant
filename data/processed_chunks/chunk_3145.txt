@@ -1,9 +1,0 @@
-Towell and Shavlik (1994) report using W = 4.0 in many of their experiments. 
-Each sigmoid unit input is connected to the appropriate network input or to 
-the output of another sigmoid unit, to mirror the graph of dependencies among 
-the corresponding attributes in the domain theory. As a final step many additional 
-inputs are added to each threshold unit, with their weights set approximately to 
-zero. The role of these additional connections is to enable the network to induc- 
-tively learn additional dependencies beyond those suggested by the given domain 
-theory. The solid lines in the network of Figure 12.2 indicate unit inputs with 
-weights of W, whereas the lightly shaded lines indicate connections with initial

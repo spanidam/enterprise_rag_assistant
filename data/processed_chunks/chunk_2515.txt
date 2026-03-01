@@ -1,9 +1,0 @@
-correct to assign the target variable a single determined value. What we really 
-wish to infer is the probability distribution for the target variable, which specifies 
-the probability that it will take on each of its possible values given the observed 
-values of the other variables. This inference step can be straightforward if values 
-for all of the other variables in the network are known exactly. In the more 
-general case we may wish to infer the probability distribution for some variable 
-(e.g., ForestFire) given observed values for only a subset of the other variables 
-(e.g., Thunder and BusTourGroup may be the only observed values available). In 
-general, a Bayesian network can be used to compute the probability distribution

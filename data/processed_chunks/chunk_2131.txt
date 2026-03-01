@@ -1,9 +1,0 @@
-outputs encode the commanded steering direction. The figure on the right shows weight values for 
-one of the hidden units in this network. The 30 x 32 weights into the hidden unit are displayed in 
-the large matrix, with white blocks indicating positive and black indicating negative weights. The 
-weights from this hidden unit to the 30 output units are depicted by the smaller rectangular block 
-directly above the large block. As can be seen from these output weights, activation of this particular 
-hidden unit encourages a turn toward the left. 
-~t is also applicable to problems for which more symbolic representations are 
-often used, such as the decision tree learning tasks discussed in Chapter 3. In 
-these cases ANN and decision tree learning often produce results of comparable

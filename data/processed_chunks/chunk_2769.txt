@@ -1,9 +1,0 @@
-Return the hypothesis from P that has the highest fitness. 
-TABLE 9.1 
-A prototypical genetic algorithm. A population containing p hypotheses is maintained. On each itera- 
-tion, the successor population Ps is formed by probabilistically selecting current hypotheses according 
-to their fitness and by adding new hypotheses. New hypotheses are created by applying a crossover 
-operator to pairs of most fit hypotheses and by creating single point mutations in the resulting gener- 
-ation of hypotheses. This process is iterated until sufficiently fit hypotheses are discovered. Typical 
-crossover and mutation operators are defined in a subsequent table. 
-A prototypical genetic algorithm is described in Table 9.1. The inputs to

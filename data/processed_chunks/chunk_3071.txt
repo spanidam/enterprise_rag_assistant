@@ -1,9 +1,0 @@
-that satisfies the goal predicate G. One way to formulate the learning problem is to 
-have our system learn a separate target concept for each of the operators in 0. In 
-particular, for each operator o in 0 it might attempt to learn the target concept "the 
-set of states for which o leads toward a goal state." Of course the exact choice 
-of which target concepts to learn depends on the internal structure of problem 
-solver that must use this learned knowledge. For example, if the problem solver 
-is a means-ends planning system that works by establishing and solving subgoals, 
-then we might instead wish to learn target concepts such as "the set of planning 
-states in which subgoals of type A should be solved before subgoals of type B."

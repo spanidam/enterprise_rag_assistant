@@ -1,9 +1,0 @@
-selected invariances in an adaptive network. In Moody, et al. (Eds.), Advances in Neural 
-Information Processing Systems 4 (pp. 895-903). San Francisco: Morgan Kaufmann. 
-Waibel, A., Hanazawa, T., Hinton, G., Shikano, K., & Lang, K. (1989). Phoneme recognition using 
-time-delay neural networks. ZEEE Transactions on Acoustics, Speech and Signal Processing. 
-Weiss, S., & Kapouleas, I. (1989). An empirical comparison of pattern recognition, neural nets, and 
-machine learning classification methods. Proceedings of the Eleventh ZJCAI @p. 781-787). 
-San Francisco: Morgan Kaufmann. 
-Werbos, P. (1975). Beyond regression: New tools for prediction and analysis in the behavioral sciences 
-(Ph.D. dissertation). Harvard University.

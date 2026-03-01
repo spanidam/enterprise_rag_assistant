@@ -1,9 +1,0 @@
-generalizes the constraint on a specific attribute by changing a 0 to a 1 in the 
-substring corresponding to the attribute. For example, if the constraint on an at- 
-tribute is represented by the string 10010, this operator might change it to 101 10. 
-This operator was applied with probability .O1 to selected members of the popu- 
-lation on each generation. The second operator, Dropcondition performs a more 
-drastic generalization step, by replacing all bits for a particular attribute by a 1. 
-This operator corresponds to generalizing the rule by completely dropping the 
-constraint on the attribute, and was applied on each generation with probability 
-.60. The authors report this revised system achieved an average performance of

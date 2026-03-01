@@ -1,9 +1,0 @@
-the primitive sounds (phonemes) and words from the observed speech signal. Neural network 
-learning methods (e.g., Waibel et al. 1989) and methods for learning hidden Markov models 
-(e.g., Lee 1989) are effective for automatically customizing to,individual speakers, vocabularies, 
-microphone characteristics, background noise, etc. Similar techniques have potential applications 
-in many signal-interpretation problems. 
-0 Learning to drive an autonomous vehicle. 
-Machine learning methods have been used to train computer-controlled vehicles to steer correctly 
-when driving on a variety of road types. For example, the ALVINN system (Pomerleau 1989) 
-has used its learned strategies to drive unassisted at 70 miles per hour for 90 miles on public

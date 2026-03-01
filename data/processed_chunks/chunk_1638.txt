@@ -1,8 +1,0 @@
-obtaining data from a source or collecting data through surveys and other means of data collection that are
-domain-specific. During the data exploration stage, data scientists will ensure that the data are in the right
-format for the data analysis stage through data cleanup and they may also visualize the data for further
-inspection. Once the data are cleaned, data scientists can perform data analysis, which is shared with
-stakeholders using reports and presentations. The data analysis stage involves using data to generate
-insights or make a predictive model. Data science is increasingly being adopted in many different fields, such
-as healthcare, economics, education, and social sciences, to name a few. The animation below demonstrates
-different stages of the data science life cycle.

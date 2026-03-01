@@ -1,9 +1,0 @@
-statistics references give tables specifying the size of the interval about the mean 
-that contains N% of the probability mass under the Normal distribution. This is 
-precisely the information needed to calculate our N% confidence interval. In fact, 
-Table 5.1 is such a table. The constant ZN given in Table 5.1 defines the width 
-of the smallest interval about the mean that includes N% of the total probability 
-mass under the bell-shaped Normal distribution. More precisely, ZN gives half the 
-width of the interval (i.e., the distance from the mean in either direction) measured 
-in standard deviations. Figure 5.l(a) illustrates such an interval for z.80. 
-To summarize, if a random variable Y obeys a Normal distribution with

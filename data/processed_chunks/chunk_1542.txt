@@ -1,9 +1,0 @@
-0 + 1 = 1, and the next number is 1 + 1 = 2. The sequence of numbers is 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... .
-Recursion can be used to calculate the nth Fibonacci number. The base cases are 0 and 1. Thereafter, the nth
-number is given by adding the (n - 1)th and (n - 2)th number. Thus, fib(n) = fib(n - 1) + fib(n - 2),
-which is a recursive definition ending with base cases f(0) = 0, and f(1) = 1.
-For a recursion that calls multiple functions in the recursive case, tracing how the recursion proceeds is useful.
-A structure used to trace the calls made by a recursive function is called a recursion tree. The animation below
-traces the recursion tree for a call to a recursive function to calculate the Fibonacci number for n = 5.
-EXAMPLE 12.1
-Finding the nth Fibonacci number
