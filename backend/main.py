@@ -3,7 +3,7 @@ from prompts import ANSWER_PROMPT, REVISE_PROMPT
 from utils import validate_citations
 from verification import verify_answer
 
-openai.api_key = "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"
+openai_api_key = "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"
 
 # ✅ SIMULATED RETRIEVAL OUTPUT
 retrieved_docs = {
