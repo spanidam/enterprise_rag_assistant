@@ -14,7 +14,7 @@ data/processed_chunks/
 vector_store/
 *.pdf
 *.docx
-*.txt
+#*.txt
 
 # Chroma DB
 chroma_db/
