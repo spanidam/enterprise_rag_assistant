@@ -6,6 +6,12 @@ from verification import verify_answer
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
+if not OPENAI_API_KEY:
+    raise RuntimeError("OPENAI_API_KEY is not set in environment variables.")
+
+openai.api_key = OPENAI_API_KEY
+
+
 
 # ✅ SIMULATED RETRIEVAL OUTPUT
 retrieved_docs = {
