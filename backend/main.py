@@ -1,8 +1,9 @@
 import os
 import openai
-from prompts import ANSWER_PROMPT, REVISE_PROMPT
-from utils import validate_citations
-from verification import verify_answer
+from backend.prompts import ANSWER_PROMPT, REVISE_PROMPT
+from backend.utils import validate_citations
+from backend.verification import verify_answer
+
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
