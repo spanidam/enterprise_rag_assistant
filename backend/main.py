@@ -24,12 +24,15 @@ def format_sources(docs):
     return "\n".join([f"[{k}] {v}" for k, v in docs.items()])
 
 def ask_llm(prompt): 
-    response = openai.ChatCompletion.create(
+    try:
+        response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         temperature=0,
         messages=[{"role": "user", "content": prompt}]
-    )
-    return response.choices[0].message.content.strip()
+       )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        raise RuntimeError(f"openAI API call failed: {e}")
 
 def run_pipeline(question):
     sources_text = format_sources(retrieved_docs)
