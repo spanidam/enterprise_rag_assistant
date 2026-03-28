@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://enterprise-rag-assistant-1034.onrender.com"
 
 st.set_page_config(page_title="Enterprise RAG Assistant", layout="wide")
 st.title("Enterprise RAG Assistant")
