@@ -42,3 +42,13 @@ ANSWER:
 SOURCES:
 {sources}
 """
+
+"""
+
+IMPORTANT RULES:
+- Every factual sentence MUST include at least one citation in the format [S1], [S2], etc.
+- Use ONLY the provided sources.
+- If the sources do not clearly support the answer, explicitly say that the information is not available in the documents.
+- Do NOT answer without citations.
+
+"""

@@ -29,6 +29,9 @@ def answer_question(question, top_k=5, model="gpt-4o"):
         answer = (
             "The retrieved documents do not provide sufficient evidence "
             "to answer this question reliably."
+            "important:"
+            "-Every factual sentence MUST include at least one citation in the form [S1], [S2], etc."
+            "- If the sources do not support the answer, say so explicitly."
         )
 
     return answer
