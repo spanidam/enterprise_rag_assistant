@@ -6,79 +6,91 @@ API_BASE = "https://enterprise-rag-assistant-1034.onrender.com"
 st.set_page_config(page_title="Enterprise RAG Assistant", layout="wide")
 st.title("Enterprise RAG Assistant")
 
-# ---- Sidebar: upload PDF ----
+# -------------------------------
+# Sidebar: PDF upload (Future Work)
+# -------------------------------
 st.sidebar.header("Upload a document (PDF)")
-uploaded = st.sidebar.file_uploader("Choose a PDF", type=["pdf"])  # [2](https://docs.streamlit.io/develop/api-reference/widgets/st.file_uploader)
+uploaded = st.sidebar.file_uploader("Choose a PDF", type=["pdf"])
+
 if uploaded is not None:
-    if st.sidebar.button("Upload to RAG"):
-        files = {"file": (uploaded.name, uploaded.getvalue(), "application/pdf")}
-        r = requests.post(f"{API_BASE}/ingest", files=files)
-        if r.ok:
-            st.sidebar.success(f"Uploaded: {uploaded.name}")
-        else:
-            st.sidebar.error(f"Upload failed: {r.status_code} {r.text}")
+    st.sidebar.info(
+        "📄 PDF upload is a planned feature. "
+        "The current demo uses a pre‑ingested document corpus."
+    )
 
 st.sidebar.markdown("---")
 if st.sidebar.button("Health Check"):
-    r = requests.get(f"{API_BASE}/health")
-    st.sidebar.write(r.status_code, r.text)
+    try:
+        r = requests.get(f"{API_BASE}/health", timeout=10)
+        st.sidebar.success(f"Backend status: {r.status_code}")
+    except requests.exceptions.RequestException:
+        st.sidebar.error("Backend not reachable")
 
-# ---- Chat state ----
+# -------------------------------
+# Chat state
+# -------------------------------
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Render chat history
 for msg in st.session_state.messages:
-    with st.chat_message(msg["role"]):  # [3](https://docs.streamlit.io/develop/api-reference/chat)
+    with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
-        # Show citations if present
-        if msg.get("sources"):
-            st.markdown("**Citations:**")
-            for s in msg["sources"]:
-                chunk_file = s["chunk_file"]
-                with st.expander(f"{s['id']} — {chunk_file}"):
-                    # Fetch chunk text from backend for preview
-                    resp = requests.get(f"{API_BASE}/chunk/{chunk_file}")
-                    if resp.ok:
-                        st.write(resp.json()["text"][:2000])
-                    else:
-                        st.write("Could not load chunk preview.")
 
+# -------------------------------
 # Chat input
-user_prompt = st.chat_input("Ask a question…")  # [4](https://docs.streamlit.io/develop/api-reference/chat/st.chat_input)
+# -------------------------------
+user_prompt = st.chat_input("Ask a question (min 5 characters)…")
+
 if user_prompt:
-    # Add user message
+    # User message
     st.session_state.messages.append({"role": "user", "content": user_prompt})
     with st.chat_message("user"):
         st.markdown(user_prompt)
 
-    # Call backend /ask
-    payload = {"question": user_prompt}
-    r = requests.post(f"{API_BASE}/ask", json=payload)
-
-    if not r.ok:
-        assistant_text = f"Error: {r.status_code} {r.text}"
-        st.session_state.messages.append({"role": "assistant", "content": assistant_text})
-        with st.chat_message("assistant"):
-            st.error(assistant_text)
-    else:
-        data = r.json()
-        assistant_text = data.get("answer", "")
-        sources = data.get("sources", [])
-
-        st.session_state.messages.append(
-            {"role": "assistant", "content": assistant_text, "sources": sources}
+    # Backend call with error handling
+    try:
+        response = requests.post(
+            f"{API_BASE}/ask",
+            json={"question": user_prompt},
+            timeout=30
         )
 
-        with st.chat_message("assistant"):
-            st.markdown(assistant_text)
-            if sources:
-                st.markdown("**Citations:**")
-                for s in sources:
-                    chunk_file = s["chunk_file"]
-                    with st.expander(f"{s['id']} — {chunk_file}"):
-                        resp = requests.get(f"{API_BASE}/chunk/{chunk_file}")
-                        if resp.ok:
-                            st.write(resp.json()["text"][:2000])
-                        else:
-                            st.write("Could not load chunk preview.")
+        # Validation error
+        if response.status_code == 422:
+            st.warning("Please enter a question with at least 5 characters.")
+            st.stop()
+
+        # Backend error
+        if response.status_code != 200:
+            st.error("Backend error. Please try again later.")
+            st.stop()
+
+        data = response.json()
+
+    except requests.exceptions.RequestException:
+        st.error("Cannot connect to backend.")
+        st.stop()
+
+    # Assistant response
+    assistant_text = data.get("answer", "")
+    confidence = data.get("confidence_score")
+    coverage = data.get("citation_coverage")
+    abstained = data.get("abstained")
+    reason = data.get("abstain_reason", "")
+
+    st.session_state.messages.append(
+        {"role": "assistant", "content": assistant_text}
+    )
+
+    with st.chat_message("assistant"):
+        st.markdown(assistant_text)
+
+        if confidence is not None:
+            st.caption(
+                f"Confidence: {confidence} | "
+                f"Citation coverage: {coverage}"
+            )
+
+        if abstained:
+            st.warning(reason)
